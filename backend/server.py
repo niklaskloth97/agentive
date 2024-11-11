@@ -1,11 +1,7 @@
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
 
-app = Flask(__name__)
+from app import create_app
 
-@app.route('/info')
-def info():
-    return 'Hello, world!'
+app = create_app()
 
 if __name__ == '__main__':
     app.run(debug=True)
