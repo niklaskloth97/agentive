@@ -11,23 +11,59 @@ import {
   SheetTitle,
   SheetTrigger,
 } from '@/components/ui/sheet'
-import { Menu } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
+import { Switch } from '@/components/ui/switch'
+import { Label } from '@/components/ui/label'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
-  const [showLoginForm, setShowLoginForm] = useState(false)
+  const [showAuthForm, setShowAuthForm] = useState(false)
+  const [isLogin, setIsLogin] = useState(true)
+  const [isRegister, setIsRegister] = useState(false)
+  const [forgotPassword, setForgotPassword] = useState(false)
+  const [fullName, setFullName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
 
-  const handleLogin = (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsLoggedIn(true)
-    setShowLoginForm(false)
-  }
+ 
+  const handleAuth = async (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    const url = isLogin ? '/login' : '/register';
+    const body = isLogin ? { email, password } : { fullName, email, password, confirmPassword };
+
+    try {
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(body),
+      });
+
+      const text = await response.text();
+      console.log('Raw response:', text);
+
+      const data = JSON.parse(text);
+      console.log(data);
+
+      if (data.success) {
+        setIsLoggedIn(true);
+        setShowAuthForm(false);
+      } else {
+        // Handle login or registration failure
+      }
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
 
   return (
     <div className="min-h-screen flex flex-col">
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-14 items-center">
-          <div className="mr-4 hidden md:flex pl-4" >
+          <div className="mr-4 hidden md:flex">
             <Link className="mr-6 flex items-center space-x-2" href="/">
               <span className="hidden font-bold sm:inline-block">AGENTIVE</span>
             </Link>
@@ -71,7 +107,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <Link className="mr-6" href="/dashboard">Dashboard</Link>
               )}
               {!isLoggedIn && (
-                <Button variant="outline" onClick={() => setShowLoginForm(true)}>Login</Button>
+                <Button variant="outline" onClick={() => setShowAuthForm(true)}>Login / Register</Button>
               )}
             </nav>
           </div>
@@ -80,16 +116,35 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <main className="flex-1">
         {children}
       </main>
-      {showLoginForm && (
+      {showAuthForm && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-          <div className="bg-white p-8 rounded-lg">
-            <h2 className="text-2xl font-bold mb-4">Login</h2>
-            <form onSubmit={handleLogin} className="space-y-4">
+          <div className="bg-white p-8 rounded-lg w-96">
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="text-2xl font-bold">{isLogin ? 'Login' : 'Register'}</h2>
+              <Button variant="ghost" size="icon" onClick={() => setShowAuthForm(false)}>
+                <X className="h-4 w-4" />
+              </Button>
+            </div>
+            <div className="flex items-center space-x-2 mb-4">
+              <Switch id="auth-mode" checked={!isLogin} onCheckedChange={() => setIsLogin(!isLogin)} />
+              <Label htmlFor="auth-mode">{isLogin ? 'Switch to Register' : 'Switch to Login'}</Label>
+            </div>
+            <form onSubmit={handleAuth} className="space-y-4">
+              {!isLogin && (
+                <Input type="text" placeholder="Full Name" required />
+              )}
               <Input type="email" placeholder="Email" required />
               <Input type="password" placeholder="Password" required />
-              <Button type="submit">Login</Button>
-              <Button type="button" variant="outline" onClick={() => setShowLoginForm(false)}>Cancel</Button>
+              {!isLogin && (
+                <Input type="password" placeholder="Confirm Password" required />
+              )}
+              <Button type="submit" className="w-full">{isLogin ? 'Login' : 'Register'}</Button>
             </form>
+            {isLogin && (
+              <Button variant="link" className="mt-2 p-0" onClick={() => alert('Password reset functionality to be implemented')}>
+                Forgot password?
+              </Button>
+            )}
           </div>
         </div>
       )}
