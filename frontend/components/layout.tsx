@@ -30,7 +30,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   const handleAuth = async (e: React.FormEvent) => {
     e.preventDefault();
     
-    const url = isLogin ? '/login' : '/register';
+    const url = isLogin ? 'http://127.0.0.1:5000/login' : 'http://127.0.0.1:5000/register';
     const body = isLogin ? { email, password } : { fullName, email, password, confirmPassword };
 
     try {

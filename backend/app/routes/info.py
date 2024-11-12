@@ -1,5 +1,8 @@
-from app import app
+from flask import Blueprint, current_app
 
-@app.route('/info')
+infoBP = Blueprint('info', __name__)
+# Define Routes for  Management
+@infoBP.route('/', methods=['GET'])
 def info():
-    return 'Hello, Agentive!'
+    print("Hello, Print!")
+    return "<p>Hello, Flask!</p>"

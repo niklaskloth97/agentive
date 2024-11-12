@@ -1,21 +1,9 @@
-from flask import request, jsonify
-from app import User
-from app import app, db
+from flask import request, jsonify, Blueprint, current_app
+#from app import user, db, app
 
-# Routes for User
-@app.route('/user', methods=['POST'])
-def add_user():
-    # Get data from the request
-    data = request.json
-    username = data.get('username')
-    email = data.get('email')
-    # Add user to the database
-    new_user = User(username=username, email=email)
-    db.session.add(new_user)
-    db.session.commit()
-    return jsonify({"message": "User added successfully"}), 201
+loginBP = Blueprint('login', __name__)
 
-@app.route('/login', methods=['POST'])
+@loginBP.route('/login', methods=['POST'])
 def login():
     data = request.get_json()
     email = data.get('email')
@@ -28,8 +16,10 @@ def login():
     else:
         return jsonify({'success': False, 'error': 'Invalid credentials'})
 
-@app.route('/register', methods=['POST'])
-def register():
+registrBP = Blueprint('registr', __name__)
+
+@registrBP.route('/register', methods=['POST'])
+def registr():
     data = request.get_json()
     fullName = data.get('fullName')
     email = data.get('email')
@@ -43,7 +33,9 @@ def register():
     else:
         return jsonify({'success': False, 'error': 'Passwords do not match'})
 
-@app.route('/user/<int:id>', methods=['GET'])
+userBP = Blueprint('register', __name__)
+
+@userBP.route('/user/<int:id>', methods=['GET'])
 def get_user(id):
     # Retrieve user from the database
     user = User.query.get(id)
