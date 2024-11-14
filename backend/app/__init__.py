@@ -1,6 +1,8 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from dotenv import load_dotenv
+from flask_cors import CORS
+
 
 # Initialize extensions (no need to create DB locally)
 db = SQLAlchemy()
@@ -25,5 +27,6 @@ def create_app():
     # Register Blueprints
     from app.routes import register_blueprints
     register_blueprints(app)
+    CORS(app)
 
     return app
