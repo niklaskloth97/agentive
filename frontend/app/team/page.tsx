@@ -5,18 +5,18 @@ export default function Team() {
 
   const teamMembers = [
     { name: 'Claudine Kirsch', role: 'Project Manager', image: '/images/people/Claudine_Kirsch.webp' },
-    { name: 'Jan vom Brocke', role: 'Platform Development', image: '/images/people/jan-vom-brocke.jpg' },
+    { name: 'Jan vom Brocke', role: 'Platform Innovator', image: '/images/people/jan-vom-brocke.jpg' },
     { name: 'Niklas Kloth', role: 'Platform Development', image: '/images/people/niklas-kloth.webp' },
-    { name: 'Anja Pirih', role: 'Educational Design', image: '/images/people/Anja_Pirih.webp' },
-    { name: 'Marjan Asgari', role: 'Educational Design', image: '/images/people/Asgari Marjan.webp' },
+    { name: 'Anja Pirih', role: 'Foreign Language Education', image: '/images/people/Anja_Pirih.webp' },
+    { name: 'Marjan Asgari', role: 'Educational Material Design', image: '/images/people/Asgari Marjan.webp' },
     { name: 'Mara Burger', role: 'Platform Coordination', image: '/images/people/Mara_Burger.webp' },
     { name: 'Milja Ulmer', role: 'Educational Design', image: '/images/people/Mija_Umer.jpeg' },
     { name: 'Mojca Žefran', role: 'Educational Design', image: '/images/people/Mojca_Žefran.png' },
-    { name: 'Silva Bratož', role: 'S', image: '/images/people/Silva_Bratož.PNG' },
-    { name: 'Sonja Rutar', role: 'S', image: '/images/people/Sonja_Rutar.webp' },
-    { name: 'Christina vom Brocke', role: 'Educational Design', image: '/images/people/tine-vom-brocke2.webp' },
-    { name: 'Yasmine Azza', role: 'Educational Design', image: '/images/people/Yasmine_Azza.png' },
-    { name: 'Katerina Zourou', role: 'Educational Design', image:'/images/people/Katerina-Zourou.png'}
+    { name: 'Silva Bratož', role: 'Plurilingual Competencies', image: '/images/people/Silva_Bratož.PNG' },
+    { name: 'Sonja Rutar', role: 'Preliteracy Language Development', image: '/images/people/Sonja_Rutar.webp' },
+    { name: 'Christina vom Brocke', role: 'Multilingual Education', image: '/images/people/tine-vom-brocke2.webp' },
+    { name: 'Yasmine Azza', role: 'Psychological Development of Eudcation Material', image: '/images/people/Yasmine_Azza.png' },
+    { name: 'Katerina Zourou', role: 'Open Language Education', image:'/images/people/Katerina-Zourou.png'}
   ]
   const partnerUniversities = [
     { name: 'Univeristy of Luxembourg', role: 'Project Mangement & Educational Development', image: '/images/universities/university-luxembourg-nobseline - full.svg' },

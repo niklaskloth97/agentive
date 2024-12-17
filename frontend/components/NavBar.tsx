@@ -17,21 +17,27 @@ export default function NavBar() {
     const [showAuthForm, setShowAuthForm] = useState(false)
     const [isLogin, setIsLogin] = useState(true)
     const [isDarkMode, setIsDarkMode] = useState(false)
+    const [mounted, setMounted] = useState(false)
 
     useEffect(() => {
         const savedTheme = localStorage.getItem('theme') || 'light';
         setIsDarkMode(savedTheme === 'dark');
-        document.documentElement.setAttribute('data-theme', savedTheme);
+        document.documentElement.setAttribute('data', savedTheme);
         document.documentElement.classList.toggle('dark', savedTheme === 'dark');
+        setMounted(true);
     }, []);
 
     const toggleTheme = () => {
         const newTheme = isDarkMode ? 'light' : 'dark';
         setIsDarkMode(!isDarkMode);
         localStorage.setItem('theme', newTheme);
-        document.documentElement.setAttribute('data-theme', newTheme);
+        document.documentElement.setAttribute('data', newTheme);
         document.documentElement.classList.toggle('dark', newTheme === 'dark');
     };
+
+    if (!mounted) {
+        return null; // Prevent rendering until the theme is set
+    }
 
     return (
         <nav className='sticky top-0 z-50'>

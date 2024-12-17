@@ -19,6 +19,20 @@ export default function Impress() {
               <a href="https://www.wi.uni-muenster.de/">https://www.wi.uni-muenster.de</a><br />
             </p>
           </div>
+          <div>
+            <h2 className="text-2xl font-semibold mb-4">Impress</h2>
+            <p>
+              University of Muenster<br />
+              Prof. Dr. Jan vom Brocke <br/>
+              Department for Information Systems<br />
+              Leonardo Campus<br />
+              48149 Münster<br />
+              Telephone: (02 51) 83 - 389100<br />
+              Fax: (02 51) 83 - 38109<br />
+              <a href="mailto:info@wi.uni-muenster.de">info@wi.uni-muenster.de</a><br />
+              <a href="https://www.wi.uni-muenster.de/">https://www.wi.uni-muenster.de</a><br />
+            </p>
+          </div>
         </div>
       </div>
   )

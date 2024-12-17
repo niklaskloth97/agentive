@@ -1,27 +1,23 @@
-
 import Image from 'next/image'
 
 export default function LearningMaterial() {
   return (
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-6">Learning Material</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div>
-            <Image src="/placeholder.svg" alt="Learning Material" width={400} height={300} className="rounded-lg mb-4" />
-            <p className="text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-          <div>
-            <h2 className="text-2xl font-semibold mb-4">Available Courses</h2>
-            <ul className="list-disc list-inside space-y-2">
-              <li>Introduction to Machine Learning</li>
-              <li>Advanced Web Development</li>
-              <li>Data Structures and Algorithms</li>
-              <li>Digital Marketing Fundamentals</li>
-            </ul>
-          </div>
+    <div className="relative h-screen w-full">
+      <Image
+        src="/images/Slide3.jpg"
+        alt="Background Image"
+        layout="fill"
+        objectFit="contain"
+        className="w-full h-full object-contain filter blur-sm"
+      />
+      <div className="absolute inset-0 flex items-center justify-center">
+        <div className="bg-white bg-opacity-90 p-8 rounded-lg shadow-lg max-w-lg text-center">
+          <h1 className="text-3xl font-bold text-red-700 mb-4">Still in Progress - Stay tuned</h1>
+          <p className="text-red-700">
+            Welcome to our learning material section. Here you will soon find a variety of resources to help you on your educational journey.
+          </p>
         </div>
       </div>
+    </div>
   )
 }
