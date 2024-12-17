@@ -4,16 +4,27 @@ export default function Team() {
 
 
   const teamMembers = [
-    { name: 'Claudine Kirsch', role: 'Project Manager', image: '/images/claudine-kirsch.JPG' },
-    { name: 'Niklas Kloth', role: 'Platform Development', image: '/images/niklas-kloth.JPG' },
-    { name: 'Mike Johnson', role: 'Lead Developer', image: '/placeholder.svg' },
-    { name: 'Sarah Brown', role: 'UX Designer', image: '/placeholder.svg' },
+    { name: 'Claudine Kirsch', role: 'Project Manager', image: '/images/people/Claudine_Kirsch.webp' },
+    { name: 'Jan vom Brocke', role: 'Platform Development', image: '/images/people/jan-vom-brocke.jpg' },
+    { name: 'Niklas Kloth', role: 'Platform Development', image: '/images/people/niklas-kloth.webp' },
+    { name: 'Anja Pirih', role: 'Educational Design', image: '/images/people/Anja_Pirih.webp' },
+    { name: 'Marjan Asgari', role: 'Educational Design', image: '/images/people/Asgari Marjan.webp' },
+    { name: 'Mara Burger', role: 'Platform Coordination', image: '/images/people/Mara_Burger.webp' },
+    { name: 'Milja Ulmer', role: 'Educational Design', image: '/images/people/Mija_Umer.jpeg' },
+    { name: 'Mojca Žefran', role: 'Educational Design', image: '/images/people/Mojca_Žefran.png' },
+    { name: 'Silva Bratož', role: 'S', image: '/images/people/Silva_Bratož.PNG' },
+    { name: 'Sonja Rutar', role: 'S', image: '/images/people/Sonja_Rutar.webp' },
+    { name: 'Christina vom Brocke', role: 'Educational Design', image: '/images/people/tine-vom-brocke2.webp' },
+    { name: 'Yasmine Azza', role: 'Educational Design', image: '/images/people/Yasmine_Azza.png' },
+    { name: 'Katerina Zourou', role: 'Educational Design', image:'/images/people/Katerina-Zourou.png'}
   ]
   const partnerUniversities = [
-    { name: 'Univeristy of ', role: 'CEO', image: '/placeholder.svg' },
-    { name: 'Jane Smith', role: 'CTO', image: '/placeholder.svg' },
-    { name: 'Mike Johnson', role: 'Lead Developer', image: '/placeholder.svg' },
-    { name: 'Sarah Brown', role: 'UX Designer', image: '/placeholder.svg' },
+    { name: 'Univeristy of Luxembourg', role: 'Project Mangement & Educational Development', image: '/images/universities/university-luxembourg-nobseline - full.svg' },
+    { name: 'Univeristy of Muenster', role: 'Platform Development', image: '/images/universities/unims.svg' },
+    { name: 'University of Teacher Education of Grisons ', role: 'Educational Material & Concept', image: '/images/universities/Logo-phgr.svg' },
+    { name: 'University Bozen', role: 'Educational Material & Concept', image: 'images/universities/bozen.svg' },
+    { name: 'University of Teacher Education of Grisons ', role: 'Educational Material & Concept', image: '/images/universities/primorska.png' },
+    { name: 'Web2Learn', role: 'Open Educational Resources', image: '/images/universities/w2l_logo.png' },
   ]
 
   return (
@@ -32,7 +43,7 @@ export default function Team() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {partnerUniversities.map((member, index) => (
             <div key={index} className="text-center">
-              <Image src={member.image} alt={member.name} width={200} height={200} className="rounded-full mx-auto mb-4" />
+              <Image src={member.image} alt={member.name} width={200} height={200} className="mx-auto mb-4" />
               <h2 className="text-xl font-semibold">{member.name}</h2>
               <p className="text-gray-600">{member.role}</p>
             </div>
