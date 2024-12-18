@@ -11,7 +11,7 @@ export default function About() {
             <Image src="/placeholder.svg" alt="About AGENTIVE" width={500} height={300} className="rounded-lg mb-4" />
           </div> */}
           <div /*className="md:w-1/2"*/>
-            <h2 className="text-m font-semibold mb-4 text-cyan-700">A Strong Start: Meeting the Team and Setting the Foundations
+            <h2 className="text-m font-semibold mb-4 ">A Strong Start: Meeting the Team and Setting the Foundations
             </h2>
             <p className="text-gray-600 mb-4">
             The kickoff meeting brought together representatives from all project partners for the first time. Led by Prof. Dr. Claudine Kirsch from the University of Luxembourg, the gathering laid the groundwork for a collaborative journey over the coming years.
@@ -50,73 +50,100 @@ export default function About() {
               </ul>
             </div>
 
-            <h2 className="text-m font-semibold mb-4 text-cyan-700">Key Challenges and Solutions</h2>
+            <h2 className="text-m font-semibold mb-4 ">Key Challenges and Solutions</h2>
             <p className='mb-1'>As with any ambitious project, AGENTIVE faces challenges: </p>
             <div className="text-gray-600 mb-4">
             <ul className="list-disc ml-8">
             <ol className="text-gray-600 mb-4">
-              <li className="list-decimal ml-8 font-bold">Content Creation:</li>
+              <li className="list-decimal font-bold">Content Creation:</li>
               <p className="mb-1 ml-4">
               While the consortium is united by a shared passion for multilingualism, creating and sustaining high-quality, diverse content is a significant challenge. Who will produce the content? And how will the project ensure continuity after the initial funding period?Solution: The team discussed leveraging student talents, particularly from art and design programs, to produce illustrations and materials.
              </p>
             
-             <p className='font-semibold'>Solution:
-                  </p>The team brainstormed synergies with other projects and potential funding mechanisms to ensure sustainability.
+             <div className="text-gray-600 mb-4">
+              <ul className="list-disc ml-8">
+                <li className="mb-1">
+                <p className=" font-semibold mb-1">Solution:
+                </p>
+                <p className="mb-1 ml-4">
+                The team discussed leveraging student talents, particularly from art and design programs, to produce illustrations and materials.
+                   </p>
+                  </li>
+              </ul>
+            </div>
 
-              <li className="list-decimal ml-8 font-bold">Funding and Sustainability:</li>
+              <li className="list-decimal font-bold">Funding and Sustainability:</li>
               <p className="mb-1 ml-4">
               While AGENTIVE is non-profit, maintaining a platform and updating resources requires ongoing support.
              </p>
-              <li className="list-decimal ml-8 font-bold">Digital Accessibility: </li>
+
+             <div className="text-gray-600 mb-4">
+              <ul className="list-disc ml-8">
+                <li className="mb-1">
+                <p className=" font-semibold mb-1">Solution:
+                </p>
+                <p className="mb-1 ml-4">
+                The team brainstormed synergies with other projects and potential funding mechanisms to ensure sustainability.
+                   </p>
+                  </li>
+              </ul>
+            </div>
+              
+              <li className="list-decimal font-bold">Digital Accessibility: </li>
               <p className="mb-1 ml-4">
               Creating a multilingual digital platform with interactive features poses technical challenges.
              </p>
+
+             <div className="text-gray-600 mb-4">
+              <ul className="list-disc ml-8">
+                <li className="mb-1">
+                <p className=" font-semibold mb-1">Solution:
+                </p>
+                <p className="mb-1 ml-4">
+                Exploring cost-effective tools and partnerships for programming and infrastructure.
+                   </p>
+                  </li>
+              </ul>
+            </div>
+
             </ol>
             </ul>
             </div>
-
-
-              <li className="list-decimal ml-8">Leverage open, multilingual and cross-sectoral ECE through university-school-business synergies: AGENTIVE fosters partnerships between schools, universities, and businesses to innovate multilingual education. These collaborations ensure the materials and approaches developed are practical, effective, and forward-thinking.</li>
-            <p className="text-gray-600 mb-4">
-            As with any ambitious project, AGENTIVE faces challenges:
-            </p>
-            <h2 className="text-m font-semibold mb-4 text-cyan-700">A Creative and Inclusive Approach
+        
+            <h2 className="text-m font-semibold mb-4 text-">A Creative and Inclusive Approach
             </h2>
             <p className="text-gray-600 mb-4">
             A standout feature of AGENTIVE is its commitment to inclusivity. The project aims to represent children from diverse linguistic, cultural, and social backgrounds, ensuring materials are accessible to all, including children with disabilities. Additionally, the team emphasized the need for materials that celebrate cultural diversity and normalize differences.
-
             </p>
-            <h2 className="text-m font-semibold mb-4 text-cyan-700">Next Steps: Setting the Wheels in Motion            </h2>
-            <p className='text-gray-600 mb-1'>AGENTIVE is guided by two key objectives:</p>
-            <ol className="text-gray-600 mb-4">
-              <li className="list-decimal ml-8">Enhance digital transformation of schools and universities through open access early language learning resources and state-of-the-art pedagogies and training: By creating open-access, state-of-the-art pedagogical tools, the project supports the digital readiness of schools and universities. Training programs for pre- and in-service ECE teachers are integral to this goal.</li>
-              <li className="list-decimal ml-8">Leverage open, multilingual and cross-sectoral ECE through university-school-business synergies: AGENTIVE fosters partnerships between schools, universities, and businesses to innovate multilingual education. These collaborations ensure the materials and approaches developed are practical, effective, and forward-thinking.</li>
-            </ol>
-            <h2 className="text-m font-semibold mb-4">Innovation and Impact</h2>
+            
+            <h2 className="text-m font-semibold mb-4 ^">Next Steps: Setting the Wheels in Motion  </h2>
+            <p className='mb-1'>As the kickoff wrapped up, the AGENTIVE team left with a clear to-do list:
+            </p>
             <div className="text-gray-600 mb-4">
-              <p className='mb-1'>AGENTIVE’s approach is holistic and multidimensional, offering:</p>
               <ul className="list-disc ml-8">
                 <li className="mb-1">
-                <p className='font-semibold'>Digital Resources for Multilingual Literacy: 
-                  </p>The project provides open, digital materials that promote literacy in multiple languages, addressing a key gap in early childhood education.</li>
+                <p className='mb-1'>Mapping out the needs of children, particularly migrants and those from diverse cultural backgrounds.
+                  </p>
+                  </li>
                 <li className="mb-1">
-                <p className='font-semibold'>Equipping Educators: </p> By equipping pre- and in-service teachers with evidence-based strategies and digital competencies, AGENTIVE empowers educators to implement multilingual teaching effectively.</li>
+                <p className='mb-1'>Initiating collaborations with graphic designers or art students to create illustrations and materials.
+                </p>                
+                </li>
                 <li className="mb-1">
-                  <p className='font-semibold'>Cross-Sector Collaboration:</p>
-                  The synergy between academia and businesses drives the development of innovative educational tools and sustainable partnerships.</li>
+                <p className='mb-1'>Developing a user-friendly platform and communication strategy, led by the University of Münster. 
+                </p> 
+                </li>
+                <li className="mb-1">
+                <p className='mb-1'>Finalizing the logo and corporate identity to establish a cohesive project brand.
+                </p> 
+                </li>
               </ul>
             </div>
-            <h2 className="text-m font-semibold mb-4">Alignment with EU Goals</h2>
-            <p className="text-gray-600 mb-4">
-              Aligned with the EU's priorities for education, AGENTIVE promotes linguistic diversity, inclusion, and digital transformation. It embodies the EU's vision of fostering a multilingual society. For this project, we are funded by Europe’s Erasmus+ Programme.
-            </p>
-            <h2 className="text-m font-semibold mb-4">A Model for the Future</h2>
-            <p className="text-gray-600 mb-4">
-              By building on the expertise of its partners and leveraging the multilingual realities of Europe, AGENTIVE aims to set a benchmark for early childhood multilingual education. The project’s outcomes will contribute to shaping a more inclusive and innovative educational landscape across Europe.
-            </p>
-            <p className="text-gray-600 mb-4">
-              For more information about AGENTIVE, our resources, and upcoming events, please explore our platform. Together, we can inspire the next generation to embrace the power of multilingualism!
-            </p>
+              <p className='mb-4'>The kickoff was not just a meeting but the beginning of a collaborative adventure. The AGENTIVE team is united by a shared passion for multilingualism and a vision to empower educators and children through innovative, inclusive resources.
+               </p> 
+               <p className='mb-4'>Stay tuned as we take our first steps toward transforming multilingual education across Europe!
+               </p> 
+           
           </div>
         </div>
       </div>
