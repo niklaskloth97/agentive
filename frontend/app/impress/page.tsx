@@ -35,12 +35,16 @@ export default function Impress() {
         </div>
         <div className="py-8">
           <h2 className="text-2xl font-semibold mb-4">Contact</h2>
+          <a className='text-slate-800'>For content feedback, wishes, issues, etc., feel free to contact:
+          <br />
+          Agentive Team E-Mail 
+          </a>
+          <a href="mailto:agentive@wi.uni-muenster.de">agentive@wi.uni-muenster.de</a><br />
           <a className='text-slate-800'>For any Webiste-related feedback, issues etc., feel free to contact:
           <br />
           Niklas Kloth: 
           </a>
           <a href="mailto:niklas.kloth@uni-muenster.de">niklas.kloth@uni-muenster.de</a><br />
-        
         </div>
           
       </div>
