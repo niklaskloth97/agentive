@@ -11,7 +11,7 @@ export default function About() {
         </div> */}
         <div /*className="md:w-1/2"*/>
           <h2 className="text-m font-semibold mb-4">Our Vision: Promoting Multilingualism in Early Childhood</h2>
-          <p className="text-gray-600 mb-2">
+          <p className="text-gray-600 mb-4">
             In the world – not just in Europe - where multiple languages coexist and shape today's societies, AGENTIVE aims to equip children with the tools to navigate and thrive in multilingual environments. Current research highlights the cognitive, social, and academic benefits of multilingualism, particularly when introduced early in life. AGENTIVE seeks to bridge the gap in early childhood language education by providing accessible, evidence-based resources to support multilingual literacy development.
           </p>
           <h2 className="text-m font-semibold mb-4">An EU-Funded Erasmus+ Initiative</h2>
