@@ -1,9 +1,11 @@
 export default function Home() {
   return (
       <div className="container mx-auto py-8">
-        <h1 className="text-3xl font-bold mb-6">Welcome to AGENTIVE – Shaping the Future of Multilingual Education</h1>
+        <h1 className="text-3xl font-bold mb-6">Welcome to AGENTIVE</h1>
+        <h1 className="text-xl font-bold mb-6">Boosting linguistic diversity in early childhood education through synergies
+        </h1>
         <p className="text-gray-600 mb-4">
-        Welcome to the AGENTIVE platform! As part of an EU-funded Erasmus+ initiative, we are creating innovative tools to promote language learning in Early Childhood Education (ECE). We empower children and foster professional development of educators . Our mission is to  provide accessible, open-source materials for language and literacy development, offer professional development training and stimulate school-university-business synergies.
+        Welcome to the AGENTIVE platform! As part of an EU-funded Erasmus+ initiative, we are creating innovative tools to promote language learning in Early Childhood Education (ECE). We empower children and foster professional development of educators. Our mission is to  provide accessible, open-source materials for language and literacy development, offer professional development training and stimulate school-university-business synergies.
         </p> <div className="flex flex-col md:flex-row gap-8"></div>
         <h2 className="text-m font-semibold mb-4">What Can You Expect?</h2>
           <p className="text-gray-600 mb-4"> 
