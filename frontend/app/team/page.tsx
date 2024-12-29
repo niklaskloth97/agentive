@@ -14,7 +14,12 @@ export default function Team() {
     { name: 'Sonja Rutar', role: 'Preliteracy Language Development', image: '/images/people/Sonja_Rutar.webp' },
     { name: 'Christina vom Brocke', role: 'Multilingual Education', image: '/images/people/tine-vom-brocke2.webp' },
     { name: 'Yasmine Azza', role: 'Psychological Development of Eudcation Material', image: '/images/people/Yasmine_Azza.png' },
-    { name: 'Katerina Zourou', role: 'Open Language Education', image:'/images/people/Katerina-Zourou.png'}
+    { name: 'Katerina Zourou', role: 'Open Language Education', image:'/images/people/Katerina-Zourou.png'},
+    { name: 'Ania Skowron', role: 'Open Language Education', image:'/images/people/Ania-Skowron.png'}, 
+    { name: 'Konstantia Liouza', role: 'Open Language Education', image:'/images/people/Konstantia Liouza.png'}, 
+    { name: 'Stefania Oikonomou', role: 'Open Language Education', image:'/images/people/Stefania Oikonomou.png'}, 
+
+
   ]
   const partnerUniversities = [
     { name: 'Univeristy of Luxembourg', role: 'Project Mangement & Educational Development', image: '/images/universities/university-luxembourg-nobseline - full.svg' },
