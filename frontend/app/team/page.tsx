@@ -4,8 +4,6 @@ export default function Team() {
   const teamData = [
     { university: 'University of Luxemburg', members: [
       {name: 'Claudine Kirsch', role: 'Project Manager', image: '/images/people/Claudine_Kirsch.webp' },
-      { name: 'Mija Umer', role: 'Educational Design', image: '/images/people/Mija_Umer.jpeg' },
-      { name: 'Ania Skowron', role: 'Open Language Education', image:'/images/people/Ania-Skowron.png'}, 
     ],},
 
     { university: 'University of Muenster', members: [
@@ -26,6 +24,7 @@ export default function Team() {
 
     { university: 'University of Primorska', members: [
       { name: 'Anja Pirih', role: 'Foreign Language Education', image: '/images/people/Anja_Pirih.webp' },
+      { name: 'Mija Umer', role: 'Educational Design', image: '/images/people/Mija_Umer.jpeg' },
       { name: 'Mojca Žefran', role: 'Educational Design', image: '/images/people/Mojca_Žefran.png' },
       { name: 'Sonja Rutar', role: 'Preliteracy Language Development', image: '/images/people/Sonja_Rutar.webp' },
       { name: 'Silva Bratož', role: 'Plurilingual Competencies', image: '/images/people/Silva_Bratož.PNG' },
@@ -34,7 +33,9 @@ export default function Team() {
     { university: 'Web2Learn', members: [
       { name: 'Katerina Zourou', role: 'Open Language Education', image:'/images/people/Katerina-Zourou.png'},
       { name: 'Konstantia Liouza', role: 'Open Language Education', image:'/images/people/Konstantia Liouza.png'}, 
-      { name: 'Stefania Oikonomou', role: 'Open Language Education', image:'/images/people/Stefania Oikonomou.png'}, ],
+      { name: 'Stefania Oikonomou', role: 'Open Language Education', image:'/images/people/Stefania Oikonomou.png'}, 
+      { name: 'Ania Skowron', role: 'Open Language Education', image:'/images/people/Ania-Skowron.png'}, 
+    ],
     },
   ]
 
