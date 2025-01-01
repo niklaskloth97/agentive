@@ -55,7 +55,7 @@ export default function Team() {
         <h2 className="text-xl text-gray-600 mb-8">The AGENTIVE project is made possible by:</h2>
           {teamData.map((group, groupIndex) => (
             <div key={groupIndex} className="mb-16">
-              <h2 className="text-2xl font-bold mb-6 text-center">{group.university}</h2>
+              <h2 className="text-2xl font-bold mb-6">{group.university}</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {group.members.map((member, memberIndex) => (
                 <div key={memberIndex} className="text-center">
