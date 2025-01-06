@@ -13,7 +13,7 @@ export default function Footer() {
                     </div>
                     <div className="w-full lg:w-1/4">
                         <h3 className="text-2xl font-semibold text-white">Contact Us</h3>
-                        <Link className="mt-2 text-gray-400" href="mailto:agentive@uni-muenster.de">Mail: agentive@uni-muenster.de</Link>
+                        <Link className="mt-2 text-gray-400" href="mailto:agentive@uni-muenster.de">Mail: agentive@wi.uni-muenster.de</Link>
                             
                     </div>
                     <div className="w-full lg:w-1/4">
