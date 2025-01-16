@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 export default function About() {
   return (
     <div className="container mx-auto py-8">
@@ -12,10 +10,10 @@ export default function About() {
         <div /*className="md:w-1/2"*/>
           <h2 className="text-m font-semibold mb-4">Our Vision: Promoting Multilingualism in Early Childhood</h2>
           <p className="text-gray-600 mb-4">
-          Multiple languages coexist and shape today's societies, AGENTIVE aims to equip children with the tools to navigate and thrive in multilingual environments. Current research highlights the cognitive, social, and academic benefits of multilingualism, particularly when introduced early in life. AGENTIVE seeks to bridge the gap in early childhood language education by providing accessible, evidence-based resources to support multilingual literacy development.
+          Multiple languages coexist and shape today&apos;s societies, AGENTIVE aims to equip children with the tools to navigate and thrive in multilingual environments. Current research highlights the cognitive, social, and academic benefits of multilingualism, particularly when introduced early in life. AGENTIVE seeks to bridge the gap in early childhood language education by providing accessible, evidence-based resources to support multilingual literacy development.
           </p>
           <p className="text-gray-600 mb-4">
-          Languages and multilingualism play an important role in children’s everyday lives as many children grow up speaking several languages at home and in their setting of Early Childhood Education (ECE). Language skills beyond the family language(s) count as key qualifications in Europe. The early childhood phase is particularly important for multilingual language learning as children appear to develop skills in additional language(s) effortlessly, provided they have child-friendly and stimulating conditions in ECE.
+          Languages and multilingualism play an important role in children&apos;s everyday lives as many children grow up speaking several languages at home and in their setting of Early Childhood Education (ECE). Language skills beyond the family language(s) count as key qualifications in Europe. The early childhood phase is particularly important for multilingual language learning as children appear to develop skills in additional language(s) effortlessly, provided they have child-friendly and stimulating conditions in ECE.
           </p>
           <p className="text-gray-600 mb-4">
           AGENTIVE aims to promote early language learning through creating eight pedagogical sets as well as a digital platform where professionals and parents can download our educational resources. Furthermore, the team offers professional development training to teachers and student teachers to help them use the materials effectively and develop digital competences. Our school-university-business synergy will contribute to the wide dissemination of the findings.
