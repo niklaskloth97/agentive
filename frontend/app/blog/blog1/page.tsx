@@ -1,9 +1,9 @@
 export default function About() {
     return (
       <div className="container mx-auto py-8">
-        <h1 className="text-3xl font-bold mb-6">Kicking Off AGENTIVE – A Multilingual Education Adventure Begins
+        <h1 className="text-3xl font-serif text-green-900 font-bold mb-6">Kicking Off AGENTIVE – A Multilingual Education Adventure Begins
         </h1>
-        <h2 className="text-xl font-semibold mb-4">From October 3rd to October 5th, the picturesque town of Brixen, hosted by the Free University of Bolzano, became the meeting point for an exciting pan-European initiative: the kickoff of the AGENTIVE project.</h2>
+        <h2 className="text-xl font-serif text-green-800 font-semibold mb-4">From October 3rd to October 5th, the picturesque town of Brixen, hosted by the Free University of Bolzano, became the meeting point for an exciting pan-European initiative: the kickoff of the AGENTIVE project.</h2>
         <p className="text-gray-600 mb-4">This Erasmus+ funded project unites partners from Luxembourg, Switzerland, Germany, Slovenia, Italy, and Greece to revolutionize multilingual education in early childhood through innovative digital resources and collaborative efforts.
         </p>
         <div className="flex flex-col md:flex-row gap-8">
@@ -11,7 +11,7 @@ export default function About() {
             <Image src="/placeholder.svg" alt="About AGENTIVE" width={500} height={300} className="rounded-lg mb-4" />
           </div> */}
           <div /*className="md:w-1/2"*/>
-            <h2 className="text-m font-semibold mb-4 ">A Strong Start: Meeting the Team and Setting the Foundations
+            <h2 className="text-m font-serif text-green-700 font-semibold mb-2 ">A Strong Start: Meeting the Team and Setting the Foundations
             </h2>
             <p className="text-gray-600 mb-4">
             The kickoff meeting brought together representatives from all project partners for the first time. Led by Prof. Dr. Claudine Kirsch from the University of Luxembourg, the gathering laid the groundwork for a collaborative journey over the coming years.
@@ -19,7 +19,7 @@ export default function About() {
             <p className="text-gray-600 mb-4">
             Key organizational aspects were discussed, including budgeting, project planning, and fostering effective communication across universities and institutions. The partners emphasized the importance of seamless collaboration to ensure AGENTIVE’s success.
             </p>
-            <h2 className="text-m font-semibold mb-4 ">Addressing the Challenge of Multilingualism in Education
+            <h2 className="text-m font-serif text-green-700 font-semibold mb-2">Addressing the Challenge of Multilingualism in Education
             </h2>
             <p className="text-gray-600 mb-4">
             The heart of the discussion focused on the challenges of fostering multilingualism in early childhood education. Prof. Kirsch highlighted the situation in Luxembourg as a prime example of the complexities faced. Luxembourg’s trilingual system (Luxembourgish, French, and German), combined with the diverse home languages of its population — ranging from Portuguese to Serbo-Croatian — places immense pressure on teachers. All other project partners joined with their own experience: The region of South Tyrol is trilingual at a minimum; in Switzerland, even four languages are spoken. Once again, the project partners were reminded about the similarity of issues and chances likewise arise from lingualism.
@@ -27,7 +27,7 @@ export default function About() {
             <p className="text-gray-600 mb-4">
             Teachers are expected to facilitate education in multiple languages, but often lack the resources and frameworks to do so effectively. This reflects a broader European challenge: how to provide tools and support for educators in multilingual environments.
             </p>
-            <h2 className="text-m font-semibold mb-4">Building a Vision for Multilingual Education
+            <h2 className="text-m font-serif text-green-700 font-semibold mb-2">Building a Vision for Multilingual Education
             </h2>
             <p className="text-gray-600 mb-4">
             The AGENTIVE team came together to brainstorm solutions, establishing a shared vision for the project            
@@ -50,7 +50,7 @@ export default function About() {
               </ul>
             </div>
 
-            <h2 className="text-m font-semibold mb-4 ">Key Challenges and Solutions</h2>
+            <h2 className="text-m font-serif text-green-700 font-semibold mb-2">Key Challenges and Solutions</h2>
             <p className='mb-1'>As with any ambitious project, AGENTIVE faces challenges: </p>
             <div className="text-gray-600 mb-4">
             <ul className="list-disc ml-8">
@@ -110,13 +110,13 @@ export default function About() {
             </ul>
             </div>
         
-            <h2 className="text-m font-semibold mb-4 text-">A Creative and Inclusive Approach
+            <h2 className="text-m font-serif text-green-700 font-semibold mb-2">A Creative and Inclusive Approach
             </h2>
             <p className="text-gray-600 mb-4">
             A standout feature of AGENTIVE is its commitment to inclusivity. The project aims to represent children from diverse linguistic, cultural, and social backgrounds, ensuring materials are accessible to all, including children with disabilities. Additionally, the team emphasized the need for materials that celebrate cultural diversity and normalize differences.
             </p>
             
-            <h2 className="text-m font-semibold mb-4 ^">Next Steps: Setting the Wheels in Motion  </h2>
+            <h2 className="text-m font-serif text-green-700 font-semibold mb-2">Next Steps: Setting the Wheels in Motion  </h2>
             <p className='mb-1'>As the kickoff wrapped up, the AGENTIVE team left with a clear to-do list:
             </p>
             <div className="text-gray-600 mb-4">
