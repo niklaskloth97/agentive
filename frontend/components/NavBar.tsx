@@ -13,9 +13,6 @@ import {
 import { Menu, Moon, Sun } from 'lucide-react'
 
 export default function NavBar() {
-    const [isLoggedIn, setIsLoggedIn] = useState(false)
-    const [showAuthForm, setShowAuthForm] = useState(false)
-    const [isLogin, setIsLogin] = useState(true)
     const [isDarkMode, setIsDarkMode] = useState(false)
     const [mounted, setMounted] = useState(false)
 
