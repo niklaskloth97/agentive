@@ -51,12 +51,12 @@ export default function Team() {
 
   return (
       <div className="container py-8 max-w-7xl mx-auto">
-        <h1 className="text-3xl text-green-800 font-bold mb-6">The Team</h1>
-        <h2 className="text-xl text-green-800 mb-8">The AGENTIVE project is made possible by:</h2>
+        <h1 className="text-3xl text-green-800 dark:text-green-600 font-bold mb-6">The Team</h1>
+        <h2 className="text-xl text-green-800 dark:text-green-600 mb-8">The AGENTIVE project is made possible by:</h2>
           {teamData.map((group, groupIndex) => (
             <div key={groupIndex} className="mb-16">
               <h2 className="text-2xl font-bold mb-6">{group.university}</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 font-serif">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {group.members.map((member, memberIndex) => (
                 <div key={memberIndex} className="text-center">
               <Image src={member.image} alt={member.name} width={200} height={200} className="rounded-full border-4 mx-auto mb-4" />
