@@ -1,28 +1,36 @@
 import * as React from "react"
-import { GalleryVerticalEnd } from "lucide-react"
+import { GalleryVerticalEnd, Minus, Plus } from "lucide-react"
 
-import { NavMain } from "@/components/nav-main"
-import { SidebarOptInForm } from "@/components/sidebar-opt-in-form"
+import { SearchForm } from "@/components/search-form"
+
+import {
+  Collapsible,
+  CollapsibleContent, 
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible"
 import {
   Sidebar,
   SidebarContent,
-  SidebarFooter,
+  SidebarGroup,
   SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
+  SidebarMenuSub,
+  SidebarMenuSubButton,
+  SidebarMenuSubItem,
   SidebarRail,
 } from "@/components/ui/sidebar"
 
-// This is sample data.
+// This is real data.
 const data = {
   navMain: [
     {
-      title: "Getting Started",
+      title: "Getting Started/Concept explained",
       url: "#",
       items: [
         {
-          title: "Installation",
+          title: "What is multilanguage?",
           url: "#",
         },
         {
@@ -32,52 +40,20 @@ const data = {
       ],
     },
     {
-      title: "Building Your Application",
+      title: "Multilingual Stories",
       url: "#",
       items: [
         {
-          title: "Routing",
+          title: "A pirate story",
           url: "#",
         },
         {
-          title: "Data Fetching",
+          title: "A dino story",
           url: "#",
           isActive: true,
         },
         {
-          title: "Rendering",
-          url: "#",
-        },
-        {
-          title: "Caching",
-          url: "#",
-        },
-        {
-          title: "Styling",
-          url: "#",
-        },
-        {
-          title: "Optimizing",
-          url: "#",
-        },
-        {
-          title: "Configuring",
-          url: "#",
-        },
-        {
-          title: "Testing",
-          url: "#",
-        },
-        {
-          title: "Authentication",
-          url: "#",
-        },
-        {
-          title: "Deploying",
-          url: "#",
-        },
-        {
-          title: "Upgrading",
+          title: "Another Story",
           url: "#",
         },
         {
@@ -87,57 +63,41 @@ const data = {
       ],
     },
     {
-      title: "API Reference",
+      title: "A dino story",
       url: "#",
       items: [
         {
-          title: "Components",
+          title: "Dino on a trip",
           url: "#",
         },
         {
-          title: "File Conventions",
+          title: "Home alone",
           url: "#",
         },
         {
-          title: "Functions",
+          title: "The football match",
           url: "#",
         },
         {
-          title: "next.config.js Options",
+          title: "Dino goes for a swim",
           url: "#",
         },
         {
-          title: "CLI",
+          title: "Dino at a doctor",
           url: "#",
         },
         {
-          title: "Edge Runtime",
+          title: "Shopping tour",
           url: "#",
         },
       ],
     },
     {
-      title: "Architecture",
+      title: "Community",
       url: "#",
       items: [
         {
-          title: "Accessibility",
-          url: "#",
-        },
-        {
-          title: "Fast Refresh",
-          url: "#",
-        },
-        {
-          title: "Next.js Compiler",
-          url: "#",
-        },
-        {
-          title: "Supported Browsers",
-          url: "#",
-        },
-        {
-          title: "Turbopack",
+          title: "Contribution Guide",
           url: "#",
         },
       ],
@@ -153,26 +113,58 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" asChild>
               <a href="#">
-                <div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
+                <div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-white text-black">
                   <GalleryVerticalEnd className="size-4" />
                 </div>
                 <div className="flex flex-col gap-0.5 leading-none">
-                  <span className="font-semibold">Documentation</span>
+                  <span className="font-semibold">Menu</span>
                   <span className="">v1.0.0</span>
                 </div>
               </a>
             </SidebarMenuButton>
           </SidebarMenuItem>
         </SidebarMenu>
+        <SearchForm/>
       </SidebarHeader>
-      <SidebarContent>
-        <NavMain items={data.navMain} />
+      <SidebarContent className = 'flex-grow'>
+        <SidebarGroup>
+          <SidebarMenu>
+          {data.navMain.map((item, index) => (
+              <Collapsible
+                key={item.title}
+                defaultOpen={index === 1}
+                className="group/collapsible"
+              >
+                <SidebarMenuItem>
+                  <CollapsibleTrigger asChild>
+                    <SidebarMenuButton>
+                      {item.title}{" "}
+                      <Plus className="ml-auto group-data-[state=open]/collapsible:hidden" />
+                      <Minus className="ml-auto group-data-[state=closed]/collapsible:hidden" />
+                    </SidebarMenuButton>
+                  </CollapsibleTrigger>
+                  {item.items?.length ? (
+                    <CollapsibleContent>
+                    <SidebarMenuSub>
+                        {item.items.map((item) => (
+                          <SidebarMenuSubItem key={item.title}>
+                            <SidebarMenuSubButton
+                              asChild
+                              isActive={item.isActive}
+                            >
+                              <a href={item.url}>{item.title}</a>
+                            </SidebarMenuSubButton>
+                          </SidebarMenuSubItem>
+                        ))}
+                      </SidebarMenuSub>
+                    </CollapsibleContent>
+                  ) : null}
+                </SidebarMenuItem>
+              </Collapsible>
+            ))}
+          </SidebarMenu>
+          </SidebarGroup>
       </SidebarContent>
-      <SidebarFooter>
-        <div className="p-1">
-          <SidebarOptInForm />
-        </div>
-      </SidebarFooter>
       <SidebarRail />
     </Sidebar>
   )

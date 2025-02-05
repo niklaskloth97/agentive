@@ -4,6 +4,10 @@ import "./globals.css";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider"
+import { AppSidebar } from "@/components/app-sidebar";
+
+
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -34,8 +38,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <NavBar />
-          <main className="flex-grow overflow-y-auto">
-            <div className='max-w-7xl mx-auto px-4'>
+          <main className="flex flex-grow overflow-hidden">
+ 
+          <div className='flex-1 overflow-y-auto max-w-7xl mx-auto px-4'>
               {children}
             </div>
           </main>
