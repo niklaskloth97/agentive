@@ -38,9 +38,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <NavBar />
-          <main className="flex flex-grow overflow-hidden">
+          <main className="flex-grow overflow-y-auto">
  
-          <div className='flex-1 overflow-y-auto max-w-7xl mx-auto px-4'>
+          <div className='max-w-7xl mx-auto px-4'>
               {children}
             </div>
           </main>

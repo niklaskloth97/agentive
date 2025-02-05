@@ -18,7 +18,7 @@ export default function Page() {
   return (
     <SidebarProvider>
       <AppSidebar  className="h-[calc(100vh-4rem)] mt-14 z-10"/>
-      <SidebarInset className="flex flex-col h-80vh">
+      <SidebarInset>
         <header className="flex h-16 shrink-0 items-center gap-2 border-b px-4">
           <SidebarTrigger className="-ml-1" />
           <Separator orientation="vertical" className="mr-2 h-4" />
@@ -26,12 +26,12 @@ export default function Page() {
             <BreadcrumbList>
               <BreadcrumbItem className="hidden md:block">
                 <BreadcrumbLink href="#">
-                  A dino story
+                  Multilingual Stories
                 </BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator className="hidden md:block" />
               <BreadcrumbItem>
-                <BreadcrumbPage>Dino on a trip</BreadcrumbPage>
+                <BreadcrumbPage>A dino story</BreadcrumbPage>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
