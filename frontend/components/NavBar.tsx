@@ -38,17 +38,18 @@ export default function NavBar() {
 
     return (
         <nav className='sticky top-0 z-50'>
-            <header className="w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-sky-100 dark:bg-white dark:text-sky-600">
+            <header className="w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
                 <div className="container flex h-14 items-center max-w-7xl mx-auto">
                     <div className="flex md:flex">
                         <Link className="flex items-center space-x-8 px-6 " href="/">
                             <span className="font-bold sm:inline-block">AGENTIVE</span>
                         </Link>
                         <nav className="flex items-center space-x-6 text-sm font-medium">
-                            <Link className="transition-colors hover:text-foreground/80 dark:text-sky-600 text-foreground" href="/learning-material">Learning Material</Link>
-                            <Link className="transition-colors hover:text-foreground/80 dark:text-sky-600 text-foreground" href="/about">About AGENTIVE</Link>
-                            <Link className="transition-colors hover:text-foreground/80 dark:text-sky-600 text-foreground" href="/team">The Team</Link>
-                            <Link className="transition-colors hover:text-foreground/80 dark:text-sky-600 text-foreground" href="/blog">Blog</Link>
+                        <Link className="transition-colors hover:text-foreground/80 text-foreground" href="/learning-material">Learning Material</Link>
+                            <Link className="transition-colors hover:text-foreground/80 text-foreground" href="/about">About AGENTIVE</Link>
+                            <Link className="transition-colors hover:text-foreground/80 text-foreground" href="/team">The Team</Link>
+                            <Link className="transition-colors hover:text-foreground/80 text-foreground" href="/blog">Blog</Link>
+
                         </nav>
                     </div>
                     <div className="ml-auto flex items-center">
