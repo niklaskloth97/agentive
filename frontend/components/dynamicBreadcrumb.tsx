@@ -19,10 +19,10 @@ interface DynamicBreadcrumbProps {
 export function DynamicBreadcrumb({ items }: DynamicBreadcrumbProps) {
   return (
     <Breadcrumb>
-      <BreadcrumbList>
+      <BreadcrumbList className="flex items-center space-x-2">
         {items.map((item, index) => (
-          <>
-            <BreadcrumbItem key={`item-${index}`} className="hidden md:flex md:items-center">
+          <div key={`breadcrumb-group-${index}`} className="flex items-center">
+            <BreadcrumbItem className="hidden md:flex md:items-center">
               {index === items.length - 1 ? (
                 <BreadcrumbPage>{item.label}</BreadcrumbPage>
               ) : (
@@ -32,9 +32,11 @@ export function DynamicBreadcrumb({ items }: DynamicBreadcrumbProps) {
               )}
             </BreadcrumbItem>
             {index < items.length - 1 && (
-              <BreadcrumbSeparator key={`separator-${index}`} className="hidden md:flex" />
+              <span className="mx-2 hidden md:flex">
+                <BreadcrumbSeparator />
+              </span>
             )}
-          </>
+          </div>
         ))}
       </BreadcrumbList>
     </Breadcrumb>

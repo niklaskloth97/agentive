@@ -1,8 +1,6 @@
 import * as React from "react"
 import { GalleryVerticalEnd, Minus, Plus } from "lucide-react"
 
-import { SearchForm } from "@/components/search-form"
-
 import {
   Collapsible,
   CollapsibleContent, 
@@ -22,7 +20,7 @@ import {
   SidebarRail,
 } from "@/components/ui/sidebar"
 
-// This is real data.
+// Here are the links for the pages. 
 const data = {
   navMain: [
     {
@@ -42,15 +40,16 @@ const data = {
     },
     {
       title: "Multilingual Stories",
-      url: "#",
+      url: "multilingual-stories",
       items: [
         {
           title: "A pirate story",
-          url: "#",
+          url: "a-pirate-story",
+          isActive: true,
         },
         {
           title: "A dino story",
-          url: "#",
+          url: "a-dino-story",
           isActive: true,
         },
         {
