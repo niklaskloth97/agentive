@@ -1,12 +1,5 @@
-import { AppSidebar } from "@/components/sidebar/app-sidebar"
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb"
+import { AppSidebar } from "@/app/dashboard/app-sidebar"
+import { DynamicBreadcrumb } from "@/components/dynamicBreadcrumb"
 import { Separator } from "@/components/ui/separator"
 import {
   SidebarInset,
@@ -15,26 +8,19 @@ import {
 } from "@/components/ui/sidebar"
 
 export default function Page() {
+const breadcrumbItems = [
+    { label: "Multilingual Stories", href: "/dashboard/stories" },
+    { label: "A dino story" }
+  ];
+
   return (
     <SidebarProvider>
-      <AppSidebar  className="h-[calc(100vh-4rem)] mt-14 z-10"/>
+      <AppSidebar className="h-[calc(100vh-4rem)] mt-14 z-10"/>
       <SidebarInset>
         <header className="flex h-16 shrink-0 items-center gap-2 border-b px-4">
           <SidebarTrigger className="-ml-1" />
           <Separator orientation="vertical" className="mr-2 h-4" />
-          <Breadcrumb>
-            <BreadcrumbList>
-              <BreadcrumbItem className="hidden md:block">
-                <BreadcrumbLink href="#">
-                  Multilingual Stories
-                </BreadcrumbLink>
-              </BreadcrumbItem>
-              <BreadcrumbSeparator className="hidden md:block" />
-              <BreadcrumbItem>
-                <BreadcrumbPage>A dino story</BreadcrumbPage>
-              </BreadcrumbItem>
-            </BreadcrumbList>
-          </Breadcrumb>
+          <DynamicBreadcrumb items={breadcrumbItems} />
         </header>
         <div className="flex flex-1 flex-col gap-4 p-4">
           <div className="grid auto-rows-min gap-4 md:grid-cols-3">

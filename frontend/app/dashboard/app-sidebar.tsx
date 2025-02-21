@@ -26,12 +26,13 @@ import {
 const data = {
   navMain: [
     {
-      title: "Getting Started/Concept explained",
+      title: "Getting Started",
       url: "#",
       items: [
         {
-          title: "What is multilanguage?",
+          title: "Introduction",
           url: "#",
+          isActive: true
         },
         {
           title: "Project Structure",
@@ -108,24 +109,24 @@ const data = {
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
     <Sidebar {...props}>
-      <SidebarHeader>
+      {/*<SidebarHeader>
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" asChild>
-              <a href="#">
+              {/* <a href="#">
                 <div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-white text-black">
                   <GalleryVerticalEnd className="size-4" />
                 </div>
-                <div className="flex flex-col gap-0.5 leading-none">
+                { <div className="flex flex-col gap-0.5 leading-none">
                   <span className="font-semibold">Menu</span>
-                  <span className="">v1.0.0</span>
+                  <span className="">v1.0.0</span> }
                 </div>
-              </a>
+              </a>  
             </SidebarMenuButton>
           </SidebarMenuItem>
         </SidebarMenu>
         <SearchForm/>
-      </SidebarHeader>
+      </SidebarHeader> */}
       <SidebarContent className = 'flex-grow'>
         <SidebarGroup>
           <SidebarMenu>
