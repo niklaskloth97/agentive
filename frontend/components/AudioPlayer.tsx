@@ -1,5 +1,3 @@
-// Credits to https://github.com/srothgan/transcript-editor
-// code used by permission
 "use client";
 
 import { useRef, useState, useEffect } from "react";
@@ -12,18 +10,20 @@ import ProgressBar from "./audio-player/ProgressBar";
 import TimeInput from "./audio-player/TimeInput";
 import { toast } from 'sonner';
 
+interface AudioPlayerProps {
+  url: string;
+}
+
 interface AudioElement extends HTMLAudioElement {
   playbackRate: number;
 }
 
-const AudioPlayer = (): JSX.Element => {
+const AudioPlayer = ({ url }: AudioPlayerProps): JSX.Element => {
   const audioRef = useRef<AudioElement>(null);
-  const fileInputRef = useRef<HTMLInputElement>(null);
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
   const [playbackRate, setPlaybackRate] = useState<number>(1);
   const [currentTime, setCurrentTime] = useState<number>(0);
   const [duration, setDuration] = useState<number>(0);
-  const [audioFile, setAudioFile] = useState<string | null>(null);
   const [volume, setVolume] = useState<number>(1);
 
   const [sec, setSec] = useState<string>('00');
@@ -31,6 +31,19 @@ const AudioPlayer = (): JSX.Element => {
   const [hour, setHour] = useState<string>('00');
   const [activeInput, setActiveInput] = useState<"hour" | "minute" | "second" | null>(null);
 
+  // Reset player when URL changes
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      setIsPlaying(false);
+      setCurrentTime(0);
+      setSec('00');
+      setMin('00');
+      setHour('00');
+    }
+  }, [url]);
+
+  // Your existing helper functions
   const togglePlay = (): void => {
     if (!audioRef.current) return;
     
@@ -63,18 +76,6 @@ const AudioPlayer = (): JSX.Element => {
     audioRef.current.volume = newVolume;
   };
 
-  const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>): void => {
-    const file = event.target.files?.[0];
-    if (file?.type.startsWith("audio")) {
-      const fileURL = URL.createObjectURL(file);
-      setAudioFile(fileURL);
-      setCurrentTime(0);
-      setIsPlaying(false);
-    } else {
-      toast.error("Please upload a valid audio file.");
-    }
-  };
-
   const formatTime = (time: number): string => {
     const hours = Math.floor(time / 3600)
       .toString()
@@ -94,10 +95,25 @@ const AudioPlayer = (): JSX.Element => {
   useEffect(() => {
     const audio = audioRef.current;
     if (audio) {
-      audio.onloadedmetadata = () => setDuration(audio.duration);
-      audio.ontimeupdate = () => setCurrentTime(audio.currentTime);
+      const handleLoadedMetadata = () => {
+        console.log('Metadata loaded, duration:', audio.duration);
+        setDuration(audio.duration);
+      };
+
+      const handleTimeUpdate = () => {
+        setCurrentTime(audio.currentTime);
+      };
+
+      audio.addEventListener('loadedmetadata', handleLoadedMetadata);
+      audio.addEventListener('timeupdate', handleTimeUpdate);
+
+      // Clean up listeners
+      return () => {
+        audio.removeEventListener('loadedmetadata', handleLoadedMetadata);
+        audio.removeEventListener('timeupdate', handleTimeUpdate);
+      };
     }
-  }, [audioFile]);
+  }, [url]);
 
   useEffect(() => {
     if (activeInput !== "hour") {
@@ -148,12 +164,11 @@ const AudioPlayer = (): JSX.Element => {
   const handleSecondChange = (event: React.ChangeEvent<HTMLInputElement>): void => 
     handleTimeChange(event, "second", setSec);
 
-  const handleDeleteAudio = (): void => {
+  const handleTimeReset = (): void => {
     if (audioRef.current) {
       audioRef.current.pause();
-      audioRef.current.ontimeupdate = null;
+      audioRef.current.currentTime = 0;
     }
-    setAudioFile(null);
     setCurrentTime(0);
     setDuration(0);
     setIsPlaying(false);
@@ -163,10 +178,6 @@ const AudioPlayer = (): JSX.Element => {
     setMin('00');
     setHour('00');
     setActiveInput(null);
-    
-    if (fileInputRef.current) {
-      fileInputRef.current.value = "";
-    }
   };
 
   useEffect(() => {
@@ -181,70 +192,39 @@ const AudioPlayer = (): JSX.Element => {
       <div className='w-full bg-gradient-to-r from-slate-600 to-slate-800 text-white px-2 py-1 rounded-t-lg'>
         <p className="text-xl font-semibold tracking-wide italic">Audio Player</p>
       </div>
-      <div className="flex flex-col w-full px-3 md:px-6  py-3">
-        <label htmlFor="audio" className="font-semibold">Upload Audio File:</label>
-        <div className="flex items-center gap-4 rounded-lg w-full py-2">
-          <input
-            type="file"
-            name="audio"
-            accept="audio/mpeg, audio/mp3, audio/wav, audio/aac, audio/mp4, audio/m4a, audio/ogg, audio/webm, audio/x-aiff, audio/x-wav, audio/flac, audio/opus, audio/3gpp, audio/amr"
-            onChange={handleFileUpload}
-            ref={fileInputRef}
-            className="block w-fit text-sm text-gray-600 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
-          />
+      <div className='px-3 md:px-6 pb-6 w-full flex flex-col'>
+        <audio
+          ref={audioRef}
+          src={url}
+          preload="metadata"
+          onError={(e) => {
+            console.error('Audio error:', e);
+            toast.error('Error loading audio file');
+          }}
+        />
+
+
+        <ProgressBar
+          duration={duration}
+          currentTime={currentTime}
+          handleProgressChange={handleProgressChange}
+          formatTime={formatTime}
+        />
+
+        {/* Play, stop, skip buttons */}
+        <div className="flex flex-row justify-center items-center w-full mb-4">
+          <ActionBar isPlaying={isPlaying} togglePlay={togglePlay} skipTime={skipTime}/>
+        </div>
+
+        {/* Controls grid */}
+        <div className="flex flex-row justify-between items-center w-full">
+          {/* Speed Control */}
+          <PlaybackSpeed playbackRate={playbackRate} setPlaybackRate={setPlaybackRate}/>
+
+          {/* Volume Control */}
+          <VolumeBar volume={volume} handleVolumeChange={handleVolumeChange}/>
         </div>
       </div>
-
-      {audioFile && (
-        <div className='px-3 md:px-6 pb-6 w-full flex flex-col'>
-          <audio
-            ref={audioRef}
-            src={audioFile}
-            onTimeUpdate={() => {
-              if (audioRef.current) {
-                setCurrentTime(audioRef.current.currentTime);
-              }
-            }}
-          />
-
-          
-          <div className="flex w-full mb-2">
-            <TimeInput
-              hour={hour}
-              min={min}
-              sec={sec}
-              handleHourChange={handleHourChange}
-              handleMinuteChange={handleMinuteChange}
-              handleSecondChange={handleSecondChange}
-              setActiveInput={setActiveInput}
-            />
-            <CopyClipboardButton hour={hour} min={min} sec={sec} />
-            <DeleteButton handleDeleteAudio={handleDeleteAudio} />
-          </div>
-
-          
-          <ProgressBar
-            duration={duration}
-            currentTime={currentTime}
-            handleProgressChange={handleProgressChange}
-            formatTime={formatTime}
-          />
-
-          {/* Play, stop, skip buttons */}
-          <div className="flex flex-row justify-center items-center w-full mb-4">
-            <ActionBar isPlaying={isPlaying} togglePlay={togglePlay} skipTime={skipTime}/>
-          </div>
-
-          {/* Controls grid */}
-          <div className="flex flex-row justify-between items-center w-full">
-            {/* Speed Control */}
-            <PlaybackSpeed playbackRate={playbackRate} setPlaybackRate={setPlaybackRate}/>
-
-            {/* Volume Control */}
-            <VolumeBar volume={volume} handleVolumeChange={handleVolumeChange}/>
-          </div>
-        </div>
-      )}
     </div>
   );
 };
