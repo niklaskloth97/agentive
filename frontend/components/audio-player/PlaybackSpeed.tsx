@@ -2,6 +2,7 @@
 // code used by permission
 import React from 'react';
 import { FaMinus, FaPlus } from "react-icons/fa";
+import {Button} from "@/components/ui/button";
 
 interface PlaybackSpeedProps {
   playbackRate: number;
@@ -21,27 +22,25 @@ export default function PlaybackSpeed({ playbackRate, setPlaybackRate }: Playbac
         Playback <br/>Speed:
       </label>
       <div className="flex items-center space-x-2">
-        <button
-          type="button"
+         <Button
+          variant="white"
           onClick={handleDecreaseSpeed}
-          className="ml-2 p-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition"
           aria-label="Decrease Speed"
         >
           <FaMinus/>
-        </button>
+        </Button>
 
         <div className='w-12 px-3 py-1 border border-slate-500 rounded-lg text-center font-bold'>
           {playbackRate}
         </div>
 
-        <button
-          type="button"
+         <Button
+          variant="white"
           onClick={handleIncreaseSpeed}
-          className="ml-2 p-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition"
           aria-label="Increase Speed"
         >
           <FaPlus/>
-        </button>
+        </Button>
       </div>
     </div>
   );

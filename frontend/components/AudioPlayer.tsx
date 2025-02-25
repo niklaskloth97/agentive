@@ -40,6 +40,14 @@ const AudioPlayer = ({ url }: AudioPlayerProps): JSX.Element => {
     }
   }, [url]);
 
+  // Add this new useEffect for initial loading
+  useEffect(() => {
+    if (audioRef.current) {
+      // Force metadata loading
+      audioRef.current.load();
+    }
+  }, []); // Empty dependency array to run only on mount
+
   // Your existing helper functions
   const togglePlay = (): void => {
     if (!audioRef.current) return;
@@ -170,6 +178,17 @@ const AudioPlayer = ({ url }: AudioPlayerProps): JSX.Element => {
           ref={audioRef}
           src={url}
           preload="metadata"
+          onLoadedMetadata={() => {
+            if (audioRef.current) {
+              setDuration(audioRef.current.duration);
+              console.log('Metadata reloaded:', audioRef.current.duration);
+            }
+          }}
+          onTimeUpdate={() => {
+            if (audioRef.current) {
+              setCurrentTime(audioRef.current.currentTime);
+            }
+          }}
           onError={(e) => {
             console.error('Audio error:', e);
             toast.error('Error loading audio file');
