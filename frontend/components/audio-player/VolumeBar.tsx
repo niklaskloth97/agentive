@@ -1,3 +1,7 @@
+"use client";
+
+import React, { useState, useEffect } from "react";
+
 // Credits to https://github.com/srothgan/transcript-editor
 // code used by permission
 
@@ -7,27 +11,32 @@ interface VolumeBarProps {
 }
 
 export default function VolumeBar({ volume, handleVolumeChange }: VolumeBarProps) {
-  let hasTouchScreen = false;
+  const [hasTouchScreen, setHasTouchScreen] = useState<boolean>(false);
 
-  if ("maxTouchPoints" in navigator) {
-    hasTouchScreen = navigator.maxTouchPoints > 0;
-  } else if ("msMaxTouchPoints" in navigator) {
-    hasTouchScreen = (navigator as any).msMaxTouchPoints > 0;
-  } else {
-    const mQ = window.matchMedia && window.matchMedia("(pointer:coarse)");
-    if (mQ && mQ.media === "(pointer:coarse)") {
-      hasTouchScreen = !!mQ.matches;
-    } else if ('orientation' in window) {
-      hasTouchScreen = true; // deprecated, but good fallback
+  useEffect(() => {
+    let isTouchDevice = false;
+
+    if ("maxTouchPoints" in navigator) {
+      isTouchDevice = navigator.maxTouchPoints > 0;
+    } else if ("msMaxTouchPoints" in navigator) {
+      isTouchDevice = (navigator as any).msMaxTouchPoints > 0;
     } else {
-      // Only as a last resort, fall back to user agent sniffing
-      const UA = (navigator as Navigator).userAgent;
-      hasTouchScreen = (
-        /\b(BlackBerry|webOS|iPhone|IEMobile)\b/i.test(UA) ||
-        /\b(Android|Windows Phone|iPad|iPod)\b/i.test(UA)
-      );
+      const mQ = window.matchMedia && window.matchMedia("(pointer:coarse)");
+      if (mQ && mQ.media === "(pointer:coarse)") {
+        isTouchDevice = !!mQ.matches;
+      } else if ('orientation' in window) {
+        isTouchDevice = true;
+      } else {
+        const UA = (navigator as Navigator).userAgent;
+        isTouchDevice = (
+          /\b(BlackBerry|webOS|iPhone|IEMobile)\b/i.test(UA) ||
+          /\b(Android|Windows Phone|iPad|iPod)\b/i.test(UA)
+        );
+      }
     }
-  }
+
+    setHasTouchScreen(isTouchDevice);
+  }, []);
 
   if (hasTouchScreen) return null;
 

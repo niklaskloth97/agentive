@@ -1,13 +1,10 @@
 "use client";
 
 import { useRef, useState, useEffect } from "react";
-import DeleteButton from "./audio-player/DeleteButton";
 import PlaybackSpeed from "./audio-player/PlaybackSpeed";
 import VolumeBar from "./audio-player/VolumeBar";
-import CopyClipboardButton from "./audio-player/CopyClipboardButton";
 import ActionBar from "./audio-player/ActionBar";
 import ProgressBar from "./audio-player/ProgressBar";
-import TimeInput from "./audio-player/TimeInput";
 import { toast } from 'sonner';
 
 interface AudioPlayerProps {
@@ -155,30 +152,6 @@ const AudioPlayer = ({ url }: AudioPlayerProps): JSX.Element => {
     }
   };
 
-  const handleHourChange = (event: React.ChangeEvent<HTMLInputElement>): void => 
-    handleTimeChange(event, "hour", setHour);
-
-  const handleMinuteChange = (event: React.ChangeEvent<HTMLInputElement>): void => 
-    handleTimeChange(event, "minute", setMin);
-
-  const handleSecondChange = (event: React.ChangeEvent<HTMLInputElement>): void => 
-    handleTimeChange(event, "second", setSec);
-
-  const handleTimeReset = (): void => {
-    if (audioRef.current) {
-      audioRef.current.pause();
-      audioRef.current.currentTime = 0;
-    }
-    setCurrentTime(0);
-    setDuration(0);
-    setIsPlaying(false);
-    setPlaybackRate(1);
-    setVolume(1);
-    setSec('00');
-    setMin('00');
-    setHour('00');
-    setActiveInput(null);
-  };
 
   useEffect(() => {
     if (audioRef.current) {

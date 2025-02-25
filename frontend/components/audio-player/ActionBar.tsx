@@ -3,6 +3,7 @@
 
 import React from 'react';
 import { FaPlay, FaPause } from "react-icons/fa";
+import {Button} from "@/components/ui/button";
 
 interface ActionBarProps {
   isPlaying: boolean;
@@ -17,55 +18,39 @@ export default function ActionBar({
 }: ActionBarProps): React.ReactElement {
   return (
     <div className="flex w-full justify-center gap-2">
-      <button
-        type="button"
+       <Button
+        variant="white"
         onClick={() => skipTime(-10)}
-        className="px-2 py-2 bg-gray-200 rounded-lg hover:bg-gray-300 transition"
+        
       >
         -10s
-      </button>
-      <button
-        type="button"
+      </Button>
+       <Button
+        variant="white"
         onClick={() => skipTime(-5)}
-        className="px-2 py-2 bg-gray-200 rounded-lg hover:bg-gray-300 transition"
       >
         -5s
-      </button>
-      <button
-        type="button"
-        onClick={() => skipTime(-1)}
-        className="px-2 py-2 bg-gray-200 rounded-lg hover:bg-gray-300 transition"
-      >
-        -1s
-      </button>
-      <button
-        type="button"
+      </Button>
+      <Button
+        variant="slate"
         onClick={togglePlay}
-        className="px-4 py-2 bg-blue-500 text-white rounded-lg font-medium hover:bg-blue-600 transition"
+        
       >
         {isPlaying ? <FaPause /> : <FaPlay />}
-      </button>
-      <button
-        type="button"
-        onClick={() => skipTime(1)}
-        className="px-2 py-2 bg-gray-200 rounded-lg hover:bg-gray-300 transition"
-      >
-        +1s
-      </button>
-      <button
-        type="button"
+      </Button>
+      
+      <Button
+        variant="white"
         onClick={() => skipTime(5)}
-        className="px-2 py-2 bg-gray-200 rounded-lg hover:bg-gray-300 transition"
       >
         +5s
-      </button>
-      <button
-        type="button"
+      </Button>
+      <Button
+        variant="white"
         onClick={() => skipTime(10)}
-        className="px-2 py-2 bg-gray-200 rounded-lg hover:bg-gray-300 transition"
       >
         +10s
-      </button>
+      </Button>
     </div>
   );
 }
