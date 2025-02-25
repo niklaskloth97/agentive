@@ -8,7 +8,7 @@ export default function Home() {
         Welcome to the AGENTIVE platform! As part of an EU-funded Erasmus+ initiative, we are creating innovative tools to promote language learning in Early Childhood Education (ECE). We empower children and foster professional development of educators. Our mission is to  provide accessible, open-source materials for language and literacy development, offer professional development training and stimulate school-university-business synergies.
         </p> <div className="flex flex-col md:flex-row gap-8"></div>
         <h2 className="text-m mb-2 font-semibold text-sky-600 dark:text-sky-400" >What Can You Expect?</h2>
-          <p className="text-gray-600 mb-2 dark:text-white"> 
+          <p className="text-gray-600 mb-2 dark:text-white "> 
           This website is just the beginning - think of it as a sneak peek into what is to come. AGENTIVE aims to create resources that celebrate linguistic diversity, promote inclusion, and enable children to thrive in a multilingual world.
             </p>
           <p className="text-gray-600 mb-4 dark:text-white"> 
