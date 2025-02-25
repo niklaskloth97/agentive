@@ -9,7 +9,7 @@ export default function Page() {
 
   return (
     <DashboardLayout breadcrumbItems={breadcrumbItems}>
-        <h1>Test Pirate</h1>
+        
         <div className='w-full flex flex-col lg:flex-row gap-4 px-1 md:px-2 xl:px-2 my-4'>
       <div className='w-full lg:max-w-md'>
         <AudioPlayer url="/audio/Free_Test_Data_1MB_MP3.mp3"/>
