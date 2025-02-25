@@ -1,8 +1,9 @@
 export default function About() {
   return (
     <div className="container mx-auto py-8">
-      <h1 className="text-3xl font-bold mb-6  text-sky-600 dark:text-sky-400">Welcome to AGENTIVE </h1>
-      <h2 className="text-xl font-semibold text-sky-600 dark:text-sky-400"> Our &quot;Virtual Window&quot; to the Future of Multilingual Education </h2>
+            <h1 className="text-3xl font-bold mb-6  ">Welcome to AGENTIVE </h1>
+      <h2 className="text-xl font-semibold "> Our &quot;Virtual Window&quot; to the Future of Multilingual Education </h2>
+
       <div className="flex flex-col md:flex-row gap-8">
         {/* <div className="md:w-1/2">
           <Image src="/placeholder.svg" alt="About AGENTIVE" width={500} height={300} className="rounded-lg mb-4" />
@@ -11,7 +12,7 @@ export default function About() {
           <p className="text-gray-600 mb-6 dark:text-white">
           We are thrilled to announce the go-live of the AGENTIVE website, your first glimpse into a transformative project designed to revolutionize multilingual education in early childhood. While this is just the beginning, our site serves as a &quot;virtual shop window&quot; showcasing what&apos;s to come. Unlike a traditional shop, however, everything we offer will be freely available, reflecting our commitment to open-source principles and accessibility for all.
           </p>
-          <h2 className="text-m font-semibold text-sky-600 dark:text-sky-400"> A Platform for Open Education </h2>
+          <h2 className="text-m font-semibold "> A Platform for Open Education </h2>
           <div className="text-gray-600 mb-4 dark:text-white">
             <p className='mb-1'>At the heart of AGENTIVE is the principle of openness:</p>
             <ul className="list-disc ml-8">
@@ -37,7 +38,7 @@ export default function About() {
             </ul>
           </div>
 
-          <h2 className="text-m font-semibold mb-2 text-sky-600 dark:text-sky-400"> A Glimpse of What&apos;s to Come </h2>
+          <h2 className="text-m font-semibold mb-2 "> A Glimpse of What&apos;s to Come </h2>
           <div className="text-gray-600 mb-4 dark:text-white">
             <p className='mb-1'>While our website is live, AGENTIVE is still in the early stages of development. Here&apos;s what to expect in the coming months:</p>
             <ul className="list-disc ml-8">
@@ -72,7 +73,7 @@ export default function About() {
           </p>
 
         
-          <h2 className="text-m font-semibold mb-2 text-sky-600 dark:text-sky-400"> Our Platform Concept (For the Tech Enthusiasts here) </h2>
+          <h2 className="text-m font-semibold mb-2"> Our Platform Concept (For the Tech Enthusiasts here) </h2>
     
           <div className="text-gray-600 mb-4 dark:text-white">
             <p className='mb-1'>For those curious about the technical backbone of our platform, AGENTIVE is built using state-of-the-art tools and frameworks:</p>
@@ -92,8 +93,6 @@ export default function About() {
                  </li>
             </ul>
           </div>
-
-
           </div>
       </div>
     </div>

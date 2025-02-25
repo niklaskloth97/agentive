@@ -26,7 +26,7 @@ import {
         <CardContent>
           <p>{description}</p> 
           {link && (
-            <a href={link} className="mt-2 text-blue-500 underline">
+            <a href={link} className="mt-2 underline">
               Learn More
             </a>
           )}
