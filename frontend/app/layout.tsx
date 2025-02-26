@@ -4,6 +4,10 @@ import "./globals.css";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider"
+import { AppSidebar } from "@/app/dashboard/app-sidebar";
+
+
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -35,7 +39,8 @@ export default function RootLayout({
         >
           <NavBar />
           <main className="flex-grow overflow-y-auto">
-            <div className='max-w-7xl mx-auto px-4'>
+ 
+          <div className='max-w-7xl mx-auto px-4'>
               {children}
             </div>
           </main>
