@@ -31,10 +31,10 @@ export default function Team() {
     ],
     },
     { university: 'Web2Learn', members: [
-      { name: 'Katerina Zourou', role: 'Open Language Education', image:'/images/people/Katerina-Zourou.png'},
-      { name: 'Konstantia Liouza', role: 'Open Language Education', image:'/images/people/Konstantia Liouza.png'}, 
-      { name: 'Stefania Oikonomou', role: 'Open Language Education', image:'/images/people/Stefania Oikonomou.png'}, 
-      { name: 'Ania Skowron', role: 'Open Language Education', image:'/images/people/Ania-Skowron.png'}, 
+      { name: 'Katerina Zourou', role: 'Open Language Education', image: '/images/people/Katerina-Zourou.png'},
+      { name: 'Konstantia Liouza', role: 'Open Language Education', image: '/images/people/Konstantia Liouza.png'}, 
+      { name: 'Stefania Oikonomou', role: 'Open Language Education', image: '/images/people/Stefania Oikonomou.png'}, 
+      { name: 'Claire Fragkiadaki', role: 'Open Language Education', image: '/images/people/Claire-Fragkiadaki.png'}, 
     ],
     },
   ]
