@@ -17,7 +17,7 @@ const storyContent = {
   en: {
     label: "English",
     url: "/audio/Free_Test_Data_1MB_MP3.mp3",
-    images: ["/images/stories/pirate-story/2.png", "/images/stories/pirate-story/2.png", "/images/pirate3.jpg"]
+    images: ["/images/stories/pirate-story/1.webp", "/images/stories/pirate-story/2.webp", "/images/stories/pirate-story/3.webp", "/images/stories/pirate-story/4.webp"]
   },
   de: {
     label: "Deutsch",
@@ -70,11 +70,11 @@ export default function Page() {
               {storyContent[selectedLanguage].images.map((image: string, index: number) => (
                 <CarouselItem key={index}>
                   <Card>
-                    <CardContent className="flex aspect-video items-center justify-center p-6">
+                    <CardContent className="flex p-4 items-center justify-center">
                       <img 
-                        src={image} 
-                        alt={`Story scene ${index + 1}`}
-                        className="w-full h-full object-cover rounded-lg"
+                      src={image} 
+                      alt={`Story scene ${index + 1}`}
+                      className="object-cover rounded-lg"
                       />
                     </CardContent>
                   </Card>
@@ -88,7 +88,47 @@ export default function Page() {
             Scene {current} of {count}
           </div>
         </div>
-      </div>
+        <div className="flex w-full mt-8">
+          <div className="w-3/5">
+            <embed
+              src="/Strategic_Management_and_Public_Sector_Digitalization_Strategies v1.pdf"
+              type="application/pdf"
+              width="100%"
+              height="1000"
+              title="Embedded PDF Viewer"
+            />
+          </div>
+          <div className="w-2/5 pl-4">
+            {/* Add your additional component here */}
+            <div className="bg-gray-100 p-4 rounded-lg shadow-md">
+              <h2 className="text-lg font-semibold mb-2">Additional Stuff</h2>
+              <p className="text-sm">This is just for testing...</p>
+              <LanguageAudioPlayer 
+              audioSources={storyContent}
+              defaultLanguage="en"
+              onLanguageChange={(language: string) => setSelectedLanguage(language as keyof typeof storyContent)}
+              />
+              <div className="mt-4 px-2 flex space-x-4">
+              <a 
+                href="/Strategic_Management_and_Public_Sector_Digitalization_Strategies v1.pdf" 
+                download 
+                className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+              >
+                Download PDF
+              </a>
+              <a 
+                href={storyContent[selectedLanguage].url} 
+                download 
+                className="inline-block bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600"
+              >
+                Download Audio
+              </a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      
     </DashboardLayout>
   );
 }
