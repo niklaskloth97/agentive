@@ -44,29 +44,39 @@ export default function NavBar() {
                         <Link className="flex items-center space-x-8 px-6 " href="/">
                             <span className="font-bold sm:inline-block">AGENTIVE</span>
                         </Link>
-                        <nav className="flex items-center space-x-6 text-sm font-medium">
-                        <Link className="transition-colors hover:text-foreground/80 text-foreground" href="/learning-material">Learning Material</Link>
+                        {/* Hide navigation on mobile with hidden md:flex */}
+                        <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
+                            <Link className="transition-colors hover:text-foreground/80 text-foreground" href="/learning-material">Learning Material</Link>
                             <Link className="transition-colors hover:text-foreground/80 text-foreground" href="/about">About AGENTIVE</Link>
                             <Link className="transition-colors hover:text-foreground/80 text-foreground" href="/team">The Team</Link>
                             <Link className="transition-colors hover:text-foreground/80 text-foreground" href="/blog">Blog</Link>
-
                         </nav>
                     </div>
-                    <div className="ml-auto flex items-center">
-                        <Button variant="outline" size="icon" className="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0" onClick={toggleTheme}>
+                    <div className="ml-auto items-center">
+                        <Button 
+                            variant="outline" 
+                            size="icon" 
+                            className="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0" 
+                            onClick={toggleTheme}
+                        >
                             {isDarkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
                             <span className="sr-only">Toggle Theme</span>
                         </Button>
                         <Sheet>
                             <SheetTrigger asChild>
-                                <Button variant="outline" size="icon" className="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden">
+                                <Button 
+                                    variant="outline" 
+                                    size="icon" 
+                                    className="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden"
+                                >
                                     <Menu className="h-5 w-5" />
                                     <span className="sr-only">Toggle Menu</span>
                                 </Button>
                             </SheetTrigger>
-                            <SheetContent side="left" className="pr-0">
+                            {/* Change side prop to "right" */}
+                            <SheetContent side="right" className="pl-8">
                                 <SheetHeader>
-                                    <SheetTitle>Menu</SheetTitle>
+                                    <SheetTitle>AGENTIVE</SheetTitle>
                                     <SheetDescription>
                                         Navigate through our educational platform.
                                     </SheetDescription>
