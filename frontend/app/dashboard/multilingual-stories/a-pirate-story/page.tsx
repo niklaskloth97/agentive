@@ -12,6 +12,8 @@ import {
 } from "@/components/ui/carousel";
 import { type CarouselApi } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
+import {NavigationMenuDemo} from "@/components/ActivitySelection";
+
 
 const storyContent = {
   en: {
@@ -91,7 +93,7 @@ export default function Page() {
         <div className="flex w-full mt-8">
           <div className="w-3/5">
             <embed
-              src="/Strategic_Management_and_Public_Sector_Digitalization_Strategies v1.pdf"
+              src="/Monster story example_october6.pdf"
               type="application/pdf"
               width="100%"
               height="1000"
@@ -124,9 +126,13 @@ export default function Page() {
                 Download Audio
               </a>
               </div>
+              <div className="mt-4">
+                <NavigationMenuDemo />
+              </div>
             </div>
             </div>
           </div>
+          
         </div>
       
     </DashboardLayout>
