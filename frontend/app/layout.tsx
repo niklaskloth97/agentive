@@ -4,8 +4,6 @@ import "./globals.css";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider"
-import { AppSidebar } from "@/app/dashboard/app-sidebar";
-
 
 
 

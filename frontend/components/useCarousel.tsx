@@ -3,8 +3,6 @@ import {
     Carousel,
     CarouselContent,
     CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
   } from "@/components/ui/carousel"
 
   import { type CarouselApi } from "@/components/ui/carousel"
@@ -12,8 +10,8 @@ import React from "react"
 
   export function Example() {
     const [api, setApi] = React.useState<CarouselApi>()
-    const [current, setCurrent] = React.useState(0)
-    const [count, setCount] = React.useState(0)
+    const [,setCurrent] = React.useState(0)
+    const [,setCount] = React.useState(0)
   
     React.useEffect(() => {
       if (!api) {
