@@ -23,9 +23,9 @@ const AudioPlayer = ({ url }: AudioPlayerProps): JSX.Element => {
   const [duration, setDuration] = useState<number>(0);
   const [volume, setVolume] = useState<number>(1);
 
-  const [sec, setSec] = useState<string>('00');
-  const [min, setMin] = useState<string>('00');
-  const [hour, setHour] = useState<string>('00');
+  const [,setSec] = useState<string>('00');
+  const [,setMin] = useState<string>('00');
+  const [,setHour] = useState<string>('00');
   const [activeInput] = useState<"hour" | "minute" | "second" | null>(null);
 
   // Reset player when URL changes

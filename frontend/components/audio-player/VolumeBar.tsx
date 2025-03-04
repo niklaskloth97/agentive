@@ -1,9 +1,5 @@
 "use client";
 
-interface NavigatorWithTouch extends Navigator {
-  msMaxTouchPoints?: number;
-}
-
 import React, { useState, useEffect } from "react";
 
 // Credits to https://github.com/srothgan/transcript-editor

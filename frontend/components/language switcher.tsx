@@ -14,13 +14,13 @@ export default function LanguageDropdown() {
     const onLanguageChange = (lang: string) => {
         i18n.changeLanguage(lang);     
     }; //change language function
+      /*kann man auch mehr Sprachen hinzufügen*/ 
         return (
       <DropdownMenu>
         <DropdownMenuTrigger className="p-2 border rounded-md">🌐 Language</DropdownMenuTrigger>
         <DropdownMenuContent>
           <DropdownMenuItem onSelect={() => onLanguageChange("en")}>English</DropdownMenuItem>
-          <DropdownMenuItem onSelect={() => onLanguageChange("de")}>Deutsch</DropdownMenuItem>
-          //kann man auch mehr Sprachen hinzufügen  
+          <DropdownMenuItem onSelect={() => onLanguageChange("de")}>Deutsch</DropdownMenuItem> 
         </DropdownMenuContent>
       </DropdownMenu>
     );
