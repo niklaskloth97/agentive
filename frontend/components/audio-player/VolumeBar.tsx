@@ -19,7 +19,8 @@ export default function VolumeBar({ volume, handleVolumeChange }: VolumeBarProps
     if ("maxTouchPoints" in navigator) {
       isTouchDevice = navigator.maxTouchPoints > 0;
     } else if ("msMaxTouchPoints" in navigator) {
-      isTouchDevice = (navigator as any).msMaxTouchPoints > 0;
+      isTouchDevice = (navigator as Navigator & { msMaxTouchPoints?: number }).msMaxTouchPoints! > 0;
+     //isTouchDevice = (navigator as any).msMaxTouchPoints > 0;
     } else {
       const mQ = window.matchMedia && window.matchMedia("(pointer:coarse)");
       if (mQ && mQ.media === "(pointer:coarse)") {

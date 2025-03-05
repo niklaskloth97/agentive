@@ -73,9 +73,9 @@ export default function Page() {
                 <CarouselItem key={index}>
                   <Card>
                     <CardContent className="flex p-4 items-center justify-center">
-                      <img 
-                      src={image} 
-                      alt={`Story scene ${index + 1}`}
+                    <title id="image-desc">{`Story scene ${index + 1}`}</title>
+                      <image
+                      xlinkHref={image} 
                       className="object-cover rounded-lg"
                       />
                     </CardContent>
