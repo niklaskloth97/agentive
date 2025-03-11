@@ -3,11 +3,19 @@ import {
     Carousel,
     CarouselContent,
     CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
   } from "@/components/ui/carousel"
 
+// //import {
+//   Carousel,
+//   CarouselContent,
+//   CarouselItem,
+//   CarouselNext,
+//   CarouselPrevious,
+// } from "@/components/ui/carousel"
+// Idea: use the next and previous for the carousel to klick on keyboard left and right.
+
   import { type CarouselApi } from "@/components/ui/carousel"
+import { log } from "console"
 import React from "react"
 
   export function Example() {
@@ -21,10 +29,12 @@ import React from "react"
       }
   
       setCount(api.scrollSnapList().length)
+      log("Count:" + count)
       setCurrent(api.selectedScrollSnap() + 1)
   
       api.on("select", () => {
         setCurrent(api.selectedScrollSnap() + 1)
+        log("Current page:" + current)
       })
     }, [api])
   

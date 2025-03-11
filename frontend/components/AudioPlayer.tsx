@@ -23,20 +23,20 @@ const AudioPlayer = ({ url }: AudioPlayerProps): JSX.Element => {
   const [duration, setDuration] = useState<number>(0);
   const [volume, setVolume] = useState<number>(1);
 
-  const [sec, setSec] = useState<string>('00');
-  const [min, setMin] = useState<string>('00');
-  const [hour, setHour] = useState<string>('00');
+  // const [sec, setSec] = useState<string>('00');
+  // const [min, setMin] = useState<string>('00');
+  // const [hour, setHour] = useState<string>('00');
   //const [activeInput, setActiveInput] = useState<"hour" | "minute" | "second" | null>(null);
-  const [activeInput] = useState<"hour" | "minute" | "second" | null>(null);
+  // const [activeInput] = useState<"hour" | "minute" | "second" | null>(null);
   // Reset player when URL changes
   useEffect(() => {
     if (audioRef.current) {
       audioRef.current.pause();
       setIsPlaying(false);
       setCurrentTime(0);
-      setSec('00');
-      setMin('00');
-      setHour('00');
+      // setSec('00');
+      // setMin('00');
+      // setHour('00');
     }
   }, [url]);
 
@@ -94,8 +94,8 @@ const AudioPlayer = ({ url }: AudioPlayerProps): JSX.Element => {
     return `${hours}:${minutes}:${seconds}`;
   };
 
-  const formatTimeUnit = (unit: number): string => 
-    unit.toString().padStart(2, "0");
+  // const formatTimeUnit = (unit: number): string => 
+  //   unit.toString().padStart(2, "0");
 
   useEffect(() => {
     const audio = audioRef.current;
@@ -120,45 +120,45 @@ const AudioPlayer = ({ url }: AudioPlayerProps): JSX.Element => {
     }
   }, [url]);
 
-  useEffect(() => {
-    if (activeInput !== "hour") {
-      const hours = Math.floor(currentTime / 3600);
-      setHour(formatTimeUnit(hours));
-    }
-    if (activeInput !== "minute") {
-      const minutes = Math.floor((currentTime % 3600) / 60);
-      setMin(formatTimeUnit(minutes));
-    }
-    if (activeInput !== "second") {
-      const seconds = Math.floor(currentTime % 60);
-      setSec(formatTimeUnit(seconds));
-    }
-  }, [currentTime, activeInput]);
+  // useEffect(() => {
+  //   if (activeInput !== "hour") {
+  //     const hours = Math.floor(currentTime / 3600);
+  //     setHour(formatTimeUnit(hours));
+  //   }
+  //   if (activeInput !== "minute") {
+  //     const minutes = Math.floor((currentTime % 3600) / 60);
+  //     setMin(formatTimeUnit(minutes));
+  //   }
+  //   if (activeInput !== "second") {
+  //     const seconds = Math.floor(currentTime % 60);
+  //     setSec(formatTimeUnit(seconds));
+  //   }
+  // }, [currentTime, activeInput]);
 
-  const handleTimeChange = (
-    event: React.ChangeEvent<HTMLInputElement>,
-    unit: "hour" | "minute" | "second",
-    setter: (value: string) => void
-  ): void => {
-    const value = event.target.value;
-    if (!/^\d*$/.test(value)) {
-      toast.error(`Invalid input in ${unit} field. Only numbers are allowed.`);
-      return;
-    }
+  // const handleTimeChange = (
+  //   event: React.ChangeEvent<HTMLInputElement>,
+  //   unit: "hour" | "minute" | "second",
+  //   setter: (value: string) => void
+  // ): void => {
+  //   const value = event.target.value;
+  //   if (!/^\d*$/.test(value)) {
+  //     toast.error(`Invalid input in ${unit} field. Only numbers are allowed.`);
+  //     return;
+  //   }
 
-    const newValue = Number.parseInt(value, 10) || 0;
-    const multiplier = unit === "hour" ? 3600 : unit === "minute" ? 60 : 1;
+  //   const newValue = Number.parseInt(value, 10) || 0;
+  //   // const multiplier = unit === "hour" ? 3600 : unit === "minute" ? 60 : 1;
     
-    const newTime = (unit === "hour" ? newValue * 3600 : Number.parseInt(hour, 10) * 3600) +
-                    (unit === "minute" ? newValue * 60 : Number.parseInt(min, 10) * 60) +
-                    (unit === "second" ? newValue : Number.parseInt(sec, 10));
+  //   const newTime = (unit === "hour" ? newValue * 3600 : Number.parseInt(hour, 10) * 3600) +
+  //                   (unit === "minute" ? newValue * 60 : Number.parseInt(min, 10) * 60) +
+  //                   (unit === "second" ? newValue : Number.parseInt(sec, 10));
 
-    setter(formatTimeUnit(newValue));
-    if (audioRef.current) {
-      audioRef.current.currentTime = newTime;
-      setCurrentTime(newTime);
-    }
-  };
+  //   setter(formatTimeUnit(newValue));
+  //   if (audioRef.current) {
+  //     audioRef.current.currentTime = newTime;
+  //     setCurrentTime(newTime);
+  //   }
+  // };
 
 
   useEffect(() => {

@@ -19,7 +19,8 @@ export default function LanguageDropdown() {
         <DropdownMenuTrigger className="p-2 border rounded-md">🌐 Language</DropdownMenuTrigger>
         <DropdownMenuContent>
           <DropdownMenuItem onSelect={() => onLanguageChange("en")}>English</DropdownMenuItem>
-          <DropdownMenuItem onSelect={() => onLanguageChange("de")}>Deutsch</DropdownMenuItem>  //kann man auch mehr Sprachen hinzufügen
+          <DropdownMenuItem onSelect={() => onLanguageChange("de")}>Deutsch</DropdownMenuItem>  
+          {/* //kann man auch mehr Sprachen hinzufügen */}
         </DropdownMenuContent>
       </DropdownMenu>
     );

@@ -10,7 +10,7 @@ export function hasTouchScreen(): boolean {
   if ("maxTouchPoints" in navigator) {
     return navigator.maxTouchPoints > 0;
   } else if ("msMaxTouchPoints" in navigator) {
-    return (navigator as any).msMaxTouchPoints > 0;
+    return navigator;
   } 
 
   const mQ = window.matchMedia && window.matchMedia("(pointer:coarse)");
