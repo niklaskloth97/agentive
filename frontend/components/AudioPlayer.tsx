@@ -26,8 +26,8 @@ const AudioPlayer = ({ url }: AudioPlayerProps): JSX.Element => {
   const [sec, setSec] = useState<string>('00');
   const [min, setMin] = useState<string>('00');
   const [hour, setHour] = useState<string>('00');
-  const [activeInput, setActiveInput] = useState<"hour" | "minute" | "second" | null>(null);
-
+  //const [activeInput, setActiveInput] = useState<"hour" | "minute" | "second" | null>(null);
+  const [activeInput] = useState<"hour" | "minute" | "second" | null>(null);
   // Reset player when URL changes
   useEffect(() => {
     if (audioRef.current) {

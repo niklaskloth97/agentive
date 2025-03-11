@@ -13,7 +13,7 @@ import {
 import { type CarouselApi } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import {NavigationMenuDemo} from "@/components/ActivitySelection";
-
+import Image from "next/image";
 
 const storyContent = {
   en: {
@@ -73,9 +73,11 @@ export default function Page() {
                 <CarouselItem key={index}>
                   <Card>
                     <CardContent className="flex p-4 items-center justify-center">
-                      <img 
+                      <Image
                       src={image} 
                       alt={`Story scene ${index + 1}`}
+                      width={400}
+                      height={400}
                       className="object-cover rounded-lg"
                       />
                     </CardContent>
