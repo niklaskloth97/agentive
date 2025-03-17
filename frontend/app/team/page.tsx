@@ -1,9 +1,11 @@
 import Image from 'next/image'
+import {User} from 'lucide-react'
 
 export default function Team() {
   const teamData = [
     { university: 'University of Luxemburg', members: [
       {name: 'Claudine Kirsch', role: 'Project Manager', image: '/images/people/Claudine_Kirsch.webp' },
+      {name: 'Carole  Dording', role: 'Language Education', image: '/images/people/Carole_Dording.webp' },
     ],},
 
     { university: 'University of Muenster', members: [
@@ -32,7 +34,7 @@ export default function Team() {
     },
     { university: 'Web2Learn', members: [
       { name: 'Katerina Zourou', role: 'Open Language Education', image: '/images/people/Katerina-Zourou.png'},
-      { name: 'Konstantia Liouza', role: 'Open Language Education', image: '/images/people/Konstantia Liouza.png'}, 
+      { name: 'Konstantia Liouza', role: 'Open Language Education', image: 'placeholder.svg'}, 
       { name: 'Stefania Oikonomou', role: 'Open Language Education', image: '/images/people/Stefania Oikonomou.png'}, 
       { name: 'Claire Fragkiadaki', role: 'Open Language Education', image: '/images/people/Claire-Fragkiadaki.png'}, 
     ],

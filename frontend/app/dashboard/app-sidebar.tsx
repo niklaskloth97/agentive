@@ -45,7 +45,7 @@ const data = {
       items: [
         {
           title: "A pirate story",
-          url: "a-pirate-story",
+          url: "/dashboard/multilingual-stories/a-pirate-story",
           isActive: true,
         },
         {
