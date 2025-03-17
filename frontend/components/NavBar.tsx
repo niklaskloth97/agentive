@@ -9,12 +9,14 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
+  SheetClose
 } from '@/components/ui/sheet'
 import { Menu, Moon, Sun } from 'lucide-react'
 
 export default function NavBar() {
     const [isDarkMode, setIsDarkMode] = useState(false)
     const [mounted, setMounted] = useState(false)
+    const [isSheetOpen, setIsSheetOpen] = useState(false)
 
     useEffect(() => {
         const savedTheme = localStorage.getItem('theme') || 'light';
@@ -32,6 +34,11 @@ export default function NavBar() {
         document.documentElement.classList.toggle('dark', newTheme === 'dark');
     };
 
+    // Handle navigation with animation
+    const handleNavigation = () => {
+        setIsSheetOpen(false);
+    };
+
     if (!mounted) {
         return null; // Prevent rendering until the theme is set
     }
@@ -39,7 +46,7 @@ export default function NavBar() {
     return (
         <nav className='sticky top-0 z-50'>
             <header className="w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-                <div className="container flex h-14 items-center max-w-7xl mx-auto">
+                <div className="container flex h-14 items-center max-w-7xl mx-auto px-4">
                     <div className="flex md:flex">
                         <Link className="flex items-center space-x-8 px-6 " href="/">
                             <span className="font-bold sm:inline-block">AGENTIVE</span>
@@ -52,7 +59,7 @@ export default function NavBar() {
                             <Link className="transition-colors hover:text-foreground/80 text-foreground" href="/blog">Blog</Link>
                         </nav>
                     </div>
-                    <div className="ml-auto items-center">
+                    <div className="ml-auto flex items-center">
                         <Button 
                             variant="outline" 
                             size="icon" 
@@ -62,7 +69,7 @@ export default function NavBar() {
                             {isDarkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
                             <span className="sr-only">Toggle Theme</span>
                         </Button>
-                        <Sheet>
+                        <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
                             <SheetTrigger asChild>
                                 <Button 
                                     variant="outline" 
@@ -73,19 +80,53 @@ export default function NavBar() {
                                     <span className="sr-only">Toggle Menu</span>
                                 </Button>
                             </SheetTrigger>
-                            {/* Change side prop to "right" */}
                             <SheetContent side="right" className="pl-8">
                                 <SheetHeader>
-                                    <SheetTitle>AGENTIVE</SheetTitle>
+                                    <SheetTitle>Menu</SheetTitle>
                                     <SheetDescription>
                                         Navigate through our educational platform.
                                     </SheetDescription>
                                 </SheetHeader>
                                 <nav className="flex flex-col gap-4 mt-4">
-                                    <Link className="transition-colors hover:text-foreground/80 text-foreground" href="/learning-material">Learning Material</Link>
-                                    <Link className="transition-colors hover:text-foreground/80 text-foreground" href="/about">About AGENTIVE</Link>
-                                    <Link className="transition-colors hover:text-foreground/80 text-foreground" href="/team">The Team</Link>
-                                    <Link className="transition-colors hover:text-foreground/80 text-foreground" href="/blog">Blog</Link>
+                                    <SheetClose asChild>
+                                        <Link 
+                                            className="transition-colors hover:text-foreground/80 text-foreground" 
+                                            href="/learning-material"
+                                            onClick={handleNavigation}
+                                        >
+                                            Learning Material
+                                        </Link>
+                                    </SheetClose>
+                                    
+                                    <SheetClose asChild>
+                                        <Link 
+                                            className="transition-colors hover:text-foreground/80 text-foreground" 
+                                            href="/about"
+                                            onClick={handleNavigation}
+                                        >
+                                            About AGENTIVE
+                                        </Link>
+                                    </SheetClose>
+                                    
+                                    <SheetClose asChild>
+                                        <Link 
+                                            className="transition-colors hover:text-foreground/80 text-foreground" 
+                                            href="/team"
+                                            onClick={handleNavigation}
+                                        >
+                                            The Team
+                                        </Link>
+                                    </SheetClose>
+                                    
+                                    <SheetClose asChild>
+                                        <Link 
+                                            className="transition-colors hover:text-foreground/80 text-foreground" 
+                                            href="/blog"
+                                            onClick={handleNavigation}
+                                        >
+                                            Blog
+                                        </Link>
+                                    </SheetClose>
                                 </nav>
                             </SheetContent>
                         </Sheet>
