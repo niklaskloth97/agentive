@@ -18,7 +18,7 @@ const storyContent = {
     images: ["/images/stories/monster-story/1.webp", "/images/stories/monster-story/2.webp"]
   },
   de: {
-    label: "Deutsch",
+    label: "German",
     audioUrl: "/audio/ALEC BENJAMIN - LET ME DOWN SLOWLY.mp3",
     pdfUrl: "/Memo_Group_1.1_Data_and_knowing.pdf",
     images: ["/images/stories/monster-story/1-de.webp", "/images/stories/monster-story/2-de.webp"]
@@ -36,7 +36,7 @@ const storyContent = {
     images: ["/images/stories/monster-story/1-es.webp", "/images/stories/monster-story/2-es.webp"]
   },
   sv: {
-    label: "Slovenia",
+    label: "Slovene",
     audioUrl: "/audio/pirate-story-es.mp3",
     pdfUrl: "/Monster story example_es.pdf",
     images: ["/images/stories/monster-story/1-es.webp", "/images/stories/monster-story/2-es.webp"]
@@ -57,7 +57,7 @@ const storyContent = {
 
 export default function Page() {
   const breadcrumbItems = [
-    { label: "Multilingual Stories", href: "/dashboard/stories" },
+    { label: "Multilingual Stories", href: "/dashboard" },
     { label: "Monster Story", href: "/dashboard/multilingual-stories/a-monster-story" }
   ];
 
@@ -80,7 +80,7 @@ export default function Page() {
         <div className="flex justify-end mb-4">
           
         </div>
-        
+        <h1 className="text-2xl font-bold">Monster Story</h1>
         <div className="flex flex-col md:flex-row w-full gap-4">
           {/* Left Column - 75% */}
           <div className="w-full md:w-3/4">

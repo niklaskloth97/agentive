@@ -10,7 +10,8 @@ export default function Page() {
 
   const learningmaterial = [
     { title: 'Daniel Dino goes on vacation', excerpt: 'Learning basic vocabulary', image: '/images/stories/dino-story/dino-adventure1.webp', link: '/blog/blog1' },
-    { title: 'Paul Pirate explores foreign lands', excerpt: 'Didactic reading about dealing with different cultures', image: '/images/stories/pirate-story/4.webp', link: '/blog/blog2' }
+    { title: 'Paul Pirate explores foreign lands', excerpt: 'Dialogic reading about dealing with different cultures', image: '/images/stories/pirate-story/4.webp', link: '/blog/blog2' },
+    { title: 'Monster at the hairdresser', excerpt: 'Dialogic reading about dealing with different cultures', image: '/images/stories/monster-story/monster.png', link: '/dashboard/multilingual-stories/a-monster-story' }
   ]
 
   return (

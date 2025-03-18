@@ -27,7 +27,7 @@ export function DashboardLayout({ breadcrumbItems, children }: DashboardLayoutPr
           <Separator orientation="vertical" className="mr-2 h-4" />
           <DynamicBreadcrumb items={breadcrumbItems} />
         </header>
-        <div className="flex flex-1 flex-col gap-4 p-4">
+        <div className="flex flex-1 flex-col gap-4 p-2">
           {children}
         </div>
       </SidebarInset>

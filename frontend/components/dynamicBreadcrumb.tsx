@@ -19,7 +19,7 @@ interface DynamicBreadcrumbProps {
 export function DynamicBreadcrumb({ items }: DynamicBreadcrumbProps) {
   return (
     <Breadcrumb>
-      <BreadcrumbList className="flex items-center space-x-2">
+      <BreadcrumbList className="sticky top-0 z-10 flex items-center space-x-2 bg-background/95 backdrop-blur-sm">
         {items.map((item, index) => (
           <div key={`breadcrumb-group-${index}`} className="flex items-center">
             <BreadcrumbItem className="hidden md:flex md:items-center">
