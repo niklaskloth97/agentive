@@ -90,7 +90,7 @@ export default function Page() {
             >
                <LanguageAwarePdfViewer 
                 contentMap={storyContent} 
-                defaultHeight={800} 
+                defaultHeight={1070} 
               />
             </CollapsibleCard>
           </div>
