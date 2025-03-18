@@ -36,7 +36,7 @@ export default function Page() {
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
   const [count, setCount] = useState(0);
-  const [selectedLanguage, setSelectedLanguage] = useState<keyof typeof storyContent>("en");
+  const [selectedLanguage] = useState<keyof typeof storyContent>("en");
 
   const breadcrumbItems = [
     { label: "Multilingual Stories", href: "/dashboard/stories" },

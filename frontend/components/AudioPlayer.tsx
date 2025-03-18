@@ -1,7 +1,6 @@
 "use client";
 
 import { useRef, useState, useEffect } from "react";
-import PlaybackSpeed from "./audio-player/PlaybackSpeed";
 import VolumeBar from "./audio-player/VolumeBar";
 import ActionBar from "./audio-player/ActionBar";
 import ProgressBar from "./audio-player/ProgressBar";
@@ -18,7 +17,7 @@ interface AudioElement extends HTMLAudioElement {
 const AudioPlayer = ({ url }: AudioPlayerProps): JSX.Element => {
   const audioRef = useRef<AudioElement>(null);
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
-  const [playbackRate, setPlaybackRate] = useState<number>(1);
+  const [playbackRate] = useState<number>(1);
   const [currentTime, setCurrentTime] = useState<number>(0);
   const [duration, setDuration] = useState<number>(0);
   const [volume, setVolume] = useState<number>(1);

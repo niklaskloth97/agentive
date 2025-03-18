@@ -2,7 +2,6 @@
 // code used and adapted by permission
 
 import React from 'react';
-import { FaPlay, FaPause } from "react-icons/fa";
 import {Play, Pause, SkipBack,SkipForward} from "lucide-react";
 import {Button} from "@/components/ui/button";
 
