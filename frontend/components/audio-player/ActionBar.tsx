@@ -3,6 +3,7 @@
 
 import React from 'react';
 import { FaPlay, FaPause } from "react-icons/fa";
+import {Play, Pause, SkipBack,SkipForward} from "lucide-react";
 import {Button} from "@/components/ui/button";
 
 interface ActionBarProps {
@@ -18,38 +19,26 @@ export default function ActionBar({
 }: ActionBarProps): React.ReactElement {
   return (
     <div className="flex w-full justify-center gap-2">
-       <Button
-        variant="white"
-        onClick={() => skipTime(-10)}
-        
-      >
-        -10s
-      </Button>
+       
        <Button
         variant="white"
         onClick={() => skipTime(-5)}
       >
-        -5s
+        <SkipBack/>
       </Button>
       <Button
-        variant="slate"
+        variant="white"
         onClick={togglePlay}
         
       >
-        {isPlaying ? <FaPause /> : <FaPlay />}
+        {isPlaying ? <Pause /> : <Play />}
       </Button>
       
       <Button
         variant="white"
         onClick={() => skipTime(5)}
       >
-        +5s
-      </Button>
-      <Button
-        variant="white"
-        onClick={() => skipTime(10)}
-      >
-        +10s
+       <SkipForward/>
       </Button>
     </div>
   );

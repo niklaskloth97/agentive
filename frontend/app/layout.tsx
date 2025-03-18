@@ -40,7 +40,7 @@ export default function RootLayout({
           <NavBar />
           <main className="flex-grow overflow-y-auto">
  
-          <div className='max-w-7xl mx-auto px-4'>
+          <div className='mx-auto pr-4'>
               {children}
             </div>
           </main>

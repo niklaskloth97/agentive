@@ -39,7 +39,7 @@ export default function VolumeBar({ volume, handleVolumeChange }: VolumeBarProps
   if (hasTouchScreen) return null;
 
   return (
-    <div className="flex items-center space-x-2 justify-end w-40">
+    <div className="flex items-center space-x-2 justify-start w-40">
       <label htmlFor='volume' className="text-sm font-medium">Volume:</label>
       <input
         type="range"

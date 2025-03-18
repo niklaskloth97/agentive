@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { DashboardLayout } from "@/components/DashboardLayout";
-import LanguageAudioPlayer from "@/components/LanguageAudioPlayer";
 import {
   Carousel,
   CarouselContent,
@@ -59,11 +58,11 @@ export default function Page() {
     <DashboardLayout breadcrumbItems={breadcrumbItems}>
       <div className='w-full flex flex-col gap-8 px-1 md:px-2 xl:px-2 my-4'>
         <div className='w-full max-w-md mx-auto'>
-          <LanguageAudioPlayer 
+          {/* <LanguageAudioPlayer 
             audioSources={storyContent}
             defaultLanguage="en"
             onLanguageChange={(language: string) => setSelectedLanguage(language as keyof typeof storyContent)}
-          />
+          /> */}
         </div>
 
         <div className="w-full max-w-3xl mx-auto">
@@ -107,11 +106,6 @@ export default function Page() {
             <div className="bg-gray-100 p-4 rounded-lg shadow-md">
               <h2 className="text-lg font-semibold mb-2">Additional Stuff</h2>
               <p className="text-sm">This is just for testing...</p>
-              <LanguageAudioPlayer 
-              audioSources={storyContent}
-              defaultLanguage="en"
-              onLanguageChange={(language: string) => setSelectedLanguage(language as keyof typeof storyContent)}
-              />
               <div className="mt-4 px-2 flex space-x-4">
               <a 
                 href="/Strategic_Management_and_Public_Sector_Digitalization_Strategies v1.pdf" 

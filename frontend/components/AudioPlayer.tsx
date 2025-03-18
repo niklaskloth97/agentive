@@ -168,12 +168,12 @@ const AudioPlayer = ({ url }: AudioPlayerProps): JSX.Element => {
   }, [playbackRate]);
 
   return (
-    <div className="flex flex-col items-center w-full bg-white border border-gray-200 rounded-lg shadow-md">
+    <div className="flex flex-col items-start w-full bg-white">
       {/* Header */}
-      <div className='w-full bg-gradient-to-r from-slate-600 to-slate-800 text-white px-2 py-1 rounded-t-lg'>
+      {/* <div className='w-full bg-gradient-to-r from-slate-600 to-slate-800 text-white px-2 py-1 rounded-t-lg'>
         <p className="text-xl font-semibold tracking-wide italic">Audio Player</p>
-      </div>
-      <div className='px-3 md:px-6 pb-6 w-full flex flex-col'>
+      </div> */}
+      <div className='mb-2 w-full flex flex-col'>
         <audio
           ref={audioRef}
           src={url}
@@ -210,8 +210,8 @@ const AudioPlayer = ({ url }: AudioPlayerProps): JSX.Element => {
 
         {/* Controls grid */}
         <div className="flex flex-row justify-between items-center w-full">
-          {/* Speed Control */}
-          <PlaybackSpeed playbackRate={playbackRate} setPlaybackRate={setPlaybackRate}/>
+          {/* Speed Control
+          <PlaybackSpeed playbackRate={playbackRate} setPlaybackRate={setPlaybackRate}/> */}
 
           {/* Volume Control */}
           <VolumeBar volume={volume} handleVolumeChange={handleVolumeChange}/>

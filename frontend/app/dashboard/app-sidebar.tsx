@@ -54,8 +54,8 @@ const data = {
           isActive: true,
         },
         {
-          title: "Another Story",
-          url: "/dashboard/multilingual-stories/another-story",
+          title: "A Monster Story",
+          url: "/dashboard/multilingual-stories/a-monster-story",
         },
         {
           title: "Examples",
