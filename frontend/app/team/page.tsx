@@ -5,6 +5,7 @@ export default function Team() {
   const teamData = [
     { university: 'University of Luxemburg', members: [
       {name: 'Claudine Kirsch', role: 'Project Manager', image: '/images/people/Claudine_Kirsch.webp' },
+      {name: 'Nancy Morys', role: 'Language Education', image: '/images/people/Nancy_MORYS.webp' },
       {name: 'Carole  Dording', role: 'Language Education', image: '/images/people/Carole_Dording.webp' },
     ],},
 

@@ -55,7 +55,7 @@ const data = {
         },
         {
           title: "Another Story",
-          url: "#",
+          url: "/dashboard/multilingual-stories/another-story",
         },
         {
           title: "Examples",

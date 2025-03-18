@@ -39,38 +39,7 @@ export default function Page() {
 
   return (
     <DashboardLayout breadcrumbItems={breadcrumbItems}>
-      <div className="flex flex-col items-center gap-6">
-        <Carousel setApi={setApi} className="w-full max-w-md">
-          <CarouselContent>
-            <CarouselItem>
-              <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <span className="text-4xl font-semibold">A</span>
-                </CardContent>
-              </Card>
-            </CarouselItem>
-            <CarouselItem>
-              <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <span className="text-4xl font-semibold">B</span>
-                </CardContent>
-              </Card>
-            </CarouselItem>
-            <CarouselItem>
-              <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <span className="text-4xl font-semibold">C</span>
-                </CardContent>
-              </Card>
-            </CarouselItem>
-          </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
-        </Carousel>
-        <div className="text-center mb-2">
-          Slide {current} of {count}
-        </div>
-        
+        <div className="flex flex-col items-center gap-6">
         <div className="w-full max-w-md">
           <Button 
             variant="outline" 

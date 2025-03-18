@@ -80,7 +80,7 @@ export default function NavBar() {
                                     <span className="sr-only">Toggle Menu</span>
                                 </Button>
                             </SheetTrigger>
-                            <SheetContent side="right" className="pl-8">
+                            <SheetContent side="right" className="pl-">
                                 <SheetHeader>
                                     <SheetTitle>Menu</SheetTitle>
                                     <SheetDescription>
