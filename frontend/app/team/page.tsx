@@ -1,6 +1,4 @@
 import Image from 'next/image'
-import {User} from 'lucide-react'
-
 export default function Team() {
   const teamData = [
     { university: 'University of Luxemburg', members: [
