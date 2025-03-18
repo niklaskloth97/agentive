@@ -36,7 +36,7 @@ import React from "react"
         setCurrent(api.selectedScrollSnap() + 1)
         log("Current page:" + current)
       })
-    }, [api])
+    }, [api, count, current]);
   
     return (
       <Carousel setApi={setApi}>

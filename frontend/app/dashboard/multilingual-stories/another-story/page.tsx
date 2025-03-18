@@ -1,12 +1,5 @@
 "use client"
 import { DashboardLayout } from "@/components/DashboardLayout"
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
 import { type CarouselApi } from "@/components/ui/carousel"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -19,9 +12,9 @@ export default function Page() {
     { label: "A dino story", href: "/dashboard/multilingual-stories/a-dino-story" }
   ];
 
-  const [api, setApi] = useState<CarouselApi>()
+  const [api] = useState<CarouselApi>()
   const [current, setCurrent] = useState(0)
-  const [count, setCount] = useState(0)
+  const [,setCount] = useState(0)
   const [isCardVisible, setIsCardVisible] = useState(false)
 
   useEffect(() => {
