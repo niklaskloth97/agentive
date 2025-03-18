@@ -8,6 +8,7 @@ import LanguageSelector from "@/components/LanguageSelector";
 import LanguageAudioPlayer from "@/components/LanguageAudioPlayer";
 import LanguageAwarePdfViewer from "@/components/LanguageAwarePdfViewer";
 import { Button } from "@/components/ui/button";
+import { ActivitySelection } from "@/components/ActivitySelection";
 
 const storyContent = {
   en: {
@@ -89,7 +90,7 @@ export default function Page() {
             >
                <LanguageAwarePdfViewer 
                 contentMap={storyContent} 
-                defaultHeight={1000} 
+                defaultHeight={800} 
               />
             </CollapsibleCard>
           </div>
@@ -138,8 +139,7 @@ export default function Page() {
               title="Follow-up activities"
               className="w-full"
             >
-              <p>Activities for language learning.</p>
-              <Button className="w-full mt-2">Start Activities</Button>
+              <ActivitySelection />
             </CollapsibleCard>
           </div>
         </div>

@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/carousel";
 import { type CarouselApi } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
-import {NavigationMenuDemo} from "@/components/ActivitySelection";
+import {ActivitySelection} from "@/components/ActivitySelection";
 import Image from "next/image";
 
 const storyContent = {
@@ -123,7 +123,7 @@ export default function Page() {
               </a>
               </div>
               <div className="mt-4">
-                <NavigationMenuDemo />
+                <ActivitySelection />
               </div>
             </div>
             </div>
