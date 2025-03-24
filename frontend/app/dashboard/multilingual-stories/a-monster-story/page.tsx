@@ -9,6 +9,11 @@ import LanguageAudioPlayer from "@/components/LanguageAudioPlayer";
 import LanguageAwarePdfViewer from "@/components/LanguageAwarePdfViewer";
 import { Button } from "@/components/ui/button";
 import { ActivitySelection } from "@/components/ActivitySelection";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import { Card, CardContent } from "@/components/ui/card";
+
+const images = [
+"/images/stories/pirate-story/1.webp", "/images/stories/pirate-story/2.webp", "/images/stories/pirate-story/3.webp", "/images/stories/pirate-story/4.webp"]
 
 const storyContent = {
   en: {
@@ -71,6 +76,8 @@ export default function Page() {
     Object.entries(storyContent).map(([key, value]) => [key, { url: value.audioUrl }])
   );
 
+
+  
   return (
     <LanguageProvider 
       defaultLanguage="en" 
@@ -80,7 +87,7 @@ export default function Page() {
         <div className="flex justify-end mb-4">
           
         </div>
-        <h1 className="text-2xl font-bold">Monster Story</h1>
+        <h1 className="text-2xl font-bold ml-3">Monster Story</h1>
         <div className="flex flex-col md:flex-row w-full gap-4">
           {/* Left Column - 75% */}
           <div className="w-full md:w-3/4">
@@ -93,6 +100,26 @@ export default function Page() {
                 defaultHeight={1070} 
               />
             </CollapsibleCard>
+            <CollapsibleCard 
+              title="View the pictures only"
+              defaultOpen={false}
+            >
+              <Carousel className="w-full">
+                <CarouselContent>
+                  {images.map((image: string, index: number) => (
+                    <CarouselItem key={index}>
+                      <Card>
+                        <CardContent className="flex p-4 items-center justify-center">
+                          <img src={image} alt={`Story scene ${index + 1}`} />
+                        </CardContent>
+                      </Card>
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                <CarouselPrevious />
+                <CarouselNext />
+              </Carousel>
+              </CollapsibleCard>
           </div>
           
           {/* Right Column - 25% */}

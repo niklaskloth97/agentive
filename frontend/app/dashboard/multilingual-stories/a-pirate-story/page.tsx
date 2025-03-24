@@ -11,8 +11,18 @@ import {
 } from "@/components/ui/carousel";
 import { type CarouselApi } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
-import {ActivitySelection} from "@/components/ActivitySelection";
+import { ActivitySelection } from "@/components/ActivitySelection";
 import Image from "next/image";
+import { Dialog, DialogContent, DialogClose } from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
+import { Maximize2, X, Volume2, Download } from "lucide-react";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 const storyContent = {
   en: {
@@ -34,15 +44,19 @@ const storyContent = {
 
 export default function Page() {
   const [api, setApi] = useState<CarouselApi>();
+  const [fullscreenApi, setFullscreenApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
   const [count, setCount] = useState(0);
-  const [selectedLanguage] = useState<keyof typeof storyContent>("en");
+  const [selectedLanguage, setSelectedLanguage] = useState<keyof typeof storyContent>("en");
+  const [audioLanguage, setAudioLanguage] = useState<keyof typeof storyContent>("en");
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
   const breadcrumbItems = [
     { label: "Multilingual Stories", href: "/dashboard/stories" },
     { label: "A pirate story", href: "/dashboard/multilingual-stories/a-pirate-story" }
   ];
 
+  // Handle regular carousel
   useEffect(() => {
     if (!api) return;
 
@@ -54,30 +68,46 @@ export default function Page() {
     });
   }, [api]);
 
+  // Sync fullscreen carousel with main carousel
+  useEffect(() => {
+    if (!fullscreenApi || !api) return;
+    
+    // When opening fullscreen, sync positions
+    fullscreenApi.scrollTo(api.selectedScrollSnap());
+    
+    // Sync when navigating in fullscreen
+    fullscreenApi.on("select", () => {
+      api.scrollTo(fullscreenApi.selectedScrollSnap());
+    });
+  }, [fullscreenApi, api, isFullscreen]);
+
   return (
     <DashboardLayout breadcrumbItems={breadcrumbItems}>
       <div className='w-full flex flex-col gap-8 px-1 md:px-2 xl:px-2 my-4'>
-        <div className='w-full max-w-md mx-auto'>
-          {/* <LanguageAudioPlayer 
-            audioSources={storyContent}
-            defaultLanguage="en"
-            onLanguageChange={(language: string) => setSelectedLanguage(language as keyof typeof storyContent)}
-          /> */}
-        </div>
-
-        <div className="w-full max-w-3xl mx-auto">
+        <div className='w-full max-w-3xl mx-auto relative'>
+          <div className="absolute top-2 right-2 z-10">
+            <Button 
+              variant="outline" 
+              size="icon" 
+              className="bg-white/80 hover:bg-white"
+              onClick={() => setIsFullscreen(true)}
+            >
+              <Maximize2 className="h-4 w-4" />
+            </Button>
+          </div>
+          
           <Carousel setApi={setApi} className="w-full">
             <CarouselContent>
               {storyContent[selectedLanguage].images.map((image: string, index: number) => (
-                <CarouselItem key={index}>
+                <CarouselItem key={`${selectedLanguage}-${index}`}>
                   <Card>
                     <CardContent className="flex p-4 items-center justify-center">
                       <Image
-                      src={image} 
-                      alt={`Story scene ${index + 1}`}
-                      width={400}
-                      height={400}
-                      className="object-cover rounded-lg"
+                        src={image} 
+                        alt={`Story scene ${index + 1}`}
+                        width={400}
+                        height={400}
+                        className="object-cover rounded-lg"
                       />
                     </CardContent>
                   </Card>
@@ -91,6 +121,95 @@ export default function Page() {
             Scene {current} of {count}
           </div>
         </div>
+        
+        {/* Fullscreen dialog */}
+        <Dialog open={isFullscreen} onOpenChange={setIsFullscreen}>
+          <DialogContent className="max-w-[95vw] w-[95vw] h-[90vh] max-h-[90vh]">
+            <DialogClose className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground">
+              <X className="h-6 w-6" />
+              <span className="sr-only">Close</span>
+            </DialogClose>
+            
+            <div className="flex flex-col h-full gap-6">
+              <div className="flex flex-col gap-2">
+                <div className="flex justify-between items-center">
+                  <div className="flex items-center gap-2">
+                    <Volume2 className="h-5 w-5" />
+                    <Select 
+                      value={audioLanguage as string} 
+                      onValueChange={(value) => setAudioLanguage(value as keyof typeof storyContent)}
+                    >
+                      <SelectTrigger className="w-[180px]">
+                        <SelectValue placeholder="Select audio language" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {Object.entries(storyContent).map(([key, value]) => (
+                          <SelectItem key={key} value={key}>{value.label}</SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+                  <a 
+                    href={storyContent[audioLanguage].url} 
+                    download 
+                    className="flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800"
+                  >
+                    <Download className="h-4 w-4" />
+                    Download audio
+                  </a>
+                </div>
+                
+                <audio 
+                  controls 
+                  src={storyContent[audioLanguage].url}
+                  className="w-full"
+                ></audio>
+              </div>
+              
+              <div className="flex justify-end items-center mb-2">
+                <div className="flex items-center gap-2">
+                  <span className="text-sm">Image language:</span>
+                  <Select 
+                    value={selectedLanguage as string} 
+                    onValueChange={(value) => setSelectedLanguage(value as keyof typeof storyContent)}
+                  >
+                    <SelectTrigger className="w-[180px]">
+                      <SelectValue placeholder="Select image language" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {Object.entries(storyContent).map(([key, value]) => (
+                        <SelectItem key={key} value={key}>{value.label}</SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+              </div>
+              
+              <div className="flex-1 min-h-0">
+                <Carousel setApi={setFullscreenApi} className="h-full">
+                  <CarouselContent className="h-full">
+                    {storyContent[selectedLanguage].images.map((image: string, index: number) => (
+                      <CarouselItem key={`fullscreen-${selectedLanguage}-${index}`} className="h-full">
+                        <div className="flex items-center justify-center h-full">
+                          <Image
+                            src={image} 
+                            alt={`Story scene ${index + 1}`}
+                            width={800}
+                            height={600}
+                            className="object-contain max-h-full rounded-lg"
+                          />
+                        </div>
+                      </CarouselItem>
+                    ))}
+                  </CarouselContent>
+                  <CarouselPrevious className="left-4" />
+                  <CarouselNext className="right-4" />
+                </Carousel>
+              </div>
+            </div>
+          </DialogContent>
+        </Dialog>
+
         <div className="flex w-full mt-8">
           <div className="w-3/5">
             <embed
@@ -107,30 +226,28 @@ export default function Page() {
               <h2 className="text-lg font-semibold mb-2">Additional Stuff</h2>
               <p className="text-sm">This is just for testing...</p>
               <div className="mt-4 px-2 flex space-x-4">
-              <a 
-                href="/Strategic_Management_and_Public_Sector_Digitalization_Strategies v1.pdf" 
-                download 
-                className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
-              >
-                Download PDF
-              </a>
-              <a 
-                href={storyContent[selectedLanguage].url} 
-                download 
-                className="inline-block bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600"
-              >
-                Download Audio
-              </a>
+                <a 
+                  href="/Strategic_Management_and_Public_Sector_Digitalization_Strategies v1.pdf" 
+                  download 
+                  className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+                >
+                  Download PDF
+                </a>
+                <a 
+                  href={storyContent[selectedLanguage].url} 
+                  download 
+                  className="inline-block bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600"
+                >
+                  Download Audio
+                </a>
               </div>
               <div className="mt-4">
                 <ActivitySelection />
               </div>
             </div>
-            </div>
           </div>
-          
         </div>
-      
+      </div>
     </DashboardLayout>
   );
 }

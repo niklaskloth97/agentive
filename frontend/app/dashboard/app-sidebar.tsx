@@ -57,38 +57,26 @@ const data = {
           title: "A Monster Story",
           url: "/dashboard/multilingual-stories/a-monster-story",
         },
-        {
-          title: "Examples",
-          url: "#",
-        },
       ],
     },
     {
-      title: "A dino story",
+      title: "Follow-up activities",
       url: "#",
       items: [
         {
-          title: "Dino on a trip",
+          title: "Language Awareness",
           url: "#",
         },
         {
-          title: "Home alone",
+          title: "Vocabular Boost",
           url: "#",
         },
         {
-          title: "The football match",
+          title: "Intercultural Awareness",
           url: "#",
         },
         {
-          title: "Dino goes for a swim",
-          url: "#",
-        },
-        {
-          title: "Dino at a doctor",
-          url: "#",
-        },
-        {
-          title: "Shopping tour",
+          title: "Early Literacy",
           url: "#",
         },
       ],

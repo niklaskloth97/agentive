@@ -5,6 +5,8 @@ export default function Team() {
       {name: 'Claudine Kirsch', role: 'Project Manager', image: '/images/people/Claudine_Kirsch.webp' },
       {name: 'Nancy Morys', role: 'Language Education', image: '/images/people/Nancy_MORYS.webp' },
       {name: 'Carole  Dording', role: 'Language Education', image: '/images/people/Carole_Dording.webp' },
+      {name: 'Angélique Quintus', role: 'Language Education', image: '/images/people/Angelique_Quintus.webp' },
+      {name: 'Jeanne Letsch', role: 'Language Education', image: '/images/people/Jeanne_Letsch.webp' },
     ],},
 
     { university: 'University of Muenster', members: [
