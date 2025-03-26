@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button";
 import { ActivitySelection } from "@/components/ActivitySelection";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
+import Image from "next/image";
 
 const images = [
 "/images/stories/pirate-story/1.webp", "/images/stories/pirate-story/2.webp", "/images/stories/pirate-story/3.webp", "/images/stories/pirate-story/4.webp"]
@@ -18,14 +19,14 @@ const images = [
 const storyContent = {
   en: {
     label: "English",
-    audioUrl: "/audio/Free_Test_Data_1MB_MP3.mp3",
-    pdfUrl: "/Monster story example_october6.pdf",
+    audioUrl: "/audio/test-en.opus",
+    pdfUrl: "/learning-material/test-english.pdf",
     images: ["/images/stories/monster-story/1.webp", "/images/stories/monster-story/2.webp"]
   },
   de: {
     label: "German",
-    audioUrl: "/audio/ALEC BENJAMIN - LET ME DOWN SLOWLY.mp3",
-    pdfUrl: "/Memo_Group_1.1_Data_and_knowing.pdf",
+    audioUrl: "/audio/test-de.opus",
+    pdfUrl: "/learning-material/test-german.pdf",
     images: ["/images/stories/monster-story/1-de.webp", "/images/stories/monster-story/2-de.webp"]
   },
   it: {
@@ -110,7 +111,7 @@ export default function Page() {
                     <CarouselItem key={index}>
                       <Card>
                         <CardContent className="flex p-4 items-center justify-center">
-                          <img src={image} alt={`Story scene ${index + 1}`} />
+                          <Image src={image} alt={`Story scene ${index + 1}`} />
                         </CardContent>
                       </Card>
                     </CarouselItem>

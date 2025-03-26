@@ -27,17 +27,17 @@ import {
 const storyContent = {
   en: {
     label: "English",
-    url: "/audio/Free_Test_Data_1MB_MP3.mp3",
+    url: "/audio/test-en.opus",
     images: ["/images/stories/pirate-story/1.webp", "/images/stories/pirate-story/2.webp", "/images/stories/pirate-story/3.webp", "/images/stories/pirate-story/4.webp"]
   },
   de: {
     label: "Deutsch",
-    url: "/audio/ALEC BENJAMIN - LET ME DOWN SLOWLY.mp3",
+    url: "/audio/test-de.opus",
     images: ["/images/stories/pirate-story/1.png", "/images/stories/pirate-story/.png", "/images/pirate3-de.jpg"]
   },
   es: {
     label: "Español",
-    url: "/audio/pirate-story-es.mp3",
+    url: "/audio/test-en.opus",
     images: ["/images/pirate1-es.jpg", "/images/pirate2-es.png", "/images/pirate3-es.jpg"]
   }
 };
