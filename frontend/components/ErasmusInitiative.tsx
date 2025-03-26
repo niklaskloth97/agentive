@@ -2,20 +2,20 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { Button } from "@/components/ui/button"; // Adjust import if needed
+import { Button } from "@/components/ui/button";
 
 export default function ErasmusInitiative() {
   const [expanded, setExpanded] = useState(false);
 
   return (
     <div className="flex flex-col md:flex-row-reverse items-center gap-12 mt-12 mb-12">
-      <Image src="/erasmus.jpg" alt="EU Initiative" width={500} height={300} className="rounded-lg" />
+      <Image src="/images/eu-footer.svg" alt="EU Initiative" width={500} height={300} className="rounded-lg" />
 
       <div className="md:w-1/2">
         <h2 className="text-lg font-semibold mb-2">An EU-Funded Erasmus+ Initiative</h2>
 
-        <p className="text-gray-600 mb-4">
-          The AGENTIVE project is a groundbreaking initiative funded by the Erasmus+ programme of the European Union.
+        <p className="text-gray-600 text-justify mb-4">
+          The AGENTIVE project is a initiative funded by the Erasmus+ programme of the European Union.
           It unites universities and organizations from Luxembourg, Greece, Germany, Switzerland, Slovenia, and Italy to develop innovative multilingual educational resources.
           <br /><br />
           
@@ -28,7 +28,7 @@ export default function ErasmusInitiative() {
           )}
         </p>
 
-        <Button variant="outline" onClick={() => setExpanded(!expanded)}>
+        <Button variant="link" onClick={() => setExpanded(!expanded)}>
           {expanded ? "Read Less" : "Read More"}
         </Button>
       </div>

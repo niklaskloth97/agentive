@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"
+import VisionCard from "@/components/VisionCard";
 import { FaGlobeEurope, FaUsers, FaBookOpen, FaChalkboardTeacher } from "react-icons/fa";
 import SectionWithIcon from "@/components/SectionWithIcon"; // Ensure this is a named export in SectionWithIcon.tsx
 import Objectives from "@/components/ObjectiveCards"; // Ensure this is a named export in Objectives.tsx
@@ -10,25 +11,19 @@ import InnovationImpact from "@/components/Interactions"; // Ensure this is a na
 import ErasmusInitiative from "@/components/ErasmusInitiative"; // Import the component
 
 
+const visionItems = [
+  { title: "Empowering Multilingual Growth", color: "text-blue-600", description: "AGENTIVE equips children with tools to navigate multilingual environments." },
+  { title: "Bridging Language Education Gaps", color: "text-green-600", description: "Providing accessible, evidence-based resources for multilingual literacy development." },
+  { title: "Innovative Learning & Collaboration", color: "text-purple-600", description: "Using pedagogical sets, a digital platform, and professional training to foster collaboration." }
+];
+
 export default function About() {
   return (
     <div className="container mx-auto py-8 px-4">
-      <h1 className="text-3xl font-bold text-center mb-6">About the Project: AGENTIVE</h1>
-      <h2 className="text-xl font-semibold text-center mb-8">Stimulating Multilingual Learning in Early Childhood Education</h2>
-      
-      {/* Vision Section */}
-      <div className="bg-gray-100 p-10 rounded-xl shadow-lg">
-        <h2 className="text-3xl font-bold text-center mb-6">Our Vision</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {visionItems.map((item, index) => (
-            <div key={index} className="p-6 bg-white rounded-2xl shadow-md text-center">
-              <h3 className={`text-xl font-bold ${item.color}`}>{item.title}</h3>
-              <p className="mt-2 text-gray-700">{item.description}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-
+      <VisionCard 
+        title="Our Vision" 
+        items={visionItems} 
+      />
 {/* EU Initiative */}
     <div>
       <ErasmusInitiative />  
@@ -62,8 +57,3 @@ export default function About() {
   );
 }
 
-const visionItems = [
-  { title: "🔹 Empowering Multilingual Growth", color: "text-blue-600", description: "AGENTIVE equips children with tools to navigate multilingual environments." },
-  { title: "🔹 Bridging Language Education Gaps", color: "text-green-600", description: "Providing accessible, evidence-based resources for multilingual literacy development." },
-  { title: "🔹 Innovative Learning & Collaboration", color: "text-purple-600", description: "Using pedagogical sets, a digital platform, and professional training to foster collaboration." }
-];
