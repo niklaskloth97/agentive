@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { cn } from '@/lib/utils';
-import React, {ReactNode} from 'react';
+import React from 'react';
 
 interface SectionWithIconProps {
   icon?: React.ReactNode;

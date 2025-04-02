@@ -1,16 +1,12 @@
 "use client";
 
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import { motion } from "framer-motion";
+
 import VisionCard from "@/components/VisionCard";
-import { FaGlobeEurope, FaUsers, FaBookOpen, FaChalkboardTeacher, FaPeopleArrows, FaHandshake } from "react-icons/fa";
+import { FaGlobeEurope, FaBookOpen, FaHandshake } from "react-icons/fa";
 import SectionWithIcon from "@/components/SectionWithIcon";
-import Objectives from "@/components/ObjectiveCards";
-import InnovationImpact from "@/components/Interactions";
+
 import FlexSection from "@/components/FlexSection";
-import { text } from "stream/consumers";
-import { Description } from "@radix-ui/react-dialog";
+
 
 const visionItems = [
   { title: "Empowering Multilingual Growth", color: "text-primary", description: "AGENTIVE equips children with tools to navigate multilingual environments." },

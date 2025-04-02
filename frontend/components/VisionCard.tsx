@@ -1,7 +1,7 @@
 "use client";
 
 import { ReactNode } from "react";
-import { Card, CardTitle } from "./ui/card";
+import { Card} from "./ui/card";
 import { cn } from "@/lib/utils";
 
 interface VisionItem {
