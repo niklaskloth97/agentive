@@ -8,13 +8,59 @@ interface SectionWithIconProps {
   icon?: React.ReactNode;
   title: string;
   description: string;
+  color?: string;
   className?: string;
 }
 
-const SectionWithIcon: React.FC<SectionWithIconProps> = ({ icon, title, description, className }) => {
+interface ColorClasses {
+  textcolor: string;
+  backgroundcolor: string;
+}
+
+function transformColor(color: string = "blue"): ColorClasses {
+  // If color is empty or undefined, use blue
+  if (!color) {
+    color = "blue";
+  }
+  
+  // List of valid Tailwind colors
+  const validColors = [
+    "slate", "gray", "zinc", "neutral", "stone", "red", "orange", 
+    "amber", "yellow", "lime", "green", "emerald", "teal", "cyan", 
+    "sky", "blue", "indigo", "violet", "purple", "fuchsia", "pink", "rose"
+  ];
+  
+  // Check if color is valid, otherwise use blue
+  if (!validColors.includes(color)) {
+    color = "blue";
+  }
+  console.log(`Using color: ${color}`);
+  return {
+    textcolor: `text-${color}-700`,
+    backgroundcolor: `bg-${color}-50`
+  };
+}
+
+const SectionWithIcon: React.FC<SectionWithIconProps> = ({ 
+  icon, 
+  title, 
+  description, 
+  color,
+  className 
+}) => {
+  const colors = transformColor(color);
+  
   return (
-    <motion.div whileHover={{ scale: 1.02 }} className={cn("text-center bg-blue-50 p-8 rounded-2xl shadow-md my-8", className)}>
-      <h2 className="text-3xl font-bold text-blue-700 mb-4 flex items-center justify-center gap-3">
+    <motion.div 
+      whileHover={{ scale: 1.02 }} 
+      className={cn(
+        "text-center p-8 rounded-2xl border shadow-md my-8", 
+        colors.backgroundcolor, 
+        colors.textcolor,
+        className
+      )}
+    >
+      <h2 className="text-2xl font-bold mb-4 flex items-center justify-center gap-3">
         {icon} {title}
       </h2>
       <p className="text-lg max-w-4xl mx-auto">{description}</p>

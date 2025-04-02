@@ -63,21 +63,23 @@ export default function About() {
             icon={<FaHandshake className="h-20 w-20" />}
             title="Collaboration Across Sectors" 
             description="Led by Prof. Dr. Claudine Kirsch at the University of Luxembourg, AGENTIVE brings together the University of Münster, the Free University of Bolzano, the University of Teacher Education of the Grisons (PHGR), the University of Primorska and Web2Learn. This consortium fosters synergies between academia and schools to create innovative multilingual education material." 
+            color="purple"
           />
         </div>
         
         <div className="flex flex-col h-full">
           <SectionWithIcon 
-            className="h-full"
+            className="h-full text-violet-700 bg-violet-50"
             icon={<FaGlobeEurope className="h-20 w-20 " />} 
             title="A multilingual Europe" 
             description="In regions like Luxembourg, Switzerland, Tyrol and Primorska, multiple languages are spoken side by side and children may learn two societal languages from an early age through daily interactions or language learning in preschool. Additionally, migration patterns across Europe have increased the language diversity in societies and classrooms." 
+            
           />
         </div>
         
         <div className="flex flex-col h-full">
           <SectionWithIcon 
-            className="h-full"
+            className="h-full bg-slate-200 text-slate-700"
             icon={<FaBookOpen className="w-20 h-20" />} 
             title="Open Access to Resources" 
             description="One of AGENTIVE's core principles is openness. All educational materials developed through the project will be freely accessible, ensuring that teachers, schools, and parents can integrate them directly into their practice. The digital resources are designed to be flexible and modular, enabling educators to tailor them to specific needs." 
@@ -89,6 +91,7 @@ export default function About() {
 
       <div className="mt-12">
           <VisionCard 
+          className=""
           title="Objectives" 
           items={objectives} 
         />
