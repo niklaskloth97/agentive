@@ -14,6 +14,7 @@ export default function Team() {
       { name: 'Niklas Kloth', role: 'Platform Development', image: '/images/people/niklas-kloth.webp' },
       { name: 'Mara Burger', role: 'Platform Coordination', image: '/images/people/Mara_Burger.webp' },
       { name: 'Helena Kaiser', role: 'Platform Development Assistant', image: '/images/people/Helena_Kaiser.jpeg' },
+      { name: 'Alice Fiolka', role: 'Platform Development Assistant', image: '/images/people/Alice-Fiolka.jpeg' },
     ],},
 
     { university: 'University of Teacher Education of Grisons', members: [
