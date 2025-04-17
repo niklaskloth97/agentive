@@ -11,7 +11,6 @@ import {
 } from "@/components/ui/carousel";
 import { type CarouselApi } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
-import { ActivitySelection } from "@/components/ActivitySelection";
 import Image from "next/image";
 import { Dialog, DialogContent, DialogClose } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
@@ -219,32 +218,6 @@ export default function Page() {
               height="1000"
               title="Embedded PDF Viewer"
             />
-          </div>
-          <div className="w-2/5 pl-4">
-            {/* Add your additional component here */}
-            <div className="bg-gray-100 p-4 rounded-lg shadow-md">
-              <h2 className="text-lg font-semibold mb-2">Additional Stuff</h2>
-              <p className="text-sm">This is just for testing...</p>
-              <div className="mt-4 px-2 flex space-x-4">
-                <a 
-                  href="/Strategic_Management_and_Public_Sector_Digitalization_Strategies v1.pdf" 
-                  download 
-                  className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
-                >
-                  Download PDF
-                </a>
-                <a 
-                  href={storyContent[selectedLanguage].url} 
-                  download 
-                  className="inline-block bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600"
-                >
-                  Download Audio
-                </a>
-              </div>
-              <div className="mt-4">
-                <ActivitySelection />
-              </div>
-            </div>
           </div>
         </div>
       </div>
