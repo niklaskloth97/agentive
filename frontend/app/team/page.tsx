@@ -15,6 +15,7 @@ export default function Team() {
       { name: 'Mara Burger', role: 'Platform Coordination', image: '/images/people/Mara_Burger.webp' },
       { name: 'Helena Kaiser', role: 'Platform Development Assistant', image: '/images/people/Helena_Kaiser.jpeg' },
       { name: 'Alice Fiolka', role: 'Platform Development Assistant', image: '/images/people/Alice-Fiolka.jpeg' },
+      { name: 'Tran Ha Linh Phan', role: 'Platform Development Assistant', image: '/images/people/Linh_Phan.jpg' },
     ],},
 
     { university: 'University of Teacher Education of Grisons', members: [
