@@ -121,34 +121,47 @@ export default function Page() {
                   These activities are designed to reinforce vocabulary and language concepts 
                   introduced in our stories. Each set of activities focuses on:
                 </p>
-                
-                <ul className="space-y-2 mb-6 list-disc pl-5">
-                  <li>Vocabulary reinforcement</li>
-                  <li>Language awareness exercises</li>
-                  <li>Intercultural understanding</li>
-                  <li>Early literacy development</li>
-                </ul>
 
                 <div className="bg-muted p-4 rounded-lg mt-6">
                   <h3 className="font-semibold mb-2">Featured Activities:</h3>
                   <div className="space-y-3">
                     <div className="flex items-center gap-3 p-2 bg-background rounded hover:bg-muted/80 transition cursor-pointer">
-                      <div className="bg-green-100 p-2 rounded">
-                        <span className="text-green-700 font-semibold text-sm">Voc</span>
+                      <div className="bg-green-100 p-2 rounded flex justify-center" style={{ width: '56px', minWidth: '56px' }}>
+                        <span className="text-green-700 font-semibold text-sm">PC</span>
                       </div>
                       <div>
-                        <h4 className="font-medium">Vocabulary Boost</h4>
-                        <p className="text-xs text-muted-foreground">Interactive matching and memory games</p>
+                        <h4 className="font-medium">Plurilingual Competence</h4>
+                        <p className="text-xs text-muted-foreground">Activities to develop skills across multiple languages</p>
                       </div>
                     </div>
                     
                     <div className="flex items-center gap-3 p-2 bg-background rounded hover:bg-muted/80 transition cursor-pointer">
-                      <div className="bg-blue-100 p-2 rounded">
+                      <div className="bg-blue-100 p-2 rounded flex justify-center" style={{ width: '56px', minWidth: '56px' }}>
                         <span className="text-blue-700 font-semibold text-sm">LA</span>
                       </div>
                       <div>
                         <h4 className="font-medium">Language Awareness</h4>
                         <p className="text-xs text-muted-foreground">Explore sounds and patterns across languages</p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-3 p-2 bg-background rounded hover:bg-muted/80 transition cursor-pointer">
+                      <div className="bg-purple-100 p-2 rounded flex justify-center" style={{ width: '56px', minWidth: '56px' }}>
+                        <span className="text-purple-700 font-semibold text-sm">ICAU</span>
+                      </div>
+                      <div>
+                        <h4 className="font-medium">InterCultural Awareness and Understanding</h4>
+                        <p className="text-xs text-muted-foreground">Develop appreciation for cultural diversity</p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-3 p-2 bg-background rounded hover:bg-muted/80 transition cursor-pointer">
+                      <div className="bg-amber-100 p-2 rounded flex justify-center" style={{ width: '56px', minWidth: '56px' }}>
+                        <span className="text-amber-700 font-semibold text-sm">ELS</span>
+                      </div>
+                      <div>
+                        <h4 className="font-medium">Early Literacy Skills</h4>
+                        <p className="text-xs text-muted-foreground">Foundation reading and writing activities</p>
                       </div>
                     </div>
                   </div>

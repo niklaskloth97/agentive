@@ -101,27 +101,7 @@ export default function Page() {
                 defaultHeight={1070} 
               />
             </CollapsibleCard>
-            <CollapsibleCard 
-              title="View the pictures only"
-              defaultOpen={false}
-            >
-              <Carousel className="w-full">
-                <CarouselContent>
-                  {images.map((image: string, index: number) => (
-                    <CarouselItem key={index}>
-                      <Card>
-                        <CardContent className="flex p-4 items-center justify-center">
-                          <Image src={image} alt={`Story scene ${index + 1}`} />
-                        </CardContent>
-                      </Card>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
-              </Carousel>
-              </CollapsibleCard>
-          </div>
+         </div>
           
           {/* Right Column - 25% */}
           <div className="w-full md:w-1/4 flex flex-col gap-4">
