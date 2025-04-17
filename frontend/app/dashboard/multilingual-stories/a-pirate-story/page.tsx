@@ -11,7 +11,6 @@ import {
 } from "@/components/ui/carousel";
 import { type CarouselApi } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
-import { ActivitySelection } from "@/components/ActivitySelection";
 import Image from "next/image";
 import { Dialog, DialogContent, DialogClose } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
