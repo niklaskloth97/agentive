@@ -26,22 +26,22 @@ const data = {
   navMain: [
     {
       title: "Getting Started",
-      url: "#",
+      url: "/dashboard/getting-started",
       items: [
         {
           title: "Introduction",
-          url: "#",
+          url: "/dashboard/getting-started/introduction",
           isActive: true
         },
         {
           title: "Project Structure",
-          url: "#",
+          url: "/dashboard/getting-started/project-structure",
         },
       ],
     },
     {
       title: "Multilingual Stories",
-      url: "multilingual-stories",
+      url: "/dashboard/multilingual-stories",
       items: [
         {
           title: "A pirate story",
@@ -50,7 +50,7 @@ const data = {
         },
         {
           title: "A dino story",
-          url: "a-dino-story",
+          url: "/dashboard/multilingual-stories/a-dino-story",
           isActive: true,
         },
         {
@@ -65,31 +65,31 @@ const data = {
     },
     {
       title: "A dino story",
-      url: "#",
+      url: "/dashboard/multilingual-stories/a-dino-story",
       items: [
         {
           title: "Dino on a trip",
-          url: "#",
+          url: "/dashboard/multilingual-stories/a-dino-story/dino-on-a-trip",
         },
         {
           title: "Home alone",
-          url: "#",
+          url: "/dashboard/multilingual-stories/a-dino-story/home-alone",
         },
         {
           title: "The football match",
-          url: "#",
+          url: "/dashboard/multilingual-stories/a-dino-story/the-football-match",
         },
         {
           title: "Dino goes for a swim",
-          url: "#",
+          url: "/dashboard/multilingual-stories/a-dino-story/dino-goes-for-a-swim",
         },
         {
           title: "Dino at a doctor",
-          url: "#",
+          url: "/dashboard/multilingual-stories/a-dino-story/dino-at-a-doctor",
         },
         {
           title: "Shopping tour",
-          url: "#",
+          url: "/dashboard/multilingual-stories/a-dino-story/shopping-tour",
         },
       ],
     },
