@@ -45,10 +45,10 @@ export default function NavBar() {
 
     return (
         <nav className='sticky top-0 z-50'>
-            <header className="w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-                <div className="container flex h-14 items-center max-w-7xl mx-auto px-4">
+           <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+                <div className="container mx-auto h-14 flex items-center">
                     <div className="flex md:flex">
-                        <Link className="flex items-center space-x-8 px-6 " href="/">
+                        <Link className="flex items-center space-x-8 px-6" href="/">
                             <span className="font-bold sm:inline-block">AGENTIVE</span>
                         </Link>
                         {/* Hide navigation on mobile with hidden md:flex */}

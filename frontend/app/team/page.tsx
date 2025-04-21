@@ -56,8 +56,9 @@ export default function Team() {
   ]
 
   return (
-      <div className="container py-8 max-w-7xl mx-auto">
-        <h1 className="text-3xl font-bold mb-6">The Team</h1>
+      <div className="container mx-auto py-8 px-8">
+        <div className="container mx-auto">
+          <h1 className="text-3xl font-bold mb-6">The Team</h1>
         <h2 className="text-xl mb-8">The AGENTIVE project is made possible by:</h2>
           {teamData.map((group, groupIndex) => (
             <div key={groupIndex} className="mb-16">
@@ -87,5 +88,6 @@ export default function Team() {
           ))}
         </div>
       </div>
+    </div>
   )
 }

@@ -2,7 +2,6 @@
 "use client"
 
 import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
 import { DashboardLayout } from "@/components/DashboardLayout";
 import {
   Carousel,
@@ -23,7 +22,7 @@ export default function Page() {
 
     const breadcrumbItems = [
       { label: "Multilingual Stories", href: "/dashboard/multilingual-stories" },
-      { label: "A Dino story", href: "/dashboard/multilingual-stories/a-dino-story" },
+      { label: "Examples", href: "/dashboard/multilingual-stories/examples" },
     ];
   
     useEffect(() => {
@@ -41,20 +40,12 @@ export default function Page() {
       <DashboardLayout breadcrumbItems={breadcrumbItems} >
 
     <div className="container mx-auto py-8 px-8">
-            <h1 className="text-3xl font-bold mb-6 "> Leere Seite für A Dino story</h1>
+            <h1 className="text-3xl font-bold mb-6 "> Leere Seite für mehr Examples</h1>
       <h2 className="text-xl font-semibold ">  Unterüberschrift möglich für die bestimmte page</h2>
-      <h2 className="text-lg font-semibold mb-2">Ein Beispieltext</h2>
-           <p className="text-sm">Weitere Details, Informationen ....</p>  
-       <h2 className="text-lg font-semibold mb-2">Meet our other stories with our friend the dino</h2>
+      <h2 className="text-lg font-semibold mb-2">Some more examples...</h2>
            <p className="text-sm">Weitere Details, Informationen ....</p>
-           <Button className="w-full" variant="slate">
-                //Verweis auf andere Stories mit dem Dino
-                </Button>  
-         <h2 className="text-lg font-semibold mb-2">You already experienced all stories with our dino and can't get enough?</h2>
-                <p className="text-sm"> Meet our other friend e.g. the monster or the pirate... </p>
-                //eventuell hier Verweis auf andere Stories hinpacken
-        <h2 className="text-lg font-semibold mb-2">Sth. unclear and dino couldn't help?</h2>
-            <p className="text-sm">Contact us, mail Link </p>
+      <h2 className="text-lg font-semibold mb-2">You can't get enough? Meet our other friends, e.g. the monster or the pirate</h2>
+           <p className="text-sm">Weitere Details, Informationen ....</p>
     </div>
     </DashboardLayout>
      )}

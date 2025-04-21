@@ -1,6 +1,6 @@
 export default function About() {
     return (
-      <div className="container mx-auto py-8">
+      <div className="container mx-auto py-8 px-8">
         <h1 className="text-3xl font-bold mb-6">Kicking Off AGENTIVE – A Multilingual Education Adventure Begins
         </h1>
         <p className="text-gray-600 dark:text-white  font-semibold mb-4">From October 3rd to October 5th, the picturesque town of Brixen, hosted by the Free University of Bolzano, became the meeting point for an exciting pan-European initiative: the kickoff of the AGENTIVE project.</p>

@@ -22,8 +22,8 @@ export default function Page() {
     const [count, setCount] = useState(0);
 
     const breadcrumbItems = [
-      { label: "Multilingual Stories", href: "/dashboard/multilingual-stories" },
-      { label: "A Dino story", href: "/dashboard/multilingual-stories/a-dino-story" },
+      { label: "Getting Started", href: "/dashboard/getting-started" },
+      { label: "Project Structure", href: "/dashboard/getting-started/project-structure" }
     ];
   
     useEffect(() => {
@@ -41,20 +41,19 @@ export default function Page() {
       <DashboardLayout breadcrumbItems={breadcrumbItems} >
 
     <div className="container mx-auto py-8 px-8">
-            <h1 className="text-3xl font-bold mb-6 "> Leere Seite für A Dino story</h1>
+            <h1 className="text-3xl font-bold mb-6 "> Leere Seite für Project Structure</h1>
       <h2 className="text-xl font-semibold ">  Unterüberschrift möglich für die bestimmte page</h2>
-      <h2 className="text-lg font-semibold mb-2">Ein Beispieltext</h2>
-           <p className="text-sm">Weitere Details, Informationen ....</p>  
-       <h2 className="text-lg font-semibold mb-2">Meet our other stories with our friend the dino</h2>
-           <p className="text-sm">Weitere Details, Informationen ....</p>
-           <Button className="w-full" variant="slate">
-                //Verweis auf andere Stories mit dem Dino
-                </Button>  
-         <h2 className="text-lg font-semibold mb-2">You already experienced all stories with our dino and can't get enough?</h2>
-                <p className="text-sm"> Meet our other friend e.g. the monster or the pirate... </p>
-                //eventuell hier Verweis auf andere Stories hinpacken
-        <h2 className="text-lg font-semibold mb-2">Sth. unclear and dino couldn't help?</h2>
-            <p className="text-sm">Contact us, mail Link </p>
+      <h2 className="text-lg font-semibold mb-2">Description towards the structure</h2>
+              <p className="text-sm">more infos</p>
+      <h2 className="text-lg font-semibold mb-2">Zuständigkeiten-Team</h2>
+              <p className="text-sm">more infos</p>
+      <h2 className="text-lg font-semibold mb-2">Meet the Team:...</h2>
+              <Button className="w-full" variant="slate">
+                    // Link/Verweis auf die Seite Team bei AGENTIVE
+                    //title: "The Team"
+                     //url: "app/team"
+                    <p className="text-sm">more infos</p>
+                      </Button>
     </div>
     </DashboardLayout>
      )}

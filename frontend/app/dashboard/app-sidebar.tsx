@@ -26,22 +26,22 @@ const data = {
   navMain: [
     {
       title: "Getting Started",
-      url: "#",
+      url: "/dashboard/getting-started",
       items: [
         {
           title: "Introduction",
-          url: "#",
+          url: "/dashboard/getting-started/introduction",
           isActive: true
         },
         {
           title: "Project Structure",
-          url: "#",
+          url: "/dashboard/getting-started/project-structure",
         },
       ],
     },
     {
       title: "Multilingual Stories",
-      url: "multilingual-stories",
+      url: "/dashboard/multilingual-stories",
       items: [
         {
           title: "A pirate story",
@@ -50,7 +50,7 @@ const data = {
         },
         {
           title: "A dino story",
-          url: "a-dino-story",
+          url: "/dashboard/multilingual-stories/a-dino-story",
           isActive: true,
         },
         {
