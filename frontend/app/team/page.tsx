@@ -13,7 +13,7 @@ export default function Team() {
       { name: 'Jan vom Brocke', role: 'Platform Innovator', image: '/images/people/jan-vom-brocke.jpg' },
       { name: 'Niklas Kloth', role: 'Platform Development', image: '/images/people/niklas-kloth.webp' },
       { name: 'Mara Burger', role: 'Platform Coordination', image: '/images/people/Mara_Burger.webp' },
-      { name: 'Helena Kaiser', role: 'Platform Development Assistant', image: '/images/people/Helena_Kaiser.jpeg' },
+      { name: 'Helena Kaiser', role: 'Platform Development Assistant', image: '/images/people/Helena_Kaiser.webp' },
       { name: 'Alice Fiolka', role: 'Platform Development Assistant', image: '/images/people/Alice-Fiolka.jpeg' },
       { name: 'Tran Ha Linh Phan', role: 'Platform Development Assistant', image: '/images/people/Linh-Phan.jpeg' },
     ],},
