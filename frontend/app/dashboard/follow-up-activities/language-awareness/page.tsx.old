@@ -24,7 +24,7 @@ export default function Page() {
       {
         id: "monster-story",
         title: "Monster at the Hairdresser",
-        description: "Sound patterns and language comparisons",
+        description: "Follow-up activities for the Monster Story",
         image: "/images/stories/monster-story/monster.png",
         activities: [
           {
@@ -59,8 +59,8 @@ export default function Page() {
       {
         id: "pirate-story",
         title: "Pirate Adventure",
-        description: "Maritime vocabulary across languages",
-        image: "/images/stories/pirate-story/1.webp",
+        description: "Follow-up activities for the Pirate Story",
+        image: "/images/stories/pirate-story/4.webp",
         activities: [
           {
             id: "pirate-song",
@@ -94,8 +94,8 @@ export default function Page() {
       {
         id: "dino-story",
         title: "Daniel Dino Goes on Vacation",
-        description: "Travel vocabulary and expressions",
-        image: "/images/stories/dino-story/dino.webp",
+        description: "Follow-up activities for the Dino Story",
+        image: "/images/stories/dino-story/dino-adventure1.webp",
         activities: [
           {
             id: "dino-game",

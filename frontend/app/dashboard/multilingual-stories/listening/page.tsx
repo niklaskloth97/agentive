@@ -16,7 +16,7 @@ const storyContent: Record<string, StoryLanguageContent> = {
   en: {
     label: "English",
     audioUrl: "/audio/test-en.opus",
-    coverImage: "/images/stories/monster-story/1.webp"
+    coverImage: "/images/stories/monster-story/monster.png"
   },
   de: {
     label: "German",
@@ -104,13 +104,6 @@ export default function ListeningPage() {
               defaultOpen={true}
             >
               <LanguageSelector />
-            </CollapsibleCard>
-            
-            <CollapsibleCard 
-              title="Listen to audio"
-              defaultOpen={true}
-            >
-              <LanguageAudioPlayer audioSources={audioSources} />
             </CollapsibleCard>
 
             <CollapsibleCard 

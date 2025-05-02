@@ -59,15 +59,16 @@ export default function ListeningFrame({
           {title && (
             <h2 className="text-xl font-semibold mb-4">{title}</h2>
           )}
-          
-          <div className="mb-6">
-            <Image
-              src={storyContent[selectedLanguage]?.coverImage || ''}
-              alt="Story Cover"
-              width={800}
-              height={500}
-              className="rounded-lg object-contain w-full h-auto"
-            />
+          <div className="mb-6 flex justify-center">
+            <div className="max-w-2xl w-full">
+              <Image
+                src={storyContent[selectedLanguage]?.coverImage || ''}
+                alt="Story Cover"
+                width={800}
+                height={500}
+                className="rounded-lg object-contain w-full h-auto"
+              />
+            </div>
           </div>
           
           <div className="flex flex-col gap-3 bg-muted/20 rounded-lg p-4">
