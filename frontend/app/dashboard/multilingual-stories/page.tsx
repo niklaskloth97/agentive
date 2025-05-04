@@ -4,7 +4,6 @@ import Link from 'next/link'
 import { Headphones, BookOpen, Activity } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export default function Page() {
   const breadcrumbItems = [
@@ -35,7 +34,6 @@ export default function Page() {
       image: '/images/stories/monster-story/monster.png', 
       slug: 'a-monster-story',
       description: 'A funny story about a monster`s first trip to the hairdresser, introducing vocabulary about emotions and everyday activities.',
-
       languages: ['English', 'German', 'Spanish', 'Italian']
     },
   ]
@@ -44,85 +42,59 @@ export default function Page() {
     <DashboardLayout breadcrumbItems={breadcrumbItems}>
       <div className="container mx-auto py-4">
         <h1 className="text-3xl font-bold mb-6">Multilingual Stories</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {learningmaterial.map((story, index) => (
-            <Card key={index} className="overflow-hidden flex flex-col">
-              <div className="relative">
+            <Card key={index} className="overflow-hidden cursor-pointer hover:shadow-lg transition-shadow">
+              <div className="relative aspect-square">
                 <Image 
                   src={story.image} 
-                  alt={story.title} 
-                  width={400} 
-                  height={200} 
-                  className="w-full h-48 object-cover" 
+                  alt={story.title}
+                  fill
+                  className="object-cover" 
                 />
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                  <h2 className="text-xl font-semibold text-white">{story.title}</h2>
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-2">
+                  <h2 className="text-sm sm:text-base font-semibold text-white line-clamp-2">{story.title}</h2>
                 </div>
               </div>
               
-              <CardContent className="p-4 flex-1">
-                <p className="text-gray-600 mb-3">{story.description}</p>
-                <div className="mt-2">
-                  <div className="flex items-center text-xs text-muted-foreground">
-                    <p>Available in: </p>
-                    <div className="flex gap-1 ml-2">
-                      {story.languages.map((lang, i) => (
-                        <span key={i} className="bg-muted px-1.5 py-0.5 rounded text-xs">
-                          {lang}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
+<CardContent className="p-4 flex-1">
+                <p className="text-gray-600">{story.description}</p>
               </CardContent>
 
-              <CardFooter className="border-t bg-muted/20 p-0">
-                <Tabs defaultValue="listen" className="w-full">
-                  <TabsList className="w-full grid grid-cols-3">
-                    <TabsTrigger value="listen">
-                      <div className="flex items-center gap-1.5">
-                        <Headphones className="h-4 w-4" />
-                        <span>Listen</span>
-                      </div>
-                    </TabsTrigger>
-                    <TabsTrigger value="read">
-                      <div className="flex items-center gap-1.5">
-                        <BookOpen className="h-4 w-4" />
-                        <span>Read</span>
-                      </div>
-                    </TabsTrigger>
-                    <TabsTrigger value="activities">
-                      <div className="flex items-center gap-1.5">
-                        <Activity className="h-4 w-4" />
-                        <span>Activities</span>
-                      </div>
-                    </TabsTrigger>
-                  </TabsList>
-                  <TabsContent value="listen" className="p-3 border-t">
-                    <p className="text-sm text-muted-foreground mb-3">Listen to the story with audio narration</p>
-                    <Link href={`/dashboard/multilingual-stories/${story.slug}/listen`}>
-                      <Button size="sm" className="w-full">
-                        Listen to Story
-                      </Button>
-                    </Link>
-                  </TabsContent>
-                  <TabsContent value="read" className="p-3 border-t">
-                    <p className="text-sm text-muted-foreground mb-3">Read the illustrated storybook</p>
-                    <Link href={`/dashboard/multilingual-stories/${story.slug}/read`}>
-                      <Button size="sm" variant="outline" className="w-full">
-                        Open Storybook
-                      </Button>
-                    </Link>
-                  </TabsContent>
-                  <TabsContent value="activities" className="p-3 border-t">
-                    <p className="text-sm text-muted-foreground mb-3">Explore related learning activities</p>
-                    <Link href={`/dashboard/multilingual-stories/${story.slug}/activities`}>
-                      <Button size="sm" variant="secondary" className="w-full">
-                        View Activities
-                      </Button>
-                    </Link>
-                  </TabsContent>
-                </Tabs>
+              <CardFooter className="border-t bg-muted/20 p-4">
+                <div className="grid grid-cols-3 gap-2 w-full">
+                  <Link href={`/dashboard/multilingual-stories/${story.slug}/listen`} className="w-full">
+                    <Button 
+                      size="sm" 
+                      className="w-full flex items-center justify-center gap-1.5 bg-blue-500 hover:bg-blue-600"
+                    >
+                      <Headphones className="h-4 w-4" />
+                      <span>Listen</span>
+                    </Button>
+                  </Link>
+                  
+                  <Link href={`/dashboard/multilingual-stories/${story.slug}/read`} className="w-full">
+                    <Button 
+                      size="sm" 
+                      variant="outline"
+                      className="w-full flex items-center justify-center gap-1 bg-emerald-100 hover:bg-emerald-200 border-emerald-200 text-emerald-700"
+                    >
+                      <BookOpen className="h-3 w-3" />
+                      <span className="text-xs">Read</span>
+                    </Button>
+                  </Link>
+                  
+                  <Link href={`/dashboard/multilingual-stories/${story.slug}/activities`} className="w-full">
+                    <Button 
+                      size="sm" 
+                      variant="outline"
+                      className="w-full flex items-center justify-center gap-1 bg-amber-100 hover:bg-amber-200 border-amber-200 text-amber-700"
+                    >
+                      <Activity className="h-3 w-3" />
+                      <span className="text-xs">Activities</span>
+                    </Button>
+                  </Link>
+                </div>
               </CardFooter>
             </Card>
           ))}
