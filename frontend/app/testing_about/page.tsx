@@ -25,10 +25,10 @@ export default function AgentivePage() {
           <h2 className="text-3xl font-bold mb-6 text-center">What Can You Expect?</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="p-4 bg-gray-100 rounded-lg">
-              <p>This website is just the beginning - think of it as a sneak peek into what is to come. AGENTIVE aims to create resources that celebrate linguistic diversity, promote inclusion, and enable children to thrive in a multilingual world.</p>
+              <p>This website is just the beginning - think of it as a sneak peek into what is to come. AGENTIVE aims to create resources that celebrate linguistic diversity and enable teachers to create inclusive learning opportunities where children develop multilingual competence.</p>
             </div>
             <div className="p-4 bg-gray-100 rounded-lg">
-              <p>Our materials will be openly available under open-source licenses, such as Creative Commons, to ensure educators, parents, and schools can adapt and share them freely.</p>
+              <p>Our materials will be openly available, enabling teachers and parents to adapt and share them freely. </p>
             </div>
             <div className="p-4 bg-gray-100 rounded-lg">
               <p>Stay tuned as we develop and release these exciting resources in the coming months!</p>
@@ -43,7 +43,8 @@ export default function AgentivePage() {
           </div>
           <div className="md:w-1/2 p-6">
             <h2 className="text-3xl font-bold mb-4">Who Are We?</h2>
-            <p>AGENTIVE is a collaborative effort involving universities and organizations from Luxembourg, Switzerland, Greece, Slovenia, Germany, and Italy. Together, we’re leveraging expertise across academia, schools, and businesses to drive innovation in multilingual education.</p>
+            <p>AGENTIVE involves universities and organizations from Luxembourg, Switzerland, Greece, Slovenia, Germany and Italy. Together, we are leveraging expertise across academia, schools, and businesses to drive innovation in multilingual education. </p>
+            <a href="testing_about/about" className="mt-4 inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">About Us</a>
           </div>
         </section>
 
@@ -54,7 +55,7 @@ export default function AgentivePage() {
           </div>
           <div className="md:w-1/2 p-6">
             <h2 className="text-3xl font-bold mb-4">Curious About the Team Behind AGENTIVE?</h2>
-            <p>Our team is made up of passionate educators, researchers, and developers working together to make multilingual education accessible for everyone.</p>
+            <p>Our team is made up of passionate educators, teachers, and developers working together to make multilingual education accessible for everyone.</p>
             <a href="team" className="mt-4 inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">Check Out Our Team</a>
           </div>
         </section>
@@ -74,8 +75,8 @@ export default function AgentivePage() {
         {/* Stay Tuned Section */}
         <section className="text-left mt-16">
           <h2 className="text-3xl font-bold mb-4">Stay Tuned!</h2>
-          <p className="text-lg">AGENTIVE has started on 1st October. In the coming months, we will design 8 pedagogical sets comprising stories in multiple languages and materials, which we will unveil in the Summer.</p>
-          <p className="text-lg mt-2">Thanks for joining us on this journey—together, we’re shaping the future of early childhood multilingual education!</p>
+          <p className="text-lg">AGENTIVE has started on 1st October 2024. In the coming months, we will design 8 pedagogical sets comprising stories in multiple languages and materials, which we will unveil in the Summer.</p>
+          <p className="text-lg mt-2">Whether you’re a teacher, a parent, or simply curious about the world of multilingual education, there’s something here for you.</p>
         </section>
       </div>
     </>
