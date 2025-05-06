@@ -77,15 +77,7 @@ export default function ListeningPage() {
   return (
     <LanguageProvider defaultLanguage="en" availableLanguages={availableLanguages}>
       <DashboardLayout breadcrumbItems={breadcrumbItems}>
-        <div className="flex justify-between items-center mb-4">
-          <Button
-            variant="ghost"
-            onClick={() => router.back()}
-            className="flex items-center gap-1"
-          >
-            <ChevronLeft className="h-4 w-4" /> Back to Story
-          </Button>
-        </div>
+        
 
         <h1 className="text-2xl font-bold ml-3 mb-6">Listen to Monster Story</h1>
 
