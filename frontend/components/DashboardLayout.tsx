@@ -20,10 +20,11 @@ interface DashboardLayoutProps {
 export function DashboardLayout({ breadcrumbItems, children }: DashboardLayoutProps) {
   return (
     <SidebarProvider>
-      <AppSidebar className="h-[calc(100vh-4rem)] mt-14 z-10"/>
+      {/* <AppSidebar className="h-[calc(100vh-4rem)] mt-14 z-10"/> */}
+      <div className="inset-0 flex-1 px-20 z-10">
       <SidebarInset>
         <header className="flex h-16 shrink-0 items-center gap-2 border-b px-4">
-          <SidebarTrigger className="-ml-1" />
+          {/* <SidebarTrigger className="-ml-1" /> */}
           <Separator orientation="vertical" className="mr-2 h-4" />
           <DynamicBreadcrumb items={breadcrumbItems} />
         </header>
@@ -31,6 +32,7 @@ export function DashboardLayout({ breadcrumbItems, children }: DashboardLayoutPr
           {children}
         </div>
       </SidebarInset>
+      </div>
     </SidebarProvider>
   )
 }
