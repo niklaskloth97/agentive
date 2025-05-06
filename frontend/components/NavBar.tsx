@@ -1,4 +1,6 @@
 "use client"
+import { useRouter, usePathname } from 'next/navigation';
+import { useLocale } from 'next-intl';
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button'
@@ -11,12 +13,35 @@ import {
   SheetTrigger,
   SheetClose
 } from '@/components/ui/sheet'
+import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuTrigger,
+  } from '@/components/ui/dropdown-menu'
 import { Menu, Moon, Sun } from 'lucide-react'
+import { routing } from '@/i18n/routing'; // oder '@/routing' je nach Datei
+const { locales } = routing;
 
 export default function NavBar() {
     const [isDarkMode, setIsDarkMode] = useState(false)
     const [mounted, setMounted] = useState(false)
     const [isSheetOpen, setIsSheetOpen] = useState(false)
+    const router = useRouter();
+    const pathname = usePathname();
+
+    const changeLanguage = (newLocale: string) => {
+        const segments = pathname.split('/');
+      
+        if (segments.length > 1 && locales.includes(segments[1] as any)) {
+          segments[1] = newLocale;
+        } else {
+          segments.unshift(newLocale);
+        }
+      
+        router.push(segments.join('/'));
+      };
+    
 
     useEffect(() => {
         const savedTheme = localStorage.getItem('theme') || 'light';
@@ -70,6 +95,46 @@ export default function NavBar() {
                             {isDarkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
                             <span className="sr-only">Toggle Theme</span>
                         </Button>
+                          {/* 🌐 Language Dropdown */}
+                          <DropdownMenu>
+                            <DropdownMenuTrigger asChild>
+                            <Button
+                                variant="outline"
+                                size="icon"
+                                className="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0"
+                            >
+                                🌐
+                                <span className="sr-only">Language</span>
+                            </Button>
+                            </DropdownMenuTrigger>
+                            <DropdownMenuContent align="end">
+                            <DropdownMenuItem onClick={() => changeLanguage('en')}>
+                                English
+                            </DropdownMenuItem>
+                            <DropdownMenuItem onClick={() => changeLanguage('de')}>
+                                German
+                            </DropdownMenuItem>
+                            <DropdownMenuItem onClick={() => console.log('Language: Italian')}>
+                                Italian
+                            </DropdownMenuItem>
+                            <DropdownMenuItem onClick={() => console.log('Language: French')}>
+                                French
+                            </DropdownMenuItem>
+                            <DropdownMenuItem onClick={() => console.log('Language: Slovene')}>
+                                Slovene
+                            </DropdownMenuItem>
+                            <DropdownMenuItem onClick={() => console.log('Language: Luxembourgish')}>
+                                Luxembourgish
+                            </DropdownMenuItem>
+                            <DropdownMenuItem onClick={() => console.log('Language: Greek')}>
+                                Greek
+                            </DropdownMenuItem>
+                            <DropdownMenuItem onClick={() => console.log('Language: Local')}>
+                                Local
+                            </DropdownMenuItem>
+                            </DropdownMenuContent>
+                        </DropdownMenu>
+
                         <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
                             <SheetTrigger asChild>
                                 <Button 
