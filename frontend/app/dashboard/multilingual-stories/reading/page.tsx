@@ -91,9 +91,16 @@ export default function ListeningPage() {
 
         <div className="flex flex-col md:flex-row w-full gap-6">
           {/* Left Column - 75% */}
-          <div className="w-full md:w-3/4">
-          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRoyBi_m9pdtLcWIDU429svlxfFxdalp4gI7fshCAL5BglKUFI91FlxADsieNUGWQyFzBadkl65GUAb/pubembed?start=false&loop=false&delayms=60000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-          </div>
+          <div className="relative w-full overflow-hidden" style={{ paddingTop: "56.25%" }}>
+            <iframe 
+              src="https://docs.google.com/presentation/d/e/2PACX-1vRoyBi_m9pdtLcWIDU429svlxfFxdalp4gI7fshCAL5BglKUFI91FlxADsieNUGWQyFzBadkl65GUAb/pubembed?start=false&loop=false&delayms=60000" 
+              className="absolute top-0 left-0 w-full h-full border-none"
+              title="Monster Story Presentation"
+              allowFullScreen
+              
+              
+    />
+  </div>
           
           {/* Right Column - 25% */}
           <div className="w-full md:w-1/4 flex flex-col gap-4">

@@ -71,7 +71,7 @@ export default function ListeningFrame({
             </div>
           </div>
           
-          <div className="flex flex-col gap-3 bg-muted/20 rounded-lg p-4">
+          <div className="flex flex-col gap-3 px-4">
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-2">
                 <Volume2 className="h-5 w-5 text-primary" />
@@ -130,11 +130,11 @@ export default function ListeningFrame({
               alt="Story Cover"
               width={1200}
               height={800}
-              className="rounded-lg object-contain max-h-[70vh] max-w-full"
+              className="rounded-lg object-contain max-h-[60vh] max-w-full"
             />
           </div>
           
-          <div className="flex flex-col gap-3 bg-muted/20 rounded-lg p-4 mt-auto">
+          <div className="flex flex-col gap-3 rounded-lg px-4 mt-auto">
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-2">
                 <Volume2 className="h-5 w-5 text-primary" />
@@ -155,7 +155,7 @@ export default function ListeningFrame({
               <a 
                 href={storyContent[selectedLanguage]?.audioUrl} 
                 download 
-                className="flex items-center gap-1 text-sm text-primary hover:text-primary/80"
+                className="flex items-center gap-3 text-sm text-primary hover:text-primary/20"
               >
                 <Download className="h-4 w-4" />
                 Download audio

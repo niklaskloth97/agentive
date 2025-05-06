@@ -44,7 +44,7 @@ export default function Page() {
         <h1 className="text-3xl font-bold mb-6">Multilingual Stories</h1>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {learningmaterial.map((story, index) => (
-            <Card key={index} className="overflow-hidden cursor-pointer hover:shadow-lg transition-shadow">
+            <Card key={index} className="overflow-hidden cursor-pointer hover:shadow-lg transition-shadow flex flex-col">
               <div className="relative aspect-square">
                 <Image 
                   src={story.image} 
@@ -57,11 +57,11 @@ export default function Page() {
                 </div>
               </div>
               
-<CardContent className="p-4 flex-1">
+              <CardContent className="p-4 flex-1">
                 <p className="text-gray-600">{story.description}</p>
               </CardContent>
 
-              <CardFooter className="border-t bg-muted/20 p-4">
+              <CardFooter className="border-t bg-muted/20 p-4 mt-auto">
                 <div className="grid grid-cols-3 gap-2 w-full">
                   <Link href={`/dashboard/multilingual-stories/${story.slug}/listen`} className="w-full">
                     <Button 
