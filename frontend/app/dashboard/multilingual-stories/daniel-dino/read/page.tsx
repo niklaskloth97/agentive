@@ -1,15 +1,13 @@
-import { useEffect } from 'react';
+"use client"
+
 import { useRouter } from 'next/navigation';
-
-'use client';
-
+import { useEffect } from 'react';
 
 export default function RedirectPage() {
     const router = useRouter();
 
     useEffect(() => {
-       
-        const redirectUrl = '/dashboard/multilingual-stories/listening';
+        const redirectUrl = '/dashboard/multilingual-stories/reading';
         router.push(redirectUrl);
     }, [router]);
 

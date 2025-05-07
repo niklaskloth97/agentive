@@ -49,10 +49,10 @@ export default function Page() {
                 </ul>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
-                  <Link href="/dashboard/multilingual-stories/a-monster-story" className="block">
-                    <div className="border rounded-md overflow-hidden transition hover:shadow-md">
+                  
+                    <div className="border rounded-md overflow-hidden transition shadow-sm">
                       <Image 
-                        src="/images/stories/monster-story/1.webp" 
+                        src="/images/stories/monster-story/monster.png" 
                         alt="Monster Story" 
                         width={300} 
                         height={200} 
@@ -63,10 +63,9 @@ export default function Page() {
                         <p className="text-xs text-muted-foreground">Available in 7 languages</p>
                       </div>
                     </div>
-                  </Link>
+
                   
-                  <Link href="/dashboard/multilingual-stories/a-pirate-story" className="block">
-                    <div className="border rounded-md overflow-hidden transition hover:shadow-md">
+                    <div className="border rounded-md overflow-hidden transition shadow-sm">
                       <Image 
                         src="/images/stories/pirate-story/1.webp" 
                         alt="Pirate Adventure" 
@@ -79,7 +78,6 @@ export default function Page() {
                         <p className="text-xs text-muted-foreground">Available in 5 languages</p>
                       </div>
                     </div>
-                  </Link>
                 </div>
               </CardContent>
 
@@ -169,7 +167,7 @@ export default function Page() {
               </CardContent>
 
               <CardFooter className="flex justify-end">
-                <Link href="/learning-material">
+                <Link href="/dashboard/follow-up-activities">
                   <Button variant="outline" className="gap-2">
                     Explore activities <ArrowRight className="h-4 w-4" />
                   </Button>

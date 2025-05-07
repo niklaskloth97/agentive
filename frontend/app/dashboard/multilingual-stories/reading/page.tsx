@@ -79,7 +79,7 @@ export default function ListeningPage() {
       <DashboardLayout breadcrumbItems={breadcrumbItems}>
         
 
-        <h1 className="text-2xl font-bold ml-3 mb-6">Listen to Monster Story</h1>
+        <h1 className="text-2xl font-bold ml-3 mb-6">Reading the Monster Story</h1>
 
         <div className="flex flex-col md:flex-row w-full gap-6">
           {/* Left Column - 75% */}

@@ -142,10 +142,8 @@ export default function ActivitiesGrid({
     <Card className={cn("w-full", className)}>
       <CardHeader>
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-          <div>
             <CardTitle className="text-2xl">{title}</CardTitle>
-            <p className="text-muted-foreground mt-1">{activityLabel} Activities</p>
-          </div>
+
           
           <div className="flex items-center gap-3">
             <div className="flex items-center gap-2">
