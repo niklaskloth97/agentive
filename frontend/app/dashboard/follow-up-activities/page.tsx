@@ -1,13 +1,13 @@
 "use client"
 
 import { DashboardLayout } from "@/components/DashboardLayout"
-import { Button } from "@/components/ui/button"
-import { ChevronLeft } from "lucide-react"
-import { useRouter } from "next/navigation"
+// import { Button } from "@/components/ui/button"
+// import { ChevronLeft } from "lucide-react"
+// import { useRouter } from "next/navigation"
 import ActivitiesGrid from "@/components/ActivitiesGrid"
 
 export default function Page() {
-  const router = useRouter()
+  // const router = useRouter()
   
   const breadcrumbItems = [
     { label: "Multilingual Stories", href: "/dashboard" },

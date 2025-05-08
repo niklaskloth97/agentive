@@ -1,12 +1,12 @@
 "use client"
 
-import { AppSidebar } from "@/app/dashboard/app-sidebar"
+// import { AppSidebar } from "@/app/dashboard/app-sidebar"
 import { DynamicBreadcrumb } from "@/components/dynamicBreadcrumb"
 import { Separator } from "@/components/ui/separator"
 import {
   SidebarInset,
   SidebarProvider,
-  SidebarTrigger,
+  // SidebarTrigger,
 } from "@/components/ui/sidebar"
 import { Button } from "@/components/ui/button"
 import { ChevronLeft } from "lucide-react"

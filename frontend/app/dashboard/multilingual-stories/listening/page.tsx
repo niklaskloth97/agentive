@@ -3,13 +3,13 @@
 import { useState } from "react";
 import { DashboardLayout } from "@/components/DashboardLayout";
 import { Button } from "@/components/ui/button";
-import { ChevronLeft, Download} from "lucide-react";
+import { Download} from "lucide-react";
 import CollapsibleCard from "@/components/CollapsibleCard";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import LanguageSelector from "@/components/LanguageSelector";
-import LanguageAudioPlayer from "@/components/LanguageAudioPlayer";
+// import LanguageAudioPlayer from "@/components/LanguageAudioPlayer";
 import { ActivitySelection } from "@/components/ActivitySelection";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 import ListeningFrame, { StoryLanguageContent } from "@/components/ListeningFrame";
 
 const storyContent: Record<string, StoryLanguageContent> = {
@@ -51,7 +51,7 @@ const storyContent: Record<string, StoryLanguageContent> = {
 };
 
 export default function ListeningPage() {
-  const router = useRouter();
+  // const router = useRouter();
   const [selectedLanguage, setSelectedLanguage] = useState<string>("en");
   
   const breadcrumbItems = [

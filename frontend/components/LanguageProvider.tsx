@@ -13,18 +13,28 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 export function LanguageProvider({ 
   children, 
   defaultLanguage = "en",
-  availableLanguages
+  availableLanguages,
+  onLanguageChange
 }: { 
   children: ReactNode;
   defaultLanguage?: string;
   availableLanguages: { [key: string]: { label: string } };
+  onLanguageChange?: (language: string) => void;
 }) {
   const [selectedLanguage, setSelectedLanguage] = useState(defaultLanguage);
+
+  // Custom handler for language changes that calls the callback
+  const handleLanguageChange = (language: string) => {
+    setSelectedLanguage(language);
+    if (onLanguageChange) {
+      onLanguageChange(language);
+    }
+  };
 
   return (
     <LanguageContext.Provider value={{ 
       selectedLanguage, 
-      setSelectedLanguage,
+      setSelectedLanguage: handleLanguageChange,
       availableLanguages
     }}>
       {children}
