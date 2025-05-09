@@ -1,77 +1,79 @@
 import Image from 'next/image';
+import VisionCard from "@/components/VisionCard";
+import FlexSectionWithButton from "@/components/FlexSectionWithButton";
+import HeroSection from '@/components/HeroSection';
+
+
+
+const visionItems = [
+  { title: "This website is just the beginning - think of it as a sneak peek into what is to come.", color: "text-primary", description: "AGENTIVE aims to create resources that celebrate linguistic diversity and enable teachers to create inclusive learning opportunities where children develop multilingual competence." },
+  { title: "Rich source of materials", color: "text-accent", description: "Our materials will be openly available, enabling teachers and parents to adapt and share them freely." },
+  { title: "Continuous development", color: "text-ring", description: "Stay tuned as we develop and release these exciting resources in the coming months!" }
+];
 
 export default function AgentivePage() {
   return (
     <>
       {/* Hero Section */}
-      <div className="relative w-full h-[400px]">
-        <Image 
-          src="/hero.webp" 
-          alt="AGENTIVE Banner" 
-          layout="fill" 
-          objectFit="cover" 
-          className="brightness-75"
-        />
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
-          <h1 className="text-4xl font-bold drop-shadow-lg">Welcome to AGENTIVE</h1>
-          <p className="text-4xl mt-2 drop-shadow-md">Boosting linguistic diversity in early childhood education through synergies </p>
-          <a href="about" className="mt-4 inline-block bg-blue-600 text-white px-6 py-4 rounded-lg hover:bg-blue-700">More about us</a>
-        </div>
-      </div>
+      <HeroSection 
+        title="Welcome to AGENTIVE" 
+        subtitle="A Multilingual Education Initiative" 
+        backgroundImage="/hero.webp" 
+        height={400} 
+        overlayBrightness="brightness-75"
+        className="relative w-full h-[400px]"
+      />
 
       {/* Main Content */}
-      <div className="container mx-auto py-12 px-6">
-        <section>
-          <h2 className="text-3xl font-bold mb-6 text-center">What Can You Expect?</h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="p-4 bg-gray-100 rounded-lg">
-              <p>This website is just the beginning - think of it as a sneak peek into what is to come. AGENTIVE aims to create resources that celebrate linguistic diversity and enable teachers to create inclusive learning opportunities where children develop multilingual competence.</p>
-            </div>
-            <div className="p-4 bg-gray-100 rounded-lg">
-              <p>Our materials will be openly available, enabling teachers and parents to adapt and share them freely. </p>
-            </div>
-            <div className="p-4 bg-gray-100 rounded-lg">
-              <p>Stay tuned as we develop and release these exciting resources in the coming months!</p>
-            </div>
-          </div>
-        </section>
+      <div className="container mx-auto py-8 px-4">
+            <VisionCard 
+              title="What can you expect?" 
+              items={visionItems} 
+            />
 
-        {/* Who Are We? Section */}
-        <section className="flex flex-col md:flex-row items-center mt-12">
-          <div className="md:w-1/2">
-            <Image src="/who-we-are.jpg" alt="Who Are We?" width={600} height={400} className="rounded-lg shadow-md"/>
-          </div>
-          <div className="md:w-1/2 p-6">
-            <h2 className="text-3xl font-bold mb-4">Who Are We?</h2>
-            <p>AGENTIVE involves universities and organizations from Luxembourg, Switzerland, Greece, Slovenia, Germany and Italy. Together, we are leveraging expertise across academia, schools, and businesses to drive innovation in multilingual education. </p>
-            <a href="testing_about/about" className="mt-4 inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">About Us</a>
-          </div>
-        </section>
+      {/* Who Are We? Section */}
+            <FlexSectionWithButton 
+              imageSrc="/who-we-are.jpg" 
+              imageAlt="Who Are We?" 
+              imageWidth={600} 
+              imageHeight={400} 
+              title="Who Are We?" 
+              description="AGENTIVE involves universities and organizations from Luxembourg, Switzerland, Greece, Slovenia, Germany and Italy. Together, we are leveraging expertise across academia, schools, and businesses to drive innovation in multilingual education." 
+              buttonLink="testing_about/about" 
+              buttonText="Read more about Us"
+              imagePosition='left' 
+              variant='primary'
+            />
 
-        {/* Curious About the Team Section */}
-        <section className="flex flex-col md:flex-row-reverse items-center mt-12">
-          <div className="md:w-1/2">
-            <Image src="/team.jpg" alt="Curious About the Team?" width={600} height={400} className="rounded-lg shadow-md"/>
-          </div>
-          <div className="md:w-1/2 p-6">
-            <h2 className="text-3xl font-bold mb-4">Curious About the Team Behind AGENTIVE?</h2>
-            <p>Our team is made up of passionate educators, teachers, and developers working together to make multilingual education accessible for everyone.</p>
-            <a href="team" className="mt-4 inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">Check Out Our Team</a>
-          </div>
-        </section>
-
-        {/* Follow Our Journey Section */}
-        <section className="flex flex-col md:flex-row items-center mt-12">
-          <div className="md:w-1/2">
-            <Image src="/blog.jpg" alt="Follow Our Journey" width={600} height={400} className="rounded-lg shadow-md"/>
-          </div>
-          <div className="md:w-1/2 p-6">
-            <h2 className="text-3xl font-bold mb-4">Follow Our Journey</h2>
-            <p>From project milestones to insights about multilingualism, we’ll be sharing updates, reflections, and behind-the-scenes moments on our blog.</p>
-            <a href="blog" className="mt-4 inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">Read the Latest Updates</a>
-          </div>
-        </section>
-
+      {/* Curious About the Team Section */}
+            <FlexSectionWithButton 
+                imageSrc="/team.jpg" 
+                imageAlt="Curious About the Team?" 
+                imageWidth={600} 
+                imageHeight={400} 
+                title="Curious About the Team Behind AGENTIVE?" 
+                description="Our team is made up of passionate educators, teachers, and developers working together to make multilingual education accessible for everyone." 
+                buttonLink="team" 
+                buttonText="Check out our team"
+                imagePosition='right' 
+                variant='secondary'
+                />
+            
+      {/* Follow Our Journey */}
+            <FlexSectionWithButton
+              imageSrc="/blog.jpg"
+              imageAlt="Follow Our Journey"
+              imageWidth={600}
+              imageHeight={400}
+              title="Follow Our Journey"
+              description="From project milestones to insights about multilingualism, we’ll be sharing updates, reflections, and behind-the-scenes moments on our blog."
+              buttonLink="blog"
+              buttonText="Read the Latest Updates"
+              imagePosition='left'
+              variant='accent'
+            />
+              
+        
         {/* Stay Tuned Section */}
         <section className="text-left mt-16">
           <h2 className="text-3xl font-bold mb-4">Stay Tuned!</h2>
