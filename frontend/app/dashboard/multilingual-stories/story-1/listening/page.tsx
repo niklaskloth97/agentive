@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button";
 import { 
   Download, 
   Maximize2, 
-  X, 
   Volume2, 
   ChevronRight, 
   ChevronLeft, 
@@ -40,25 +39,10 @@ interface StoryLanguageContent {
   coverImage: string;
 }
 
-// Define story interface
-interface Story {
-  id: string;
-  title: string;
-  pages: {
-    [key: string]: StoryPage[];
-  };
-}
-
-interface StoryPage {
-  id: number;
-  text: string;
-  imageUrl: string;
-  audioUrl: string;
-}
 
 export default function ListeningPage() {
   // Story data access
-  const storyId = "1"; // Hardcode the story ID
+  const storyId = "1"; // Hardcode the story ID, change later
   const storyInfo = storiesData.find(story => story.id === storyId);
   
   // Carousel state
@@ -392,7 +376,7 @@ export default function ListeningPage() {
                 <div className="flex-1 min-h-0">
                   <Carousel setApi={setFullscreenApi} className="h-full">
                     <CarouselContent className="h-full">
-                      {pages.map((page: any, index: number) => (
+                      {pages.map((page, index: number) => (
                         <CarouselItem key={`fullscreen-${selectedLanguage}-${index}`} className="h-full">
                           <div className="flex flex-col items-center justify-center h-full gap-4">
                             <Image

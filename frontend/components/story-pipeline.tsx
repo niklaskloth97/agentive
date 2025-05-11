@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, ReactNode } from "react";
 import { useLanguage } from "@/components/LanguageProvider";
 
 // Types for our story content
@@ -24,7 +24,12 @@ interface StoryPipelineProps {
   storyId: string;
   pageIndex?: number;
   contentType?: 'all' | 'text' | 'image' | 'audio';
+  render?: (content: StoryContent) => ReactNode;
+  children?: (content: StoryContent) => ReactNode;
 }
+
+// Define a specific type for the content
+type StoryContent = StoryPage | string | null;
 
 // Import all stories data directly
 import storiesData from '@/data/stories.json';
@@ -32,10 +37,12 @@ import storiesData from '@/data/stories.json';
 export const StoryPipeline: React.FC<StoryPipelineProps> = ({
   storyId,
   pageIndex = 0,
-  contentType = 'all'
+  contentType = 'all',
+  render,
+  children
 }) => {
   const { selectedLanguage } = useLanguage();
-  const [content, setContent] = useState<any>(null);
+  const [content, setContent] = useState<StoryContent>(null);
 
   useEffect(() => {
     // Find the requested story
@@ -75,7 +82,17 @@ export const StoryPipeline: React.FC<StoryPipelineProps> = ({
     }
   }, [storyId, pageIndex, selectedLanguage, contentType]);
 
-  return content;
+  // Use render prop or children function to render the content
+  if (render) {
+    return <>{render(content)}</>;
+  }
+  
+  if (children) {
+    return <>{children(content)}</>;
+  }
+  
+  // If no render method provided, return null
+  return null;
 };
 
 // Helper function to get story meta information

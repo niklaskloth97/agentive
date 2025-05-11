@@ -13,7 +13,7 @@ export default function Home() {
             </p>
         <h2 className="text-m mb-2 font-semibold ">Who Are We?</h2>
             <p className="text-gray-600 mb-4 dark:text-white"> 
-            AGENTIVE involves universities and organizations from Luxembourg, Switzerland, Greece, Slovenia, Germany and Italy. Together, we're leveraging expertise across academia, schools, and businesses to drive innovation in multilingual education. Visit our <a href="/about" className="text-blue-600 hover:underline dark:text-blue-400">About Us</a> page.
+            AGENTIVE involves universities and organizations from Luxembourg, Switzerland, Greece, Slovenia, Germany and Italy. Together, we`&apos`re leveraging expertise across academia, schools, and businesses to drive innovation in multilingual education. Visit our <a href="/about" className="text-blue-600 hover:underline dark:text-blue-400">About Us</a> page.
             </p>
         <h2 className="text-m mb-2 font-semibold ">Curious About the Team Behind AGENTIVE?</h2>
           <p className="text-gray-600 mb-4 dark:text-white"> 

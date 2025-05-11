@@ -21,8 +21,6 @@ export default function StoryReadingPage({ params }: { params: { slug: string } 
   // Get just the audio URL
   const audioUrl = <StoryPipeline storyId={storyId} pageIndex={currentPage} contentType="audio" />;
   
-  // Get all page data
-  const pageData = <StoryPipeline storyId={storyId} pageIndex={currentPage} contentType="all" />;
   
   return (
     <div className="container mx-auto py-6">

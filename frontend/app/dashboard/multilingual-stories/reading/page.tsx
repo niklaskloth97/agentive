@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, ReactNode, createContext } from "react";
+import { useState } from "react";
 import { DashboardLayout } from "@/components/DashboardLayout";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
@@ -11,16 +11,16 @@ import LanguageAudioPlayer from "@/components/LanguageAudioPlayer";
 import { ActivitySelection } from "@/components/ActivitySelection";
 import { StoryLanguageContent } from "@/components/ListeningFrame";
 
-interface LanguageProviderProps {
-  children: ReactNode;
-  defaultLanguage?: string;
-  availableLanguages: {
-    [key: string]: {
-      label: string;
-    };
-  };
-  onLanguageChange?: (language: string) => void;
-}
+// interface LanguageProviderProps {
+//   children: ReactNode;
+//   defaultLanguage?: string;
+//   availableLanguages: {
+//     [key: string]: {
+//       label: string;
+//     };
+//   };
+//   onLanguageChange?: (language: string) => void;
+// }
 
 const storyContent: Record<string, StoryLanguageContent> = {
   en: {
@@ -79,6 +79,7 @@ export default function ReadingPage() {
 
   const handleLanguageChange = (language: string) => {
     setSelectedLanguage(language);
+    console.log(`Language changed to: ${selectedLanguage}`);
   };
 
   return (

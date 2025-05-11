@@ -50,7 +50,7 @@ export default function NavBar() {
                 <div className="container mx-auto h-14 flex items-center">
                     <div className="flex md:flex">
                         <Link className="flex items-center space-x-8 px-6" href="/">
-                            <img src='/images/agentive_logo.svg' alt="Agentive Logo" className="h-8 w-auto" />
+                            <Image src='/images/agentive_logo.svg' alt="Agentive Logo" className="h-8 w-auto" />
                             <span className="font-bold sm:inline-block">AGENTIVE</span>
                         </Link>
                         {/* Hide navigation on mobile with hidden md:flex */}

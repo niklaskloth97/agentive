@@ -64,9 +64,9 @@ export default function ListeningPage() {
     Object.entries(storyContent).map(([key, value]) => [key, { label: value.label }])
   );
   
-  const audioSources = Object.fromEntries(
-    Object.entries(storyContent).map(([key, value]) => [key, { url: value.audioUrl }])
-  );
+  // const audioSources = Object.fromEntries(
+  //   Object.entries(storyContent).map(([key, value]) => [key, { url: value.audioUrl }])
+  // );
 
   const handleLanguageChange = (language: string) => {
     setSelectedLanguage(language);

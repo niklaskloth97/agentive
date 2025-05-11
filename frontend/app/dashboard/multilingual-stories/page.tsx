@@ -7,7 +7,7 @@ import Link from 'next/link'
 import { Headphones, BookOpen, Activity} from "lucide-react"
 // import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { Dialog, DialogClose, DialogContent } from "@/components/ui/dialog"
+import { Dialog, DialogContent } from "@/components/ui/dialog"
 import { DialogTitle } from "@radix-ui/react-dialog"
 
 export default function Page() {
