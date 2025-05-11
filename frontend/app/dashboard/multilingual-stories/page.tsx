@@ -14,8 +14,8 @@ export default function Page() {
   const [selectedStory, setSelectedStory] = useState<number | null>(null)
   
   const breadcrumbItems = [
-    { label: "Multilingual Stories", href: "/dashboard/storytime" },
-    { label: "Overview" }
+    { label: "Learning Material Overview", href: "/dashboard/" },
+    { label: "Multilingual Stories" }
   ];
 
   const learningmaterial = [

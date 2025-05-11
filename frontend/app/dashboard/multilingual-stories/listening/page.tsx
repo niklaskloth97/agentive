@@ -80,14 +80,7 @@ export default function ListeningPage() {
         <h1 className="text-2xl font-bold ml-3 mb-6">Listen to Monster Story</h1>
 
         <div className="flex flex-col md:flex-row w-full gap-6">
-          {/* Left Column - 75% */}
-          <div className="w-full md:w-3/4">
-            <ListeningFrame
-              storyContent={storyContent}
-              initialLanguage={selectedLanguage}
-              onLanguageChange={handleLanguageChange}
-            />
-          </div>
+          
           
           {/* Right Column - 25% */}
           <div className="w-full md:w-1/4 flex flex-col gap-4">
@@ -120,6 +113,14 @@ export default function ListeningPage() {
             >
               <ActivitySelection />
             </CollapsibleCard>
+          </div>
+          {/* Left Column - 75% */}
+          <div className="w-full md:w-3/4">
+            <ListeningFrame
+              storyContent={storyContent}
+              initialLanguage={selectedLanguage}
+              onLanguageChange={handleLanguageChange}
+            />
           </div>
         </div>
       </DashboardLayout>
