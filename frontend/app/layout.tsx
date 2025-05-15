@@ -6,9 +6,6 @@ import Footer from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider"
 //import { AppSidebar } from "@/app/dashboard/app-sidebar";
 
-
-
-
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",

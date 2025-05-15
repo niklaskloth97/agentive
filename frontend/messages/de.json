@@ -1,0 +1,26 @@
+{
+  "common": {
+    "hp": {
+      "heading": "Willkommen bei AGENTIVE",
+      "subheading": "Stärkung der sprachlichen Vielfalt in der frühkindlichen Bildung durch Synergien",
+      "intro_paragraph": "Willkommen auf der AGENTIVE-Plattform! Im Rahmen einer von der EU geförderten Erasmus+-Initiative entwickeln wir innovative Werkzeuge zur Förderung des Spracherwerbs in der frühkindlichen Bildung. Wir stärken Kinder und fördern die berufliche Weiterentwicklung von Pädagog:innen. Unsere Mission ist es, frei zugängliche Open-Source-Materialien zur Sprach- und Literalitätsförderung bereitzustellen, Fortbildungen anzubieten und Synergien zwischen Schulen, Universitäten und Unternehmen zu fördern.",
+      
+      "expect_heading": "Was erwartet Sie?",
+      "expect_text_1": "Diese Website ist nur der Anfang – ein kleiner Vorgeschmack auf das, was noch kommt. AGENTIVE entwickelt Materialien, die sprachliche Vielfalt feiern, Inklusion fördern und Kindern ermöglichen, in einer mehrsprachigen Welt aufzublühen.",
+      "expect_text_2": "Unsere Materialien werden unter offenen Lizenzen wie Creative Commons veröffentlicht, damit Lehrkräfte, Eltern und Schulen sie frei anpassen und weitergeben können. Bleiben Sie dran – in den kommenden Monaten veröffentlichen wir spannende neue Inhalte!",
+
+      "who_heading": "Wer sind wir?",
+      "who_text": "AGENTIVE ist eine Zusammenarbeit zwischen Universitäten und Organisationen aus Luxemburg, der Schweiz, Griechenland, Slowenien, Deutschland und Italien. Gemeinsam bündeln wir unsere Expertise aus Wissenschaft, Schule und Wirtschaft, um Innovationen in der mehrsprachigen Bildung voranzutreiben. Mehr über unsere Vision und Ziele finden Sie auf unserer Über-uns-Seite.",
+
+      "team_heading": "Neugierig auf das Team hinter AGENTIVE?",
+      "team_text": "Unser Team besteht aus engagierten Pädagog:innen, Forscher:innen und Entwickler:innen, die gemeinsam daran arbeiten, mehrsprachige Bildung für alle zugänglich zu machen. Lernen Sie das Projektteam auf unserer Teamseite kennen.",
+
+      "blog_heading": "Begleiten Sie unsere Reise",
+      "blog_text": "Von Projektmeilensteinen über Einblicke in Mehrsprachigkeit – in unserem Blog teilen wir regelmäßig Updates, Hintergründe und Geschichten aus dem Projekt. Jetzt reinschauen und auf dem Laufenden bleiben!",
+
+      "stay_heading": "Bleiben Sie dran!",
+      "stay_text_1": "AGENTIVE ist am 1. Oktober gestartet. In den kommenden Monaten entwickeln wir acht pädagogische Sets mit Geschichten in mehreren Sprachen und begleitendem Material – die Veröffentlichung ist für den Sommer geplant. Ob Lehrkraft, Elternteil oder einfach interessiert an mehrsprachiger Bildung – hier ist für alle etwas dabei.",
+      "stay_text_2": "Vielen Dank, dass Sie Teil unserer Reise sind – gemeinsam gestalten wir die Zukunft der mehrsprachigen frühkindlichen Bildung!"
+    }
+  }
+}
