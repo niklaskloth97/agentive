@@ -42,7 +42,7 @@ export default function LanguageSelector() {
         value={selectedLanguage}
         onValueChange={setSelectedLanguage}
       >
-        <SelectTrigger className="w-[180px]">
+        <SelectTrigger className="w-[130px]">
           <SelectValue>
             {selectedLanguage && getLanguageWithFlag(selectedLanguage)}
           </SelectValue>

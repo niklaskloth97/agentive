@@ -16,7 +16,7 @@ export default function ListeningPage() {
     <DashboardLayout breadcrumbItems={breadcrumbItems}>
       <StoryPlayer 
         storyId={storyId} 
-        showAudioControls={true}
+        showAudioControls={false}
       />
     </DashboardLayout>
   );
