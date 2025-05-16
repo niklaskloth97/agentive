@@ -1,6 +1,5 @@
 "use client"
 import Link from 'next/link'
-import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button'
 import {
@@ -50,7 +49,8 @@ export default function NavBar() {
                 <div className="container mx-auto h-14 flex items-center">
                     <div className="flex md:flex">
                         <Link className="flex items-center space-x-8 px-6" href="/">
-                            <Image src='/images/agentive_logo.svg' alt="Agentive Logo" className="h-8 w-auto" />
+                            <img src='/images/agentive_logo.svg' alt="Agentive Logo" 
+                            className="h-8 w-auto" />
                             <span className="font-bold sm:inline-block">AGENTIVE</span>
                         </Link>
                         {/* Hide navigation on mobile with hidden md:flex */}
