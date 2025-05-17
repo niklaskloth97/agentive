@@ -180,8 +180,8 @@ export function StoryPlayer({
       onLanguageChange={handleLanguageChange}
     >
       <div className={cn("flex flex-col w-full h-full overflow-hidden", className)}>
-        <div className="flex text-center items-center justify-between mb-4">
-          <h1 className="text-2xl font-bold">
+        <div className="flex text-center items-center justify-between p-4 mb-4">
+          <h1 className="text-2xl p-4 absolute left-1/2 transform -translate-x-1/2 font-bold">
             {storyInfo?.title || "Story"}
           </h1>
           {!showAudioControls && (
@@ -199,7 +199,7 @@ export function StoryPlayer({
               )}
             >
               <div className="flex flex-col p-4 gap-6 h-full relative">
-                <div className="flex items-center justify-between mb-2">
+                <div className="flex items-center text-center justify-between mb-2">
                   {!sidebarCollapsed && <h3 className="text-sm font-medium">Story Controls</h3>}
                   <button 
                     onClick={() => setSidebarCollapsed(!sidebarCollapsed)}
@@ -321,51 +321,54 @@ export function StoryPlayer({
             </div>
           )}
             
-          {/* Main Content/Carousell */}
+          {/* Main Content */}
           <div className={cn(
             "flex-1 min-h-0 flex flex-col transition-all duration-300 ease-in-out",
             showAudioControls ? 
               (sidebarCollapsed ? "w-[calc(100%-3rem)]" : "w-[calc(100%-16rem)]") : 
               "w-full"
           )}>
-            <div className="w-full max-w-4xl mx-auto relative">
-              <div className="absolute top-2 right-2 z-10">
-                <Button 
-                  variant="outline" 
-                  size="icon" 
-                  className="bg-white/80 hover:bg-white"
-                  onClick={() => setIsFullscreen(true)}
-                >
-                  <Maximize2 className="h-4 w-4" />
-                </Button>
+            <div className="w-full max-w-4xl mx-auto h-full flex flex-col">
+              <div className="relative flex-1">
+                <div className="absolute top-2 right-2 z-10">
+                  <Button 
+                    variant="outline" 
+                    size="icon" 
+                    className="bg-white/80 hover:bg-white"
+                    onClick={() => setIsFullscreen(true)}
+                  >
+                    <Maximize2 className="h-4 w-4" />
+                  </Button>
+                </div>
+                
+                <Carousel setApi={setApi} className="h-full">
+                  <CarouselContent className="h-full">
+                    {pages.map((page, index) => (
+                      <CarouselItem key={`${selectedLanguage}-${index}`} className="h-full flex items-center justify-center">
+                        <Card className="w-full max-h-[85vh]">
+                          <CardContent className="flex flex-col p-4 items-center justify-center">
+                            <div className="w-full aspect-video relative">
+                              <Image
+                                src={page.imageUrl} 
+                                alt={`Story scene ${index + 1}`}
+                                fill
+                                className="object-contain rounded-lg"
+                              />
+                            </div>
+                            <div className="text-container mt-4 bg-white border p-2 rounded-lg shadow-sm w-full">
+                              <p className="text-lg">{page.text}</p>
+                            </div>
+                          </CardContent>
+                        </Card>
+                      </CarouselItem>
+                    ))}
+                  </CarouselContent>
+                  <CarouselPrevious />
+                  <CarouselNext />
+                </Carousel>
               </div>
               
-              <Carousel setApi={setApi} className="w-full">
-                <CarouselContent>
-                  {pages.map((page, index) => (
-                    <CarouselItem key={`${selectedLanguage}-${index}`}>
-                      <Card>
-                        <CardContent className="flex flex-col p-4 items-center justify-center">
-                          <Image
-                            src={page.imageUrl} 
-                            alt={`Story scene ${index + 1}`}
-                            width={800}
-                            height={800}
-                            className="object-cover rounded-lg"
-                          />
-                          <div className="text-container mt-4 bg-white border p-2 rounded-lg shadow-sm w-full">
-                            <p className="text-lg">{page.text}</p>
-                          </div>
-                        </CardContent>
-                      </Card>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
-              </Carousel>
-              
-              <div className="text-center mt-2">
+              <div className="text-center py-2">
                 Page {current} of {count}
               </div>
             </div>
@@ -376,6 +379,7 @@ export function StoryPlayer({
             <audio 
               ref={audioRef}
               src={pages[currentPage].audioUrl}
+              autoPlay
               onEnded={handleAudioEnded}
               className="hidden"
             />
@@ -422,15 +426,16 @@ export function StoryPlayer({
                     <CarouselContent className="h-full">
                       {pages.map((page, index) => (
                         <CarouselItem key={`fullscreen-${selectedLanguage}-${index}`} className="h-full">
-                          <div className="flex flex-col items-center justify-center h-full gap-4">
-                            <Image
-                              src={page.imageUrl} 
-                              alt={`Story scene ${index + 1}`}
-                              width={800}
-                              height={600}
-                              className="object-contain max-h-[60vh] rounded-lg"
-                            />
-                            <div className="text-container bg-white p-4 rounded-lg shadow-sm w-full max-w-2xl">
+                          <div className="flex flex-col items-center justify-center h-full max-w-4xl mx-auto w-full">
+                            <div className="w-full aspect-video relative rounded-lg overflow-hidden">
+                              <Image
+                                src={page.imageUrl} 
+                                alt={`Story scene ${index + 1}`}
+                                fill
+                                className="object-contain rounded-lg"
+                              />
+                            </div>
+                            <div className="text-container mt-4 bg-white p-4 rounded-lg w-full">
                               <p className="text-lg">{page.text}</p>
                             </div>
                           </div>

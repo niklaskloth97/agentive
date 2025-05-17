@@ -4,7 +4,6 @@
     "title": "Bobba's first trip to Earth",
     "description": "Follow Bobba the alien as he discovers Earth for the first time.",
     "slug": "story-1",
-    "languages": ["en", "de", "fr"],
     "pages": {
       "en": [
         {
@@ -61,49 +60,49 @@
           "id": 1,
           "text": "Bobba lebt auf einem weit entfernten Planeten. Heute ist er wahnsinnig aufgeregt! Endlich bekommt er sein eigenes Raumschiff und nun kann er endlich hinfliegen, wohin er will!",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+          "audioUrl": "/learning-material/story-1/story-de/Story 1_G Long_1_1.m4a"
         },
         {
           "id": 2,
           "text": "Sein größter Traum ist es, zum Planeten Erde zu fliegen.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+          "audioUrl": "/learning-material/story-1/story-de/Story 1_G Long_1_2.m4a"
         },
         {
           "id": 3,
           "text": "Er hüpft in sein Raumschiff und fliegt los. Seine Familie und Freunde sind überrascht. \"Wo fliegt er denn hin?\", fragen sie sich. Bobba fliegt geradewegs Richtung Erde!",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+          "audioUrl": "/learning-material/story-1/story-de/Story 1_G Long_1_3.m4a"
         },
         {
           "id": 4,
           "text": "Bobba fliegt an vielen Planeten, Kometen und Sternschnuppen vorbei. Er fragt sich, wann er denn nun die Erde erreichen wird.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+          "audioUrl": "/learning-material/story-1/story-de/Story 1_G Long_1_4.m4a"
         },
         {
           "id": 5,
           "text": "Endlich sieht er einen blauen Ball. Bevor er sich versieht, schießt er durch den Himmel und landet mit einem lauten Knall in einem Haufen voller Blätter und Ästen.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+          "audioUrl": "/learning-material/story-1/story-de/Story 1_G Long_1_5.m4a"
         },
         {
           "id": 6,
           "text": "Er zwängt sich aus seinem Raumschiff und schaut sich um. Zwei schwarze Augen zwischen schwarzen Federn schauen ihn an. Bobba sagt: \"Saluton!\", aber das Federvieh sieht ihn nur kurz an und fliegt davon. Er klettert den Baum hinab und sieht ein rotes Etwas mit schwarzen Punkten. Bobba ruft \"Saluton!\", aber das Etwas beachtet ihn nicht einmal.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+          "audioUrl": "/learning-material/story-1/story-de/Story 1_G Long_1_6.m4a"
         },
         {
           "id": 7,
           "text": "Ein Junge und ein Mädchen beobachten Bobba und kichern. \"Mit wem redest du? Die können nicht sprechen!\" Bobba dreht sich um und fragt: \"Saluton! Ĉu vi estas infanoj?\" Die Kinder sehen sich an. \"Infanoj? Heißt das etwa Baby?\" Und um zu widersprechen rufen sie: \"Nein! Wir sind Kinder!\" Bobba ruft begeistert: \"Ahhh! Kinder! Infanoj! Children!\" Und alle lachen.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+          "audioUrl": "/learning-material/story-1/story-de/Story 1_G Long_1_7.m4a"
         },
         {
           "id": 8,
           "text": "\"Möchtest Du unseren Spielplatz sehen?\", fragt Olivia, das Mädchen. Bobba lächelt und Ben, der Junge, nimmt ihn an der Hand. Zusammen bringen sie ihn zum Spielplatz.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+          "audioUrl": "/learning-material/story-1/story-de/Story 1_G Long_1_8.m4a"
         }
       ],
       "fr": []

@@ -44,7 +44,7 @@ export default function NavBar() {
     }
 
     return (
-        <nav className='sticky top-0 z-50'>
+        <nav className='sticky top-0'>
            <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
                 <div className="container mx-auto h-14 flex items-center">
                     <div className="flex md:flex">

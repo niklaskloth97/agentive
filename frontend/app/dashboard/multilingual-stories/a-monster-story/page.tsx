@@ -5,10 +5,8 @@ import { Download } from "lucide-react";
 import CollapsibleCard from "@/components/CollapsibleCard";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import LanguageSelector from "@/components/LanguageSelector";
-import LanguageAudioPlayer from "@/components/LanguageAudioPlayer";
 import LanguageAwarePdfViewer from "@/components/LanguageAwarePdfViewer";
 import { Button } from "@/components/ui/button";
-import { ActivitySelection } from "@/components/ActivitySelection";
 // import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 // import { Card, CardContent } from "@/components/ui/card";
 // import Image from "next/image";
@@ -85,13 +83,26 @@ export default function Page() {
       availableLanguages={availableLanguages}
     >
       <DashboardLayout breadcrumbItems={breadcrumbItems}>
-        <div className="flex justify-end mb-4">
+        <div className="flex justify-end">
           
         </div>
-        <h1 className="text-2xl font-bold ml-3">Monster Story</h1>
+        <h1 className="text-2xl text-center font-bold ml-3 mb-4">View Follow-Up Activity</h1>
         <div className="flex flex-col md:flex-row w-full gap-4">
+                    {/* Right Column - 25% */}
+          <div className="w-full md:w-1/5 flex flex-col gap-4">
+          <CollapsibleCard 
+              title="Select a language"
+              defaultOpen={true}
+            >
+              <LanguageSelector />
+            </CollapsibleCard>
+          <Button className="w-full">
+                  <Download/> Download material
+                </Button>
+          </div>
+
           {/* Left Column - 75% */}
-          <div className="w-full md:w-3/4">
+          <div className="w-full md:w-4/5">
             <CollapsibleCard 
               title="Read the story"
               defaultOpen={true}
@@ -103,53 +114,7 @@ export default function Page() {
             </CollapsibleCard>
          </div>
           
-          {/* Right Column - 25% */}
-          <div className="w-full md:w-1/4 flex flex-col gap-4">
-          <CollapsibleCard 
-              title="Select a language"
-              defaultOpen={true}
-            >
-              <LanguageSelector />
-            </CollapsibleCard>
-            <CollapsibleCard 
-              title="Listen to audio"
-              defaultOpen={true}
-            >
-              <LanguageAudioPlayer audioSources={audioSources} />
-            </CollapsibleCard>
 
-            <CollapsibleCard 
-              title="Download Options"
-              className="w-full"
-            >
-              <div className="space-y-3">
-                <p className="text-gray-700">Downloading downloads the material for the selected language. You can choose to download everything or the different files below.</p>
-                
-              <Button className="w-full" variant="slate">
-                  <Download/> Full material
-                </Button>
-                <Button className="w-full" variant="outline">
-                  <Download/> Full PDF
-                </Button>
-                <Button className="w-full" variant="outline">
-                  <Download/> Pictures only
-                </Button>
-                <Button className="w-full" variant="outline">
-                <Download/> Audio
-                </Button>
-                <Button className="w-full" variant="outline">
-                  <Download/> Dialogic Reading Guide
-                </Button>
-              </div>
-            </CollapsibleCard>
-            
-            <CollapsibleCard 
-              title="Follow-up activities"
-              className="w-full"
-            >
-              <ActivitySelection />
-            </CollapsibleCard>
-          </div>
         </div>
       </DashboardLayout>
     </LanguageProvider>
