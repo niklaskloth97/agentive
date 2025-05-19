@@ -46,8 +46,23 @@ export default function Page() {
     },
   ]
 
+  // Define story type for better type checking
+  interface StoryPage {
+    imageUrl?: string;
+    [key: string]: string | number | boolean | undefined | null | Record<string, unknown>;
+  }
+
+  interface Story {
+    id: string;
+    title: string;
+    slug?: string;
+    pages?: {
+      [language: string]: StoryPage[];
+    };
+  }
+
   // Helper function to get available languages from JSON story data
-  const getJsonStoryLanguages = (story:string[]) => {
+  const getJsonStoryLanguages = (story: Story) => {
     if (!story.pages) return ['English'];
     return Object.keys(story.pages).map(lang => {
       switch(lang) {
@@ -62,7 +77,7 @@ export default function Page() {
   }
 
   // Helper function to get a cover image for JSON story
-  const getJsonStoryCoverImage = (story:any) => {
+  const getJsonStoryCoverImage = (story: Story) => {
     // Try to get the first image from English pages, fallback to any available language
     const pages = story.pages?.en || Object.values(story.pages || {})[0];
     if (pages && pages.length > 0 && pages[0].imageUrl) {

@@ -46,7 +46,7 @@ export default function ActivityViewer({
   activity, 
   storyTitle, 
   storySlug,
-  className 
+   
 }: ActivityViewerProps) {
   const breadcrumbItems = [
   { label: "Multilingual Stories", href: "/dashboard" },

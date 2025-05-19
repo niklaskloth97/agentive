@@ -1,54 +1,43 @@
-"use client"
-
+import activitiesData from "@/data/activities.json";
 import ActivityViewer from "@/components/ActivityViewer";
 import { getActivityBySlug } from "@/lib/activity-utils";
 import { notFound } from "next/navigation";
-import { useEffect, useState } from "react";
-import { Activity, StoryActivities } from "@/lib/activity-utils";
+import type { StoryActivities, Activity } from "@/lib/activity-utils";
 
-export default function ActivityPage({ params }: {
-  params: {
+interface PageProps {
+  // params must be a Promise so it has then/catch/finally
+  params: Promise<{
     storySlug: string;
     activityId: string;
-  }
-}) {
-  const { storySlug, activityId } = params;
-  
-  const [loading, setLoading] = useState<boolean>(true);
-  const [activity, setActivity] = useState<Activity | undefined>(undefined);
-  const [story, setStory] = useState<StoryActivities | undefined>(undefined);
-  
-  useEffect(() => {
-    try {
-      // Get activity data
-      const result = getActivityBySlug(storySlug, activityId);
-      console.log("Activity lookup result:", result);
-      
-      if (result.activity && result.story) {
-        setActivity(result.activity);
-        setStory(result.story);
-      }
-    } catch (error) {
-      console.error("Error fetching activity:", error);
-    } finally {
-      setLoading(false);
-    }
-  }, [storySlug, activityId]);
-  
-  // Show loading state
-  if (loading) {
-    return <div className="p-8 text-center">Loading activity...</div>;
-  }
-  
-  // If activity not found, return 404
-  if (!activity || !story) {
-    console.log("Activity not found for:", storySlug, activityId);
-    notFound();
-  }
-  
+  }>;
+}
+
+/** 
+ * Tell Next.js which activity pages to pre-render 
+ */
+export function generateStaticParams(): {
+  storySlug: string;
+  activityId: string;
+}[] {
+  const stories = activitiesData as StoryActivities[];
+  return stories.flatMap((story) =>
+    story.activities.map((act) => ({
+      storySlug: story.slug,
+      activityId: act.id,
+    }))
+  );
+}
+
+export default async function ActivityPage({ params }: PageProps) {
+  // unwrap the promise
+  const { storySlug, activityId } = await params;
+
+  const { activity, story } = getActivityBySlug(storySlug, activityId);
+  if (!activity || !story) return notFound();
+
   return (
-    <ActivityViewer 
-      activity={activity}
+    <ActivityViewer
+      activity={activity as Activity}
       storyTitle={story.title}
       storySlug={story.slug}
     />

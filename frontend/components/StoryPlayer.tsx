@@ -12,7 +12,6 @@ import {
   Pause, 
   Globe, 
   VolumeX,
-  Languages
 } from "lucide-react";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import LanguageSelector from "@/components/LanguageSelector";

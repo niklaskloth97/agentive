@@ -1,6 +1,5 @@
 "use client"
 
-import { use } from "react";
 import ActivityViewer from "@/components/ActivityViewer";
 import { getActivityBySlug } from "@/lib/activity-utils";
 import { notFound } from "next/navigation";

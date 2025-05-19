@@ -1,6 +1,5 @@
 "use client"
 
-import { use } from "react";
 import ActivityPage from "@/components/ActivityPage";
 
 export default function ActivityPageWrapper({ params }: {
