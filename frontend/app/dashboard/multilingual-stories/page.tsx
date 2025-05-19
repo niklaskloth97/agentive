@@ -183,8 +183,8 @@ export default function Page() {
                         </div>
                       </div>
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-5xl">
-                        {/* Updated URL path for Listen */}
-                        <Link href={`/dashboard/multilingual-stories/story-${story.id}/listening`} className="w-full">
+                        {/* Listen */}
+                        <Link href={`/dashboard/stories/${story.id}/listening`} className="w-full">
                           <button 
                             className="w-full h-48 md:h-64 rounded-xl bg-blue-200 hover:bg-blue-300 flex flex-col items-center justify-center shadow-lg transition-all duration-200 hover:scale-[1.02] focus:outline-none focus:ring-4 focus:ring-blue-300"
                             aria-label="Listen to story"
@@ -193,9 +193,9 @@ export default function Page() {
                             <span className="text-lg font-semibold text-blue-600 mt-3">Listen</span>
                           </button>
                         </Link>
-                        
-                        {/* Updated URL path for Read */}
-                        <Link href={`/dashboard/multilingual-stories/story-${story.id}/reading`} className="w-full">
+
+                        {/* Read */}
+                        <Link href={`/dashboard/stories/${story.id}/reading`} className="w-full">
                           <button 
                             className="w-full h-48 md:h-64 rounded-xl bg-emerald-200 hover:bg-emerald-300 flex flex-col items-center justify-center shadow-lg transition-all duration-200 hover:scale-[1.02] focus:outline-none focus:ring-4 focus:ring-emerald-300"
                             aria-label="Read story"
@@ -204,15 +204,15 @@ export default function Page() {
                             <span className="text-lg font-semibold text-emerald-600 mt-3">Read</span>
                           </button>
                         </Link>
-                        
-                        {/* Updated URL path for Activities */}
-                        <Link href={`/dashboard/activities/${story.slug}/activity-1-1`} className="w-full">
+
+                        {/* Activities */}
+                        <Link href={`/dashboard/stories/${story.id}/activities`} className="w-full">
                           <button 
                             className="w-full h-48 md:h-64 rounded-xl bg-amber-200 hover:bg-amber-300 flex flex-col items-center justify-center shadow-lg transition-all duration-200 hover:scale-[1.02] focus:outline-none focus:ring-4 focus:ring-amber-300"
-                            aria-label="View activities"
+                            aria-label="View follow-up activities"
                           >
                             <Activity className="h-36 w-36 md:h-48 md:w-48 text-amber-600" strokeWidth={1.5} />
-                            <span className="text-lg font-semibold text-amber-600 mt-3">Follow-up Activities</span>
+                            <span className="text-lg font-semibold text-amber-600 mt-3">Activities</span>
                           </button>
                         </Link>
                       </div>
