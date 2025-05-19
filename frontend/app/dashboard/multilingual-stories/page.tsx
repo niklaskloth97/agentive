@@ -47,7 +47,7 @@ export default function Page() {
   ]
 
   // Helper function to get available languages from JSON story data
-  const getJsonStoryLanguages = (story) => {
+  const getJsonStoryLanguages = (story:string[]) => {
     if (!story.pages) return ['English'];
     return Object.keys(story.pages).map(lang => {
       switch(lang) {
@@ -62,7 +62,7 @@ export default function Page() {
   }
 
   // Helper function to get a cover image for JSON story
-  const getJsonStoryCoverImage = (story) => {
+  const getJsonStoryCoverImage = (story:any) => {
     // Try to get the first image from English pages, fallback to any available language
     const pages = story.pages?.en || Object.values(story.pages || {})[0];
     if (pages && pages.length > 0 && pages[0].imageUrl) {
@@ -191,7 +191,7 @@ export default function Page() {
                         </Link>
                         
                         {/* Updated URL path for Activities */}
-                        <Link href={`/dashboard/multilingual-stories/story-${story.id}/activities`} className="w-full">
+                        <Link href={`/dashboard/activities/${story.slug}/activity-1-1`} className="w-full">
                           <button 
                             className="w-full h-48 md:h-64 rounded-xl bg-amber-200 hover:bg-amber-300 flex flex-col items-center justify-center shadow-lg transition-all duration-200 hover:scale-[1.02] focus:outline-none focus:ring-4 focus:ring-amber-300"
                             aria-label="View activities"
