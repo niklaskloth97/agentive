@@ -133,7 +133,7 @@ export default function Page() {
             </CardContent>
 
             <CardFooter className="flex justify-end">
-              <Link href="/dashboard/follow-up-activities">
+              <Link href="/dashboard/activities">
                 <Button variant="outline" className="gap-2">
                   View activities <ArrowRight className="h-4 w-4" />
                 </Button>
@@ -183,7 +183,7 @@ export default function Page() {
             </CardContent>
 
             <CardFooter className="flex justify-end">
-              <Link href="/dashboard/teacher-guides">
+              <Link href="dashboard/activities/story-1/activity-1-1">
                 <Button variant="outline" className="gap-2">
                   View guide<ArrowRight className="h-4 w-4" />
                 </Button>

@@ -245,7 +245,7 @@ export default function Page() {
                   </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-5xl">
-                  <Link href={`/dashboard/multilingual-stories/${learningmaterial[parseInt(selectedStory)].slug}/listen`} className="w-full">
+                  <Link href={`/dashboard/stories/${learningmaterial[parseInt(selectedStory)].slug}/listen`} className="w-full">
                     <button 
                       className="w-full h-48 md:h-64 rounded-xl bg-blue-200 hover:bg-blue-300 flex flex-col items-center justify-center shadow-lg transition-all duration-200 hover:scale-[1.02] focus:outline-none focus:ring-4 focus:ring-blue-300"
                       aria-label="Listen to story"
