@@ -192,26 +192,16 @@ export function StoryPlayer({
           {/* Collapsible Sidebar - disabled, when no audio options */}
           {showAudioControls && (
             <div 
-              className={cn(
-                "flex flex-col border-r border-slate-200 transition-all duration-300 ease-in-out h-full",
-                sidebarCollapsed ? "w-12" : "w-56"
-              )}
+              className=
+                "flex flex-col border-r border-slate-200 transition-all duration-300 ease-in-out h-full w-56"
+              
             >
               <div className="flex flex-col p-4 gap-6 h-full relative">
-                <div className="flex items-center text-center justify-between mb-2">
-                  {!sidebarCollapsed && <h3 className="text-sm font-medium">Story Controls</h3>}
-                  <button 
-                    onClick={() => setSidebarCollapsed(!sidebarCollapsed)}
-                    className="ml-auto h-6 w-6 rounded-full flex items-center justify-center text-gray-500 hover:text-gray-700"
-                  >
-                    {sidebarCollapsed ? <ChevronRight size={14} /> : <ChevronLeft size={14} />}
-                  </button>
-                </div>
-                <div className="border-b border-slate-200 -mx-4"></div>
+                
 
-                <div className={cn("transition-opacity space-y-8", sidebarCollapsed ? "opacity-0 invisible" : "opacity-100")}>
+                <div className="transition-opacity space-y-8">
                   <div>
-                    <h3 className="text-sm font-medium mb-2">Language</h3>
+                    <h3 className="text-sm font-medium mb-2">Select a Language</h3>
                     <LanguageSelector />
                   </div>
                   
@@ -282,40 +272,6 @@ export function StoryPlayer({
                     )}
                   </Button>
                 </div>
-
-                {/* Collapsed sidebar icons */}
-                {sidebarCollapsed && (
-                  <div className="flex flex-col items-center gap-6 h-full">
-                    <button 
-                      className="h-8 w-8 flex items-center justify-center rounded-full bg-white border border-gray-200"
-                      onClick={() => {
-                        setSidebarCollapsed(false);
-                      }}
-                    >
-                      <Globe size={14} />
-                    </button>
-                    
-                    <button 
-                      className="h-8 w-8 flex items-center justify-center rounded-full bg-white border border-gray-200"
-                      onClick={() => {
-                        if (volume > 0) {
-                          handleVolumeChange([0]);
-                        } else {
-                          handleVolumeChange([1]);
-                        }
-                      }}
-                    >
-                      {volume === 0 ? <VolumeX size={14} /> : <Volume2 size={14} />}
-                    </button>
-                    
-                    <button 
-                      className="h-8 w-8 mt-auto mb-4 flex items-center justify-center rounded-full bg-primary text-white"
-                      onClick={togglePlayPause}
-                    >
-                      {isPlaying ? <Pause size={16} /> : <Play size={16} />}
-                    </button>
-                  </div>
-                )}
               </div>
             </div>
           )}
