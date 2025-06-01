@@ -1,13 +1,8 @@
 "use client";
 
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
+import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/components/LanguageProvider";
+import { cn } from "@/lib/utils";
 
 // Language flag mapping
 const languageFlags: Record<string, string> = {
@@ -24,38 +19,25 @@ const languageFlags: Record<string, string> = {
 export default function LanguageSelector() {
   const { selectedLanguage, setSelectedLanguage, availableLanguages } = useLanguage();
 
-  // Custom display value with flag
-  const getLanguageWithFlag = (langCode: string) => {
-    const flag = languageFlags[langCode] || "🌐";
-    const label = availableLanguages[langCode]?.label || langCode;
-    return (
-      <div className="flex items-center gap-2">
-        <span className="text-lg" aria-hidden="true">{flag}</span>
-        <span>{label}</span>
-      </div>
-    );
-  };
-
   return (
-    <div className="flex items-center gap-2">
-      <Select
-        value={selectedLanguage}
-        onValueChange={setSelectedLanguage}
-      >
-        <SelectTrigger className="w-[130px]">
-          <SelectValue>
-            {selectedLanguage && getLanguageWithFlag(selectedLanguage)}
-          </SelectValue>
-        </SelectTrigger>
-        <SelectContent>
-          {Object.entries(availableLanguages).map(([key, value]) => (
-            <SelectItem key={key} value={key} className="flex items-center gap-2">
-              <span className="text-lg mr-2" aria-hidden="true">{languageFlags[key] || "🌐"}</span>
-              {value.label}
-            </SelectItem>
-          ))}
-        </SelectContent>
-      </Select>
+    <div className="flex flex-wrap items-center gap-2">
+      {Object.entries(availableLanguages).map(([langCode, value]) => (
+        <Button
+          key={langCode}
+          variant="ghost"
+          size="sm"
+          onClick={() => setSelectedLanguage(langCode)}
+          className={cn(
+            "flex items-center gap-1 px-2 py-1",
+            selectedLanguage === langCode && "bg-primary/10 font-medium"
+          )}
+        >
+          <span className="text-lg" aria-hidden="true">
+            {languageFlags[langCode] || "🌐"}
+          </span>
+          <span className="text-xs md:text-sm">{value.label}</span>
+        </Button>
+      ))}
     </div>
   );
 }

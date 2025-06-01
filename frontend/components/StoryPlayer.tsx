@@ -61,7 +61,7 @@ export function StoryPlayer({
   const [isFullscreen, setIsFullscreen] = useState(false);
   
   // Language state
-  const [selectedLanguage, setSelectedLanguage] = useState<string>("en");
+  const [selectedLanguage, setSelectedLanguage] = useState<string>(""); // Empty string means no selection
   const [currentPage, setCurrentPage] = useState(0);
   
   // Sidebar state
@@ -159,8 +159,15 @@ export function StoryPlayer({
   };
   
   // Get pages for the selected language
-  const pages = storyInfo?.pages?.[selectedLanguage as keyof typeof storyInfo.pages] || [];
+  const pages = selectedLanguage && storyInfo?.pages?.[selectedLanguage as keyof typeof storyInfo.pages] || [];
   
+  // Create a placeholder page using the first English page of the story if available
+  const placeholderPage = storyInfo?.pages?.en?.[0] || {
+    id: "placeholder",
+    imageUrl: "/images/placeholder-story.jpg", // Fallback image if no English version
+    text: ""
+  };
+
   // Handle regular carousel
   useEffect(() => {
     if (!api) return;
@@ -221,7 +228,7 @@ export function StoryPlayer({
 
   return (
     <LanguageProvider 
-      defaultLanguage="en" 
+      defaultLanguage="" // No default language 
       availableLanguages={availableLanguages}
       onLanguageChange={handleLanguageChange}
     >
@@ -252,72 +259,77 @@ export function StoryPlayer({
                     <LanguageSelector />
                   </div>
                   
-                  <div>
-                    <div className="flex items-center justify-between mb-2">
-                      <h3 className="text-sm font-medium">Volume</h3>
-                      <span className="text-xs text-gray-500">{Math.round(volume * 100)}%</span>
-                    </div>
-                    
-                    <div className="flex items-center gap-2">
-                      <Button
-                        variant="ghost"
-                        size="icon"
-                        className="h-6 w-6"
-                        onClick={() => handleVolumeChange([0])}
-                      >
-                        <VolumeX size={16} />
-                      </Button>
-                      
-                      <Slider
-                        value={[volume]}
-                        min={0}
-                        max={1}
-                        step={0.01}
-                        onValueChange={handleVolumeChange}
-                        className="flex-1"
-                      />
-                      
-                      <Button
-                        variant="ghost"
-                        size="icon"
-                        className="h-6 w-6"
-                        onClick={() => handleVolumeChange([1])}
-                      >
-                        <Volume2 size={16} />
-                      </Button>
-                    </div>
-                  </div>
+                  {/* Only show these controls if a language is selected */}
+                  {selectedLanguage && (
+                    <>
+                      <div>
+                        <div className="flex items-center justify-between mb-2">
+                          <h3 className="text-sm font-medium">Volume</h3>
+                          <span className="text-xs text-gray-500">{Math.round(volume * 100)}%</span>
+                        </div>
+                        
+                        <div className="flex items-center gap-2">
+                          <Button
+                            variant="ghost"
+                            size="icon"
+                            className="h-6 w-6"
+                            onClick={() => handleVolumeChange([0])}
+                          >
+                            <VolumeX size={16} />
+                          </Button>
+                          
+                          <Slider
+                            value={[volume]}
+                            min={0}
+                            max={1}
+                            step={0.01}
+                            onValueChange={handleVolumeChange}
+                            className="flex-1"
+                          />
+                          
+                          <Button
+                            variant="ghost"
+                            size="icon"
+                            className="h-6 w-6"
+                            onClick={() => handleVolumeChange([1])}
+                          >
+                            <Volume2 size={16} />
+                          </Button>
+                        </div>
+                      </div>
 
-                  {/* Download options */}
-                  <div>
-                    <h3 className="text-sm font-medium mb-2">Download</h3>
-                    
-                    {pages[currentPage]?.audioUrl && (
-                      <Button className="w-full mb-2" variant="outline" asChild>
-                        <a href={pages[currentPage].audioUrl} download>
-                          <Download className="mr-2" size={16}/> Audio
-                        </a>
-                      </Button>
-                    )}
-                    
-                    <Button className="w-full" variant="outline">
-                      <Download className="mr-2" size={16}/> Text
-                    </Button>
-                  </div>
+                      {/* Download options */}
+                      <div>
+                        <h3 className="text-sm font-medium mb-2">Download</h3>
+                        
+                        {pages[currentPage]?.audioUrl && (
+                          <Button className="w-full mb-2" variant="outline" asChild>
+                            <a href={pages[currentPage].audioUrl} download>
+                              <Download className="mr-2" size={16}/> Audio
+                            </a>
+                          </Button>
+                        )}
+                        
+                        <Button className="w-full" variant="outline">
+                          <Download className="mr-2" size={16}/> Text
+                        </Button>
+                      </div>
 
-                  {/* Play button */}
-                  <Button 
-                    className="center w-full mt-auto"
-                    variant="default"
-                    onClick={openFullscreenWithAutoplay}
-                    disabled={!pages[currentPage]?.audioUrl}
-                  >
-                    {isPlaying ? (
-                      <><Pause className="mr-2" size={16}/> Pause</>
-                    ) : (
-                      <><Play className="mr-2" size={16}/> Play</>
-                    )}
-                  </Button>
+                      {/* Play button */}
+                      <Button 
+                        className="center w-full mt-auto"
+                        variant="default"
+                        onClick={openFullscreenWithAutoplay}
+                        disabled={!pages[currentPage]?.audioUrl}
+                      >
+                        {isPlaying ? (
+                          <><Pause className="mr-2" size={16}/> Pause</>
+                        ) : (
+                          <><Play className="mr-2" size={16}/> Play</>
+                        )}
+                      </Button>
+                    </>
+                  )}
                 </div>
               </div>
             </div>
@@ -332,21 +344,46 @@ export function StoryPlayer({
           )}>
             <div className="w-full max-w-4xl mx-auto h-full flex flex-col">
               <div className="relative flex-1">
-                <div className="absolute top-2 right-2 z-10">
-                  <Button 
-                    variant="outline" 
-                    size="icon" 
-                    className="bg-white/80 hover:bg-white"
-                    onClick={() => setIsFullscreen(true)}
-                  >
-                    <Maximize2 className="h-4 w-4" />
-                  </Button>
-                </div>
+                {/* Language selection overlay - show when no language is selected */}
+                {!selectedLanguage && (
+                  <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/5 backdrop-blur-sm">
+                    <Card className="w-80 shadow-lg">
+                      <CardContent className="flex flex-col items-center p-6 text-center">
+                        <Globe className="h-12 w-12 text-primary mb-4" />
+                        <h3 className="text-xl font-medium mb-2">Select a Language</h3>
+                        <p className="text-sm text-muted-foreground mb-4">
+                          Please choose a language to view this story
+                        </p>
+                        <div className="mt-2">
+                          <LanguageSelector />
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </div>
+                )}
+
+                {/* Fullscreen button - only visible when a language is selected */}
+                {selectedLanguage && (
+                  <div className="absolute top-2 right-2 z-10">
+                    <Button 
+                      variant="outline" 
+                      size="icon" 
+                      className="bg-white/80 hover:bg-white"
+                      onClick={() => setIsFullscreen(true)}
+                    >
+                      <Maximize2 className="h-4 w-4" />
+                    </Button>
+                  </div>
+                )}
                 
+                {/* Carousel - always render but show placeholder if no language selected */}
                 <Carousel setApi={setApi} className="h-full">
                   <CarouselContent className="h-full">
-                    {pages.map((page, index) => (
-                      <CarouselItem key={`${selectedLanguage}-${index}`} className="h-full flex items-center justify-center">
+                    {(selectedLanguage && pages.length > 0 ? pages : [placeholderPage]).map((page, index) => (
+                      <CarouselItem 
+                        key={`${selectedLanguage || "placeholder"}-${index}`} 
+                        className="h-full flex items-center justify-center"
+                      >
                         <Card className="w-full max-h-[85vh]">
                           <CardContent className="flex flex-col p-4 items-center justify-center">
                             <div className="w-full aspect-video relative">
@@ -354,29 +391,39 @@ export function StoryPlayer({
                                 src={page.imageUrl} 
                                 alt={`Story scene ${index + 1}`}
                                 fill
-                                className="object-contain rounded-lg"
+                                className={cn(
+                                  "object-contain rounded-lg",
+                                  !selectedLanguage && "opacity-50 blur-sm"
+                                )}
                               />
                             </div>
                             
-                            {renderTextContainer(page)}
+                            {selectedLanguage && renderTextContainer(page)}
                           </CardContent>
                         </Card>
                       </CarouselItem>
                     ))}
                   </CarouselContent>
-                  <CarouselPrevious />
-                  <CarouselNext />
+                  {selectedLanguage && pages.length > 1 && (
+                    <>
+                      <CarouselPrevious />
+                      <CarouselNext />
+                    </>
+                  )}
                 </Carousel>
               </div>
               
-              <div className="text-center py-2">
-                Page {current} of {count}
-              </div>
+              {/* Page indicator - only show when a language is selected */}
+              {selectedLanguage && (
+                <div className="text-center py-2">
+                  Page {current} of {count}
+                </div>
+              )}
             </div>
           </div>
           
-          {/* Hidden audio player - only if audio controls are enabled */}
-          {showAudioControls && pages[currentPage]?.audioUrl && (
+          {/* Hidden audio player - only if audio controls are enabled and language selected */}
+          {showAudioControls && selectedLanguage && pages[currentPage]?.audioUrl && (
             <audio 
               ref={audioRef}
               src={pages[currentPage].audioUrl}
@@ -396,7 +443,7 @@ export function StoryPlayer({
                   {/* Language selector in fullscreen */}
                 
                   {/* Audio controls in fullscreen - only if audio controls are enabled */}
-                  {showAudioControls && pages[currentPage]?.audioUrl && (
+                  {showAudioControls && selectedLanguage && pages[currentPage]?.audioUrl && (
                     <div className="flex items-center gap-4">
                       <Button
                         variant="outline" 
@@ -425,24 +472,31 @@ export function StoryPlayer({
                 <div className="flex-1 min-h-0">
                   <Carousel setApi={setFullscreenApi} className="h-full">
                     <CarouselContent className="h-full">
-                      {pages.map((page, index) => (
-                        <CarouselItem key={`fullscreen-${selectedLanguage}-${index}`} className="h-full">
+                      {(selectedLanguage && pages.length > 0 ? pages : [placeholderPage]).map((page, index) => (
+                        <CarouselItem key={`fullscreen-${selectedLanguage || "placeholder"}-${index}`} className="h-full">
                           <div className="flex flex-col items-center justify-center h-full max-w-4xl mx-auto w-full">
                             <div className="w-full aspect-video relative rounded-lg overflow-hidden">
                               <Image
                                 src={page.imageUrl} 
                                 alt={`Story scene ${index + 1}`}
                                 fill
-                                className="object-contain rounded-lg"
+                                className={cn(
+                                  "object-contain rounded-lg",
+                                  !selectedLanguage && "opacity-50 blur-sm"
+                                )}
                               />
                             </div>
-                            {renderTextContainer(page, true)}
+                            {selectedLanguage && renderTextContainer(page, true)}
                           </div>
                         </CarouselItem>
                       ))}
                     </CarouselContent>
-                    <CarouselPrevious className="left-4" />
-                    <CarouselNext className="right-4" />
+                    {selectedLanguage && pages.length > 1 && (
+                      <>
+                        <CarouselPrevious className="left-4" />
+                        <CarouselNext className="right-4" />
+                      </>
+                    )}
                   </Carousel>
                 </div>
               </div>
