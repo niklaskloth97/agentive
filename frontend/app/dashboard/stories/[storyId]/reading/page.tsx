@@ -30,7 +30,7 @@ export default async function ReadingPage({
     <DashboardLayout breadcrumbItems={breadcrumbItems}>
       <StoryPlayer
         storyId={storyId}
-        showAudioControls={false}
+        showAudioControls={true}
         showText={true}
       />
     </DashboardLayout>
