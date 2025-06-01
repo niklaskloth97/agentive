@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
-import { Download, Music, Gamepad2, FileText, X } from "lucide-react";
+import { Download } from "lucide-react";
 import {
 	ACTIVITY_GROUPS,
 	ACTIVITY_GROUPS_META,
@@ -49,15 +49,15 @@ export default function ActivityOverview({
 
 	const totalActivities = allActivities.length;
 
-	const handleActivitySelect = (activityId: string, checked: boolean) => {
-		const newSelected = new Set(selectedActivities);
-		if (checked) {
-			newSelected.add(activityId);
-		} else {
-			newSelected.delete(activityId);
-		}
-		setSelectedActivities(newSelected);
-	};
+	// const handleActivitySelect = (activityId: string, checked: boolean) => {
+	// 	const newSelected = new Set(selectedActivities);
+	// 	if (checked) {
+	// 		newSelected.add(activityId);
+	// 	} else {
+	// 		newSelected.delete(activityId);
+	// 	}
+	// 	setSelectedActivities(newSelected);
+	// };
 
 	const handleSelectAll = (checked: boolean) => {
 		if (checked) {
@@ -67,11 +67,11 @@ export default function ActivityOverview({
 		}
 	};
 
-	const handleActivityClick = (activity: never) => {
-		// Navigate to activity detail or open activity
-		console.log("Opening activity:", activity);
-		// You would implement actual navigation here
-	};
+	// const handleActivityClick = (activity: never) => {
+	// 	// Navigate to activity detail or open activity
+	// 	console.log("Opening activity:", activity);
+	// 	// You would implement actual navigation here
+	// };
 
 	const handleBulkDownload = () => {
 		const selectedActivityData = allActivities.filter((a) =>

@@ -4,15 +4,22 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import { DashboardLayout } from "@/components/DashboardLayout";
 import ActivityOverview from "@/components/ActivityOverview"; // Reuse the same component
-import { Button } from "@/components/ui/button";
-import { Download } from "lucide-react";
 import { ACTIVITY_GROUPS } from "@/data";
 import storiesData from '@/data/stories.json';
+
+interface Story {
+  id: string;
+  title: string;
+  description: string;
+  slug: string;
+  coverImage?: string;
+  tags?: string[];
+}
 
 export default function StoryActivitiesPage() {
   const params = useParams();
   const storyId = params.storyId as string;
-  const [story, setStory] = useState<any>(null);
+  const [story, setStory] = useState<Story>();
   const [groupKey, setGroupKey] = useState<string | null>(null);
   
   // Find which activity group contains this story

@@ -1,6 +1,6 @@
 import ActivityViewer, {
 	Activity,
-	StoryActivities,
+	// StoryActivities,
 } from "@/components/ActivityViewer";
 import { notFound } from "next/navigation";
 import { ACTIVITY_GROUPS, ActivityGroupKey, ACTIVITY_GROUPS_META } from "@/data";
@@ -67,11 +67,6 @@ export default async function ActivityPage({ params }: PageProps) {
   
   if (!foundActivity || !foundStory) return notFound();
 
-  // Convert from data/index.ts Activity type to ActivityViewer's Activity type if needed
-  const viewerActivity: Activity = {
-    ...foundActivity,
-    // Add any additional properties needed by the ActivityViewer component
-  };
 
     return (
         <ActivityViewer

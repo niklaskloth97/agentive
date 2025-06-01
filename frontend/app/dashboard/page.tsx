@@ -4,8 +4,7 @@ import { DashboardLayout } from "@/components/DashboardLayout"
 import Image from 'next/image'
 import Link from 'next/link'
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Book, Activity, ArrowRight, GraduationCap, Car } from "lucide-react"
+import { Book, Activity,  GraduationCap, } from "lucide-react"
 
 export default function Page() {
   const breadcrumbItems = [

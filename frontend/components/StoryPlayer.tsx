@@ -6,8 +6,6 @@ import {
   Download, 
   Maximize2, 
   Volume2, 
-  ChevronRight, 
-  ChevronLeft, 
   Play, 
   Pause, 
   Globe, 
@@ -43,6 +41,12 @@ interface StoryLanguageContent {
   audioUrl: string;
   coverImage: string;
 }
+type StoryPageItem = {
+  id: number;
+  text: string;
+  imageUrl: string;
+  audioUrl: string;
+};
 
 export function StoryPlayer({ 
   storyId, 
@@ -65,7 +69,7 @@ export function StoryPlayer({
   const [currentPage, setCurrentPage] = useState(0);
   
   // Sidebar state
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [sidebarCollapsed] = useState(false);
 
   
   // Audio player state
@@ -74,7 +78,7 @@ export function StoryPlayer({
   const audioRef = useRef<HTMLAudioElement>(null);
   
   // Text visibility state
-  const [isTextVisible, setIsTextVisible] = useState<boolean>(showText);
+  const [isTextVisible] = useState<boolean>(showText);
   
   // Create a StoryLanguageContent mapping
   const storyContent: Record<string, StoryLanguageContent> = {};
@@ -139,13 +143,13 @@ export function StoryPlayer({
     }
   };
   
-  // Toggle text visibility
-  const toggleTextVisibility = () => {
-    setIsTextVisible(prev => !prev);
-  };
+  // // Toggle text visibility
+  // const toggleTextVisibility = () => {
+  //   setIsTextVisible(prev => !prev);
+  // };
 
   // Render text container
-  const renderTextContainer = (page: any, isFullscreen: boolean = false) => {
+  const renderTextContainer = (page: StoryPageItem, isFullscreen: boolean = false) => {
     if (!isTextVisible) return null;
     
     return (
@@ -305,13 +309,16 @@ export function StoryPlayer({
                         {pages[currentPage]?.audioUrl && (
                           <Button className="w-full mb-2" variant="outline" asChild>
                             <a href={pages[currentPage].audioUrl} download>
-                              <Download className="mr-2" size={16}/> Audio
+                              <Download className="mr-2" size={16}/> Story Audio
                             </a>
                           </Button>
                         )}
                         
-                        <Button className="w-full" variant="outline">
-                          <Download className="mr-2" size={16}/> Text
+                        <Button className="w-full mb-4" variant="outline">
+                          <Download className="mr-2" size={16}/> Story Text
+                        </Button>
+                        <Button className="w-full mb-4" variant="outline">
+                          <Download className="mr-2" size={16}/> Story Guide
                         </Button>
                       </div>
 
