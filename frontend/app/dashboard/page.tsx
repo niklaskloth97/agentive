@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Book, Activity, ArrowRight, GraduationCap } from "lucide-react"
+import { Book, Activity, ArrowRight, GraduationCap, Car } from "lucide-react"
 
 export default function Page() {
   const breadcrumbItems = [
@@ -20,64 +20,36 @@ export default function Page() {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* First column - Storytime */}
-          <Card className="transition hover:shadow-lg">
-            <CardHeader className="bg-primary/10 rounded-t-lg pb-2">
-              <div className="flex items-center gap-3">
-                <div className="p-2 bg-primary/20 rounded-full">
-                  <Book className="h-8 w-8 text-primary" />
-                </div>
-                <CardTitle className="text-2xl">Storytime</CardTitle>
-              </div>
-            </CardHeader>
-            
-            <CardContent className="pt-6">
-              <div className="grid grid-cols-2 gap-4 mb-6">
-                <div className="border rounded-md overflow-hidden shadow-sm">
-                  <Image 
-                    src="/images/stories/monster-story/monster.png" 
-                    alt="Monster Story" 
-                    width={300} 
-                    height={200} 
-                    className="w-full h-32 object-cover" 
-                  />
-                  <div className="p-2">
-                    <h3 className="font-semibold text-sm">Monster Story</h3>
-                  </div>
-                </div>
+          <div className="grid grid-cols-1 gap-6">
+            <div className="container mx-auto">
 
-                <div className="border rounded-md overflow-hidden shadow-sm">
-                  <Image 
-                    src="/images/stories/pirate-story/1.webp" 
-                    alt="Pirate Adventure" 
-                    width={300} 
-                    height={200} 
-                    className="w-full h-32 object-cover" 
-                  />
-                  <div className="p-2">
-                    <h3 className="font-semibold text-sm">Pirate Adventure</h3>
-                  </div>
-                </div>
-              </div>
-               <div className="p-3 bg-muted/50 rounded-md text-sm">
-                <ul className="space-y-1 list-disc pl-5 text-sm mb-4">
-                <li>Audio narration</li>
-                <li>Illustrations</li>
-                <li>Multiple languages</li>
-              </ul>
-              </div>
-              
-            </CardContent>
-
-            <CardFooter className="flex justify-end">
               <Link href="/dashboard/multilingual-stories">
-                <Button variant="outline" className="gap-2">
-                  View stories <ArrowRight className="h-4 w-4" />
-                </Button>
-              </Link>
-            </CardFooter>
-          </Card>
+                    <Card className="bg-primary/20 aspect-square w-full max-w-2xl mx-auto transition cursor-pointer hover:shadow-lg">
+                      <div className="flex flex-col items-center justify-center h-full p-4">
+                        <div className="flex items-center gap-3 mb-6">
+                          <div className="p-2 bg-primary/20 rounded-full">
+                            <Book className="h-8 w-8 text-primary" />
+                          </div>
+                          <CardTitle className="text-2xl">Storytime</CardTitle>
+                        </div>
+                        
+                        <div className="flex-1 flex items-center justify-center">
+                          <Image
+                            src="/learning-material/story-1/story-en/Story 1_1.jpg"
+                            alt="Storytime Illustration"
+                            width={600}
+                            height={400}
+                            className="rounded-lg shadow-md max-h-[60%] w-auto"
+                          />
+                        </div>
+                      </div>
+                    </Card>
+                  </Link>
+              </div>
+          </div>
 
           {/* Second column - Activities */}
+          <Link href="/dashboard/activities">
           <Card className="transition hover:shadow-lg">
             <CardHeader className="bg-accent/10 rounded-t-lg pb-2">
               <div className="flex items-center gap-3">
@@ -126,22 +98,16 @@ export default function Page() {
                   </div>
                 </div>
               </div>
-              
-              <div className="p-3 bg-muted/50 rounded-md text-sm">
-                Fun games and exercises to practice language skills
-              </div>
+
             </CardContent>
 
-            <CardFooter className="flex justify-end">
-              <Link href="/dashboard/activities">
-                <Button variant="outline" className="gap-2">
-                  View activities <ArrowRight className="h-4 w-4" />
-                </Button>
-              </Link>
-            </CardFooter>
+           
+
           </Card>
+          </Link>
           
           {/* Third column - Pedagogical Guide (NEW) */}
+           <Link href="dashboard/activities/story-1/activity-1-1">
           <Card className="transition hover:shadow-lg">
             <CardHeader className="bg-blue-50 rounded-t-lg pb-2">
               <div className="flex items-center gap-3">
@@ -183,13 +149,10 @@ export default function Page() {
             </CardContent>
 
             <CardFooter className="flex justify-end">
-              <Link href="dashboard/activities/story-1/activity-1-1">
-                <Button variant="outline" className="gap-2">
-                  View guide<ArrowRight className="h-4 w-4" />
-                </Button>
-              </Link>
+             
             </CardFooter>
           </Card>
+          </Link>
         </div>
       </div>
     </DashboardLayout>

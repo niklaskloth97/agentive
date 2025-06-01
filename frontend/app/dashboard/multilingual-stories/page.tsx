@@ -190,7 +190,7 @@ export default function Page() {
                             aria-label="Listen to story"
                           >
                             <Headphones className="h-36 w-36 md:h-48 md:w-48 text-blue-600" strokeWidth={1.5} />
-                            <span className="text-lg font-semibold text-blue-600 mt-3">Listen</span>
+                            <span className="text-lg font-semibold text-blue-600 mt-3">Listen & Watch</span>
                           </button>
                         </Link>
 

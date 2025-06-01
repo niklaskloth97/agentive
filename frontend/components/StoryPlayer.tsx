@@ -310,9 +310,10 @@ export function StoryPlayer({
                                 className="object-contain rounded-lg"
                               />
                             </div>
-                            <div className="text-container mt-4 bg-white border p-2 rounded-lg shadow-sm w-full">
+                            {/* Text container - removed due to feedback */}
+                            {/* <div className="text-container mt-4 bg-white border p-2 rounded-lg shadow-sm w-full">
                               <p className="text-lg">{page.text}</p>
-                            </div>
+                            </div> */}
                           </CardContent>
                         </Card>
                       </CarouselItem>
@@ -334,7 +335,7 @@ export function StoryPlayer({
             <audio 
               ref={audioRef}
               src={pages[currentPage].audioUrl}
-              autoPlay
+              
               onEnded={handleAudioEnded}
               className="hidden"
             />
