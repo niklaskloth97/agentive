@@ -1,48 +1,83 @@
-import activitiesData from "@/data/activities.json";
 import ActivityViewer, {
 	Activity,
 	StoryActivities,
 } from "@/components/ActivityViewer";
 import { notFound } from "next/navigation";
-import { ACTIVITY_GROUPS, ActivityGroupKey } from "@/data";
+import { ACTIVITY_GROUPS, ActivityGroupKey, ACTIVITY_GROUPS_META } from "@/data";
 
 interface PageProps {
-	// params must be a Promise so it has then/catch/finally
-	params: Promise<{
-		group: string;
-		activityId: string;
-	}>;
+  params: Promise<{
+    group: string;
+    activityId: string;
+  }>;
 }
 
-/**
- * Tell Next.js which activity pages to pre-render
- */
-export function generateStaticParams(): {
-	storySlug: string;
-	activityId: string;
-}[] {
-	const stories = activitiesData as StoryActivities[];
-	return stories.flatMap((story) =>
-		story.activities.map((act) => ({
-			storySlug: story.slug,
-			activityId: act.id,
-		}))
-	);
+export function generateStaticParams() {
+  // First, generate params from ACTIVITY_GROUPS structure
+  const groupParams: Array<{ group: string; activityId: string }> = [];
+  
+  Object.entries(ACTIVITY_GROUPS).forEach(([groupKey, groupData]) => {
+    const groupSlug = ACTIVITY_GROUPS_META[groupKey as ActivityGroupKey].slug;
+    
+    groupData.stories.forEach(story => {
+      // Flatten all sets of activities
+      story.sets.flat().forEach(activity => {
+        groupParams.push({
+          group: groupSlug, 
+          activityId: activity.id,
+        });
+      });
+    });
+  });
+  
+  return [...groupParams];
 }
 
 export default async function ActivityPage({ params }: PageProps) {
-	// unwrap the promise
-	const { group, activityId } = await params;
+  // unwrap the promise
+  const { group, activityId } = await params;
+  
+  const groupKey = Object.entries(ACTIVITY_GROUPS_META).find(
+    ([_, meta]) => meta.slug === group
+  )?.[0] as ActivityGroupKey | undefined;
+  
+  if (!groupKey) return notFound();
+  
+  // Find the activity within all stories and sets
+  let foundActivity: Activity | undefined;
+  let foundStory: { title: string; slug: string } | undefined;
+  
+  // Search through all stories in this group
+  for (const story of ACTIVITY_GROUPS[groupKey].stories) {
+    // Search through all activity sets in this story
+    for (const activitySet of story.sets) {
+      // Search through all activities in this set
+      const activity = activitySet.find(act => act.id === activityId);
+      if (activity) {
+        foundActivity = activity;
+        foundStory = {
+          title: story.title,
+          slug: story.slug
+        };
+        break;
+      }
+    }
+    if (foundActivity) break;
+  }
+  
+  if (!foundActivity || !foundStory) return notFound();
 
-	const { activity, story } =
-		ACTIVITY_GROUPS[group as ActivityGroupKey][activityId];
-	if (!activity || !story) return notFound();
+  // Convert from data/index.ts Activity type to ActivityViewer's Activity type if needed
+  const viewerActivity: Activity = {
+    ...foundActivity,
+    // Add any additional properties needed by the ActivityViewer component
+  };
 
-	return (
-		<ActivityViewer
-			activity={activity as Activity}
-			storyTitle={story.title}
-			storySlug={story.slug}
-		/>
-	);
+    return (
+        <ActivityViewer
+            activity={foundActivity}
+            storyTitle={foundStory.title}
+            storySlug={foundStory.slug}
+        />
+    );
 }

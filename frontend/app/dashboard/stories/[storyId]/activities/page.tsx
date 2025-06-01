@@ -1,25 +1,60 @@
-
 'use client';
 
-import { useEffect } from 'react';
-import { useRouter, useParams } from 'next/navigation';
+import { useEffect, useState } from 'react';
+import { useParams } from 'next/navigation';
+import { DashboardLayout } from "@/components/DashboardLayout";
+import ActivityOverview from "@/components/ActivityOverview"; // Reuse the same component
+import { Button } from "@/components/ui/button";
+import { Download } from "lucide-react";
+import { ACTIVITY_GROUPS } from "@/data";
+import storiesData from '@/data/stories.json';
 
-
-export default function StoryActivitiesRedirect() {
-    const router = useRouter();
-    const params = useParams();
-    const storyId = params.storyId;
-
-    useEffect(() => {
-        // Redirect to the specific activity page
-        // For demonstration purposes, this redirects to a hardcoded URL
-        // In a real application, you might want to use the actual storyId from params
-        router.replace(`/dashboard/activities/story-1/activity-1-1`);
-    }, [router, storyId]);
-
-    return (
-        <div className="flex items-center justify-center h-screen">
-            <p>Redirecting...</p>
+export default function StoryActivitiesPage() {
+  const params = useParams();
+  const storyId = params.storyId as string;
+  const [story, setStory] = useState<any>(null);
+  const [groupKey, setGroupKey] = useState<string | null>(null);
+  
+  // Find which activity group contains this story
+  useEffect(() => {
+    // First find the story in stories.json for title info
+    const storyData = storiesData.find(s => s.id === storyId);
+    setStory(storyData);
+    
+    // Find which group contains this story
+    for (const [key, group] of Object.entries(ACTIVITY_GROUPS)) {
+      const found = group.stories.some(s => s.id === storyId);
+      if (found) {
+        setGroupKey(key);
+        break;
+      }
+    }
+  }, [storyId]);
+  
+  const breadcrumbItems = [
+    { label: "Dashboard", href: "/dashboard" },
+    { label: "Stories", href: "/dashboard/stories" },
+    { label: story?.title || "Story", href: `/dashboard/stories/${storyId}` },
+    { label: "Activities", href: `/dashboard/stories/${storyId}/activities` },
+  ];
+  
+  return (
+    <DashboardLayout breadcrumbItems={breadcrumbItems}>
+      <div>
+        <h1>Activities for {story?.title || 'Story'}</h1>
+      </div>
+      
+      {/* Re-use the same ActivityOverview component, but filter it for the current story */}
+      {groupKey && <ActivityOverview 
+        groupKey={groupKey} 
+        filterByStoryId={storyId} 
+      />}
+      
+      {!groupKey && (
+        <div className="py-12 text-center">
+          <p>No activities found for this story.</p>
         </div>
-    );
+      )}
+    </DashboardLayout>
+  );
 }

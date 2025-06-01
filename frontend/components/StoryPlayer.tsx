@@ -154,6 +154,29 @@ export function StoryPlayer({
     });
   }, [api]);
 
+
+  //Fullscreen and audio buttion
+  const openFullscreenWithAutoplay = () => {
+  // First open fullscreen
+  setIsFullscreen(true);
+  
+  // Set a small timeout to ensure the fullscreen dialog is mounted
+  // before attempting to play audio (avoids race condition)
+  setTimeout(() => {
+    // Start playback if audio is available
+    if (pages[currentPage]?.audioUrl && audioRef.current) {
+      audioRef.current.play()
+        .then(() => {
+          setIsPlaying(true);
+        })
+        .catch(error => {
+          console.error("Audio autoplay failed:", error);
+          // Browser may block autoplay; user interaction required
+        });
+    }
+  }, 300);
+};
+
   // Sync fullscreen carousel with main carousel
   useEffect(() => {
     if (!fullscreenApi || !api) return;
@@ -262,7 +285,7 @@ export function StoryPlayer({
                   <Button 
                     className="center w-full mt-auto"
                     variant="default"
-                    onClick={togglePlayPause}
+                    onClick={openFullscreenWithAutoplay}
                     disabled={!pages[currentPage]?.audioUrl}
                   >
                     {isPlaying ? (

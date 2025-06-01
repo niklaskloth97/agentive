@@ -330,15 +330,410 @@ export const ACTIVITY_GROUPS: Record<
 					],
 				],
 			},
+			{
+				id: "1", // Match the ID from stories.json
+				title: "Bobba's first trip to Earth", // Match title from stories.json
+				slug: "bobbas-first-trip", // URL-friendly slug
+				description: "Follow Bobba the alien as he discovers Earth for the first time.",
+				sets: [
+					[
+					{
+						id: "activity-1-1",
+						type: "song",
+						title: "Bobba's Space Song",
+						description: "A fun song about space travel in different languages",
+						languages: {
+						en: {
+							label: "English",
+							audioUrl: "/audio/test-en.opus", // Use your test audio
+							pdfUrl: "/learning-material/story-1/space-song-en.pdf",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/learning-material/story-1/space-song-de.pdf",
+						}
+						},
+					},
+					{
+						id: "activity-1-2",
+						type: "game",
+						title: "Planet Matching Game",
+						description: "Match planet names in different languages",
+						languages: {
+						en: {
+							label: "English",
+							audioUrl: "/audio/test-en.opus",
+							pdfUrl: "/learning-material/story-1/planet-game-en.pdf",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus",
+							pdfUrl: "/learning-material/story-1/planet-game-de.pdf",
+						}
+						},
+					},
+					{
+						id: "activity-1-3",
+						type: "worksheet",
+						title: "Space Vocabulary Worksheet",
+						description: "Learn words related to space in different languages",
+						languages: {
+						en: {
+							label: "English",
+							pdfUrl: "/learning-material/story-1/space-vocab-en.pdf",
+						},
+						de: {
+							label: "German",
+							pdfUrl: "/learning-material/story-1/space-vocab-de.pdf",
+						}
+						},
+					}
+					],
+					// Second set with different activities
+					[
+					{
+						id: "activity-1-4",
+						type: "song",
+						title: "Alien Greeting Song",
+						description: "Learn how to say hello like Bobba",
+						languages: {
+						en: {
+							label: "English",
+							audioUrl: "/audio/test-en.opus",
+							pdfUrl: "/learning-material/story-1/greeting-song-en.pdf",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus",
+							pdfUrl: "/learning-material/story-1/greeting-song-de.pdf",
+						}
+						},
+					},
+					{
+						id: "activity-1-5",
+						type: "worksheet",
+						title: "Earth Adventures Worksheet",
+						description: "Activities about Bobba's adventures on Earth",
+						languages: {
+						en: {
+							label: "English",
+							pdfUrl: "/learning-material/story-1/earth-adventures-en.pdf",
+						},
+						de: {
+							label: "German",
+							pdfUrl: "/learning-material/story-1/earth-adventures-de.pdf",
+						}
+						},
+					}
+					]
+				],
+				}
 		],
 	},
 	ELS: {
-		stories: [],
+		stories: [
+			{
+				id: "1", // Match the ID from stories.json
+				title: "Bobba's first trip to Earth", // Match title from stories.json
+				slug: "bobbas-first-trip", // URL-friendly slug
+				description: "Follow Bobba the alien as he discovers Earth for the first time.",
+				sets: [
+					[
+					{
+						id: "activity-1-1",
+						type: "song",
+						title: "Bobba's Space Song",
+						description: "A fun song about space travel in different languages",
+						languages: {
+						en: {
+							label: "English",
+							audioUrl: "/audio/test-en.opus", // Use your test audio
+							pdfUrl: "/learning-material/story-1/space-song-en.pdf",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/learning-material/story-1/space-song-de.pdf",
+						}
+						},
+					},
+					{
+						id: "activity-1-2",
+						type: "game",
+						title: "Planet Matching Game",
+						description: "Match planet names in different languages",
+						languages: {
+						en: {
+							label: "English",
+							audioUrl: "/audio/test-en.opus",
+							pdfUrl: "/learning-material/story-1/planet-game-en.pdf",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus",
+							pdfUrl: "/learning-material/story-1/planet-game-de.pdf",
+						}
+						},
+					},
+					{
+						id: "activity-1-3",
+						type: "worksheet",
+						title: "Space Vocabulary Worksheet",
+						description: "Learn words related to space in different languages",
+						languages: {
+						en: {
+							label: "English",
+							pdfUrl: "/learning-material/story-1/space-vocab-en.pdf",
+						},
+						de: {
+							label: "German",
+							pdfUrl: "/learning-material/story-1/space-vocab-de.pdf",
+						}
+						},
+					}
+					],
+					// Second set with different activities
+					[
+					{
+						id: "activity-1-4",
+						type: "song",
+						title: "Alien Greeting Song",
+						description: "Learn how to say hello like Bobba",
+						languages: {
+						en: {
+							label: "English",
+							audioUrl: "/audio/test-en.opus",
+							pdfUrl: "/learning-material/story-1/greeting-song-en.pdf",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus",
+							pdfUrl: "/learning-material/story-1/greeting-song-de.pdf",
+						}
+						},
+					},
+					{
+						id: "activity-1-5",
+						type: "worksheet",
+						title: "Earth Adventures Worksheet",
+						description: "Activities about Bobba's adventures on Earth",
+						languages: {
+						en: {
+							label: "English",
+							pdfUrl: "/learning-material/story-1/earth-adventures-en.pdf",
+						},
+						de: {
+							label: "German",
+							pdfUrl: "/learning-material/story-1/earth-adventures-de.pdf",
+						}
+						},
+					}
+					]
+				],
+				}
+		],
 	},
 	ICAU: {
-		stories: [],
+		stories: [{
+				id: "1", // Match the ID from stories.json
+				title: "Bobba's first trip to Earth", // Match title from stories.json
+				slug: "bobbas-first-trip", // URL-friendly slug
+				description: "Follow Bobba the alien as he discovers Earth for the first time.",
+				sets: [
+					[
+					{
+						id: "activity-1-1",
+						type: "song",
+						title: "Bobba's Space Song",
+						description: "A fun song about space travel in different languages",
+						languages: {
+						en: {
+							label: "English",
+							audioUrl: "/audio/test-en.opus", // Use your test audio
+							pdfUrl: "/learning-material/story-1/space-song-en.pdf",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/learning-material/story-1/space-song-de.pdf",
+						}
+						},
+					},
+					{
+						id: "activity-1-2",
+						type: "game",
+						title: "Planet Matching Game",
+						description: "Match planet names in different languages",
+						languages: {
+						en: {
+							label: "English",
+							audioUrl: "/audio/test-en.opus",
+							pdfUrl: "/learning-material/story-1/planet-game-en.pdf",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus",
+							pdfUrl: "/learning-material/story-1/planet-game-de.pdf",
+						}
+						},
+					},
+					{
+						id: "activity-1-3",
+						type: "worksheet",
+						title: "Space Vocabulary Worksheet",
+						description: "Learn words related to space in different languages",
+						languages: {
+						en: {
+							label: "English",
+							pdfUrl: "/learning-material/story-1/space-vocab-en.pdf",
+						},
+						de: {
+							label: "German",
+							pdfUrl: "/learning-material/story-1/space-vocab-de.pdf",
+						}
+						},
+					}
+					],
+					// Second set with different activities
+					[
+					{
+						id: "activity-1-4",
+						type: "song",
+						title: "Alien Greeting Song",
+						description: "Learn how to say hello like Bobba",
+						languages: {
+						en: {
+							label: "English",
+							audioUrl: "/audio/test-en.opus",
+							pdfUrl: "/learning-material/story-1/greeting-song-en.pdf",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus",
+							pdfUrl: "/learning-material/story-1/greeting-song-de.pdf",
+						}
+						},
+					},
+					{
+						id: "activity-1-5",
+						type: "worksheet",
+						title: "Earth Adventures Worksheet",
+						description: "Activities about Bobba's adventures on Earth",
+						languages: {
+						en: {
+							label: "English",
+							pdfUrl: "/learning-material/story-1/earth-adventures-en.pdf",
+						},
+						de: {
+							label: "German",
+							pdfUrl: "/learning-material/story-1/earth-adventures-de.pdf",
+						}
+						},
+					}
+					]
+				],
+				}],
 	},
 	LA: {
-		stories: [],
+		stories: [{
+				id: "1", // Match the ID from stories.json
+				title: "Bobba's first trip to Earth", // Match title from stories.json
+				slug: "bobbas-first-trip", // URL-friendly slug
+				description: "Follow Bobba the alien as he discovers Earth for the first time.",
+				sets: [
+					[
+					{
+						id: "activity-1-1",
+						type: "song",
+						title: "Bobba's Space Song",
+						description: "A fun song about space travel in different languages",
+						languages: {
+						en: {
+							label: "English",
+							audioUrl: "/audio/test-en.opus", // Use your test audio
+							pdfUrl: "/learning-material/story-1/space-song-en.pdf",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/learning-material/story-1/space-song-de.pdf",
+						}
+						},
+					},
+					{
+						id: "activity-1-2",
+						type: "game",
+						title: "Planet Matching Game",
+						description: "Match planet names in different languages",
+						languages: {
+						en: {
+							label: "English",
+							audioUrl: "/audio/test-en.opus",
+							pdfUrl: "/learning-material/story-1/planet-game-en.pdf",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus",
+							pdfUrl: "/learning-material/story-1/planet-game-de.pdf",
+						}
+						},
+					},
+					{
+						id: "activity-1-3",
+						type: "worksheet",
+						title: "Space Vocabulary Worksheet",
+						description: "Learn words related to space in different languages",
+						languages: {
+						en: {
+							label: "English",
+							pdfUrl: "/learning-material/story-1/space-vocab-en.pdf",
+						},
+						de: {
+							label: "German",
+							pdfUrl: "/learning-material/story-1/space-vocab-de.pdf",
+						}
+						},
+					}
+					],
+					// Second set with different activities
+					[
+					{
+						id: "activity-1-4",
+						type: "song",
+						title: "Alien Greeting Song",
+						description: "Learn how to say hello like Bobba",
+						languages: {
+						en: {
+							label: "English",
+							audioUrl: "/audio/test-en.opus",
+							pdfUrl: "/learning-material/story-1/greeting-song-en.pdf",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus",
+							pdfUrl: "/learning-material/story-1/greeting-song-de.pdf",
+						}
+						},
+					},
+					{
+						id: "activity-1-5",
+						type: "worksheet",
+						title: "Earth Adventures Worksheet",
+						description: "Activities about Bobba's adventures on Earth",
+						languages: {
+						en: {
+							label: "English",
+							pdfUrl: "/learning-material/story-1/earth-adventures-en.pdf",
+						},
+						de: {
+							label: "German",
+							pdfUrl: "/learning-material/story-1/earth-adventures-de.pdf",
+						}
+						},
+					}
+					]
+				],
+				}],
 	},
 };

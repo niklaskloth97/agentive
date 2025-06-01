@@ -11,18 +11,29 @@ import {
 } from "@/data";
 
 interface ActivityOverviewProps {
-	groupKey: ActivityGroupKey;
+	groupKey: string;
+	filterByStoryId?: string; // Add this optional prop
 }
 
 const ALPHABET = "abcdefghijklmnopqrstuvwxyz";
 
-export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
+export default function ActivityOverview({
+	groupKey,
+	filterByStoryId,
+}: ActivityOverviewProps) {
 	const [selectedActivities, setSelectedActivities] = useState<Set<string>>(
 		new Set()
 	);
-	const groupMeta = ACTIVITY_GROUPS_META[groupKey];
-	const group = ACTIVITY_GROUPS[groupKey];
-	const stories = group.stories;
+
+	// Filter the data to show only activities for the provided story ID
+	const data = ACTIVITY_GROUPS[groupKey as ActivityGroupKey];
+
+	// Apply the story filter if provided
+	const stories = filterByStoryId
+		? data.stories.filter((story) => story.id === filterByStoryId)
+		: data.stories;
+
+	const groupMeta = ACTIVITY_GROUPS_META[groupKey as ActivityGroupKey];
 
 	// Get all activities across all stories and sets
 	const allActivities = stories.flatMap((story) =>
