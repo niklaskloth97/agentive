@@ -34,6 +34,7 @@ import { cn } from "@/lib/utils";
 interface StoryPlayerProps {
   storyId: string;
   showAudioControls?: boolean;
+  showText?: boolean; // New prop to control text visibility
   className?: string;
 }
 
@@ -45,7 +46,8 @@ interface StoryLanguageContent {
 
 export function StoryPlayer({ 
   storyId, 
-  showAudioControls = true, 
+  showAudioControls = true,
+  showText = true, // Default to showing text
   className 
 }: StoryPlayerProps) {
   // Story data access
@@ -70,6 +72,9 @@ export function StoryPlayer({
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(1);
   const audioRef = useRef<HTMLAudioElement>(null);
+  
+  // Text visibility state
+  const [isTextVisible, setIsTextVisible] = useState<boolean>(showText);
   
   // Create a StoryLanguageContent mapping
   const storyContent: Record<string, StoryLanguageContent> = {};
@@ -132,6 +137,25 @@ export function StoryPlayer({
     if (audioRef.current) {
       audioRef.current.volume = newVolume;
     }
+  };
+  
+  // Toggle text visibility
+  const toggleTextVisibility = () => {
+    setIsTextVisible(prev => !prev);
+  };
+
+  // Render text container
+  const renderTextContainer = (page: any, isFullscreen: boolean = false) => {
+    if (!isTextVisible) return null;
+    
+    return (
+      <div className={cn(
+        "text-container mt-4 bg-white rounded-lg w-full",
+        isFullscreen ? "p-4" : "border p-2 shadow-sm"
+      )}>
+        <p className="text-lg">{page.text}</p>
+      </div>
+    );
   };
   
   // Get pages for the selected language
@@ -333,10 +357,8 @@ export function StoryPlayer({
                                 className="object-contain rounded-lg"
                               />
                             </div>
-                            {/* Text container - removed due to feedback */}
-                            {/* <div className="text-container mt-4 bg-white border p-2 rounded-lg shadow-sm w-full">
-                              <p className="text-lg">{page.text}</p>
-                            </div> */}
+                            
+                            {renderTextContainer(page)}
                           </CardContent>
                         </Card>
                       </CarouselItem>
@@ -414,9 +436,7 @@ export function StoryPlayer({
                                 className="object-contain rounded-lg"
                               />
                             </div>
-                            <div className="text-container mt-4 bg-white p-4 rounded-lg w-full">
-                              <p className="text-lg">{page.text}</p>
-                            </div>
+                            {renderTextContainer(page, true)}
                           </div>
                         </CarouselItem>
                       ))}

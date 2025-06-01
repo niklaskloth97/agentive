@@ -36,6 +36,7 @@ export default async function ListeningPage({
       <StoryPlayer
         storyId={storyId}
         showAudioControls={true}
+        showText={false}
       />
     </DashboardLayout>
   );
