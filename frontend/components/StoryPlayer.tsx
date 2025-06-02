@@ -91,6 +91,13 @@ export function StoryPlayer({
           label: lang === 'en' ? 'English' : 
                  lang === 'de' ? 'Deutsch' : 
                  lang === 'fr' ? 'Français' : 
+                 lang === 'es' ? 'Español' :
+                 lang === 'it' ? 'Italiano' :
+                 lang === 'lux' ? 'Luxembourgish' :
+                 lang === 'gre' ? 'Greek' :
+                 lang === 'sv' ? 'Slovenian' :
+                 lang ===  'al' ? 'Albanian' :
+                 lang ===  'ukr' ? 'Ukrainian' :
                  lang.toUpperCase(),
           audioUrl: pages[0].audioUrl || "",
           coverImage: pages[0].imageUrl || ""

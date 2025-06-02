@@ -14,6 +14,9 @@ const languageFlags: Record<string, string> = {
   sv: "🇸🇮",  // Slovenian flag
   gr: "🇬🇷",  // Greek flag
   lux: "🇱🇺", // Luxembourg flag
+  al: "🇦🇱",  // Albanian flag
+  ukr: "🇺🇦", // Ukrainian flag
+
 };
 
 export default function LanguageSelector() {
