@@ -94,7 +94,7 @@ export function StoryPlayer({
                  lang === 'es' ? 'Español' :
                  lang === 'it' ? 'Italiano' :
                  lang === 'lux' ? 'Luxembourgish' :
-                 lang === 'gre' ? 'Greek' :
+                 lang === 'gr' ? 'Greek' :
                  lang === 'sv' ? 'Slovenian' :
                  lang ===  'al' ? 'Albanian' :
                  lang ===  'ukr' ? 'Ukrainian' :
