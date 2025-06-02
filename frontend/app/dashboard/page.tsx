@@ -1,159 +1,84 @@
 "use client"
 
-import { DashboardLayout } from "@/components/DashboardLayout"
-import Image from 'next/image'
-import Link from 'next/link'
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Book, Activity,  GraduationCap, } from "lucide-react"
+import { DashboardLayout } from "@/components/DashboardLayout";
+import Link from "next/link";
+import { Book, BookOpen, Gamepad2 } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardTitle } from "@/components/ui/card";
+import Image from "next/image";
+
+const breadcrumbItems = [
+  { label: "Dashboard", href: "/dashboard" },
+];
 
 export default function Page() {
-  const breadcrumbItems = [
-    { label: "Learning Resources", href: "/dashboard" },
-    { label: "Overview" }
-  ];
-
   return (
     <DashboardLayout breadcrumbItems={breadcrumbItems}>
       <div className="container mx-auto py-8">
         <h1 className="text-3xl font-bold mb-8">Multilingual Learning Resources</h1>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* First column - Storytime */}
-          <div className="grid grid-cols-1 gap-6">
-            <div className="container mx-auto">
-
-              <Link href="/dashboard/multilingual-stories">
-                    <Card className="bg-primary/20 aspect-square w-full max-w-2xl mx-auto transition cursor-pointer hover:shadow-lg">
-                      <div className="flex flex-col items-center justify-center h-full p-4">
-                        <div className="flex items-center gap-3 mb-6">
-                          <div className="p-2 bg-primary/20 rounded-full">
-                            <Book className="h-8 w-8 text-primary" />
-                          </div>
-                          <CardTitle className="text-2xl">Storytime</CardTitle>
-                        </div>
-                        
-                        <div className="flex-1 flex items-center justify-center">
-                          <Image
-                            src="/learning-material/story-1/story-en/Story 1_1.jpg"
-                            alt="Storytime Illustration"
-                            width={600}
-                            height={400}
-                            className="rounded-lg shadow-md max-h-[60%] w-auto"
-                          />
-                        </div>
-                      </div>
-                    </Card>
-                  </Link>
-              </div>
-          </div>
-
-          {/* Second column - Activities */}
-          <Link href="/dashboard/activities">
-          <Card className="transition hover:shadow-lg">
-            <CardHeader className="bg-accent/10 rounded-t-lg pb-2">
-              <div className="flex items-center gap-3">
-                <div className="p-2 bg-accent/20 rounded-full">
-                  <Activity className="h-8 w-8 text-accent" />
-                </div>
-                <CardTitle className="text-2xl">Activities</CardTitle>
-              </div>
-            </CardHeader>
-            
-            <CardContent className="pt-6">
-              <div className="space-y-2 mb-4">
-                <div className="flex items-center gap-3 p-2 border bg-background rounded hover:bg-muted/80 transition cursor-pointer">
-                  <div className="bg-green-100 p-2 rounded flex justify-center" style={{ width: '40px', minWidth: '40px' }}>
-                    <span className="text-green-700 font-semibold text-sm">PC</span>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Storytime Card */}
+          <Link href="/dashboard/stories">
+            <Card className="bg-primary/10 aspect-square transition cursor-pointer hover:shadow-lg">
+              <div className="flex flex-col items-center justify-center h-full p-6">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="p-3 bg-primary/20 rounded-full">
+                    <Book className="h-10 w-10 text-primary" />
                   </div>
-                  <div>
-                    <h4 className="font-medium text-sm">Plurilingual Competence</h4>
-                  </div>
+                  <CardTitle className="text-2xl">Storytime</CardTitle>
                 </div>
                 
-                <div className="flex items-center gap-3 p-2 bg-background border rounded hover:bg-muted/80 transition cursor-pointer">
-                  <div className="bg-blue-100 p-2 rounded flex justify-center" style={{ width: '40px', minWidth: '40px' }}>
-                    <span className="text-blue-700 font-semibold text-sm">LA</span>
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-sm">Language Awareness</h4>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-3 p-2 bg-background border rounded hover:bg-muted/80 transition cursor-pointer">
-                  <div className="bg-amber-100 p-2 rounded flex justify-center" style={{ width: '40px', minWidth: '40px' }}>
-                    <span className="text-amber-700 font-semibold text-sm">ELS</span>
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-sm">Early Literacy Skills</h4>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-3 p-2 bg-background border rounded hover:bg-muted/80 transition cursor-pointer">
-                  <div className="bg-rose-100 p-2 rounded flex justify-center" style={{ width: '40px', minWidth: '40px' }}>
-                    <span className="text-rose-700 font-semibold text-sm">ICAU</span>
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-sm">InterCultural Awareness and Understanding​</h4>
-                  </div>
+                <div className="flex-1 flex items-center justify-center">
+                  <Image
+                    src="/learning-material/story-1/story-en/Story 1_1.jpg"
+                    alt="Storytime Illustration"
+                    width={300}
+                    height={200}
+                    className="rounded-lg shadow-md max-h-[60%] w-auto"
+                  />
                 </div>
               </div>
-
-            </CardContent>
-
-           
-
-          </Card>
+            </Card>
           </Link>
-          
-          {/* Third column - Pedagogical Guide (NEW) */}
-           <Link href="dashboard/activities/story-1/activity-1-1">
-          <Card className="transition hover:shadow-lg">
-            <CardHeader className="bg-blue-50 rounded-t-lg pb-2">
-              <div className="flex items-center gap-3">
-                <div className="p-2 bg-blue-100 rounded-full">
-                  <GraduationCap className="h-8 w-8 text-blue-600" />
-                </div>
-                <CardTitle className="text-2xl">Peadagogical Guide</CardTitle>
-              </div>
-            </CardHeader>
-            
-            <CardContent className="pt-6">
-              <div className="flex flex-col gap-3 mb-4">
-                <div className="border rounded-lg p-3 hover:bg-slate-50 transition">
-                  <h3 className="font-semibold text-sm mb-1">Teaching Tips & Tricks</h3>
-                  <p className="text-xs text-muted-foreground">Lesson plans and guides</p>
-                </div>
-                
-                <div className="border rounded-lg p-3 hover:bg-slate-50 transition">
-                  <h3 className="font-semibold text-sm mb-1">Children Inclusion</h3>
-                  <p className="text-xs text-muted-foreground">Adresss multilingualism and -cultural awareness </p>
-                </div>
-                
-                <div className="border rounded-lg p-3 hover:bg-slate-50 transition">
-                  <h3 className="font-semibold text-sm mb-1">Implementation Tips</h3>
-                  <p className="text-xs text-muted-foreground">Best practices for classroom use</p>
-                </div>
-              </div>
-              
-              <div className="flex items-center gap-3 bg-yellow-50 p-3 rounded-md border border-yellow-100">
-                <div className="rounded-full bg-yellow-200 p-2 flex-shrink-0">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-yellow-700">
-                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                    <polyline points="7 10 12 15 17 10"/>
-                    <line x1="12" y1="15" x2="12" y2="3"/>
-                  </svg>
-                </div>
-                <p className="text-sm text-yellow-800">Free downloadable resources</p>
-              </div>
-            </CardContent>
 
-            <CardFooter className="flex justify-end">
-             
-            </CardFooter>
-          </Card>
+          {/* Activities Card */}
+          <Link href="/dashboard/activities">
+            <Card className="bg-green-100 aspect-square transition cursor-pointer hover:shadow-lg">
+              <div className="flex flex-col items-center justify-center h-full p-6">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="p-3 bg-green-200 rounded-full">
+                    <Gamepad2 className="h-10 w-10 text-green-700" />
+                  </div>
+                  <CardTitle className="text-2xl">Activities (4x24)</CardTitle>
+                </div>
+                <h2 className="text-center mt-4 text-sm text-gray-600">
+                     </h2>
+                <div className="flex-1 flex items-center justify-center">
+                  <Image
+                    src="/learning-material/activities-preview.jpg"
+                    alt="Activities Illustration"
+                    width={300}
+                    height={200}
+                    className="rounded-lg shadow-md max-h-[60%] w-auto"
+                  />
+                </div>
+                  
+              </div>
+            </Card>
+          </Link>
+        </div>
+        
+        {/* Pedagogical Guide Button */}
+        <div className="flex justify-left mt-8">
+          <Link href="/dashboard/guide">
+            <Button variant="outline" size="lg" className="gap-2">
+              <BookOpen className="h-5 w-5" />
+              Pedagogical Guide
+            </Button>
           </Link>
         </div>
       </div>
     </DashboardLayout>
-  )
+  );
 }
