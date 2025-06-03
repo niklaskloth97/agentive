@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Download } from "lucide-react";
@@ -17,10 +18,10 @@ interface ActivityOverviewProps {
 
 const ALPHABET = "abcdefghijklmnopqrstuvwxyz";
 
-export default function ActivityOverview({
-	groupKey,
-	filterByStoryId,
-}: ActivityOverviewProps) {
+export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
+	const searchParams = useSearchParams();
+	const storyIdFromUrl = searchParams.get("storyId");
+
 	const [selectedActivities, setSelectedActivities] = useState<Set<string>>(
 		new Set()
 	);
@@ -28,9 +29,9 @@ export default function ActivityOverview({
 	// Filter the data to show only activities for the provided story ID
 	const data = ACTIVITY_GROUPS[groupKey as ActivityGroupKey];
 
-	// Apply the story filter if provided
-	const stories = filterByStoryId
-		? data.stories.filter((story) => story.id === filterByStoryId)
+	// Apply the story filter if provided via URL parameter or prop
+	const stories = storyIdFromUrl
+		? data.stories.filter((story) => story.id === storyIdFromUrl)
 		: data.stories;
 
 	const groupMeta = ACTIVITY_GROUPS_META[groupKey as ActivityGroupKey];
