@@ -1,0 +1,105 @@
+{
+  "version": 0.1,
+  "files": {
+    "app/page.tsx": {
+      "scopes": {
+        "0/declaration/body/0/argument/1": {
+          "type": "element",
+          "hash": "660c0ad01368d8964344916168c4e3ac",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Welcome to AGENTIVE"
+        },
+        "0/declaration/body/0/argument/10": {
+          "type": "element",
+          "hash": "79e055eead9a5172ac8f78418247ae37",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "What Can You Expect?"
+        },
+        "0/declaration/body/0/argument/12": {
+          "type": "element",
+          "hash": "f3ec3271ec8e31618d7f6e199824ee58",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "AGENTIVE creates resources that celebrate linguistic diversity that enable teachers to design inclusive learning opportunities in order to help children develop multilingual competences. Our materials are openly available, meaning teachers, care-takers and parents are free to adapt and share these."
+        },
+        "0/declaration/body/0/argument/14": {
+          "type": "element",
+          "hash": "9ef2b598f018d52af149a5d66dde7d71",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Curious About the Team Behind AGENTIVE?"
+        },
+        "0/declaration/body/0/argument/16": {
+          "type": "element",
+          "hash": "f9520378282caa723efb88486419977f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "AAGENTIVE involves universities and organizations from Luxembourg, Switzerland, Greece, Slovenia, Germany and Italy. Together, we’re leveraging expertise across academia, schools, and businesses to drive innovation in multilingual education. Visit our <element:a>About Us</element:a>  page."
+        },
+        "0/declaration/body/0/argument/18": {
+          "type": "element",
+          "hash": "9ef2b598f018d52af149a5d66dde7d71",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Curious About the Team Behind AGENTIVE?"
+        },
+        "0/declaration/body/0/argument/20": {
+          "type": "element",
+          "hash": "a46ffe99df0dad4e57876fccc06208b7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Our team is made up of passionate researchers, teachers and developers working together to make multilingual education accessible for everyone. Our team is made up of passionate researchers, teachers and developers working together to make a multilingual education accessible to everyone. Check out our <element:a>team</element:a>  page."
+        },
+        "0/declaration/body/0/argument/22": {
+          "type": "element",
+          "hash": "72c5e55ec7694bfbda70ae47412f29fc",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Follow Our Journey"
+        },
+        "0/declaration/body/0/argument/24": {
+          "type": "element",
+          "hash": "774ef27e434eb977594ef02559f8b265",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "AGENTIVE began on 1st October 2024. Since then, we have designed 8 pedagogical sets of materials comprising stories in multiple languages which are launched from Summer 2025. Whether you’re a teacher, a parent, or simply curious about the world of multilingual education, there’s something here for you."
+        },
+        "0/declaration/body/0/argument/26": {
+          "type": "element",
+          "hash": "06478e44c8584bc6831b914939f0e4c3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Thanks for joining us on this journey—together, we’re shaping the future of early childhood multilingual education!"
+        },
+        "0/declaration/body/0/argument/3": {
+          "type": "element",
+          "hash": "a809c7546135d5f3bd7f3adadf738d88",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Boosting linguistic diversity in early childhood education through synergies"
+        },
+        "0/declaration/body/0/argument/5": {
+          "type": "element",
+          "hash": "c0f52d4b3e42b8a202efa6e239033d1a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Welcome to the AGENTIVE platform! As part of an EU-funded Erasmus+ initiative, we are creating innovative tools to promote language learning in Early Childhood Education (ECE). Our goal is to provide free evidence-based resources for language and literacy development in ECE, create professional development materials for teachers and stimulate school-university-business synergies."
+        }
+      }
+    }
+  }
+}
