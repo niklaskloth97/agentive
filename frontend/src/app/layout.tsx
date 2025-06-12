@@ -24,15 +24,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<LingoProvider
-			loadDictionary={async (locale) => {
-				console.log("Loading dictionary for locale:", locale);
-				const dict = await loadDictionary(locale);
-				console.log("Dictionary loaded:", dict);
-
-				return dict;
-			}}
-		>
+		<LingoProvider loadDictionary={(locale) => loadDictionary(locale)}>
 			<html lang="en" suppressHydrationWarning>
 				<body
 					className={`${geistSans.variable} ${geistMono.variable} antialiased relative flex flex-col min-h-screen`}

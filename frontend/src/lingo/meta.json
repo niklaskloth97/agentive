@@ -1,6 +1,1290 @@
 {
   "version": 0.1,
   "files": {
+    "app/about/page.tsx": {
+      "scopes": {
+        "0/declaration/body/0/argument/1": {
+          "type": "element",
+          "hash": "a20bb1ec288e265935ee036124497de2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "About the Project: AGENTIVE"
+        },
+        "0/declaration/body/0/argument/3": {
+          "type": "element",
+          "hash": "2485719f7013986f8cbe3f003808dc7d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Stimulating Multilingual Learning in Early Childhood Education"
+        },
+        "0/declaration/body/0/argument/5/3/1": {
+          "type": "element",
+          "hash": "99e6cc94edf5d96aaadda9ca0934b23f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Our Vision: Promoting Multilingualism in ECE"
+        },
+        "0/declaration/body/0/argument/5/3/11": {
+          "type": "element",
+          "hash": "4271aa05714bc054dd98c56b641aff4f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "In regions like Luxembourg, Switzerland, Tyrol and Primorska, multiple languages are spoken side by side and children may learn two societal languages from an early age through daily interactions or language learning in preschool. Additionally, migration patterns across Europe have increased the language diversity in societies and classrooms. Programmes for language awareness and early English thrive. AGENTIVE addresses these realities by developing inclusive and accessible, multilingual learning materials that are adaptable to different cultural and linguistic contexts."
+        },
+        "0/declaration/body/0/argument/5/3/13": {
+          "type": "element",
+          "hash": "3342c25530812c971289391f537c81fb",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Led by Prof. Dr. Claudine Kirsch, AGENTIVE brings together the University of Luxembourg, the University of Münster (Germany), the Free University of Bolzano (Italy), the University of Teacher Education of the Grisons (Switzerland), the University of Primorska (Slovenia) and Web2Learn (Greece). In regions like Luxembourg, Switzerland, Tyrol and Primorska, multiple languages are spoken side by side and children may learn two societal languages from an early age through daily interactions or language learning in preschool. Additionally, migration patterns across Europe have increased the language diversity in societies and classrooms. Programmes for language awareness and early English thrive. AGENTIVE addresses these realities. Our synergies between academia and schools enable us to develop innovative pedagogies and evidence-based and sustainable multilingual learning materials that benefit teachers, children, and parents."
+        },
+        "0/declaration/body/0/argument/5/3/15": {
+          "type": "element",
+          "hash": "50070fdfd8c47b262475225c635b000f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Objectives of the Project"
+        },
+        "0/declaration/body/0/argument/5/3/17": {
+          "type": "element",
+          "hash": "29245a62c1ebe0526a2ddcb21c9558bf",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "AGENTIVE is guided by two key objectives:"
+        },
+        "0/declaration/body/0/argument/5/3/19/1": {
+          "type": "element",
+          "hash": "ba35ffb345ab4c42963915c095ff2928",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Enhance digital transformation of schools and universities through open education resources and state-of-the-art pedagogies: By creating open-access, innovative pedagogical tools, the project supports the digital readiness of schools and universities. Training programs for pre- and in-service ECE teachers are integral to this goal."
+        },
+        "0/declaration/body/0/argument/5/3/19/3": {
+          "type": "element",
+          "hash": "b7cf1766a3979b80bf4e5c071986b4e5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Leverage open, multilingual and cross-sectoral ECE through university-school-business synergies: AGENTIVE fosters partnerships between schools, universities, and businesses to innovate multilingual education. These collaborations ensure that our pedagogical approaches and materials are appropriate, inclusive and forward-thinking."
+        },
+        "0/declaration/body/0/argument/5/3/21": {
+          "type": "element",
+          "hash": "3fba6a9795f3a6f47248a6ec565b7142",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Innovation and Impact"
+        },
+        "0/declaration/body/0/argument/5/3/23/1": {
+          "type": "element",
+          "hash": "ffe59e3dfc4683d3d16f44cfeda45083",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "AGENTIVE’s approach is holistic and multidimensional, offering:"
+        },
+        "0/declaration/body/0/argument/5/3/23/3/1": {
+          "type": "element",
+          "hash": "df7174329a7015b34dd773adbe0cf8f8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:p>Digital resources for multilingual literacy:</element:p> The project provides open access digital materials that promote the learning of multiple languages and early literacy skills, addressing a key gap in early childhood education."
+        },
+        "0/declaration/body/0/argument/5/3/23/3/3": {
+          "type": "element",
+          "hash": "059d5a7c2aea66918d31d8a7db4bb07a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:p>Equipping educators:</element:p> By equipping pre-service and in-service teachers with evidence-based strategies and digital competencies, AGENTIVE empowers professionals to implement multilingual teaching effectively."
+        },
+        "0/declaration/body/0/argument/5/3/23/3/5": {
+          "type": "element",
+          "hash": "2fbc2959692d05b6a04f4026788f8084",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:p>Cross-Sector collaboration:</element:p> The synergy between academia and businesses drives the development of innovative educational tools and sustainable partnerships."
+        },
+        "0/declaration/body/0/argument/5/3/25": {
+          "type": "element",
+          "hash": "bc6ab8d71d49bed789cdff4445930b1e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "A Model for the Future"
+        },
+        "0/declaration/body/0/argument/5/3/27": {
+          "type": "element",
+          "hash": "4bacc4cc3fbcd41fe02da2996ae0a1c1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "By building on the expertise of its partners and leveraging the multilingual realities of Europe, AGENTIVE aims to set a benchmark for early childhood multilingual education. The project’s outcomes will contribute to more inclusive and innovative learning environments across Europe."
+        },
+        "0/declaration/body/0/argument/5/3/29": {
+          "type": "element",
+          "hash": "cbe26a8e3d3c9b8ad7872779ad008994",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "For more information about the AGENTIVE resources and upcoming events, please explore our platform. Together, we can inspire the next generation to embrace the power of multilingualism!"
+        },
+        "0/declaration/body/0/argument/5/3/3": {
+          "type": "element",
+          "hash": "4cdc0b3f2b384e4e2ee0079f73771aa1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Languages play an important role in children’s everyday lives in Europe: many speak several languages at home while also encountering further languages at school. Many European countries have introduced elements of multilingual education in Early Childhood Education (ECE). On account of the cognitive, social, and academic benefits (of multilingualism), it has been shown that children can learn languages early in life provided they have child-friendly and stimulating conditions. While programmes for language awareness and early English learning abound, teachers appear unsure of how best to foster language learning as they lack multilingual resources."
+        },
+        "0/declaration/body/0/argument/5/3/5": {
+          "type": "element",
+          "hash": "970bbb33c1e2fbe977e8337e8ac908b2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "AGENTIVE seeks to bridge this gap by providing multilingual evidence-based resources that support literacy development in multiple languages and are easily adapted to various cultural and linguistic contexts. Professionals and parents can download our eight pedagogical sets (i.e., stories and follow-up activities) on our digital platform. AGENTIVE also offers seminars for student teachers and professional development courses for teachers to develop the digital and pedagogical competences required to use our materials effectively. Our school-university-business synergy will see to the wide dissemination of the findings."
+        },
+        "0/declaration/body/0/argument/5/3/7": {
+          "type": "element",
+          "hash": "206cd3698472fa53456935492b725ba4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "An EU-Funded Erasmus+ Initiative Across Sectors"
+        },
+        "0/declaration/body/0/argument/5/3/9": {
+          "type": "element",
+          "hash": "ca05f79f1acfba41e3588826131f6596",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "The AGENTIVE project is a groundbreaking initiative funded by the Erasmus+ programme of the European Union. Uniting universities and organizations from six countries, this pan-European partnership endorses the EU’s commitment to linguistic diversity, inclusion and digital transformation in education."
+        }
+      }
+    },
+    "app/blog/blog1/page.tsx": {
+      "scopes": {
+        "0/declaration/body/0/argument/1": {
+          "type": "element",
+          "hash": "1febb4d436b2f2b310424bd743e7d4ec",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Kicking Off AGENTIVE – A Multilingual Education Adventure Begins"
+        },
+        "0/declaration/body/0/argument/3": {
+          "type": "element",
+          "hash": "b40d6fcff5c82044bb0eb47b842ac7ce",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "From October 3rd to October 5th, the picturesque town of Brixen, hosted by the Free University of Bolzano, became the meeting point for an exciting pan-European initiative: the kickoff of the AGENTIVE project."
+        },
+        "0/declaration/body/0/argument/5": {
+          "type": "element",
+          "hash": "6a7e7c2a4f26a8621bd7b384eee903c8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This Erasmus+ funded project unites partners from Luxembourg, Switzerland, Germany, Slovenia, Italy, and Greece to revolutionize multilingual education in early childhood through innovative digital resources and collaborative efforts."
+        },
+        "0/declaration/body/0/argument/7/3/1": {
+          "type": "element",
+          "hash": "c363b4b365e43aa15fa53fdf9c63e268",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "A Strong Start: Meeting the Team and Setting the Foundations"
+        },
+        "0/declaration/body/0/argument/7/3/11": {
+          "type": "element",
+          "hash": "4e0d9bf3fc8d8cb98e5fcbef22488bec",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Teachers are expected to facilitate education in multiple languages, but often lack the resources and frameworks to do so effectively. This reflects a broader European challenge: how to provide tools and support for educators in multilingual environments."
+        },
+        "0/declaration/body/0/argument/7/3/13": {
+          "type": "element",
+          "hash": "511c414d8de7067655dd974a390be2bb",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Building a Vision for Multilingual Education"
+        },
+        "0/declaration/body/0/argument/7/3/15": {
+          "type": "element",
+          "hash": "7958b62eb1c9b0a41563d99d61cb8722",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "The AGENTIVE team came together to brainstorm solutions, establishing a shared vision for the project"
+        },
+        "0/declaration/body/0/argument/7/3/17/1/1": {
+          "type": "element",
+          "hash": "7e4cd2cc9c42d6d0abf2d6217ed46d7b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:p>Developing Generic, Flexible Material:</element:p> Multilingual resources should be adaptable to the diverse needs of educators, offering autonomy and empowering them to create meaningful teaching experiences."
+        },
+        "0/declaration/body/0/argument/7/3/17/1/3": {
+          "type": "element",
+          "hash": "b9352eec4c829207755671ef779d6ec8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:p>Multimodal and Open-Ended:</element:p>  Literacy content will include books, songs, animations, and even interactive elements, enabling children to engage with languages through various sensory modalities."
+        },
+        "0/declaration/body/0/argument/7/3/17/1/5": {
+          "type": "element",
+          "hash": "0e1064b8dc3897529c99dd5af49c16ee",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:p>Creative and Inclusive Designs: </element:p>  Characters like adventurers, dinosaurs, and monsters will help bring the materials to life, creating engaging narratives that resonate with children. Themes such as emotions, friendships, and cultural practices (e.g., shopping, traveling) will be interwoven into the stories to provide a rich, relatable and relevant learning experience for children."
+        },
+        "0/declaration/body/0/argument/7/3/17/1/7": {
+          "type": "element",
+          "hash": "489f2aea953602dbb603ae7a03b0183d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:p>Digital Innovation:</element:p>Materials will have a digital component, allowing children to select languages, hear text read aloud, and interact with multilingual content."
+        },
+        "0/declaration/body/0/argument/7/3/19": {
+          "type": "element",
+          "hash": "28e3528a08481db9a50c47a5b93cf350",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Key Challenges and Solutions"
+        },
+        "0/declaration/body/0/argument/7/3/21": {
+          "type": "element",
+          "hash": "797d2e15e85139b40a10edd480517ba6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "As with any ambitious project, AGENTIVE faces challenges: "
+        },
+        "0/declaration/body/0/argument/7/3/23/1/1/1": {
+          "type": "element",
+          "hash": "418d344aef0925b61e57bdbd9afec314",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Content Creation:"
+        },
+        "0/declaration/body/0/argument/7/3/23/1/1/11/1/1/1": {
+          "type": "element",
+          "hash": "08b530c75eb6b7cd96b6691b22b87dfc",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Solution:"
+        },
+        "0/declaration/body/0/argument/7/3/23/1/1/11/1/1/3": {
+          "type": "element",
+          "hash": "5a341e325aaa19747b9ef4c60abf7125",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "The team brainstormed synergies with other projects and potential funding mechanisms to ensure sustainability."
+        },
+        "0/declaration/body/0/argument/7/3/23/1/1/13": {
+          "type": "element",
+          "hash": "effb18824d31035f8c0f51159bfb2ac9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Digital Accessibility: "
+        },
+        "0/declaration/body/0/argument/7/3/23/1/1/15": {
+          "type": "element",
+          "hash": "183db16acacfd7c4fbd0150aa1f76652",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Creating a multilingual digital platform with interactive features poses technical challenges."
+        },
+        "0/declaration/body/0/argument/7/3/23/1/1/17/1/1/1": {
+          "type": "element",
+          "hash": "08b530c75eb6b7cd96b6691b22b87dfc",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Solution:"
+        },
+        "0/declaration/body/0/argument/7/3/23/1/1/17/1/1/3": {
+          "type": "element",
+          "hash": "c1de612b1c2cfb8f805f069a1ec7981d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Exploring cost-effective tools and partnerships for programming and infrastructure."
+        },
+        "0/declaration/body/0/argument/7/3/23/1/1/3": {
+          "type": "element",
+          "hash": "629b5879d26d1da4af18de016bdfbe9e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "While the consortium is united by a shared passion for multilingualism, creating and sustaining high-quality, diverse content is a significant challenge. Who will produce the content? And how will the project ensure continuity after the initial funding period?Solution: The team discussed leveraging student talents, particularly from art and design programs, to produce illustrations and materials."
+        },
+        "0/declaration/body/0/argument/7/3/23/1/1/5/1/1/1": {
+          "type": "element",
+          "hash": "08b530c75eb6b7cd96b6691b22b87dfc",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Solution:"
+        },
+        "0/declaration/body/0/argument/7/3/23/1/1/5/1/1/3": {
+          "type": "element",
+          "hash": "485b36cf7cf3683622040ecf02bdda58",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "The team discussed leveraging student talents, particularly from art and design programs, to produce illustrations and materials."
+        },
+        "0/declaration/body/0/argument/7/3/23/1/1/7": {
+          "type": "element",
+          "hash": "6ffbd972e0569b1f7ee9d797070c359d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Funding and Sustainability:"
+        },
+        "0/declaration/body/0/argument/7/3/23/1/1/9": {
+          "type": "element",
+          "hash": "02890e5b635888b56c63d599f097c26a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "While AGENTIVE is non-profit, maintaining a platform and updating resources requires ongoing support."
+        },
+        "0/declaration/body/0/argument/7/3/25": {
+          "type": "element",
+          "hash": "e1c2cd3db65cfdab9a2a994252f50fa5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "A Creative and Inclusive Approach"
+        },
+        "0/declaration/body/0/argument/7/3/27": {
+          "type": "element",
+          "hash": "ec00552eb143d4ea5f35655034369bb4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "A standout feature of AGENTIVE is its commitment to inclusivity. The project aims to represent children from diverse linguistic, cultural, and social backgrounds, ensuring materials are accessible to all, including children with disabilities. Additionally, the team emphasized the need for materials that celebrate cultural diversity and normalize differences."
+        },
+        "0/declaration/body/0/argument/7/3/29": {
+          "type": "element",
+          "hash": "8c99c8fa4a1ebee1e9b5ef77022cb25e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Next Steps: Setting the Wheels in Motion "
+        },
+        "0/declaration/body/0/argument/7/3/3": {
+          "type": "element",
+          "hash": "b67359cd1ef8f1a4da9452b17d2af3db",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "The kickoff meeting brought together representatives from all project partners for the first time. Led by Prof. Dr. Claudine Kirsch from the University of Luxembourg, the gathering laid the groundwork for a collaborative journey over the coming years."
+        },
+        "0/declaration/body/0/argument/7/3/31": {
+          "type": "element",
+          "hash": "36db00b3e0a8f0924382d21ffc073dc6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "As the kickoff wrapped up, the AGENTIVE team left with a clear to-do list:"
+        },
+        "0/declaration/body/0/argument/7/3/33/1/1/1": {
+          "type": "element",
+          "hash": "7a3b7a9b34936ad5571cde46b83b062e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Mapping out the needs of children, particularly migrants and those from diverse cultural backgrounds."
+        },
+        "0/declaration/body/0/argument/7/3/33/1/3/1": {
+          "type": "element",
+          "hash": "9666569f542e8e1fd6d33bfd99bdde08",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Initiating collaborations with graphic designers or art students to create illustrations and materials."
+        },
+        "0/declaration/body/0/argument/7/3/33/1/5/1": {
+          "type": "element",
+          "hash": "776fc4259fdc392fb16c3717ca37cc92",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Developing a user-friendly platform and communication strategy, led by the University of Münster."
+        },
+        "0/declaration/body/0/argument/7/3/33/1/7/1": {
+          "type": "element",
+          "hash": "2868a8719400c2eeaf3040000e89b732",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Finalizing the logo and corporate identity to establish a cohesive project brand."
+        },
+        "0/declaration/body/0/argument/7/3/35": {
+          "type": "element",
+          "hash": "cdf58d99e68f51050b9e05fae17d8a46",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "The kickoff was not just a meeting but the beginning of a collaborative adventure. The AGENTIVE team is united by a shared passion for multilingualism and a vision to empower educators and children through innovative, inclusive resources."
+        },
+        "0/declaration/body/0/argument/7/3/37": {
+          "type": "element",
+          "hash": "46e99f4c25c9a2cb204ea5f71a1d53ff",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Stay tuned as we take our first steps toward transforming multilingual education across Europe!"
+        },
+        "0/declaration/body/0/argument/7/3/5": {
+          "type": "element",
+          "hash": "f07bbe1be926028dcead27bbc4a178b5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Key organizational aspects were discussed, including budgeting, project planning, and fostering effective communication across universities and institutions. The partners emphasized the importance of seamless collaboration to ensure AGENTIVE’s success."
+        },
+        "0/declaration/body/0/argument/7/3/7": {
+          "type": "element",
+          "hash": "d59c9025d90e7cc20a3f93ce0d0fa1b5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Addressing the Challenge of Multilingualism in Education"
+        },
+        "0/declaration/body/0/argument/7/3/9": {
+          "type": "element",
+          "hash": "42046c2b48c3d7866a2a952e4b5eda74",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "The heart of the discussion focused on the challenges of fostering multilingualism in early childhood education. Prof. Kirsch highlighted the situation in Luxembourg as a prime example of the complexities faced. Luxembourg’s trilingual system (Luxembourgish, French, and German), combined with the diverse home languages of its population — ranging from Portuguese to Serbo-Croatian — places immense pressure on teachers. All other project partners joined with their own experience: The region of South Tyrol is trilingual at a minimum; in Switzerland, even four languages are spoken. Once again, the project partners were reminded about the similarity of issues and chances likewise arise from lingualism."
+        }
+      }
+    },
+    "app/blog/blog2/page.tsx": {
+      "scopes": {
+        "0/declaration/body/0/argument/1": {
+          "type": "element",
+          "hash": "ec084eb776e3b0e733a3d215d879ba03",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Welcome to AGENTIVE"
+        },
+        "0/declaration/body/0/argument/3": {
+          "type": "element",
+          "hash": "7b3002d99050290f0161fb053387c95b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Our \"Virtual Window\" to the Future of Multilingual Education"
+        },
+        "0/declaration/body/0/argument/5/3/1": {
+          "type": "element",
+          "hash": "2844dd84569f237f2b9d2c0876eace69",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "We are thrilled to announce the go-live of the AGENTIVE website, your first glimpse into a transformative project designed to revolutionize multilingual education in early childhood. While this is just the beginning, our site serves as a \"virtual shop window\" showcasing what's to come. Unlike a traditional shop, however, everything we offer will be freely available, reflecting our commitment to open-source principles and accessibility for all."
+        },
+        "0/declaration/body/0/argument/5/3/11": {
+          "type": "element",
+          "hash": "1b6f0f35fc502ef5c36c4200e9b2098e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "The AGENTIVE platform isn't just a website — it's a gateway to fostering multilingualism in early childhood education. By providing open-access resources built on a modern, accessible digital infrastructure, we aim to bridge gaps in multilingual education and offer tools that empower educators across Europe and beyond."
+        },
+        "0/declaration/body/0/argument/5/3/13": {
+          "type": "element",
+          "hash": "9d476a6b182ef8986d496f30e6025139",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "We're excited to embark on this journey with you, and we look forward to sharing updates as AGENTIVE continues to grow. Keep exploring our site, and stay tuned for new developments, resources, and stories as we build the future of multilingual education together."
+        },
+        "0/declaration/body/0/argument/5/3/15": {
+          "type": "element",
+          "hash": "295e2e2cdfbaccb8066ea8434f3c0951",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Our Platform Concept (For the Tech Enthusiasts here)"
+        },
+        "0/declaration/body/0/argument/5/3/17/1": {
+          "type": "element",
+          "hash": "6e5df1fa9c32166faa0a3288b3d8ed3d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "For those curious about the technical backbone of our platform, AGENTIVE is built using state-of-the-art tools and frameworks:"
+        },
+        "0/declaration/body/0/argument/5/3/17/3/1/1": {
+          "type": "element",
+          "hash": "144f091453be5b8fc3038c69530d6569",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "React + TypeScript:"
+        },
+        "0/declaration/body/0/argument/5/3/17/3/3": {
+          "type": "element",
+          "hash": "e8e00eba84d895bc12fbbe77ae523a67",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "A modern and robust combination, ensuring our platform is efficient, scalable, and developer-friendly."
+        },
+        "0/declaration/body/0/argument/5/3/17/3/5/1": {
+          "type": "element",
+          "hash": "2ae75c1992587a17d3776990d97784e8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "ShadCN/UI for Design:"
+        },
+        "0/declaration/body/0/argument/5/3/17/3/5/3": {
+          "type": "element",
+          "hash": "82959edbb8db727a2db06d0276cb1e5b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Leveraging the ShadCN/UI library, our website benefits from a coherent and sleek design that integrates seamlessly with existing solutions. This approach allows us to build on proven frameworks rather than reinventing the wheel."
+        },
+        "0/declaration/body/0/argument/5/3/3": {
+          "type": "element",
+          "hash": "a0809d7da678844a362f98bf03bf462b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "A Platform for Open Education"
+        },
+        "0/declaration/body/0/argument/5/3/5/1": {
+          "type": "element",
+          "hash": "c34360050e079a4bd5cfdbdda7ad0f33",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "At the heart of AGENTIVE is the principle of openness:"
+        },
+        "0/declaration/body/0/argument/5/3/5/3/1/1": {
+          "type": "element",
+          "hash": "e81e986921bcefed60a1205ce187352a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Open-Source Platform:"
+        },
+        "0/declaration/body/0/argument/5/3/5/3/3": {
+          "type": "element",
+          "hash": "bb3a59af9604f518cbb87413f03bd9dd",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "AGENTIVE is built on the philosophy that public projects funded by public money should provide public access. Our platform and code are open source, embracing the mantra \"public money, public code\"."
+        },
+        "0/declaration/body/0/argument/5/3/5/3/5/1": {
+          "type": "element",
+          "hash": "9585389aaa3f4186706498911753e9e9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Open Licensing:"
+        },
+        "0/declaration/body/0/argument/5/3/5/3/5/3": {
+          "type": "element",
+          "hash": "6f196e39c2abac97e1466eb28354d539",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "The materials we create will be available under an open-source license, such as a Creative Commons license, enabling educators, schools, and families to adapt and share resources. The specific licensing terms are still under discussion, but our focus remains on maximizing accessibility and collaboration."
+        },
+        "0/declaration/body/0/argument/5/3/5/3/7/1": {
+          "type": "element",
+          "hash": "8a9d833b5894628f4f6fb9e8f27da7be",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Accessibility in Mind:"
+        },
+        "0/declaration/body/0/argument/5/3/5/3/9": {
+          "type": "element",
+          "hash": "a21d21edfa9db1b90eb26bceda745368",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "AGENTIVE is built on the philosophy that public projects funded by public money should provide public access. Our platform and code are open source, embracing the mantra \"public money, public code\"."
+        },
+        "0/declaration/body/0/argument/5/3/7": {
+          "type": "element",
+          "hash": "e4b03c3310a6755d290c2cc0cfbebbb6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "A Glimpse of What's to Come"
+        },
+        "0/declaration/body/0/argument/5/3/9/1": {
+          "type": "element",
+          "hash": "c6e328e4de586136f0f6455d8409d77e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "While our website is live, AGENTIVE is still in the early stages of development. Here's what to expect in the coming months:"
+        },
+        "0/declaration/body/0/argument/5/3/9/3/1/1": {
+          "type": "element",
+          "hash": "41335d5f791e0546410338292c4a9f12",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Open-Access Materials:"
+        },
+        "0/declaration/body/0/argument/5/3/9/3/3": {
+          "type": "element",
+          "hash": "4e8fd97f8ff2752d901abd33888c851b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Although the materials aren't ready yet, they will soon be added to the platform under open-source licenses. These resources will empower teachers, parents, and children to engage with multilingual education like never before."
+        },
+        "0/declaration/body/0/argument/5/3/9/3/5/1": {
+          "type": "element",
+          "hash": "59ee3153ff01999d8bd093461f51c70a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Privacy-Preserving Analytics:"
+        },
+        "0/declaration/body/0/argument/5/3/9/3/5/3": {
+          "type": "element",
+          "hash": "3a4b2cd04c0d4ceb0b4ee72c8c086eec",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "As we grow, understanding how our platform is used will be critical. We are exploring privacy-preserving analytics solutions to ensure we gather insights without compromising user privacy."
+        },
+        "0/declaration/body/0/argument/5/3/9/3/7/1": {
+          "type": "element",
+          "hash": "cf57912236b1b71cc32d6aa3529797d7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Continuous Platform Development:"
+        },
+        "0/declaration/body/0/argument/5/3/9/3/9": {
+          "type": "element",
+          "hash": "1825eaffa4f0f720fc5ea556f5770655",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Our platform is designed to be flexible and extendable, ensuring we can adapt and improve over time as needs evolve."
+        }
+      }
+    },
+    "app/blog/page.tsx": {
+      "scopes": {
+        "2/declaration/body/1/argument/1": {
+          "type": "element",
+          "hash": "7feb9b36be2028520ffe37de06505148",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Blog"
+        },
+        "2/declaration/body/1/argument/3/1/expression/0/body/3/5": {
+          "type": "element",
+          "hash": "ea757711893e56c376d2affffd0a809e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Read more"
+        }
+      }
+    },
+    "app/dashboard/activities/[group]/page.tsx": {
+      "scopes": {
+        "3/declaration/body/4/consequent/0/argument": {
+          "type": "element",
+          "hash": "8f3f65f44f49134d6763d16f565facfa",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Activity group not found"
+        }
+      }
+    },
+    "app/dashboard/activities/page.tsx": {
+      "scopes": {
+        "4/declaration/body/0/argument/1/1": {
+          "type": "element",
+          "hash": "1c01b2fc4db670ab174e2220cf5e79f8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Activities"
+        },
+        "4/declaration/body/0/argument/3/1/expression/0/body/1-aria-label": {
+          "type": "attribute",
+          "hash": "56147da86fba5521282b2ce7a5df635b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Listen to story"
+        }
+      }
+    },
+    "app/dashboard/multilingual-stories/a-monster-story/page.tsx": {
+      "scopes": {
+        "8/declaration/body/2/argument/1/3": {
+          "type": "element",
+          "hash": "2467f2fcae27485319eb7f82e4167433",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "View Follow-Up Activity"
+        },
+        "8/declaration/body/2/argument/1/5/3/1-title": {
+          "type": "attribute",
+          "hash": "1a08ac1e72413da132b3220242878111",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select a language"
+        },
+        "8/declaration/body/2/argument/1/5/3/3": {
+          "type": "element",
+          "hash": "343e76c0734e7135455fc23f856882c7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Download></element:Download> Download material"
+        },
+        "8/declaration/body/2/argument/1/5/7/1-title": {
+          "type": "attribute",
+          "hash": "ca499feb114fe6118785b40cea6db415",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Read the story"
+        }
+      }
+    },
+    "app/dashboard/multilingual-stories/a-pirate-story/page.tsx": {
+      "scopes": {
+        "11/declaration/body/10/argument/1/1/5": {
+          "type": "element",
+          "hash": "0991fefeb35b8dd6ff220f3476da16a6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Scene {current} of {count}"
+        },
+        "11/declaration/body/10/argument/1/5/1/1/3": {
+          "type": "element",
+          "hash": "2c2e22f8424a1031de89063bd0022e16",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Close"
+        },
+        "11/declaration/body/10/argument/1/5/1/3/1/1/1/3/1/1-placeholder": {
+          "type": "attribute",
+          "hash": "eaa246798271492c3444d3b4f36e2451",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select audio language"
+        },
+        "11/declaration/body/10/argument/1/5/1/3/1/1/3": {
+          "type": "element",
+          "hash": "887db1c92461d1e753ebd0ed7d8d3684",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Download></element:Download> Download audio"
+        },
+        "11/declaration/body/10/argument/1/5/1/3/3/1/1": {
+          "type": "element",
+          "hash": "7b2c541f66ca7cac3e40b0fc168be017",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Image language:"
+        },
+        "11/declaration/body/10/argument/1/5/1/3/3/1/3/1/1-placeholder": {
+          "type": "attribute",
+          "hash": "8b91bfbe1c8bd8835cbb57e6001e9f54",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select image language"
+        },
+        "11/declaration/body/10/argument/1/7/1/1-title": {
+          "type": "attribute",
+          "hash": "5a7eccdb8c2fc51ea6d6e593c0704666",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Embedded PDF Viewer"
+        }
+      }
+    },
+    "app/dashboard/multilingual-stories/daniel-dino/listen/page.tsx": {
+      "scopes": {
+        "2/declaration/body/2/argument/1": {
+          "type": "element",
+          "hash": "9baaf33758802a53c9765f4161d696d3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Redirecting..."
+        }
+      }
+    },
+    "app/dashboard/multilingual-stories/daniel-dino/read/page.tsx": {
+      "scopes": {
+        "2/declaration/body/2/argument/1": {
+          "type": "element",
+          "hash": "9baaf33758802a53c9765f4161d696d3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Redirecting..."
+        }
+      }
+    },
+    "app/dashboard/multilingual-stories/listening/page.tsx": {
+      "scopes": {
+        "10/declaration/body/4/argument/1/1": {
+          "type": "element",
+          "hash": "9dba916e602745391c68ca072dbd2d5d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Listen to Monster Story"
+        },
+        "10/declaration/body/4/argument/1/3/3/1-title": {
+          "type": "attribute",
+          "hash": "1a08ac1e72413da132b3220242878111",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select a language"
+        },
+        "10/declaration/body/4/argument/1/3/3/3-title": {
+          "type": "attribute",
+          "hash": "5e0ae61d433a1b0c2547e1fef1f7b25d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Download Options"
+        },
+        "10/declaration/body/4/argument/1/3/3/3/1/1": {
+          "type": "element",
+          "hash": "2c92f416c2844bac5150ba7d2585ed39",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Downloading downloads the material for the selected language."
+        },
+        "10/declaration/body/4/argument/1/3/3/3/1/3": {
+          "type": "element",
+          "hash": "1e3e598539ec783f580428be61cffc42",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Download></element:Download> Audio"
+        },
+        "10/declaration/body/4/argument/1/3/3/3/1/5": {
+          "type": "element",
+          "hash": "b4d6f639fe0a3c54f3a9e7c32dfd36d0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Download></element:Download> Transcript"
+        },
+        "10/declaration/body/4/argument/1/3/3/5-title": {
+          "type": "attribute",
+          "hash": "97a768452224c3fa9e18114448d9ddf6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Follow-up activities"
+        }
+      }
+    },
+    "app/dashboard/multilingual-stories/reading/page.tsx": {
+      "scopes": {
+        "11/declaration/body/5/argument/1/1/1": {
+          "type": "element",
+          "hash": "9fb2f9b183f24a944ea18cb3be09b341",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Reading the Monster Story"
+        },
+        "11/declaration/body/5/argument/1/1/3/3/1/1-title": {
+          "type": "attribute",
+          "hash": "31bbc9cad079e0c8f9fbcd2ac4931ab2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Monster Story Presentation"
+        },
+        "11/declaration/body/5/argument/1/1/3/7/1-title": {
+          "type": "attribute",
+          "hash": "1a08ac1e72413da132b3220242878111",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select a language"
+        },
+        "11/declaration/body/5/argument/1/1/3/7/3-title": {
+          "type": "attribute",
+          "hash": "ddb57af59153803997035a6fb28b880f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Listen to audio"
+        },
+        "11/declaration/body/5/argument/1/1/3/7/5-title": {
+          "type": "attribute",
+          "hash": "5e0ae61d433a1b0c2547e1fef1f7b25d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Download Options"
+        },
+        "11/declaration/body/5/argument/1/1/3/7/5/1/1": {
+          "type": "element",
+          "hash": "4ecb626b3309ba30fc068fd7c27fb9dd",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Download materials for the selected language."
+        },
+        "11/declaration/body/5/argument/1/1/3/7/5/1/3": {
+          "type": "element",
+          "hash": "df2866d86bf5d358580909f2ae498064",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Download></element:Download> Audio"
+        },
+        "11/declaration/body/5/argument/1/1/3/7/5/1/5": {
+          "type": "element",
+          "hash": "3cd03da181ea5522ee8ef53b92b620d9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Download></element:Download> Transcript"
+        },
+        "11/declaration/body/5/argument/1/1/3/7/7-title": {
+          "type": "attribute",
+          "hash": "97a768452224c3fa9e18114448d9ddf6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Follow-up activities"
+        }
+      }
+    },
+    "app/dashboard/page.tsx": {
+      "scopes": {
+        "7/declaration/body/0/argument/1/1": {
+          "type": "element",
+          "hash": "deb9f9faeb22b4e0a8550adefba8ed3a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Multilingual Learning Resources"
+        },
+        "7/declaration/body/0/argument/1/3/3/1/1/1/3": {
+          "type": "element",
+          "hash": "c396ef55c1b249a5f1ff6eae92e4828f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Storytime"
+        },
+        "7/declaration/body/0/argument/1/3/3/1/1/3/1-alt": {
+          "type": "attribute",
+          "hash": "78184c9f0a2fd18d0468453fc5a9489d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Storytime Illustration"
+        },
+        "7/declaration/body/0/argument/1/3/7/1/1/1/3": {
+          "type": "element",
+          "hash": "630883fa36b3be9647352ceb3a4eb373",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Activities (4x24)"
+        },
+        "7/declaration/body/0/argument/1/3/7/1/1/5/1-alt": {
+          "type": "attribute",
+          "hash": "54ec56a55f4304c9582520755a9c173f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Activities Illustration"
+        },
+        "7/declaration/body/0/argument/1/7/1/1": {
+          "type": "element",
+          "hash": "39ca2d881b614f4f73c70ed468c4e88c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:BookOpen></element:BookOpen> Pedagogical Guide"
+        }
+      }
+    },
+    "app/dashboard/stories/[storyId]/activities/page.tsx": {
+      "scopes": {
+        "7/declaration/body/7/argument/1/1": {
+          "type": "element",
+          "hash": "667482450c69c8cee92b8006cfad0e6a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Activities for <expression/>"
+        },
+        "7/declaration/body/7/argument/1/3": {
+          "type": "element",
+          "hash": "be2967c813515b44deca7d87c13ffe74",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select an activity category to explore learning resources for this story"
+        },
+        "7/declaration/body/7/argument/1/5/expression/alternate/1": {
+          "type": "element",
+          "hash": "ae4ecfdbf19e49cc2df1a310b7601ae3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "No activities found for this story."
+        }
+      }
+    },
+    "app/dashboard/stories/page.tsx": {
+      "scopes": {
+        "9/declaration/body/9/argument/1/1": {
+          "type": "element",
+          "hash": "d14f787a6a2d07e27a2e9745c52d14ff",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Multilingual Stories"
+        },
+        "9/declaration/body/9/argument/1/7/1": {
+          "type": "element",
+          "hash": "e0f32fa1127b533100b1884898ab76fb",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Story Details"
+        },
+        "9/declaration/body/9/argument/1/7/3/3/expression/right/1/expression/callee/body/2/argument/1/3/3/1": {
+          "type": "element",
+          "hash": "4b4916213745575618907ad88c44fc08",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Available in: <function:getJsonStoryLanguages/>"
+        },
+        "9/declaration/body/9/argument/1/7/3/3/expression/right/1/expression/callee/body/2/argument/3/11/1-aria-label": {
+          "type": "attribute",
+          "hash": "42460f3f01a3a3ad1d84df6474392aed",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "View follow-up activities"
+        },
+        "9/declaration/body/9/argument/1/7/3/3/expression/right/1/expression/callee/body/2/argument/3/11/1/3": {
+          "type": "element",
+          "hash": "666c5509124ddc7f406e5824fc6c8c2a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Activities"
+        },
+        "9/declaration/body/9/argument/1/7/3/3/expression/right/1/expression/callee/body/2/argument/3/3/1-aria-label": {
+          "type": "attribute",
+          "hash": "56147da86fba5521282b2ce7a5df635b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Listen to story"
+        },
+        "9/declaration/body/9/argument/1/7/3/3/expression/right/1/expression/callee/body/2/argument/3/3/1/3": {
+          "type": "element",
+          "hash": "a907883c28343bde41df211413775290",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Listen & Watch"
+        },
+        "9/declaration/body/9/argument/1/7/3/3/expression/right/1/expression/callee/body/2/argument/3/7/1-aria-label": {
+          "type": "attribute",
+          "hash": "c5c981248e30c2feda559410e0afa788",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Read story"
+        },
+        "9/declaration/body/9/argument/1/7/3/3/expression/right/1/expression/callee/body/2/argument/3/7/1/3": {
+          "type": "element",
+          "hash": "fc24cdccbd4e7797a7524e68b62eec03",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Read"
+        }
+      }
+    },
+    "app/impress/page.tsx": {
+      "scopes": {
+        "0/declaration/body/0/argument/1": {
+          "type": "element",
+          "hash": "dc99b5d38743d2bb65a922a19cfff204",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Legal Notice"
+        },
+        "0/declaration/body/0/argument/3/1/1": {
+          "type": "element",
+          "hash": "4870f8611eb85e3d702ff616cc503b5f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Impress"
+        },
+        "0/declaration/body/0/argument/3/1/3": {
+          "type": "element",
+          "hash": "4298c0b469f72e577a7e841b2dc0a252",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "University of Muenster<element:br></element:br> Prof. Dr. Jan vom Brocke <element:br></element:br> Department for Information Systems<element:br></element:br> Leonardo Campus<element:br></element:br> 48149 Münster<element:br></element:br> Telephone: (02 51) 83 - 389100<element:br></element:br> Fax: (02 51) 83 - 38109<element:br></element:br><element:a>info@wi.uni-muenster.de</element:a><element:br></element:br><element:a>https://www.wi.uni-muenster.de</element:a><element:br></element:br>"
+        },
+        "0/declaration/body/0/argument/3/3/3/0": {
+          "type": "element",
+          "hash": "f72b5d2c5be95901d4bfe88f6347a019",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Edited in accordance with § 55 Abs. 2 RStV:​"
+        },
+        "0/declaration/body/0/argument/3/3/5": {
+          "type": "element",
+          "hash": "12a57e40dd58e418afc470858e6aef55",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "University of Muenster<element:br></element:br> Department for Information Systems<element:br></element:br> Leonardo Campus<element:br></element:br> 48149 Münster<element:br></element:br> Telephone: (02 51) 83 - 389100<element:br></element:br> Fax: (02 51) 83 - 38109<element:br></element:br><element:a>info@wi.uni-muenster.de</element:a><element:br></element:br><element:a>https://www.wi.uni-muenster.de</element:a>"
+        },
+        "0/declaration/body/0/argument/5/1": {
+          "type": "element",
+          "hash": "9afa39bc47019ee6dec6c74b6273967c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Contact"
+        },
+        "0/declaration/body/0/argument/5/10": {
+          "type": "element",
+          "hash": "fde384e49e541ffb9cd52948ab03c1c7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "niklas.kloth@uni-muenster.de"
+        },
+        "0/declaration/body/0/argument/5/3": {
+          "type": "element",
+          "hash": "91cec8ee1ad7194485a59a278e64491a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "For content feedback, wishes, issues, etc., feel free to contact:<element:br></element:br> Agentive Team E-Mail"
+        },
+        "0/declaration/body/0/argument/5/5": {
+          "type": "element",
+          "hash": "d329879c97b27fd6fdad35a18877e0bd",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "agentive@wi.uni-muenster.de"
+        },
+        "0/declaration/body/0/argument/5/8": {
+          "type": "element",
+          "hash": "be6be95f02123251d43744d38d81b5c9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "For any Webiste-related feedback, issues etc., feel free to contact:<element:br></element:br> Niklas Kloth:"
+        }
+      }
+    },
+    "app/learning-material/page.tsx": {
+      "scopes": {
+        "1/declaration/body/0/argument/1-alt": {
+          "type": "attribute",
+          "hash": "f743644b6b6a45ecb760174d023c7b42",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Background Image"
+        },
+        "1/declaration/body/0/argument/3/1/1": {
+          "type": "element",
+          "hash": "39bc0176821eba21797ffbdf645efdfe",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Still in Progress - Stay tuned"
+        },
+        "1/declaration/body/0/argument/3/1/3": {
+          "type": "element",
+          "hash": "434de7707f5c63a4cdc0ef8968f97c1c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Welcome to our learning material section. Here you will soon find a variety of resources to help you on your educational journey."
+        }
+      }
+    },
     "app/page.tsx": {
       "scopes": {
         "0/declaration/body/0/argument/1": {
@@ -98,6 +1382,870 @@
           "skip": false,
           "overrides": {},
           "content": "Welcome to the AGENTIVE platform! As part of an EU-funded Erasmus+ initiative, we are creating innovative tools to promote language learning in Early Childhood Education (ECE). Our goal is to provide free evidence-based resources for language and literacy development in ECE, create professional development materials for teachers and stimulate school-university-business synergies."
+        }
+      }
+    },
+    "app/team/page.tsx": {
+      "scopes": {
+        "1/declaration/body/2/argument/1/1": {
+          "type": "element",
+          "hash": "fe79ea798b19e8211336afe81b6b5196",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "The Team"
+        },
+        "1/declaration/body/2/argument/1/3": {
+          "type": "element",
+          "hash": "4eb0972247608173a1e4ec07c353b87b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "The AGENTIVE project is made possible by:"
+        },
+        "1/declaration/body/2/argument/1/7": {
+          "type": "element",
+          "hash": "2d912801873746258bb4bb41940c33b7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Partner Universities"
+        }
+      }
+    },
+    "app/testing_about/about/page.tsx": {
+      "scopes": {
+        "7/declaration/body/0/argument/1-title": {
+          "type": "attribute",
+          "hash": "fcd7088897b8e6cb3209a4df825bccf5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Our Vision"
+        },
+        "7/declaration/body/0/argument/13/1-title": {
+          "type": "attribute",
+          "hash": "e6152d3c5408c0296565ec7dc733630c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Objectives"
+        },
+        "7/declaration/body/0/argument/15/1-title": {
+          "type": "attribute",
+          "hash": "3fba6a9795f3a6f47248a6ec565b7142",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Innovation and Impact"
+        },
+        "7/declaration/body/0/argument/5-description": {
+          "type": "attribute",
+          "hash": "f6b8e2a6f4a1b00384fc2cd77aa651fa",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "The AGENTIVE project is a initiative funded by the Erasmus+ programme of the European Union. It unites universities and organizations from Luxembourg, Greece, Germany, Switzerland, Slovenia, and Italy to develop innovative multilingual educational resources."
+        },
+        "7/declaration/body/0/argument/5-title": {
+          "type": "attribute",
+          "hash": "29ba123db226bd9d2ac687224e9c2632",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "An EU-Funded Erasmus+ Initiative"
+        },
+        "7/declaration/body/0/argument/9/1/1-description": {
+          "type": "attribute",
+          "hash": "d1217c006f66aa1f8e5c344e0186bb0a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Led by Prof. Dr. Claudine Kirsch at the University of Luxembourg, AGENTIVE brings together the University of Münster, the Free University of Bolzano, the University of Teacher Education of the Grisons (PHGR), the University of Primorska and Web2Learn. This consortium fosters synergies between academia and schools to create innovative multilingual education material."
+        },
+        "7/declaration/body/0/argument/9/1/1-title": {
+          "type": "attribute",
+          "hash": "f1d33edf1919f30f5bbdcda65f3a93e1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Collaboration Across Sectors"
+        },
+        "7/declaration/body/0/argument/9/3/1-description": {
+          "type": "attribute",
+          "hash": "a7582752966be77c2b87ae028f7c92ac",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "In regions like Luxembourg, Switzerland, Tyrol and Primorska, multiple languages are spoken side by side and children may learn two societal languages from an early age through daily interactions or language learning in preschool. Additionally, migration patterns across Europe have increased the language diversity in societies and classrooms."
+        },
+        "7/declaration/body/0/argument/9/3/1-title": {
+          "type": "attribute",
+          "hash": "270d03b44dabefbe6e873667fb6bfb7c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "A multilingual Europe"
+        },
+        "7/declaration/body/0/argument/9/5/1-description": {
+          "type": "attribute",
+          "hash": "7f2dc79ef9807fbf4bdfefcd3437a67d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "One of AGENTIVE's core principles is openness. All educational materials developed through the project will be freely accessible, ensuring that teachers, schools, and parents can integrate them directly into their practice. The digital resources are designed to be flexible and modular, enabling educators to tailor them to specific needs."
+        },
+        "7/declaration/body/0/argument/9/5/1-title": {
+          "type": "attribute",
+          "hash": "92a01f77f042e2e070247895a4e19a67",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Open Access to Resources"
+        }
+      }
+    },
+    "app/testing_about/page.tsx": {
+      "scopes": {
+        "2/declaration/body/0/argument/3/1-alt": {
+          "type": "attribute",
+          "hash": "9108ca53a078826ff90821ddfb1a49a8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "AGENTIVE Banner"
+        },
+        "2/declaration/body/0/argument/3/3/1": {
+          "type": "element",
+          "hash": "660c0ad01368d8964344916168c4e3ac",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Welcome to AGENTIVE"
+        },
+        "2/declaration/body/0/argument/3/3/3": {
+          "type": "element",
+          "hash": "542d15a38b110fb31241b0444c7eb836",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Boosting linguistic diversity in early childhood education through synergies"
+        },
+        "2/declaration/body/0/argument/3/3/5": {
+          "type": "element",
+          "hash": "6dbe8bfc4a6303b2b4f8a590754a35df",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "More about us"
+        },
+        "2/declaration/body/0/argument/7/1/1": {
+          "type": "element",
+          "hash": "79e055eead9a5172ac8f78418247ae37",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "What Can You Expect?"
+        },
+        "2/declaration/body/0/argument/7/1/3/1/1": {
+          "type": "element",
+          "hash": "e514a38d82cb4d4e2a019e8d57ca32a9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This website is just the beginning - think of it as a sneak peek into what is to come. AGENTIVE aims to create resources that celebrate linguistic diversity, promote inclusion, and enable children to thrive in a multilingual world."
+        },
+        "2/declaration/body/0/argument/7/1/3/3/1": {
+          "type": "element",
+          "hash": "37bf0d66b841ffd8ac22bf6a9db190bb",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Our materials will be openly available under open-source licenses, such as Creative Commons, to ensure educators, parents, and schools can adapt and share them freely."
+        },
+        "2/declaration/body/0/argument/7/1/3/5/1": {
+          "type": "element",
+          "hash": "64fd61df64112d5aa7da8e7c99c96b50",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Stay tuned as we develop and release these exciting resources in the coming months!"
+        },
+        "2/declaration/body/0/argument/7/13/1/1-alt": {
+          "type": "attribute",
+          "hash": "72c5e55ec7694bfbda70ae47412f29fc",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Follow Our Journey"
+        },
+        "2/declaration/body/0/argument/7/13/3/1": {
+          "type": "element",
+          "hash": "72c5e55ec7694bfbda70ae47412f29fc",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Follow Our Journey"
+        },
+        "2/declaration/body/0/argument/7/13/3/3": {
+          "type": "element",
+          "hash": "632ec1125e6bfda761758fb89f6b3c5d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "From project milestones to insights about multilingualism, we’ll be sharing updates, reflections, and behind-the-scenes moments on our blog."
+        },
+        "2/declaration/body/0/argument/7/13/3/5": {
+          "type": "element",
+          "hash": "dc3bd9b2f58731ab47cfae5282510b63",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Read the Latest Updates"
+        },
+        "2/declaration/body/0/argument/7/17/1": {
+          "type": "element",
+          "hash": "9c8fe9b619c995a55882190eb1baa9e3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Stay Tuned!"
+        },
+        "2/declaration/body/0/argument/7/17/3": {
+          "type": "element",
+          "hash": "a8116d30d60f0a0c3182998db76346ca",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "AGENTIVE has started on 1st October. In the coming months, we will design 8 pedagogical sets comprising stories in multiple languages and materials, which we will unveil in the Summer."
+        },
+        "2/declaration/body/0/argument/7/17/5": {
+          "type": "element",
+          "hash": "06715f5666d49b068e9b3ad5f0042197",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Thanks for joining us on this journey—together, we’re shaping the future of early childhood multilingual education!"
+        },
+        "2/declaration/body/0/argument/7/5/1/1-alt": {
+          "type": "attribute",
+          "hash": "10f028be6aae5cc58f9cba0fb339f27b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Who Are We?"
+        },
+        "2/declaration/body/0/argument/7/5/3/1": {
+          "type": "element",
+          "hash": "10f028be6aae5cc58f9cba0fb339f27b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Who Are We?"
+        },
+        "2/declaration/body/0/argument/7/5/3/3": {
+          "type": "element",
+          "hash": "7490554b8f7760abd59b8ac2ed69fb86",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "AGENTIVE is a collaborative effort involving universities and organizations from Luxembourg, Switzerland, Greece, Slovenia, Germany, and Italy. Together, we’re leveraging expertise across academia, schools, and businesses to drive innovation in multilingual education."
+        },
+        "2/declaration/body/0/argument/7/9/1/1-alt": {
+          "type": "attribute",
+          "hash": "35d1d6d98a206aef58a828af74ffba53",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Curious About the Team?"
+        },
+        "2/declaration/body/0/argument/7/9/3/1": {
+          "type": "element",
+          "hash": "dacf63f5272259bc59bdde054e69bbac",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Curious About the Team Behind AGENTIVE?"
+        },
+        "2/declaration/body/0/argument/7/9/3/3": {
+          "type": "element",
+          "hash": "434ee95b50a9f894b1455097b531a03a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Our team is made up of passionate educators, researchers, and developers working together to make multilingual education accessible for everyone."
+        },
+        "2/declaration/body/0/argument/7/9/3/5": {
+          "type": "element",
+          "hash": "0eb69768ed8ab9a64d26617f8575d617",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Check Out Our Team"
+        }
+      }
+    },
+    "components/ActivityOverview.tsx": {
+      "scopes": {
+        "8/declaration/body/10/argument/1/11/1/1/1/1/3/expression/0/body": {
+          "type": "element",
+          "hash": "a0e6d138b8286f203510fbb54e1bcc4c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "F-U Act LA_{groupKey}_{ALPHABET[index]}"
+        },
+        "8/declaration/body/10/argument/1/11/1/1/3/1/expression/alternate/1": {
+          "type": "element",
+          "hash": "c025bd9b7b6d6049947fd3b94577218e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "No activities available for this group."
+        },
+        "8/declaration/body/10/argument/1/15/expression/right/1": {
+          "type": "element",
+          "hash": "0fafa739b4683d1974839d2532bafb91",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "✓ Selected {selectedActivities.size} activities for download"
+        },
+        "8/declaration/body/10/argument/1/3/1/1/1": {
+          "type": "element",
+          "hash": "48008974fbd9176303d711ecfeffcdaa",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Follow-Up Activities ({totalActivities})"
+        },
+        "8/declaration/body/10/argument/1/3/1/3": {
+          "type": "element",
+          "hash": "4c40c09f1e4d685248dc51a584a19ce0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Please <element:strong>check</element:strong> all the follow-up activities you would like to <element:strong>download</element:strong> and <element:strong>press</element:strong>  download button, or simply <element:strong>click on</element:strong> the follow-up activity button you would like to <element:strong>be shown</element:strong>."
+        },
+        "8/declaration/body/10/argument/1/7/1": {
+          "type": "element",
+          "hash": "cb1c314a6a62a32b18767f142a448817",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Download></element:Download> Download Follow-up Activity(ies) ({selectedActivities.size})"
+        },
+        "8/declaration/body/10/argument/1/7/3/3": {
+          "type": "element",
+          "hash": "0b1b90d03f01dd4c4e2204ec45fb46be",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select All"
+        }
+      }
+    },
+    "components/ActivityViewer.tsx": {
+      "scopes": {
+        "13/declaration/body/7/argument/1/3/3/1-title": {
+          "type": "attribute",
+          "hash": "1a08ac1e72413da132b3220242878111",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select a language"
+        },
+        "13/declaration/body/7/argument/1/3/3/3": {
+          "type": "element",
+          "hash": "343e76c0734e7135455fc23f856882c7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Download></element:Download> Download material"
+        }
+      }
+    },
+    "components/DashboardLayout.tsx": {
+      "scopes": {
+        "8/declaration/body/1/argument/3/1/1/3-aria-label": {
+          "type": "attribute",
+          "hash": "050ad9e6589a60da7605d8cca4cf155f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Go back"
+        }
+      }
+    },
+    "components/ListeningFrame.tsx": {
+      "scopes": {
+        "10/declaration/body/3/argument/1/3/3/1/1-alt": {
+          "type": "attribute",
+          "hash": "3b8a9bcf1367d5edbe25cc17f29900c3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Story Cover"
+        },
+        "10/declaration/body/3/argument/1/3/5/1/1/3/1/1-placeholder": {
+          "type": "attribute",
+          "hash": "7fa8806eeb911aa9ba9f013b274a2e47",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select language"
+        },
+        "10/declaration/body/3/argument/1/3/5/1/3": {
+          "type": "element",
+          "hash": "5a8657d6c1872b5033766fe0a495b4ea",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Download></element:Download> Download audio"
+        },
+        "10/declaration/body/3/argument/5/3/7/1-alt": {
+          "type": "attribute",
+          "hash": "3b8a9bcf1367d5edbe25cc17f29900c3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Story Cover"
+        },
+        "10/declaration/body/3/argument/5/3/9/1/1/3/1/1-placeholder": {
+          "type": "attribute",
+          "hash": "7fa8806eeb911aa9ba9f013b274a2e47",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select language"
+        },
+        "10/declaration/body/3/argument/5/3/9/1/3": {
+          "type": "element",
+          "hash": "5a8657d6c1872b5033766fe0a495b4ea",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Download></element:Download> Download audio"
+        }
+      }
+    },
+    "components/NavBar.tsx": {
+      "scopes": {
+        "6/declaration/body/7/argument/1/1/1/1/1-alt": {
+          "type": "attribute",
+          "hash": "3fb469a4bbfdfa809d532b91fa01fbbe",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Agentive Logo"
+        },
+        "6/declaration/body/7/argument/1/1/1/1/3": {
+          "type": "element",
+          "hash": "01098c7b2fc47a49c5e4f18043ad784f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "AGENTIVE"
+        },
+        "6/declaration/body/7/argument/1/1/1/5/1": {
+          "type": "element",
+          "hash": "8eff3cef0154354c93b2aaf2394d5588",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Learning Material"
+        },
+        "6/declaration/body/7/argument/1/1/1/5/3": {
+          "type": "element",
+          "hash": "896e782b113637b5ce42b36475001702",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "About AGENTIVE"
+        },
+        "6/declaration/body/7/argument/1/1/1/5/5": {
+          "type": "element",
+          "hash": "1c7ee8f1ac427580fb9784343f761724",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "The Team"
+        },
+        "6/declaration/body/7/argument/1/1/1/5/7": {
+          "type": "element",
+          "hash": "c3d0a93eed6ed7ccb7e8e2fe90b9c574",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Blog"
+        },
+        "6/declaration/body/7/argument/1/1/3/3/3": {
+          "type": "element",
+          "hash": "0a3e19fea2f7b1045f53ebf0ccff6bd5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Toggle Theme"
+        },
+        "6/declaration/body/7/argument/1/1/3/5/1/1/3": {
+          "type": "element",
+          "hash": "d94a487a980b542f6797ad6d36ceabe0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Toggle Menu"
+        },
+        "6/declaration/body/7/argument/1/1/3/5/3/1/1": {
+          "type": "element",
+          "hash": "520968a9770cddeb6d339c0fcbd70240",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Menu"
+        },
+        "6/declaration/body/7/argument/1/1/3/5/3/1/3": {
+          "type": "element",
+          "hash": "e83d5928b7feb68bd2ad1ee8c6cdf91d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Navigate through our educational platform."
+        },
+        "6/declaration/body/7/argument/1/1/3/5/3/3/1/1": {
+          "type": "element",
+          "hash": "9abcbb3963cd9fc3703a942529bc6342",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Learning Material"
+        },
+        "6/declaration/body/7/argument/1/1/3/5/3/3/3/1": {
+          "type": "element",
+          "hash": "8d752a67b40f782734f931e61372bb4b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "About AGENTIVE"
+        },
+        "6/declaration/body/7/argument/1/1/3/5/3/3/5/1": {
+          "type": "element",
+          "hash": "5e8cbccf6db562eacd4e709fa3388456",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "The Team"
+        },
+        "6/declaration/body/7/argument/1/1/3/5/3/3/7/1": {
+          "type": "element",
+          "hash": "2329b8a337bbfe833f90cb6c46d17a1e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Blog"
+        }
+      }
+    },
+    "components/StoryPlayer.tsx": {
+      "scopes": {
+        "17/declaration/body/26/consequent/0/argument": {
+          "type": "element",
+          "hash": "9603c81223d6ac4c9916bcbabcddeb8a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Story not found"
+        },
+        "17/declaration/body/27/argument/1/3/15/1": {
+          "type": "element",
+          "hash": "e0f32fa1127b533100b1884898ab76fb",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Story Details"
+        },
+        "17/declaration/body/27/argument/1/3/3/expression/right/1/1/1/1": {
+          "type": "element",
+          "hash": "b5ced0bbd8302a0d6ef76d0b1689fb95",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select a Language"
+        },
+        "17/declaration/body/27/argument/1/3/3/expression/right/1/1/5/expression/right/1/1/1": {
+          "type": "element",
+          "hash": "4034983b1fa303e81492ec417029537c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Volume"
+        },
+        "17/declaration/body/27/argument/1/3/3/expression/right/1/1/5/expression/right/1/1/3": {
+          "type": "element",
+          "hash": "d6e05879f0fa9be736f27da88377b030",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<function:Math.round/>%"
+        },
+        "17/declaration/body/27/argument/1/3/3/expression/right/1/1/5/expression/right/5/1": {
+          "type": "element",
+          "hash": "56b7d0834952b39ee394b44bd8179178",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Download"
+        },
+        "17/declaration/body/27/argument/1/3/3/expression/right/1/1/5/expression/right/5/3/expression/right/1": {
+          "type": "element",
+          "hash": "1845758a53367223aefe96e883dc8ad8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Download></element:Download> Story Audio"
+        },
+        "17/declaration/body/27/argument/1/3/3/expression/right/1/1/5/expression/right/5/5": {
+          "type": "element",
+          "hash": "7c0e58e02c77e90588b44b0d3a2ccd33",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Download></element:Download> Story Text"
+        },
+        "17/declaration/body/27/argument/1/3/3/expression/right/1/1/5/expression/right/5/7": {
+          "type": "element",
+          "hash": "7084eed0b9fe53c675575425e882fff2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Download></element:Download> Story Guide"
+        },
+        "17/declaration/body/27/argument/1/3/3/expression/right/1/1/5/expression/right/9/1/expression/alternate": {
+          "type": "element",
+          "hash": "259521cb74d56042bbbc8f14bab0ca06",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Play></element:Play> Play"
+        },
+        "17/declaration/body/27/argument/1/3/3/expression/right/1/1/5/expression/right/9/1/expression/consequent": {
+          "type": "element",
+          "hash": "f36fc5cbdfca46a6de761a4b1b5a03e1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Pause></element:Pause> Pause"
+        },
+        "17/declaration/body/27/argument/1/3/7/1/1/3/expression/right/1/1/3": {
+          "type": "element",
+          "hash": "504dfdbab0c371dba710ee2fe6d27a07",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Select a Language"
+        },
+        "17/declaration/body/27/argument/1/3/7/1/1/3/expression/right/1/1/5": {
+          "type": "element",
+          "hash": "b535c28409c2d1192192fbdeea905a1f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Please choose a language to view this story"
+        },
+        "17/declaration/body/27/argument/1/3/7/1/5/expression/right": {
+          "type": "element",
+          "hash": "94191f73fb9e0cefd28a06da6f2a0fec",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Page {current} of {count}"
+        }
+      }
+    },
+    "components/VisionCard.tsx": {
+      "scopes": {
+        "5/declaration/body/2/argument/1/expression/0/body/4/argument/3/expression/right": {
+          "type": "element",
+          "hash": "e4f58b76e4763be598d70c32b8a41342",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "{title} (Continued)"
+        }
+      }
+    },
+    "components/audio-player/ProgressBar.tsx": {
+      "scopes": {
+        "3/declaration/body/1/argument/5/expression/right/1": {
+          "type": "element",
+          "hash": "86eb9c72b0e1d3c46d3107dcfa59c587",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "*The progress bar and time input only become functional on mobile devices and iPads after the audio has been played at least once."
+        }
+      }
+    },
+    "components/audio-player/VolumeBar.tsx": {
+      "scopes": {
+        "2/declaration/body/3/argument/1": {
+          "type": "element",
+          "hash": "5d75dd6bf8de774785d260fb84099681",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Volume:"
+        }
+      }
+    },
+    "components/footer.tsx": {
+      "scopes": {
+        "3/declaration/body/0/argument/1/1/1/1": {
+          "type": "element",
+          "hash": "8f89131a66d4659be07cd5af2c7ea898",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "About Us"
+        },
+        "3/declaration/body/0/argument/1/1/1/3": {
+          "type": "element",
+          "hash": "7c5e6ebf2297b0d6df60f2600fde5d9a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "AGENTIVE - A platform for multilingual education."
+        },
+        "3/declaration/body/0/argument/1/1/3/1": {
+          "type": "element",
+          "hash": "2a75337dc9603915c4ec1d1905afb7b9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Contact Us"
+        },
+        "3/declaration/body/0/argument/1/1/3/3": {
+          "type": "element",
+          "hash": "f8d259a92a5e77e2997844b952aa74d7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Mail: agentive@wi.uni-muenster.de"
+        },
+        "3/declaration/body/0/argument/1/1/5/1": {
+          "type": "element",
+          "hash": "a4d98eb42ab554d871e2be94733a0691",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Legal aspects"
+        },
+        "3/declaration/body/0/argument/1/1/5/3": {
+          "type": "element",
+          "hash": "4870f8611eb85e3d702ff616cc503b5f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Impress"
+        },
+        "3/declaration/body/0/argument/1/1/7/1-alt": {
+          "type": "attribute",
+          "hash": "96296f0caebbc54b025000ba645b8aa8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Funded by the Erasmus+ Programm of the European Union"
+        }
+      }
+    },
+    "components/ui/breadcrumb.tsx": {
+      "scopes": {
+        "16/0/init/body/3": {
+          "type": "element",
+          "hash": "ee5e035ee328a8947be2ea44e338a57d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "More"
+        },
+        "4/0/init/0/body-aria-label": {
+          "type": "attribute",
+          "hash": "6ff91b79dc0ab911eabd5433c4702fea",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "breadcrumb"
+        }
+      }
+    },
+    "components/ui/carousel.tsx": {
+      "scopes": {
+        "19/0/init/0/body/1/argument/3": {
+          "type": "element",
+          "hash": "23328c6fe160a399086131987317f3ed",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Previous slide"
+        },
+        "21/0/init/0/body/1/argument/3": {
+          "type": "element",
+          "hash": "c76993309a88cf9f8a3a7fca7b5d7896",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Next slide"
+        }
+      }
+    },
+    "components/ui/dialog.tsx": {
+      "scopes": {
+        "10/0/init/0/body/3/5/3": {
+          "type": "element",
+          "hash": "2c2e22f8424a1031de89063bd0022e16",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Close"
+        }
+      }
+    },
+    "components/ui/sheet.tsx": {
+      "scopes": {
+        "13/0/init/0/body/3/1/3": {
+          "type": "element",
+          "hash": "2c2e22f8424a1031de89063bd0022e16",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Close"
+        }
+      }
+    },
+    "components/ui/sidebar.tsx": {
+      "scopes": {
+        "25/0/init/0/body/1/argument/3": {
+          "type": "element",
+          "hash": "0ef91fcb33b04612eb8a202f673d7881",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Toggle Sidebar"
+        },
+        "27/0/init/0/body/1/argument-aria-label": {
+          "type": "attribute",
+          "hash": "0ef91fcb33b04612eb8a202f673d7881",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Toggle Sidebar"
+        },
+        "27/0/init/0/body/1/argument-title": {
+          "type": "attribute",
+          "hash": "0ef91fcb33b04612eb8a202f673d7881",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Toggle Sidebar"
         }
       }
     }
