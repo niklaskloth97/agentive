@@ -45,7 +45,7 @@ type StoryPageItem = {
   id: number;
   text: string;
   imageUrl: string;
-  audioUrl: string;
+  audioUrl?: string;
 };
 
 export function StoryPlayer({ 
@@ -174,7 +174,7 @@ export function StoryPlayer({
   
   // Create a placeholder page using the first English page of the story if available
   const placeholderPage = storyInfo?.pages?.en?.[0] || {
-    id: "placeholder",
+    id: 0, // Changed from string to number to match StoryPageItem interface
     imageUrl: "/images/placeholder-story.jpg", // Fallback image if no English version
     text: ""
   };
@@ -325,6 +325,9 @@ export function StoryPlayer({
                           <Download className="mr-2" size={16}/> Story Text
                         </Button>
                         <Button className="w-full mb-4" variant="outline">
+                          <Download className="mr-2" size={16}/> Story Pictures
+                        </Button>
+                        <Button className="w-full mb-4" variant="outline">
                           <Download className="mr-2" size={16}/> Story Guide
                         </Button>
                       </div>
@@ -391,14 +394,14 @@ export function StoryPlayer({
                 )}
                 
                 {/* Carousel - always render but show placeholder if no language selected */}
-                <Carousel setApi={setApi} className="h-full">
-                  <CarouselContent className="h-full">
+                <Carousel setApi={setApi} className="">
+                  <CarouselContent className="">
                     {(selectedLanguage && pages.length > 0 ? pages : [placeholderPage]).map((page, index) => (
                       <CarouselItem 
                         key={`${selectedLanguage || "placeholder"}-${index}`} 
                         className="h-full flex items-center justify-center"
                       >
-                        <Card className="w-full max-h-[85vh]">
+                        <Card className="w-full max-h-[100vh]">
                           <CardContent className="flex flex-col p-4 items-center justify-center">
                             <div className="w-full aspect-video relative">
                               <Image
