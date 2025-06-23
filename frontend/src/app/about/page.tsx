@@ -1,3 +1,4 @@
+"use i18n"
 export default function About() {
   return (
     <div className="container mx-auto py-8 px-8">

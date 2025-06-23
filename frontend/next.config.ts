@@ -14,6 +14,7 @@ const withLingo = lingoCompiler.next({
 		"*:*": "groq:mistral-saba-24b",
 	},
 	rsc: true,
+	useDirective : true,
 })(nextConfig);
 
 export default withLingo;
