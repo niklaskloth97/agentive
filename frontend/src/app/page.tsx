@@ -1,5 +1,4 @@
 "use i18n"
-
 export default function Home() {
 	return (
 		<div className="container mx-auto py-8 px-8">
@@ -29,7 +28,7 @@ export default function Home() {
 				Curious About the Team Behind AGENTIVE?
 			</h2>
 			<p className="text-gray-600 mb-4 dark:text-white">
-				AAGENTIVE involves universities and organizations from Luxembourg,
+				AGENTIVE involves universities and organizations from Luxembourg,
 				Switzerland, Greece, Slovenia, Germany and Italy. Together, we’re
 				leveraging expertise across academia, schools, and businesses to drive
 				innovation in multilingual education. Visit our{" "}
