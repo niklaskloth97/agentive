@@ -105,7 +105,814 @@
           "audioUrl": "/learning-material/story-1/story-de/Story 1_G Long_1_8.m4a"
         }
       ],
-      "fr": []
+      "fr": [
+        
+      ],
+      "es": [
+
+      ],
+      "it": [
+
+      ],
+      "lux":[
+
+      ],
+      "gre": [
+{
+          "id": 1,
+          "text": "Ο Μπόμπα ζει σε ένα μακρινό πλανήτη. Σήμερα είναι πολύ ενθουσιασμένος. Έχει επιτέλους το δικό του διαστημόπλοιο και μπορεί τώρα να πετάξει όπου θέλει!",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
+          "audioUrl": "/learning-material/story-1/story-gr/Story 1_1.m4a"
+        },
+        {
+          "id": 2,
+          "text": "Το μεγαλύτερο όνειρό του είναι να πετάξει στον πλανήτη Γη. ",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "audioUrl": "/learning-material/story-1/story-gr/Story 1_2.m4a"
+        },
+        {
+          "id": 3,
+          "text": "Πηδάει μέσα στο διαστημόπλοιο και απογειώνεται. Όλοι οι φίλοι του και η οικογένεια του είναι έκπληκτοι! «Πού πάει;», αναρωτιούνται. Ο Μπόμπα κατευθύνεται κατευθείαν προς τον πλανήτη Γη.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
+          "audioUrl": "/learning-material/story-1/story-gr/Story 1_3.m4a"
+        },
+        {
+          "id": 4,
+          "text": "Ο Μπόμπα περνάει πολλούς πλανήτες και κομήτες και αναρωτιέται πότε θα φτάσει τελικά στον πλανήτη Γη. ",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "audioUrl": "/learning-material/story-1/story-gr/Story 1_4.m4a"
+        },
+        {
+          "id": 5,
+          "text": "Ξαφνικά, βλέπει μια μπλε μπάλα και πριν να το καταλάβει, πυροβολεί μέσα στον ουρανό και με ένα δυνατό κρότο προσγειώνεται σε έναν σωρό από φύλλα και κλαδιά!",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
+          "audioUrl": "/learning-material/story-1/story-gr/Story 1_5.m4a"
+        },
+        {
+          "id": 6,
+          "text": "Βγαίνει από το διαστημόπλοιό του και κοιτάζει τριγύρω. Δύο μαύρα μάτια που ξεχωρίζουν μέσα από μαύρα φτερά τον κοιτάζουν. Ο Μπόμπα λέει: «Saluton!» αλλά το πουλί απλά τον κοιτάζει και πετάει μακριά. Κατεβαίνει από το δέντρο και βλέπει ένα κόκκινο πράγμα με μαύρες βούλες. «Saluton!» φωνάζει ο Μπόμπα αλλά το έντομο δεν τον βλέπει καν.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
+          "audioUrl": "/learning-material/story-1/story-gr/Story 1_6.m4a"
+        },
+        {
+          "id": 7,
+          "text": "Ένα αγόρι και ένα κορίτσι κοιτάζουν τον Μπόμπα και χαχανίζουν. «Σε ποιον μιλάς; Δεν μπορούν να μιλήσουν!» Ο Μπόμπα γυρνάει “Saluton! Ĉu vi estas infanoj?”, ρωτάει. Τα παιδιά κοιτάζουν το ένα το άλλο. «Infanoj? Εννοεί μωρό;» «Όχι!», διαμαρτύρονται. «Δεν είμαστε μωρά! Είμαστε παιδιά!». «Ααααα!» αναφωνεί ο Μπόμπα! «Παιδιά! Infanoj! Παιδιά!» Αυτό τα κάνει να γελάσουν.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
+          "audioUrl": "/learning-material/story-1/story-gr/Story 1_7.m4a"
+        },
+        {
+          "id": 8,
+          "text": "«Θες να δεις το προαύλιό μας;» ρωτάει η Ολίβια. Ο Μπόμπα χαμογελάει και ο Μπεν, τον παίρνει από το χέρι και μαζί πηγαίνουν στο προαύλιο. ",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
+          "audioUrl": "/learning-material/story-1/story-gr/Story 1_8.m4a"
+        }
+      ],
+      "sv": [
+        {
+          "id": 1,
+          "text": "Bobba živi na planetu daleč stran. Danes je zelo vznemirjen. Končno je dobil svojo vesoljsko ladjo in zdaj lahko leti, kamor koli želi! ",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+        },
+        {
+          "id": 2,
+          "text": "Že dolgo sanja, da bi poletel na Zemljo",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+        },
+        {
+          "id": 3,
+          "text": "Skoči v svojo vesoljsko ladjo in vzleti. Njegovi prijatelji in družina so presenečeni! »Kam pa gre?« se sprašujejo. Bobba leti naravnost proti planetu Zemlja.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+        },
+        {
+          "id": 4,
+          "text": "Leti mimo planetov in kometov in se sprašuje, kdaj bo končno prispel na Zemljo.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+        },
+        {
+          "id": 5,
+          "text": "Nenadoma zagleda modro kroglo in še preden se zave, že leti skozi oblake in z glasnim pokom pristane v kupu listja in vej!",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+        },
+        {
+          "id": 6,
+          "text": "Skobaca se iz vesoljske ladje in pogleda naokoli. Zagleda dve črni očesi sredi črnega perja, ki strmita vanj. Bobba pozdravi: »Saluton!«, a pernato bitje ga le ošine in odleti. Spusti se z drevesa in opazi rdeče bitje s črnimi pikami. »Saluton!« zavpije Bobba, a bitje se sploh ne zmeni zanj.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+        },
+        {
+          "id": 7,
+          "text": "Deček in deklica zagledata Bobbo in se zahihitata. »S kom pa se pogovarjaš? Oni ne znajo govoriti!« Bobba se obrne. »Saluton! Ĉu vi estas infanoj?« vpraša. Otroka se spogledata. »Infanoj? Misliš, da sva dojenčka?« »To pa ne!« se razburita. »Nisva dojenčka! Otroka sva!« »Ahaaaa!« vzklikne Bobba. »Otroci! Infanoj! Otroci!« Deček in deklica se zasmejeta.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+        },
+        {
+          "id": 8,
+          "text": "»Bi rad videl naše igrišče?« vpraša Olivia. Bobba se nasmehne. Ben ga prime za roko in skupaj se odpravijo na igrišče.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+        }
+      ],
+      "al" : [
+        {
+          "id": 1,
+          "text": "Bobba jeton në një planet shumë larg. Sot ai është shumë i emocionuar. Më në fund ka anijen e tij kozmike dhe tani mund të fluturojë kudo që dëshiron!",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+        },
+        {
+          "id": 2,
+          "text": "Ëndrra e tij më e madhe është të fluturojë në planetin Tokë.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+        },
+        {
+          "id": 3,
+          "text": "Ai hidhet në anijen kozmike dhe ngrihet në ajër. Të gjithë miqtë dhe familjarët e tij janë të habitur! “Ku po shkon vallë?”, pyesin ata. Bobba është nisur drejt planetit Tokë.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+        },
+        {
+          "id": 4,
+          "text": "Bobba fluturon pranë shumë planetëve dhe kometave dhe pyet veten se kur do të arrijë më në fund në planetin Tokë.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+        },
+        {
+          "id": 5,
+          "text": "Papritmas, ai sheh një top blu dhe pa e kuptuar, fluturon nëpër qiell dhe me një zhurmë të madhe përplaset në një grumbull me gjethe dhe degë!",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+        },
+        {
+          "id": 6,
+          "text": "Ai del nga anija e tij kozmike dhe shikon përreth. Dy sy të zinj që dalin nga pendë të zeza po e vështrojnë. Bobba thotë: “Saluton!”, por zogu vetëm e sheh dhe fluturon tutje. Ai zbret me ngut nga pema dhe sheh një krijesë të kuqe me pika të zeza. “Saluton!” – thërret Bobba, por insekti as që e sheh fare.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+        },
+        {
+          "id": 7,
+          "text": "Një djalë dhe një vajzë e shikojnë Bobban dhe qeshin me të. “Me kë po flet? Ata nuk dinë të flasin!” Bobba kthehet : “Saluton! Ĉu vi estas infanoj?”, i pyet ai. Fëmijët e shikojnë njëri-tjetrin. “Infanoj? A do të thotë foshnjë?” “Jo!”, protestojnë ata. “Ne nuk jemi foshnje! Ne jemi fëmijë!” “Ahhhh!”, thërret Bobba! “Fëmijë! Infanoj! Fëmijë!” Kjo i bën ata të qeshin.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+        },
+        {
+          "id": 8,
+          "text": "\"A do ta shohësh këndin tonë të lojërave?\" pyet Olivia. Bobba buzëqesh dhe Beni e merr për dore dhe së bashku e çojnë në këndin e lojërave.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+        }
+      ],
+      "ukr" : [
+        {
+          "id": 1,
+          "text": "Бобба живе на далекій планеті. Сьогодні він дуже схвильований. У нього нарешті з'явився власний космічний корабель, і тепер він може полетіти туди, куди захоче!",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
+          "audioUrl": "/learning-material/story-1/story-ukr/Story 1_1.MP3"
+        },
+        {
+          "id": 2,
+          "text": "Його найбільша мрія - полетіти на планету Земля.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "audioUrl": "/learning-material/story-1/story-ukr/Story 1_2.MP3"
+        },
+        {
+          "id": 3,
+          "text": "Він застрибує в космічний корабель і злітає. Всі його друзі та родина здивовані! «Куди він летить?», - запитують вони.  Бобба прямує прямо до планети Земля.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
+          "audioUrl": "/learning-material/story-1/story-ukr/Story 1_3.m4a"
+        },
+        {
+          "id": 4,
+          "text": "Бобба пролітає повз безліч планет і комет, і йому цікаво, коли ж він нарешті досягне планети Земля.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "audioUrl": "/learning-material/story-1/story-ukr/Story 1_4.MP3"
+        },
+        {
+          "id": 5,
+          "text": "Раптом він бачить блакитну кульку і, не встигнувши озирнутися, прострілює небо і з гучним тріском падає на купу листя і паличок!",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
+          "audioUrl": "/learning-material/story-1/story-ukr/Story 1_5.MP3"
+        },
+        {
+          "id": 6,
+          "text": "Він виповзає зі свого космічного корабля і озирається навколо. На нього дивляться два чорних ока, що визирають з чорного пір'я. Бобба каже: «Салют!», але пернате створіння лише дивиться на нього і відлітає. Він злізає з дерева і бачить червону штуку з чорними крапками. «Салютон!» - кричить Бобба, але істота його навіть не бачить.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
+          "audioUrl": "/learning-material/story-1/story-ukr/Story 1_6.MP3"
+        },
+        {
+          "id": 7,
+          "text": "Хлопчик і дівчинка дивляться на Боббу і хихикають. «З ким ти розмовляєш? Вони не можуть розмовляти!» Бобба обертається: «Saluton! Ĉu vi estas infanoj?», - запитує він. Діти дивляться один на одного. «Infanoj? Він має на увазі немовля?». «Ні!», - заперечують вони. «Ми не немовлята! Ми - діти!». «А-а-а!», вигукує Бобба! «Діти! Інфаной! Діти!» Це їх розсмішило.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
+          "audioUrl": "/learning-material/story-1/story-ukr/Story 1_7.MP3"
+        },
+        {
+          "id": 8,
+          "text": "«Хочеш побачити наш ігровий майданчик?» - запитує дівчинка Олівія. Бобба посміхається, а Бен, хлопчик, бере його за руку, і вони разом ведуть його на дитячий майданчик.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
+          "audioUrl": "/learning-material/story-1/story-ukr/Story 1_8.MP3"
+        }
+      ]
+    }
+  }
+, 
+  {
+    "id": "2",
+    "title": "At the kindergarten ",
+    "description": "Follow Bobba the alien as he discovers Earth for the first time.",
+    "slug": "story-2",
+    "pages": {
+      "en": [
+        {
+          "id": 1,
+          "text": "Bobba sees a beautiful brightly coloured building. He hears laughter and singing coming from inside. He is curious and wants to see what is going on.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+        },
+        {
+          "id": 2,
+          "text": "He opens the door and sees children running around and shouting. Bobba likes that and wants to join in. He waves at them. “Saluton! Saluton!”",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+        },
+        {
+          "id": 3,
+          "text": "When the children see Bobba, they freeze and their eyes grow wide. “Who is this?” “What is he saying?” “Is this our new teacher?“ The children quickly hide..",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+        },
+        {
+          "id": 4,
+          "text": "Bobba is now all alone, so he becomes sad. He would really like to play. “Ludi! Ludi!”",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+        },
+        {
+          "id": 5,
+          "text": "A girl comes out of the toilet and looks around puzzled. “Where is everybody?” Then she sees Bobba.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+        },
+        {
+          "id": 6,
+          "text": "She looks up at Bobba and smiles. “Hi! Do you want to play?” Bobba smiles back at her. “Bone! Bone!” They start playing.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+        },
+        {
+          "id": 7,
+          "text": "The other children see Bobba and the girl playing and slowly, one by one, come out of their hiding places. They want to play with Bobba too.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+        },
+        {
+          "id": 8,
+          "text": "All children surround Bobba. “Ludi! Ludi!” they all shout. “What a great day!, thinks Bobba.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+        }
+      ],
+      "de": [
+        
+      ],
+      "fr": [
+        
+      ],
+      "es": [
+
+      ],
+      "it": [
+
+      ],
+      "lux":[
+
+      ],
+      "gre": [
+
+      ],
+      "sv": [
+        
+      ],
+      "al" : [
+        
+      ],
+      "ukr" : [
+        
+      ]
+    }
+  },
+  {
+    "id": "3",
+    "title": "Bobba at the beach ",
+    "description": "Follow Bobba the alien as he discovers Earth for the first time.",
+    "slug": "story-3",
+    "pages": {
+      "en": [
+        {
+          "id": 1,
+          "text": "Bobba sees a beautiful brightly coloured building. He hears laughter and singing coming from inside. He is curious and wants to see what is going on.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+        },
+        {
+          "id": 2,
+          "text": "He opens the door and sees children running around and shouting. Bobba likes that and wants to join in. He waves at them. “Saluton! Saluton!”",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+        },
+        {
+          "id": 3,
+          "text": "When the children see Bobba, they freeze and their eyes grow wide. “Who is this?” “What is he saying?” “Is this our new teacher?“ The children quickly hide..",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+        },
+        {
+          "id": 4,
+          "text": "Bobba is now all alone, so he becomes sad. He would really like to play. “Ludi! Ludi!”",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+        },
+        {
+          "id": 5,
+          "text": "A girl comes out of the toilet and looks around puzzled. “Where is everybody?” Then she sees Bobba.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+        },
+        {
+          "id": 6,
+          "text": "She looks up at Bobba and smiles. “Hi! Do you want to play?” Bobba smiles back at her. “Bone! Bone!” They start playing.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+        },
+        {
+          "id": 7,
+          "text": "The other children see Bobba and the girl playing and slowly, one by one, come out of their hiding places. They want to play with Bobba too.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+        },
+        {
+          "id": 8,
+          "text": "All children surround Bobba. “Ludi! Ludi!” they all shout. “What a great day!, thinks Bobba.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+        }
+      ],
+      "de": [
+        
+      ],
+      "fr": [
+        
+      ],
+      "es": [
+
+      ],
+      "it": [
+
+      ],
+      "lux":[
+
+      ],
+      "gre": [
+
+      ],
+      "sv": [
+        
+      ],
+      "al" : [
+        
+      ],
+      "ukr" : [
+        
+      ]
+    }
+  },
+  {
+    "id": "4",
+    "title": "Sleeping at a friend's ",
+    "description": "Follow Bobba the alien as he discovers Earth for the first time.",
+    "slug": "story-4",
+    "pages": {
+      "en": [
+        {
+          "id": 1,
+          "text": "Bobba sees a beautiful brightly coloured building. He hears laughter and singing coming from inside. He is curious and wants to see what is going on.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+        },
+        {
+          "id": 2,
+          "text": "He opens the door and sees children running around and shouting. Bobba likes that and wants to join in. He waves at them. “Saluton! Saluton!”",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+        },
+        {
+          "id": 3,
+          "text": "When the children see Bobba, they freeze and their eyes grow wide. “Who is this?” “What is he saying?” “Is this our new teacher?“ The children quickly hide..",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+        },
+        {
+          "id": 4,
+          "text": "Bobba is now all alone, so he becomes sad. He would really like to play. “Ludi! Ludi!”",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+        },
+        {
+          "id": 5,
+          "text": "A girl comes out of the toilet and looks around puzzled. “Where is everybody?” Then she sees Bobba.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+        },
+        {
+          "id": 6,
+          "text": "She looks up at Bobba and smiles. “Hi! Do you want to play?” Bobba smiles back at her. “Bone! Bone!” They start playing.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+        },
+        {
+          "id": 7,
+          "text": "The other children see Bobba and the girl playing and slowly, one by one, come out of their hiding places. They want to play with Bobba too.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+        },
+        {
+          "id": 8,
+          "text": "All children surround Bobba. “Ludi! Ludi!” they all shout. “What a great day!, thinks Bobba.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+        }
+      ],
+      "de": [
+        
+      ],
+      "fr": [
+        
+      ],
+      "es": [
+
+      ],
+      "it": [
+
+      ],
+      "lux":[
+
+      ],
+      "gre": [
+
+      ],
+      "sv": [
+        
+      ],
+      "al" : [
+        
+      ],
+      "ukr" : [
+        
+      ]
+    }
+  },
+  {
+    "id": "5",
+    "title": "Bobba in the library ",
+    "description": "Follow Bobba the alien as he discovers Earth for the first time.",
+    "slug": "story-5",
+    "pages": {
+      "en": [
+        {
+          "id": 1,
+          "text": "Bobba sees a beautiful brightly coloured building. He hears laughter and singing coming from inside. He is curious and wants to see what is going on.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+        },
+        {
+          "id": 2,
+          "text": "He opens the door and sees children running around and shouting. Bobba likes that and wants to join in. He waves at them. “Saluton! Saluton!”",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+        },
+        {
+          "id": 3,
+          "text": "When the children see Bobba, they freeze and their eyes grow wide. “Who is this?” “What is he saying?” “Is this our new teacher?“ The children quickly hide..",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+        },
+        {
+          "id": 4,
+          "text": "Bobba is now all alone, so he becomes sad. He would really like to play. “Ludi! Ludi!”",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+        },
+        {
+          "id": 5,
+          "text": "A girl comes out of the toilet and looks around puzzled. “Where is everybody?” Then she sees Bobba.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+        },
+        {
+          "id": 6,
+          "text": "She looks up at Bobba and smiles. “Hi! Do you want to play?” Bobba smiles back at her. “Bone! Bone!” They start playing.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+        },
+        {
+          "id": 7,
+          "text": "The other children see Bobba and the girl playing and slowly, one by one, come out of their hiding places. They want to play with Bobba too.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+        },
+        {
+          "id": 8,
+          "text": "All children surround Bobba. “Ludi! Ludi!” they all shout. “What a great day!, thinks Bobba.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+        }
+      ],
+      "de": [
+        
+      ],
+      "fr": [
+        
+      ],
+      "es": [
+
+      ],
+      "it": [
+
+      ],
+      "lux":[
+
+      ],
+      "gre": [
+
+      ],
+      "sv": [
+        
+      ],
+      "al" : [
+        
+      ],
+      "ukr" : [
+        
+      ]
+    }
+  },
+  {
+    "id": "6",
+    "title": "The Monster castle ",
+    "description": "Follow Bobba the alien as he discovers Earth for the first time.",
+    "slug": "story-6",
+    "pages": {
+      "en": [
+        {
+          "id": 1,
+          "text": "Bobba sees a beautiful brightly coloured building. He hears laughter and singing coming from inside. He is curious and wants to see what is going on.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+        },
+        {
+          "id": 2,
+          "text": "He opens the door and sees children running around and shouting. Bobba likes that and wants to join in. He waves at them. “Saluton! Saluton!”",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+        },
+        {
+          "id": 3,
+          "text": "When the children see Bobba, they freeze and their eyes grow wide. “Who is this?” “What is he saying?” “Is this our new teacher?“ The children quickly hide..",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+        },
+        {
+          "id": 4,
+          "text": "Bobba is now all alone, so he becomes sad. He would really like to play. “Ludi! Ludi!”",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+        },
+        {
+          "id": 5,
+          "text": "A girl comes out of the toilet and looks around puzzled. “Where is everybody?” Then she sees Bobba.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+        },
+        {
+          "id": 6,
+          "text": "She looks up at Bobba and smiles. “Hi! Do you want to play?” Bobba smiles back at her. “Bone! Bone!” They start playing.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+        },
+        {
+          "id": 7,
+          "text": "The other children see Bobba and the girl playing and slowly, one by one, come out of their hiding places. They want to play with Bobba too.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+        },
+        {
+          "id": 8,
+          "text": "All children surround Bobba. “Ludi! Ludi!” they all shout. “What a great day!, thinks Bobba.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+        }
+      ],
+      "de": [
+        
+      ],
+      "fr": [
+        
+      ],
+      "es": [
+
+      ],
+      "it": [
+
+      ],
+      "lux":[
+
+      ],
+      "gre": [
+
+      ],
+      "sv": [
+        
+      ],
+      "al" : [
+        
+      ],
+      "ukr" : [
+        
+      ]
+    }
+  },
+  {
+    "id": "7",
+    "title": "Celebrating Olivia's birthday",
+    "description": "Follow Bobba the alien as he discovers Earth for the first time.",
+    "slug": "story-7",
+    "pages": {
+      "en": [
+        {
+          "id": 1,
+          "text": "It is a special day. Bobba is invited to Olivia’s birthday party. In front of the house are many balloons with a big 5.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+        },
+        {
+          "id": 2,
+          "text": "Bobba spots many children he knows but also many tall people. He wonders who they are.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+        },
+        {
+          "id": 3,
+          "text": "The children play the musical chairs game. Next, they play hide-and-seek in the garden. They have a lot of fun.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+        },
+        {
+          "id": 4,
+          "text": "“La naskiĝtaga kuko!”, calls the father. He carries a huge cake that looks like a castle with 5 towers on fire.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+        },
+        {
+          "id": 5,
+          "text": "“Ni kantu”, says grandma in Esperanto for Bobba to understand. They sing “Happy birthday” in 3 languages. Bobba knows the song in English and tries to sing along.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+        },
+        {
+          "id": 6,
+          "text": "Bobba, put the candles out, suggests Olivia. Bobba almost touches the towers on the castle. “Stop”, says Ben and shows him how to blow them out.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+        },
+        {
+          "id": 7,
+          "text": "The cake is delicious. Bobba eats five pieces. “Very good”, he says. “Will Bobba get a stomach-ache now?”, asks Olivia.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+        },
+        {
+          "id": 8,
+          "text": "“I wonder what presents you’ve brought? Let's open the boxes”. Olivia is delighted. “I always wanted this!” she shouts as she opens present after present. The children play a bit longer before they go home.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+        }
+      ],
+      "de": [
+        
+      ],
+      "fr": [
+        
+      ],
+      "es": [
+
+      ],
+      "it": [
+
+      ],
+      "lux":[
+
+      ],
+      "gre": [
+
+      ],
+      "sv": [
+        
+      ],
+      "al" : [
+        
+      ],
+      "ukr" : [
+        
+      ]
+    }
+  },
+  {
+    "id": "8",
+    "title": "Going home",
+    "description": "Follow Bobba the alien as he discovers Earth for the first time.",
+    "slug": "story-8",
+    "pages": {
+      "en": [
+        {
+          "id": 1,
+          "text": "Bobba and his friends are having fun playing with a ball in the park where Bobba’s spaceship landed.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+        },
+        {
+          "id": 2,
+          "text": "The sun is setting and the sky is full of different colours. Bobba is impressed. How beautiful it is! Suddenly a star appears, and another one, and another one. Bobba points at a very bright one and shouts: “Vidu la stelan!! Jen mia planedo!!”",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+        },
+        {
+          "id": 3,
+          "text": "His friends stop playing because they all want to see. They stand close to Bobba to find his star.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+        },
+        {
+          "id": 4,
+          "text": "Suddenly, they hear a little beeping sound. They hear it again, this time louder “Beep” and louder still “BEEP!” “BEEEEEEEEP!” “BEEEEEEEEEEEEEEP!!!!!!” Bobba shouts:  “Ohhhh, My spaceship telephone!”",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+        },
+        {
+          "id": 5,
+          "text": "He rushes to his spaceship and answers the phone. His friends follow him. They hear him say: “Ĉu mi venu hejmen ? Ĉu mi povas reveni ? Esta bona! Ĝis baldaŭ!”",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+        },
+        {
+          "id": 6,
+          "text": "He hangs up the phone and says “My family says, I must come home now. But I can come again!! Ben says “I think we all have to go home now. It is getting dark.”",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+        },
+        {
+          "id": 7,
+          "text": "The children give Bobba a big hug and Olivia says: "Come back soon!” and Bobba smiles. "Mi revenos! I promise!”, he says.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+        },
+        {
+          "id": 8,
+          "text": "Bobba gets into his spaceship and waves. He takes off and soars through the sky until only a little light is left – the light of his planet shining. “See you soon, Bobba!”, they all shout and smile.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+        }
+      ],
+      "de": [
+        
+      ],
+      "fr": [
+        
+      ],
+      "es": [
+
+      ],
+      "it": [
+
+      ],
+      "lux":[
+
+      ],
+      "gre": [
+
+      ],
+      "sv": [
+        
+      ],
+      "al" : [
+        
+      ],
+      "ukr" : [
+        
+      ]
     }
   }
 ]
