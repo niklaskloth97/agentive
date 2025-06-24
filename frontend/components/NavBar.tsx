@@ -49,7 +49,7 @@ export default function NavBar() {
                 <div className="container mx-auto h-14 flex items-center">
                     <div className="flex md:flex">
                         <Link className="flex items-center space-x-8 px-6" href="/">
-                            <img src='/images/agentive_logo.svg' alt="Agentive Logo" 
+                            <img src='/images/agentive-logo.jpeg' alt="Agentive Logo" 
                             className="h-8 w-auto" />
                             <span className="font-bold sm:inline-block">AGENTIVE</span>
                         </Link>
