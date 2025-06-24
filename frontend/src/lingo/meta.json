@@ -1321,11 +1321,11 @@
         },
         "0/declaration/body/0/argument/16": {
           "type": "element",
-          "hash": "f9520378282caa723efb88486419977f",
+          "hash": "efc5eb88604446fe1f2c2f50326d29a6",
           "context": "",
           "skip": false,
           "overrides": {},
-          "content": "AAGENTIVE involves universities and organizations from Luxembourg, Switzerland, Greece, Slovenia, Germany and Italy. Together, we’re leveraging expertise across academia, schools, and businesses to drive innovation in multilingual education. Visit our <element:a>About Us</element:a>  page."
+          "content": "AGENTIVE involves universities and organizations from Luxembourg, Switzerland, Greece, Slovenia, Germany and Italy. Together, we’re leveraging expertise across academia, schools, and businesses to drive innovation in multilingual education. Visit our <element:a>About Us</element:a>  page."
         },
         "0/declaration/body/0/argument/18": {
           "type": "element",
