@@ -4,7 +4,7 @@ import { useState } from "react"
 import { DashboardLayout } from "@/components/DashboardLayout"
 import Image from 'next/image'
 import Link from 'next/link'
-import { Headphones, BookOpen, Activity } from "lucide-react"
+import { Headphones, BookOpen } from "lucide-react"
 import { Card } from "@/components/ui/card"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
 import { DialogTitle } from "@radix-ui/react-dialog"
@@ -165,7 +165,7 @@ export default function Page() {
                           </button>
                         </Link> */}
                       </div> 
-                      
+
                     </>
                   );
                 })()}
