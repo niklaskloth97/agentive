@@ -89,8 +89,8 @@ export function StoryPlayer({
     Object.entries(storyInfo.pages || {}).forEach(([lang, pages]) => {
       if (pages && pages.length > 0) {
         storyContent[lang] = {
-          label: lang === 'en' ? 'English' : 
-                 lang === 'de' ? 'Deutsch' : 
+          label: lang === 'en' ? 'EN' : 
+                 lang === 'de' ? 'DE' : 
                  lang === 'fr' ? 'Français' : 
                  lang === 'es' ? 'Español' :
                  lang === 'it' ? 'Italiano' :
