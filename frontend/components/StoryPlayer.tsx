@@ -85,15 +85,15 @@ export function StoryPlayer({
       if (pages && pages.length > 0) {
         storyContent[lang] = {
           label: lang === 'en' ? 'EN' : 
-                 lang === 'de' ? 'DE' : 
-                 lang === 'fr' ? 'Français' : 
-                 lang === 'es' ? 'Español' :
-                 lang === 'it' ? 'Italiano' :
-                 lang === 'lux' ? 'Luxembourgish' :
-                 lang === 'gr' ? 'Greek' :
-                 lang === 'sv' ? 'Slovenian' :
-                 lang ===  'al' ? 'Albanian' :
-                 lang ===  'ukr' ? 'Ukrainian' :
+                 lang === 'de' ? 'GER' : 
+                 lang === 'fr' ? 'FRA' : 
+                 lang === 'es' ? 'ESP' :
+                 lang === 'it' ? 'ITA' :
+                 lang === 'lux' ? 'LUX' :
+                 lang === 'gr' ? 'GRC' :
+                 lang === 'sv' ? 'SVN' :
+                 lang ===  'al' ? 'ALB' :
+                 lang ===  'ukr' ? 'UKR' :
                  lang.toUpperCase(),
           audioUrl: pages[0].audioUrl || "",
           coverImage: pages[0].imageUrl || ""
