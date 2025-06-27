@@ -89,16 +89,16 @@ export function StoryPlayer({
     Object.entries(storyInfo.pages || {}).forEach(([lang, pages]) => {
       if (pages && pages.length > 0) {
         storyContent[lang] = {
-          label: lang === 'en' ? 'English' : 
-                 lang === 'de' ? 'German' : 
-                 lang === 'fr' ? 'French' : 
-                 lang === 'es' ? 'Espagnol' :
-                 lang === 'it' ? 'Italian' :
-                 lang === 'lux' ? 'Luxembourgish' :
-                 lang === 'gr' ? 'Greek' :
-                 lang === 'sv' ? 'Slovenian' :
-                 lang ===  'al' ? 'Albanian' :
-                 lang ===  'ukr' ? 'Ukrainian' :
+          label: lang === 'en' ? 'EN' : 
+                 lang === 'de' ? 'GER' : 
+                 lang === 'fr' ? 'FRA' : 
+                 lang === 'es' ? 'ESP' :
+                 lang === 'it' ? 'ITA' :
+                 lang === 'lux' ? 'LUX' :
+                 lang === 'gr' ? 'GRC' :
+                 lang === 'sv' ? 'SVN' :
+                 lang ===  'al' ? 'ALB' :
+                 lang ===  'ukr' ? 'UKR' :
                  lang.toUpperCase(),
           audioUrl: pages[0].audioUrl || "",
           coverImage: pages[0].imageUrl || ""
