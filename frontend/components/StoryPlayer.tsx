@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { 
   Download, 
@@ -70,7 +70,6 @@ export function StoryPlayer({
   
   // Audio player state
   const [isPlaying, setIsPlaying] = useState(false);
-  const [volume, setVolume] = useState(1);
   const [audioAutoPlay, setAudioAutoPlay] = useState(false);
   // const audioRef = useRef<HTMLAudioElement>(null); // COMMENTED OUT - using HTML5 player instead
   
