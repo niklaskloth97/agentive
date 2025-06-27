@@ -89,11 +89,11 @@ export function StoryPlayer({
     Object.entries(storyInfo.pages || {}).forEach(([lang, pages]) => {
       if (pages && pages.length > 0) {
         storyContent[lang] = {
-          label: lang === 'en' ? 'EN' : 
-                 lang === 'de' ? 'DE' : 
-                 lang === 'fr' ? 'Français' : 
-                 lang === 'es' ? 'Español' :
-                 lang === 'it' ? 'Italiano' :
+          label: lang === 'en' ? 'English' : 
+                 lang === 'de' ? 'German' : 
+                 lang === 'fr' ? 'French' : 
+                 lang === 'es' ? 'Espagnol' :
+                 lang === 'it' ? 'Italian' :
                  lang === 'lux' ? 'Luxembourgish' :
                  lang === 'gr' ? 'Greek' :
                  lang === 'sv' ? 'Slovenian' :
