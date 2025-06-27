@@ -102,7 +102,7 @@ export default function Page() {
         {/* Fullscreen Story Dialog */}
         <Dialog open={selectedStory !== null} onOpenChange={closeStoryDialog}>
           <DialogTitle className="sr-only">Story Details</DialogTitle>
-          <DialogContent className="max-w-[95vw] w-[95vw] h-[90vh] max-h-[90vh] p-6">
+            <DialogContent className="max-w-[calc(95vw/1.25)] w-[calc(95vw/1.25)] h-[calc(90vh/1.25)] max-h-[calc(90vh/1.25)] m-4">
             
             {/* Display JSON story details */}
             {selectedType === 'json' && selectedStory && (
@@ -154,8 +154,8 @@ export default function Page() {
                           </button>
                         </Link>
 
-                        {/* Activities */}
-                        <Link href={`/dashboard/stories/${story.id}/activities`} className="w-full">
+                        {/* Activities - disabled based on feedback*/}
+                        {/* <Link href={`/dashboard/stories/${story.id}/activities`} className="w-full">
                           <button 
                             className="w-full h-48 md:h-64 rounded-xl bg-amber-200 hover:bg-amber-300 flex flex-col items-center justify-center shadow-lg transition-all duration-200 hover:scale-[1.02] focus:outline-none focus:ring-4 focus:ring-amber-300"
                             aria-label="View follow-up activities"
@@ -163,8 +163,9 @@ export default function Page() {
                             <Activity className="h-36 w-36 md:h-48 md:w-48 text-amber-600" strokeWidth={1.5} />
                             <span className="text-lg font-semibold text-amber-600 mt-3">Activities</span>
                           </button>
-                        </Link>
-                      </div>
+                        </Link> */}
+                      </div> 
+                      
                     </>
                   );
                 })()}

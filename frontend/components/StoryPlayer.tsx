@@ -5,11 +5,9 @@ import { Button } from "@/components/ui/button";
 import { 
   Download, 
   Maximize2, 
-  Volume2, 
   Play, 
   Pause, 
   Globe, 
-  VolumeX,
 } from "lucide-react";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import LanguageSelector from "@/components/LanguageSelector";
@@ -24,7 +22,6 @@ import {
 } from "@/components/ui/carousel";
 import { type CarouselApi } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
-import { Slider } from "@/components/ui/slider";
 import storiesData from '@/data/stories.json';
 import { DialogTitle } from "@radix-ui/react-dialog";
 import { cn } from "@/lib/utils";
@@ -61,7 +58,6 @@ export function StoryPlayer({
   const [api, setApi] = useState<CarouselApi>();
   const [fullscreenApi, setFullscreenApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
-  const [count, setCount] = useState(0);
   const [isFullscreen, setIsFullscreen] = useState(false);
   
   // Language state
@@ -187,7 +183,6 @@ export function StoryPlayer({
   useEffect(() => {
     if (!api) return;
 
-    setCount(api.scrollSnapList().length);
     setCurrent(api.selectedScrollSnap() + 1);
 
     api.on("select", () => {
@@ -437,13 +432,6 @@ export function StoryPlayer({
                   )}
                 </Carousel>
               </div>
-              
-              {/* Page indicator - only show when a language is selected */}
-              {selectedLanguage && (
-                <div className="text-center py-2">
-                  Page {current} of {pages.length}
-                </div>
-              )}
             </div>
           </div>
           
