@@ -108,15 +108,21 @@ export function StoryPlayer({
 
   const handleLanguageChange = (language: string) => {
     setSelectedLanguage(language);
-    // Reset current page when language changes
-    setCurrentPage(0);
-    setIsPlaying(false);
-    // if (audioRef.current) {
-    //   audioRef.current.pause();
-    // }
-    if (api) {
-      api.scrollTo(0);
+    
+    // Get pages for the new language
+    const newLanguagePages = storyInfo?.pages?.[language as keyof typeof storyInfo.pages] || [];
+    
+    // Only reset to first page if current page doesn't exist in new language
+    if (currentPage >= newLanguagePages.length) {
+      setCurrentPage(0);
+      if (api) {
+        api.scrollTo(0);
+      }
     }
+    // Otherwise keep the current page position
+    
+    setIsPlaying(false);
+    setAudioAutoPlay(false);
   };
 
   // COMMENTED OUT - using HTML5 player controls instead
