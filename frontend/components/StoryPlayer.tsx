@@ -75,7 +75,8 @@ export function StoryPlayer({
   // Audio player state
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(1);
-  const audioRef = useRef<HTMLAudioElement>(null);
+  const [audioAutoPlay, setAudioAutoPlay] = useState(false);
+  // const audioRef = useRef<HTMLAudioElement>(null); // COMMENTED OUT - using HTML5 player instead
   
   // Text visibility state
   const [isTextVisible] = useState<boolean>(showText);
@@ -115,40 +116,43 @@ export function StoryPlayer({
     // Reset current page when language changes
     setCurrentPage(0);
     setIsPlaying(false);
-    if (audioRef.current) {
-      audioRef.current.pause();
-    }
+    // if (audioRef.current) {
+    //   audioRef.current.pause();
+    // }
     if (api) {
       api.scrollTo(0);
     }
   };
 
-  // play/pause
-  const togglePlayPause = () => {
-    if (!audioRef.current) return;
+  // COMMENTED OUT - using HTML5 player controls instead
+  // // play/pause
+  // const togglePlayPause = () => {
+  //   if (!audioRef.current) return;
     
-    if (isPlaying) {
-      audioRef.current.pause();
-    } else {
-      audioRef.current.play();
-    }
-    setIsPlaying(!isPlaying);
-  };
+  //   if (isPlaying) {
+  //     audioRef.current.pause();
+  //   } else {
+  //     audioRef.current.play();
+  //   }
+  //   setIsPlaying(!isPlaying);
+  // };
 
-  // Handle when audio ended
-  const handleAudioEnded = () => {
-    setIsPlaying(false);
-  };
+  // COMMENTED OUT - using HTML5 player controls instead
+  // // Handle when audio ended
+  // const handleAudioEnded = () => {
+  //   setIsPlaying(false);
+  // };
 
-  // Handle volume change
-  const handleVolumeChange = (value: number[]) => {
-    const newVolume = value[0];
-    setVolume(newVolume);
+  // COMMENTED OUT - using HTML5 player controls instead
+  // // Handle volume change
+  // const handleVolumeChange = (value: number[]) => {
+  //   const newVolume = value[0];
+  //   setVolume(newVolume);
     
-    if (audioRef.current) {
-      audioRef.current.volume = newVolume;
-    }
-  };
+  //   if (audioRef.current) {
+  //     audioRef.current.volume = newVolume;
+  //   }
+  // };
   
   // // Toggle text visibility
   // const toggleTextVisibility = () => {
@@ -164,7 +168,7 @@ export function StoryPlayer({
         "text-container mt-4 bg-white rounded-lg w-full",
         isFullscreen ? "p-4" : "border p-2 shadow-sm"
       )}>
-        <p className="text-lg">{page.text}</p>
+        <p className="text-2xl text-center">{page.text}</p>
       </div>
     );
   };
@@ -190,34 +194,18 @@ export function StoryPlayer({
       setCurrent(api.selectedScrollSnap() + 1);
       setCurrentPage(api.selectedScrollSnap());
       setIsPlaying(false);
-      if (audioRef.current) {
-        audioRef.current.pause();
-      }
+      // if (audioRef.current) {
+      //   audioRef.current.pause();
+      // }
     });
   }, [api]);
 
 
-  //Fullscreen and audio buttion
+  //Fullscreen and audio button - SIMPLIFIED to just open fullscreen
   const openFullscreenWithAutoplay = () => {
-  // First open fullscreen
-  setIsFullscreen(true);
-  
-  // Set a small timeout to ensure the fullscreen dialog is mounted
-  // before attempting to play audio (avoids race condition)
-  setTimeout(() => {
-    // Start playback if audio is available
-    if (pages[currentPage]?.audioUrl && audioRef.current) {
-      audioRef.current.play()
-        .then(() => {
-          setIsPlaying(true);
-        })
-        .catch(error => {
-          console.error("Audio autoplay failed:", error);
-          // Browser may block autoplay; user interaction required
-        });
-    }
-  }, 300);
-};
+    // Just open fullscreen - HTML5 player will handle audio
+    setIsFullscreen(true);
+  };
 
   // Sync fullscreen carousel with main carousel
   useEffect(() => {
@@ -232,6 +220,29 @@ export function StoryPlayer({
       setCurrentPage(fullscreenApi.selectedScrollSnap());
     });
   }, [fullscreenApi, api, isFullscreen]);
+
+  // Add event listeners to track actual audio state
+  useEffect(() => {
+    const audioElement = document.querySelector('audio');
+    if (audioElement) {
+      const handlePlay = () => setIsPlaying(true);
+      const handlePause = () => setIsPlaying(false);
+      const handleEnded = () => {
+        setIsPlaying(false);
+        setAudioAutoPlay(false);
+      };
+
+      audioElement.addEventListener('play', handlePlay);
+      audioElement.addEventListener('pause', handlePause);
+      audioElement.addEventListener('ended', handleEnded);
+
+      return () => {
+        audioElement.removeEventListener('play', handlePlay);
+        audioElement.removeEventListener('pause', handlePause);
+        audioElement.removeEventListener('ended', handleEnded);
+      };
+    }
+  }, [selectedLanguage, currentPage]);
 
   if (!storyInfo) {
     return <div className="p-4 text-center">Story not found</div>;
@@ -270,10 +281,11 @@ export function StoryPlayer({
                     <LanguageSelector />
                   </div>
                   
-                  {/* Only show these controls if a language is selected */}
+                  {/* Audio-controls */}
                   {selectedLanguage && (
                     <>
-                      <div>
+                      {/* COMMENTED OUT - Volume controls now handled by HTML5 player */}
+                      {/* <div>
                         <div className="flex items-center justify-between mb-2">
                           <h3 className="text-sm font-medium">Volume</h3>
                           <span className="text-xs text-gray-500">{Math.round(volume * 100)}%</span>
@@ -307,7 +319,7 @@ export function StoryPlayer({
                             <Volume2 size={16} />
                           </Button>
                         </div>
-                      </div>
+                      </div> */}
 
                       {/* Download options */}
                       <div>
@@ -332,18 +344,14 @@ export function StoryPlayer({
                         </Button>
                       </div>
 
-                      {/* Play button */}
+                      {/* Play button - simplified to just open fullscreen */}
                       <Button 
-                        className="center w-full mt-auto"
+                        className="center w-full mt-auto h-16 text-lg"
                         variant="default"
                         onClick={openFullscreenWithAutoplay}
                         disabled={!pages[currentPage]?.audioUrl}
                       >
-                        {isPlaying ? (
-                          <><Pause className="mr-2" size={16}/> Pause</>
-                        ) : (
-                          <><Play className="mr-2" size={16}/> Play</>
-                        )}
+                        <Play className="mr-2" size={24}/> Play Story
                       </Button>
                     </>
                   )}
@@ -433,33 +441,29 @@ export function StoryPlayer({
               {/* Page indicator - only show when a language is selected */}
               {selectedLanguage && (
                 <div className="text-center py-2">
-                  Page {current} of {count}
+                  Page {current} of {pages.length}
                 </div>
               )}
             </div>
           </div>
           
-          {/* Hidden audio player - only if audio controls are enabled and language selected */}
-          {showAudioControls && selectedLanguage && pages[currentPage]?.audioUrl && (
+          {/* COMMENTED OUT - Hidden audio player replaced by HTML5 player in fullscreen */}
+          {/* {showAudioControls && selectedLanguage && pages[currentPage]?.audioUrl && (
             <audio 
               ref={audioRef}
               src={pages[currentPage].audioUrl}
-              
               onEnded={handleAudioEnded}
               className="hidden"
             />
-          )}
+          )} */}
           
           {/* Fullscreen */}
           <Dialog open={isFullscreen} onOpenChange={setIsFullscreen}>
             <DialogTitle className="sr-only">Story Details</DialogTitle>
-            <DialogContent className="max-w-[95vw] w-[95vw] h-[90vh] max-h-[90vh]">
-              <div className="flex flex-col h-full gap-6">
-                {/* Toolbar in fullscreen with language selector */}
-                <div className="flex items-center justify-between">
-                  {/* Language selector in fullscreen */}
-                
-                  {/* Audio controls in fullscreen - only if audio controls are enabled */}
+            <DialogContent className="max-w-[calc(95vw/1.25)] w-[calc(95vw/1.25)] h-[calc(90vh/1.25)] max-h-[calc(90vh/1.25)] m-4">
+              <div className="flex flex-col h-full gap-4">
+                {/* COMMENTED OUT - Toolbar with custom audio controls replaced by HTML5 player */}
+                {/* <div className="flex items-center justify-between flex-shrink-0">
                   {showAudioControls && selectedLanguage && pages[currentPage]?.audioUrl && (
                     <div className="flex items-center gap-4">
                       <Button
@@ -470,7 +474,7 @@ export function StoryPlayer({
                         {isPlaying ? <Pause size={16} /> : <Play size={16} />}
                       </Button>
                       
-                      <div className="flex items-center gap-2 ml-6">
+                      <div className="flex items-center gap-2">
                         <Volume2 size={16} />
                         <Slider
                           value={[volume]}
@@ -483,22 +487,22 @@ export function StoryPlayer({
                       </div>
                     </div>
                   )}
-                </div>
+                </div> */}
                 
                 {/* Fullscreen carousel */}
-                <div className="flex-1 min-h-0">
-                  <Carousel setApi={setFullscreenApi} className="h-full">
+                <div className="flex-1 min-h-0 overflow-hidden">
+                  <Carousel setApi={setFullscreenApi} className="h-full w-full">
                     <CarouselContent className="h-full">
                       {(selectedLanguage && pages.length > 0 ? pages : [placeholderPage]).map((page, index) => (
                         <CarouselItem key={`fullscreen-${selectedLanguage || "placeholder"}-${index}`} className="h-full">
-                          <div className="flex flex-col items-center justify-center h-full max-w-4xl mx-auto w-full">
-                            <div className="w-full aspect-video relative rounded-lg overflow-hidden">
+                          <div className="flex flex-col items-center justify-center h-full w-full p-4">
+                            <div className="w-full max-w-4xl aspect-video relative rounded-lg overflow-hidden">
                               <Image
                                 src={page.imageUrl} 
                                 alt={`Story scene ${index + 1}`}
                                 fill
                                 className={cn(
-                                  "object-contain rounded-lg",
+                                  "object-contain",
                                   !selectedLanguage && "opacity-50 blur-sm"
                                 )}
                               />
@@ -515,6 +519,66 @@ export function StoryPlayer({
                       </>
                     )}
                   </Carousel>
+                </div>
+                <div className="flex items-center flex-col justify-between">
+                 
+                  {selectedLanguage && pages[currentPage]?.audioUrl && (
+                    <audio 
+                      controls 
+                      autoPlay={audioAutoPlay}
+                      key={`audio-${selectedLanguage}-${currentPage}`} // Force re-render when page changes
+                      className="w-full"
+                    >
+                      <source src={pages[currentPage].audioUrl} type="audio/mpeg" />
+                      Your browser does not support the audio element.
+                    </audio>
+                  )}
+                  
+                  <div className="flex mt-2 gap-2 justify-between w-full">
+                    <Button 
+                      size="lg"
+                      onClick={() => {
+                        const audioElement = document.querySelector('audio');
+                        if (audioElement) {
+                          if (audioElement.paused) {
+                            audioElement.play();
+                            setAudioAutoPlay(true);
+                            setIsPlaying(true);
+                          } else {
+                            audioElement.pause();
+                            setAudioAutoPlay(false);
+                            setIsPlaying(false);
+                          }
+                        }
+                      }}
+                      className="h-12"
+                      variant="default"
+                    >
+                      {isPlaying ? <Pause className="mr-2" size={20} /> : <Play className="mr-2" size={20} />}
+                      {isPlaying ? "Start Autoplay" : "Stop Autoplay"}
+                    </Button>
+                    
+                    <Button 
+                      size="lg"
+                      variant="outline"
+                      className="h-12"
+                      asChild
+                    >
+                      <a href="/dashboard/stories">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                        Stories
+                      </a>
+                    </Button>
+                  </div>
+                  
+                  {/* Page indicator for fullscreen */}
+                  {selectedLanguage && (
+                    <div className="text-center py-2 flex-shrink-0">
+                      <span className="text-sm text-muted-foreground">
+                        Page {current} of {pages.length}
+                      </span>
+                    </div>
+                  )}
                 </div>
               </div>
             </DialogContent>
