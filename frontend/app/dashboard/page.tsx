@@ -31,7 +31,7 @@ export default function Page() {
                 
                 <div className="flex-1 flex items-center justify-center">
                   <Image
-                    src="/learning-material/story-1/story-en/Story 1_1.jpg"
+                    src="/images/bobba-together.jpeg"
                     alt="Storytime Illustration"
                     width={300}
                     height={200}
@@ -56,7 +56,7 @@ export default function Page() {
                      </h2>
                 <div className="flex-1 flex items-center justify-center">
                   <Image
-                    src="/learning-material/activities-preview.jpg"
+                    src="/images/bobba-kindergarden.jpeg"
                     alt="Activities Illustration"
                     width={300}
                     height={200}

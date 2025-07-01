@@ -166,10 +166,15 @@ export function StoryPlayer({
     
     return (
       <div className={cn(
-        "text-container mt-4 bg-white rounded-lg w-full",
+        "text-container mt-4 bg-white rounded-lg w-full max-w-4xl mx-auto",
         isFullscreen ? "p-4" : "border p-2 shadow-sm"
       )}>
-        <p className="text-2xl text-center">{page.text}</p>
+        <p className={cn(
+          "text-center break-words hyphens-auto",
+          isFullscreen ? "text-2xl" : "text-xl"
+        )}>
+          {page.text}
+        </p>
       </div>
     );
   };
@@ -259,14 +264,13 @@ export function StoryPlayer({
           <h1 className="text-2xl p-4 absolute left-1/2 transform -translate-x-1/2 font-bold">
             {storyInfo?.title || "Story"}
           </h1>
-          {!showAudioControls && (
-                  <LanguageSelector />
-          )}
+          
+          
         </div>
 
         <div className="flex flex-row w-full gap-0 relative">
           {/* Collapsible Sidebar - disabled, when no audio options */}
-          {showAudioControls && (
+         
             <div 
               className=
                 "flex flex-col border-r border-slate-200 transition-all duration-300 ease-in-out h-full w-56"
@@ -340,7 +344,7 @@ export function StoryPlayer({
                           <Download className="mr-2" size={16}/> Story Pictures
                         </Button>
                         <Button className="w-full mb-4" variant="outline">
-                          <Download className="mr-2" size={16}/> Story Guide
+                          <Download className="mr-2" size={16}/> Dialogic Reading Guide
                         </Button>
                       </div>
 
@@ -355,17 +359,16 @@ export function StoryPlayer({
                       </Button>
                     </>
                   )}
+                  
                 </div>
               </div>
             </div>
-          )}
+          
             
           {/* Main Content */}
           <div className={cn(
             "flex-1 min-h-0 flex flex-col transition-all duration-300 ease-in-out",
-            showAudioControls ? 
-              (sidebarCollapsed ? "w-[calc(100%-3rem)]" : "w-[calc(100%-16rem)]") : 
-              "w-full"
+            "w-[calc(100%-16rem)]" // Always account for sidebar since it's always visible
           )}>
             <div className="w-full max-w-4xl mx-auto h-full flex flex-col">
               <div className="relative flex-1">
@@ -453,42 +456,15 @@ export function StoryPlayer({
           {/* Fullscreen */}
           <Dialog open={isFullscreen} onOpenChange={setIsFullscreen}>
             <DialogTitle className="sr-only">Story Details</DialogTitle>
-            <DialogContent className="max-w-[calc(95vw/1.25)] w-[calc(95vw/1.25)] h-[calc(90vh/1.25)] max-h-[calc(90vh/1.25)] m-4">
-              <div className="flex flex-col h-full gap-4">
-                {/* COMMENTED OUT - Toolbar with custom audio controls replaced by HTML5 player */}
-                {/* <div className="flex items-center justify-between flex-shrink-0">
-                  {showAudioControls && selectedLanguage && pages[currentPage]?.audioUrl && (
-                    <div className="flex items-center gap-4">
-                      <Button
-                        variant="outline" 
-                        size="icon"
-                        onClick={togglePlayPause}
-                      >
-                        {isPlaying ? <Pause size={16} /> : <Play size={16} />}
-                      </Button>
-                      
-                      <div className="flex items-center gap-2">
-                        <Volume2 size={16} />
-                        <Slider
-                          value={[volume]}
-                          min={0}
-                          max={1}
-                          step={0.01}
-                          onValueChange={handleVolumeChange}
-                          className="w-24"
-                        />
-                      </div>
-                    </div>
-                  )}
-                </div> */}
-                
-                {/* Fullscreen carousel */}
+            <DialogContent className="max-w-[calc(95vw/1.1)] w-[calc(95vw/1.1)] h-[calc(90vh/1.1)] max-h-[calc(90vh/1.1)] m-4 p-4">
+              <div className="flex flex-col h-full gap-2">
+                {/* Fullscreen carousel - takes remaining space */}
                 <div className="flex-1 min-h-0 overflow-hidden">
                   <Carousel setApi={setFullscreenApi} className="h-full w-full">
                     <CarouselContent className="h-full">
                       {(selectedLanguage && pages.length > 0 ? pages : [placeholderPage]).map((page, index) => (
-                        <CarouselItem key={`fullscreen-${selectedLanguage || "placeholder"}-${index}`} className="h-full">
-                          <div className="flex flex-col items-center justify-center h-full w-full p-4">
+                        <CarouselItem key={`fullscreen-${selectedLanguage || "placeholder"}-${index}`} className="h-full w-full">
+                          <div className="flex flex-col items-center justify-center h-full p-4">
                             <div className="w-full max-w-4xl aspect-video relative rounded-lg overflow-hidden">
                               <Image
                                 src={page.imageUrl} 
@@ -507,69 +483,91 @@ export function StoryPlayer({
                     </CarouselContent>
                     {selectedLanguage && pages.length > 1 && (
                       <>
-                        <CarouselPrevious className="left-4" />
-                        <CarouselNext className="right-4" />
+                        <CarouselPrevious className="left-[calc(50%-32rem-3rem)]" />
+                        <CarouselNext className="right-[calc(50%-32rem-3rem)]" />
                       </>
                     )}
                   </Carousel>
                 </div>
-                <div className="flex items-center flex-col justify-between">
-                 
-                  {selectedLanguage && pages[currentPage]?.audioUrl && (
-                    <audio 
-                      controls 
-                      autoPlay={audioAutoPlay}
-                      key={`audio-${selectedLanguage}-${currentPage}`} // Force re-render when page changes
-                      className="w-full"
-                    >
-                      <source src={pages[currentPage].audioUrl} type="audio/mpeg" />
-                      Your browser does not support the audio element.
-                    </audio>
+                
+                {/* Bottom section - fixed height to prevent overflow */}
+                <div className="flex-shrink-0 space-y-2">
+                  {/* Audio controls section - only show if showAudioControls is true */}
+                  {showAudioControls && (
+                    <div className="flex flex-col gap-2">
+                      {/* HTML5 audio player */}
+                      {selectedLanguage && pages[currentPage]?.audioUrl && (
+                        <audio 
+                          controls 
+                          autoPlay={audioAutoPlay}
+                          key={`audio-${selectedLanguage}-${currentPage}`}
+                          className="w-full"
+                        >
+                          <source src={pages[currentPage].audioUrl} type="audio/mpeg" />
+                          Your browser does not support the audio element.
+                        </audio>
+                      )}
+                      
+                      {/* Button row */}
+                      <div className="flex gap-2 justify-between w-full">
+                        <Button 
+                          size="lg"
+                          onClick={() => {
+                            const audioElement = document.querySelector('audio');
+                            if (audioElement) {
+                              if (audioElement.paused) {
+                                audioElement.play();
+                                setAudioAutoPlay(true);
+                                setIsPlaying(true);
+                              } else {
+                                audioElement.pause();
+                                setAudioAutoPlay(false);
+                                setIsPlaying(false);
+                              }
+                            }
+                          }}
+                          className="h-12 flex-1"
+                          variant="default"
+                        >
+                          {isPlaying ? <Pause className="mr-2" size={20} /> : <Play className="mr-2" size={20} />}
+                          {isPlaying ? "Pause Story" : "Play Story"}
+                        </Button>
+                        
+                        <Button 
+                          size="lg"
+                          variant="outline"
+                          className="h-6"
+                          asChild
+                        >
+                          <a href="/dashboard/stories">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
+                              <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                              <polyline points="9 22 9 12 15 12 15 22"/>
+                            </svg>
+                            Stories
+                          </a>
+                        </Button>
+                      </div>
+                    </div>
                   )}
                   
-                  <div className="flex mt-2 gap-2 justify-between w-full">
-                    <Button 
-                      size="lg"
-                      onClick={() => {
-                        const audioElement = document.querySelector('audio');
-                        if (audioElement) {
-                          if (audioElement.paused) {
-                            audioElement.play();
-                            setAudioAutoPlay(true);
-                            setIsPlaying(true);
-                          } else {
-                            audioElement.pause();
-                            setAudioAutoPlay(false);
-                            setIsPlaying(false);
-                          }
-                        }
-                      }}
-                      className="h-12"
-                      variant="default"
-                    >
-                      {isPlaying ? <Pause className="mr-2" size={20} /> : <Play className="mr-2" size={20} />}
-                      {isPlaying ? "Start Autoplay" : "Stop Autoplay"}
-                    </Button>
-                    
-                    <Button 
-                      size="lg"
-                      variant="outline"
-                      className="h-12"
-                      asChild
-                    >
-                      <a href="/dashboard/stories">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-                        Stories
-                      </a>
-                    </Button>
-                  </div>
-                  
-                  {/* Page indicator for fullscreen */}
-                  {selectedLanguage && (
-                    <div className="text-center py-2 flex-shrink-0">
-                      <span className="text-sm text-muted-foreground">
-                        Page {current} of {pages.length}
-                      </span>
+                  {/* Home button - show when audio controls are disabled */}
+                  {!showAudioControls && (
+                    <div className="flex flex-shrink-0  justify justify-end">
+                      <Button 
+                        size="lg"
+                        variant="outline"
+                        className="h-12"
+                        asChild
+                      >
+                        <a href="/dashboard/stories">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
+                            <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                            <polyline points="9 22 9 12 15 12 15 22"/>
+                          </svg>
+                          Stories
+                        </a>
+                      </Button>
                     </div>
                   )}
                 </div>
