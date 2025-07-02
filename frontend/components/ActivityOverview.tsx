@@ -170,37 +170,129 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
 					<div className="overflow-x-auto">
 						<table className="w-full">
 							<thead>
-								<tr
-									style={{ backgroundColor: `${groupMeta.colors.primary}20` }}
-								>
-									<th className="p-4 text-left font-semibold border-r" />
-									{stories.map((story, index) => (
+								<tr style={{ backgroundColor: `${groupMeta.colors.primary}20` }}>
+									<th className="p-4 text-left font-semibold border-r">
+										Story Title
+									</th>
+									{/* Determine max activities per set across all stories */}
+									{Array.from({
+										length: Math.max(
+											...stories.flatMap((story) =>
+												story.sets.map((set) => set.length)
+											),
+											0
+										),
+									}).map((_, activityIndex) => (
 										<th
 											className="p-4 text-center font-semibold border-r"
-											key={story.id}
+											key={activityIndex}
 										>
-											F-U Act LA_{groupKey}_{ALPHABET[index]}
+											F-U Act {groupKey}_{ALPHABET[activityIndex]}
 										</th>
 									))}
 								</tr>
 							</thead>
 							<tbody>
 								{stories.length > 0 ? (
-									stories.map((story) => {
-										return (
+									stories.flatMap((story, storyIndex) =>
+										story.sets.map((set, setIndex) => (
 											<tr
-												key={story.id}
+												key={`${story.id}-set-${setIndex}`}
 												className="border-t hover:bg-gray-50 transition-colors"
 											>
-												<td className="p-4 font-medium border-r bg-gray-50/50">
-													{story.title}
-												</td>
+												{/* Story title column - only show on first set */}
+												{setIndex === 0 && (
+													<td
+														className="p-4 font-medium border-r bg-gray-50/50 align-top"
+														rowSpan={story.sets.length}
+													>
+														{story.title}
+													</td>
+												)}
+
+												{/* Activity columns */}
+												{Array.from({
+													length: Math.max(
+														...stories.flatMap((s) =>
+															s.sets.map((set) => set.length)
+														),
+														0
+													),
+												}).map((_, activityIndex) => {
+													const activity = set[activityIndex];
+
+													return (
+														<td
+															key={activityIndex}
+															className="p-4 border-r align-top"
+														>
+															{activity ? (
+																<div className="p-2 bg-gray-50 rounded border">
+																	<div className="flex items-center gap-2">
+																		<Checkbox
+																			id={`activity-${activity.id}`}
+																			checked={selectedActivities.has(activity.id)}
+																			onCheckedChange={(checked) => {
+																				const newSelected = new Set(selectedActivities);
+																				if (checked) {
+																					newSelected.add(activity.id);
+																				} else {
+																					newSelected.delete(activity.id);
+																				}
+																				setSelectedActivities(newSelected);
+																			}}
+																			className="flex-shrink-0"
+																		/>
+																		<div className="min-w-0 flex-1">
+																			<div className="flex items-center gap-2 mb-1">
+																				<p className="text-xs px-2 py-1 rounded-full bg-emerald-100 text-emerald-700 capitalize flex-shrink-0">
+																					{activity.type}
+																				</p>
+																			</div>
+																			<div className="">
+																				{activity.languages.en?.pdfUrl ? (
+																					<a
+																						href={activity.languages.en.pdfUrl}
+																						target="_blank"
+																						rel="noopener noreferrer"
+																						className="font-medium text-sm text-blue-600 hover:text-blue-800 hover:underline truncate"
+																					>
+																						{activity.title}
+																					</a>
+																				) : (
+																					<h4 className="font-medium text-sm truncate">
+																						{activity.title}
+																					</h4>
+																				)}
+																			</div>
+
+																		</div>
+																	</div>
+																</div>
+															) : (
+																<div className="text-center text-gray-400 text-sm py-4">
+																	-
+																</div>
+															)}
+														</td>
+													);
+												})}
 											</tr>
-										);
-									})
+										))
+									)
 								) : (
 									<tr>
-										<td colSpan={4} className="p-8 text-center text-gray-500">
+										<td
+											colSpan={
+												Math.max(
+													...stories.flatMap((s) =>
+														s.sets.map((set) => set.length)
+													),
+													0
+												) + 1
+											}
+											className="p-8 text-center text-gray-500"
+										>
 											No activities available for this group.
 										</td>
 									</tr>
