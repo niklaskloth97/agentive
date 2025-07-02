@@ -177,7 +177,7 @@ export default function Page() {
                   <Button 
                     size="lg"
                     variant="outline"
-                    className="h-12"
+                    className="h-24 text-2xl"
                     asChild
                   >
                     <a href="/dashboard/stories">
