@@ -522,17 +522,17 @@ export function StoryPlayer({
                               }
                             }
                           }}
-                          className="h-12 flex-1"
+                          className="h-12 flex-1 max-w-[10%]"
                           variant="default"
                         >
                           {isPlaying ? <Pause className="mr-2" size={20} /> : <Play className="mr-2" size={20} />}
-                          {isPlaying ? "Pause Story" : "Play Story"}
+                          {isPlaying ? "Pause Story" : "Autoplay Story"}
                         </Button>
                         
                         <Button 
                           size="lg"
                           variant="outline"
-                          className="h-6"
+                          className="h-12"
                           asChild
                         >
                           <a href="/dashboard/stories">
@@ -549,11 +549,11 @@ export function StoryPlayer({
                   
                   {/* Home button - show when audio controls are disabled */}
                   {!showAudioControls && (
-                    <div className="flex flex-shrink-0  justify justify-end">
+                    <div className="flex justify-end w-full">
                       <Button 
                         size="lg"
                         variant="outline"
-                        className="h-12"
+                        className="h-24"
                         asChild
                       >
                         <a href="/dashboard/stories">
