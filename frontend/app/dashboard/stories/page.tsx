@@ -116,7 +116,7 @@ export default function Page() {
                     return (
                       <>
                         <div className="flex flex-col sm:flex-row items-center sm:items-start bg-white dark:bg-gray-800/40 rounded-xl mb-8 max-w-2xl w-full overflow-hidden">
-                          <div className="w-full sm:w-1/3 flex-shrink-0">
+                          <div className="w-full sm:w-1/2 flex-shrink-0">
                             <div className="relative aspect-square w-full max-w-[120px] mx-auto">
                               <Image
                                 src={getJsonStoryCoverImage(story)}
@@ -133,7 +133,7 @@ export default function Page() {
                             </div>
                           </div>
                         </div>
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-5xl">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-5xl">
                           {/* Listen */}
                           <Link href={`/dashboard/stories/${story.id}/listening`} className="w-full">
                             <button 
