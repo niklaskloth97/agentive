@@ -64,10 +64,6 @@ export function StoryPlayer({
   const [selectedLanguage, setSelectedLanguage] = useState<string>(""); // Empty string means no selection
   const [currentPage, setCurrentPage] = useState(0);
   
-  // Sidebar state
-  const [sidebarCollapsed] = useState(false);
-
-  
   // Audio player state
   const [isPlaying, setIsPlaying] = useState(false);
   const [audioAutoPlay, setAudioAutoPlay] = useState(false);
