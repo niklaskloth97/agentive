@@ -256,8 +256,8 @@ export function StoryPlayer({
       onLanguageChange={handleLanguageChange}
     >
       <div className={cn("flex flex-col w-full h-full overflow-hidden", className)}>
-        <div className="flex text-center items-center justify-between p-4 mb-4">
-          <h1 className="text-2xl p-4 absolute left-1/2 transform -translate-x-1/2 font-bold">
+        <div className="flex text-center items-center justify-between mb-4">
+          <h1 className="text-2xl absolute left-1/2 transform -translate-x-1/2 font-bold">
             {storyInfo?.title || "Story"}
           </h1>
           
@@ -494,7 +494,7 @@ export function StoryPlayer({
                       {/* HTML5 audio player */}
                       {selectedLanguage && pages[currentPage]?.audioUrl && (
                         <audio 
-                          controls 
+                          show
                           autoPlay={audioAutoPlay}
                           key={`audio-${selectedLanguage}-${currentPage}`}
                           className="w-full"
