@@ -4,7 +4,7 @@ import { useState } from "react"
 import { DashboardLayout } from "@/components/DashboardLayout"
 import Image from 'next/image'
 import Link from 'next/link'
-import { Headphones, BookOpen } from "lucide-react"
+import { Headphones, BookOpen, Home } from "lucide-react"
 import { Card } from "@/components/ui/card"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
 import { DialogTitle } from "@radix-ui/react-dialog"
@@ -103,8 +103,9 @@ export default function Page() {
         {/* Fullscreen Story Dialog */}
         <Dialog open={selectedStory !== null} onOpenChange={closeStoryDialog}>
           <DialogTitle className="sr-only">Story Details</DialogTitle>
-            <DialogContent className="max-w-[calc(95vw/1.25)] w-[calc(95vw/1.25)] h-[calc(90vh/1.25)] max-h-[calc(90vh/1.25)] m-4">
-            
+              <DialogContent 
+              className="w-[200vw] h-[85vh] max-h-[85vh] max-w-[160vh] m-4 rounded-lg border"
+            >            
             {/* Display JSON story details */}
             {selectedType === 'json' && selectedStory && (
               <div className="flex flex-col h-full">
@@ -115,9 +116,9 @@ export default function Page() {
                     
                     return (
                       <>
-                        <div className="flex flex-col sm:flex-row items-center sm:items-start bg-white dark:bg-gray-800/40 rounded-xl mb-8 max-w-2xl w-full overflow-hidden">
+                        <div className="flex flex-col sm:flex-row items-center sm:items-start bg-white dark:bg-gray-800/40 rounded-xl mb-6 max-w-2xl w-full overflow-hidden">
                           <div className="w-full sm:w-1/2 flex-shrink-0">
-                            <div className="relative aspect-square w-full max-w-[120px] mx-auto">
+                            <div className="relative aspect-square w-full max-w-[100px] mx-auto">
                               <Image
                                 src={getJsonStoryCoverImage(story)}
                                 alt={story.title}
@@ -128,7 +129,7 @@ export default function Page() {
                           </div>
                           <div className="w-full sm:w-2/3 p-4 sm:border-l border-gray-200 dark:border-gray-700 flex flex-col justify-center h-full">
                             <h2 className="text-xl sm:text-2xl font-semibold">{story.title}</h2>
-                            <div className="mt-2 text-sm text-gray-600 dark:text-gray-300">
+                            <div className="text-sm text-gray-600 dark:text-gray-300">
                               <p>Available in: {getJsonStoryLanguages(story).join(', ')}</p>
                             </div>
                           </div>
@@ -148,11 +149,11 @@ export default function Page() {
                           {/* Read */}
                           <Link href={`/dashboard/stories/${story.id}/reading`} className="w-full">
                             <button 
-                              className="w-full h-48 md:h-64 rounded-xl bg-emerald-200 hover:bg-emerald-300 flex flex-col items-center justify-center shadow-lg transition-all duration-200 hover:scale-[1.02] focus:outline-none focus:ring-4 focus:ring-emerald-300"
+                              className="w-full h-48 md:h-64 rounded-xl bg-yellow-200 hover:bg-yellow-300 flex flex-col items-center justify-center shadow-lg transition-all duration-200 hover:scale-[1.02] focus:outline-none focus:ring-4 focus:ring-yellow-300"
                               aria-label="Read story"
                             >
-                              <BookOpen className="h-36 w-36 md:h-48 md:w-48 text-emerald-600" strokeWidth={1.5} />
-                              <span className="text-lg font-semibold text-emerald-600 mt-3">Read</span>
+                              <BookOpen className="h-36 w-36 md:h-48 md:w-48 text-yellow-600" strokeWidth={1.5} />
+                              <span className="text-lg font-semibold text-yellow-600 mt-3">Read</span>
                             </button>
                           </Link>
 
@@ -173,7 +174,7 @@ export default function Page() {
                 </div>
                 
                 {/* Footer with Stories button aligned to the right */}
-                <div className="w-full flex justify-end mt-4">  
+                <div className="w-full flex justify-end mt-2">  
                   <Button 
                     size="lg"
                     variant="outline"
@@ -181,10 +182,7 @@ export default function Page() {
                     asChild
                   >
                     <a href="/dashboard/stories">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
-                        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-                        <polyline points="9 22 9 12 15 12 15 22"/>
-                      </svg>
+                      <Home className="h-8 w-8 md:h-8 md:w-8 mr-2" />
                       Stories
                     </a>
                   </Button>
