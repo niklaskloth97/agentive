@@ -5,6 +5,8 @@
     "en": [{
       "title": "Bobba's first trip to Earth",
       "titlePicture": "/learning-material/story-1/story-en/Story 1_1.jpg",
+      "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
+      "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
       "pages": {
         "1": {
           "text": "Bobba lives on a planet far away. Today he is very excited. He finally has his own spaceship and can now fly to wherever he wants!",
@@ -51,6 +53,8 @@
     "de": [{
       "title": "Bobbas erste Reise zur Erde",
       "titlePicture": "/learning-material/story-1/story-en/Story 1_1.jpg",
+      "fullAudio": "/learning-material/story-1/story-de/Story_1_full_audio.m4a",
+      "fullText": "/learning-material/story-1/story-de/Story_1_full_text.pdf",
       "pages": {
         "1": {
           "text": "Bobba lebt auf einem weit entfernten Planeten. Heute ist er wahnsinnig aufgeregt! Endlich bekommt er sein eigenes Raumschiff und nun kann er endlich hinfliegen, wohin er will!",
@@ -102,6 +106,8 @@
     "gr": [{
       "title": "Το πρώτο ταξίδι του Μπόμπα στη Γη",
       "titlePicture": "/learning-material/story-1/story-en/Story 1_1.jpg",
+      "fullAudio": "/learning-material/story-1/story-gr/Story_1_full_audio.m4a",
+      "fullText": "/learning-material/story-1/story-gr/Story_1_full_text.pdf",
       "pages": {
         "1": {
           "text": "Ο Μπόμπα ζει σε ένα μακρινό πλανήτη. Σήμερα είναι πολύ ενθουσιασμένος. Έχει επιτέλους το δικό του διαστημόπλοιο και μπορεί τώρα να πετάξει όπου θέλει!",
@@ -148,6 +154,8 @@
     "sv": [{
       "title": "Bobbas första resa till jorden",
       "titlePicture": "/learning-material/story-1/story-en/Story 1_1.jpg",
+      "fullAudio": "/learning-material/story-1/story-sv/Story_1_full_audio.m4a",
+      "fullText": "/learning-material/story-1/story-sv/Story_1_full_text.pdf",
       "pages": {
         "1": {
           "text": "Bobba živi na planetu daleč stran. Danes je zelo vznemirjen. Končno je dobil svojo vesoljsko ladjo in zdaj lahko leti, kamor koli želi!",
@@ -194,6 +202,8 @@
     "al": [{
       "title": "Udhëtimi i parë i Bobbas në Tokë",
       "titlePicture": "/learning-material/story-1/story-en/Story 1_1.jpg",
+      "fullAudio": "/learning-material/story-1/story-al/Story_1_full_audio.m4a",
+      "fullText": "/learning-material/story-1/story-al/Story_1_full_text.pdf",
       "pages": {
         "1": {
           "text": "Bobba jeton në një planet shumë larg. Sot ai është shumë i emocionuar. Më në fund ka anijen e tij kozmike dhe tani mund të fluturojë kudo që dëshiron!",
@@ -206,7 +216,7 @@
           "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
         },
         "3": {
-          "text": "Ai hidhet në anijen kozmike dhe ngrihet në ajër. Të gjithë miqtë dhe familjarët e tij janë të habitur! \" Ku po shkon vallë?\", pyesin ata. Bobba është nisur drejt planetit Tokë.",
+          "text": "Ai hidhet në anijen kozmike dhe ngrihet në ajër. Të gjithë miqtë dhe familjarët e tij janë të habitur! \"Ku po shkon vallë?\", pyesin ata. Bobba është nisur drejt planetit Tokë.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
           "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
         },
@@ -221,12 +231,12 @@
           "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
         },
         "6": {
-          "text": "Ai del nga anija e tij kozmike dhe shikon përreth. Dy sy të zinj që dalin nga pendë të zeza po e vështrojnë. Bobba thotë: \" Saluton!\", por zogu vetëm e sheh dhe fluturon tutje. Ai zbret me ngut nga pema dhe sheh një krijesë të kuqe me pika të zeza.  \" Saluton! \" – thërret Bobba, por insekti as që e sheh fare.",
+          "text": "Ai del nga anija e tij kozmike dhe shikon përreth. Dy sy të zinj që dalin nga pendë të zeza po e vështrojnë. Bobba thotë: \"Saluton!\", por zogu vetëm e sheh dhe fluturon tutje. Ai zbret me ngut nga pema dhe sheh një krijesë të kuqe me pika të zeza. \"Saluton!\" – thërret Bobba, por insekti as që e sheh fare.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
           "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
         },
         "7": {
-          "text": "Një djalë dhe një vajzë e shikojnë Bobban dhe qeshin me të. \"Me kë po flet? Ata nuk dinë të flasin! \" Bobba kthehet : \" Saluton! Ĉu vi estas infanoj? \", i pyet ai. Fëmijët e shikojnë njëri-tjetrin. \" Infanoj? A do të thotë foshnjë?\"  \"Jo!\", protestojnë ata. \"Ne nuk jemi foshnje! Ne jemi fëmijë!\" \"Ahhhh!\", thërret Bobba! \"Fëmijë! Infanoj! Fëmijë!\" Kjo i bën ata të qeshin.",
+          "text": "Një djalë dhe një vajzë e shikojnë Bobban dhe qeshin me të. \"Me kë po flet? Ata nuk dinë të flasin!\" Bobba kthehet : \"Saluton! Ĉu vi estas infanoj?\", i pyet ai. Fëmijët e shikojnë njëri-tjetrin. \"Infanoj? A do të thotë foshnjë?\" \"Jo!\", protestojnë ata. \"Ne nuk jemi foshnje! Ne jemi fëmijë!\" \"Ahhhh!\", thërret Bobba! \"Fëmijë! Infanoj! Fëmijë!\" Kjo i bën ata të qeshin.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
           "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
         },
@@ -240,6 +250,8 @@
     "ukr": [{
       "title": "Перша подорож Бобби на Землю",
       "titlePicture": "/learning-material/story-1/story-en/Story 1_1.jpg",
+      "fullAudio": "/learning-material/story-1/story-ukr/Story_1_full_audio.m4a",
+      "fullText": "/learning-material/story-1/story-ukr/Story_1_full_text.pdf",
       "pages": {
         "1": {
           "text": "Бобба живе на далекій планеті. Сьогодні він дуже схвильований. У нього нарешті з'явився власний космічний корабель, і тепер він може полетіти туди, куди захоче!",
@@ -290,6 +302,8 @@
     "en": [{
       "title": "At the kindergarten",
       "titlePicture": "/images/under-construction.png",
+      "fullAudio": "/learning-material/story-1/story-ukr/Story_1_full_audio.m4a",
+      "fullText": "/learning-material/story-1/story-ukr/Story_1_full_text.pdf",
       "pages": {
         "1": {
           "text": "Bobba sees a beautiful brightly coloured building. He hears laughter and singing coming from inside. He is curious and wants to see what is going on.",
@@ -350,6 +364,8 @@
     "en": [{
       "title": "Bobba at the beach",
       "titlePicture": "/images/under-construction.png",
+      "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
+      "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
       "pages": {
         "1": {
           "text": "Bobba sees a beautiful brightly coloured building. He hears laughter and singing coming from inside. He is curious and wants to see what is going on.",
@@ -410,6 +426,8 @@
     "en": [{
       "title": "Sleeping at a friend's",
       "titlePicture": "/images/under-construction.png",
+      "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
+      "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
       "pages": {
         "1": {
           "text": "Bobba sees a beautiful brightly coloured building. He hears laughter and singing coming from inside. He is curious and wants to see what is going on.",
@@ -470,6 +488,8 @@
     "en": [{
       "title": "Bobba in the library",
       "titlePicture": "/images/under-construction.png",
+      "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
+      "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
       "pages": {
         "1": {
           "text": "Bobba sees a beautiful brightly coloured building. He hears laughter and singing coming from inside. He is curious and wants to see what is going on.",
@@ -530,6 +550,8 @@
     "en": [{
       "title": "The Monster castle",
       "titlePicture": "/images/under-construction.png",
+      "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
+      "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
       "pages": {
         "1": {
           "text": "Bobba sees a beautiful brightly coloured building. He hears laughter and singing coming from inside. He is curious and wants to see what is going on.",
@@ -590,6 +612,8 @@
     "en": [{
       "title": "Celebrating Olivia's birthday",
       "titlePicture": "/images/under-construction.png",
+      "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
+      "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
       "pages": {
         "1": {
           "text": "It is a special day. Bobba is invited to Olivia's birthday party. In front of the house are many balloons with a big 5.",
@@ -650,6 +674,8 @@
     "en": [{
       "title": "Going home",
       "titlePicture": "/images/under-construction.png",
+      "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
+      "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
       "pages": {
         "1": {
           "text": "Bobba and his friends are having fun playing with a ball in the park where Bobba's spaceship landed.",
