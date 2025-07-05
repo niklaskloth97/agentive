@@ -20,45 +20,75 @@ export default function Page() {
     { label: "Multilingual Stories" }
   ];
 
-  // Define story type for better type checking
-  interface StoryPage {
-    imageUrl?: string;
-    [key: string]: string | number | boolean | undefined | null | Record<string, unknown>;
-  }
-
-  interface Story {
-    id: string;
-    title: string;
-    slug?: string;
-    pages?: {
-      [language: string]: StoryPage[];
-    };
-  }
-
   // Helper function to get available languages from JSON story data
-  const getJsonStoryLanguages = (story: Story) => {
-    if (!story.pages) return ['English'];
-    return Object.keys(story.pages).map(lang => {
-      switch(lang) {
-        case 'en': return 'English';
-        case 'de': return 'German';
-        case 'fr': return 'French';
-        case 'es': return 'Spanish';
-        case 'it': return 'Italian';
-        default: return lang.toUpperCase();
+  const getJsonStoryLanguages = (story: any) => {
+    const languages: string[] = [];
+    Object.keys(story).forEach(key => {
+      if (key !== 'id' && key !== 'slug' && Array.isArray(story[key]) && story[key].length > 0) {
+        switch(key) {
+          case 'en': languages.push('English'); break;
+          case 'de': languages.push('German'); break;
+          case 'de-short': languages.push('German (Short)'); break;
+          case 'fr': languages.push('French'); break;
+          case 'es': languages.push('Spanish'); break;
+          case 'it': languages.push('Italian'); break;
+          case 'lux': languages.push('Luxembourgish'); break;
+          case 'gr': languages.push('Greek'); break;
+          case 'sv': languages.push('Slovenian'); break;
+          case 'al': languages.push('Albanian'); break;
+          case 'ukr': languages.push('Ukrainian'); break;
+          default: languages.push(key.toUpperCase());
+        }
       }
     });
+    return languages.length > 0 ? languages : ['English'];
   }
 
   // Helper function to get a cover image for JSON story
-  const getJsonStoryCoverImage = (story: Story) => {
-    // Try to get the first image from English pages, fallback to any available language
-    const pages = story.pages?.en || Object.values(story.pages || {})[0];
-    if (pages && pages.length > 0 && pages[0].imageUrl) {
-      return pages[0].imageUrl;
+  const getJsonStoryCoverImage = (story: any) => {
+    // Try to get the titlePicture from English, fallback to any available language
+    const englishData = story.en;
+    if (Array.isArray(englishData) && englishData.length > 0 && englishData[0].titlePicture) {
+      return englishData[0].titlePicture;
     }
-    // Fallback image
+    
+    // Try other languages
+    for (const [key, value] of Object.entries(story)) {
+      if (key !== 'id' && key !== 'slug' && Array.isArray(value) && value.length > 0) {
+        const langData = value[0] as any;
+        if (langData.titlePicture) {
+          return langData.titlePicture;
+        }
+        // Fallback to first page image
+        if (langData.pages && langData.pages["1"] && langData.pages["1"].imageUrl) {
+          return langData.pages["1"].imageUrl;
+        }
+      }
+    }
+    
+    // Final fallback image
     return '/images/story-placeholder.jpg';
+  }
+
+  // Helper function to get story title
+  const getStoryTitle = (story: any) => {
+    // Try to get title from English first
+    const englishData = story.en;
+    if (Array.isArray(englishData) && englishData.length > 0 && englishData[0].title) {
+      return englishData[0].title;
+    }
+    
+    // Try other languages
+    for (const [key, value] of Object.entries(story)) {
+      if (key !== 'id' && key !== 'slug' && Array.isArray(value) && value.length > 0) {
+        const langData = value[0] as any;
+        if (langData.title) {
+          return langData.title;
+        }
+      }
+    }
+    
+    return `Story ${story.id}`;
   }
 
   const openStoryDialog = (id: string, type: 'json' | 'array') => {
@@ -86,19 +116,17 @@ export default function Page() {
               <div className="relative aspect-square">
                 <Image 
                   src={getJsonStoryCoverImage(story)} 
-                  alt={story.title} 
+                  alt={getStoryTitle(story)} 
                   fill
                   className="object-cover" 
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                  <h2 className="text-lg font-semibold text-white">{story.title}</h2>
+                  <h2 className="text-lg font-semibold text-white">{getStoryTitle(story)}</h2>
                 </div>
               </div>
             </Card>
           ))}
         </div>
-        
-        
 
         {/* Fullscreen Story Dialog */}
         <Dialog open={selectedStory !== null} onOpenChange={closeStoryDialog}>
@@ -121,14 +149,14 @@ export default function Page() {
                             <div className="relative aspect-square w-full max-w-[100px] mx-auto">
                               <Image
                                 src={getJsonStoryCoverImage(story)}
-                                alt={story.title}
+                                alt={getStoryTitle(story)}
                                 fill
                                 className="object-cover rounded-md"
                               />
                             </div>
                           </div>
                           <div className="w-full sm:w-2/3 p-4 sm:border-l border-gray-200 dark:border-gray-700 flex flex-col justify-center h-full">
-                            <h2 className="text-xl sm:text-2xl font-semibold">{story.title}</h2>
+                            <h2 className="text-xl sm:text-2xl font-semibold">{getStoryTitle(story)}</h2>
                             <div className="text-sm text-gray-600 dark:text-gray-300">
                               <p>Available in: {getJsonStoryLanguages(story).join(', ')}</p>
                             </div>
@@ -189,7 +217,6 @@ export default function Page() {
                 </div>
               </div>
             )}
-
           </DialogContent>
         </Dialog>
       </div>

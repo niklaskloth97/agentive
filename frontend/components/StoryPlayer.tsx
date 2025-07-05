@@ -29,7 +29,7 @@ import { cn } from "@/lib/utils";
 interface StoryPlayerProps {
   storyId: string;
   showAudioControls?: boolean;
-  showText?: boolean; // New prop to control text visibility
+  showText?: boolean;
   className?: string;
 }
 
@@ -38,8 +38,8 @@ interface StoryLanguageContent {
   audioUrl: string;
   coverImage: string;
 }
+
 type StoryPageItem = {
-  id: number;
   text: string;
   imageUrl: string;
   audioUrl?: string;
@@ -48,7 +48,7 @@ type StoryPageItem = {
 export function StoryPlayer({ 
   storyId, 
   showAudioControls = true,
-  showText = true, // Default to showing text
+  showText = true,
   className 
 }: StoryPlayerProps) {
   // Story data access
@@ -61,13 +61,12 @@ export function StoryPlayer({
   const [isFullscreen, setIsFullscreen] = useState(false);
   
   // Language state
-  const [selectedLanguage, setSelectedLanguage] = useState<string>(""); // Empty string means no selection
+  const [selectedLanguage, setSelectedLanguage] = useState<string>("");
   const [currentPage, setCurrentPage] = useState(0);
   
   // Audio player state
   const [isPlaying, setIsPlaying] = useState(false);
   const [audioAutoPlay, setAudioAutoPlay] = useState(false);
-  // const audioRef = useRef<HTMLAudioElement>(null); // COMMENTED OUT - using HTML5 player instead
   
   // Text visibility state
   const [isTextVisible] = useState<boolean>(showText);
@@ -77,23 +76,31 @@ export function StoryPlayer({
   
   // Populate storyContent if storyInfo exists
   if (storyInfo) {
-    Object.entries(storyInfo.pages || {}).forEach(([lang, pages]) => {
-      if (pages && pages.length > 0) {
-        storyContent[lang] = {
-          label: lang === 'en' ? 'EN' : 
-                 lang === 'de' ? 'GER' : 
-                 lang === 'fr' ? 'FRA' : 
-                 lang === 'es' ? 'ESP' :
-                 lang === 'it' ? 'ITA' :
-                 lang === 'lux' ? 'LUX' :
-                 lang === 'gr' ? 'GRC' :
-                 lang === 'sv' ? 'SVN' :
-                 lang ===  'al' ? 'ALB' :
-                 lang ===  'ukr' ? 'UKR' :
-                 lang.toUpperCase(),
-          audioUrl: pages[0].audioUrl || "",
-          coverImage: pages[0].imageUrl || ""
-        };
+    Object.entries(storyInfo).forEach(([lang, content]) => {
+      // Skip id and slug fields
+      if (lang === 'id' || lang === 'slug') return;
+      
+      // Check if content is an array and has items
+      if (Array.isArray(content) && content.length > 0 && content[0].pages) {
+        const firstPage = content[0].pages["1"];
+        if (firstPage) {
+          storyContent[lang] = {
+            label: lang === 'en' ? 'EN' : 
+                   lang === 'de' ? 'GER' : 
+                   lang === 'fr' ? 'FRA' : 
+                   lang === 'es' ? 'ESP' :
+                   lang === 'it' ? 'ITA' :
+                   lang === 'lux' ? 'LUX' :
+                   lang === 'gr' ? 'GRC' :
+                   lang === 'sv' ? 'SVN' :
+                   lang === 'al' ? 'ALB' :
+                   lang === 'ukr' ? 'UKR' :
+                   lang === 'de-short' ? 'GER-S' :
+                   lang.toUpperCase(),
+            audioUrl: firstPage.audioUrl || "",
+            coverImage: firstPage.imageUrl || ""
+          };
+        }
       }
     });
   }
@@ -106,7 +113,9 @@ export function StoryPlayer({
     setSelectedLanguage(language);
     
     // Get pages for the new language
-    const newLanguagePages = storyInfo?.pages?.[language as keyof typeof storyInfo.pages] || [];
+    const languageData = storyInfo?.[language as keyof typeof storyInfo];
+    const newLanguagePages = Array.isArray(languageData) && languageData.length > 0 ? 
+      Object.values(languageData[0].pages || {}) : [];
     
     // Only reset to first page if current page doesn't exist in new language
     if (currentPage >= newLanguagePages.length) {
@@ -176,14 +185,17 @@ export function StoryPlayer({
   };
   
   // Get pages for the selected language
-  const pages = selectedLanguage && storyInfo?.pages?.[selectedLanguage as keyof typeof storyInfo.pages] || [];
+  const languageData = selectedLanguage && storyInfo?.[selectedLanguage as keyof typeof storyInfo];
+  const pages = Array.isArray(languageData) && languageData.length > 0 ? 
+    Object.values(languageData[0].pages || {}) : [];
   
   // Create a placeholder page using the first English page of the story if available
-  const placeholderPage = storyInfo?.pages?.en?.[0] || {
-    id: 0, // Changed from string to number to match StoryPageItem interface
-    imageUrl: "/images/placeholder-story.jpg", // Fallback image if no English version
-    text: ""
-  };
+  const englishData = storyInfo?.en;
+  const placeholderPage = Array.isArray(englishData) && englishData.length > 0 && englishData[0].pages?.["1"] ? 
+    englishData[0].pages["1"] : {
+      imageUrl: "/images/placeholder-story.jpg",
+      text: ""
+    };
 
   // Handle regular carousel
   useEffect(() => {
@@ -195,16 +207,11 @@ export function StoryPlayer({
       setCurrent(api.selectedScrollSnap() + 1);
       setCurrentPage(api.selectedScrollSnap());
       setIsPlaying(false);
-      // if (audioRef.current) {
-      //   audioRef.current.pause();
-      // }
     });
   }, [api]);
 
-
-  //Fullscreen and audio button - SIMPLIFIED to just open fullscreen
+  // Fullscreen and audio button - SIMPLIFIED to just open fullscreen
   const openFullscreenWithAutoplay = () => {
-    // Just open fullscreen - HTML5 player will handle audio
     setIsFullscreen(true);
   };
 
@@ -212,10 +219,8 @@ export function StoryPlayer({
   useEffect(() => {
     if (!fullscreenApi || !api) return;
     
-    // When opening fullscreen, sync positions
     fullscreenApi.scrollTo(api.selectedScrollSnap());
     
-    // Sync when navigating in fullscreen
     fullscreenApi.on("select", () => {
       api.scrollTo(fullscreenApi.selectedScrollSnap());
       setCurrentPage(fullscreenApi.selectedScrollSnap());
@@ -249,126 +254,91 @@ export function StoryPlayer({
     return <div className="p-4 text-center">Story not found</div>;
   }
 
+  // Get the story title from the selected language or fallback to English
+  const getStoryTitle = () => {
+    if (selectedLanguage) {
+      const langData = storyInfo[selectedLanguage as keyof typeof storyInfo];
+      if (Array.isArray(langData) && langData.length > 0) {
+        return langData[0].title;
+      }
+    }
+    
+    // Fallback to English title
+    const englishData = storyInfo.en;
+    if (Array.isArray(englishData) && englishData.length > 0) {
+      return englishData[0].title;
+    }
+    
+    return "Story";
+  };
+
   return (
     <LanguageProvider 
-      defaultLanguage="" // No default language 
+      defaultLanguage=""
       availableLanguages={availableLanguages}
       onLanguageChange={handleLanguageChange}
     >
       <div className={cn("flex flex-col w-full h-full overflow-hidden", className)}>
         <div className="flex text-center items-center justify-between mb-4">
           <h1 className="text-2xl absolute left-1/2 transform -translate-x-1/2 font-bold">
-            {storyInfo?.title || "Story"}
+            {getStoryTitle()}
           </h1>
-          
-          
         </div>
 
         <div className="flex flex-row w-full gap-0 relative">
-          {/* Collapsible Sidebar - disabled, when no audio options */}
-         
-            <div 
-              className=
-                "flex flex-col border-r border-slate-200 transition-all duration-300 ease-in-out h-full w-56"
-              
-            >
-              <div className="flex flex-col p-4 gap-6 h-full relative">
-                
-
-                <div className="transition-opacity space-y-8">
-                  <div>
-                    <h3 className="text-sm font-medium mb-2">Select a Language</h3>
-                    <LanguageSelector />
-                  </div>
-                  
-                  {/* Audio-controls */}
-                  {selectedLanguage && (
-                    <>
-                      {/* COMMENTED OUT - Volume controls now handled by HTML5 player */}
-                      {/* <div>
-                        <div className="flex items-center justify-between mb-2">
-                          <h3 className="text-sm font-medium">Volume</h3>
-                          <span className="text-xs text-gray-500">{Math.round(volume * 100)}%</span>
-                        </div>
-                        
-                        <div className="flex items-center gap-2">
-                          <Button
-                            variant="ghost"
-                            size="icon"
-                            className="h-6 w-6"
-                            onClick={() => handleVolumeChange([0])}
-                          >
-                            <VolumeX size={16} />
-                          </Button>
-                          
-                          <Slider
-                            value={[volume]}
-                            min={0}
-                            max={1}
-                            step={0.01}
-                            onValueChange={handleVolumeChange}
-                            className="flex-1"
-                          />
-                          
-                          <Button
-                            variant="ghost"
-                            size="icon"
-                            className="h-6 w-6"
-                            onClick={() => handleVolumeChange([1])}
-                          >
-                            <Volume2 size={16} />
-                          </Button>
-                        </div>
-                      </div> */}
-
-                      {/* Download options */}
-                      <div>
-                        <h3 className="text-sm font-medium mb-2">Download</h3>
-                        
-                        {pages[currentPage]?.audioUrl && (
-                          <Button className="w-full mb-2" variant="outline" asChild>
-                            <a href={pages[currentPage].audioUrl} download>
-                              <Download className="mr-2" size={16}/> Story Audio
-                            </a>
-                          </Button>
-                        )}
-                        
-                        <Button className="w-full mb-4" variant="outline">
-                          <Download className="mr-2" size={16}/> Story Text
-                        </Button>
-                        <Button className="w-full mb-4" variant="outline">
-                          <Download className="mr-2" size={16}/> Story Pictures
-                        </Button>
-                        <Button className="w-full mb-4" variant="outline">
-                          <Download className="mr-2" size={16}/> Dialogic Reading Guide
-                        </Button>
-                      </div>
-
-                      {/* Play button - simplified to just open fullscreen */}
-                      <Button 
-                        className="center w-full mt-auto h-16 text-lg"
-                        variant="default"
-                        onClick={openFullscreenWithAutoplay}
-                        disabled={!pages[currentPage]?.audioUrl}
-                      >
-                        <Play className="mr-2" size={24}/> Play Story
-                      </Button>
-                    </>
-                  )}
-                  
+          <div className="flex flex-col border-r border-slate-200 transition-all duration-300 ease-in-out h-full w-56">
+            <div className="flex flex-col p-4 gap-6 h-full relative">
+              <div className="transition-opacity space-y-8">
+                <div>
+                  <h3 className="text-sm font-medium mb-2">Select a Language</h3>
+                  <LanguageSelector />
                 </div>
+                
+                {selectedLanguage && (
+                  <>
+                    <div>
+                      <h3 className="text-sm font-medium mb-2">Download</h3>
+                      
+                      {pages[currentPage]?.audioUrl && (
+                        <Button className="w-full mb-2" variant="outline" asChild>
+                          <a href={pages[currentPage].audioUrl} download>
+                            <Download className="mr-2" size={16}/> Story Audio
+                          </a>
+                        </Button>
+                      )}
+                      
+                      <Button className="w-full mb-4" variant="outline">
+                        <Download className="mr-2" size={16}/> Story Text
+                      </Button>
+                      <Button className="w-full mb-4" variant="outline">
+                        <Download className="mr-2" size={16}/> Story Pictures
+                      </Button>
+                      <Button className="w-full mb-4" variant="outline">
+                        <Download className="mr-2" size={16}/> Dialogic Reading Guide
+                      </Button>
+                    </div>
+
+                    <Button 
+                      className="center w-full mt-auto h-16 text-lg"
+                      variant="default"
+                      onClick={openFullscreenWithAutoplay}
+                      disabled={!pages[currentPage]?.audioUrl}
+                    >
+                      <Play className="mr-2" size={24}/> Play Story
+                    </Button>
+                  </>
+                )}
               </div>
             </div>
-          
+          </div>
             
           {/* Main Content */}
           <div className={cn(
             "flex-1 min-h-0 flex flex-col transition-all duration-300 ease-in-out",
-            "w-[calc(100%-16rem)]" // Always account for sidebar since it's always visible
+            "w-[calc(100%-16rem)]"
           )}>
             <div className="w-full max-w-4xl mx-auto h-full flex flex-col">
               <div className="relative flex-1">
-                {/* Language selection overlay - show when no language is selected */}
                 {!selectedLanguage && (
                   <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/5 backdrop-blur-sm">
                     <Card className="w-80 shadow-lg">
@@ -488,13 +458,11 @@ export function StoryPlayer({
                 
                 {/* Bottom section - fixed height to prevent overflow */}
                 <div className="flex-shrink-0 space-y-2">
-                  {/* Audio controls section - only show if showAudioControls is true */}
                   {showAudioControls && (
                     <div className="flex flex-col gap-2">
-                      {/* HTML5 audio player */}
                       {selectedLanguage && pages[currentPage]?.audioUrl && (
                         <audio 
-                          show
+                          controls
                           autoPlay={audioAutoPlay}
                           key={`audio-${selectedLanguage}-${currentPage}`}
                           className="w-full"
@@ -504,7 +472,6 @@ export function StoryPlayer({
                         </audio>
                       )}
                       
-                      {/* Button row */}
                       <div className="flex gap-2 justify-between w-full">
                         <Button 
                           size="lg"
@@ -532,7 +499,7 @@ export function StoryPlayer({
                         <Button 
                           size="lg"
                           variant="outline"
-                          className="h-12"
+                          className="h-12 flex-shrink-0 min-w-[120px]"
                           asChild
                         >
                           <a href="/dashboard/stories">
