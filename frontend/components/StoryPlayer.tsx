@@ -430,7 +430,7 @@ export function StoryPlayer({
                     <CarouselContent className="h-full">
                       {(selectedLanguage && pages.length > 0 ? pages : [placeholderPage]).map((page, index) => (
                         <CarouselItem key={`fullscreen-${selectedLanguage || "placeholder"}-${index}`} className="h-full w-full">
-                          <div className="flex flex-col items-center justify-center h-full p-4">
+                          <div className="flex flex-col items-center justify-center h-full px-4">
                             <div className="w-full max-w-4xl aspect-video relative rounded-lg overflow-hidden">
                               <Image
                                 src={page.imageUrl} 
@@ -459,10 +459,10 @@ export function StoryPlayer({
                 {/* Bottom section - fixed height to prevent overflow */}
                 <div className="flex-shrink-0 space-y-2">
                   {showAudioControls && (
-                    <div className="flex flex-col gap-2">
+                    <div className="flex flex-col">
                       {selectedLanguage && pages[currentPage]?.audioUrl && (
                         <audio 
-                          controls
+                        
                           autoPlay={audioAutoPlay}
                           key={`audio-${selectedLanguage}-${currentPage}`}
                           className="w-full"
@@ -485,7 +485,7 @@ export function StoryPlayer({
                               } else {
                                 audioElement.pause();
                                 setAudioAutoPlay(false);
-                                setIsPlaying(false);
+                                
                               }
                             }
                           }}
@@ -520,7 +520,7 @@ export function StoryPlayer({
                       <Button 
                         size="lg"
                         variant="outline"
-                        className="h-24"
+                        className="h-24 "
                         asChild
                       >
                         <a href="/dashboard/stories">

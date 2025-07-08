@@ -50,7 +50,7 @@ export default function Page() {
                   <div className="p-3 bg-green-200 rounded-full">
                     <Gamepad2 className="h-10 w-10 text-green-700" />
                   </div>
-                  <CardTitle className="text-2xl">Activities (8x3)</CardTitle>
+                  <CardTitle className="text-2xl">Activities</CardTitle>
                 </div>
                 <h2 className="text-center mt-4 text-sm text-gray-600">
                      </h2>
