@@ -425,7 +425,7 @@
     "slug": "story-4",
     "en": [{
       "title": "Sleeping at a friend's",
-      "titlePicture": "/images/under-construction.png",
+      "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
       "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
       "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
       "pages": {
@@ -471,8 +471,102 @@
         }
       }
     }],
-    "de": [],
-    "de-short": [],
+    "de": [{
+      "title": "Bobbas Übernachtung",
+      "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpg",
+      "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
+      "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
+      "pages": {
+        "1": {
+          "text": "Der Tag neigt sich langsam dem Ende zu und Ben, Alex und OIivia beschliessen nachhause zu gehen. “Wo schläfst Du heute Nacht?”, fragt Olivia Bobba. Bobba schaut sie mit grossen Augen an. Olivia greift nach seiner Hand “Komm mit mir nachhause!”",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+        },
+        "2": {
+          "text": "Bobba und Olivia sind in ihrem Zimmer. Olivia nimmt ihr Steckenpferd und ihr Schwert und ruft: «Komm, wir spielen Ritter!» «Ah, ludi kavalirojn!» Bobba nimmt ein Schwert. «Lass uns kämpfen wie Ritter!», schlägt Olivia vor.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_2.jpeg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+        },
+        "3": {
+          "text": "Olivia ist hungrig. “Ich möchte eine Scheibe Brot!» Bobba ist verwirrt und versteht nicht. Er folgt ihr in die Küche.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_3.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+        },
+        "4": {
+          "text": "Olivia öffnet den Kühlschrank. “Was möchtest du auf deinem Brot haben?” Bobba antwortet nicht und schaut Olivia zu. Dann macht er es ihr einfach nach und nimmt alles, was er finden kann, und packt es aufs Brot. Bobba lächelt und sagt: «Guten Appetit!»",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_4.jpeg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+        },
+        "5": {
+          "text": "Nach dem Essen wollen die beiden ihre Zähne putzen. Bobba nimmt die Zahnpastatube und drückt… Plötzlich ist überall Zahnpasta! Bobba und Olivia können nicht aufhören zu lachen…",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_5.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+        },
+        "6": {
+          "text": "Olivia zeigt Bobba, wie man die Zahnpasta auf die Zahnbürste bringt. ”Sieh mal! Es ist ganz leicht!” Bobba nickt und versucht, es wie Olivia zu machen. Olivia und Bobba putzen die Zähne und schauen sich im Spiegel an.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_6.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+        },
+        "7": {
+          "text": "Olivias Mutter kommt herein. “Sauber machen?”, fragt Bobba. Die Mutter nickt. Zusammen säubern sie den Fussboden. ”Jetzt ist Bett-geh-Zeit!” Olivia schreit: ”Ich will aber noch spielen!!” Aber die Mutter schüttelt den Kopf.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_7.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 4_7.m4a"
+        },
+        "8": {
+          "text": "Im Schlafzimmer kuschelt sich Olivia in ihre Decke ein. ”Lass uns einschlafen!” Bobba wickelt sich in den Teppich ein. «Dormi», sagt er in Esperanto. Olivia lacht.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_8.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+        }
+      }
+    }],
+    "de-short": [{
+      "title": "Bobba übernachtet bei Olivia",
+      "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpg",
+      "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
+      "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
+      "pages": {
+        "1": {
+          "text": "Der Tag geht langsam zu Ende. Ben, Alex und OIivia beschließen, nach Hause zu gehen. “Bobba, wo schläfst Du heute Nacht?”, fragt Olivia. Bobba schaut sie mit großen Augen an. Olivia nimmt seine Hand: “Komm mit mir nach Hause!”",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+        },
+        "2": {
+          "text": "Bobba und Olivia sind in ihrem Zimmer. Olivia nimmt ihr Steckenpferd und ihr Schwert und ruft: «Komm, wir spielen Ritter!» «Ah, ludi kavalirojn!» Bobba nimmt ein Schwert. «Lass uns kämpfen wie Ritter!», schlägt Olivia vor.", 
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_2.jpeg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+        },
+        "3": {
+          "text": "Olivia hat Hunger: “Ich möchte eine Scheibe Brot!» Bobba ist verwirrt und versteht nicht. Er folgt ihr in die Küche.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_3.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+        },
+        "4": {
+          "text": "Olivia öffnet den Kühlschrank. “Was möchtest du auf deinem Brot haben?” Bobba antwortet nicht und schaut Olivia zu. Dann macht er es ihr einfach nach. Er nimmt alles, was er finden kann, und packt es aufs Brot. Bobba lächelt und sagt: «Guten Appetit!»",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_4.jpeg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+        },
+        "5": {
+          "text": "Nach dem Essen wollen die beiden ihre Zähne putzen. Bobba nimmt die Zahnpastatube und drückt… Plötzlich ist überall Zahnpasta! Bobba und Olivia können nicht aufhören zu lachen… ",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_5.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+        },
+        "6": {
+          "text":"Olivia zeigt Bobba, wie man die Zahnpasta auf die Zahnbürste bringt. ”Sieh mal! Es ist ganz leicht!” Bobba nickt und versucht, es wie Olivia zu machen. Olivia und Bobba putzen die Zähne und schauen sich im Spiegel an.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_6.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+        },
+        "7": {
+          "text": "Olivias Mutter kommt herein. “Sauber machen?”, fragt Bobba. Die Mutter nickt. Zusammen putzen sie den Fussboden. ”Jetzt ist Bett-geh-Zeit!” Olivia ruft: ”Ich will aber noch spielen!!” Aber die Mutter schüttelt den Kopf. ",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_7.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 4_7.m4a"
+        },
+        "8": {
+          "text": "Im Schlafzimmer kuschelt sich Olivia in ihre Decke ein. ”Lass uns einschlafen!” Bobba wickelt sich in den Teppich ein. «Dormi». Olivia lacht.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_8.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+        }
+      }
+    }],
     "fr": [],
     "es": [],
     "it": [],
