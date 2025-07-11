@@ -301,15 +301,6 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
 						</table>
 					</div>
 				</div>
-
-				{/* Selection Summary */}
-				{selectedActivities.size > 0 && (
-					<div className="mt-6 p-4 bg-green-50 rounded-lg border border-green-200">
-						<p className="text-green-700 font-medium text-center">
-							✓ Selected {selectedActivities.size} activities for download
-						</p>
-					</div>
-				)}
 			</div>
 		</div>
 	);
