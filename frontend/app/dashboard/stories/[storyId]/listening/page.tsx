@@ -25,11 +25,12 @@ export default async function ListeningPage({
   if (!story) return notFound();
 
   const breadcrumbItems = [
-    { label: "Dashboard", href: "/dashboard" },
-    { label: "Stories",   href: "/dashboard/stories" },
-    { label: story.title, href: `/dashboard/stories/${storyId}` },
+    { label: "Multilingual Resources", href: "/dashboard" },
+    { label: "Stories", href: "/dashboard/stories" },
+    { label: "Story", href: `/dashboard/stories/${storyId}` },
     { label: "Listen",    href: `/dashboard/stories/${storyId}/listening` },
   ];
+
 
   return (
     <DashboardLayout breadcrumbItems={breadcrumbItems}>

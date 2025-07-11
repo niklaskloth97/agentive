@@ -16,8 +16,8 @@ export default function Page() {
   const [selectedType, setSelectedType] = useState<'json' | 'array' | null>(null)
   
   const breadcrumbItems = [
-    { label: "Learning Material Overview", href: "/dashboard/" },
-    { label: "Multilingual Stories" }
+    { label: "Multilingual Resources", href: "/dashboard/" },
+    { label: "Stories" }
   ];
 
   // Helper function to get available languages from JSON story data

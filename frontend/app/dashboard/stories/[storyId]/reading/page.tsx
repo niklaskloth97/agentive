@@ -20,9 +20,9 @@ export default async function ReadingPage({
   if (!story) return notFound();
 
   const breadcrumbItems = [
-    { label: "Dashboard", href: "/dashboard" },
-    { label: "Stories",   href: "/dashboard/stories" },
-    { label: story.title, href: `/dashboard/stories/${storyId}` },
+    { label: "Multilingual Resources", href: "/dashboard" },
+    { label: "Stories", href: "/dashboard/stories" },
+    { label: story?.title || "Story", href: `/dashboard/stories/${storyId}` },
     { label: "Read",      href: `/dashboard/stories/${storyId}/reading` },
   ];
 

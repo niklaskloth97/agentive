@@ -3,8 +3,8 @@ import Link from "next/link";
 import { ACTIVITY_GROUPS_META } from "@/data";
 
 const breadcrumbItems = [
-	{ label: "Dashboard", href: "/dashboard" },
-	{ label: "Activities", href: "/dashboard/activities" },
+ { label: "Multilingual Resources", href: "/dashboard/" },
+    { label: "Activities" }
 ];
 
 export default async function Page() {

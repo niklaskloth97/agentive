@@ -302,16 +302,16 @@ export function StoryPlayer({
                       {pages[currentPage]?.audioUrl && (
                         <Button className="w-full mb-2" variant="outline" asChild>
                           <a href={pages[currentPage].audioUrl} download>
-                            <Download className="mr-2" size={16}/> Story Audio
+                            <Download className="mr-2" size={16}/> Audio
                           </a>
                         </Button>
                       )}
                       
                       <Button className="w-full mb-4" variant="outline">
-                        <Download className="mr-2" size={16}/> Story Text
+                        <Download className="mr-2" size={16}/> Text
                       </Button>
                       <Button className="w-full mb-4" variant="outline">
-                        <Download className="mr-2" size={16}/> Story Pictures
+                        <Download className="mr-2" size={16}/> Pictures
                       </Button>
                       <Button className="w-full mb-4" variant="outline">
                         <Download className="mr-2" size={16}/> Dialogic Reading Guide
@@ -324,7 +324,7 @@ export function StoryPlayer({
                       onClick={openFullscreenWithAutoplay}
                       disabled={!pages[currentPage]?.audioUrl}
                     >
-                      <Play className="mr-2" size={24}/> Play Story
+                      <Play className="mr-2" size={24}/> Go
                     </Button>
                   </>
                 )}
@@ -345,9 +345,7 @@ export function StoryPlayer({
                       <CardContent className="flex flex-col items-center p-6 text-center">
                         <Globe className="h-12 w-12 text-primary mb-4" />
                         <h3 className="text-xl font-medium mb-2">Select a Language</h3>
-                        <p className="text-sm text-muted-foreground mb-4">
-                          Please choose a language to view this story
-                        </p>
+                        
                         <div className="mt-2">
                           <LanguageSelector />
                         </div>
@@ -493,7 +491,7 @@ export function StoryPlayer({
                           variant="default"
                         >
                           {isPlaying ? <Pause className="mr-2" size={20} /> : <Play className="mr-2" size={20} />}
-                          {isPlaying ? "Pause Story" : "Autoplay Story"}
+                          {isPlaying ? "Pause" : "Play"}
                         </Button>
                         
                         <Button 
@@ -515,16 +513,16 @@ export function StoryPlayer({
                   )}
                   
                   {/* Home button - show when audio controls are disabled */}
-                  {!showAudioControls && (
+                   {!showAudioControls && (
                     <div className="flex justify-end w-full">
                       <Button 
                         size="lg"
                         variant="outline"
-                        className="h-24 "
+                        className="h-16 px-6"
                         asChild
                       >
                         <a href="/dashboard/stories">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-3">
                             <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
                             <polyline points="9 22 9 12 15 12 15 22"/>
                           </svg>

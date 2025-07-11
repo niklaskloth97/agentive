@@ -48,7 +48,7 @@ export default function StoryActivitiesPage() {
   }, [storyId, router]);
   
   const breadcrumbItems = [
-    { label: "Dashboard", href: "/dashboard" },
+    { label: "Multilingual Resources", href: "/dashboard" },
     { label: "Stories", href: "/dashboard/stories" },
     { label: story?.title || "Story", href: `/dashboard/stories/${storyId}` },
     { label: "Activities", href: `/dashboard/stories/${storyId}/activities` },
