@@ -98,16 +98,251 @@
         }
       }
     }],
-    "de-short": [],
-    "fr": [],
-    "es": [],
-    "it": [],
-    "lux": [],
+    "de-short": [{
+      "title": "",
+      "titlePicture": "/learning-material/story-1/story-en/Story 1_1.jpg",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "fr": [{
+      "title": "",
+      "titlePicture": "/learning-material/story-1/story-en/Story 1_1.jpg",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "es": [{
+      "title": "",
+      "titlePicture": "/learning-material/story-1/story-en/Story 1_1.jpg",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "it": [{
+      "title": "",
+      "titlePicture": "/learning-material/story-1/story-en/Story 1_1.jpg",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "lux": [{
+      "title": "",
+      "titlePicture": "/learning-material/story-1/story-en/Story 1_1.jpg",
+      "fullAudio": "/learning-material/story-1/story-lux/Bobba_LU_Story 1-MP3.mp3",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
+          "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1_1-MP3.mp3"
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1_2-MP3.mp3"
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
+          "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1_3-MP3.mp3"
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1_4-MP3.mp3"
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
+          "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1_5-MP3.mp3"
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
+          "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1_6-MP3.mp3"
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
+          "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1_7-MP3.mp3"
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
+          "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1_8-MP3.mp3"
+        }
+      }
+    }],
     "gr": [{
       "title": "Το πρώτο ταξίδι του Μπόμπα στη Γη",
       "titlePicture": "/learning-material/story-1/story-en/Story 1_1.jpg",
-      "fullAudio": "/learning-material/story-1/story-gr/Story_1_full_audio.m4a",
-      "fullText": "/learning-material/story-1/story-gr/Story_1_full_text.pdf",
+      "fullAudio": "",
+      "fullText": "",
       "pages": {
         "1": {
           "text": "Ο Μπόμπα ζει σε ένα μακρινό πλανήτη. Σήμερα είναι πολύ ενθουσιασμένος. Έχει επιτέλους το δικό του διαστημόπλοιο και μπορεί τώρα να πετάξει όπου θέλει!",
@@ -154,104 +389,104 @@
     "sv": [{
       "title": "Bobbas första resa till jorden",
       "titlePicture": "/learning-material/story-1/story-en/Story 1_1.jpg",
-      "fullAudio": "/learning-material/story-1/story-sv/Story_1_full_audio.m4a",
-      "fullText": "/learning-material/story-1/story-sv/Story_1_full_text.pdf",
+      "fullAudio": "",
+      "fullText": "",
       "pages": {
         "1": {
           "text": "Bobba živi na planetu daleč stran. Danes je zelo vznemirjen. Končno je dobil svojo vesoljsko ladjo in zdaj lahko leti, kamor koli želi!",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+          "audioUrl": ""
         },
         "2": {
           "text": "Že dolgo sanja, da bi poletel na Zemljo",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+          "audioUrl": ""
         },
         "3": {
           "text": "Skoči v svojo vesoljsko ladjo in vzleti. Njegovi prijatelji in družina so presenečeni! »Kam pa gre?« se sprašujejo. Bobba leti naravnost proti planetu Zemlja.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+          "audioUrl": ""
         },
         "4": {
           "text": "Leti mimo planetov in kometov in se sprašuje, kdaj bo končno prispel na Zemljo.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+          "audioUrl": ""
         },
         "5": {
           "text": "Nenadoma zagleda modro kroglo in še preden se zave, že leti skozi oblake in z glasnim pokom pristane v kupu listja in vej!",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+          "audioUrl": ""
         },
         "6": {
           "text": "Skobaca se iz vesoljske ladje in pogleda naokoli. Zagleda dve črni očesi sredi črnega perja, ki strmita vanj. Bobba pozdravi: »Saluton!«, a pernato bitje ga le ošine in odleti. Spusti se z drevesa in opazi rdeče bitje s črnimi pikami. »Saluton!« zavpije Bobba, a bitje se sploh ne zmeni zanj.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+          "audioUrl": ""
         },
         "7": {
           "text": "Deček in deklica zagledata Bobbo in se zahihitata. »S kom pa se pogovarjaš? Oni ne znajo govoriti!« Bobba se obrne. »Saluton! Ĉu vi estas infanoj?« vpraša. Otroka se spogledata. »Infanoj? Misliš, da sva dojenčka?« »To pa ne!« se razburita. »Nisva dojenčka! Otroka sva!« »Ahaaaa!« vzklikne Bobba. »Otroci! Infanoj! Otroci!« Deček in deklica se zasmejeta.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+          "audioUrl": ""
         },
         "8": {
           "text": "»Bi rad videl naše igrišče?« vpraša Olivia. Bobba se nasmehne. Ben ga prime za roko in skupaj se odpravijo na igrišče.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+          "audioUrl": ""
         }
       }
     }],
     "al": [{
       "title": "Udhëtimi i parë i Bobbas në Tokë",
       "titlePicture": "/learning-material/story-1/story-en/Story 1_1.jpg",
-      "fullAudio": "/learning-material/story-1/story-al/Story_1_full_audio.m4a",
-      "fullText": "/learning-material/story-1/story-al/Story_1_full_text.pdf",
+      "fullAudio": "/learning-material/story-1/story-al/Bobba_AL_Story 1.mp3",
+      "fullText": "",
       "pages": {
         "1": {
           "text": "Bobba jeton në një planet shumë larg. Sot ai është shumë i emocionuar. Më në fund ka anijen e tij kozmike dhe tani mund të fluturojë kudo që dëshiron!",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+          "audioUrl": "/learning-material/story-1/story-al/Bobba_AL_Story 1_1.mp3"
         },
         "2": {
           "text": "Ëndrra e tij më e madhe është të fluturojë në planetin Tokë.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+          "audioUrl": "/learning-material/story-1/story-al/Bobba_AL_Story 1_2.mp3"
         },
         "3": {
           "text": "Ai hidhet në anijen kozmike dhe ngrihet në ajër. Të gjithë miqtë dhe familjarët e tij janë të habitur! \"Ku po shkon vallë?\", pyesin ata. Bobba është nisur drejt planetit Tokë.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+          "audioUrl": "/learning-material/story-1/story-al/Bobba_AL_Story 1_3.mp3"
         },
         "4": {
           "text": "Bobba fluturon pranë shumë planetëve dhe kometave dhe pyet veten se kur do të arrijë më në fund në planetin Tokë.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+          "audioUrl": "/learning-material/story-1/story-al/Bobba_AL_Story 1_4.mp3"
         },
         "5": {
           "text": "Papritmas, ai sheh një top blu dhe pa e kuptuar, fluturon nëpër qiell dhe me një zhurmë të madhe përplaset në një grumbull me gjethe dhe degë!",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+          "audioUrl": "/learning-material/story-1/story-al/Bobba_AL_Story 1_5.mp3"
         },
         "6": {
           "text": "Ai del nga anija e tij kozmike dhe shikon përreth. Dy sy të zinj që dalin nga pendë të zeza po e vështrojnë. Bobba thotë: \"Saluton!\", por zogu vetëm e sheh dhe fluturon tutje. Ai zbret me ngut nga pema dhe sheh një krijesë të kuqe me pika të zeza. \"Saluton!\" – thërret Bobba, por insekti as që e sheh fare.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+          "audioUrl": "/learning-material/story-1/story-al/Bobba_AL_Story 1_6.mp3"
         },
         "7": {
           "text": "Një djalë dhe një vajzë e shikojnë Bobban dhe qeshin me të. \"Me kë po flet? Ata nuk dinë të flasin!\" Bobba kthehet : \"Saluton! Ĉu vi estas infanoj?\", i pyet ai. Fëmijët e shikojnë njëri-tjetrin. \"Infanoj? A do të thotë foshnjë?\" \"Jo!\", protestojnë ata. \"Ne nuk jemi foshnje! Ne jemi fëmijë!\" \"Ahhhh!\", thërret Bobba! \"Fëmijë! Infanoj! Fëmijë!\" Kjo i bën ata të qeshin.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+          "audioUrl": "/learning-material/story-1/story-al/Bobba_AL_Story 1_7.mp3"
         },
         "8": {
           "text": "\"A do ta shohësh këndin tonë të lojërave?\" pyet Olivia. Bobba buzëqesh dhe Beni e merr për dore dhe së bashku e çojnë në këndin e lojërave.",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+          "audioUrl": "/learning-material/story-1/story-al/Bobba_AL_Story 1_8.mp3"
         }
       }
     }],
     "ukr": [{
       "title": "Перша подорож Бобби на Землю",
       "titlePicture": "/learning-material/story-1/story-en/Story 1_1.jpg",
-      "fullAudio": "/learning-material/story-1/story-ukr/Story_1_full_audio.m4a",
-      "fullText": "/learning-material/story-1/story-ukr/Story_1_full_text.pdf",
+      "fullAudio": "",
+      "fullText": "",
       "pages": {
         "1": {
           "text": "Бобба живе на далекій планеті. Сьогодні він дуже схвильований. У нього нарешті з'явився власний космічний корабель, і тепер він може полетіти туди, куди захоче!",
@@ -302,61 +537,531 @@
     "en": [{
       "title": "At the kindergarten",
       "titlePicture": "/images/under-construction.png",
-      "fullAudio": "/learning-material/story-1/story-ukr/Story_1_full_audio.m4a",
-      "fullText": "/learning-material/story-1/story-ukr/Story_1_full_text.pdf",
+      "fullAudio": "",
+      "fullText": "",
       "pages": {
         "1": {
           "text": "Bobba sees a beautiful brightly coloured building. He hears laughter and singing coming from inside. He is curious and wants to see what is going on.",
           "imageUrl": "/images/under-construction.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+          "audioUrl": ""
         },
         "2": {
           "text": "He opens the door and sees children running around and shouting. Bobba likes that and wants to join in. He waves at them. \"Saluton! Saluton!\"",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "3": {
           "text": "When the children see Bobba, they freeze and their eyes grow wide. \"Who is this?\" \"What is he saying?\" \"Is this our new teacher?\" The children quickly hide..",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "4": {
           "text": "Bobba is now all alone, so he becomes sad. He would really like to play. \"Ludi! Ludi!\"",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "5": {
           "text": "A girl comes out of the toilet and looks around puzzled. \"Where is everybody?\" Then she sees Bobba.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "6": {
           "text": "She looks up at Bobba and smiles. \"Hi! Do you want to play\" Bobba smiles back at her. \"Bone! Bone\" They start playing.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "7": {
           "text": "The other children see Bobba and the girl playing and slowly, one by one, come out of their hiding places. They want to play with Bobba too.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "8": {
           "text": "All children surround Bobba. \"Ludi! Ludi!\" they all shout. \"What a great day!\", thinks Bobba.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         }
       }
     }],
-    "de": [],
-    "de-short": [],
-    "fr": [],
-    "es": [],
-    "it": [],
-    "lux": [],
-    "gr": [],
-    "sv": [],
-    "al": [],
-    "ukr": []
+    "de": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "de-short": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "fr": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "es": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "it": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "lux": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "/learning-material/story-2/story-lux/Bobba_LU_Story 2-MP3.mp3",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-lux/Bobba_LU_Story 2_1-MP3.mp3"
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-lux/Bobba_LU_Story 2_2-MP3.mp3"
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-lux/Bobba_LU_Story 2_3-MP3.mp3"
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-lux/Bobba_LU_Story 2_4-MP3.mp3"
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-lux/Bobba_LU_Story 2_5-MP3.mp3"
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-lux/Bobba_LU_Story 2_6-MP3.mp3"
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-lux/Bobba_LU_Story 2_7-MP3.mp3"
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-lux/Bobba_LU_Story 2_8-MP3.mp3"
+        }
+      }
+    }],
+    "gr": [{
+      "title": "Στο νηπιαγωγείο",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Ο Μπόμπα βλέπει ένα όμορφο κτίριο με ζωηρά χρώματα. Ακούει γέλια και τραγούδια από το εσωτερικό. Περίεργο, αποφασίζει να δει τι συμβαίνει.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-gr/Story 2_Greek_2_1.m4a"
+        },
+        "2": {
+          "text": "Ανοίγει την πόρτα και βλέπει παιδιά να τρέχουν τριγύρω και να φωνάζουν. Του Μπόμπα του αρέσει αυτό και θέλει να συμμετέχει. Τα χαιρετάει με ένα νεύμα. «Saluton! Saluton!»",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-gr/Story 2_Greek_2_2.m4a"
+        },
+        "3": {
+          "text": "Όταν τα παιδιά βλέπουν τον Μπόμπα, παγώνουν και τα μάτια τους ανοίγουν διάπλατα.  «Ποιος είναι αυτός; Τι λέει;»  «Είναι ο νέος μας δάσκαλος;» Τα παιδιά κρύβονται γρήγορα. ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-gr/Story 2_Greek_2_3.m4a"
+        },
+        "4": {
+          "text": "Ο Μπόμπα είναι τώρα ολομόναχος, και γι’ αυτό είναι λυπημένος. Θα του άρεσε πολύ να παίξει. «Ludi! Ludi!»",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-gr/Story 2_Greek_2_4.m4a"
+        },
+        "5": {
+          "text": "Ένα κορίτσι βγαίνει από την τουαλέτα και κοιτάει τριγύρω μπερδεμένη. «Πού είναι όλοι;» Μετά βλέπει τον Μπόμπα.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-gr/Story 2_Greek_2_5.m4a"
+        },
+        "6": {
+          "text": "Κοιτάζει τον Μπόμπα και χαμογελάει. «Γεια! Θέλεις να παίξουμε;» Ο Μπόμπα της χαμογελάει κι αυτός. «Bone! Bone!» Ξεκινάνε να παίζουν.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-gr/Story 2_Greek_2_6.m4a"
+        },
+        "7": {
+          "text": "Τα άλλα παιδιά βλέπουν τον Μπόμπα και το κορίτσι να παίζουν και αργά, ένα-ένα, βγαίνουν από τις κρυψώνες τους. Θέλουν κι αυτά να παίξουν με τον Μπόμπα. ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-gr/Story 2_Greek_2_7.m4a"
+        },
+        "8": {
+          "text": "Όλα τα παιδιά περικυκλώνουν τον Μπόμπα. «Ludi! Ludi!» φωνάζουν όλα. «Τι υπέροχη μέρα!» σκέφτεται ο Μπόμπα.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-gr/Story 2_Greek_2_8.m4a"
+        }
+      }
+    }],
+    "sv": [{
+      "title": "V vrtcu",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Bobba zagleda čudovito, pisano stavbo. Iz nje se slišita smeh in petje. Radoveden je, zato se odloči, da bo preveril, kaj se tam dogaja.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "Ko odpre vrata, zagleda otroke, ki tekajo naokoli in vriskajo. Bobbi je to všeč, zato se jim želi pridružiti. Pomaha jim. »Saluton! Saluton!«",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Ko otroci zagledajo Bobbo, obstanejo in s širokimi očmi strmijo vanj. »Kdo pa je to?« »Kaj pa govori?« »Je to naš novi vzgojitelj?« Otroci se hitro poskrijejo.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "Bobba je zdaj čisto sam, zato postane žalosten. Zelo rad bi se igral. »Ludi! Ludi!«",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "Nenadoma iz stranišča stopi deklica in zmedeno pogleda okoli sebe. »Kje pa so vsi?« Potem zagleda Bobbo.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "Nasmehne se mu in reče: »Živjo! Bi se rad igral?« Bobba se ji nasmehne. »Bone! Bone!« Začneta se igrati.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "Tudi drugi otroci opazijo, da se Bobba in deklica igrata, zato počasi, drug za drugim pridejo iz svojih skrivališč. Tudi oni se želijo igrati z Bobbo.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "Otroci se nagnetejo okrog Bobbe. »Ludi! Ludi!« kričijo. »Kakšen krasen dan,« pomisli Bobba.",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "al": [{
+      "title": "Në kopshtin e fëmijëve",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Bobba sheh një ndërtesë të bukur plot ngjyra të ndezura. Ai dëgjon të qeshura dhe këngë që vijnë nga brenda. Kureshtar, vendos të shikojë çfarë po ndodh.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "Ai hap derën dhe sheh fëmijë që vrapojnë përreth dhe bërtasin. Bobbës i pëlqen kjo dhe dëshiron të bashkohet me ta. Ai u bën me dorë. “Saluton! Saluton!”",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Kur fëmijët e shohin Bobbën, ngrijnë në vend dhe sytë u zmadhohen. “Kush është ky?” “Çfarë po thotë?” “A është ky mësuesi ynë i ri?” Fëmijët fshihen shpejtë.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "Tani Bobba është krejtësisht vetëm dhe mërzitet. Do të donte shumë të luante. “Ludi! Ludi!”",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "Një vajzë del nga tualeti dhe shikon përreth e hutuar. “Ku janë të gjithë?” Pastaj sheh Bobbën.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "Ajo ngriti shikimin nga Boba dhe buzëqesh.”Përshëndetje! Dëshiron të luash?” Bobba i buzëqesh asaj. “Bone! Bone!” Ata fillojnë të luajnë.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "Fëmijët e tjerë i shohin Bobbën dhe vajzën duke luajtur dhe ngadalë, një nga një, dalin nga vendet ku ishin fshehur. Edhe ata duan të luajnë me Bobën.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "Të gjithë fëmijët e rrethojnë Bobbën. “Ludi! Ludi!” thërrasin të gjithë. “Çfarë dite e mrekullueshme!”, mendon Bobba.",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "ukr": [{
+      "title": "У дитячому садку ",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Бобба бачить красиву яскраву будівлю. Зсередини він чує сміх і співи. З цікавості він вирішує подивитися, що там відбувається.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-ukr/Story 2_1.MP3"
+        },
+        "2": {
+          "text": "Коли він відчиняє двері, то бачить дітей, які бігають і кричать. Боббі це подобається і він хоче приєднатися до них. Він махає їм рукою. «Салют! Салют!»",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-ukr/Story 2_2.MP3"
+        },
+        "3": {
+          "text": "Коли діти бачать Боббу, вони завмирають, їхні очі стають широко розплющеними. «Хто це?» «Що він каже?» «Це наш новий вчитель?» Діти швидко ховаються.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-ukr/Story 2_3.MP3"
+        },
+        "4": {
+          "text": "Бобба залишився зовсім один, і йому стає сумно. Йому дуже хочеться погратися. «Люді! Люді!»",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-ukr/Story 2_4.MP3"
+        },
+        "5": {
+          "text": "З туалету виходить дівчинка і спантеличено озирається. «Де всі поділися?» І тут вона бачить Боббу.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-ukr/Story 2_5.MP3"
+        },
+        "6": {
+          "text": "Вона дивиться на Боббу і посміхається. «Привіт! Хочеш погратися?» Бобба посміхається їй у відповідь. «Боне! Боне!» Вони починають грати.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-ukr/Story 2_6.MP3"
+        },
+        "7": {
+          "text": "Інші діти бачать, як граються Бобба і дівчинка, і повільно, один за одним, виходять зі своїх схованок. Вони теж хочуть погратися з Боббою.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-ukr/Story 2_7.MP3"
+        },
+        "8": {
+          "text": "Всі діти оточують Боббу. «Люді! Люді!» - кричать вони всі разом. «Який чудовий день!» - думає Бобба.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-2/story-ukr/Story 2_8.MP3"
+        }
+      }
+    }]
   },
   {
     "id": "3",
