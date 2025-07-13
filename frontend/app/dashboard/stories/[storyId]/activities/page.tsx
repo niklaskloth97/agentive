@@ -6,28 +6,31 @@ import { DashboardLayout } from "@/components/DashboardLayout";
 import Link from "next/link";
 import { ACTIVITY_GROUPS, ACTIVITY_GROUPS_META, ActivityGroupKey } from "@/data";
 import storiesData from '@/data/stories.json';
-
-interface Story {
-  id: string;
-  title: string;
-  description: string;
-  slug: string;
-  coverImage?: string;
-  tags?: string[];
-}
+import { Story, SimpleStory, getStoryTitle, getStoryCoverImage } from "@/types/story";
 
 export default function StoryActivitiesPage() {
   const params = useParams();
   const router = useRouter();
   const storyId = params.storyId as string;
-  const [story, setStory] = useState<Story>();
+  const [story, setStory] = useState<SimpleStory>();
   const [availableGroups, setAvailableGroups] = useState<ActivityGroupKey[]>([]);
-  
-  // Find which activity groups contain this story
+
   useEffect(() => {
+    // Type assertion for storiesData
+    const typedStoriesData = storiesData as Story[];
+    
     // First find the story in stories.json for title info
-    const storyData = storiesData.find(s => s.id === storyId);
-    setStory(storyData);
+    const storyData = typedStoriesData.find(s => s.id === storyId);
+    
+    if (storyData) {
+      const processedStory: SimpleStory = {
+        id: storyData.id,
+        title: getStoryTitle(storyData),
+        slug: storyData.slug,
+        coverImage: getStoryCoverImage(storyData)
+      };
+      setStory(processedStory);
+    }
     
     // Find which groups contain this story
     const groups: ActivityGroupKey[] = [];

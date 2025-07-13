@@ -194,7 +194,7 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
 							</thead>
 							<tbody>
 								{stories.length > 0 ? (
-									stories.flatMap((story, storyIndex) =>
+									stories.flatMap((story) =>
 										story.sets.map((set, setIndex) => (
 											<tr
 												key={`${story.id}-set-${setIndex}`}

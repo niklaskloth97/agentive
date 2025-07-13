@@ -57,7 +57,7 @@ export function StoryPlayer({
   // Carousel state
   const [api, setApi] = useState<CarouselApi>();
   const [fullscreenApi, setFullscreenApi] = useState<CarouselApi>();
-  const [current, setCurrent] = useState(0);
+  // Remove the unused current variable
   const [isFullscreen, setIsFullscreen] = useState(false);
   
   // Language state
@@ -183,7 +183,7 @@ export function StoryPlayer({
       </div>
     );
   };
-  
+
   // Get pages for the selected language
   const languageData = selectedLanguage && storyInfo?.[selectedLanguage as keyof typeof storyInfo];
   const pages = Array.isArray(languageData) && languageData.length > 0 ? 
@@ -201,15 +201,14 @@ export function StoryPlayer({
   useEffect(() => {
     if (!api) return;
 
-    setCurrent(api.selectedScrollSnap() + 1);
+    // Remove the setCurrent call since current is no longer used
 
     api.on("select", () => {
-      setCurrent(api.selectedScrollSnap() + 1);
+      // Remove the setCurrent call since current is no longer used
       setCurrentPage(api.selectedScrollSnap());
       setIsPlaying(false);
     });
   }, [api]);
-
   // Fullscreen and audio button - SIMPLIFIED to just open fullscreen
   const openFullscreenWithAutoplay = () => {
     setIsFullscreen(true);
