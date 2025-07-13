@@ -1114,16 +1114,534 @@
         }
       }
     }],
-    "de": [],
-    "de-short": [],
-    "fr": [],
-    "es": [],
-    "it": [],
-    "lux": [],
-    "gr": [],
-    "sv": [],
-    "al": [],
-    "ukr": []
+    "de": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "de-short": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "fr": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "es": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "it": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "lux": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "pl":[{
+      "title": "Bobba na plaży",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Dzieci zabierają Bobbę na plażę. Wszyscy są w bardzo radosnym nastroju, śmieją się i śpiewają piosenkę Dididi. Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "Kiedy Bobba widzi morze, jest zahipnotyzowany. Nigdy wcześniej nie widział tyle wody. „Co za ogromny basen!” - myśli.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Dzieci pomagają mu założyć rękawki i koło do pływania. \"Teraz jesteś gotowy, Bobba! Chodźmy!\"",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "Dzieci biorą Bobbę za ręce i prowadzą go do wody. „Chodź, Bobba, idziemy!”. Ale Bobba nie chce się ruszyć.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "Dzieci ciągną i ciągną, ale Bobba się nie rusza. \"Co się stało, Bobba? Nie lubisz pływać? To świetna zabawa!\"",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "Jedno z dzieci patrzy na Bobbę i rozumie, dlaczego nie chce wejść do morza. \"Myślę, że boi się wody. Co możemy zrobić, żeby mu pomóc?\"",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "Ktoś ma świetny pomysł. \"Kiedy się boję, moja mama śpiewa mi piosenkę. Zaśpiewajmy razem naszą piosenkę\". Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da. ",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "Bobba lubi tę piosenkę i śpiewa ją, gdy razem wchodzą do wody. Nie boi się już morza. „Pływanie jest fajne, prawda Bobba?”.",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "gr": [{
+      "title": "Ο Μπόμπα στην παραλία ",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Τα παιδιά πηγαίνουν τον Μπόμπα στην παραλία. Όλα είναι σε πολύ χαρούμενη διάθεση, γελώντας και τραγουδώντας το τραγούδι «Ντιντιντι». Ντιντιντιντι ντιντιντιντι ντιντιντι ντιντιντι ντιντι ντιντι ντιντι ντιντι ντιντι ντιντι ντι ντι ντι ντι ντι ντι. Νταντανταντα νταντανταντα ντανταντα ντανταντα νταντα νταντα νταντα νταντα νταντα νταντα ντα ντα ντα ντα ντα ντα.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-gr/Story 3_Greek_3_1.m4a"
+        },
+        "2": {
+          "text": "Όταν ο Μπόμπα βλέπει τη θάλασσα, μαγεύεται. Δεν έχει ξαναδεί τόσο πολύ νερό στο παρελθόν. «Τι τεράστια πισίνα!» σκέφτεται. ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-gr/Story 3_Greek_3_2.m4a"
+        },
+        "3": {
+          "text": "Τα παιδιά τον βοηθάνε να βάλει πολύχρωμα μπρατσάκια και σωσίβιο. «Τώρα είσαι έτοιμος, Μπόμπα! Πάμε!»",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-gr/Story 3_Greek_3_3.m4a"
+        },
+        "4": {
+          "text": "Τα παιδιά παίρνουν το χέρι του Μπόμπα για να τον οδηγήσουν στο νερό. «Έλα, Μπόμπα, πάμε!» Αλλά ο Μπόμπα δεν θέλει να κουνηθεί.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-gr/Story 3_Greek_3_4.m4a"
+        },
+        "5": {
+          "text": "Τα παιδιά τραβάνε και τραβάνε αλλά ο Μπόμπα δεν κουνιέται. «Τι συμβαίνει, Μπόμπα; Δεν σου αρέσει το κολύμπι; Έχει πλάκα!»",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-gr/Story 3_Greek_3_5.m4a"
+        },
+        "6": {
+          "text": "Ένα από τα παιδιά κοιτάζει τον Μπόμπα και καταλαβαίνει γιατί δεν θέλει να πάει στη θάλασσα. «Νομίζω φοβάται το νερό. Τι μπορούμε να κάνουμε για να τον βοηθήσουμε;»",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-gr/Story 3_Greek_3_6.m4a"
+        },
+        "7": {
+          "text": "Κάποιος έχει μια εξαιρετική ιδέα. «Όταν φοβάμαι, η μαμά μου τραγουδάει ένα τραγούδι. Ας τραγουδήσουμε το τραγούδι μας μαζί.» Ντιντιντιντι ντιντιντιντι ντιντιντι ντιντιντι ντιντι ντιντι ντιντι ντιντι ντιντι ντιντι ντι ντι ντι ντι ντι ντι. Νταντανταντα νταντανταντα ντανταντα ντανταντα νταντα νταντα νταντα νταντα νταντα νταντα ντα ντα ντα ντα ντα ντα.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-gr/Story 3_Greek_3_7.m4a"
+        },
+        "8": {
+          "text": "Στο Μπόμπα αρέσει το τραγούδι και τραγουδάει κι αυτός όπως πάνε προς το νερό μαζί. Δεν φοβάται πια τη θάλασσα. «Το κολύμπι έχει πλάκα, έτσι, Μπόμπα;»",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-gr/Story 3_Greek_3_8.m4a"
+        }
+      }
+    }],
+    "sv": [{
+      "title": "Bobba na plaži",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Otroci odpeljejo Bobbo na plažo. Vsi so dobre volje, smejijo se in pojejo Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "Ko Bobba zagleda morje, je očaran. Še nikoli ni videl toliko vode. »Kakšen ogromen bazen!« si misli.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Otroci mu pomagajo nadeti pisane rokavčke in napihljiv obroč. »Tako, Bobba, pripravljen si! Gremo!« ",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "Otroci primejo Bobbo za roke, da bi ga odpeljali v vodo. »No, Bobba, gremo! «A Bobba stoji kot vkopan.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "Otroci vlečejo in vlečejo, a Bobba se ne premakne. »Kaj je narobe, Bobba? Ti ni všeč plavanje? Saj je zabavno!« ",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "Eden od otrok pogleda Bobbo in nenadoma se mu posveti, zakaj Bobba noče v morje. »Mislim, da ga je strah vode. Kako mu lahko pomagamo?« ",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "Nekdo dobi odlično idejo. »Ko je mene strah, mi mami zapoje pesem. Zapojmo skupaj našo pesem. «Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "Bobbi je pesem všeč. Zapoje z otroki in skupaj zakorakajo v vodo. Zdaj ga ni več strah morja. »Plavanje je res zabavno, kajne, Bobba?«",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "al": [{
+      "title": "Bobba në plazh",
+      "titlePicture": "",
+      "fullAudio": "/learning-material/story-3/story-alb/Bobba_AL_Story 3.mp3",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Fëmijët e çojnë Bobbën në plazh. Të gjithë janë shumë të gëzuar, duke qeshur dhe duke kënduar këngën Dididi. Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da. ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-alb/Bobba_AL_Story 3_1.mp3"
+        },
+        "2": {
+          "text": "Kur Bobba sheh detin,mahnitet. Ai nuk kishte parë kurrë kaq shumë ujë më pare. “Çfarë pishine gjigante!” mendon ai.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-alb/Bobba_AL_Story 3_2.mp3"
+        },
+        "3": {
+          "text": "Fëmijët e ndihmojnë të veshë gomat shumëngjyrëshe të krahëve dhe një gome noti. “Tani je gati, Bobba! Hajde të shkojmë!” ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-alb/Bobba_AL_Story 3_3.mp3"
+        },
+        "4": {
+          "text": "Fëmijët i kapin duart Bobës për ta çuar në ujë. “Hajde, Bobba, të shkojmë!” Por Bobba nuk do të lëvizë.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-alb/Bobba_AL_Story 3_4.mp3"
+        },
+        "5": {
+          "text": "Fëmijët e tërheqin dhe e tërheqin, por Bobba nuk lëviz. “Çfarë ke, Bobba? Nuk të pëlqen noti? Është shumë zbavitës!”",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-alb/Bobba_AL_Story 3_5.mp3"
+        },
+        "6": {
+          "text": "Njëri nga fëmijët e shikon Bobbën dhe e kupton pse ai nuk do të hyjë në det. “Mendoj se ka frikë nga uji. Çfarë mund të bëjmë për ta ndihmuar?” ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-alb/Bobba_AL_Story 3_6.mp3"
+        },
+        "7": {
+          "text": "Dikujt i vjen një ide e shkëlqyer. “Kur kam frikë, mamaja ime më këndon një këngë. Hajde ta këndojmë të gjithë bashkë këngën tonë.”Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da. ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-alb/Bobba_AL_Story 3_7.mp3"
+        },
+        "8": {
+          "text": "Bobbës i pëlqen kënga dhe fillon të këndojë bashkë me ta ndërsa hyjnë në ujë të gjithë së bashku. Ai nuk ka më frikë nga deti. “Noti është shumë zbavitës, apo jo, Bobba?”",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-alb/Bobba_AL_Story 3_8.mp3"
+        }
+      }
+    }],
+    "ukr": [{
+      "title": "Бобба на пляжі",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Діти ведуть Боббу на пляж. Вони всі в дуже веселому настрої, сміються і співають пісню Дідіді. Дідіді, діді, діді, діді, діді, діді, діді, діді, діді, діді, діді, діді діді діді діді діді діді діді діді діді ді ді ді ді ді. Дадададададададададададададададададададададададададададададададададададададададададададададададададада дада дада дада дада да да да да да да да да да. ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-ukr/Story 3_Ukrainian_3_1.MP3"
+        },
+        "2": {
+          "text": "Коли Бобба бачить море, він зачаровується. Він ніколи раніше не бачив стільки води. \"Який величезний басейн!\" - думає він.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-ukr/Story 3_Ukrainian_3_2.MP3"
+        },
+        "3": {
+          "text": "Діти допомагають йому вдягти різнокольорові пов'язки та гумове кільце. \"Тепер ти готовий, Бобба! Поїхали!\"",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-ukr/Story 3_Ukrainian_3_3.MP3"
+        },
+        "4": {
+          "text": "Діти беруть Боббу за руки і ведуть його у воду. \"Давай, Бобба, пішли!\" Але Бобба не хоче рухатися.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-ukr/Story 3_Ukrainian_3_4.MP3"
+        },
+        "5": {
+          "text": "Діти тягнуть і тягнуть, але Бобба не рухається. \"Що сталося, Бобба? Тобі не подобається плавати? Це ж весело!\" ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-ukr/Story 3_Ukrainian_3_5.MP3"
+        },
+        "6": {
+          "text": "Один з дітей дивиться на Боббу і розуміє, чому той не хоче йти в море. \"Я думаю, що він боїться води. Що ми можемо зробити, щоб допомогти йому?\" ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-ukr/Story 3_Ukrainian_3_6.MP3"
+        },
+        "7": {
+          "text": "У когось є чудова ідея. «Коли я боюся, мама співає мені пісню. Давай заспіваємо нашу пісню разом.» Дідідіді дідіді діді діді діді діді діді діді діді діді діді діді діді діді діді діді діді діді ді ді ді ді ді Дададададададададададададададададададададададададададададададададададададададададададададададададададададададададададададада Дада дада дада дада да да да да да да да да. ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-ukr/Story 3_Ukrainian_3_7.MP3"
+        },
+        "8": {
+          "text": "Боббі подобається пісня, і він підспівує, коли вони разом заходять у воду. Він більше не боїться моря. \"Плавати - це весело, правда, Бобба?\"",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-3/story-ukr/Story 3_Ukrainian_3_8.MP3"
+        }
+      }
+    }]
   },
   {
     "id": "4",
