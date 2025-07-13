@@ -373,7 +373,7 @@ export function StoryPlayer({
                     {(selectedLanguage && pages.length > 0 ? pages : [placeholderPage]).map((page, index) => (
                       <CarouselItem 
                         key={`${selectedLanguage || "placeholder"}-${index}`} 
-                        className="h-full flex items-center justify-center"
+                        className="w-full flex items-center justify-center"
                       >
                         <Card className="w-full max-h-[100vh]">
                           <CardContent className="flex flex-col p-4 items-center justify-center">
@@ -419,35 +419,46 @@ export function StoryPlayer({
           {/* Fullscreen */}
           <Dialog open={isFullscreen} onOpenChange={setIsFullscreen}>
             <DialogTitle className="sr-only">Story Details</DialogTitle>
-            <DialogContent className="max-w-[calc(95vw/1.1)] w-[calc(95vw/1.1)] h-[calc(90vh/1.1)] max-h-[calc(90vh/1.1)] m-4 p-4">
-              <div className="flex flex-col h-full gap-2">
+            <DialogContent
+              className={cn(
+                "p-0 m-0 border bg-white rounded-lg flex flex-col items-center justify-center",
+                "w-full h-full max-w-[90vw] max-h-[90vh] overflow-hidden"
+              )}
+              style={{ boxSizing: "border-box" }}
+            >
+              <div className="flex flex-col max-h-screen max-w-screen items-center justify-center">
                 {/* Fullscreen carousel - takes remaining space */}
-                <div className="flex-1 min-h-0 overflow-hidden">
-                  <Carousel setApi={setFullscreenApi} className="h-full w-full">
-                    <CarouselContent className="h-full">
+                <div className="flex-1 flex items-center justify-center h-">
+                  <Carousel setApi={setApi} className="">
+                    <CarouselContent className="max-w-5xl">
                       {(selectedLanguage && pages.length > 0 ? pages : [placeholderPage]).map((page, index) => (
-                        <CarouselItem key={`fullscreen-${selectedLanguage || "placeholder"}-${index}`} className="h-full w-full">
-                          <div className="flex flex-col items-center justify-center h-full px-4">
-                            <div className="w-full max-w-4xl aspect-video relative rounded-lg overflow-hidden">
-                              <Image
-                                src={page.imageUrl} 
-                                alt={`Story scene ${index + 1}`}
-                                fill
-                                className={cn(
-                                  "object-contain",
-                                  !selectedLanguage && "opacity-50 blur-sm"
-                                )}
-                              />
-                            </div>
-                            {selectedLanguage && renderTextContainer(page, true)}
-                          </div>
+                        <CarouselItem 
+                          key={`${selectedLanguage || "placeholder"}-${index}`} 
+                          className="flex items-center justify-center"
+                        >
+                          <Card className="w-full h-full flex items-center justify-center">
+                            <CardContent className="flex flex-col w-full h-full items-center justify-center p-2">
+                              <div className="relative w-3/4 h-3/4 aspect-video">
+                                <Image
+                                  src={page.imageUrl} 
+                                  alt={`Story scene ${index + 1}`}
+                                  fill
+                                  className={cn(
+                                    "object-contain rounded-lg",
+                                    !selectedLanguage && "opacity-50 blur-sm"
+                                  )}
+                                />
+                              </div>
+                              {selectedLanguage && renderTextContainer(page, true)}
+                            </CardContent>
+                          </Card>
                         </CarouselItem>
                       ))}
                     </CarouselContent>
                     {selectedLanguage && pages.length > 1 && (
                       <>
-                        <CarouselPrevious className="left-[calc(50%-32rem-3rem)]" />
-                        <CarouselNext className="right-[calc(50%-32rem-3rem)]" />
+                        <CarouselPrevious />
+                        <CarouselNext />
                       </>
                     )}
                   </Carousel>
@@ -456,7 +467,7 @@ export function StoryPlayer({
                 {/* Bottom section - fixed height to prevent overflow */}
                 <div className="flex-shrink-0 space-y-2">
                   {showAudioControls && (
-                    <div className="flex flex-col">
+                    <div className="flex justify-between flex-col">
                       {selectedLanguage && pages[currentPage]?.audioUrl && (
                         <audio 
                         
@@ -482,17 +493,16 @@ export function StoryPlayer({
                               } else {
                                 audioElement.pause();
                                 setAudioAutoPlay(false);
-                                
+                                setIsPlaying(false);
                               }
                             }
                           }}
-                          className="h-12 flex-1 max-w-[10%]"
+                          className="h-12 w-32" // double width
                           variant="default"
                         >
                           {isPlaying ? <Pause className="mr-2" size={20} /> : <Play className="mr-2" size={20} />}
                           {isPlaying ? "Pause" : "Play"}
                         </Button>
-                        
                         <Button 
                           size="lg"
                           variant="outline"
@@ -513,11 +523,11 @@ export function StoryPlayer({
                   
                   {/* Home button - show when audio controls are disabled */}
                    {!showAudioControls && (
-                    <div className="flex justify-end w-full">
+                    <div className="flex gap-2 justify-between w-full">
                       <Button 
                         size="lg"
                         variant="outline"
-                        className="h-16 px-6"
+                        className="h-12 flex-shrink-0 min-w-[120px]"
                         asChild
                       >
                         <a href="/dashboard/stories">
