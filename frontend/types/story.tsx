@@ -20,13 +20,13 @@ export interface Story {
   en?: StoryLanguageData[];
   de?: StoryLanguageData[];
   'de-short'?: StoryLanguageData[];
-  fr?: StoryLanguageData[];
   es?: StoryLanguageData[];
   it?: StoryLanguageData[];
   lux?: StoryLanguageData[];
   gr?: StoryLanguageData[];
   sv?: StoryLanguageData[];
   al?: StoryLanguageData[];
+  fr?: StoryLanguageData[];
   ukr?: StoryLanguageData[];
   pl?: StoryLanguageData[];
   tur?: StoryLanguageData[];

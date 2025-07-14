@@ -122,10 +122,7 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
 							<p className="text-lg opacity-90">{groupMeta.label}</p>
 						</div>
 						<p className="text-gray-700">
-							Please <strong>check</strong> all the follow-up activities you
-							would like to <strong>download</strong> and <strong>press</strong>{" "}
-							download button, or simply <strong>click on</strong> the follow-up
-							activity button you would like to <strong>be shown</strong>.
+							Please <strong>check</strong> all activities you would like to <strong>download</strong> and <strong>press</strong> the download button or simply <strong>click on</strong> the activity button you would like <strong>to see</strong>.
 						</p>
 					</div>
 				</div>
