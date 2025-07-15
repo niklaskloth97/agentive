@@ -19,7 +19,7 @@ export interface Story {
   slug: string;
   en?: StoryLanguageData[];
   de?: StoryLanguageData[];
-  'de-short'?: StoryLanguageData[];
+  deshort?: StoryLanguageData[];
   es?: StoryLanguageData[];
   it?: StoryLanguageData[];
   lux?: StoryLanguageData[];

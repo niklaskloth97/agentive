@@ -60,9 +60,21 @@ export const ACTIVITY_GROUPS_META: Record<ActivityGroupKey, ActivityGroupMeta> =
 			icon: Languages,
 			colors: {
 				primary: "#d00000",
-				secondary: "#dc2f02",
+				secondary: "#d53b3b",
 				text: "white",
 				focus: "#ffd166",
+			},
+		},
+				LA: {
+			label: "Language Awareness",
+			slug: "language-awareness",
+			description: "Activities to help children develop language awareness",
+			icon: Book,
+			colors: {
+				primary: "#9d4edd",
+				secondary: "#c77dff",
+				text: "white",
+				focus: "#9d4edd",
 			},
 		},
 		ELS: {
@@ -77,6 +89,8 @@ export const ACTIVITY_GROUPS_META: Record<ActivityGroupKey, ActivityGroupMeta> =
 				focus: "#83c5be",
 			},
 		},
+		
+
 		ICAU: {
 			label: "InterCultural Awareness and Understanding",
 			slug: "intercultural-awareness-and-understanding",
@@ -88,18 +102,6 @@ export const ACTIVITY_GROUPS_META: Record<ActivityGroupKey, ActivityGroupMeta> =
 				secondary: "#ffd166",
 				text: "#1D1D1D",
 				focus: "#ffd166",
-			},
-		},
-		LA: {
-			label: "Language Awareness",
-			slug: "language-awareness",
-			description: "Activities to help children develop language awareness",
-			icon: Book,
-			colors: {
-				primary: "#9d4edd",
-				secondary: "#c77dff",
-				text: "white",
-				focus: "#9d4edd",
 			},
 		},
 	};

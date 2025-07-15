@@ -117,7 +117,7 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
 							}}
 						>
 							<h1 className="text-3xl font-bold mb-1">
-								Follow-Up Activities ({totalActivities})
+								Activities
 							</h1>
 							<p className="text-lg opacity-90">{groupMeta.label}</p>
 						</div>
@@ -139,7 +139,7 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
 						}}
 					>
 						<Download className="w-5 h-5" />
-						Download Follow-up Activity(ies) ({selectedActivities.size})
+						Download Activities ({selectedActivities.size})
 					</Button>
 
 					<div className="flex items-center gap-2">
@@ -184,7 +184,7 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
 											className="p-4 text-center font-semibold border-r"
 											key={activityIndex}
 										>
-											F-U Act {groupKey}_{ALPHABET[activityIndex]}
+											Activity {groupKey}_{ALPHABET[activityIndex]}
 										</th>
 									))}
 								</tr>

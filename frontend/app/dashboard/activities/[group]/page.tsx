@@ -5,6 +5,7 @@ import {
 	ACTIVITY_GROUPS_META,
 	type ActivityGroupKey,
 } from "@/data";
+import { Button } from "@/components/ui/button";
 
 export default async function Page({
 	params,
@@ -29,8 +30,18 @@ export default async function Page({
 		<DashboardLayout breadcrumbItems={breadcrumbItems}>
 			<div>
 				<h1>{meta.label}</h1>
+
 			</div>
 			<ActivityOverview groupKey={group} />
+							<Button
+					className="mt-4"
+					variant="outline"
+					asChild
+				>
+					<a href={`/dashboard/activities/${group}/guide.pdf`} download>
+						Download Guide
+					</a>
+				</Button>
 		</DashboardLayout>
 	);
 }

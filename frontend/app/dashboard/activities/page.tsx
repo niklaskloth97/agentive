@@ -1,6 +1,8 @@
 import { DashboardLayout } from "@/components/DashboardLayout";
 import Link from "next/link";
 import { ACTIVITY_GROUPS_META } from "@/data";
+import { Button } from "@/components/ui/button";
+import { Download } from "lucide-react";
 
 const breadcrumbItems = [
  { label: "Multilingual Resources", href: "/dashboard/" },
@@ -40,6 +42,15 @@ export default async function Page() {
 					</Link>
 				))}
 			</div>
+								<Button
+				  className="mt-4 self-end text-sm px-4 py-2 h-auto"
+				  asChild
+				>
+				  <a href={`/dashboard/activities/guide.pdf`} download>
+				  <Download />
+					Download Guide
+				  </a>
+				</Button>
 		</DashboardLayout>
 	);
 }

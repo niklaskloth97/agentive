@@ -11,12 +11,24 @@ import {
   SheetTrigger,
   SheetClose
 } from '@/components/ui/sheet'
-import { Menu, Moon, Sun } from 'lucide-react'
+import { Menu, Moon, Sun } from 'lucide-react';
+import { Info } from "lucide-react";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+
+const availableLanguages = [
+  { id: "en", label: "English", flag: "🇬🇧" },
+  { id: "de", label: "Deutsch", flag: "🇩🇪" },
+  { id: "fr", label: "Français", flag: "🇫🇷" },
+  { id: "it", label: "Italiano", flag: "🇮🇹" },
+  { id: "es", label: "Español", flag: "🇪🇸" },
+  // Add more as needed
+];
 
 export default function NavBar() {
     const [isDarkMode, setIsDarkMode] = useState(false)
     const [mounted, setMounted] = useState(false)
     const [isSheetOpen, setIsSheetOpen] = useState(false)
+    const [websiteLanguage, setWebsiteLanguage] = useState("en");
 
     useEffect(() => {
         const savedTheme = localStorage.getItem('theme') || 'light';
@@ -62,6 +74,40 @@ export default function NavBar() {
                         </nav>
                     </div>
                     <div className="ml-auto flex items-center">
+                        {/* Language Selector */}
+                        <TooltipProvider>
+                          <div className="relative flex items-center mr-2">
+                            <button
+                              className="flex items-center px-2 py-1 rounded border text-base bg-muted cursor-not-allowed opacity-70"
+                              disabled
+                              tabIndex={-1}
+                              aria-label="Website language selector"
+                            >
+                              <span className="mr-2">
+                                {
+                                  availableLanguages.find(l => l.id === websiteLanguage)?.flag || "🌐"
+                                }
+                              </span>
+                              <span className="font-medium">
+                                {
+                                  availableLanguages.find(l => l.id === websiteLanguage)?.label || "Language"
+                                }
+                              </span>
+                              <span className="ml-2 text-xs relative">
+                                <Tooltip>
+                                  <TooltipTrigger asChild>
+                                    <span className="inline-flex items-center justify-center w-4 h-4 rounded-full bg-gray-200 text-gray-700 ml-1 border border-gray-300 cursor-help">
+                                      <Info className="w-3 h-3" />
+                                    </span>
+                                  </TooltipTrigger>
+                                  <TooltipContent side="left">
+                                    Website translation is not yet implemented. Sorry for the inconvenience!
+                                  </TooltipContent>
+                                </Tooltip>
+                              </span>
+                            </button>
+                          </div>
+                        </TooltipProvider>
                         <Button 
                             variant="outline" 
                             size="icon" 
