@@ -1837,48 +1837,48 @@
         }
       }
     }],
-    "pt": [{"title": "",
+    "pt": [{"title": "Dormir em casa de um amigo",
       "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
       "fullAudio": "/learning-material/story-4/story-pt/4_complete version.m4a",
       "fullText": "",
       "pages": {
         "1": {
-          "text": "",
+          "text": "Ao fim de um longo dia, o Ben, o Alex e a Olivia decidem voltar para casa. \"Onde vais dormir esta noite?\", pergunta a Olivia ao Bobba. O Bobba olha para ela com os olhos arregalados. Olívia pega na mão dele e diz: \"Vem comigo para minha casa.\" ",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
           "audioUrl": "/learning-material/story-4/story-pt/4_1.m4a"
         },
         "2": {
-          "text": "", 
+          "text": "O Bobba e a Olivia estão no quarto. A Olívia pega no cavalo montado num pau e na espada. \"Vamos brincar aos cavaleiros!\" \"Ah, ludi kavalirojn.\" O Bobba pega numa espada. \"Vamos a uma luta de cavaleiros\", sugere a Olivia. ", 
           "imageUrl": "/learning-material/story-4/story-en/Story 4_2.jpeg",
           "audioUrl": "/learning-material/story-4/story-pt/4_2.m4a"
         },
         "3": {
-          "text": "",
+          "text": "A Olívia está com fome. \"Quero uma fatia de pão!\" O Bobba está confuso e não entende. Ele segue-a até à cozinha. A Olívia abre o frigorífico.  ",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_3.jpg",
           "audioUrl": "/learning-material/story-4/story-pt/4_3.m4a"
         },
         "4": {
-          "text": "",
+          "text": "\"O que queres no teu pão?\" O Bobba não responde e olha para a Olívia. Ele imita-a e põe tudo o que encontra no pão dele. O Bobba sorri e diz: \"Bom apetite!\"  ",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_4.jpeg",
           "audioUrl": "/learning-material/story-4/story-pt/4_4.m4a"
         },
         "5": {
-          "text": "",
+          "text": "Depois da refeição, querem lavar os dentes. O Bobba aperta o tubo da pasta de dentes com força. Há pasta de dentes espalhada pelo chão fora. O Bobba e a Olivia não conseguem parar de rir. ",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_5.jpg",
           "audioUrl": "/learning-material/story-4/story-pt/4_5.m4a"
         },
         "6": {
-          "text":"",
+          "text":"A Olívia mostra ao Bobba como se põe a pasta de dentes na escova. \"Olha, é fácil!\" O Bobba acena com a cabeça e tenta imitar a Olivia. \"Conseguiste!\" A Olivia e o Bobba lavam os dentes e olham-se ao espelho.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_6.jpg",
           "audioUrl": "/learning-material/story-4/story-pt/4_6.m4a"
         },
         "7": {
-          "text": "",
+          "text": "A mãe da Olívia entra na casa de banho. \"Limpar?\", pergunta o  Bobba. A mãe faz sinal que sim com a cabeça.  E eles limpam o chão. \"Agora, está na hora de ir para a cama!\" A Olivia grita: \"Eu ainda quero brincar!\" A mãe abana a cabeça a dizer que não.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_7.jpg",
           "audioUrl":"/learning-material/story-4/story-pt/4_7.m4a"
         },
         "8": {
-          "text": "",
+          "text": "De volta ao quarto, a Olívia tapa-se com um cobertor. \"Vamos dormir!\" O Bobba enrola-se no tapete. \"Dormi\", diz em Esperanto e a Olívia ri-se.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_8.jpg",
           "audioUrl":"/learning-material/story-4/story-pt/4_8.m4a"
         }
@@ -2321,54 +2321,242 @@
         }
       }
     }],
-    "de": [],
-    "": [],
-    "fr": [],
-    "es": [],
-    "it": [],
-    "lux": [{
+    "de": [{
+      "title": "Bobba in der Bibliothek",
+      "titlePicture": "/images/under-construction.png",
+      "fullAudio": "/learning-material/story-5/story-de/Bobba_in_der_Bibliothek_Title.m4a",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Bobba hüpft fröhlich die Strasse entlang. Seine flauschigen Ohren zucken vor Freude. ”Wo gehen wir denn hin?” – ”In die Bücherei!” antwortet Olivia.”Da gibt’s ganz viele Bücher!” Bobbas Augen werden ganz groß: ”Bücher!”",
+          "imageUrl": "/images/under-construction.png",
+          "audioUrl": "/learning-material/story-5/story-de/Story 5_G Long_5_1.m4a"
+        },
+        "2": {
+          "text": "Drinnen ragen die Regale gaaanz hoch. Es duftet magisch. Eine Dame mit großer Brille lächelt. „Bonvenon!“ „Wow“, flüstert Bobba. „Lauter Geschichten!“",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-de/Story 5_G Long_5_2.m4a"
+        },
+        "3": {
+          "text": "Bobba folgt den Kindern zu den Bücherregalen. „Lass uns ein Buch für dich finden“, sagt Ben. Die Kinder ziehen Bücher aus den Regalen – mit Bildern von schneebesetzten Bergen, tiefen Ozeanen, leckerem Essen. Ein anderes Kind hält ein Buch mit gestreiften und gepunkteten Tieren und langen Schwänzen in die Höhe.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-de/Story 5_G Long_5_3.m4a"
+        },
+        "4": {
+          "text": "Bobba hält den Atem an. „Didi, didi!“ Er zeigt auf eine Seite in seinem Buch. Die Kinder schauen gespannt. „Was ist?“ Bobba starrt in das Buch. “Flauschige Ohren. Große Augen. Genau wie … ich.” Dann hält er inne ... Seine Augen werden tellerrund. ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-de/Story 5_G Long_5_4.m4a"
+        },
+        "5": {
+          "text": "Bobba blättert Seite für Seite um und ihm gefällt, was er sieht – mehr und mehr spannende Kreaturen. „Zuhause … ich vermisse mein Zuhause …“, seufzt Bobba.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-de/Story 5_G Long_5_5.m4a"
+        },
+        "6": {
+          "text": "Olivia sagt zu Bobba: „Du kannst das Buch ausleihen.“ „Ausleihen?“ Bobba blinzelt. Die Bibliothekarin nickt. „Dafür brauchst du einen Bibliotheksausweis. Dann bist Du Bibliotheksmitglied!“",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-de/Story 5_G Long_5_6.m4a"
+        },
+        "7": {
+          "text": "Die Kinder helfen Bobba dabei, seinen Namen auf die Karte zu schreiben. Bobba hält die neue Karte stolz in die Luft. „Ich bin jetzt Bibliotheksmitglied!“",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-de/Story 5_G Long_5_7.m4a"
+        },
+        "8": {
+          "text": "Draußen funkeln die Sterne. Bobba drückt das Buch fest an sich. Das Buch fühlt sich wie ein kleines Stückchen Heimat an. „Eines Tages … werde ich nach Hause zurückkehren.“",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-de/Story 5_G Long_5_8.m4a"
+        }
+      }
+    }],
+    "de-short": [{
+      "title": "Bobba in der Bibliothek",
+      "titlePicture": "/images/under-construction.png",
+      "fullAudio": "/learning-material/story-5/story-de short/Bobba_DE_Story 5_gesamt.mp3",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Bobba hüpft fröhlich die Strasse entlang. Seine flauschigen Ohren zucken vor Freude. ”Wo gehen wir denn hin?” – ”In die Bibliothek!” antwortet Olivia.”Da gibt es ganz viele Bücher!” Bobbas Augen werden ganz groß: ”Bücher!”",
+          "imageUrl": "/images/under-construction.png",
+          "audioUrl": "/learning-material/story-5/story-de short/Bobba_DE_Story 5_1.mp3"
+        },
+        "2": {
+          "text": "Die Regale drinnen sind gaaanz hoch. Es duftet magisch. Eine Dame mit großer Brille lächelt. „Willkommen!“ „Wow“, flüstert Bobba. „Lauter Geschichten!“ ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-de short/Bobba_DE_Story 5_2.mp3"
+        },
+        "3": {
+          "text": "Bobba folgt den Kindern zu den Bücherregalen. „Lass uns ein Buch für dich finden“, sagt Ben. Die Kinder nehmen Bücher aus den Regalen – mit Bildern von Monstern, Dinosauriern und magischen Tieren. ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-de short/Bobba_DE_Story 5_3.mp3"
+        },
+        "4": {
+          "text": " Bobba hält den Atem an. „wow!“ Er zeigt auf eine Seite im Buch. Die Kinder schauen gespannt. „Was ist?“ Bobba schaut in das Buch. “Flauschige Ohren. Große Augen. Genau wie … ich.” Dann hält er inne ... Seine Augen werden ganz rund.  ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-de short/Bobba_DE_Story 5_4.mp3"
+        },
+        "5": {
+          "text": "Bobba blättert Seite für Seite um. Ihm gefällt, was er sieht – mehr und mehr spannende Kreaturen. „Zuhause … ich vermisse mein Zuhause …“, seufzt Bobba. ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-de short/Bobba_DE_Story 5_5.mp3"
+        },
+        "6": {
+          "text": "Olivia sagt zu Bobba: „Du kannst das Buch ausleihen.“ Bobba schaut fragend: „Ausleihen?“ Die Bibliothekarin nickt. „Du brauchst einen Bibliotheksausweis. Dann bist Du Bibliotheksmitglied!“",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-de short/Bobba_DE_Story 5_6.mp3"
+        },
+        "7": {
+          "text": "Die Kinder helfen Bobba dabei, seinen Namen auf die Karte zu schreiben. Bobba hält die neue Karte stolz in die Luft. „Ich bin jetzt Bibliotheksmitglied!“ ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-de short/Bobba_DE_Story 5_7.mp3"
+        },
+        "8": {
+          "text": "Draußen leuchten die Sterne. Bobba hält das Buch ganz fest. Das Buch fühlt sich wie ein kleines Stückchen Heimat an.  „Eines Tages … werde ich nach Hause zurückkehren.“ ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-de short/Bobba_DE_Story 5_8.mp3"
+        }
+      }
+    }],
+    "fr": [{
       "title": "",
+      "titlePicture": "/images/under-construction.png",
+      "fullAudio": "/learning-material/story-5/story-fr/Bobba_FR_Story 5-MP3.mp3",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "/images/under-construction.png",
+          "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5_1-MP3.mp3"
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5_2-MP3.mp3"
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5_3-MP3.mp3"
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5_4-MP3.mp3"
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5_5-MP3.mp3"
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5_6-MP3.mp3"
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5_7-MP3.mp3"
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5_8-MP3.mp3"
+        }
+      }
+    }],
+    "es": [],
+    "it": [{
+      "title": "Bobba in biblioteca ",
+      "titlePicture": "/images/under-construction.png",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Bobba saltella per la strada. Le sue orecchie soffici si muovono per l’emozione. “Dove stiamo andando?” “In biblioteca!” dice Olivia. “È piena di libri!” Bobba spalanca gli occhi. “Libri!”",
+          "imageUrl": "/images/under-construction.png",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "In biblioteca ci sono tanti scaffali alti. L’aria ha un profumo magico. Una signora con dei grandi occhiali sorride. “Buongiorno bambini!” “Wow” sussurra Bobba. “Quanti libri!”",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Bobba segue i bambini verso gli scaffali. “Adesso troviamo un libro per te” dice Ben. Scelgono dei libri con immagini di mostri, dinosauri e creature magiche. ",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "Bobba resta a bocca aperta. “Oooohhh!” Indica una pagina del suo libro. I bambini guardano. “Che cos’è?” Bobba fissa la creatura nel libro. Orecchie soffici. Occhi grandi. “Quasi come... me”, pensa. I suoi grandi occhi diventano ancora più grandi. ",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "Bobba gira pagina dopo pagina e gli piace quello che vede: tantissime creature emozionanti. “Casa... mi manca casa”  sospira Bobba.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "Ben dice “Puoi prenderlo in prestito”. “In prestito?” Bobba batte le palpebre. La bibliotecaria annuisce. “Ti serve solo la nostra tessera, e sarai membro della biblioteca”.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "I bambini aiutano Bobba a scrivere il suo nome sulla tessera. Bobba mostra fiero la sua nuova tessera. “Adesso sono membro della biblioteca!” ",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "Le stelle brillano nel cielo. Bobba stringe a sé il libro. Questo libro che tiene in mano per lui è come una pezzetto di casa sua. “Un giorno… tornerò a casa”. ",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "lux": [{
+      "title": "De Bobba an der Bibliothéik",
       "titlePicture": "",
       "fullAudio": "",
       "fullText": "",
       "pages": {
         "1": {
-          "text": "",
+          "text": "De Bobba hopst d’Strooss erof. Seng grouss muusseg Ouere beweege sech an all Richtung, sou frou ass hien. “Wou gi mir hin?” “An d’Bibliothéik!”, seet d’Olivia.”Do ginn et eng ganz Rëtsch Bicher!”. Dem Bobba seng Ae gi ganz grouss. “Bicher!”",
           "imageUrl": "",
           "audioUrl": ""
         },
         "2": {
-          "text": "",
+          "text": "An der Bibliothéik ginn et vill héich Regaler. Et läit eppes an der Loft, wéi Magie. Eng Damm mat engem grousse Brëll laacht. “Gudde Moien, Kanner!” “Wow…!”, pëspert de Bobba. “Sou vill Bicher!”",
           "imageUrl": "",
           "audioUrl": ""
         },
         "3": {
-          "text": "",
+          "text": "De Bobba geet mat de Kanner bei d’Regaler. “Komm, mir sichen e Buch fir dech aus”, seet de Ben. Si fannen all Zort Bicher, Bicher mat Monsteren, mat Dinosaurier an och deeër mat Zauberwiesen.",
           "imageUrl": "",
           "audioUrl": ""
         },
         "4": {
-          "text": "",
+          "text": "De Bobba mécht grouss Aen. “Wow!” Hie weist op eng Säit vu sengem Buch. D’Kanner kucken. “Wat ass dat?” De Bobba stuerkt op déi Kreatur am Buch. Fluffeg Oueren. Grouss Aen. “Bal esou, wéi ... ech”, denkt hien. Seng grouss Ae ginn nach méi grouss.",
           "imageUrl": "",
           "audioUrl": ""
         },
         "5": {
-          "text": "",
+          "text": "De Bobba bliedert Säit fir Säit ëm. Alles, wat en do am Buch gesäit, ass esou flott. An e gesäit ëmmer méi ... Wiesen. “Mäin Doheem… ech vermësse mäin Doheem”, keimt hien.",
           "imageUrl": "",
           "audioUrl": ""
         },
         "6": {
-          "text": "",
+          "text": "“Du kanns dat Buch ausléinen”, seet de Ben. “Ausléinen?”, freet de Bobba. D’Bibliothecairin wénkt jo mam Kapp. “Du brauchs just eng Kaart. Da bass du Member vun der Bibliothéik.”",
           "imageUrl": "",
           "audioUrl": ""
         },
         "7": {
-          "text": "",
+          "text": "D’Kanner hëllefen dem Bobba säin Numm op d’Kaart ze schreiwen. De Bobba hält seng nei Kaart an d’Luucht. “Elo sinn ech och e Member vun der Bibliothéik!”",
           "imageUrl": "",
           "audioUrl": ""
         },
         "8": {
-          "text": "",
+          "text": "D’Stäre blénken hell am Himmel. De Bobba dréckt d’Buch ganz fest u sech. D’Buch a sengen Hänn erënnert hien u säin Doheem. “Enges Daags… fléien ech nees heem.”",
           "imageUrl": "",
           "audioUrl": ""
         }
