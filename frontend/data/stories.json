@@ -2902,12 +2902,294 @@
         }
       }
     }],
-    "de": [],
-    "": [],
-    "fr": [],
-    "es": [],
-    "it": [],
-    "lux": [],
+    "de": [{
+      "title": "das Monsterschloss",
+      "titlePicture": "/images/under-construction.png",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Heute möchte Bobba etwas Interessantes erleben. Er hat eine Idee.",
+          "imageUrl": "/images/under-construction.png",
+          "audioUrl": "/learning-material/story-6/story-de/Story 6_G Long_6_1.m4a"
+        },
+        "2": {
+          "text": "„Das große schwarze Schloss auf dem Berg. Das sieht spannend aus!“",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-6/story-de/Story 6_G Long_6_2.m4a"
+        },
+        "3": {
+          "text": " Bobba beginnt zu laufen. Er hüpft und rennt und das Schloss kommt immer näher. Das Schloss ist sehr dunkel und groß. Plötzlich hört Bobba ein Geräusch. Was ist das? Musik! Es klingt wie ein Akkordeon. ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-6/story-de/Story 6_G Long_6_3.m4a"
+        },
+        "4": {
+          "text": "Jetzt steht Bobba vor einer großen Tür. Er klopft an und die Tür öffnet sich. Hinter der Tür ist ein finsterer Gang. Bobba fühlt sich jetzt ein bisschen ängstlich. Seine Hände sind schweißnass. Seine Haare stellen sich auf. Seine Zähne klappern sogar. Aber …, da ist sie ja wieder, die Musik! ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-6/story-de/Story 6_G Long_6_4.m4a"
+        },
+        "5": {
+          "text": " Das Akkordeon klingt richtig schön. „So schlimm kann es im Schloss nicht sein!“ denkt Bobba und geht durch die Tür. - „Monster-Party im Schloss“ steht auf einem Schild, das er sieht.",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-6/story-de/Story 6_G Long_6_5.m4a"
+        },
+        "6": {
+          "text": " Am Ende des Ganges sieht Bobba ein Licht. Die Musik wird lauter. Bobba betritt eine riesige Halle. Überall sind bunte Luftballons zu sehen. Eine große Torte steht da. Und auch Limonade. Ist das eine Party?  Viele Monster tanzen, singen und essen Kuchen. ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-6/story-de/Story 6_G Long_6_6.m4a"
+        },
+        "7": {
+          "text": " Ein kleines gelbes Monster kommt zu Bobba. „Tu veux danser, mon ami?“, fragt es und streckt seine Hände aus. ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-6/story-de/Story 6_G Long_6_7.m4a"
+        },
+        "8": {
+          "text": "Das Fest macht so viel Spaß! Dann denkt Bobba an die Kinder im Dorf. „Warum ladet ihr die Kinder nicht ein?“, fragt er die Monster.  Das große lila Monster fängt an, mit den Zähnen zu klappern, und lässt fast seinen Kuchen fallen. „Oh nein! Wir haben Angst vor Kindern!“  „Was? Ihr habt Angst?“ Bobba ist überrascht. Da hat er eine Idee. „Lasst uns die Kinder zur nächsten Monsterparty einladen!“   Die Monster schreiben eine Einladung und stecken sie in einen Briefumschlag. ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-6/story-de/Story 6_G Long_6_8.m4a"
+        }
+      }
+    }],
+    "de-short": [{
+      "title": "Das MONSTER Schloss ",
+      "titlePicture": "/images/under-construction.png",
+      "fullAudio": "/learning-material/story-6/story-de short/Bobba_DE_Story_6_Gesamt.mp3",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Heute möchte Bobba etwas Interessantes erleben. Er hat eine Idee.  ",
+          "imageUrl": "/images/under-construction.png",
+          "audioUrl": "/learning-material/story-6/story-de short/Bobba_DE_Story_6_1.mp3"
+        },
+        "2": {
+          "text": "„Das große schwarze Schloss auf dem Berg. Das sieht spannend aus!“    ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-6/story-de short/Bobba_DE_Story_6_2.mp3"
+        },
+        "3": {
+          "text": " Bobba beginnt zu laufen. Er hüpft und rennt und das Schloss kommt immer näher. Das Schloss ist dunkel und groß. Plötzlich hört Bobba ein Geräusch. „Was ist das? Musik! Es klingt wie ein Akkordeon“.   ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-6/story-de short/Bobba_DE_Story_6_3.mp3"
+        },
+        "4": {
+          "text": "Bobba steht vor einem großen Tor. Er klopft an und das Tor öffnet sich. Hinter dem Tor ist ein finsterer Gang. Bobba ist ängstlich. Seine Hände sind schweißnass. Seine Haare stellen sich auf. Seine Zähne klappern sogar. Aber …, da ist sie ja wieder, die Musik!  ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-6/story-de short/Bobba_DE_Story_6_4.mp3"
+        },
+        "5": {
+          "text": "Das Akkordeon klingt richtig schön. „So schlimm kann es im Schloss nicht sein!“ denkt Bobba und geht durch das Tor. - „Monster-Party im Schloss“ steht auf einem Schild. ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-6/story-de short/Bobba_DE_Story_6_5.mp3"
+        },
+        "6": {
+          "text": "Am Ende des Ganges sieht Bobba ein Licht. Die Musik wird lauter. Bobba betritt eine riesige Halle. Überall sind bunte Luftballons. Eine große Torte steht da. Und auch Limonade. Ist das eine Party? Viele Monster tanzen, singen und essen Kuchen.  ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-6/story-de short/Bobba_DE_Story_6_6.mp3"
+        },
+        "7": {
+          "text": " Ein kleines gelbes Monster kommt zu Bobba. „Tu veux danser, mon ami?“, fragt es und streckt seine Hände aus.  ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-6/story-de short/Bobba_DE_Story_6_7.mp3"
+        },
+        "8": {
+          "text": "Das Fest macht so viel Spaß! Dann denkt Bobba an die Kinder. „Warum ladet ihr die Kinder nicht ein?“, fragt Bobba die Monster. Das große lila Monster fängt an, mit den Zähnen zu klappern, und lässt fast seinen Kuchen fallen. „Oh nein! Wir haben Angst vor Kindern!“ „Was? Ihr habt Angst?“ Bobba ist überrascht. Da hat er eine Idee. „Lasst uns die Kinder zur nächsten Monsterparty einladen! Ihr werdet sehen, sie sind wirklich nett.“ Hmm Die Monster sind nicht sicher, aber sie sind trotzdem einverstanden.   Zusammen schreiben sie eine Einladung für die Party.  ",
+          "imageUrl": "",
+          "audioUrl": "/learning-material/story-6/story-de short/Bobba_DE_Story_6_8.mp3"
+        }
+      }
+    }],
+    "fr": [{
+      "title": "",
+      "titlePicture": "/images/under-construction.png",
+      "fullAudio": "/learning-material/story-6/story-fr/Bobba_FR_Story_6-MP3.mp3",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "/images/under-construction.png",
+          "audioUrl": "/learning-material/story-6/story-fr/Bobba_FR_Story_6_1-MP3.mp3"
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl":  "/learning-material/story-6/story-fr/Bobba_FR_Story_6_2-MP3.mp3"
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl":  "/learning-material/story-6/story-fr/Bobba_FR_Story_6_3-MP3.mp3"
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl":  "/learning-material/story-6/story-fr/Bobba_FR_Story_6_4-MP3.mp3"
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl":  "/learning-material/story-6/story-fr/Bobba_FR_Story_6_5-MP3.mp3"
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl":  "/learning-material/story-6/story-fr/Bobba_FR_Story_6_6-MP3.mp3"
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl":  "/learning-material/story-6/story-fr/Bobba_FR_Story_6_7-MP3.mp3"
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl":  "/learning-material/story-6/story-fr/Bobba_FR_Story_6_8-MP3.mp3"
+        }
+      }
+    }],
+    "es": [{
+      "title": "",
+      "titlePicture": "/images/under-construction.png",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "/images/under-construction.png",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl":  ""
+        }
+      }
+    }],
+    "it": [{
+      "title": "Il castello dei mostri  ",
+      "titlePicture": "/images/under-construction.png",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Oggi Bobba vorrebbe vivere un’avventura interessante tutto da solo. Ha un’idea.",
+          "imageUrl": "/images/under-construction.png",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "“Il grande castello nero sulla montagna. Sembra proprio emozionante!” ",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "3": {
+          "text": "Bobba inizia a camminare. Saltella e corre, e il castello si avvicina sempre di più. Il castello è davvero scuro e grande. All’improvviso, Bobba sente un rumore. Che cos’è? Musica! Sembra una fisarmonica.",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "4": {
+          "text": "Adesso Bobba si trova davanti ad una grande porta. Bussa e la porta si apre. Dietro la porta c’è un corridoio buio. Bobba è un po’ impaurito. Le sue mani sono sudate. I suoi capelli si rizzano. Gli battono i denti.  Ma, ecco che la risente. C’è di nuovo la musica!",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "5": {
+          "text": "La fisarmonica ha un suono davvero bellissimo. “Non può essere poi così male in questo posto buio!”, pensa Bobba e attraversa la porta. Vede un cartello con la scritta “Benvenuto alla festa dei mostri”.",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "6": {
+          "text": "In fondo al corridoio, Bobba vede una luce. La musica si fa più forte.  Bobba entra in una grande sala. Ci sono palloncini colorati ovunque. C’è anche una grande torta e della limonata. È proprio una festa. Ci sono tanti mostri che ballano, cantano e mangiano la torta.",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "7": {
+          "text": "Un piccolo mostro giallo si avvicina a Bobba. “Tu veux danser, mon ami?”, chiede porgendogli le mani. ",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "8": {
+          "text": "La festa è davvero divertente! Ma poi Bobba pensa ai bambini del villaggio. “Perché non invitate anche i bambini?” chiede ai mostri. I denti del grande mostro viola iniziano a tremare, e fa quasi cadere la torta. “Oh nooo! Noi abbiamo paura dei bambini!”“Cosa? Avete paura dei bambini?” chiede Bobba sorpreso. “Ma non sono per nulla spaventosi! Ho un’idea: Invitiamoli alla prossima festa dei mostri!”. I mostri sono d’accordo, scrivono l’invito e lo mettono in una busta. ",
+          "imageUrl": "",
+          "audioUrl":  ""
+        }
+      }
+    }],
+    "lux": [{
+      "title": "D’Monsterschlass",
+      "titlePicture": "/images/under-construction.png",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Haut geet de Bobba eleng op d’Sich no eppes Interessantem. Hien huet och schonn eng Iddi.",
+          "imageUrl": "/images/under-construction.png",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "“Dat grousst schwaarzt Schlass um Bierg. Dat gesäit spannend aus!”",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "3": {
+          "text": "De Bobba mécht sech op de Wee. Hie leeft a spréngt an d’Luucht. Hie kënnt ëmmer méi no bei d’Schlass. Dat ass grouss a ganz däischter. Op eemol héiert de Bobba e Geräisch. Wat ass dat? Musek! Et héiert sech u wéi en Akkordeon.",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "4": {
+          "text": "Elo steet de Bobba virun enger grousser Dier. Hie klappt, an d’Dier geet op. Do hannendrun ass e laangen, däischtere Gank. De Bobba huet e bëssen Angscht. Hie kritt ganz schweesseg Hänn an d’Hoer stinn an der Luucht. Mä lauschtert! De Bobba héiert schonn erëm Musek.",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "5": {
+          "text": "Den Akkordeon spillt wonnerschéin. “Dat Schlass kann dach net esou schrecklech sinn!”, denkt de Bobba a geet eran. Do gesäit hien e Schëld an dodropp steet: Wëllkomm op der Monster-Party.",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "6": {
+          "text": "Um Enn vum Gank gesäit de Bobba eng Luucht. D’Musek gëtt ëmmer méi haart. Hie geet an e risege Sall eran. Iwwerall si faarweg Ballonen. Op den Dëscher steet Limonad a Kuch ass och do. Ass dat e Fest? Ganz vill Monsteren danzen, sangen an iesse Kuch.",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "7": {
+          "text": " E klengt gielt Monster kënnt bei de Bobba. “Wëlls du danzen, mäi Frënd?”, freet hatt a streckt him d’Hänn entgéint.",
+          "imageUrl": "",
+          "audioUrl":  ""
+        },
+        "8": {
+          "text": "D’Party ass immens flott! Mä de Bobba denkt un d’Kanner aus dem Duerf. “Firwat invitéiert dir net och Kanner?”, freet hien. Dat grousst mooft Monster léisst säi Kuch bal op de Buedem falen. Et klabbert mat den Zänn. “Neeee! Mir fäerte Kanner!” “Wat? Dir hutt Angscht viru Kanner?”, freet de Bobba ganz iwwerrascht. “Si sinn dach guer net fir ze fäerten! Kommt, mir invitéieren si op déi nächst Monster-Party. Si si wierklech léif.” D’Monstere sinn sech net ganz sécher, mä si soen trotzdeem Jo. Zesumme schreiwen si eng Invitatioun fir d’Kanner anzelueden.",
+          "imageUrl": "",
+          "audioUrl":  ""
+        }
+      }
+    }],
     "gr": [{
       "title": "Το κάστρο των τεράτων",
       "titlePicture": "",
