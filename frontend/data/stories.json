@@ -3485,61 +3485,579 @@
     "en": [{
       "title": "Celebrating Olivia's birthday",
       "titlePicture": "/images/under-construction.png",
-      "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
-      "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
+      "fullAudio": "",
+      "fullText": "",
       "pages": {
         "1": {
           "text": "It is a special day. Bobba is invited to Olivia's birthday party. In front of the house are many balloons with a big 5.",
-          "imageUrl": "/images/under-construction.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "2": {
           "text": "Bobba spots many children he knows but also many tall people. He wonders who they are.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "3": {
           "text": "The children play the musical chairs game. Next, they play hide-and-seek in the garden. They have a lot of fun.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "4": {
           "text": "\"La naskiĝtaga kuko!\", calls the father. He carries a huge cake that looks like a castle with 5 towers on fire.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "5": {
           "text": "\"Ni kantu\", says grandma in Esperanto for Bobba to understand. They sing \"Happy birthday\" in 3 languages. Bobba knows the song in English and tries to sing along.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "6": {
           "text": "Bobba, put the candles out, suggests Olivia. Bobba almost touches the towers on the castle. \"Stop\", says Ben and shows him how to blow them out.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "7": {
           "text": "The cake is delicious. Bobba eats five pieces. \"Very good\", he says. \"Will Bobba get a stomach-ache now?\", asks Olivia.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "8": {
           "text": "\"I wonder what presents you've brought? Let's open the boxes\". Olivia is delighted. \"I always wanted this!\" she shouts as she opens present after present. The children play a bit longer before they go home.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         }
       }
     }],
-    "de": [],
-    "": [],
-    "fr": [],
-    "es": [],
-    "it": [],
-    "lux": [],
-    "gr": [],
-    "sv": [],
-    "al": [],
-    "ukr": []
+    "de": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "fr": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "es": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "it": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "lux": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "gr": [{
+      "title": "Γιορτάζοντας τα γενέθλια της Ολίβια",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Είναι μια ιδιαίτερη μέρα. Ο Μπόμπα είναι προσκεκλημένος στο πάρτυ γενεθλίων της Ολίβια. Μπροστά από το σπίτι υπάρχουν πολλά μπαλόνια με ένα μεγάλο 5.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "Ο Μπόμπα εντοπίζει πολλά παιδιά που γνωρίζει αλλά και πολλούς ψηλούς ανθρώπους. Αναρωτιέται ποιοι είναι.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Τα παιδιά παίζουν το παιχνίδι μουσικές καρέκλες. Μετά παίζουν κρυφτό στον κήπο. Διασκεδάζουν πολύ.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "«La naskiĝtaga kuko!», φωνάζει ο μπαμπάς. Μεταφέρει μια τεράστια τούρτα που μοιάζει με ένα κάστρο με 5 φλεγόμενους πύργους.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "«Ni kantu», λέει η γιαγιά στη γλώσσα Εσπεράντο για να καταλάβει ο Μπόμπα. Τραγουδούν το τραγούδι των γενεθλίων σε 3 γλώσσες. Ο Μπόμπα γνωρίζει το τραγούδι στα Αγγλικά και προσπαθεί να τραγουδήσει μαζί. ",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "«Μπόμπα, σβήσε τα κεριά» προτείνει η Ολίβια. Ο Μπόμπα σχεδόν ακουμπάει του πύργους στο κάστρο. «Σταμάτα» λέει ο Μπεν και του δείχνει πώς να τα σβήσει.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "Η τούρτα είναι νόστιμη. Ο Μπόμπα τρώει πέντε κομμάτι. «Πολύ ωραία», λέει. «Θα πονέσει η κοιλιά του Μπόμπα τώρα;» ρωτάει η Ολίβια.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "«Αναρωτιέμαι τι δώρα να φέρατε; Ας ανοίξουμε τα κουτιά». Η Ολίβια είναι χαρούμενη. «Πάντα το ήθελα αυτό!» φωνάζει καθώς ανοίγει το ένα δώρο μετά το άλλο. Τα παιδιά παίζουν λίγο ακόμα πριν να πάνε σπίτι. ",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "sv": [{
+      "title": "Olivia praznuje rojstni dan",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Danes je poseben dan. Bobba je povabljen na Oliviino rojstnodnevno zabavo. Pred hišo je veliko balonov v obliki številke 5.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "Bobba vidi veliko otrok, ki jih že pozna, pa tudi veliko visokih ljudi. Sprašuje se, kdo so.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Otroci se igrajo igrico glasbeni stoli. Nato se na vrtu igrajo skrivalnice. Zelo se zabavajo.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "\"La naskiĝtaga kuko!\" zakliče Oliviin oče. Nosi ogromno torto, ki je videti kot grad s petimi gorečimi stolpi.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "\"Ni kantu,\" reče babica v esperantu, da bi jo tudi Bobba razumel. Zapojejo \"Vse najboljše\" v treh jezikih. Bobba pozna pesem v angleščini in skuša zapeti z ostalimi.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "\"Bobba, upihni svečke\" predlaga Olivia. Bobba seže proti gorečim stolpom, da bi svečke ugasnil kar z roko. \"Stoj!\" ga ustavi Ben in mu pokaže, kako naj jih upihne.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "Torta je odlična. Bobba poje pet kosov. \"Zelo dobro,\" reče. \"Ali bo zdaj Bobbo bolel trebuh?\" vpraša Olivia.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "\"Me prav zanima, kakšna darila sem dobila. Odprimo škatle.\" Olivia je navdušena. \"Prav to sem si želela!\" vzklika, ko odpira darila enega za drugim. Otroci se še malo poigrajo, nato pa odidejo domov.",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "al": [{
+      "title": "Duke festuar ditëlindjen e Olivias",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Është një ditë e veçantë. Bobba është i ftuar në festën e ditëlindjes së Olivias. Përpara shtëpisë ka shumë tullumbace me një 5(pesëshe) të madhe.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "Bobba vëren shumë fëmijë që i njeh, por edhe shumë njerëz të gjatë. Ai pyet veten se kush janë ata.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Fëmijët luajnë lojën e karrigeve muzikore. Më pas, luajnë kukafshehti në kopsht. Ata argëtohen shumë.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "“La naskiĝtaga kuko!”, thërret babai. Ai mban në dorë një tortë të madhe që duket si një kështjellë me 5 kulla në flakë.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "“Ni kantu,” – thotë gjyshja në Esperanto që Bobba ta kuptojë. Ata këndojnë “Gëzuar ditëlindjen” në 3 gjuhë. Bobba e di këngën në anglisht dhe përpiqet të këndojë me ta.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "\"Bobba, fryji qirinjtë,\" sugjeron Olivia. Bobba pothuajse i prek kullat e kështjellës. \"Ndalo,\" thotë Beni dhe i tregon si t’i fryjë qirinjve.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "Torta është e shijshme. Bobba ha pesë copa. “Shumë e mirë”, thotë ai. “A do t’i dhembë stomaku Bobbës tani?”, pyet Olivia.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "“Po pyes veten se çfarë dhuratash keni sjellë? Le t’i hapim kutitë.” Olivia është shumë e kënaqur. “Këtë e kam dashur gjithmonë!” bërtet ajo ndërsa hap dhuratë pas dhurate. Fëmijët luajnë edhe pak para se të shkojnë në shtëpi.",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "ukr": [{
+      "title": "Святкування дня народження Олівії",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Сьогодні особливий день. Бобба запрошений на день народження Олівії. Перед будинком багато повітряних кульок з великою п'ятіркою.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "Бобба помічає багато знайомих дітей, а також багато високих людей. Йому цікаво, хто вони.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Діти грають у гру \"Музичні стільці\". Потім вони грають у хованки в саду. Вони дуже весело проводять час.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "\"La naskiĝtaga kuko!\", - кличе батько. Він несе величезний торт, схожий на замок з 5 вежами у вогні.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "\"Ні канту\", - каже бабуся есперанто, щоб Бобба зрозумів. Вони співають \"Happy birthday\" 3- ма мовами. Бобба знає пісню англійською і намагається підспівувати.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": " \"Бобба, загаси свічки\", - пропонує Олівія. Бобба майже торкається веж замку. \"Стоп\", - каже Бен і показує йому, як їх задути.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "Торт дуже смачний. Бобба з'їдає п'ять шматочків. \"Дуже смачно\", - каже він. \"У Бобби тепер буде боліти живіт?\", - запитує Олівія.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": " \"Цікаво, які подарунки ви привезли? Давай відкриємо коробки\". Олівія в захваті. \"Я завжди цього хотіла!\" - вигукує вона, відкриваючи подарунок за подарунком. Діти ще трохи граються, перш ніж піти додому.",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "pl": [{
+      "title": "Urodziny Olivii",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "To wyjątkowy dzień. Bobba zostaje zaproszony na przyjęcie urodzinowe Olivii. Przed domem znajduje się wiele dorosłych z dużą cyfrą 5.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "Bobba dostrzega wiele dzieci, które zna, ale także wiele wysokich osób. Zastanawia się, kim oni są.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Dzieci grają w muzyczną grę w krzesła. Następnie bawią się w chowanego w ogrodzie. Świetnie się bawią.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "„La naskiĝtaga kuko!”, woła tata. Niesie ogromny tort, który wygląda jak zamek z pięcioma płonącymi wieżami.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "„Ni kantu”, mówi babcia w esperanto, żeby Bobba zrozumiał. Śpiewają „Sto lat” w 3 językach. Bobba zna piosenkę po angielsku i próbuje ją zaśpiewać.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "„Bobba, zdmuchnij świeczki”, sugeruje Olivia. Bobba dmuchając prawie dotyka wież na zamku. „Przestań”, mówi Ben i pokazuje mu, jak je prawidłowo zdmuchnąć.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "Ciasto jest pyszne. Bobba zjada pięć kawałków. „Bardzo dobre”, mówi. „Czy Bobbę będzie teraz bolał brzuch?”, pyta Olivia.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "\"Ciekawe, jakie prezenty przyniosłeś? Otwórzmy je\". Olivia jest zachwycona. „Zawsze to chciałam dostać!” krzyczy, otwierając prezent za prezentem. Dzieci bawią się jeszcze trochę, zanim wrócą do domu.",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }]
   },
   {
     "id": "8",
@@ -3547,60 +4065,578 @@
     "en": [{
       "title": "Going home",
       "titlePicture": "/images/under-construction.png",
-      "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
-      "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
+      "fullAudio": "",
+      "fullText": "",
       "pages": {
         "1": {
           "text": "Bobba and his friends are having fun playing with a ball in the park where Bobba's spaceship landed.",
-          "imageUrl": "/images/under-construction.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "2": {
           "text": "The sun is setting and the sky is full of different colours. Bobba is impressed. How beautiful it is! Suddenly a star appears, and another one, and another one. Bobba points at a very bright one and shouts: \"Vidu la stelan!! Jen mia planedo!!\"",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "3": {
           "text": "His friends stop playing because they all want to see. They stand close to Bobba to find his star.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "4": {
           "text": "Suddenly, they hear a little beeping sound. They hear it again, this time louder \"Beep\" and louder still \"BEEP!\" \"BEEEEEEEEP!\" \"BEEEEEEEEEEEEEEP!!!!!!\" Bobba shouts:  \"Ohhhh, My spaceship telephone!\"",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "5": {
           "text": "He rushes to his spaceship and answers the phone. His friends follow him. They hear him say: \"Ĉu mi venu hejmen ? Ĉu mi povas reveni ? Esta bona! Ĝis baldaŭ!\"",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "6": {
           "text": "He hangs up the phone and says \"My family says, I must come home now. But I can come again!!\" Ben says \"I think we all have to go home now. It is getting dark.\"",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "7": {
           "text": "The children give Bobba a big hug and Olivia says: \"Come back soon!\" and Bobba smiles. \"Mi revenos! I promise!\", he says.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         },
         "8": {
           "text": "Bobba gets into his spaceship and waves. He takes off and soars through the sky until only a little light is left – the light of his planet shining. \"See you soon, Bobba!\", they all shout and smile.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+          "imageUrl": "",
+          "audioUrl": ""
         }
       }
     }],
-    "de": [],
-    "": [],
-    "fr": [],
-    "es": [],
-    "it": [],
-    "lux": [],
-    "gr": [],
-    "sv": [],
-    "al": [],
-    "ukr": []
+    "de": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "fr": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "es": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "it": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "lux": [{
+      "title": "",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "gr": [{
+      "title": "Επιστροφή στο σπίτι",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Ο Μπόμπα και οι φίλοι του διασκεδάζουν με μια μπάλα στο πάρκο όπου προσγειώθηκε το διαστημόπλοιο του Μπόμπα.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "Ο ήλιος δύει και ο ουρανός είναι γεμάτος διαφορετικά χρώματα. Ο Μπόμπα είναι εντυπωσιασμένος. Πόσο όμορφα είναι. Ξαφνικά εμφανίζεται ένα αστέρι και άλλο ένα και άλλο ένα. Ο Μπόμπα δείχνει ένα πολύ λαμπερό αστέρι και φωνάζει: «Vidu la stelan!! Jen mia planedo!!",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Οι φίλοι του σταματάνε να παίζουν γιατί όλοι θέλουν να δουν. Στέκονται δίπλα στο Μπόμπα για να βρει το αστέρι του.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "Ξαφνικά, ακούνε ένα μικρό ήχο μπιπ. Τον ακούνε ξανά, αυτή τη φορά πιο δυνατό «Μπιπ» και ακόμα πιο δυνατό «ΜΠΙΠ!», «ΜΠΙΙΙΙΙΙΙΙΙΙΙΠ!» «ΜΠΙΙΙΙΙΙΙΙΙΙΙΙΙΙΙΙΙΙΙΠ!» Ο Μπόμπα φωνάζει: «Ωωωω το τηλέφωνο στο διαστημόπλοιό μου!»",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "Τρέχει στο διαστημόπλοιό του και απαντάει στο τηλέφωνο. Οι φίλοι του τον ακολουθούν. Τον ακούνε να λέει: «Ĉu mi venu hejmen ? Ĉu mi povas reveni ? Esta bona! Ĝis baldaŭ!»",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": " Κλείνει το τηλέφωνο και λέει «Η οικογένειά μου λέει ότι πρέπει να επιστρέψω σπίτι τώρα. Αλλά μπορώ να έρθω ξανά!!» Ο Μπεν λέει «Νομίζω ότι όλοι πρέπει να πάμε σπίτι τώρα. Σκοτεινιάζει.»",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "Τα παιδιά κάνουν τον Μπόμπα μια μεγάλη αγκαλιά και η Ολίβια λέει: «Να ξαναέρθεις σύντομα» και ο Μπόμπα χαμογελάει. «Mi revenos! Το υπόσχομαι!», λέει.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "Ο Μπόμπα μπαίνει μέσα στο διαστημόπλοιο και τους αποχαιρετάει. Απογειώνεται και υψώνεται στον ουρανό μέχρι που φαίνεται μόνο ένα μικρό φως – το φως του πλανήτη του που λάμπει. «Τα λέμε σύντομα, Μπόμπα!», φωνάζουν όλοι και χαμογελούν. ",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "sv": [{
+      "title": "Bobba gre domov",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Bobba in njegovi prijatelji se žogajo v parku, kjer je pristala Bobbova vesoljska ladja.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "Sončni zahod nebo odene v čudovite barve. Bobba je navdušen. Kako lepo je! Nenadoma se na nebu pojavi zvezda, pa še ena, in še ena. Bobba pokaže na zelo svetlo zvezdo in zakliče: \"Vidu la stelan!! Jen mia planedo!!\"",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Prijatelji prenehajo z igro. Zanima jih, kaj jim kaže Bobba. Približajo se mu in skupaj na nebu poiščejo njegovo zvezdo.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "Nenadoma zaslišijo tanek piskajoč zvok. Spet zapiska, tokrat glasneje: »Piiiiip«, in še glasneje: »PIP!«, »PIIIIIIP!«, »PIIIIIIIIIIIIIIIIP!!!!!«Bobba vzklikne: »Ohhhh, moj vesoljski telefon!«",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "Steče k svoji vesoljski ladji in dvigne slušalko. Prijatelji mu sledijo. Slišijo, kako se pogovarja: »Ĉu mi venu hejmen? Ĉu mi povas reveni? Estas bone! Ĝis baldaŭ!«",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "Bobba odloži slušalko in reče otrokom: »Moji starši pravijo, da moram zdaj domov. A lahko vas spet obiščem!« Ben reče: »Mislim, da moramo zdaj vsi domov. Mrači se.«",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "Otroci objamejo Bobbo in Olivia zašepeta: »Kmalu se vrni!« Bobba se nasmehne. »Mi revenos! Obljubim!« reče.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "Bobba vstopi v svojo vesoljsko ladjo in pomaha. Ladja vzleti in švigne v nebo. Kmalu na nebu ostane le še majhna lučka. »Se vidimo kmalu, Bobba!« zakličejo otroci.",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "al": [{
+      "title": "Kthimi në shtëpi",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Bobba dhe shokët e tij po argëtohen duke luajtur me top në parkun ku u ul anija kozmike e Bobbës.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "Dielli po perëndon dhe qielli është mbushur me ngjyra të ndryshme. Bobba është i mahnitur. Sa i bukur është! Papritmas shfaqet një yll, dhe një tjetër, dhe një tjetër. Bobba tregon me gisht një yll shumë të ndritshëm dhe bërtet: “Vidu la stelan!! Jen mia planedo!!”",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Shokët e tij ndalojnë së luajturi sepse të gjithë duan të shohin. Ata qëndrojnë pranë Bobbës për të gjetur yllin e tij.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "Papritmas, ata dëgjojnë një tingull të vogël \"bip\". E dëgjojnë sërish, këtë herë më me zë “Beep” dhe më fort “BEEP!” “BEEEEEEEEP!” “BEEEEEEEEEEEEEEP!!!!!!” Bobba bërtet: “Ohhhh, telefoni i anijes sime kozmike!”",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "Ai nxiton drejt anijes së tij kozmike dhe përgjigjet në telefon. Shokët e tij e ndjekin. Ata e dëgjojnë atë duke thënë: “Ĉu mi venu hejmen? Ĉu mi povas reveni? Esta bona! Ĝis baldaŭ!”",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "Ai e mbyll telefonin dhe thotë: “Familja ime thotë se duhet të kthehem tani. Por mund të vij përsëri!!” Beni thotë: “Mendoj se të gjithë duhet të shkojmë në shtëpi tani. Po errësohet.”",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "Fëmijët e përqafojnë fort Bobbën dhe Olivia thotë: “Kthehu shpejt!” dhe Boba buzëqesh. “Mi revenos! Të premtoj!”, thotë ai.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "Bobba hip në anijen e tij kozmike dhe përshëndet me dorë. Ai niset dhe fluturon lart në qiell, derisa mbetet vetëm një dritë e vogë- drita e planetit të tij që shkëlqen. \"Shihemi së shpejti, Bobba!\", bërtasin të gjithë dhe buzëqeshin.",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "ukr": [{
+      "title": "Додому",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Бобба та його друзі весело граються з м'ячем у парку, де приземлився космічний корабель Бобби.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "Сонце сідає, і небо сповнене різних кольорів. Бобба вражений. Яке воно гарне! Раптом з'являється зірка, і ще одна, і ще одна. Бобба показує на дуже яскраву і кричить: \"Vidu lastelan!! Jen mia planedo!!!\"",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Його друзі припиняють грати, бо всі хочуть побачити. Вони стоять близько до Бобби, щоб знайти його зірку.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "Раптом вони чують тоненький звуковий сигнал. Вони чують його знову, цього разу голосніше \"Біп\" і ще голосніше \"БІП!\" \"БІІІІІІІІП!\" \"БІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІ\" Бобба кричить: \"Оооо, мій космічний телефон!\"",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "Він поспішає до свого космічного корабля і відповідає на телефонний дзвінок. Його друзі йдуть за ним. Вони чують, як він каже: \"Я хочу повернутися додому? \"Я знаю, що типовернувся? Esta bona! Це балда!\"",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "Він кладе слухавку і каже: \"Моя сім'я каже, що я повинен повернутися додому. Але я можу приїхати знову!!!\"Бен каже: \"Думаю, нам усім треба йти додому. Вже темніє.\"",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "Діти міцно обіймають Боббу, а Олівія каже: \"Приходьте ще!\", і Бобба посміхається. \"Mi revenos! Обіцяю!\", - каже він.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "Бобба сідає у свій космічний корабель і махає рукою. Він злітає і ширяє в небі, аж поки не залишається лише маленький вогник - світло його планети. \"Скоро побачимося, Бобба!\", - кричать вони всі і посміхаються.",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "pl": [{
+      "title": "Bobba wraca do domu",
+      "titlePicture": "",
+      "fullAudio": "",
+      "fullText": "",
+      "pages": {
+        "1": {
+          "text": "Bobba i jego przyjaciele bawią się piłką w parku, w którym wylądował statek kosmiczny Bobby.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "Słońce zachodzi, a niebo mieni się różnymi kolorami. Bobba jest pod wrażeniem. Jakie to piękne! Nagle pojawia się gwiazda, potem kolejna i jeszcze jedna. Bobba wskazuje na bardzo jasną gwiazdę i krzyczy: \"Vidu la stelan!!! Jen mia planedo!!!\"",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Jego przyjaciele przestają się bawić, ponieważ wszyscy chcą to zobaczyć. Stają blisko Bobby, aby znaleźć jego gwiazdę.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "Nagle słyszą ciche pikanie. Słyszą je ponownie, tym razem głośniej „Beep” i jeszcze głośniej „BEEP!”. „BEEEEEEEEP!” „BEEEEEEEEEEEEEEP!!!!!!” Bobba krzyczy:  „Ohhhh, to mój telefon na statku kosmicznym!”.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "Biegnie do swojego statku kosmicznego i odbiera telefon. Jego przyjaciele podążają za nim. Słyszą, jak mówi: \"Ĉu mi venu hejmen ? Ĉu mi povas reveni? Esta bona! Jest dobrze!\"",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "Odkłada słuchawkę i mówi: \"Moja rodzina mówi, że muszę już wracać do domu. Ale mogę przyjechać ponownie!!!\" Ben mówi: \"Myślę, że wszyscy musimy już wracać do domu. Robi się ciemno\".",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "Dzieci mocno przytulają Bobbę, a Olivia mówi: \"Wracaj szybko!\", a Bobba uśmiecha się. \"Mi revenos! Obiecuję!\", mówi.",
+          "imageUrl": "",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "Bobba wsiada do swojego statku kosmicznego i macha. Odlatuje i szybuje w przestworzach, aż zostaje tylko odrobina światła - światło jego planety. „Do zobaczenia wkrótce, Bobba!”, wszyscy krzyczą i uśmiechają się.",
+          "imageUrl": "",
+          "audioUrl": ""
+        }
+      }
+    }]
   }
 ]
