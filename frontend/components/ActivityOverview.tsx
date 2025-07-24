@@ -48,7 +48,6 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
 		)
 	);
 
-	const totalActivities = allActivities.length;
 
 	// const handleActivitySelect = (activityId: string, checked: boolean) => {
 	// 	const newSelected = new Set(selectedActivities);

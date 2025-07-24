@@ -1,6 +1,8 @@
 "use client"
-import { useState, useEffect } from 'react'
-import { Menu, Moon, Sun } from 'lucide-react'
+
+import Link from 'next/link';
+
+
 
 export default function NavBar() {
     // Note: The mobile menu and theme-toggle logic has been simplified 
@@ -13,11 +15,11 @@ export default function NavBar() {
             <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
                 <div className="container mx-auto h-14 flex items-center">
                     <div className="flex">
-                        <a className="flex items-center space-x-8 px-6" href="/">
+                        <Link href="/" className="flex items-center space-x-8 px-6">
                             <img src='/LOGO.jpeg' alt="Agentive Logo" 
                             className="h-8 w-auto" />
                             <span className="font-bold sm:inline-block">AGENTIVE</span>
-                        </a>
+                        </Link>
                         {/* Desktop Navigation */}
                         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
                             <a className="transition-colors hover:text-foreground/80 text-foreground" href="/learning-material">Learning Material</a>

@@ -56,7 +56,7 @@ export function StoryPlayer({
   
   // Carousel state
   const [api, setApi] = useState<CarouselApi>();
-  const [fullscreenApi, setFullscreenApi] = useState<CarouselApi>();
+  const [fullscreenApi,] = useState<CarouselApi>();
   // Remove the unused current variable
   const [isFullscreen, setIsFullscreen] = useState(false);
   
