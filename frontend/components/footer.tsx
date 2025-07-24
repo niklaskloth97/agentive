@@ -21,7 +21,7 @@ export default function Footer() {
                             <Link className="mt-2 text-gray-400" href="/impress">Impress</Link>
                     </div>
                     <div>
-                        <Image src="/images/eu-footer.svg" alt="Funded by the Erasmus+ Programm of the European Union" width={200} height={100} className="rounded-lg mb-4" />
+                        <Image src="/eu-footer.svg" alt="Funded by the Erasmus+ Programm of the European Union" width={200} height={100} className="rounded-lg mb-4" />
                     </div>
                     
                 </div>
