@@ -171,7 +171,7 @@ export function StoryPlayer({
     
     return (
       <div className={cn(
-        "text-container mt-4 bg-white rounded-lg w-full max-w-4xl mx-auto",
+        "text-container mt-4 bg-white rounded-lg",
         isFullscreen ? "p-4" : "border p-2 shadow-sm"
       )}>
         <p className={cn(
@@ -426,19 +426,31 @@ export function StoryPlayer({
               )}
               style={{ boxSizing: "border-box" }}
             >
-              <div className="flex flex-col max-h-screen max-w-screen items-center justify-center">
+              <div className="flex flex-col h-full w-full px-20">
                 {/* Fullscreen carousel - takes remaining space */}
-                <div className="flex-1 flex items-center justify-center h-">
-                  <Carousel setApi={setApi} className="">
-                    <CarouselContent className="max-w-5xl">
+                <div className="flex-1 min-h-0 w-full">
+                  <Carousel setApi={setApi} className="w-full h-full">
+                    <CarouselContent className="h-full">
                       {(selectedLanguage && pages.length > 0 ? pages : [placeholderPage]).map((page, index) => (
                         <CarouselItem 
                           key={`${selectedLanguage || "placeholder"}-${index}`} 
-                          className="flex items-center justify-center"
+                          className="flex items-center justify-center h-full"
                         >
                           <Card className="w-full h-full flex items-center justify-center">
                             <CardContent className="flex flex-col w-full h-full items-center justify-center p-2">
-                              <div className="relative w-3/4 h-3/4 aspect-video">
+                              <div 
+                                className={cn(
+                                  "relative aspect-video w-full",
+                                  // Dynamic height based on text presence and length
+                                  selectedLanguage && isTextVisible && page.text ? 
+                                    // When text is shown, reduce height based on text length
+                                    page.text.length > 200 ? "h-[50vh]" : 
+                                    page.text.length > 100 ? "h-[60vh]" : "h-[70vh]"
+                                    :
+                                    // When no text, use maximum height
+                                    "h-[80vh]"
+                                )}
+                              >
                                 <Image
                                   src={page.imageUrl} 
                                   alt={`Story scene ${index + 1}`}
