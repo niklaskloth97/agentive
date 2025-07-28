@@ -66,7 +66,6 @@ export function StoryPlayer({
   
   // Audio player state
   const [isPlaying, setIsPlaying] = useState(false);
-  const [audioAutoPlay, setAudioAutoPlay] = useState(false);
   
   // Text visibility state
   const [isTextVisible] = useState<boolean>(showText);
@@ -127,7 +126,6 @@ export function StoryPlayer({
     // Otherwise keep the current page position
     
     setIsPlaying(false);
-    setAudioAutoPlay(false);
   };
 
   // COMMENTED OUT - using HTML5 player controls instead
@@ -234,7 +232,6 @@ export function StoryPlayer({
       const handlePause = () => setIsPlaying(false);
       const handleEnded = () => {
         setIsPlaying(false);
-        setAudioAutoPlay(false);
       };
 
       audioElement.addEventListener('play', handlePlay);
@@ -482,12 +479,11 @@ export function StoryPlayer({
                     <div className="flex justify-between flex-col">
                       {selectedLanguage && pages[currentPage]?.audioUrl && (
                         <audio 
-                        
-                          autoPlay={audioAutoPlay}
                           key={`audio-${selectedLanguage}-${currentPage}`}
                           className="w-full"
+                          preload="auto"
+                          src={pages[currentPage].audioUrl}
                         >
-                          <source src={pages[currentPage].audioUrl} type="audio/mpeg" />
                           Your browser does not support the audio element.
                         </audio>
                       )}
@@ -499,13 +495,11 @@ export function StoryPlayer({
                             const audioElement = document.querySelector('audio');
                             if (audioElement) {
                               if (audioElement.paused) {
-                                audioElement.play();
-                                setAudioAutoPlay(true);
-                                setIsPlaying(true);
+                                audioElement.play().catch(err => {
+                                  console.error('Audio playback failed:', err);
+                                });
                               } else {
                                 audioElement.pause();
-                                setAudioAutoPlay(false);
-                                setIsPlaying(false);
                               }
                             }
                           }}
