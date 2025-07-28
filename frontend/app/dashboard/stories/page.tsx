@@ -36,7 +36,7 @@ export default function Page() {
 
   return (
     <DashboardLayout breadcrumbItems={breadcrumbItems}>
-      <div className="container mx-auto py-4">
+      <div>
         <h1 className="text-3xl font-bold mb-6">Multilingual Stories</h1>
         
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-10">
@@ -65,7 +65,7 @@ export default function Page() {
         <Dialog open={selectedStory !== null} onOpenChange={closeStoryDialog}>
           <DialogTitle className="sr-only">Story Details</DialogTitle>
           <DialogContent 
-            className="w-[200vw] h-[85vh] max-h-[85vh] max-w-[160vh] m-4 rounded-lg border"
+            className="w-[90vw] h-[85vh] max-h-[85vh] max-w-[1200px] m-4 rounded-lg border"
           >            
             {selectedType === 'json' && selectedStory && (
               <div className="flex flex-col h-full">
@@ -78,7 +78,7 @@ export default function Page() {
                       <>
                         <div className="flex flex-col sm:flex-row items-center sm:items-start bg-white dark:bg-gray-800/40 rounded-xl mb-6 max-w-2xl w-full overflow-hidden">
                           <div className="w-full sm:w-1/2 flex-shrink-0">
-                            <div className="relative aspect-square w-full max-w-[100px] mx-auto">
+                            <div className="relative aspect-square w-full max-w-[200px] mx-auto">
                               <Image
                                 src={getStoryCoverImage(story)}
                                 alt={getStoryTitle(story)}

@@ -28,20 +28,15 @@ export default async function Page({
 
 	return (
 		<DashboardLayout breadcrumbItems={breadcrumbItems}>
-			<div>
-				<h1>{meta.label}</h1>
-
-			</div>
-			<ActivityOverview groupKey={group} />
-							<Button
-					className="mt-4"
-					variant="outline"
-					asChild
-				>
+			<div className="space-y-6">
+				<h1 className="text-3xl font-bold">{meta.label}</h1>
+				<ActivityOverview groupKey={group} />
+				<Button className="mt-4" variant="outline" asChild>
 					<a href={`/dashboard/activities/${group}/guide.pdf`} download>
 						Download Guide
 					</a>
 				</Button>
+			</div>
 		</DashboardLayout>
 	);
 }

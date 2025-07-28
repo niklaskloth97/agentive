@@ -14,7 +14,7 @@ const breadcrumbItems = [
 export default function Page() {
   return (
     <DashboardLayout breadcrumbItems={breadcrumbItems}>
-      <div className="container mx-auto">
+      <div>
         <h1 className="text-3xl font-bold mb-8">Multilingual Resources</h1>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
