@@ -25,6 +25,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import storiesData from '@/data/stories.json';
 import { DialogTitle } from "@radix-ui/react-dialog";
 import { cn } from "@/lib/utils";
+import { TranslateButtons } from '@/components/translateButtons';
+import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext';
 
 interface StoryPlayerProps {
   storyId: string;
@@ -51,6 +53,9 @@ export function StoryPlayer({
   showText = true,
   className 
 }: StoryPlayerProps) {
+  // Get website language for translations
+  const { websiteLanguage } = useWebsiteLanguage();
+  
   // Story data access
   const storyInfo = storiesData.find(story => story.id === storyId);
   
@@ -281,31 +286,39 @@ export function StoryPlayer({
             <div className="flex flex-col p-4 gap-6 h-full relative">
               <div className="transition-opacity space-y-8">
                 <div>
-                  <h3 className="text-sm font-medium mb-2">Select a Language</h3>
+                  <h3 className="text-sm font-medium mb-2">
+                    <TranslateButtons translationKey="select-lang" currentLanguage={websiteLanguage} />
+                  </h3>
                   <LanguageSelector />
                 </div>
                 
                 {selectedLanguage && (
                   <>
                     <div>
-                      <h3 className="text-sm font-medium mb-2">Download</h3>
+                      <h3 className="text-sm font-medium mb-2">
+                        <TranslateButtons translationKey="download" currentLanguage={websiteLanguage} />
+                      </h3>
                       
                       {pages[currentPage]?.audioUrl && (
                         <Button className="w-full mb-2" variant="outline" asChild>
                           <a href={pages[currentPage].audioUrl} download>
-                            <Download className="mr-2" size={16}/> Audio
+                            <Download className="mr-2" size={16}/>
+                            <TranslateButtons translationKey="audio" currentLanguage={websiteLanguage} />
                           </a>
                         </Button>
                       )}
                       
                       <Button className="w-full mb-4" variant="outline">
-                        <Download className="mr-2" size={16}/> Text
+                        <Download className="mr-2" size={16}/>
+                        <TranslateButtons translationKey="text" currentLanguage={websiteLanguage} />
                       </Button>
                       <Button className="w-full mb-4" variant="outline">
-                        <Download className="mr-2" size={16}/> Pictures
+                        <Download className="mr-2" size={16}/>
+                        <TranslateButtons translationKey="picture" currentLanguage={websiteLanguage} />
                       </Button>
                       <Button className="w-full mb-4" variant="outline">
-                        <Download className="mr-2" size={16}/> Dialogic Reading Guide
+                        <Download className="mr-2" size={16}/>
+                        <TranslateButtons translationKey="dialog-guide" currentLanguage={websiteLanguage} />
                       </Button>
                     </div>
 
@@ -315,7 +328,8 @@ export function StoryPlayer({
                       onClick={openFullscreenWithAutoplay}
                       disabled={!pages[currentPage]?.audioUrl}
                     >
-                      <Play className="mr-2" size={24}/> Go
+                      <Play className="mr-2" size={24}/>
+                      <TranslateButtons translationKey="go" currentLanguage={websiteLanguage} />
                     </Button>
                   </>
                 )}
@@ -335,7 +349,9 @@ export function StoryPlayer({
                     <Card className=" w-80 shadow-lg">
                       <CardContent className="flex flex-col items-center p-6 text-center">
                         <Globe className="h-12 w-12 text-primary mb-4" />
-                        <h3 className="text-xl font-medium mb-2">Select a Language</h3>
+                        <h3 className="text-xl font-medium mb-2">
+                          <TranslateButtons translationKey="select-lang" currentLanguage={websiteLanguage} />
+                        </h3>
                         
                         <div className="mt-2">
                           <LanguageSelector />
@@ -397,16 +413,6 @@ export function StoryPlayer({
               </div>
             </div>
           </div>
-          
-          {/* COMMENTED OUT - Hidden audio player replaced by HTML5 player in fullscreen */}
-          {/* {showAudioControls && selectedLanguage && pages[currentPage]?.audioUrl && (
-            <audio 
-              ref={audioRef}
-              src={pages[currentPage].audioUrl}
-              onEnded={handleAudioEnded}
-              className="hidden"
-            />
-          )} */}
           
           {/* Fullscreen */}
           <Dialog open={isFullscreen} onOpenChange={setIsFullscreen}>
@@ -507,7 +513,10 @@ export function StoryPlayer({
                           variant="default"
                         >
                           {isPlaying ? <Pause className="mr-2" size={20} /> : <Play className="mr-2" size={20} />}
-                          {isPlaying ? "Pause" : "Play"}
+                          {isPlaying ? 
+                            <TranslateButtons translationKey="pause" currentLanguage={websiteLanguage} /> : 
+                            <TranslateButtons translationKey="play" currentLanguage={websiteLanguage} />
+                          }
                         </Button>
                         <Button 
                           size="lg"
@@ -520,7 +529,7 @@ export function StoryPlayer({
                               <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
                               <polyline points="9 22 9 12 15 12 15 22"/>
                             </svg>
-                            Stories
+                            <TranslateButtons translationKey="stories" currentLanguage={websiteLanguage} />
                           </a>
                         </Button>
                       </div>
@@ -541,7 +550,7 @@ export function StoryPlayer({
                             <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
                             <polyline points="9 22 9 12 15 12 15 22"/>
                           </svg>
-                          Stories
+                          <TranslateButtons translationKey="stories" currentLanguage={websiteLanguage} />
                         </a>
                       </Button>
                     </div>

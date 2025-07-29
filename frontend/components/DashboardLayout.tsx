@@ -11,16 +11,16 @@ import {
 import { Button } from "@/components/ui/button"
 import { ChevronLeft } from "lucide-react"
 import { useRouter } from "next/navigation"
+import {ReactNode} from "react"
+import { BreadcrumbItem } from "@/components/dynamicBreadcrumb"
 
-interface BreadcrumbItem {
-  label: string;
-  href?: string;
-}
+// Use the BreadcrumbItem type from dynamicBreadcrumb to ensure compatibility
 
 interface DashboardLayoutProps {
   breadcrumbItems: BreadcrumbItem[];
   children: React.ReactNode;
 }
+
 
 export function DashboardLayout({ breadcrumbItems, children }: DashboardLayoutProps) {
   const router = useRouter();

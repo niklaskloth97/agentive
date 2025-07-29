@@ -11,14 +11,22 @@ import { DialogTitle } from "@radix-ui/react-dialog"
 import storiesData from '@/data/stories.json'
 import { Button } from "@/components/ui/button"
 import { Story, getStoryTitle, getStoryCoverImage, getStoryLanguages } from "@/types/story"
+import { TranslateButtons } from '@/components/translateButtons'
+import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext'
 
 export default function Page() {
   const [selectedStory, setSelectedStory] = useState<string | null>(null)
   const [selectedType, setSelectedType] = useState<'json' | 'array' | null>(null)
+  const { websiteLanguage } = useWebsiteLanguage()
   
   const breadcrumbItems = [
-    { label: "Multilingual Resources", href: "/dashboard/" },
-    { label: "Stories" }
+    { 
+      label: <TranslateButtons translationKey="multilingual-ressources" currentLanguage={websiteLanguage} />, 
+      href: "/dashboard/" 
+    },
+    { 
+      label: <TranslateButtons translationKey="stories" currentLanguage={websiteLanguage} />
+    }
   ];
 
   const openStoryDialog = (id: string, type: 'json' | 'array') => {
@@ -37,7 +45,9 @@ export default function Page() {
   return (
     <DashboardLayout breadcrumbItems={breadcrumbItems}>
       <div>
-        <h1 className="text-3xl font-bold mb-6">Multilingual Stories</h1>
+        <h1 className="text-3xl font-bold mb-6">
+          <TranslateButtons translationKey="multilingual-stories" currentLanguage={websiteLanguage} />
+        </h1>
         
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-10">
           {typedStoriesData.map((story) => (
@@ -63,7 +73,9 @@ export default function Page() {
 
         {/* Fullscreen Story Dialog */}
         <Dialog open={selectedStory !== null} onOpenChange={closeStoryDialog}>
-          <DialogTitle className="sr-only">Story Details</DialogTitle>
+          <DialogTitle className="sr-only">
+            <TranslateButtons translationKey="story-details" currentLanguage={websiteLanguage} />
+          </DialogTitle>
           <DialogContent 
             className="w-[90vw] h-[85vh] max-h-[85vh] max-w-[1200px] m-4 rounded-lg border"
           >            
@@ -90,7 +102,9 @@ export default function Page() {
                           <div className="w-full sm:w-2/3 p-4 sm:border-l border-gray-200 dark:border-gray-700 flex flex-col justify-center h-full">
                             <h2 className="text-xl sm:text-2xl font-semibold">{getStoryTitle(story)}</h2>
                             <div className="text-sm text-gray-600 dark:text-gray-300">
-                              <p>Available in: {getStoryLanguages(story).join(', ')}</p>
+                              <p>
+                                <TranslateButtons translationKey="available" currentLanguage={websiteLanguage} />: {getStoryLanguages(story).join(', ')}
+                              </p>
                             </div>
                           </div>
                         </div>
@@ -102,7 +116,9 @@ export default function Page() {
                               aria-label="Listen to story"
                             >
                               <Headphones className="h-36 w-36 md:h-48 md:w-48 text-blue-600" strokeWidth={1.5} />
-                              <span className="text-lg font-semibold text-blue-600 mt-3">Listen & Watch</span>
+                              <span className="text-lg font-semibold text-blue-600 mt-3">
+                                <TranslateButtons translationKey="listen-n-watch" currentLanguage={websiteLanguage} />
+                              </span>
                             </button>
                           </Link>
 
@@ -113,7 +129,9 @@ export default function Page() {
                               aria-label="Read story"
                             >
                               <BookOpen className="h-36 w-36 md:h-48 md:w-48 text-yellow-600" strokeWidth={1.5} />
-                              <span className="text-lg font-semibold text-yellow-600 mt-3">Read</span>
+                              <span className="text-lg font-semibold text-yellow-600 mt-3">
+                                <TranslateButtons translationKey="read" currentLanguage={websiteLanguage} />
+                              </span>
                             </button>
                           </Link>
                         </div>
@@ -131,7 +149,7 @@ export default function Page() {
                   >
                     <a href="/dashboard/stories">
                       <Home className="h-8 w-8 md:h-8 md:w-8 mr-2" />
-                      Stories
+                      <TranslateButtons translationKey="stories" currentLanguage={websiteLanguage} />
                     </a>
                   </Button>
                 </div>

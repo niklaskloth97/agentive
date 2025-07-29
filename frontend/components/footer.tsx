@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { TranslateButtons } from '@/components/translateButtons';
+
 
 export default function Footer() {
     return (    
