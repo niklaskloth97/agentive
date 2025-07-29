@@ -1,6 +1,5 @@
 "use client"
 
-import { useState } from 'react';
 import Link from 'next/link';
 import { ChevronDown } from "lucide-react";
 import {
@@ -10,6 +9,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { TranslateButtons } from '@/components/translateButtons';
+import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext';
 
 // Available languages with flags
 const availableLanguages = [
@@ -23,7 +23,7 @@ const availableLanguages = [
 ];
 
 export default function NavBar() {
-  const [websiteLanguage, setWebsiteLanguage] = useState("en");
+  const { websiteLanguage, setWebsiteLanguage } = useWebsiteLanguage();
 
   const handleLanguageChange = (languageId: string) => {
     setWebsiteLanguage(languageId);

@@ -4,6 +4,8 @@ import "./globals.css";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider"
+import { WebsiteLanguageProvider } from '@/contexts/WebsiteLanguageContext';
+
 //import { AppSidebar } from "@/app/dashboard/app-sidebar";
 
 const geistSans = localFont({
@@ -34,13 +36,15 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <NavBar />
-          <main className="flex-grow overflow-y-auto">
-          <div className='mx-auto pr-4'>
-              {children}
-            </div>
-          </main>
-          <Footer />
+          <WebsiteLanguageProvider>
+            <NavBar />
+            <main className="flex-grow overflow-y-auto">
+            <div className='mx-auto pr-4'>
+                {children}
+              </div>
+            </main>
+            <Footer />
+          </WebsiteLanguageProvider>
         </ThemeProvider>
       </body>
     </html>
