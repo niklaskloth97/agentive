@@ -164,8 +164,8 @@ export function StoryPlayer({
     
     return (
       <div className={cn(
-        "text-container mt-4 bg-white rounded-lg",
-        isFullscreen ? "p-4" : "border p-2 shadow-sm"
+        "text-container bg-white rounded-lg",
+        isFullscreen ? "px-4" : "border p-2 shadow-sm"
       )}>
         <p className={cn(
           "text-center break-words hyphens-auto",
@@ -329,10 +329,10 @@ export function StoryPlayer({
             "w-[calc(100%-16rem)]"
           )}>
             <div className="w-full max-w-4xl mx-auto h-full flex flex-col">
-              <div className="relative flex-1">
+              <div className="relative flex-1 px-16">
                 {!selectedLanguage && (
                   <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/5 backdrop-blur-sm">
-                    <Card className="w-80 shadow-lg">
+                    <Card className=" w-80 shadow-lg">
                       <CardContent className="flex flex-col items-center p-6 text-center">
                         <Globe className="h-12 w-12 text-primary mb-4" />
                         <h3 className="text-xl font-medium mb-2">Select a Language</h3>
@@ -437,10 +437,10 @@ export function StoryPlayer({
                                   selectedLanguage && isTextVisible && page.text ? 
                                     // When text is shown, reduce height based on text length
                                     page.text.length > 200 ? "h-[50vh]" : 
-                                    page.text.length > 100 ? "h-[60vh]" : "h-[70vh]"
+                                    page.text.length > 100 ? "h-[60vh]" : "h-[60vh]"
                                     :
                                     // When no text, use maximum height
-                                    "h-[80vh]"
+                                    "h-[60vh]"
                                 )}
                               >
                                 <Image
