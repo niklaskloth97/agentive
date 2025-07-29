@@ -21,9 +21,8 @@ export interface LanguageContent {
 
 export interface Activity {
   id: string;
-  type: ActivityType;
-  title: string;
-  description: string;
+  title?: string;
+  description?: string; 
   languages: Record<string, LanguageContent>;
 }
 
@@ -49,10 +48,10 @@ export default function ActivityViewer({
    
 }: ActivityViewerProps) {
   const breadcrumbItems = [
-  { label: "Multilingual Stories", href: "/dashboard" },
-  { label: "Follow-up Activities", href: "/dashboard/follow-up-activities" },
-  { label: storyTitle, href: `/dashboard/multilingual-stories/${storySlug}` },
-  { label: activity.title }
+    { label: "Multilingual Stories", href: "/dashboard" },
+    { label: "Follow-up Activities", href: "/dashboard/follow-up-activities" },
+    { label: storyTitle, href: `/dashboard/multilingual-stories/${storySlug}` },
+    { label: activity.title || "Activity" } // Provide fallback for undefined title
     ];
   // Get all available languages from the activity
   const allLanguages = Object.keys(activity.languages);
@@ -74,7 +73,7 @@ export default function ActivityViewer({
     if (currentContent && currentContent.pdfUrl) {
       const link = document.createElement('a');
       link.href = currentContent.pdfUrl;
-      link.download = `${activity.title}-${currentContent.label}.pdf`;
+      link.download = `${activity.title || 'activity'}-${currentContent.label}.pdf`; // Handle undefined title
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -94,7 +93,7 @@ export default function ActivityViewer({
     >
       <DashboardLayout breadcrumbItems={breadcrumbItems}>
         <h1 className="text-2xl text-center font-bold ml-3 mb-4">
-          {activity.title}
+          {activity.title || "Activity"} {/* Provide fallback for undefined title */}
         </h1>
         <div className="flex flex-col md:flex-row w-full gap-4">
           {/* Right Column - 25% */}
@@ -117,7 +116,8 @@ export default function ActivityViewer({
           {/* Left Column - 75% */}
           <div className="w-full md:w-4/5">
             <CollapsibleCard 
-              title={`View ${activity.type}`}
+              // Handle undefined title
+              title={`View ${activity.title || "Activity"}`}
               defaultOpen={true}
             >
               <LanguageAwarePdfViewer 

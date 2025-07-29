@@ -238,44 +238,9 @@ export const ACTIVITY_GROUPS: Record<
 						}
 						},
 					}
-					],
-					// Second set with different activities
-					[
-					{
-						id: "activity-1-4",
-						type: "song",
-						title: "Alien Greeting Song",
-						description: "Learn how to say hello like Bobba",
-						languages: {
-						en: {
-							label: "English",
-							audioUrl: "/audio/test-en.opus",
-							pdfUrl: "/learning-material/story-1/greeting-song-en.pdf",
-						},
-						de: {
-							label: "German",
-							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/learning-material/story-1/greeting-song-de.pdf",
-						}
-						},
-					},
-					{
-						id: "activity-1-5",
-						type: "worksheet",
-						title: "Earth Adventures Worksheet",
-						description: "Activities about Bobba's adventures on Earth",
-						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/learning-material/story-1/earth-adventures-en.pdf",
-						},
-						de: {
-							label: "German",
-							pdfUrl: "/learning-material/story-1/earth-adventures-de.pdf",
-						}
-						},
-					}
 					]
+					// Second set with different activities
+					
 				],
 				}
 		],
@@ -337,43 +302,6 @@ export const ACTIVITY_GROUPS: Record<
 							label: "French",
 							pdfUrl: "/activities/story1/PC/Story_1_ICAU_3_F.pdf",
 							title: "PARLER L’ESPÉRANTO",
-						}
-						},
-					}
-					],
-					// Second set with different activities
-					[
-					{
-						id: "activity-1-4",
-						type: "song",
-						title: "Alien Greeting Song",
-						description: "Learn how to say hello like Bobba",
-						languages: {
-						en: {
-							label: "English",
-							audioUrl: "/audio/test-en.opus",
-							pdfUrl: "/learning-material/story-1/greeting-song-en.pdf",
-						},
-						de: {
-							label: "German",
-							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/learning-material/story-1/greeting-song-de.pdf",
-						}
-						},
-					},
-					{
-						id: "activity-1-5",
-						type: "worksheet",
-						title: "Earth Adventures Worksheet",
-						description: "Activities about Bobba's adventures on Earth",
-						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/learning-material/story-1/earth-adventures-en.pdf",
-						},
-						de: {
-							label: "German",
-							pdfUrl: "/learning-material/story-1/earth-adventures-de.pdf",
 						}
 						},
 					}
