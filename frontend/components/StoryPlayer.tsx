@@ -67,6 +67,23 @@ export function StoryPlayer({
   // Audio player state
   const [isPlaying, setIsPlaying] = useState(false);
   
+  const [audioAutoPlay, setAudioAutoPlay] = useState(false);
+
+  const [isSafari, setIsSafari] = useState(false);
+
+  const autoPlaySafariFix = (boolean: boolean) => {
+  // Safari requires user interaction to play audio, so we set autoPlay to false initially 
+  if (isSafari || !boolean) {
+    setAudioAutoPlay(false);
+    return false;
+  } else {
+    // For other browsers and when boolean is true, we can set autoPlay to true
+    setAudioAutoPlay(true);
+    return true;
+  }
+}
+
+
   // Text visibility state
   const [isTextVisible] = useState<boolean>(showText);
   
@@ -126,43 +143,21 @@ export function StoryPlayer({
     // Otherwise keep the current page position
     
     setIsPlaying(false);
+    setAudioAutoPlay(false);
+  };
+  // Safari detection useEffect
+  useEffect(() => {
+  const detectSafari = () => {
+    const userAgent = navigator.userAgent.toLowerCase();
+    const isSafariBrowser = userAgent.includes('safari') && 
+                           !userAgent.includes('chrome') && 
+                           !userAgent.includes('chromium') && 
+                           !userAgent.includes('edg');
+    setIsSafari(isSafariBrowser);
   };
 
-  // COMMENTED OUT - using HTML5 player controls instead
-  // // play/pause
-  // const togglePlayPause = () => {
-  //   if (!audioRef.current) return;
-    
-  //   if (isPlaying) {
-  //     audioRef.current.pause();
-  //   } else {
-  //     audioRef.current.play();
-  //   }
-  //   setIsPlaying(!isPlaying);
-  // };
-
-  // COMMENTED OUT - using HTML5 player controls instead
-  // // Handle when audio ended
-  // const handleAudioEnded = () => {
-  //   setIsPlaying(false);
-  // };
-
-  // COMMENTED OUT - using HTML5 player controls instead
-  // // Handle volume change
-  // const handleVolumeChange = (value: number[]) => {
-  //   const newVolume = value[0];
-  //   setVolume(newVolume);
-    
-  //   if (audioRef.current) {
-  //     audioRef.current.volume = newVolume;
-  //   }
-  // };
-  
-  // // Toggle text visibility
-  // const toggleTextVisibility = () => {
-  //   setIsTextVisible(prev => !prev);
-  // };
-
+  detectSafari();
+}, []);
   // Render text container
   const renderTextContainer = (page: StoryPageItem, isFullscreen: boolean = false) => {
     if (!isTextVisible) return null;
@@ -231,7 +226,7 @@ export function StoryPlayer({
       const handlePlay = () => setIsPlaying(true);
       const handlePause = () => setIsPlaying(false);
       const handleEnded = () => {
-        setIsPlaying(false);
+        setIsPlaying(false); setAudioAutoPlay(false);
       };
 
       audioElement.addEventListener('play', handlePlay);
@@ -479,6 +474,7 @@ export function StoryPlayer({
                     <div className="flex justify-between flex-col">
                       {selectedLanguage && pages[currentPage]?.audioUrl && (
                         <audio 
+                          autoPlay={audioAutoPlay && !isSafari} // Only autoplay if not Safari
                           key={`audio-${selectedLanguage}-${currentPage}`}
                           className="w-full"
                           preload="auto"
@@ -498,8 +494,12 @@ export function StoryPlayer({
                                 audioElement.play().catch(err => {
                                   console.error('Audio playback failed:', err);
                                 });
+                                // Enable autoplay for next slides (but not on Safari)
+                                autoPlaySafariFix(true);
+                                setIsPlaying(true);
                               } else {
                                 audioElement.pause();
+                                setIsPlaying(false);
                               }
                             }
                           }}
