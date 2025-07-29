@@ -5,6 +5,8 @@ import { useSearchParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Download } from "lucide-react";
+import { LanguageProvider } from "@/components/LanguageProvider";
+import LanguageSelector from "@/components/LanguageSelector";
 import {
 	ACTIVITY_GROUPS,
 	ACTIVITY_GROUPS_META,
@@ -22,9 +24,12 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
 	const searchParams = useSearchParams();
 	const storyIdFromUrl = searchParams.get("storyId");
 
-	const [selectedActivities, setSelectedActivities] = useState<Set<string>>(
-		new Set()
-	);
+    const [selectedActivities, setSelectedActivities] = useState<Set<string>>(
+        new Set()
+    );
+
+    // Website language state (separate from story language)
+    const [websiteLanguage, setWebsiteLanguage] = useState<string>("en");
 
 	// Filter the data to show only activities for the provided story ID
 	const data = ACTIVITY_GROUPS[groupKey as ActivityGroupKey];
@@ -48,16 +53,20 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
 		)
 	);
 
+    // Create available languages based on activities
+    const availableLanguages = {
+        en: { label: "EN" },
+        fr: { label: "FR" },
+        de: { label: "DE" },
+        it: { label: "IT" },
+        sv: { label: "SV" },
+        lux: { label: "LUX" },
+        gr: { label: "GR" },
+    };
 
-	// const handleActivitySelect = (activityId: string, checked: boolean) => {
-	// 	const newSelected = new Set(selectedActivities);
-	// 	if (checked) {
-	// 		newSelected.add(activityId);
-	// 	} else {
-	// 		newSelected.delete(activityId);
-	// 	}
-	// 	setSelectedActivities(newSelected);
-	// };
+    const handleLanguageChange = (language: string) => {
+        setWebsiteLanguage(language);
+    };
 
 	const handleSelectAll = (checked: boolean) => {
 		if (checked) {
@@ -79,225 +88,209 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
 		);
 		console.log("Downloading activities:", selectedActivityData);
 
-		// Here you would implement the actual download functionality
-		// For example, you could download all PDFs for the selected activities
-		selectedActivityData.forEach((activity) => {
-			// For each activity, you might want to download files for all languages
-			// or prompt the user to select a language
-			const languages = Object.keys(activity.languages);
-			console.log(
-				`Activity ${activity.title} available in languages:`,
-				languages
-			);
+        selectedActivityData.forEach((activity) => {
+            const languageData = activity.languages[websiteLanguage as keyof typeof activity.languages];
+            if (languageData?.pdfUrl) {
+                console.log(`Would download: ${languageData.pdfUrl}`);
+                // window.open(languageData.pdfUrl, '_blank')
+            }
+        });
+    };
 
-			// Example: download the first available language PDF
-			if (languages.length > 0) {
-				const firstLang = languages[0] as keyof typeof activity.languages;
-				const pdfUrl = activity.languages[firstLang]?.pdfUrl;
-				if (pdfUrl) {
-					console.log(`Would download: ${pdfUrl}`);
-					// window.open(pdfUrl, '_blank')
-				}
-			}
-		});
-	};
-
-	return (
-		<div className="p-6">
-			<div className="container mx-auto max-w-7xl">
+    return (
+        <LanguageProvider 
+            defaultLanguage="en"
+            availableLanguages={availableLanguages}
+            onLanguageChange={handleLanguageChange}
+        >
+            <div className="p-2">
+                <div className="container mx-auto max-w-7xl">									
 				{/* Header */}
-				<div className="text-center mb-8">
-					<div className="bg-white rounded-lg p-4 shadow-sm border max-w-4xl mx-auto">
-						<div
-							className="inline-block px-8 py-4 rounded-xl mb-4 shadow-lg"
-							style={{
-								backgroundColor: groupMeta.colors.primary,
-								color: groupMeta.colors.text,
-							}}
-						>
-							<h1 className="text-3xl font-bold mb-1">
-								Activities
-							</h1>
-							<p className="text-lg opacity-90">{groupMeta.label}</p>
+						<div className="text-center">
+							<div className="grid grid-cols-3 gap-2 mb-4">
+								<div className="bg-white rounded-lg p-4 shadow-sm border">
+									<h3 className="text-lg font-semibold mb-2">
+										Available Languages
+									</h3>
+									<LanguageSelector />
+								</div>
+								<div className="bg-white rounded-lg p-4 pt-10 shadow-sm border col-span-2">
+									<div className="flex items-center justify-beween mb-4">
+										
+									</div>
+									
+									<p className="text-gray-700">
+										Please <strong>check</strong> all activities you would like to <strong>download</strong> and <strong>press</strong> the download button or simply <strong>click on</strong> the activity button you would like <strong>to see</strong>.
+									</p>
+								</div>
+							</div>
 						</div>
-						<p className="text-gray-700">
-							Please <strong>check</strong> all activities you would like to <strong>download</strong> and <strong>press</strong> the download button or simply <strong>click on</strong> the activity button you would like <strong>to see</strong>.
-						</p>
-					</div>
-				</div>
 
-				{/* Controls */}
-				<div className="mb-6 flex flex-wrap items-center justify-between gap-4 bg-white rounded-lg p-4 shadow-sm border">
-					<Button
-						onClick={handleBulkDownload}
-						disabled={selectedActivities.size === 0}
-						className="flex items-center gap-2 px-6 py-2 rounded-lg shadow hover:shadow-md transition-shadow"
-						style={{
-							backgroundColor: groupMeta.colors.primary,
-							color: groupMeta.colors.text,
-						}}
-					>
-						<Download className="w-5 h-5" />
-						Download Activities ({selectedActivities.size})
-					</Button>
+                    {/* Controls */}
+                    <div className="mb-6 flex flex-wrap items-center justify-between gap-4 bg-white rounded-lg p-4 shadow-sm border">
+                        <Button
+                            onClick={handleBulkDownload}
+                            disabled={selectedActivities.size === 0}
+                            className="flex items-center gap-2 px-6 py-2 rounded-lg shadow hover:shadow-md transition-shadow"
+                            style={{
+                                backgroundColor: groupMeta.colors.primary,
+                                color: groupMeta.colors.text,
+                            }}
+                        >
+                            <Download className="w-5 h-5" />
+                            Download Activities ({selectedActivities.size})
+                        </Button>
 
-					<div className="flex items-center gap-2">
-						<Checkbox
-							id="select-all"
-							checked={
-								selectedActivities.size === allActivities.length &&
-								allActivities.length > 0
-							}
-							onCheckedChange={handleSelectAll}
-							className="w-5 h-5"
-							disabled={allActivities.length === 0}
-						/>
-						<label
-							htmlFor="select-all"
-							className="text-sm font-medium cursor-pointer"
-						>
-							Select All
-						</label>
-					</div>
-				</div>
+                        <div className="flex items-center gap-2">
+                            <Checkbox
+                                id="select-all"
+                                checked={
+                                    selectedActivities.size === allActivities.length &&
+                                    allActivities.length > 0
+                                }
+                                onCheckedChange={handleSelectAll}
+                                className="w-5 h-5"
+                                disabled={allActivities.length === 0}
+                            />
+                            <label
+                                htmlFor="select-all"
+                                className="text-sm font-medium cursor-pointer"
+                            >
+                                Select All
+                            </label>
+                        </div>
+                    </div>
 
-				{/* Table */}
-				<div className="bg-white rounded-lg overflow-hidden shadow-lg border">
-					<div className="overflow-x-auto">
-						<table className="w-full">
-							<thead>
-								<tr style={{ backgroundColor: `${groupMeta.colors.primary}20` }}>
-									<th className="p-4 text-left font-semibold border-r">
-										Story Title
-									</th>
-									{/* Determine max activities per set across all stories */}
-									{Array.from({
-										length: Math.max(
-											...stories.flatMap((story) =>
-												story.sets.map((set) => set.length)
-											),
-											0
-										),
-									}).map((_, activityIndex) => (
-										<th
-											className="p-4 text-center font-semibold border-r"
-											key={activityIndex}
-										>
-											Activity {groupKey}_{ALPHABET[activityIndex]}
-										</th>
-									))}
-								</tr>
-							</thead>
-							<tbody>
-								{stories.length > 0 ? (
-									stories.flatMap((story) =>
-										story.sets.map((set, setIndex) => (
-											<tr
-												key={`${story.id}-set-${setIndex}`}
-												className="border-t hover:bg-gray-50 transition-colors"
-											>
-												{/* Story title column - only show on first set */}
-												{setIndex === 0 && (
-													<td
-														className="p-4 font-medium border-r bg-gray-50/50 align-top"
-														rowSpan={story.sets.length}
-													>
-														{story.title}
-													</td>
-												)}
+                    {/* Table */}
+                    <div className="bg-white rounded-lg overflow-hidden shadow-lg border">
+                        <div className="overflow-x-auto">
+                            <table className="w-full">
+                                <thead>
+                                    <tr style={{ backgroundColor: `${groupMeta.colors.primary}20` }}>
+                                        <th className="p-4 text-left font-semibold border-r">
+                                            Story Title
+                                        </th>
+                                        {Array.from({
+                                            length: Math.max(
+                                                ...stories.flatMap((story) =>
+                                                    story.sets.map((set) => set.length)
+                                                ),
+                                                0
+                                            ),
+                                        }).map((_, activityIndex) => (
+                                            <th
+                                                className="p-4 text-center font-semibold border-r"
+                                                key={activityIndex}
+                                            >
+                                                Activity {groupKey}_{ALPHABET[activityIndex]}
+                                            </th>
+                                        ))}
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {stories.length > 0 ? (
+                                        stories.flatMap((story) =>
+                                            story.sets.map((set, setIndex) => (
+                                                <tr
+                                                    key={`${story.id}-set-${setIndex}`}
+                                                    className="border-t hover:bg-gray-50 transition-colors"
+                                                >
+                                                    {setIndex === 0 && (
+                                                        <td
+                                                            className="p-4 font-medium border-r bg-gray-50/50 align-top"
+                                                            rowSpan={story.sets.length}
+                                                        >
+                                                            {story.title}
+                                                        </td>
+                                                    )}
 
-												{/* Activity columns */}
-												{Array.from({
-													length: Math.max(
-														...stories.flatMap((s) =>
-															s.sets.map((set) => set.length)
-														),
-														0
-													),
-												}).map((_, activityIndex) => {
-													const activity = set[activityIndex];
+                                                    {Array.from({
+                                                        length: Math.max(
+                                                            ...stories.flatMap((s) =>
+                                                                s.sets.map((set) => set.length)
+                                                            ),
+                                                            0
+                                                        ),
+                                                    }).map((_, activityIndex) => {
+                                                        const activity = set[activityIndex];
+                                                        const languageData = activity?.languages[websiteLanguage as keyof typeof activity.languages];
 
-													return (
-														<td
-															key={activityIndex}
-															className="p-4 border-r align-top"
-														>
-															{activity ? (
-																<div className="p-2 bg-gray-50 rounded border">
-																	<div className="flex items-center gap-2">
-																		<Checkbox
-																			id={`activity-${activity.id}`}
-																			checked={selectedActivities.has(activity.id)}
-																			onCheckedChange={(checked) => {
-																				const newSelected = new Set(selectedActivities);
-																				if (checked) {
-																					newSelected.add(activity.id);
-																				} else {
-																					newSelected.delete(activity.id);
-																				}
-																				setSelectedActivities(newSelected);
-																			}}
-																			className="flex-shrink-0"
-																		/>
-																		<div className="min-w-0 flex-1">
-																			<div className="flex items-center gap-2 mb-1">
-																				<p className="text-xs px-2 py-1 rounded-full bg-emerald-100 text-emerald-700 capitalize flex-shrink-0">
-																					{activity.type}
-																				</p>
-																			</div>
-																			<div className="">
-																				{activity.languages.en?.pdfUrl ? (
-																					<a
-																						href={activity.languages.en.pdfUrl}
-																						target="_blank"
-																						rel="noopener noreferrer"
-																						className="font-medium text-sm text-blue-600 hover:text-blue-800 hover:underline truncate"
-																					>
-																						{activity.title}
-																					</a>
-																				) : (
-																					<h4 className="font-medium text-sm truncate">
-																						{activity.title}
-																					</h4>
-																				)}
-																			</div>
-
-																		</div>
-																	</div>
-																</div>
-															) : (
-																<div className="text-center text-gray-400 text-sm py-4">
-																	-
-																</div>
-															)}
-														</td>
-													);
-												})}
-											</tr>
-										))
-									)
-								) : (
-									<tr>
-										<td
-											colSpan={
-												Math.max(
-													...stories.flatMap((s) =>
-														s.sets.map((set) => set.length)
-													),
-													0
-												) + 1
-											}
-											className="p-8 text-center text-gray-500"
-										>
-											No activities available for this group.
-										</td>
-									</tr>
-								)}
-							</tbody>
-						</table>
-					</div>
-				</div>
-			</div>
-		</div>
-	);
+                                                        return (
+                                                            <td
+                                                                key={activityIndex}
+                                                                className="p-4 border-r align-top"
+                                                            >
+                                                                {activity && languageData ? (
+                                                                    <div className="p-2 bg-gray-50 rounded border">
+                                                                        <div className="flex items-center gap-2">
+                                                                            <Checkbox
+                                                                                id={`activity-${activity.id}`}
+                                                                                checked={selectedActivities.has(activity.id)}
+                                                                                onCheckedChange={(checked) => {
+                                                                                    const newSelected = new Set(selectedActivities);
+                                                                                    if (checked) {
+                                                                                        newSelected.add(activity.id);
+                                                                                    } else {
+                                                                                        newSelected.delete(activity.id);
+                                                                                    }
+                                                                                    setSelectedActivities(newSelected);
+                                                                                }}
+                                                                                className="flex-shrink-0"
+                                                                            />
+                                                                            <div className="min-w-0 flex-1">
+                                                                                <div className="">
+                                                                                    {languageData.pdfUrl ? (
+                                                                                        <a
+                                                                                            href={languageData.pdfUrl}
+                                                                                            target="_blank"
+                                                                                            rel="noopener noreferrer"
+                                                                                            className="font-medium text-sm text-blue-600 hover:text-blue-800 hover:underline truncate"
+                                                                                        >
+                                                                                            {languageData.title}
+                                                                                        </a>
+                                                                                    ) : (
+                                                                                        <h4 className="font-medium text-sm truncate">
+                                                                                            {languageData.title}
+                                                                                        </h4>
+                                                                                    )}
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                ) : (
+                                                                    <div className="text-center text-gray-400 text-sm py-4">
+                                                                        -
+                                                                    </div>
+                                                                )}
+                                                            </td>
+                                                        );
+                                                    })}
+                                                </tr>
+                                            ))
+                                        )
+                                    ) : (
+                                        <tr>
+                                            <td
+                                                colSpan={
+                                                    Math.max(
+                                                        ...stories.flatMap((s) =>
+                                                            s.sets.map((set) => set.length)
+                                                        ),
+                                                        0
+                                                    ) + 1
+                                                }
+                                                className="p-8 text-center text-gray-500"
+                                            >
+                                                No activities available for this group.
+                                            </td>
+                                        </tr>
+                                    )}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </LanguageProvider>
+    );
 }
