@@ -77,6 +77,20 @@ export const ACTIVITY_GROUPS_META: Record<ActivityGroupKey, ActivityGroupMeta> =
 				text: "white",
 				focus: "#9d4edd",
 			},
+			
+		},
+		ICAU: {
+			label: "InterCultural Awareness and Understanding",
+			slug: "intercultural-awareness-and-understanding",
+			description:
+				"Activities to help children develop intercultural awareness and understanding",
+			icon: Globe,
+			colors: {
+				primary: "#ffd166",
+				secondary: "#ffd166",
+				text: "#1D1D1D",
+				focus: "#ffd166",
+			},
 		},
 		ELS: {
 			label: "Early Literacy Skills",
@@ -92,19 +106,7 @@ export const ACTIVITY_GROUPS_META: Record<ActivityGroupKey, ActivityGroupMeta> =
 		},
 		
 
-		ICAU: {
-			label: "InterCultural Awareness and Understanding",
-			slug: "intercultural-awareness-and-understanding",
-			description:
-				"Activities to help children develop intercultural awareness and understanding",
-			icon: Globe,
-			colors: {
-				primary: "#ffd166",
-				secondary: "#ffd166",
-				text: "#1D1D1D",
-				focus: "#ffd166",
-			},
-		},
+		
 	};
 
 export const ACTIVITY_GROUPS: Record<
