@@ -419,10 +419,8 @@ export function StoryPlayer({
             <DialogTitle className="sr-only">Story Details</DialogTitle>
             <DialogContent
               className={cn(
-                "p-0 m-0 border bg-white rounded-lg flex flex-col items-center justify-center",
-                "w-full h-full max-w-[90vw] max-h-[90vh] overflow-hidden"
+                "w-full max-w-[1000px] rounded-lg border"
               )}
-              style={{ boxSizing: "border-box" }}
             >
               <div className="flex flex-col h-full w-full px-20">
                 {/* Fullscreen carousel - takes remaining space */}
