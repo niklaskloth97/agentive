@@ -595,6 +595,63 @@
         }
       }
     }],
+    "tur": [{
+      "title": "Bobba’nın Dünya Yolculuğu",
+      "titlePicture": "/learning-material/story-1/story-tur/Story 1_title_TU.jpg", 
+      "fullAudio": "", 
+      "fullText": "",
+      "pages": {
+        "0": {
+          "text": "Bobba’nın Dünya Yolculuğu",
+          "imageUrl": "/learning-material/story-1/story-pol/Story 1_title_PL.jpg", 
+          "audioUrl": "/learning-material/story-1/story-tur/Story_Turkish_Title.mp3"
+        },
+        "1": {
+          "text": "Bir zamanlar, çok uzak bir gezegende Bobba adında sevimli bir uzaylı yaşardı. Bobba, hem çok meraklı hem de çok cesur biriydi. Ama bugün, her zamankinden daha heyecanlıydı! Çünkü sonunda kendi uzay gemisine kavuşmuştu. Artık dilediği her yere uçabilirdi!",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
+          "audioUrl": "/learning-material/story-1/story-tur/Story_1_1_Turkish.mp3"
+        },
+        "2": {
+          "text": "Bobba’nın en büyük hayali neydi biliyor musunuz? Dünya adındaki o harika gezegeni görmek! Hakkında çok şey duymuştu: Mavi okyanusları, yeşil ormanları ve renkli canlıları vardı. ",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
+          "audioUrl": "/learning-material/story-1/story-tur/Story_1_2_Turkish.mp3"
+        },
+        "3": {
+          "text": "'Daha fazla bekleyemem!' dedi Bobba. Uzay gemisine atladığı gibi motorları çalıştırdı ve gökyüzüne yükseldi.",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
+          "audioUrl": "/learning-material/story-1/story-tur/Story_1_3_Turkish.mp3"
+        },
+        "4": {
+          "text": "Uzay gemisi, yıldızların arasından süzüldü. Parlak kuyruklu yıldızlar, rengârenk gezegenler ve devasa bulutlar gördü. Bobba, “Acaba Dünya’ya ne zaman varırım?” diye düşünüyordu.",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_4.webp",
+          "audioUrl": "/learning-material/story-1/story-tur/Story_1_4_Turkish.mp3"
+        },
+        "5": {
+          "text": "Ora de nia vëijel na codla bruma y dan che l l sà, svëiel tres l ciel y cun n colp adaut dal sëura sun n mudl de pleces y rames! ",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
+          "audioUrl": "/learning-material/story-1/story-tur/Story_1_5_Turkish.mp3"
+        },
+        "6": {
+          "text": "Bir süre sonra, uzakta mavi bir top gördü. “İşte bu olmalı!” diye bağırdı heyecanla. Uzay gemisi hızla atmosfere girdi. Ama birdenbire büyük bir gürültü koptu! Bobba, yaprakların ve dalların arasında bir yere çakılmıştı.",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_6.webp",
+          "audioUrl": "/learning-material/story-1/story-tur/Story_1_6_Turkish.mp3"
+        },
+        "7": {
+          "text": "Gemiden dışarı çıkıp etrafına baktı. Siyah tüylü bir kuş ona merakla bakıyordu. Bobba gülümseyerek, “Selam!” dedi. Ama kuş hiçbir şey söylemeden kanatlarını çırpıp uçtu. Bobba biraz şaşırdı. “Bu gezegendekiler hiç konuşmaz mı?” diye düşündü. 
+ 
+Ağaçtan aşağı inerken yerde siyah noktalı kırmızı bir böcek gördü. “Selam!” diye bağırdı Bobba. Ancak böcek, onu görmeden yanından geçti. Bobba, “Bu da beni duymadı!” diye homurdandı.",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_7.webp",
+          "audioUrl": "/learning-material/story-1/story-tur/Story_1_7_Turkish.mp3"
+        },
+        "8": {
+          "text": "Olivia adındaki kız, “Oyun alanımızı görmek ister misin?” diye sordu. Bobba’nın yüzü mutlulukla parladı. “Elbette isterim!” dedi. Ben isimli oğlan, Bobba’nın elinden tuttu. Birlikte oyun alanına doğru yürüdüler. 
+
+Ve böylece Bobba, Dünya’da yeni arkadaşlar edinmenin ve bu güzel gezegeni keşfetmenin keyfini çıkardı. Bu, onun unutamayacağı bir maceranın başlangıcıydı!",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
+          "audioUrl": "/learning-material/story-1/story-tur/Story_1_8_Turkish.mp3"
+        }
+      }
+    }],
     "pl": [{
       "title": "L prim viac de Bobba sun la Tiera",
       "titlePicture": "/learning-material/story-1/story-pol/Story 1_title_PL.jpg", 
