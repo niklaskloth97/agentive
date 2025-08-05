@@ -5,12 +5,17 @@
     "en": [{
       "title": "Bobba's first trip to Earth",
       "titlePicture": "/learning-material/story-1/story-en/Story1_title_E.jpg",
+>>>>>>> c2193e83dc8395b65f869557b8aaa911c9a7b22b
       "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
       "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
       "pages": {
          "0": {
           "text": "Bobba's first trip to Earth",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_title_E.webp",
+<<<<<<< HEAD
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_title_E.wep",
+=======
+          "imageUrl": "/learning-material/story-1/story-en/Story1_title_E.jpg",
+>>>>>>> c2193e83dc8395b65f869557b8aaa911c9a7b22b
           "audioUrl": "/learning-material/story-1/story-en/Story1_English_Title.m4a"
         },
         "1": {
@@ -20,7 +25,11 @@
         },
         "2": {
           "text": "His biggest dream is to fly to planet Earth.",
+<<<<<<< HEAD
           "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
+=======
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.webp",
+>>>>>>> c2193e83dc8395b65f869557b8aaa911c9a7b22b
           "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
         },
         "3": {
@@ -66,6 +75,7 @@
           "imageUrl": "/learning-material/story-1/story-en/Story_1_title_E.wep",
           "audioUrl": "/learning-material/story-1/story-de/Bobbas_erste_Reise_zur_Erde_Title.m4a"
         },
+        "pages": {
         "1": {
           "text": "Bobba lebt auf einem weit entfernten Planeten. Heute ist er wahnsinnig aufgeregt! Endlich bekommt er sein eigenes Raumschiff und nun kann er endlich hinfliegen, wohin er will!",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
@@ -108,7 +118,7 @@
         }
       }
     }],
-    "de-short": [{
+    "": [{
       "title": "Bobbas erste Reise zur Erde",
       "titlePicture": "/learning-material/story-1/story-de/Story 1_1.jpg",
       "fullAudio": "/learning-material/story-1/story-de short/Bobba_DE_Story_1_Gesamt.mp3",
@@ -215,50 +225,55 @@
       }
     }],
     "pt": [{
-      "title": "",
-      "titlePicture": "/learning-material/story-1/story-en/Story_1_1.webp",
-      "fullAudio": "",
+      "title": "A primeira viagem do Bobba à Terra",
+      "titlePicture": "/learning-material/story-1/story-port/Story_1_title_P.jpg",
+      "fullAudio": "/learning-material/story-1/story-port/1_complete version.mp3",
       "fullText": "",
       "pages": {
+        "0": {
+          "text": "A primeira viagem do Bobba à Terra",
+          "imageUrl": "/learning-material/story-1/story-port/Story_1_title_P.jpg",
+          "audioUrl": "/learning-material/story-1/story-port/1_title.mp3"
+        },
         "1": {
-          "text": "",
+          "text": "O Bobba vive num planeta distante. Hoje está muito animado. Finalmente tem a sua própria nave espacial e agora pode voar para onde quiser!",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-1/story-port/1_1.mp3"
         },
         "2": {
-          "text": "",
+          "text": "O seu maior sonho é voar para o planeta Terra. ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-1/story-port/1_2.mp3"
         },
         "3": {
-          "text": "",
+          "text": "Então, ele salta para a nave espacial e levanta voo. Todos os seus amigos e a sua família ficam surpreendidos! "Para onde é que ele vai?", perguntam-se. Bobba vai diretamente para o planeta Terra.      ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-1/story-port/1_3.mp3"
         },
         "4": {
-          "text": "",
+          "text": "Bobba passa por muitos planetas e cometas e pergunta-se quando é que chegará finalmente ao planeta Terra. ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_4.webp",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-1/story-port/1_4.mp3"
         },
         "5": {
-          "text": "",
+          "text": "De repente, vê uma bola azul e, num instante, dispara pelo céu fora e, com um grande estrondo, aterra num monte de folhas e paus!   ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-1/story-port/1_5.mp3"
         },
         "6": {
-          "text": "",
+          "text": "Torce-se para sair da nave espacial e olha à sua volta. Dois olhos negros, espreitando por entre penas negras, olham para ele. O Bobba diz: "Saluton!", mas o pássaro só dá uma olhada e voa. Bobba escorrega da árvore e vê uma coisa vermelha com pintas pretas. "Saluton!", grita o Bobba, mas o inseto nem sequer o vê.  ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_6.webp",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-1/story-port/1_6.mp3"
         },
         "7": {
-          "text": "",
+          "text": "Um menino e uma menina olham para o Bobba e riem-se. "Com quem estás a falar? Eles não sabem falar!" O Bobba vira-se. "Saluton! Ĉu vi estas infanoj?", pergunta. As crianças olham uma para a outra. "Infanoj? Ele quer dizer bebé?". "Não!", protestam. "Nós não somos bebés! Somos crianças!". "Ahhhh!", exclama o Bobba! "Crianças! Infanoj! Crianças!" Isso fá-los rir muito.  ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_7.webp",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-1/story-port/1_7.mp3"
         },
         "8": {
-          "text": "",
+          "text": ""Queres ver o nosso parque infantil?", pergunta a Olívia. O Bobba sorri e o Ben dá-lhe a mão, e juntos levam-no para o pátio. ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-1/story-port/1_8.mp3"
         }
       }
     }],
@@ -271,47 +286,47 @@
         "0": {
           "text": "Il primo viaggio di Bobba sulla Terra",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_title_I.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-1/story-it/Story 1_Italiano_Title.mp3"
         },
         "1": {
           "text": "Bobba vive su un pianeta molto lontano. Oggi è emozionatissimo. Finalmente ha una propria astronave e può volare dove vuole!",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-1/story-it/Story 1_1_Italiano.mp3"
         },
         "2": {
           "text": "Il suo più grande sogno è quello di andare sul pianeta Terra.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-1/story-it/Story 1_2_Italiano.mp3"
         },
         "3": {
           "text": "Salta sull’astronave e decolla. Tutti i suoi amici e la sua famiglia sono sorpresi! “Dove starà andando?”, si chiedono. Bobba si dirige dritto dritto verso il pianeta Terra. ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-1/story-it/Story 1_3_Italiano.mp3"
         },
         "4": {
           "text": "Bobba oltrepassa tanti pianeti e diverse comete e si chiede quando finalmente raggiungerà la Terra. ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_4.webp",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-1/story-it/Story 1_4_Italiano.mp3"
         },
         "5": {
           "text": "Improvvisamente, vede una palla blu e prima di realizzare cosa succede sfreccia nel cielo e con un forte botto atterra in un mucchio di foglie e rami! ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-1/story-it/Story 1_5_Italiano.mp3"
         },
         "6": {
           "text": "Esce a stento dall’astronave e si guarda intorno. Due occhi neri che sbucano tra piume nere lo stanno osservando. Bobba dice: “Saluton!”, ma l’uccello lo guarda e vola via. Allora scende dall’albero e vede una cosa rossa con dei puntini neri. “Saluton!” esclama Bobba, ma la creatura nemmeno lo nota. ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_6.webp",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-1/story-it/Story 1_6_Italiano.mp3"
         },
         "7": {
           "text": "Un bambino e una bambina guardano Bobba e ridacchiano. “Con chi stai parlando? Loro non sanno parlare!” Bobba si gira e dice: “Saluton! Ĉu vi estas infanoj?”. I bambini si guardano l’un l’altro. “Infanoj? Intende bambini piccoli?”. “No!”, protestano. “Noi non siamo dei bebè! Siamo dei bambini!”. “Ahhhh!”, esclama entusiasta Bobba! “Bambini! Infanoj!” E tutti si mettono a ridere. ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_7.webp",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-1/story-it/Story 1_7_Italiano.mp3"
         },
         "8": {
           "text": "“Vuoi vedere il nostro parco giochi?” chiede Olivia. Bobba sorride e Ben lo prende per la mano. Insieme lo portano al parco giochi. ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-1/story-it/Story 1_8_Italiano.mp3"
         }
       }
     }],
@@ -527,9 +542,9 @@
         }
       }
     }],
-    "lad": [{
+    "ld": [{
       "title": "L prim viac de Bobba sun la Tiera",
-      "titlePicture": "/learning-material/story-1/story-alb/Story 1_title_AL.jpg",
+      "titlePicture": "/learning-material/story-1/story-alb/Story 1_title_AL.jpg", 
       "fullAudio": "/learning-material/story-1/story-al/Bobba_AL_Story 1.mp3",
       "fullText": "",
       "pages": {
@@ -580,7 +595,7 @@
         }
       }
     }],
-    "pol": [{
+    "pl": [{
       "title": "L prim viac de Bobba sun la Tiera",
       "titlePicture": "/learning-material/story-1/story-pol/Story 1_title_PL.jpg", 
       "fullAudio": "/learning-material/story-1/story-pol/Bobba_AL_Story 1.mp3", 
@@ -2040,6 +2055,7 @@
         }
       }
     }],
+    "es": [],
     "slo": [{
       "title": "Bobba prespi pri prijateljici",
       "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
@@ -4794,5 +4810,4 @@
       }
     }]
   }
-
 ]
