@@ -7,51 +7,51 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Download } from "lucide-react";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import LanguageSelector from "@/components/LanguageSelector";
+import { TranslateButtons } from '@/components/translateButtons';
+import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext';
 import {
-	ACTIVITY_GROUPS,
-	ACTIVITY_GROUPS_META,
-	type ActivityGroupKey,
+    ACTIVITY_GROUPS,
+    ACTIVITY_GROUPS_META,
+    type ActivityGroupKey,
 } from "@/data";
 
 interface ActivityOverviewProps {
-	groupKey: string;
-	filterByStoryId?: string; // Add this optional prop
+    groupKey: string;
+    filterByStoryId?: string; // Add this optional prop
 }
 
 const ALPHABET = "abcdefghijklmnopqrstuvwxyz";
 
 export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
-	const searchParams = useSearchParams();
-	const storyIdFromUrl = searchParams.get("storyId");
+    const searchParams = useSearchParams();
+    const storyIdFromUrl = searchParams.get("storyId");
+    const { websiteLanguage } = useWebsiteLanguage();
 
     const [selectedActivities, setSelectedActivities] = useState<Set<string>>(
         new Set()
     );
 
-    // Website language state (separate from story language)
-    const [websiteLanguage, setWebsiteLanguage] = useState<string>("en");
+    // Filter the data to show only activities for the provided story ID
+    const data = ACTIVITY_GROUPS[groupKey as ActivityGroupKey];
 
-	// Filter the data to show only activities for the provided story ID
-	const data = ACTIVITY_GROUPS[groupKey as ActivityGroupKey];
+    // Apply the story filter if provided via URL parameter or prop
+    const stories = storyIdFromUrl
+        ? data.stories.filter((story) => story.id === storyIdFromUrl)
+        : data.stories;
 
-	// Apply the story filter if provided via URL parameter or prop
-	const stories = storyIdFromUrl
-		? data.stories.filter((story) => story.id === storyIdFromUrl)
-		: data.stories;
+    const groupMeta = ACTIVITY_GROUPS_META[groupKey as ActivityGroupKey];
 
-	const groupMeta = ACTIVITY_GROUPS_META[groupKey as ActivityGroupKey];
-
-	// Get all activities across all stories and sets
-	const allActivities = stories.flatMap((story) =>
-		story.sets.flatMap((set, setIndex) =>
-			set.map((activity) => ({
-				...activity,
-				storyId: story.id,
-				storyTitle: story.title,
-				setIndex,
-			}))
-		)
-	);
+    // Get all activities across all stories and sets
+    const allActivities = stories.flatMap((story) =>
+        story.sets.flatMap((set, setIndex) =>
+            set.map((activity) => ({
+                ...activity,
+                storyId: story.id,
+                storyTitle: story.title,
+                setIndex,
+            }))
+        )
+    );
 
     // Create available languages based on activities
     const availableLanguages = {
@@ -64,29 +64,19 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
         gr: { label: "GR" },
     };
 
-    const handleLanguageChange = (language: string) => {
-        setWebsiteLanguage(language);
+    const handleSelectAll = (checked: boolean) => {
+        if (checked) {
+            setSelectedActivities(new Set(allActivities.map((a) => a.id)));
+        } else {
+            setSelectedActivities(new Set());
+        }
     };
 
-	const handleSelectAll = (checked: boolean) => {
-		if (checked) {
-			setSelectedActivities(new Set(allActivities.map((a) => a.id)));
-		} else {
-			setSelectedActivities(new Set());
-		}
-	};
-
-	// const handleActivityClick = (activity: never) => {
-	// 	// Navigate to activity detail or open activity
-	// 	console.log("Opening activity:", activity);
-	// 	// You would implement actual navigation here
-	// };
-
-	const handleBulkDownload = () => {
-		const selectedActivityData = allActivities.filter((a) =>
-			selectedActivities.has(a.id)
-		);
-		console.log("Downloading activities:", selectedActivityData);
+    const handleBulkDownload = () => {
+        const selectedActivityData = allActivities.filter((a) =>
+            selectedActivities.has(a.id)
+        );
+        console.log("Downloading activities:", selectedActivityData);
 
         selectedActivityData.forEach((activity) => {
             const languageData = activity.languages[websiteLanguage as keyof typeof activity.languages];
@@ -101,30 +91,29 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
         <LanguageProvider 
             defaultLanguage="en"
             availableLanguages={availableLanguages}
-            onLanguageChange={handleLanguageChange}
         >
             <div className="p-2">
                 <div className="container mx-auto max-w-7xl">									
-				{/* Header */}
-						<div className="text-center">
-							<div className="grid grid-cols-3 gap-2 mb-4">
-								<div className="bg-white rounded-lg p-4 shadow-sm border">
-									<h3 className="text-lg font-semibold mb-2">
-										Available Languages
-									</h3>
-									<LanguageSelector />
-								</div>
-								<div className="bg-white rounded-lg p-4 pt-10 shadow-sm border col-span-2">
-									<div className="flex items-center justify-beween mb-4">
-										
-									</div>
-									
-									<p className="text-gray-700">
-										Please <strong>check</strong> all activities you would like to <strong>download</strong> and <strong>press</strong> the download button or simply <strong>click on</strong> the activity button you would like <strong>to see</strong>.
-									</p>
-								</div>
-							</div>
-						</div>
+                {/* Header */}
+                        <div className="text-center">
+                            <div className="grid grid-cols-3 gap-2 mb-4">
+                                <div className="bg-white rounded-lg p-4 shadow-sm border">
+                                    <h3 className="text-lg font-semibold mb-2">
+                                        <TranslateButtons translationKey="available-languages" currentLanguage={websiteLanguage} />
+                                    </h3>
+                                    <LanguageSelector />
+                                </div>
+                                <div className="bg-white rounded-lg p-4 pt-10 shadow-sm border col-span-2">
+                                    <div className="flex items-center justify-beween mb-4">
+                                        
+                                    </div>
+                                    
+                                    <p className="text-gray-700">
+                                        <TranslateButtons translationKey="check-activities" currentLanguage={websiteLanguage} />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
                     {/* Controls */}
                     <div className="mb-6 flex flex-wrap items-center justify-between gap-4 bg-white rounded-lg p-4 shadow-sm border">
@@ -138,7 +127,7 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
                             }}
                         >
                             <Download className="w-5 h-5" />
-                            Download Activities ({selectedActivities.size})
+                            <TranslateButtons translationKey="download-activities" currentLanguage={websiteLanguage} /> ({selectedActivities.size})
                         </Button>
 
                         <div className="flex items-center gap-2">
@@ -156,7 +145,7 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
                                 htmlFor="select-all"
                                 className="text-sm font-medium cursor-pointer"
                             >
-                                Select All
+                                <TranslateButtons translationKey="select-all" currentLanguage={websiteLanguage} />
                             </label>
                         </div>
                     </div>
@@ -168,7 +157,7 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
                                 <thead>
                                     <tr style={{ backgroundColor: `${groupMeta.colors.primary}20` }}>
                                         <th className="p-4 text-left font-semibold border-r">
-                                            Story Title
+                                            <TranslateButtons translationKey="story-title" currentLanguage={websiteLanguage} />
                                         </th>
                                         {Array.from({
                                             length: Math.max(
@@ -182,7 +171,7 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
                                                 className="p-4 text-center font-semibold border-r"
                                                 key={activityIndex}
                                             >
-                                                Activity {groupKey}_{ALPHABET[activityIndex]}
+                                                <TranslateButtons translationKey="activity" currentLanguage={websiteLanguage} /> {groupKey}_{ALPHABET[activityIndex]}
                                             </th>
                                         ))}
                                     </tr>
@@ -281,7 +270,7 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
                                                 }
                                                 className="p-8 text-center text-gray-500"
                                             >
-                                                No activities available for this group.
+                                                <TranslateButtons translationKey="no-activities" currentLanguage={websiteLanguage} />
                                             </td>
                                         </tr>
                                     )}

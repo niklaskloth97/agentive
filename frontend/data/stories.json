@@ -5,17 +5,12 @@
     "en": [{
       "title": "Bobba's first trip to Earth",
       "titlePicture": "/learning-material/story-1/story-en/Story1_title_E.jpg",
->>>>>>> c2193e83dc8395b65f869557b8aaa911c9a7b22b
       "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
       "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
       "pages": {
          "0": {
           "text": "Bobba's first trip to Earth",
-<<<<<<< HEAD
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_title_E.wep",
-=======
-          "imageUrl": "/learning-material/story-1/story-en/Story1_title_E.jpg",
->>>>>>> c2193e83dc8395b65f869557b8aaa911c9a7b22b
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_title_E.webp",
           "audioUrl": "/learning-material/story-1/story-en/Story1_English_Title.m4a"
         },
         "1": {
@@ -25,11 +20,7 @@
         },
         "2": {
           "text": "His biggest dream is to fly to planet Earth.",
-<<<<<<< HEAD
           "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
-=======
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.webp",
->>>>>>> c2193e83dc8395b65f869557b8aaa911c9a7b22b
           "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
         },
         "3": {
@@ -75,7 +66,6 @@
           "imageUrl": "/learning-material/story-1/story-en/Story_1_title_E.wep",
           "audioUrl": "/learning-material/story-1/story-de/Bobbas_erste_Reise_zur_Erde_Title.m4a"
         },
-        "pages": {
         "1": {
           "text": "Bobba lebt auf einem weit entfernten Planeten. Heute ist er wahnsinnig aufgeregt! Endlich bekommt er sein eigenes Raumschiff und nun kann er endlich hinfliegen, wohin er will!",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
@@ -118,7 +108,7 @@
         }
       }
     }],
-    "": [{
+    "de-short": [{
       "title": "Bobbas erste Reise zur Erde",
       "titlePicture": "/learning-material/story-1/story-de/Story 1_1.jpg",
       "fullAudio": "/learning-material/story-1/story-de short/Bobba_DE_Story_1_Gesamt.mp3",
@@ -224,7 +214,7 @@
         }
       }
     }],
-    "es": [{
+    "pt": [{
       "title": "",
       "titlePicture": "/learning-material/story-1/story-en/Story_1_1.webp",
       "fullAudio": "",
@@ -539,13 +529,13 @@
     }],
     "lad": [{
       "title": "L prim viac de Bobba sun la Tiera",
-      "titlePicture": "/learning-material/story-1/story-alb/Story 1_title_AL.jpg", //bild fehlt
+      "titlePicture": "/learning-material/story-1/story-alb/Story 1_title_AL.jpg",
       "fullAudio": "/learning-material/story-1/story-al/Bobba_AL_Story 1.mp3",
       "fullText": "",
       "pages": {
         "0": {
           "text": "L prim viac de Bobba sun la Tiera",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_title_LAD.jpg", //title fehlt
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_title_LAD.jpg", 
           "audioUrl": "/learning-material/story-1/story-al/Bobba_AL_Story 1_Intro.mp3"
         },
         "1": {
@@ -593,12 +583,12 @@
     "pol": [{
       "title": "L prim viac de Bobba sun la Tiera",
       "titlePicture": "/learning-material/story-1/story-pol/Story 1_title_PL.jpg", 
-      "fullAudio": "/learning-material/story-1/story-pol/Bobba_AL_Story 1.mp3", //full audio fehlt
+      "fullAudio": "/learning-material/story-1/story-pol/Bobba_AL_Story 1.mp3", 
       "fullText": "",
       "pages": {
         "0": {
           "text": "L prim viac de Bobba sun la Tiera",
-          "imageUrl": "/learning-material/story-1/story-pol/Story 1_title_PL.jpg", //title fehlt
+          "imageUrl": "/learning-material/story-1/story-pol/Story 1_title_PL.jpg", 
           "audioUrl": "/learning-material/story-1/story-al/Bobba_AL_Story 1_Intro.mp3"
         },
         "1": {
@@ -2050,7 +2040,6 @@
         }
       }
     }],
-    "es": [],
     "slo": [{
       "title": "Bobba prespi pri prijateljici",
       "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
@@ -4805,4 +4794,5 @@
       }
     }]
   }
+
 ]

@@ -344,6 +344,42 @@ const translations: Record<string, Record<string, string>> = {
     'Italian': '',
     'German': 'Impressum',
     'Greek': 'Εντύπωση'
+  },
+  'available-languages': {
+    'English': 'Available Languages',
+    'French': 'Langues Disponibles',
+    'Lux': 'Verfügbar Sproochen',
+    'Slovenian': 'Razpoložljivi jeziki',
+    'Italian': 'Lingue Disponibili',
+    'German': 'Verfügbare Sprachen',
+    'Greek': 'Διαθέσιμες γλώσσες'
+  },
+  'download-activities': {
+    'English': 'Download Activities',
+    'French': 'Télécharger les Activités',
+    'Lux': 'Aktivitéiten eroflueden',
+    'Slovenian': 'Prenesi dejavnosti',
+    'Italian': 'Scarica Attività',
+    'German': 'Aktivitäten herunterladen',
+    'Greek': 'Λήψη δραστηριοτήτων'
+  },
+  'activity': {
+    'English': 'Activity',
+    'French': 'Activité',
+    'Lux': 'Aktivitéit',
+    'Slovenian': 'Dejavnost',
+    'Italian': 'Attività',
+    'German': 'Aktivität',
+    'Greek': 'Δραστηριότητα'
+  },
+  'no-activities': {
+    'English': 'No activities available for this group.',
+    'French': 'Aucune activité disponible pour ce groupe.',
+    'Lux': 'Keng Aktivitéiten verfügbar fir dëse Grupp.',
+    'Slovenian': 'Za to skupino ni na voljo nobenih dejavnosti.',
+    'Italian': 'Nessuna attività disponibile per questo gruppo.',
+    'German': 'Keine Aktivitäten für diese Gruppe verfügbar.',
+    'Greek': 'Δεν υπάρχουν διαθέσιμες δραστηριότητες για αυτήν την ομάδα.'
   }
 };
 
