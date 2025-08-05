@@ -1,3 +1,5 @@
+"use client";
+
 import ActivityOverview from "@/components/ActivityOverview";
 import { DashboardLayout } from "@/components/DashboardLayout";
 import {
@@ -6,17 +8,38 @@ import {
 	type ActivityGroupKey,
 } from "@/data";
 import { Button } from "@/components/ui/button";
+import { Download } from "lucide-react";
+import { TranslateButtons } from "@/components/translateButtons";
+import { useWebsiteLanguage } from "@/contexts/WebsiteLanguageContext";
+import { use } from "react";
 
-export default async function Page({
+export default function Page({
 	params,
 }: {
 	params: Promise<{ group: ActivityGroupKey }>;
 }) {
-	const { group } = await params;
+	const { group } = use(params);
+	const { websiteLanguage } = useWebsiteLanguage();
 
 	const breadcrumbItems = [
-		{ label: "Dashboard", href: "/dashboard" },
-		{ label: "Activities", href: "/dashboard/activities" },
+		{
+			label: (
+				<TranslateButtons
+					translationKey="dashboard"
+					currentLanguage={websiteLanguage}
+				/>
+			),
+			href: "/dashboard",
+		},
+		{
+			label: (
+				<TranslateButtons
+					translationKey="activities"
+					currentLanguage={websiteLanguage}
+				/>
+			),
+			href: "/dashboard/activities",
+		},
 	];
 
 	const data = ACTIVITY_GROUPS[group];
@@ -31,11 +54,23 @@ export default async function Page({
 			<div className="space-y-6">
 				<h1 className="text-3xl font-bold">{meta.label}</h1>
 				<ActivityOverview groupKey={group} />
-				<Button className="mt-4" variant="outline" asChild>
-					<a href={`/dashboard/activities/${group}/guide.pdf`} download>
-						Download Guide
-					</a>
-				</Button>
+
+				<div className="flex justify-left mt-8">
+					<Button
+						variant="outline"
+						size="lg"
+						className="h-24 text-2xl"
+						asChild
+					>
+						<a href={`/dashboard/activities/${group}/guide.pdf`} download>
+							<Download className="mr-2" size={20} />
+							<TranslateButtons
+								translationKey="pedagogical-guide"
+								currentLanguage={websiteLanguage}
+							/>
+						</a>
+					</Button>
+				</div>
 			</div>
 		</DashboardLayout>
 	);

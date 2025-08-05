@@ -14,13 +14,13 @@ const languageFlags: Record<string, string> = {
   slo: "🇸🇮",  // Slovenian flag
   fr: "🇫🇷",  // French flag
   it: "🇮🇹",  // Italian flag
-  es: "🇪🇸",  // Spanish flag
   sv: "🇸🇮",  // Slovenian flag
   gr: "🇬🇷",  // Greek flag
   lux: "🇱🇺", // Luxembourg flag
   al: "🇦🇱",  // Albanian flag
   ukr: "🇺🇦", // Ukrainian flag
   tur: "🇹🇷", // Turkish flag
+  ld: "🇱🇩", // Ladin flag 
 
 };
 
