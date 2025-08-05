@@ -52,7 +52,12 @@ export default function Page({
 	return (
 		<DashboardLayout breadcrumbItems={breadcrumbItems}>
 			<div className="space-y-6">
-				<h1 className="text-3xl font-bold">{meta.label}</h1>
+<h1 className="text-3xl font-bold">
+					<TranslateButtons
+						translationKey={meta.slug}
+						currentLanguage={websiteLanguage}
+					/>
+				</h1>				
 				<ActivityOverview groupKey={group} />
 
 				<div className="flex justify-left mt-8">

@@ -237,7 +237,7 @@ const translations: Record<string, Record<string, string>> = {
   'German': 'Pausieren',
   'Greek': 'Παύση'
   },
-  'pc': {
+  'plurilingual-competence': {
     'English': 'Plurilingual Competence',
     'French': 'Compétence plurilingue',
     'Lux': 'Méisproochekompetenz',
@@ -246,7 +246,7 @@ const translations: Record<string, Record<string, string>> = {
     'German': 'Plurilinguale Kompetenz',
     'Greek': 'Πολυγλωσσικές δεξιότητες'
   },
-  'els': {
+  'early-literacy-skills': {
     'English': 'Early Literacy Skills',
     'French': 'Compétences en littératie de la Petite Enfance',
     'Lux': 'Fréizäiteg Entwécklung vu Kompetenzen an der Literacy',
@@ -255,7 +255,7 @@ const translations: Record<string, Record<string, string>> = {
     'German': 'Frühe Literacy-Kompetenzen',
     'Greek': 'Πρώιμες Δεξιότητες Γραμματισμού'
   },
-  'iau': {
+  'intercultural-awareness-and-understanding': {
     'English': 'Intercultural Awareness and Understanding',
     'French': 'Sensibilisation et compréhension interculturelles',
     'Lux': 'Interkulturellt Bewosstsinn a Verständnis',
@@ -264,7 +264,7 @@ const translations: Record<string, Record<string, string>> = {
     'German': 'Interkulturelle Bewusstsein und Verständnis',
     'Greek': 'Διαπολιτισμική συνειδητοποίηση και κατανόηση'
   },
-  'la': {
+  'language-awareness': {
     'English': 'Language Awareness',
     'French': 'Éveil aux Sciences',
     'Lux': 'Sproochbewosstsinn',
@@ -380,6 +380,60 @@ const translations: Record<string, Record<string, string>> = {
     'Italian': 'Nessuna attività disponibile per questo gruppo.',
     'German': 'Keine Aktivitäten für diese Gruppe verfügbar.',
     'Greek': 'Δεν υπάρχουν διαθέσιμες δραστηριότητες για αυτήν την ομάδα.'
+  },
+  'select-activity-category': {
+    'English': 'Please select an activity category below.',
+    'French': 'Veuillez sélectionner une catégorie d\'activité ci-dessous.',
+    'Lux': 'Wielt w.e.g. eng Aktivitéitskategorie hei ënnendrënner aus.',
+    'Slovenian': 'Spodaj izberite kategorijo dejavnosti.',
+    'Italian': 'Seleziona una categoria di attività qui sotto.',
+    'German': 'Bitte wählen Sie unten eine Aktivitätskategorie aus.',
+    'Greek': 'Παρακαλώ επιλέξτε μια κατηγορία δραστηριότητας παρακάτω.'
+  },
+  'no-activities-found': {
+    'English': 'No activities found for this story.',
+    'French': 'Aucune activité trouvée pour cette histoire.',
+    'Lux': 'Keng Aktivitéiten fonnt fir dës Geschicht.',
+    'Slovenian': 'Za to zgodbo ni najdenih dejavnosti.',
+    'Italian': 'Nessuna attività trovata per questa storia.',
+    'German': 'Keine Aktivitäten für diese Geschichte gefunden.',
+    'Greek': 'Δεν βρέθηκαν δραστηριότητες για αυτήν την ιστορία.'
+  },
+  'listening': {
+    'English': 'Listening',
+    'French': 'Écoute',
+    'Lux': 'Lauschteren',
+    'Slovenian': 'Poslušanje',
+    'Italian': 'Ascolto',
+    'German': 'Hören',
+    'Greek': 'Ακρόαση'
+  },
+  'reading': {
+    'English': 'Reading',
+    'French': 'Lecture',
+    'Lux': 'Liesen',
+    'Slovenian': 'Branje',
+    'Italian': 'Lettura',
+    'German': 'Lesen',
+    'Greek': 'Ανάγνωση'
+  },
+  'vocabulary': {
+    'English': 'Vocabulary',
+    'French': 'Vocabulaire',
+    'Lux': 'Vocabulaire',
+    'Slovenian': 'Besedišče',
+    'Italian': 'Vocabolario',
+    'German': 'Wortschatz',
+    'Greek': 'Λεξιλόγιο'
+  },
+  'grammar': {
+    'English': 'Grammar',
+    'French': 'Grammaire',
+    'Lux': 'Grammaire',
+    'Slovenian': 'Slovnica',
+    'Italian': 'Grammatica',
+    'German': 'Grammatik',
+    'Greek': 'Γραμματική'
   }
 };
 

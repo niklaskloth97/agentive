@@ -3,6 +3,8 @@ import { DashboardLayout } from "@/components/DashboardLayout";
 import { StoryPlayer } from "@/components/StoryPlayer";
 import storiesDataRaw from "@/data/stories.json";
 import type { Story } from "@/components/story-pipeline";
+import { TranslateButtons } from "@/components/translateButtons";
+import { use } from "react";
 
 // cast JSON once to your Story type
 const storiesData = storiesDataRaw as unknown as Story[];
@@ -14,23 +16,50 @@ export function generateStaticParams(): { storyId: string }[] {
   return storiesData.map((s) => ({ storyId: s.id }));
 }
 
-// mark as async so we can `await params`
-export default async function ListeningPage({
+export default function ListeningPage({
   params,
 }: {
   params: Promise<{ storyId: string }>;
 }) {
-  const { storyId } = await params;
+  const { storyId } = use(params);
   const story = storiesData.find((s) => s.id === storyId);
+  
   if (!story) return notFound();
 
-  const breadcrumbItems = [
-    { label: "Multilingual Resources", href: "/dashboard" },
-    { label: "Stories", href: "/dashboard/stories" },
-    { label: "Story", href: `/dashboard/stories/${storyId}` },
-    { label: "Listen",    href: `/dashboard/stories/${storyId}/listening` },
-  ];
+  // Since this is a server component, we'll need to handle the website language differently
+  // For now, we'll use a default language or pass it as a prop
+  const websiteLanguage = "en"; // This should be handled through a different mechanism
 
+  const breadcrumbItems = [
+    {
+      label: (
+        <TranslateButtons
+          translationKey="multilingual-stories"
+          currentLanguage={websiteLanguage}
+        />
+      ),
+      href: "/dashboard",
+    },
+    {
+      label: (
+        <TranslateButtons
+          translationKey="stories"
+          currentLanguage={websiteLanguage}
+        />
+      ),
+      href: "/dashboard/stories",
+    },
+
+    {
+      label: (
+        <TranslateButtons
+          translationKey="listen-n-watch"
+          currentLanguage={websiteLanguage}
+        />
+      ),
+      href: `/dashboard/stories/${storyId}/listening`,
+    },
+  ];
 
   return (
     <DashboardLayout breadcrumbItems={breadcrumbItems}>

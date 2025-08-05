@@ -4,18 +4,13 @@
     "slug": "story-1",
     "en": [{
       "title": "Bobba's first trip to Earth",
-      "titlePicture": "/learning-material/story-1/story-en/Story1_title_E.jpg",
->>>>>>> c2193e83dc8395b65f869557b8aaa911c9a7b22b
+      "titlePicture": "/learning-material/story-1/story-en/Story1_title_E.webp",
       "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
       "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
       "pages": {
          "0": {
           "text": "Bobba's first trip to Earth",
-<<<<<<< HEAD
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_title_E.wep",
-=======
           "imageUrl": "/learning-material/story-1/story-en/Story1_title_E.jpg",
->>>>>>> c2193e83dc8395b65f869557b8aaa911c9a7b22b
           "audioUrl": "/learning-material/story-1/story-en/Story1_English_Title.m4a"
         },
         "1": {
@@ -25,11 +20,7 @@
         },
         "2": {
           "text": "His biggest dream is to fly to planet Earth.",
-<<<<<<< HEAD
           "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
-=======
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.webp",
->>>>>>> c2193e83dc8395b65f869557b8aaa911c9a7b22b
           "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
         },
         "3": {
@@ -66,16 +57,15 @@
     }],
     "de": [{
       "title": "Bobbas erste Reise zur Erde",
-      "titlePicture": "/learning-material/story-1/story-de/Story 1_1.jpg",
+      "titlePicture": "/learning-material/story-1/story-de/Story 1_title_G.jpg",
       "fullAudio": "/learning-material/story-1/story-de/bobba_1_D_ALL.mp3",
       "fullText": "/learning-material/story-1/story-de/Story_1_full_text.pdf",
       "pages": {
          "0": {
           "text": "Bobbas erste Reise zur Erde",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_title_E.wep",
+          "imageUrl": "/learning-material/story-1/story-de/Story 1_title_G.jpg",
           "audioUrl": "/learning-material/story-1/story-de/Bobbas_erste_Reise_zur_Erde_Title.m4a"
         },
-        "pages": {
         "1": {
           "text": "Bobba lebt auf einem weit entfernten Planeten. Heute ist er wahnsinnig aufgeregt! Endlich bekommt er sein eigenes Raumschiff und nun kann er endlich hinfliegen, wohin er will!",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
@@ -118,7 +108,7 @@
         }
       }
     }],
-    "": [{
+    "deshort": [{
       "title": "Bobbas erste Reise zur Erde",
       "titlePicture": "/learning-material/story-1/story-de/Story 1_1.jpg",
       "fullAudio": "/learning-material/story-1/story-de short/Bobba_DE_Story_1_Gesamt.mp3",
@@ -246,7 +236,7 @@
           "audioUrl": "/learning-material/story-1/story-port/1_2.mp3"
         },
         "3": {
-          "text": "Então, ele salta para a nave espacial e levanta voo. Todos os seus amigos e a sua família ficam surpreendidos! "Para onde é que ele vai?", perguntam-se. Bobba vai diretamente para o planeta Terra.      ",
+          "text": "Então, ele salta para a nave espacial e levanta voo. Todos os seus amigos e a sua família ficam surpreendidos! \"Para onde é que ele vai?\", perguntam-se. Bobba vai diretamente para o planeta Terra.      ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
           "audioUrl": "/learning-material/story-1/story-port/1_3.mp3"
         },
@@ -261,17 +251,17 @@
           "audioUrl": "/learning-material/story-1/story-port/1_5.mp3"
         },
         "6": {
-          "text": "Torce-se para sair da nave espacial e olha à sua volta. Dois olhos negros, espreitando por entre penas negras, olham para ele. O Bobba diz: "Saluton!", mas o pássaro só dá uma olhada e voa. Bobba escorrega da árvore e vê uma coisa vermelha com pintas pretas. "Saluton!", grita o Bobba, mas o inseto nem sequer o vê.  ",
+          "text": "Torce-se para sair da nave espacial e olha à sua volta. Dois olhos negros, espreitando por entre penas negras, olham para ele. O Bobba diz: \"Saluton!\", mas o pássaro só dá uma olhada e voa. Bobba escorrega da árvore e vê uma coisa vermelha com pintas pretas. \"Saluton!\", grita o Bobba, mas o inseto nem sequer o vê.  ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_6.webp",
           "audioUrl": "/learning-material/story-1/story-port/1_6.mp3"
         },
         "7": {
-          "text": "Um menino e uma menina olham para o Bobba e riem-se. "Com quem estás a falar? Eles não sabem falar!" O Bobba vira-se. "Saluton! Ĉu vi estas infanoj?", pergunta. As crianças olham uma para a outra. "Infanoj? Ele quer dizer bebé?". "Não!", protestam. "Nós não somos bebés! Somos crianças!". "Ahhhh!", exclama o Bobba! "Crianças! Infanoj! Crianças!" Isso fá-los rir muito.  ",
+          "text": "Um menino e uma menina olham para o Bobba e riem-se. \"Com quem estás a falar? Eles não sabem falar!\" O Bobba vira-se. \"Saluton! Ĉu vi estas infanoj?\", pergunta. As crianças olham uma para a outra. \"Infanoj? Ele quer dizer bebé?\". \"Não!\", protestam. \"Nós não somos bebés! Somos crianças!\". \"Ahhhh!\", exclama o Bobba! \"Crianças! Infanoj! Crianças!\" Isso fá-los rir muito.  ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_7.webp",
           "audioUrl": "/learning-material/story-1/story-port/1_7.mp3"
         },
         "8": {
-          "text": ""Queres ver o nosso parque infantil?", pergunta a Olívia. O Bobba sorri e o Ben dá-lhe a mão, e juntos levam-no para o pátio. ",
+          "text": "\"Queres ver o nosso parque infantil?\", pergunta a Olívia. O Bobba sorri e o Ben dá-lhe a mão, e juntos levam-no para o pátio. ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
           "audioUrl": "/learning-material/story-1/story-port/1_8.mp3"
         }
@@ -637,16 +627,12 @@
           "audioUrl": "/learning-material/story-1/story-tur/Story_1_6_Turkish.mp3"
         },
         "7": {
-          "text": "Gemiden dışarı çıkıp etrafına baktı. Siyah tüylü bir kuş ona merakla bakıyordu. Bobba gülümseyerek, “Selam!” dedi. Ama kuş hiçbir şey söylemeden kanatlarını çırpıp uçtu. Bobba biraz şaşırdı. “Bu gezegendekiler hiç konuşmaz mı?” diye düşündü. 
- 
-Ağaçtan aşağı inerken yerde siyah noktalı kırmızı bir böcek gördü. “Selam!” diye bağırdı Bobba. Ancak böcek, onu görmeden yanından geçti. Bobba, “Bu da beni duymadı!” diye homurdandı.",
+          "text": "Gemiden dışarı çıkıp etrafına baktı. Siyah tüylü bir kuş ona merakla bakıyordu. Bobba gülümseyerek, \"Selam!\" dedi. Ama kuş hiçbir şey söylemeden kanatlarını çırpıp uçtu. Bobba biraz şaşırdı. \"Bu gezegendekiler hiç konuşmaz mı?\" diye düşündü.\n\nAğaçtan aşağı inerken yerde siyah noktalı kırmızı bir böcek gördü. \"Selam!\" diye bağırdı Bobba. Ancak böcek, onu görmeden yanından geçti. Bobba, \"Bu da beni duymadı!\" diye homurdandı.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_7.webp",
           "audioUrl": "/learning-material/story-1/story-tur/Story_1_7_Turkish.mp3"
         },
         "8": {
-          "text": "Olivia adındaki kız, “Oyun alanımızı görmek ister misin?” diye sordu. Bobba’nın yüzü mutlulukla parladı. “Elbette isterim!” dedi. Ben isimli oğlan, Bobba’nın elinden tuttu. Birlikte oyun alanına doğru yürüdüler. 
-
-Ve böylece Bobba, Dünya’da yeni arkadaşlar edinmenin ve bu güzel gezegeni keşfetmenin keyfini çıkardı. Bu, onun unutamayacağı bir maceranın başlangıcıydı!",
+          "text": "Olivia adındaki kız, \"Oyun alanımızı görmek ister misin?\" diye sordu. Bobba'nın yüzü mutlulukla parladı. \"Elbette isterim!\" dedi. Ben isimli oğlan, Bobba'nın elinden tuttu. Birlikte oyun alanına doğru yürüdüler.\n\nVe böylece Bobba, Dünya'da yeni arkadaşlar edinmenin ve bu güzel gezegeni keşfetmenin keyfini çıkardı. Bu, onun unutamayacağı bir maceranın başlangıcıydı!",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
           "audioUrl": "/learning-material/story-1/story-tur/Story_1_8_Turkish.mp3"
         }
@@ -1970,7 +1956,7 @@ Ve böylece Bobba, Dünya’da yeni arkadaşlar edinmenin ve bu güzel gezegeni 
         }
       }
     }],
-    "deshort": [{
+    "de-short": [{
       "title": "Bobba übernachtet bei Olivia",
       "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
       "fullAudio": "/learning-material/story-4/story-de short/Bobba_DE_Story 4 gesamt.mp3",
