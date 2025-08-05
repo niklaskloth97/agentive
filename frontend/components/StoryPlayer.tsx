@@ -4,29 +4,21 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { 
   Download, 
-  Maximize2, 
+   
   Play, 
   Pause, 
   Globe, 
 } from "lucide-react";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import LanguageSelector from "@/components/LanguageSelector";
-import Image from "next/image";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-import { type CarouselApi } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import storiesData from '@/data/stories.json';
 import { DialogTitle } from "@radix-ui/react-dialog";
 import { cn } from "@/lib/utils";
 import { TranslateButtons } from '@/components/translateButtons';
 import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext';
+import { StoryCarousel } from '@/components/StoryCarousel';
 
 interface StoryPlayerProps {
   storyId: string;
@@ -41,12 +33,6 @@ interface StoryLanguageContent {
   coverImage: string;
 }
 
-type StoryPageItem = {
-  text: string;
-  imageUrl: string;
-  audioUrl?: string;
-};
-
 export function StoryPlayer({ 
   storyId, 
   showAudioControls = true,
@@ -59,35 +45,25 @@ export function StoryPlayer({
   // Story data access
   const storyInfo = storiesData.find(story => story.id === storyId);
   
-  // Carousel state
-  const [api, setApi] = useState<CarouselApi>();
-  const [fullscreenApi,] = useState<CarouselApi>();
-  // Remove the unused current variable
+  // State
   const [isFullscreen, setIsFullscreen] = useState(false);
-  
-  // Language state
   const [selectedLanguage, setSelectedLanguage] = useState<string>("");
   const [currentPage, setCurrentPage] = useState(0);
-  
-  // Audio player state
   const [isPlaying, setIsPlaying] = useState(false);
-  
   const [audioAutoPlay, setAudioAutoPlay] = useState(false);
-
   const [isSafari, setIsSafari] = useState(false);
 
-  const autoPlaySafariFix = (boolean: boolean) => {
-  // Safari requires user interaction to play audio, so we set autoPlay to false initially 
-  if (isSafari || !boolean) {
-    setAudioAutoPlay(false);
-    return false;
-  } else {
-    // For other browsers and when boolean is true, we can set autoPlay to true
-    setAudioAutoPlay(true);
-    return true;
+  const autoPlaySafariFix = (enable: boolean) => {
+    // Safari requires user interaction to play audio, so we never enable autoplay on Safari
+    if (isSafari) {
+      setAudioAutoPlay(false);
+      return false;
+    } else {
+      // For other browsers, set autoplay based on the enable parameter
+      setAudioAutoPlay(enable);
+      return enable;
+    }
   }
-}
-
 
   // Text visibility state
   const [isTextVisible] = useState<boolean>(showText);
@@ -141,46 +117,24 @@ export function StoryPlayer({
     // Only reset to first page if current page doesn't exist in new language
     if (currentPage >= newLanguagePages.length) {
       setCurrentPage(0);
-      if (api) {
-        api.scrollTo(0);
-      }
     }
-    // Otherwise keep the current page position
     
     setIsPlaying(false);
-    setAudioAutoPlay(false);
-  };
-  // Safari detection useEffect
-  useEffect(() => {
-  const detectSafari = () => {
-    const userAgent = navigator.userAgent.toLowerCase();
-    const isSafariBrowser = userAgent.includes('safari') && 
-                           !userAgent.includes('chrome') && 
-                           !userAgent.includes('chromium') && 
-                           !userAgent.includes('edg');
-    setIsSafari(isSafariBrowser);
   };
 
-  detectSafari();
-}, []);
-  // Render text container
-  const renderTextContainer = (page: StoryPageItem, isFullscreen: boolean = false) => {
-    if (!isTextVisible) return null;
-    
-    return (
-      <div className={cn(
-        "text-container bg-white rounded-lg",
-        isFullscreen ? "px-4" : "border p-2 shadow-sm"
-      )}>
-        <p className={cn(
-          "text-center break-words hyphens-auto",
-          isFullscreen ? "text-2xl" : "text-xl"
-        )}>
-          {page.text}
-        </p>
-      </div>
-    );
-  };
+  // Safari detection useEffect
+  useEffect(() => {
+    const detectSafari = () => {
+      const userAgent = navigator.userAgent.toLowerCase();
+      const isSafariBrowser = userAgent.includes('safari') && 
+                             !userAgent.includes('chrome') && 
+                             !userAgent.includes('chromium') && 
+                             !userAgent.includes('edg');
+      setIsSafari(isSafariBrowser);
+    };
+
+    detectSafari();
+  }, []);
 
   // Get pages for the selected language
   const languageData = selectedLanguage && storyInfo?.[selectedLanguage as keyof typeof storyInfo];
@@ -195,34 +149,24 @@ export function StoryPlayer({
       text: ""
     };
 
-  // Handle regular carousel
-  useEffect(() => {
-    if (!api) return;
-
-    // Remove the setCurrent call since current is no longer used
-
-    api.on("select", () => {
-      // Remove the setCurrent call since current is no longer used
-      setCurrentPage(api.selectedScrollSnap());
-      setIsPlaying(false);
-    });
-  }, [api]);
-  // Fullscreen and audio button - SIMPLIFIED to just open fullscreen
-  const openFullscreenWithAutoplay = () => {
-    setIsFullscreen(true);
+  // Handle page changes for autoplay
+  const handlePageChange = (pageIndex: number) => {
+    setCurrentPage(pageIndex);
+    setIsPlaying(false);
+    
+    // If autoplay is enabled and not Safari, start playing new page
+    if (audioAutoPlay && !isSafari) {
+      // Small delay to ensure audio element is ready
+      setTimeout(() => {
+        const audioElement = document.querySelector('audio');
+        if (audioElement) {
+          audioElement.play().catch(err => {
+            console.error('Auto-play failed:', err);
+          });
+        }
+      }, 100);
+    }
   };
-
-  // Sync fullscreen carousel with main carousel
-  useEffect(() => {
-    if (!fullscreenApi || !api) return;
-    
-    fullscreenApi.scrollTo(api.selectedScrollSnap());
-    
-    fullscreenApi.on("select", () => {
-      api.scrollTo(fullscreenApi.selectedScrollSnap());
-      setCurrentPage(fullscreenApi.selectedScrollSnap());
-    });
-  }, [fullscreenApi, api, isFullscreen]);
 
   // Add event listeners to track actual audio state
   useEffect(() => {
@@ -231,7 +175,9 @@ export function StoryPlayer({
       const handlePlay = () => setIsPlaying(true);
       const handlePause = () => setIsPlaying(false);
       const handleEnded = () => {
-        setIsPlaying(false); setAudioAutoPlay(false);
+        setIsPlaying(false);
+        // Keep audioAutoPlay enabled when audio ends naturally
+        // This allows autoplay to continue on next slide
       };
 
       audioElement.addEventListener('play', handlePlay);
@@ -325,7 +271,10 @@ export function StoryPlayer({
                     <Button 
                       className="center w-full mt-auto h-16 text-lg"
                       variant="default"
-                      onClick={openFullscreenWithAutoplay}
+                      onClick={() => {
+                        setIsFullscreen(true);
+                        // Don't enable autoplay automatically - let user decide
+                      }}
                       disabled={!pages[currentPage]?.audioUrl}
                     >
                       <Play className="mr-2" size={24}/>
@@ -361,7 +310,7 @@ export function StoryPlayer({
                   </div>
                 )}
 
-                {/* Fullscreen button - only visible when a language is selected */}
+                {/* Fullscreen button - only visible when a language is selected
                 {selectedLanguage && (
                   <div className="absolute top-2 right-2 z-10">
                     <Button 
@@ -372,44 +321,17 @@ export function StoryPlayer({
                     >
                       <Maximize2 className="h-4 w-4" />
                     </Button>
-                  </div>
-                )}
+                  </div> */}
+                {/* )} */}
                 
-                {/* Carousel - always render but show placeholder if no language selected */}
-                <Carousel setApi={setApi} className="">
-                  <CarouselContent className="">
-                    {(selectedLanguage && pages.length > 0 ? pages : [placeholderPage]).map((page, index) => (
-                      <CarouselItem 
-                        key={`${selectedLanguage || "placeholder"}-${index}`} 
-                        className="w-full flex items-center justify-center"
-                      >
-                        <Card className="w-full max-h-[100vh]">
-                          <CardContent className="flex flex-col p-4 items-center justify-center">
-                            <div className="w-full aspect-video relative">
-                              <Image
-                                src={page.imageUrl} 
-                                alt={`Story scene ${index + 1}`}
-                                fill
-                                className={cn(
-                                  "object-contain rounded-lg",
-                                  !selectedLanguage && "opacity-50 blur-sm"
-                                )}
-                              />
-                            </div>
-                            
-                            {selectedLanguage && renderTextContainer(page)}
-                          </CardContent>
-                        </Card>
-                      </CarouselItem>
-                    ))}
-                  </CarouselContent>
-                  {selectedLanguage && pages.length > 1 && (
-                    <>
-                      <CarouselPrevious />
-                      <CarouselNext />
-                    </>
-                  )}
-                </Carousel>
+                {/* Main Carousel */}
+                <StoryCarousel
+                  pages={selectedLanguage && pages.length > 0 ? pages : [placeholderPage]}
+                  selectedLanguage={selectedLanguage}
+                  isTextVisible={isTextVisible}
+                  onPageChange={handlePageChange}
+                  isFullscreen={false}
+                />
               </div>
             </div>
           </div>
@@ -419,76 +341,41 @@ export function StoryPlayer({
             <DialogTitle className="sr-only">Story Details</DialogTitle>
             <DialogContent
               className={cn(
-                "w-full max-w-[1000px] rounded-lg border"
+                "p-0 m-0 border-0 bg-white rounded-lg flex flex-col items-center justify-center",
+                "w-[95vw] h-[95vh] max-w-none max-h-none overflow-hidden"
               )}
+              style={{ boxSizing: "border-box" }}
             >
-              <div className="flex flex-col h-full w-full px-20">
+              <div className="flex flex-col h-full w-full overflow-hidden">
                 {/* Fullscreen carousel - takes remaining space */}
-                <div className="flex-1 min-h-0 w-full">
-                  <Carousel setApi={setApi} className="w-full h-full">
-                    <CarouselContent className="h-full">
-                      {(selectedLanguage && pages.length > 0 ? pages : [placeholderPage]).map((page, index) => (
-                        <CarouselItem 
-                          key={`${selectedLanguage || "placeholder"}-${index}`} 
-                          className="flex items-center justify-center h-full"
-                        >
-                          <Card className="w-full h-full flex items-center justify-center">
-                            <CardContent className="flex flex-col w-full h-full items-center justify-center p-2">
-                              <div 
-                                className={cn(
-                                  "relative aspect-video w-full",
-                                  // Dynamic height based on text presence and length
-                                  selectedLanguage && isTextVisible && page.text ? 
-                                    // When text is shown, reduce height based on text length
-                                    page.text.length > 200 ? "h-[50vh]" : 
-                                    page.text.length > 100 ? "h-[60vh]" : "h-[60vh]"
-                                    :
-                                    // When no text, use maximum height
-                                    "h-[60vh]"
-                                )}
-                              >
-                                <Image
-                                  src={page.imageUrl} 
-                                  alt={`Story scene ${index + 1}`}
-                                  fill
-                                  className={cn(
-                                    "object-contain rounded-lg",
-                                    !selectedLanguage && "opacity-50 blur-sm"
-                                  )}
-                                />
-                              </div>
-                              {selectedLanguage && renderTextContainer(page, true)}
-                            </CardContent>
-                          </Card>
-                        </CarouselItem>
-                      ))}
-                    </CarouselContent>
-                    {selectedLanguage && pages.length > 1 && (
-                      <>
-                        <CarouselPrevious />
-                        <CarouselNext />
-                      </>
-                    )}
-                  </Carousel>
+                <div className="flex-1 min-h-0 w-full px-4">
+                  <StoryCarousel
+                    pages={selectedLanguage && pages.length > 0 ? pages : [placeholderPage]}
+                    selectedLanguage={selectedLanguage}
+                    isTextVisible={isTextVisible}
+                    onPageChange={handlePageChange}
+                    isFullscreen={true}
+                  />
                 </div>
                 
                 {/* Bottom section - fixed height to prevent overflow */}
-                <div className="flex-shrink-0 space-y-2">
+                <div className="flex-shrink-0 p-4 border-t bg-white">
                   {showAudioControls && (
-                    <div className="flex justify-between flex-col">
+                    <div className="flex flex-col gap-4">
                       {selectedLanguage && pages[currentPage]?.audioUrl && (
                         <audio 
-                          autoPlay={audioAutoPlay && !isSafari} // Only autoplay if not Safari
+                          autoPlay={audioAutoPlay && !isSafari}
                           key={`audio-${selectedLanguage}-${currentPage}`}
-                          className="w-full"
+                          className="w-full h-12"
                           preload="auto"
                           src={pages[currentPage].audioUrl}
+                          
                         >
                           Your browser does not support the audio element.
                         </audio>
                       )}
                       
-                      <div className="flex gap-2 justify-between w-full">
+                      <div className="flex gap-4 justify-between w-full">
                         <Button 
                           size="lg"
                           onClick={() => {
@@ -498,16 +385,18 @@ export function StoryPlayer({
                                 audioElement.play().catch(err => {
                                   console.error('Audio playback failed:', err);
                                 });
-                                // Enable autoplay for next slides (but not on Safari)
+                                // Enable autoplay when user clicks play
                                 autoPlaySafariFix(true);
                                 setIsPlaying(true);
                               } else {
                                 audioElement.pause();
+                                // Disable autoplay when user clicks pause - use autoPlaySafariFix
+                                autoPlaySafariFix(false);
                                 setIsPlaying(false);
                               }
                             }
                           }}
-                          className="h-12 w-32" // double width
+                          className="h-14 min-w-[140px]"
                           variant="default"
                         >
                           {isPlaying ? <Pause className="mr-2" size={20} /> : <Play className="mr-2" size={20} />}
@@ -519,7 +408,7 @@ export function StoryPlayer({
                         <Button 
                           size="lg"
                           variant="outline"
-                          className="h-12 flex-shrink-0 min-w-[120px]"
+                          className="h-14 min-w-[140px]"
                           asChild
                         >
                           <a href="/dashboard/stories">
@@ -535,12 +424,12 @@ export function StoryPlayer({
                   )}
                   
                   {/* Home button - show when audio controls are disabled */}
-                   {!showAudioControls && (
-                    <div className="flex gap-2 justify-between w-full">
+                  {!showAudioControls && (
+                    <div className="flex gap-2 justify-center w-full">
                       <Button 
                         size="lg"
                         variant="outline"
-                        className="h-12 flex-shrink-0 min-w-[120px]"
+                        className="h-14 min-w-[140px]"
                         asChild
                       >
                         <a href="/dashboard/stories">

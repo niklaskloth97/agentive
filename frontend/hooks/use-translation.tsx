@@ -193,16 +193,16 @@ const translations: Record<string, Record<string, string>> = {
     'Greek': 'Εικόνες'
   },
   'story-guide': {
-    'English': 'Story\'s reading Guide - this is the specific guide for each story which has questions teachers can answer',
+    'English': 'Story\'s reading Guide',
     'French': 'Lecture de l\'Histoire',
     'Lux': 'Guide fir d\'Geschicht',
     'Slovenian': 'Napotki za dialoško branje zgodbe',
     'Italian': '',
-    'German': 'Lese-Leitfaden - dies ist ein Leifaden für jede Geschichte mit Fragen, welche Lehrpersonen stellen oder auch selbst beantworten können.',
+    'German': 'Lese-Leitfaden',
     'Greek': ''
   },
   'dialog-guide': {
-    'English': 'Dialogic reading Guide - this is the "general+ 2-page guide we wrote in Trento',
+    'English': 'Dialogic reading Guide',
     'French': 'Guide de Lecture Dialogique',
     'Lux': 'Guide fir Dialogescht Liesen',
     'Slovenian': 'Vodnik za dialoško branje',

@@ -4,23 +4,23 @@
     "slug": "story-1",
     "en": [{
       "title": "Bobba's first trip to Earth",
-      "titlePicture": "/learning-material/story-1/story-en/Story 1_title_E.jpg",
+      "titlePicture": "/learning-material/story-1/story-en/Story1_title_E.jpg",
       "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
       "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
       "pages": {
          "0": {
           "text": "Bobba's first trip to Earth",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_title_E.jpg",
+          "imageUrl": "/learning-material/story-1/story-en/Story1_title_E.jpg",
           "audioUrl": "/learning-material/story-1/story-en/Story1_English_Title.m4a"
         },
         "1": {
           "text": "Bobba lives on a planet far away. Today he is very excited. He finally has his own spaceship and can now fly to wherever he wants!",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
           "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
         },
         "2": {
           "text": "His biggest dream is to fly to planet Earth.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.webp",
           "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
         },
         "3": {
@@ -30,7 +30,7 @@
         },
         "4": {
           "text": "Bobba flies past a lot of planets and comets and he wonders when he will finally reach planet Earth.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_4.webp",
           "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
         },
         "5": {
