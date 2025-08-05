@@ -44,14 +44,49 @@ export interface SimpleStory {
 }
 
 // Helper functions that can be reused across components
-export const getStoryTitle = (story: Story): string => {
-  // Try to get title from English first
+export const getStoryTitle = (story: Story, language?: string): string => {
+  // Map website language codes to story language codes
+  const languageMap: { [key: string]: string } = {
+    'en': 'en',
+    'de': 'de',
+    'fr': 'fr',
+    'it': 'it',
+    'sv': 'sv',
+    'lux': 'lux',
+    'gr': 'gr',
+    'es': 'es',
+    'al': 'al',
+    'ukr': 'ukr',
+    'pl': 'pl',
+    'tur': 'tur',
+    'pt': 'pt',
+    'slo': 'slo'
+  };
+
+  // If language is provided, try to get title in that language first
+  if (language) {
+    const storyLangCode = languageMap[language] || language;
+    const languageData = story[storyLangCode];
+    if (Array.isArray(languageData) && languageData.length > 0 && languageData[0].title) {
+      return languageData[0].title;
+    }
+    
+    // Also try with 'de-short' variant for German
+    if (language === 'de') {
+      const deShortData = story['de-short'] || story['deshort'];
+      if (Array.isArray(deShortData) && deShortData.length > 0 && deShortData[0].title) {
+        return deShortData[0].title;
+      }
+    }
+  }
+  
+  // Fallback to English if language not found or not provided
   const englishData = story.en;
   if (Array.isArray(englishData) && englishData.length > 0 && englishData[0].title) {
     return englishData[0].title;
   }
   
-  // Try other languages
+  // Try other languages as final fallback
   for (const [key, value] of Object.entries(story)) {
     if (key !== 'id' && key !== 'slug' && Array.isArray(value) && value.length > 0) {
       const langData = value[0] as StoryLanguageData;
@@ -64,14 +99,79 @@ export const getStoryTitle = (story: Story): string => {
   return `Story ${story.id}`;
 };
 
-export const getStoryCoverImage = (story: Story): string => {
-  // Try to get the titlePicture from English, fallback to any available language
-  const englishData = story.en;
-  if (Array.isArray(englishData) && englishData.length > 0 && englishData[0].titlePicture) {
-    return englishData[0].titlePicture;
+export const getStoryCoverImage = (story: Story, language?: string): string => {
+  // Map website language codes to story language codes
+  const languageMap: { [key: string]: string } = {
+    'en': 'en',
+    'de': 'de',
+    'fr': 'fr',
+    'it': 'it',
+    'sv': 'sv',
+    'lux': 'lux',
+    'gr': 'gr',
+    'es': 'es',
+    'al': 'al',
+    'ukr': 'ukr',
+    'pl': 'pl',
+    'tur': 'tur',
+    'pt': 'pt',
+    'slo': 'slo'
+  };
+
+  // If language is provided, try to get cover image in that language first
+  if (language) {
+    const storyLangCode = languageMap[language] || language;
+    const languageData = story[storyLangCode];
+    if (Array.isArray(languageData) && languageData.length > 0) {
+      const langData = languageData[0];
+      // Try titlePicture first
+      if (langData.titlePicture) {
+        return langData.titlePicture;
+      }
+      // Fallback to first page image if titlePicture not available
+      if (langData.pages && langData.pages["0"] && langData.pages["0"].imageUrl) {
+        return langData.pages["0"].imageUrl;
+      }
+      if (langData.pages && langData.pages["1"] && langData.pages["1"].imageUrl) {
+        return langData.pages["1"].imageUrl;
+      }
+    }
+    
+    // Also try with 'de-short' variant for German
+    if (language === 'de') {
+      const deShortData = story['de-short'] || story['deshort'];
+      if (Array.isArray(deShortData) && deShortData.length > 0) {
+        const langData = deShortData[0];
+        if (langData.titlePicture) {
+          return langData.titlePicture;
+        }
+        if (langData.pages && langData.pages["0"] && langData.pages["0"].imageUrl) {
+          return langData.pages["0"].imageUrl;
+        }
+        if (langData.pages && langData.pages["1"] && langData.pages["1"].imageUrl) {
+          return langData.pages["1"].imageUrl;
+        }
+      }
+    }
   }
   
-  // Try other languages
+  // Fallback to English if language not found or not provided
+  const englishData = story.en;
+  if (Array.isArray(englishData) && englishData.length > 0) {
+    const langData = englishData[0];
+    if (langData.titlePicture) {
+      return langData.titlePicture;
+    }
+    // Fallback to first page image if titlePicture not available
+    if (langData.pages && langData.pages["0"] && langData.pages["0"].imageUrl) {
+      return langData.pages["0"].imageUrl;
+    }
+    if (langData.pages && langData.pages["1"] && langData.pages["1"].imageUrl) {
+      return langData.pages["1"].imageUrl;
+    }
+  }
+  
+  // Try other languages as final fallback
   for (const [key, value] of Object.entries(story)) {
     if (key !== 'id' && key !== 'slug' && Array.isArray(value) && value.length > 0) {
       const langData = value[0] as StoryLanguageData;
@@ -79,6 +179,9 @@ export const getStoryCoverImage = (story: Story): string => {
         return langData.titlePicture;
       }
       // Fallback to first page image
+      if (langData.pages && langData.pages["0"] && langData.pages["0"].imageUrl) {
+        return langData.pages["0"].imageUrl;
+      }
       if (langData.pages && langData.pages["1"] && langData.pages["1"].imageUrl) {
         return langData.pages["1"].imageUrl;
       }

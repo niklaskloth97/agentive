@@ -20,6 +20,7 @@ import { TranslateButtons } from '@/components/translateButtons';
 import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext';
 import { StoryCarousel } from '@/components/StoryCarousel';
 
+
 interface StoryPlayerProps {
   storyId: string;
   showAudioControls?: boolean;
@@ -212,6 +213,9 @@ export function StoryPlayer({
     }
     
     return "Story";
+
+    const { websiteLanguage } = useWebsiteLanguage();
+    
   };
 
   return (
@@ -357,7 +361,7 @@ export function StoryPlayer({
                     isFullscreen={true}
                   />
                 </div>
-                
+
                 {/* Bottom section - fixed height to prevent overflow */}
                 <div className="flex-shrink-0 p-4 border-t bg-white">
                   {showAudioControls && (
