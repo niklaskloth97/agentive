@@ -4,10 +4,15 @@
     "slug": "story-1",
     "en": [{
       "title": "Bobba's first trip to Earth",
-      "titlePicture": "/learning-material/story-1/story-en/Story 1_1.jpg",
+      "titlePicture": "/learning-material/story-1/story-en/Story 1_title_E.jpg",
       "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
       "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
       "pages": {
+         "0": {
+          "text": "Bobba's first trip to Earth",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_title_E.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story1_English_Title.m4a"
+        },
         "1": {
           "text": "Bobba lives on a planet far away. Today he is very excited. He finally has his own spaceship and can now fly to wherever he wants!",
           "imageUrl": "/learning-material/story-1/story-en/Story 1_1.jpg",
