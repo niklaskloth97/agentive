@@ -112,7 +112,7 @@ export default function ListeningFrame({
       {/* Fullscreen dialog */}
       <Dialog open={isFullscreen} onOpenChange={setIsFullscreen}>
         <DialogTitle/> 
-        <DialogContent className="max-w-[95vw] w-[95vw] h-[90vh] max-h-[90vh] p-6">
+        <DialogContent className="w-full max-w-[1000px] rounded-lg border">
           {/* Close button positioned like the maximize button */}
           <div className="absolute top-2 right-2 z-10">
             <DialogClose/>
