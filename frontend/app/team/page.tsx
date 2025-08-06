@@ -125,17 +125,7 @@ export default function Team() {
             />
           ), 
           image: '/images/people/Alice-Fiolka.jpeg' 
-        },
-        { 
-          name: 'Tran Ha Linh Phan', 
-          role: (
-            <TranslateButtons
-              translationKey="platform-development-assistant"
-              currentLanguage={websiteLanguage}
-            />
-          ), 
-          image: '/images/people/Linh-Phan.jpeg' 
-        },
+        }
       ]
     },
     { 
@@ -265,16 +255,6 @@ export default function Team() {
             />
           ), 
           image: '/images/people/Katerina-Zourou.png'
-        },
-        { 
-          name: 'Konstantia Liouza', 
-          role: (
-            <TranslateButtons
-              translationKey="open-language-education"
-              currentLanguage={websiteLanguage}
-            />
-          ), 
-          image: 'placeholder.svg'
         }, 
         { 
           name: 'Stefania Oikonomou', 

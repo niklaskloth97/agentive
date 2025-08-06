@@ -7,7 +7,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Ressources Multilingues', 
     'Lux': 'Multilingual Ressourcen',
     'Slovenian': 'Večjezična gradiva',
-    'Italian': '',
+    'Italian': 'Risorse Multilingui',
     'German': 'Mehrsprachige Materialien',
     'Greek': 'Πολυγλωσσικές πηγές'
   },
@@ -16,7 +16,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Heure des Histoires',
     'Lux': 'Storytime',
     'Slovenian': 'Zgodbe / Storytime',
-    'Italian': '',
+    'Italian': 'Ora delle Storie',
     'German': 'Geschichte',
     'Greek': 'Η ιστορία μας'
   },
@@ -25,7 +25,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Activités',
     'Lux': 'Aktivitéiten',
     'Slovenian': 'Dejavnosti',
-    'Italian': '',
+    'Italian': 'Attività',
     'German': 'Aktivitäten',
     'Greek': 'Δραστηριότητες'
   },
@@ -34,7 +34,7 @@ const translations: Record<string, Record<string, string>> = {
   'French': 'Guide pédagogique',
   'Lux': 'Pädagogesche Guide',
   'Slovenian': 'Pedagoški vodnik',
-  'Italian': 'Guida pedagogica',
+  'Italian': 'Guida Pedagogica',
   'German': 'Pädagogischer Leitfaden',
   'Greek': 'Παιδαγωγικός οδηγός'
 },
@@ -43,7 +43,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Histoires Multilingues',
     'Lux': 'Méisproocheg Geschichten',
     'Slovenian': 'Večjezične zgodbe',
-    'Italian': 'Storie Multilingue',
+    'Italian': 'Storie Multilingui',
     'German': 'Mehrsprachige Geschichten',
     'Greek': 'Πολυγλωσσικές ιστορίες'
   },
@@ -62,7 +62,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'À propos d\'AGENTIVE',
     'Lux': 'À propos AGENTIVE',
     'Slovenian': 'O projektu (AGENTIVE)',
-    'Italian': '',
+    'Italian': 'Riguardo AGENTIVE',
     'German': 'Über Agentive',
     'Greek': 'Σχετικά με το AGENTIVE'
   },
@@ -71,7 +71,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'L\'Équipe',
     'Lux': 'Eist Team',
     'Slovenian': 'Projektna skupina',
-    'Italian': '',
+    'Italian': 'Il Team',
     'German': 'Team',
     'Greek': 'Η ομάδα'
   },
@@ -80,7 +80,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Blog',
     'Lux': 'Blog',
     'Slovenian': 'Blog',
-    'Italian': '',
+    'Italian': 'Blog',
     'German': 'Blog',
     'Greek': 'Το blog'
   },
@@ -89,7 +89,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Espace d\'Apprentissage',
     'Lux': 'Dashboard',
     'Slovenian': 'Nadzorna plošča',
-    'Italian': '',
+    'Italian': 'Dashboard',
     'German': 'Dashboard',
     'Greek': 'Ταμπλό'
   },
@@ -98,7 +98,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Aperçu',
     'Lux': 'Iwwerbléck',
     'Slovenian': 'Pregled',
-    'Italian': '',
+    'Italian': 'Panoramica',
     'German': 'Übersicht',
     'Greek': 'Επισκόπηση'
   },
@@ -107,7 +107,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Écouter et Regarder',
     'Lux': 'Lauschteren a Kucken',
     'Slovenian': 'Poslušaj in glej',
-    'Italian': '',
+    'Italian': 'Ascolta e Guarda',
     'German': 'Hören & Anschauen',
     'Greek': 'Άκουσε και Δες'
   },
@@ -116,7 +116,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Lire',
     'Lux': 'Liesen',
     'Slovenian': 'Preberi',
-    'Italian': '',
+    'Italian': 'Leggi',
     'German': 'Lesen',
     'Greek': 'Διάβασε'
   },
@@ -125,7 +125,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Disponible en',
     'Lux': 'Verfügbar op',
     'Slovenian': 'Na voljo v',
-    'Italian': '',
+    'Italian': 'Disponibile in',
     'German': 'Verfügbar in',
     'Greek': 'Διαθέσιμο σε'
   },
@@ -134,7 +134,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Histoires',
     'Lux': 'Geschichten',
     'Slovenian': 'Zgodbe',
-    'Italian': '',
+    'Italian': 'Storie',
     'German': 'Geschichten',
     'Greek': 'Ιστορίες'
   },
@@ -143,16 +143,16 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Choisissez une langue',
     'Lux': 'Sprooch auswielen',
     'Slovenian': 'Izberi jezik',
-    'Italian': '',
+    'Italian': 'Seleziona una Lingua',
     'German': 'Wähle eine Sprache',
     'Greek': 'Επιλέξτε μια γλώσσα'
   },
   'select-lang-long': {
     'English': 'Please choose a language to view this story',
-    'French': '/',
-    'Lux': '/',
+    'French': 'Veuillez choisir une langue pour voir cette histoire',
+    'Lux': 'Wielt w.e.g. eng Sprooch fir dës Geschicht ze gesinn',
     'Slovenian': 'Izberi jezik zgodbe',
-    'Italian': '',
+    'Italian': 'Scegli una lingua per vedere questa storia',
     'German': 'Wähle eine Sprache aus, um diese Geschichte zu lesen',
     'Greek': 'Παρακαλώ επιλέξτε μια γλώσσα για να δείτε την ιστορία'
   },
@@ -161,7 +161,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Télécharger',
     'Lux': 'Download',
     'Slovenian': 'Prenesi',
-    'Italian': '',
+    'Italian': 'Scarica',
     'German': 'Herunterladen',
     'Greek': 'Λήψη'
   },
@@ -170,7 +170,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Audio',
     'Lux': 'Audio',
     'Slovenian': 'Avdio',
-    'Italian': '',
+    'Italian': 'Audio',
     'German': 'Audio',
     'Greek': 'Ακουστικό υλικό'
   },
@@ -179,7 +179,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Texte',
     'Lux': 'Text',
     'Slovenian': 'Besedilo',
-    'Italian': '',
+    'Italian': 'Testo',
     'German': 'Text',
     'Greek': 'Κείμνο'
   },
@@ -188,7 +188,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Images',
     'Lux': 'Biller',
     'Slovenian': 'Slike',
-    'Italian': '',
+    'Italian': 'Immagini',
     'German': 'Bilder',
     'Greek': 'Εικόνες'
   },
@@ -197,16 +197,16 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Lecture de l\'Histoire',
     'Lux': 'Guide fir d\'Geschicht',
     'Slovenian': 'Napotki za dialoško branje zgodbe',
-    'Italian': '',
+    'Italian': 'Guida di Lettura della Storia',
     'German': 'Lese-Leitfaden',
-    'Greek': ''
+    'Greek': 'Οδηγός ανάγνωσης ιστορίας'
   },
   'dialog-guide': {
     'English': 'Dialogic reading Guide',
     'French': 'Guide de Lecture Dialogique',
     'Lux': 'Guide fir Dialogescht Liesen',
     'Slovenian': 'Vodnik za dialoško branje',
-    'Italian': '',
+    'Italian': 'Guida di Lettura Dialogica',
     'German': 'Dialogischer Leseleitfaden',
     'Greek': 'Οδηγός Διαλογικής Ανάγνωσης'
   },
@@ -215,7 +215,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Go',
     'Lux': 'Go',
     'Slovenian': 'Naprej',
-    'Italian': '',
+    'Italian': 'Vai',
     'German': 'Los',
     'Greek': 'Πήγαινε'
   },
@@ -224,7 +224,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Play',
     'Lux': 'Play',
     'Slovenian': 'Predvajaj',
-    'Italian': '',
+    'Italian': 'Riproduci',
     'German': 'Abspielen',
     'Greek': 'Παίξε'
   },
@@ -242,7 +242,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Compétence plurilingue',
     'Lux': 'Méisproochekompetenz',
     'Slovenian': 'Raznojezična zmožnost',
-    'Italian': '',
+    'Italian': 'Competenza Plurilingue',
     'German': 'Plurilinguale Kompetenz',
     'Greek': 'Πολυγλωσσικές δεξιότητες'
   },
@@ -251,7 +251,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Compétences en littératie de la Petite Enfance',
     'Lux': 'Fréizäiteg Entwécklung vu Kompetenzen an der Literacy',
     'Slovenian': 'Začetno opismenjevanje',
-    'Italian': '',
+    'Italian': 'Competenze di Alfabetizzazione Precoce',
     'German': 'Frühe Literacy-Kompetenzen',
     'Greek': 'Πρώιμες Δεξιότητες Γραμματισμού'
   },
@@ -260,7 +260,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Sensibilisation et compréhension interculturelles',
     'Lux': 'Interkulturellt Bewosstsinn a Verständnis',
     'Slovenian': 'Medkulturno zavedanje in razumevanje',
-    'Italian': '',
+    'Italian': 'Consapevolezza e Comprensione Interculturale',
     'German': 'Interkulturelle Bewusstsein und Verständnis',
     'Greek': 'Διαπολιτισμική συνειδητοποίηση και κατανόηση'
   },
@@ -269,7 +269,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Éveil aux Sciences',
     'Lux': 'Sproochbewosstsinn',
     'Slovenian': 'Jezikovno zavedanje',
-    'Italian': '',
+    'Italian': 'Consapevolezza Linguistica',
     'German': 'Sprachbewusstsein',
     'Greek': 'Γλωσσική επίγνωση'
   },
@@ -278,7 +278,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Veuillez cocher toutes les activités que vous souhaitez télécharger, puis appuyez sur le bouton de téléchargement ou cliquez simplement sur l\'activité que vous souhaitez afficher.',
     'Lux': 'Kräizt w.e.g. all Aktivitéiten un, déi Dir wëllt eroflueden. Klickt duerno op de Knäppchen \'Download\' oder klickt einfach op d\'Aktivitéit, déi Dir wëllt ugewise kréien.',
     'Slovenian': 'Prosimo, označite vse dejavnosti, ki jih želite prenesti, in kliknite gumb za prenos ali preprosto kliknite na dejavnost, ki jo želite videti.',
-    'Italian': '',
+    'Italian': 'Seleziona tutte le attività che vuoi scaricare e premi il pulsante di download o semplicemente clicca sull\'attività che vuoi vedere.',
     'German': 'Bitte überprüfe alle Aktivitäten, welche heruntergeladen werden sollen und klicke auf den Download-Knopf oder einfach auf den Aktivitäten-Knopf, welcher angezeigt werden soll.',
     'Greek': 'Παρακαλώ, επιλέξτε όλες τις δραστηριότητες που θέλετε να κατεβάσετε και πατήστε το κουμπί «Λήψη» ή απλά κάντε κλικ στο κουμπί της δραστηριότητας που θέλετε να δείτε.'
   },
@@ -287,7 +287,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Sélectionner tout',
     'Lux': 'Alles Auswielen',
     'Slovenian': 'Izberi vse',
-    'Italian': '',
+    'Italian': 'Seleziona Tutto',
     'German': 'Alle auswählen',
     'Greek': 'Επιλογή όλων'
   },
@@ -296,7 +296,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Titre de l\'Histoire',
     'Lux': 'Titel vun der Geschicht',
     'Slovenian': 'Naslov zgodbe',
-    'Italian': '',
+    'Italian': 'Titolo della Storia',
     'German': 'Titel der Geschichte',
     'Greek': 'Τίτλος ιστορίας'
   },
@@ -305,7 +305,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'À propos de Nous',
     'Lux': 'Iwwer Eis',
     'Slovenian': 'O nas',
-    'Italian': '',
+    'Italian': 'Chi Siamo',
     'German': 'Über uns',
     'Greek': 'Σχετικά με εμάς'
   },
@@ -314,7 +314,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'AGENTIVE – Une plateforme pour l\'éducation multilingue',
     'Lux': 'AGENTIVE – Eng Plattform fir Méisproochegkeet an der Bildung',
     'Slovenian': 'AGENTIVE - platforma za večjezično izobraževanje',
-    'Italian': '',
+    'Italian': 'AGENTIVE - Una piattaforma per l\'educazione multilingue',
     'German': 'Agentive - eine Plattform für die Förderung früher Mehrsprachigkeit',
     'Greek': 'AGENTIVE- Μια ψηφιακή πλατφόρμα για την πολυγλωσσική εκπαίδευση'
   },
@@ -323,7 +323,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Contactez-Nous',
     'Lux': 'Kontakt',
     'Slovenian': 'Kontakt',
-    'Italian': '',
+    'Italian': 'Contattaci',
     'German': 'Kontaktiere uns',
     'Greek': 'Επικοινωνία'
   },
@@ -332,7 +332,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Aspects juridiques',
     'Lux': 'Juristesch Aspekter',
     'Slovenian': 'Pravni vidiki',
-    'Italian': '',
+    'Italian': 'Aspetti Legali',
     'German': 'Rechtliches',
     'Greek': 'Νομικές πτυχές'
   },
@@ -341,7 +341,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Mentions légales',
     'Lux': 'Impressum',
     'Slovenian': 'Pravno obvestilo',
-    'Italian': '',
+    'Italian': 'Note Legali',
     'German': 'Impressum',
     'Greek': 'Εντύπωση'
   },
@@ -440,7 +440,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Bienvenue dans le projet AGENTIVE',
     'Lux': 'Wëllkomm am Projet AGENTIVE',
     'Slovenian': 'Dobrodošli v AGENTIVE',
-    'Italian': '',
+    'Italian': 'Benvenuti in AGENTIVE',
     'German': 'Willkommen bei AGENTIVE',
     'Greek': 'Καλώς ήρθατε στο AGENTIVE'
   },
@@ -449,7 +449,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Renforcer la diversité linguistique dans l\'éducation de la petite enfance à travers des synergies',
     'Lux': 'D\'Sproochevillfalt an der Bildung vun der fréier Kandheet duerch Synergië stäerken',
     'Slovenian': 'Spodbujanje jezikovne raznolikosti v predšolski vzgoji prek medsektorskih sinergij',
-    'Italian': '',
+    'Italian': 'Promuovere la diversità linguistica nell\'educazione della prima infanzia attraverso sinergie',
     'German': 'Förderung von sprachlicher Vielfalt in der frühkindlichen Bildung durch Synergien',
     'Greek': 'Ενίσχυση της συνεργασίας για τη γλωσσική ποικιλομορφία στην προσχολική αγωγή'
   },
@@ -458,7 +458,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Bienvenue sur la plateforme AGENTIVE ! Dans le cadre d\'une initiative Erasmus+ financée par l\'UE, nous développons des outils innovateurs pour promouvoir l\'apprentissage des langues dans l\'éducation de la petite enfance (EPE). Notre objectif est de fournir des ressources gratuites, fondées sur des données probantes, pour le développement du langage et de la littératie dans l\'EPE, de créer du matériel pour la formation professionnelle des enseignants/-tes, et d\'encourager les synergies entre écoles, universités et entreprises.',
     'Lux': 'Wëllkomm op der AGENTIVE-Plattform! Am Kader vun enger Erasmus+ Initiativ, déi vun der EU finanzéiert gëtt, entwéckele mir innovativ Ressourcë fir d\'Sproocheléieren an der Bildung vun der fréier Kandheet (Early Childhood Education, ECE). Zu Lëtzebuerg fërderen mir am Projet d\'Sproocheléieren am Zyklus C1. Eis Zil ass et, gratis, evidenzbaséiert Ressourcë fir d\'Sprooch- a Literacyentwécklung am C1 ze liwweren, Material fir d\'Weiderbildung vun Enseignanteën/Enseignanten ze erstellen, an d\'Synergien tëscht Schoulen, Universitéiten a Betriber ze encouragéieren.',
     'Slovenian': 'Dobrodošli na platformi projekta AGENTIVE! V sklopu projekta Erasmus+, ki ga financira EU, razvijamo inovativna orodja za spodbujanje učenja jezikov v predšolskem obdobju. Naš cilj je zagotoviti prosto dostopne, na strokovnih izsledkih temelječe vire za razvoj jezikovnih zmožnosti in zgodnjega opismenjevanja v predšolskem obdobju, oblikovati strokovna učna gradiva za vzgojitelje in učitelje ter spodbujati sinergije med šolami, univerzami in podjetji.',
-    'Italian': '',
+    'Italian': 'Benvenuti sulla piattaforma AGENTIVE! Come parte di un\'iniziativa Erasmus+ finanziata dall\'UE, stiamo creando strumenti innovativi per promuovere l\'apprendimento delle lingue nell\'Educazione della Prima Infanzia (EPI). Il nostro obiettivo è fornire risorse gratuite basate su evidenze per lo sviluppo del linguaggio e dell\'alfabetizzazione nell\'EPI, creare materiali di sviluppo professionale per gli insegnanti e stimolare sinergie scuola-università-impresa.',
     'German': 'Willkommen auf der AGENTIVE-Plattform! Im Rahmen einer von der EU finanzierten Erasmus+-Initiative entwickeln wir innovative Werkzeuge zur Förderung des Sprachenlernens in der frühkindlichen Bildung (ECE). Unser Ziel ist es, kostenlose, evidenzbasierte Ressourcen für die Sprach- und Leseförderung in der FBBE zur Verfügung zu stellen, Materialien für die berufliche Weiterbildung von Lehrkräften zu erstellen und Synergien zwischen Schulen, Universitäten und Unternehmen zu fördern.',
     'Greek': 'Καλώς ήρθατε στην πλατφόρμα AGENTIVE! Στο πλαίσιο της ευρωπαϊκά χρηματοδοτούμενης πρωτοβουλίας Erasmus+, δημιουργούμε καινοτόμα εργαλεία για την προώθηση της εκμάθησης γλωσσών στην προσχολική αγωγή. Στόχος μας είναι να παρέχουμε δωρεάν τεκμηριωμένες πηγές για την ανάπτυξη της γλώσσας και του γραμματισμού στην προσχολική αγωγή, να δημιουργήσουμε υλικό επαγγελματικής ανάπτυξης για τους εκπαιδευτικούς και να τονώσουμε τις συνέργειες μεταξύ σχολείων, πανεπιστημίων και επιχειρήσεων.'
   },
@@ -467,7 +467,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'À quoi pouvez-vous vous attendre ?',
     'Lux': 'Wat kënnt Dir erwaarden?',
     'Slovenian': 'Kaj ponujamo boste tu našli?',
-    'Italian': '',
+    'Italian': 'Cosa Puoi Aspettarti?',
     'German': 'Was können Sie erwarten?',
     'Greek': 'Τι σας προσφέρει;'
   },
@@ -476,7 +476,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Le projet AGENTIVE crée des ressources qui valorisent la diversité linguistique et permettent aux enseignants/-tes de concevoir des possibilités de pédagogie différenciée afin d\'aider les enfants à développer des compétences multilingues. Nos ressources sont librement accessibles, ce qui signifie que les enseignants/-tes, les éducateurs/-trices et les parents peuvent les adapter et les partager gratuitement.',
     'Lux': 'Eis AGENTIVE Ressourcë valoriséiere Sproochendiversitéit an erméiglechen dem Léierpersonal inklusiv Léierméiglechkeeten ze entwéckelen, déi de Kanner hir multilingual Kompetenzen developpéieren. Eis Ressourcë si fräi zougänglech, wat bedeit, datt d\'Enseignanteën/Enseignanten, d\'Educatricen/d\'Educateuren an d\'Elteren se gratis benotzen, upassen a weiderginn däerfen.',
     'Slovenian': 'V sklopu projekta AGENTIVE razvijamo gradiva, ki slavijo jezikovno raznolikost in učiteljem omogočajo oblikovanje vključujočega učnega okolja za razvoj večjezičnih zmožnosti otrok. Naša gradiva so prosto dostopna, kar pomeni, da jih učitelji in starši lahko prosto prilagajajo in delijo.',
-    'Italian': '',
+    'Italian': 'AGENTIVE crea risorse che celebrano la diversità linguistica, permettendo agli insegnanti di progettare opportunità di apprendimento inclusive per aiutare i bambini a sviluppare competenze multilingui. I nostri materiali sono liberamente disponibili, il che significa che insegnanti e genitori possono adattarli e condividerli liberamente.',
     'German': 'AGENTIVE erstellt Ressourcen, die sprachliche Vielfalt zelebrieren und es Lehrkräften ermöglichen, inklusive Lernangebote zu gestalten, um Kinder bei der Entwicklung mehrsprachiger Kompetenzen zu unterstützen. Unsere Materialien sind frei verfügbar, d. h. Lehrkräfte, Betreuende und Eltern können sie individuell anpassen und teilen.',
     'Greek': 'To έργο AGENTIVE δημιουργεί εκπαιδευτικές πηγές που αναδεικνύουν τη γλωσσική ποικιλομορφία και επιτρέπουν στους δασκάλους να σχεδιάζουν συμπεριληπτικές δράσεις μάθησης, προκειμένου να βοηθήσουν τα παιδιά να αναπτύξουν πολυγλωσσικές ικανότητες. Τα υλικά μας είναι διαθέσιμα σε ανοικτή προσβαση, πράγμα που σημαίνει ότι οι εκπαιδευτικοί, οι φροντιστές παιδιών και οι γονείς μπορούν να τα προσαρμόσουν και να τα διαμοιραστούν.'
   },
@@ -485,7 +485,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Envie d\'en savoir plus sur l\'équipe qui se cache derrière le projet AGENTIVE ?',
     'Lux': 'Hu Dir Loscht méi iwwer d\'Team gewuer ze ginn, dat hannert AGENTIVE stécht?',
     'Slovenian': 'Vas zanima, kdo stoji za projektom AGENTIVE?',
-    'Italian': '',
+    'Italian': 'Curioso del Team dietro AGENTIVE?',
     'German': 'Neugierig auf das Team hinter AGENTIVE?',
     'Greek': 'Θέλετε να μάθετε περισσότερα για την ομάδα του AGENTIVE;'
   },
@@ -494,7 +494,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Le projet AGENTIVE réunit des universités et des organisations de plusieurs pays, dont le Luxembourg, la Suisse, la Grèce, la Slovénie, l\'Allemagne et l\'Italie. Ensemble, nous mettons en commun nos expertises issues du monde académique, des écoles et des entreprises pour faire avancer l\'innovation dans l\'éducation multilingue.',
     'Lux': 'AGENTIVE bréngt Universitéiten an Organisatiounen aus Lëtzebuerg, der Schwäiz, Griicheland, Slowenien, Däitschland an Italien zesummen. Mir deelen eist Wëssen aus der Akademie, de Schoulen an de Betriber fir d\'Innovatioun an der multilingualer Bildung virunzebréngen.',
     'Slovenian': 'V projektu AGENTIVE sodelujejo univerze in organizacije iz Luksemburga, Švice, Grčije, Slovenije, Nemčije in Italije. Združujemo strokovno znanje iz akademskega sveta, šol in podjetij, da bi spodbudili inovacije na področju večjezičnega izobraževanja.',
-    'Italian': '',
+    'Italian': 'AGENTIVE coinvolge università e organizzazioni da Lussemburgo, Svizzera, Grecia, Slovenia, Germania e Italia. Insieme, stiamo sfruttando l\'expertise di mondo accademico, scuole e imprese per guidare l\'innovazione nell\'educazione multilingue.',
     'German': 'An AGENTIVE sind Universitäten und Organisationen aus Luxemburg, der Schweiz, Griechenland, Slowenien, Deutschland und Italien beteiligt. Gemeinsam nutzen wir das Fachwissen von Hochschulen, Schulen und Unternehmen, um Innovationen in der mehrsprachigen Bildung voranzutreiben.',
     'Greek': 'Στο έργο AGENTIVE συμμετέχουν πανεπιστήμια και οργανισμοί από το Λουξεμβούργο, την Ελβετία, την Ελλάδα, τη Σλοβενία, τη Γερμανία και την Ιταλία. Μαζί, αξιοποιούμε την τεχνογνωσία των πανεπιστημίων, των σχολείων και των επιχειρήσεων για να προωθήσουμε την καινοτομία στην πολύγλωσση εκπαίδευση.'
   },
@@ -503,7 +503,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Notre équipe est composée de chercheurs/-euses, d\'enseignants/-tes et de développeurs/-euses passionnés/-ées qui unissent leurs efforts pour rendre l\'éducation multilingue accessible à tous et à toutes.',
     'Lux': 'Eist Team besteet aus Fuerscherinnen/Fuerscher, Enseignanteën an engagéierten Entwécklerinnen/ Entwéckler, déi versichen, jidderengem eng multilingual Bildung zougänglech ze maachen.',
     'Slovenian': 'Našo ekipo sestavljajo predani raziskovalci, učitelji in razvijalci, ki si prizadevamo, da bi večjezično izobraževanje postalo dostopno vsem.',
-    'Italian': '',
+    'Italian': 'Il nostro team è composto da ricercatori, insegnanti e sviluppatori appassionati che lavorano insieme per rendere l\'educazione multilingue accessibile a tutti.',
     'German': 'Unser Team besteht aus leidenschaftlichen Forschenden, Lehrenden und Entwickelnden, die gemeinsam daran arbeiten, eine mehrsprachige Bildung für alle zugänglich zu machen.',
     'Greek': 'Η ομάδα μας αποτελείται από παθιασμένους ερευνητές, εκπαιδευτικούς και προγραμματιστές που εργάζονται από κοινού για να καταστήσουν την πολύγλωσση εκπαίδευση προσιτή σε όλους.'
   },
@@ -512,7 +512,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Suivez notre aventure !',
     'Lux': 'Kommt mat op eis Aventure!',
     'Slovenian': 'Spremljajte nas na naši poti',
-    'Italian': '',
+    'Italian': 'Segui il Nostro Viaggio',
     'German': 'Verfolgen Sie unsere Reise',
     'Greek': 'Ακολουθήστε το ταξίδι μας'
   },
@@ -521,16 +521,16 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Le projet AGENTIVE a débuté le 1er octobre 2024. Depuis lors, nous avons développé 8 kits pédagogiques contenant entre autres des histoires en plusieurs langues, qui seront publiées à partir de l\'été 2025. Que vous soyez enseignant/-te, parent ou simplement curieux/-ieuse de découvrir le monde de l\'éducation multilingue, vous y trouverez votre bonheur.',
     'Lux': 'AGENTIVE huet den 1. Oktober 2024 ugefaangen. Zënterhier hu mir 8 pedagogesch Kitten entwéckelt, déi Geschichten a verschiddene Sproochen enthalen, an déi am Summer 2025 verëffentlecht ginn. Egal ob Dir Enseignanteën/Enseignanten, Elterendeel oder einfach nëmme virwëlzeg sidd fir d\'Welt vun der multilingualer Bildung ze entdecken – hei fannt Dir Äert Gléck.',
     'Slovenian': 'Projekt AGENTIVE se je začel 1. oktobra 2024. Od takrat smo oblikovali 8 kompletov pedagoških gradiv, ki vključujejo zgodbe in dejavnosti v več jezikih. Gradiva bodo na voljo od poletja 2025 dalje. Ne glede na to, ali ste učitelj, starš ali pa vas preprosto zanima svet večjezičnega izobraževanja – tukaj boste našli nekaj zase.',
-    'Italian': '',
+    'Italian': 'AGENTIVE è iniziato il 1° ottobre 2024. Da allora, abbiamo progettato 8 set pedagogici di materiali che comprendono storie in più lingue e attività che saranno lanciate dall\'estate 2025. Che tu sia un insegnante, un genitore, o semplicemente curioso del mondo dell\'educazione multilingue, c\'è qualcosa qui per te.',
     'German': 'AGENTIVE begann am 1. Oktober 2024. Seitdem haben wir 8 pädagogische Materialsets mit Geschichten in mehreren Sprachen entwickelt, die ab Sommer 2025 veröffentlicht werden. Ob Sie Lehrkraft, Eltern oder einfach nur neugierig auf die Welt der mehrsprachigen Bildung sind, hier ist etwas für Sie dabei.',
     'Greek': 'Το AGENTIVE ξεκίνησε την 1η Οκτωβρίου 2024. Έκτοτε, έχουμε σχεδιάσει 8 σειρές παιδαγωγικών υλικών που περιλαμβάνουν ιστορίες σε πολλές γλώσσες, που ξεκίνησαν το καλοκαίρι του 2025. Είτε είστε εκπαιδευτικός, γονέας ή απλά ενδιαφέρεστε για τον κόσμο της πολυγλωσσικής εκπαίδευσης, υπάρχει υλικό εδώ για εσάς.'
   },
   'thanks-joining': {
     'English': 'Thanks for joining us on this journey—together, we\'re shaping the future of early childhood multilingual education!',
     'French': 'Merci de nous accompagner dans cette aventure — ensemble, nous construisons l\'avenir de l\'éducation multilingue de la petite enfance !',
-    'Lux': 'Merci, datt Dir eis an dëser Aventure begleet – zesumme baue mir un der Zukunft vun der multilingualer Bildung an der fréier Kandheet!',
+    'Lux': 'Merci, datt Dir eis an dëser Aventure begleet – zesumme baue mir an der Zukunft vun der multilingualer Bildung an der fréier Kandheet!',
     'Slovenian': 'Hvala, da ste se nam pridružili na tej poti — skupaj lahko oblikujemo prihodnost večjezičnega izobraževanja predšolskih otrok!',
-    'Italian': '',
+    'Italian': 'Grazie per esserti unito a noi in questo viaggio—insieme, stiamo plasmando il futuro dell\'educazione multilingue della prima infanzia!',
     'German': 'Danke, dass Sie uns auf dieser Reise begleiten - gemeinsam gestalten wir die Zukunft der frühkindlichen mehrsprachigen Bildung!',
     'Greek': 'Σας ευχαριστούμε που μας ακολουθείτε σε αυτό το ταξίδι, μαζί διαμορφώνουμε το μέλλον της πολυγλωσσικής προσχολικής αγωγής!'
   },
@@ -539,7 +539,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Visitez notre page',
     'Lux': 'Kuckt op eis',
     'Slovenian': 'Za več informacij obiščite stran',
-    'Italian': '',
+    'Italian': 'Visita la nostra pagina',
     'German': 'Besuchen Sie unsere Seite',
     'Greek': 'Επισκεφθείτε τη σελίδα'
   },
@@ -548,7 +548,7 @@ const translations: Record<string, Record<string, string>> = {
     'French': 'Veuillez consulter notre page',
     'Lux': 'Kuckt wgl. op eis Internetsäit',
     'Slovenian': '',
-    'Italian': 'Controlla la nostra',
+    'Italian': 'Controlla il nostro team',
     'German': 'Besuchen Sie dazu unsere Seite',
     'Greek': 'Παρακαλούμε επισκεφθείτε τη σελίδα'
   },

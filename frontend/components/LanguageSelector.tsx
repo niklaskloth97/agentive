@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 const languageFlags: Record<string, string> = {
   en: "🇬🇧",  // UK flag for English
   de: "🇩🇪",  // German flag
-  deshort: "🇩🇪", // German short flag
+  gershort: "🇩🇪", // German short flag
   pt: "🇵🇹",  // Portuguese flag
   pl: "🇵🇱",  // Polish flag
   slo: "🇸🇮",  // Slovenian flag

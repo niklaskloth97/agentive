@@ -3,8 +3,6 @@
 import { DashboardLayout } from "@/components/DashboardLayout";
 import Link from "next/link";
 import { ACTIVITY_GROUPS_META } from "@/data";
-// import { Button } from "@/components/ui/button";
-// import { Download } from "lucide-react";
 import { TranslateButtons } from '@/components/translateButtons';
 import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext';
 
@@ -20,6 +18,12 @@ export default function Page() {
       label: <TranslateButtons translationKey="activities" currentLanguage={websiteLanguage} />
     }
   ];
+
+  // Function to map activity group keys to translation keys
+  const getTranslationKey = (key: string): string => {
+    // The keys in ACTIVITY_GROUPS_META should match the translation keys
+    return key;
+  };
 
   return (
     <DashboardLayout breadcrumbItems={breadcrumbItems}>
@@ -49,26 +53,15 @@ export default function Page() {
                 strokeWidth={1.5}
               />
               <span className="text-lg font-semibold text-[--group-color] mt-3">
-                {meta.label}
+                <TranslateButtons 
+                  translationKey={getTranslationKey(meta.slug)} 
+                  currentLanguage={websiteLanguage} 
+                />
               </span>
             </button>
           </Link>
         ))}
       </div>
-      
-      {/* <div className="flex justify-left mt-8">
-        <Button
-          variant="outline"
-          size="lg"
-          className="h-24 text-2xl"
-          asChild
-        >
-          <a href={`/dashboard/activities/guide.pdf`} download>
-            <Download className="mr-2" size={20} />
-            <TranslateButtons translationKey="pedagogical-guide" currentLanguage={websiteLanguage} />
-          </a>
-        </Button>
-      </div> */}
     </DashboardLayout>
   );
 }
