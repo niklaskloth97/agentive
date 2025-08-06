@@ -55,7 +55,7 @@ export default function Footer() {
                             />
                         </Link>
                     </div>
-                    <div>
+                    <div className="flex flex-col">
                         <Image 
                             src="/eu-footer.svg" 
                             alt={`${websiteLanguage === 'en' ? 'Funded by the Erasmus+ Programme of the European Union' : 
@@ -68,8 +68,37 @@ export default function Footer() {
                                 'Funded by the Erasmus+ Programme of the European Union'}`}
                             width={200} 
                             height={100} 
-                            className="rounded-lg mb-4" 
+                            className="" 
                         />
+                        
+  {/* Creative Commons License */}
+                        <div className="text-gray-400">
+                            <div className="text-sm mt-4 flex items-start gap-3">
+                                <Image 
+                                    src="/by-nc-nd.eu.svg" 
+                                    alt="Creative Commons BY-NC-ND 4.0 License" 
+                                    width={80} 
+                                    height={20} 
+                                    className="flex-shrink-0"
+                                />
+                                <div className="flex flex-col">
+                                    <p className="mb-2 text-gray-200">
+                                        Images: Katarina Veroutsous, Materials by: The AGENTIVE Team
+                                    </p>
+                                    <div className="flex items-center">
+                                        <span className="mr-2">Licensed under</span>
+                                        <Link 
+                                            href="https://creativecommons.org/licenses/by-nc-nd/4.0/" 
+                                            className="text-blue-400 hover:text-blue-300"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            CC BY-NC-ND 4.0
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
