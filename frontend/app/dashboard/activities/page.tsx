@@ -3,8 +3,8 @@
 import { DashboardLayout } from "@/components/DashboardLayout";
 import Link from "next/link";
 import { ACTIVITY_GROUPS_META } from "@/data";
-import { Button } from "@/components/ui/button";
-import { Download } from "lucide-react";
+// import { Button } from "@/components/ui/button";
+// import { Download } from "lucide-react";
 import { TranslateButtons } from '@/components/translateButtons';
 import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext';
 

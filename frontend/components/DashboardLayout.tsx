@@ -11,7 +11,7 @@ import {
 import { Button } from "@/components/ui/button"
 import { ChevronLeft } from "lucide-react"
 import { useRouter } from "next/navigation"
-import {ReactNode} from "react"
+// import {ReactNode} from "react"
 import { BreadcrumbItem } from "@/components/dynamicBreadcrumb"
 
 // Use the BreadcrumbItem type from dynamicBreadcrumb to ensure compatibility

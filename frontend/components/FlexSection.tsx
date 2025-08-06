@@ -1,14 +1,14 @@
 "use client";
 
-import { useState } from "react";
+import { useState, ReactNode } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 export interface FlexSectionProps {
-  title: string;
-  description: string;
-  expandedDescription?: string;
+  title: ReactNode; // Changed from string to ReactNode
+  description: ReactNode; // Changed from string to ReactNode
+  expandedDescription?: ReactNode; // Changed from string to ReactNode
   imageSrc: string;
   imageAlt: string;
   imageWidth?: number;
@@ -96,12 +96,12 @@ export default function FlexSection({
         <h2 className={cn("mb-4", styles.title)}>{title}</h2>
 
         <div className={cn("text-justify mb-4", styles.description)}>
-          <p>{description}</p>
+          <div>{description}</div>
           
           {expanded && expandedDescription && (
             <>
               <br />
-              <p>{expandedDescription}</p>
+              <div>{expandedDescription}</div>
             </>
           )}
         </div>
