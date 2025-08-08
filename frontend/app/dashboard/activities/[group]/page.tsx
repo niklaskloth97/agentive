@@ -65,12 +65,16 @@ export default function Page({
 						variant="outline"
 						size="lg"
 						className="h-24 text-2xl"
+						style={{
+								backgroundColor: meta.colors.primary,
+								color: meta.colors.text,
+                            }}
 						asChild
 					>
 						<a href={`/dashboard/activities/${group}/guide.pdf`} download>
 							<Download className="mr-2" size={20} />
 							<TranslateButtons
-								translationKey="pedagogical-guide"
+								translationKey="guide"
 								currentLanguage={websiteLanguage}
 							/>
 						</a>

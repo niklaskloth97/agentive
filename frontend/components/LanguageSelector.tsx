@@ -21,7 +21,6 @@ const languageFlags: Record<string, string> = {
   ukr: "🇺🇦", // Ukrainian flag
   tur: "🇹🇷", // Turkish flag
   ld: "🇱🇩", // Ladin flag 
-
 };
 
 export default function LanguageSelector() {

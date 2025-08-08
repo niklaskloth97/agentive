@@ -46,7 +46,7 @@ export default function Page() {
                     alt="Storytime Illustration"
                     width={300}
                     height={200}
-                    className="rounded-lg shadow-md max-h-[80%] w-auto"
+                    className="rounded-lg shadow-md max-h-[100%] w-auto"
                   />
                 </div>
               </div>
@@ -73,7 +73,7 @@ export default function Page() {
                     alt="Activities Illustration"
                     width={300}
                     height={200}
-                    className="rounded-lg shadow-md max-h-[60%] w-auto"
+                    className="rounded-lg shadow-md max-h-[100%] w-auto"
                   />
                 </div>
               </div>

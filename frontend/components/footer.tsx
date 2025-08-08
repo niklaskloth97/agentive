@@ -73,17 +73,20 @@ export default function Footer() {
                         
   {/* Creative Commons License */}
                         <div className="text-gray-400">
-                            <div className="text-sm mt-4 flex items-start gap-3">
+                            <div className="text-sm mt-2 flex items-start gap-3">
                                 <Image 
                                     src="/by-nc-nd.eu.svg" 
                                     alt="Creative Commons BY-NC-ND 4.0 License" 
                                     width={80} 
                                     height={20} 
-                                    className="flex-shrink-0"
+                                    className="mt-2 flex-shrink-0"
                                 />
                                 <div className="flex flex-col">
+                                    <p className="text-gray-200">
+                                        Images: Katarina Veroutsous
+                                    </p>
                                     <p className="mb-2 text-gray-200">
-                                        Images: Katarina Veroutsous, Materials by: The AGENTIVE Team
+                                       Materials: The AGENTIVE Team
                                     </p>
                                     <div className="flex items-center">
                                         <span className="mr-2">Licensed under</span>

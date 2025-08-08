@@ -78,7 +78,7 @@ export default function Page() {
               >
                 <Download className="inline mr-2 size-4" />
                 <TranslateButtons 
-                  translationKey="dialog-guide" 
+                  translationKey="guide" 
                   currentLanguage={websiteLanguage} 
                 />
               </button>

@@ -37,7 +37,16 @@ const translations: Record<string, Record<string, string>> = {
   'Italian': 'Guida Pedagogica',
   'German': 'Pädagogischer Leitfaden',
   'Greek': 'Παιδαγωγικός οδηγός'
-},
+  },
+  'guide': {
+  'English': 'Guide',
+  'French': 'Guide', 
+  'Lux': 'Guide',
+  'Slovenian': 'Vodnik',
+  'Italian': 'Guida',
+  'German': 'Leitfaden',
+  'Greek': 'Οδηγός'}
+,
   'multilingual-stories': {
     'English': 'Multilingual Stories',
     'French': 'Histoires Multilingues',

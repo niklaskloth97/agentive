@@ -269,6 +269,10 @@ export function StoryPlayer({
                         <Download className="mr-2" size={16}/>
                         <TranslateButtons translationKey="dialog-guide" currentLanguage={websiteLanguage} />
                       </Button>
+                      <Button className="w-full mb-4" variant="outline">
+                        <Download className="mr-2" size={16}/>
+                        <TranslateButtons translationKey="story-guide" currentLanguage={websiteLanguage} />
+                      </Button>
                     </div>
 
                     <Button 
