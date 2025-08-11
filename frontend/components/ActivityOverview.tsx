@@ -5,15 +5,18 @@ import { useSearchParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Download } from "lucide-react";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { LanguageProvider, useLanguage } from "@/components/LanguageProvider";
 import LanguageSelector from "@/components/LanguageSelector";
 import { TranslateButtons } from '@/components/translateButtons';
 import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext';
+import { GUIDES } from "@/data";
 import {
     ACTIVITY_GROUPS,
     ACTIVITY_GROUPS_META,
     type ActivityGroupKey,
 } from "@/data";
+import { cn } from "@/lib/utils";
 
 interface ActivityOverviewProps {
     groupKey: string;
@@ -22,7 +25,142 @@ interface ActivityOverviewProps {
 
 const ALPHABET = "abcdefghijklmnopqrstuvwxyz";
 
+const components: { title: string; href: string; description: string }[] = [
+  {
+    title: "Vocabulary Boost",
+    href: "/docs/primitives/alert-dialog",
+    description:
+      "Reenforce vocabulary with fun activities.",
+  },
+  {
+    title: "Language Awareness",
+    href: "/docs/primitives/hover-card",
+    description:
+      "Learn about different languages deal with speaking letters.",
+  },
+  {
+    title: "Intercultural Awareness",
+    href: "/docs/primitives/hover-card",
+    description:
+      "Learn about how different cultures perceive the world. This activity is meant to teach an open mindset.",
+  }, {
+    title: "Early Literacy",
+    href: "/docs/primitives/hover-card",
+    description:
+      "Encourage early literacy skills.",
+  },
+]
 
+// Add the DialogicGuideSelector component from StoryPlayer
+function DialogicGuideSelector({ websiteLanguage }: { websiteLanguage: string }) {
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedGuideLanguage, setSelectedGuideLanguage] = useState<string>("");
+
+  // Get available languages for dialogic guide
+  const dialogicGuide = GUIDES.dialogic;
+  const availableLanguages = dialogicGuide ? Object.keys(dialogicGuide.translations).filter(
+    lang => dialogicGuide.translations[lang as keyof typeof dialogicGuide.translations]?.url
+  ) : [];
+
+  // Create available languages object for LanguageSelector
+  const guideLanguageOptions = Object.fromEntries(
+    availableLanguages.map(langId => [
+      langId, 
+      { 
+        label: langId === 'en' ? 'EN' : 
+               langId === 'de' ? 'DE' : 
+               langId === 'fr' ? 'FR' : 
+               langId === 'gr' ? 'GR' : 
+               langId.toUpperCase() 
+      }
+    ])
+  );
+
+  const handleLanguageChange = (languageId: string) => {
+    setSelectedGuideLanguage(languageId);
+  };
+
+  const handleDownload = () => {
+    if (!selectedGuideLanguage) return;
+
+    const guideData = dialogicGuide?.translations[selectedGuideLanguage as keyof typeof dialogicGuide.translations];
+    
+    if (guideData?.url) {
+      // Create download link
+      const link = document.createElement('a');
+      link.href = guideData.url;
+      link.download = `Dialogic Reading Guide (${guideLanguageOptions[selectedGuideLanguage]?.label || selectedGuideLanguage}).pdf`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      // Close dialog after download
+      setIsOpen(false);
+      setSelectedGuideLanguage("");
+    }
+  };
+
+  if (availableLanguages.length === 0) {
+    return null; // Don't render if no guides available
+  }
+
+  return (
+    <Dialog open={isOpen} onOpenChange={setIsOpen}>
+      <DialogTrigger asChild>
+        <Button className="w-full" variant="outline">
+          <Download className="mr-2" size={16}/>
+          <TranslateButtons translationKey="dialog-guide" currentLanguage={websiteLanguage} />
+        </Button>
+      </DialogTrigger>
+      <DialogContent className="sm:max-w-[425px]">
+        <DialogHeader>
+          <DialogTitle>
+            <TranslateButtons translationKey="select-guide-language" currentLanguage={websiteLanguage} />
+          </DialogTitle>
+        </DialogHeader>
+        <div className="py-4">
+          <div className="space-y-4">
+            <div>
+              <label className="text-sm font-medium mb-2 block">
+                <TranslateButtons translationKey="available-languages" currentLanguage={websiteLanguage} />
+              </label>
+              
+              {/* Use LanguageProvider and LanguageSelector */}
+              <LanguageProvider 
+                defaultLanguage=""
+                availableLanguages={guideLanguageOptions}
+                onLanguageChange={handleLanguageChange}
+              >
+                <LanguageSelector />
+              </LanguageProvider>
+            </div>
+            
+            {selectedGuideLanguage && (
+              <div className="flex gap-2 pt-4">
+                <Button 
+                  onClick={handleDownload}
+                  className="flex-1"
+                >
+                  <Download className="mr-2" size={16}/>
+                  <TranslateButtons translationKey="download" currentLanguage={websiteLanguage} />
+                </Button>
+                <Button 
+                  variant="outline" 
+                  onClick={() => {
+                    setIsOpen(false);
+                    setSelectedGuideLanguage("");
+                  }}
+                >
+                  <TranslateButtons translationKey="cancel" currentLanguage={websiteLanguage} />
+                </Button>
+              </div>
+            )}
+          </div>
+        </div>
+      </DialogContent>
+    </Dialog>
+  );
+}
 
 function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
     const searchParams = useSearchParams();
@@ -139,7 +277,7 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                         <Checkbox
                             id="select-all"
                             checked={isAllSelected}
-                            onCheckedChange={(checked) => {
+                            onCheckedChange={() => {
                                 // Handle the select/deselect all logic
                                 if (isAllSelected) {
                                     // If all are selected, deselect all
@@ -308,10 +446,71 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
                 fr: { label: "FR" },
                 de: { label: "DE" },
                 it: { label: "IT" },
-                sv: { label: "SV" },
+                slo: { label: "SV" },
             }}
         >
             <ActivityOverviewContent groupKey={groupKey} />
         </LanguageProvider>
     );
 }
+
+export function ActivitySelection() {
+  const { websiteLanguage } = useWebsiteLanguage();
+
+  // Check if dialogic guide is available (at least one language)
+  const hasDialogicGuide = !!(GUIDES.dialogic && 
+    Object.values(GUIDES.dialogic.translations).some(translation => translation?.url));
+
+  return (
+    <div className="space-y-6">
+      {/* Guide Download Section */}
+      {hasDialogicGuide && (
+        <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+          <h3 className="text-lg font-medium mb-3">
+            <TranslateButtons translationKey="download-guides" currentLanguage={websiteLanguage} />
+          </h3>
+          <div className="max-w-xs">
+            <DialogicGuideSelector websiteLanguage={websiteLanguage} />
+          </div>
+        </div>
+      )}
+
+      {/* Activity Categories */}
+      <ul className="flex flex-col w-full gap-3">
+        {components.map((component) => (
+          <ListItem
+            key={component.title}
+            title={component.title}
+            href={component.href}
+          >
+            {component.description}
+          </ListItem>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
+const ListItem = React.forwardRef<
+  React.ElementRef<"a">,
+  React.ComponentPropsWithoutRef<"a">
+>(({ className, title, children, ...props }, ref) => {
+  return (
+    <li>
+      <a
+        ref={ref}
+        className={cn(
+          "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+          className
+        )}
+        {...props}
+      >
+        <div className="text-sm font-semibold leading-none">{title}</div>
+        <p className="text-sm leading-snug text-muted-foreground">
+          {children}
+        </p>
+      </a>
+    </li>
+  )
+})
+ListItem.displayName = "ListItem"

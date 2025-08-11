@@ -6,12 +6,196 @@ import {
 	ACTIVITY_GROUPS,
 	ACTIVITY_GROUPS_META,
 	type ActivityGroupKey,
+
 } from "@/data";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
 import { TranslateButtons } from "@/components/translateButtons";
 import { useWebsiteLanguage } from "@/contexts/WebsiteLanguageContext";
+import {
+	Dialog,
+	DialogContent,
+	DialogHeader,
+	DialogTitle,
+	DialogTrigger,
+} from "@/components/ui/dialog";
+import { LanguageProvider } from "@/components/LanguageProvider";
+import LanguageSelector from "@/components/LanguageSelector";
+import { useState } from "react";
 import { use } from "react";
+
+// Add the ActivityGuideSelector component
+function ActivityGuideSelector({
+	groupKey,
+	meta,
+	websiteLanguage,
+}: {
+	groupKey: ActivityGroupKey;
+	meta: {
+		slug: string;
+		colors: {
+			primary: string;
+			text: string;
+		};
+	};
+	websiteLanguage: string;
+}) {
+	const [isOpen, setIsOpen] = useState(false);
+	const [selectedGuideLanguage, setSelectedGuideLanguage] = useState<string>("");
+
+	// Update to use the same language codes as your LanguageSelector
+	const availableLanguages = ["en", "fr", "de", "gr"]; // Changed 'el' to 'gr' and 'sl' to 'slo'
+
+	// Create available languages object for LanguageSelector
+	const guideLanguageOptions = Object.fromEntries(
+		availableLanguages.map((langId) => [
+			langId,
+			{
+				label:
+					langId === "en"
+						? "EN"
+						: langId === "de"
+						? "DE"
+						: langId === "fr"
+						? "FR"
+						: langId === "gr"   // Changed from 'el' to 'gr'
+						? "GR"
+						: langId.toUpperCase(),
+			},
+		])
+	);
+
+	const handleLanguageChange = (languageId: string) => {
+		setSelectedGuideLanguage(languageId);
+	};
+
+	// Update the language mapping to match your LanguageSelector codes
+	const getGuideFilename = (groupKey: string, language: string): string => {
+		const languageMap: Record<string, string> = {
+			en: "E",
+			fr: "F",
+			de: "German",
+			gr: "GR",   // Changed from 'el' to 'gr'
+		};
+
+		console.log('Mapping language:', language, 'to:', languageMap[language]); // Debug log
+
+		const langCode = languageMap[language] || "E"; // Default to English
+		return `Activities_${groupKey.toUpperCase()}_${langCode}.pdf`;
+	};
+
+	const handleDownload = () => {
+		if (!selectedGuideLanguage) return;
+
+		console.log(
+			"Downloading guide for group:",
+			groupKey,
+			"in language:",
+			selectedGuideLanguage
+		);
+
+		const filename = getGuideFilename(groupKey, selectedGuideLanguage);
+		const guidePath = `/activities/guides/${groupKey.toUpperCase()}/${filename}`;
+
+		console.log("Guide path:", guidePath);
+
+		// Create download link
+		const link = document.createElement("a");
+		link.href = guidePath;
+		link.download = filename;
+		document.body.appendChild(link);
+		link.click();
+		document.body.removeChild(link);
+
+		// Close dialog after download
+		setIsOpen(false);
+		setSelectedGuideLanguage("");
+	};
+
+	return (
+		<Dialog open={isOpen} onOpenChange={setIsOpen}>
+			<DialogTrigger asChild>
+				<Button
+					variant="outline"
+					size="lg"
+					className="h-24 text-2xl"
+					style={{
+						backgroundColor: meta.colors.primary,
+						color: meta.colors.text,
+					}}
+				>
+					<Download className="mr-2" size={20} />
+					<TranslateButtons
+						translationKey="guide"
+						currentLanguage={websiteLanguage}
+					/>
+				</Button>
+			</DialogTrigger>
+			<DialogContent className="sm:max-w-[425px]">
+				<DialogHeader>
+					<DialogTitle>
+						<TranslateButtons
+							translationKey="select-guide-language"
+							currentLanguage={websiteLanguage}
+						/>
+					</DialogTitle>
+				</DialogHeader>
+				<div className="py-4">
+					<div className="space-y-4">
+						<div>
+							<label className="text-sm font-medium mb-2 block">
+								<TranslateButtons
+									translationKey="available-languages"
+									currentLanguage={websiteLanguage}
+								/>
+							</label>
+
+							{/* Use LanguageProvider and LanguageSelector */}
+							<LanguageProvider
+								defaultLanguage=""
+								availableLanguages={guideLanguageOptions}
+								onLanguageChange={handleLanguageChange}
+							>
+								<LanguageSelector />
+							</LanguageProvider>
+						</div>
+
+						{selectedGuideLanguage && (
+							<div className="flex gap-2 pt-4">
+								<Button
+									onClick={handleDownload}
+									className="flex-1"
+									style={{
+										backgroundColor: meta.colors.primary,
+										color: meta.colors.text,
+									}}
+								>
+									<Download className="mr-2" size={16} />
+									<TranslateButtons
+										translationKey="download"
+										currentLanguage={websiteLanguage}
+									/>
+								</Button>
+								<Button
+									variant="outline"
+									onClick={() => {
+										setIsOpen(false);
+										setSelectedGuideLanguage("");
+									}}
+								>
+									<TranslateButtons
+										translationKey="cancel"
+										currentLanguage={websiteLanguage}
+									/>
+								</Button>
+							</div>
+						)}
+					</div>
+				</div>
+			</DialogContent>
+		</Dialog>
+	);
+}
 
 export default function Page({
 	params,
@@ -45,55 +229,6 @@ export default function Page({
 	const data = ACTIVITY_GROUPS[group];
 	const meta = ACTIVITY_GROUPS_META[group];
 
-	// Function to get the guide filename based on group key and language
-	const getGuideFilename = (groupKey: string, language: string): string => {
-		const languageMap: Record<string, string> = {
-			// Language codes (what websiteLanguage actually returns)
-			"en": "E",
-			"fr": "F",
-			"de": "German",
-			"el": "GR", // Greek language code
-			"sl": "S", // Slovenian language code
-			"lux": "E", // Lux falls back to English
-			"it": "E", // Italian falls back to English
-			// Full language names (fallback)
-			"English": "E",
-			"French": "F",
-			"German": "German",
-			"Greek": "GR",
-			"Slovenian": "S",
-			"Lux": "E",
-			"Italian": "E",
-		};
-
-		console.log("Current website language:", language); // Debug log
-		const langCode = languageMap[language] || "E"; // Default to English
-		console.log("Mapped language code:", langCode); // Debug log
-		return `Activities_${groupKey.toUpperCase()}_${langCode}.pdf`;
-	};
-
-	// Function to handle guide download
-	const handleGuideDownload = (groupKey: string) => {
-		console.log(
-			"Downloading guide for group:",
-			groupKey,
-			"in language:",
-			websiteLanguage
-		); // Debug log
-		const filename = getGuideFilename(groupKey, websiteLanguage);
-		const guidePath = `/activities/guides/${groupKey.toUpperCase()}/${filename}`;
-
-		console.log("Guide path:", guidePath); // Debug log
-
-		// Create download link
-		const link = document.createElement("a");
-		link.href = guidePath;
-		link.download = filename;
-		document.body.appendChild(link);
-		link.click();
-		document.body.removeChild(link);
-	};
-
 	if (!data) {
 		return <div>Activity group not found</div>;
 	}
@@ -110,22 +245,11 @@ export default function Page({
 				<ActivityOverview groupKey={group} />
 
 				<div className="flex justify-left mt-8">
-					<Button
-						variant="outline"
-						size="lg"
-						className="h-24 text-2xl"
-						style={{
-							backgroundColor: meta.colors.primary,
-							color: meta.colors.text,
-						}}
-						onClick={() => handleGuideDownload(group)}
-					>
-						<Download className="mr-2" size={20} />
-						<TranslateButtons
-							translationKey="guide"
-							currentLanguage={websiteLanguage}
-						/>
-					</Button>
+					<ActivityGuideSelector
+						groupKey={group}
+						meta={meta}
+						websiteLanguage={websiteLanguage}
+					/>
 				</div>
 			</div>
 		</DashboardLayout>

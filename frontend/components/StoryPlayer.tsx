@@ -19,8 +19,6 @@ import { TranslateButtons } from '@/components/translateButtons';
 import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext';
 import { StoryCarousel } from '@/components/StoryCarousel';
 import { getStoryReadingGuide, hasStoryReadingGuide, GUIDES } from "@/data";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-
 
 interface StoryPlayerProps {
   storyId: string;

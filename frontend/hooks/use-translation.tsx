@@ -1065,6 +1065,15 @@ const translations: Record<string, Record<string, string>> = {
     'German': 'Partner',
     'Greek': 'συνεργάτες'
   },
+    'download-guides': {
+    'English': 'Download Guides',
+    'French': 'Télécharger les guides',
+    'German': 'Leitfäden herunterladen',
+    'Lux': 'Leitfäden eroflueden',
+    'Slovenian': 'Prenesi vodnje',
+    'Italian': 'Scarica guide',
+    'Greek': 'Κατεβάστε οδηγούς'
+  },
     'select-guide-language': {
     'English': 'Select Guide Language',
     'French': 'Sélectionner la langue du guide',
@@ -1082,6 +1091,7 @@ const translations: Record<string, Record<string, string>> = {
     'Slovenian': 'Prekliči',
     'Italian': 'Annulla',
     'Greek': 'Ακύρωση'
+    
 }
 };
 
