@@ -1065,6 +1065,24 @@ const translations: Record<string, Record<string, string>> = {
     'German': 'Partner',
     'Greek': 'συνεργάτες'
   },
+    'select-guide-language': {
+    'English': 'Select Guide Language',
+    'French': 'Sélectionner la langue du guide',
+    'German': 'Guide-Sprache auswählen',
+    'Lux': 'Guide-Sprooch wielen',
+    'Slovenian': 'Izberi jezik vodnika',
+    'Italian': 'Seleziona lingua guida',
+    'Greek': 'Επιλέξτε γλώσσα οδηγού'
+  },
+  'cancel': {
+    'English': 'Cancel',
+    'French': 'Annuler', 
+    'German': 'Abbrechen',
+    'Lux': 'Ofbriechen',
+    'Slovenian': 'Prekliči',
+    'Italian': 'Annulla',
+    'Greek': 'Ακύρωση'
+}
 };
 
 
