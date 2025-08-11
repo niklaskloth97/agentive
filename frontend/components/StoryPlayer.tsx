@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { 
   Download, 
@@ -170,8 +170,31 @@ export function StoryPlayer({
   };
 
   // Add event listeners to track actual audio state
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  // Update the dialog close handler
+  const handleDialogClose = (open: boolean) => {
+    setIsFullscreen(open);
+    
+    if (!open) {
+      // Dialog is closing - reset audio and playing state
+      setIsPlaying(false);
+      setAudioAutoPlay(false);
+      
+      // Reset audio to beginning and pause it
+      const audioElement = document.querySelector('audio');
+      if (audioElement) {
+        audioElement.pause();
+        audioElement.currentTime = 0;
+      }
+    }
+  };
+
+  // Update the useEffect for audio event listeners to also handle the reset
   useEffect(() => {
     const audioElement = document.querySelector('audio');
+    audioRef.current = audioElement;
+    
     if (audioElement) {
       const handlePlay = () => setIsPlaying(true);
       const handlePause = () => setIsPlaying(false);
@@ -344,7 +367,7 @@ export function StoryPlayer({
           </div>
           
           {/* Fullscreen */}
-          <Dialog open={isFullscreen} onOpenChange={setIsFullscreen}>
+          <Dialog open={isFullscreen} onOpenChange={handleDialogClose}>
             <DialogTitle className="sr-only">Story Details</DialogTitle>
             <DialogContent
               className={cn(

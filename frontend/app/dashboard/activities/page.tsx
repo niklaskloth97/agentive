@@ -26,6 +26,50 @@ export default function Page() {
     return key;
   };
 
+  // Function to get the guide filename based on group key and language
+  const getGuideFilename = (groupKey: string, language: string): string => {
+    const languageMap: Record<string, string> = {
+      // Language codes (what websiteLanguage actually returns)
+      'en': 'E',
+      'fr': 'F', 
+      'de': 'German',
+      'el': 'GR',  // Greek language code
+      'sl': 'S',   // Slovenian language code
+      'lux': 'E',  // Lux falls back to English
+      'it': 'E',   // Italian falls back to English
+      // Full language names (fallback)
+      'English': 'E',
+      'French': 'F', 
+      'German': 'German',
+      'Greek': 'GR',
+      'Slovenian': 'S',
+      'Lux': 'E',
+      'Italian': 'E'
+    };
+    
+    console.log('Current website language:', language); // Debug log
+    const langCode = languageMap[language] || 'E'; // Default to English
+    console.log('Mapped language code:', langCode); // Debug log
+    return `Activities_${groupKey.toUpperCase()}_${langCode}.pdf`;
+  };
+
+  // Function to handle guide download
+  const handleGuideDownload = (groupKey: string) => {
+    console.log('Downloading guide for group:', groupKey, 'in language:', websiteLanguage); // Debug log
+    const filename = getGuideFilename(groupKey, websiteLanguage);
+    const guidePath = `/activities/guides/${groupKey.toUpperCase()}/${filename}`;
+    
+    console.log('Guide path:', guidePath); // Debug log
+    
+    // Create download link
+    const link = document.createElement('a');
+    link.href = guidePath;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <DashboardLayout breadcrumbItems={breadcrumbItems}>
       <div className="mb-8">
@@ -64,25 +108,24 @@ export default function Page() {
             </Link>
             
             {/* Dialogic Reading Guide Button */}
-            <Link href={`/dashboard/activities/${key}/dialogic-guide`}>
-              <button
-                style={
-                  {
-                    "--group-primary": meta.colors.primary,
-                    "--group-secondary": meta.colors.secondary,
-                    "--group-color": meta.colors.text,
-                    "--group-focus": meta.colors.focus,
-                  } as React.CSSProperties
-                }
-                className="px-4 py-2 rounded-lg bg-[--group-secondary] hover:bg-[--group-primary] text-[--group-color] text-sm font-medium shadow-md transition-all duration-200 hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-[--group-focus]"
-              >
-                <Download className="inline mr-2 size-4" />
-                <TranslateButtons 
-                  translationKey="guide" 
-                  currentLanguage={websiteLanguage} 
-                />
-              </button>
-            </Link>
+            <button
+              onClick={() => handleGuideDownload(key)}
+              style={
+                {
+                  "--group-primary": meta.colors.primary,
+                  "--group-secondary": meta.colors.secondary,
+                  "--group-color": meta.colors.text,
+                  "--group-focus": meta.colors.focus,
+                } as React.CSSProperties
+              }
+              className="px-4 py-2 rounded-lg bg-[--group-secondary] hover:bg-[--group-primary] text-[--group-color] text-sm font-medium shadow-md transition-all duration-200 hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-[--group-focus]"
+            >
+              <Download className="inline mr-2 size-4" />
+              <TranslateButtons 
+                translationKey="guide" 
+                currentLanguage={websiteLanguage} 
+              />
+            </button>
           </div>
         ))}
       </div>

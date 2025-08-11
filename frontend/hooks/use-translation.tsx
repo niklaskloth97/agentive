@@ -1055,7 +1055,16 @@ const translations: Record<string, Record<string, string>> = {
     'Italian': 'Finanziato dal Programma Erasmus+ dell\'Unione Europea',
     'German': 'Gefördert durch das Erasmus+ Programm der Europäischen Union',
     'Greek': 'Χρηματοδοτείται από το Πρόγραμμα Erasmus+ της Ευρωπαϊκής Ένωσης'
-  }
+  },
+    'partners': {
+    'English': 'partners',
+    'French': 'partenaires',
+    'Lux': 'Partner',
+    'Slovenian': 'partnerji',
+    'Italian': 'partner',
+    'German': 'Partner',
+    'Greek': 'συνεργάτες'
+  },
 };
 
 

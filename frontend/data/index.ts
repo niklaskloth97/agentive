@@ -297,7 +297,7 @@ export const ACTIVITY_GROUPS: Record<
 						},
 					},
 					{
-						id: "activity-4-3",
+						id: "activity-3-4",
 						type: "worksheet",
 						description: "Learn words related to space in different languages",
 						languages: {
@@ -324,12 +324,11 @@ export const ACTIVITY_GROUPS: Record<
 				sets: [
 					[
 					{
-						id: "activity-1-1",
+						id: "activity-4-1",
 						languages: {
 							en: {
 								label: "English",
 								title: "Understand and create stories",
-								audioUrl: "/audio/test-en.opus", // Use your test audio
 								pdfUrl: "/activities/story1/PC/Story_4_PL_1_E.pdf",
 							},
 							fr: {
