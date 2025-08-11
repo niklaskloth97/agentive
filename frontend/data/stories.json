@@ -2,6 +2,7 @@
   {
     "id": "1",
     "slug": "story-1",
+    "all-pictures": "/learning-material/story-1/story-en/NOT IMPLEMENTED",
     "en": [{
       "title": "Bobba's first trip to Earth",
       "titlePicture": "/learning-material/story-1/story-en/Story1_title_E.webp",
@@ -748,6 +749,7 @@
   {
     "id": "2",
     "slug": "story-2",
+    "all-pictures": "/learning-material/story-1/story-en/NOT IMPLEMENTED",
     "en": [{
       "title": "At the kindergarten",
       "titlePicture": "/images/under-construction.png",

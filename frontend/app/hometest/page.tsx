@@ -175,7 +175,8 @@ export default function HomeTestPage() {
           {/* Right Image */}
           <div className="lg:w-1/2 flex justify-center lg:justify-end">
             {/* Yellow border mask frame */}
-            <div className="mask-wave bg-yellow-400 w-[420px] h-[420px] p-2 relative z-0">
+                      <div className="mask-wave bg-yellow-400 w-[420px] h-[420px] p-2 mx-auto lg:mx-0 relative z-0">
+
               {/* Actual image layer */}
               <div className="mask-wave w-full h-full relative">
                 <Image

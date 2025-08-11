@@ -83,7 +83,7 @@ export default function Page() {
         
         {/* Pedagogical Guide Button */}
         <div className="flex justify-left mt-8">
-          <Link href="/dashboard/guide">
+          <Link href="/learning-material/Pedagogical Guide_Handbook complete.pdf">
             <Button variant="outline" size="lg" className="h-24 text-2xl">
               <BookOpen className="h-5 w-5" />
               <TranslateButtons translationKey="pedagogical-guide" currentLanguage={websiteLanguage} />

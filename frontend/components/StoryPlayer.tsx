@@ -19,6 +19,7 @@ import { cn } from "@/lib/utils";
 import { TranslateButtons } from '@/components/translateButtons';
 import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext';
 import { StoryCarousel } from '@/components/StoryCarousel';
+import { getStoryReadingGuide, hasStoryReadingGuide, GUIDES } from "@/data";
 
 
 interface StoryPlayerProps {
@@ -240,6 +241,87 @@ export function StoryPlayer({
    
   };
 
+  // Helper function to map website language to guide language with fallback
+  const getGuideLanguage = (websiteLanguage: string): "en" | "de" | "fr" | "sv" => {
+    const languageMap: Record<string, "en" | "de" | "fr" | "sv"> = {
+      'en': 'en',
+      'English': 'en',
+      'de': 'de', 
+      'German': 'de',
+      'fr': 'fr',
+      'French': 'fr',
+      'Slovenian': 'sv',
+      'it': 'en',
+      'Italian': 'en',
+      'lux': 'en',
+      'Lux': 'en',
+      'gr': 'en',
+      'Greek': 'en',
+      'el': 'en'
+    };
+    
+    return languageMap[websiteLanguage] || 'en';
+  };
+
+  // Function to handle story reading guide download
+  const handleStoryGuideDownload = () => {
+    const guideLanguage = getGuideLanguage(websiteLanguage);
+    const guide = getStoryReadingGuide(storyId, guideLanguage);
+    
+    if (!guide) {
+      console.warn(`No story reading guide found for story ${storyId} in language ${guideLanguage}`);
+      // Try fallback to English if not already English
+      if (guideLanguage !== 'en') {
+        const englishGuide = getStoryReadingGuide(storyId, 'en');
+        if (englishGuide) {
+          downloadFile(englishGuide.url, `Story ${storyId} Reading Guide (EN).pdf`);
+          return;
+        }
+      }
+      return;
+    }
+    
+    downloadFile(guide.url, `Story ${storyId} Reading Guide.pdf`);
+  };
+
+  // Function to handle dialogic reading guide download
+  const handleDialogicGuideDownload = () => {
+    const guideLanguage = getGuideLanguage(websiteLanguage);
+    const dialogicGuide = GUIDES.dialogic;
+    
+    if (!dialogicGuide) {
+      console.warn('Dialogic reading guide not found');
+      return;
+    }
+    
+    // Get the guide in the requested language or fallback to English
+    const guideData = dialogicGuide.translations[guideLanguage] || dialogicGuide.translations.en;
+    
+    if (!guideData || !guideData.url) {
+      console.warn(`No dialogic guide found for language ${guideLanguage}`);
+      return;
+    }
+    
+    downloadFile(guideData.url, `Dialogic Reading Guide.pdf`);
+  };
+
+  // Helper function to download files
+  const downloadFile = (url: string, filename: string) => {
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  // Check if guides are available for current language
+  const hasStoryGuide = hasStoryReadingGuide(storyId, getGuideLanguage(websiteLanguage)) || 
+                       hasStoryReadingGuide(storyId, 'en'); // Fallback check
+  
+  const hasDialogicGuide = !!(GUIDES.dialogic.translations[getGuideLanguage(websiteLanguage)] || 
+                             GUIDES.dialogic.translations.en);
+
   return (
     <LanguageProvider 
       defaultLanguage=""
@@ -288,14 +370,30 @@ export function StoryPlayer({
                         <Download className="mr-2" size={16}/>
                         <TranslateButtons translationKey="picture" currentLanguage={websiteLanguage} />
                       </Button>
-                      <Button className="w-full mb-4" variant="outline">
-                        <Download className="mr-2" size={16}/>
-                        <TranslateButtons translationKey="dialog-guide" currentLanguage={websiteLanguage} />
-                      </Button>
-                      <Button className="w-full mb-4" variant="outline">
-                        <Download className="mr-2" size={16}/>
-                        <TranslateButtons translationKey="story-guide" currentLanguage={websiteLanguage} />
-                      </Button>
+                      
+                      {/* Dialogic Reading Guide Button */}
+                      {hasDialogicGuide && (
+                        <Button 
+                          className="w-full mb-4" 
+                          variant="outline"
+                          onClick={handleDialogicGuideDownload}
+                        >
+                          <Download className="mr-2" size={16}/>
+                          <TranslateButtons translationKey="dialog-guide" currentLanguage={websiteLanguage} />
+                        </Button>
+                      )}
+                      
+                      {/* Story Reading Guide Button */}
+                      {hasStoryGuide && (
+                        <Button 
+                          className="w-full mb-4" 
+                          variant="outline"
+                          onClick={handleStoryGuideDownload}
+                        >
+                          <Download className="mr-2" size={16}/>
+                          <TranslateButtons translationKey="story-guide" currentLanguage={websiteLanguage} />
+                        </Button>
+                      )}
                     </div>
 
                     <Button 

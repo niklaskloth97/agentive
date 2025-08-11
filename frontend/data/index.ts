@@ -1,6 +1,16 @@
 import { Book, Globe, Languages, LucideIcon } from "lucide-react";
 
 export type ActivityGroupKey = "PC" | "ELS" | "ICAU" | "LA";
+export type GuideKey = 
+  | "dialogic" 
+  | "story-1-reading"
+  | "story-2-reading"
+  | "story-3-reading"
+  | "story-4-reading"
+  | "story-5-reading"
+  | "story-6-reading"
+  | "story-7-reading"
+  | "story-8-reading";
 
 type ActivityGroupMeta = {
 	label: string;
@@ -26,6 +36,12 @@ type Story = {
 	description?: string;
 	sets: Array<Array<Activity>>;
 };
+type Guide = {
+	id: string;
+	translations: Partial<Record<LanguageGuide["id"], 
+		{ 
+			url: string }>>;
+};
 
 type Activity = {
 	id: string;
@@ -50,6 +66,15 @@ type Language = {
 	label: string;
 	code: string;
 };
+
+type LanguageGuide = {
+	id: "en" | "de" | "fr" | "sv" | "gr";
+	label: string;
+	code: string;
+};
+
+
+
 
 export const ACTIVITY_GROUPS_META: Record<ActivityGroupKey, ActivityGroupMeta> =
 	{
@@ -1239,4 +1264,182 @@ export const ACTIVITY_GROUPS: Record<
 		}
 	],
 	},
+};
+
+export const GUIDES: Record<GuideKey, Guide> = {
+	dialogic: {
+		id: "dialogic-reading-guide",
+		translations: {
+			en: {
+				url: "/learning-material/dialogic-reading-guide/Dialogic reading guide_E.pdf"
+			},
+			fr: {
+				url: "/learning-material/dialogic-reading-guide/Dialogic reading guide_F.pdf"
+			},
+			sv: {
+				url: "/learning-material/dialogic-reading-guide/Dialogic reading guide_S.pdf"
+			},
+			gr: {
+				url: "/learning-material/dialogic-reading-guide/Dialogic reading guide_GR.pdf"
+			}
+		},
+	},
+	"story-1-reading": {
+        id: "story-1-reading-guide",
+        translations: {
+            en: {
+                url: "/learning-material/story-1/reading-guide/Story 1_Story's reading guide_E.pdf"
+            },
+            de: {
+                url: "/learning-material/story-1/reading-guide/Story 1_Story's reading guide_G.pdf"
+            },
+            fr: {
+                url: "/learning-material/story-1/reading-guide/Story 1_Story's reading guide_F.pdf"
+            },
+            sv: {
+                url: "/learning-material/story-1/reading-guide/Story 1_Story's reading guide_S.pdf"
+            },
+			gr: {
+				url: "/learning-material/story-1/reading-guide/Story 1_Story's reading guide_GR.pdf"}
+        }
+    },
+    "story-2-reading": {
+        id: "story-2-reading-guide",
+        translations: {
+            en: {
+                url: "/learning-material/story-2/reading-guide/Story 2_Guide de lecture_E.pdf"
+            },
+        
+            fr: {
+                url: "/learning-material/story-2/reading-guide/Story 2_Guide de lecture_F.pdf"
+            },
+        }
+    },
+    "story-3-reading": {
+        id: "story-3-reading-guide",
+        translations: {
+            en: {
+                url: "/learning-material/story-3/reading-guide/Story 3_Story's reading guide_E.pdf"
+            },
+            de: {
+                url: "/learning-material/story-3/reading-guide/Story 3_Story's reading guide_G.pdf"
+            },
+            fr: {
+                url: "/learning-material/story-3/reading-guide/Story 3_Guide de lecture_F.pdf"
+            },
+            sv: {
+                url: "/learning-material/story-3/reading-guide/Story 3_Story's reading guide_S.pdf"
+            }
+        }
+    },
+    "story-4-reading": {
+        id: "story-4-reading-guide",
+        translations: {
+            en: {
+                url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_E.pdf"
+            },
+            de: {
+                url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_G.pdf"
+            },
+            fr: {
+                url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_F.pdf"
+            },
+            sv: {
+                url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_S.pdf"
+            }
+        }
+    },
+    "story-5-reading": {
+        id: "story-5-reading-guide",
+        translations: {
+            en: {
+                url: "/learning-material/story-5/reading-guide/Story 5_Story's reading guide_E.pdf"
+            },
+            de: {
+                url: "/learning-material/story-5/reading-guide/Story 5_Story's reading guide_G.pdf"
+            },
+            fr: {
+                url: "/learning-material/story-5/reading-guide/Story 5_Story's reading guide_F.pdf"
+            },
+            sv: {
+                url: "/learning-material/story-5/reading-guide/Story 5_Story's reading guide_S.pdf"
+            }
+        }
+    },
+    "story-6-reading": {
+        id: "story-6-reading-guide",
+        translations: {
+            en: {
+                url: "/learning-material/story-6/reading-guide/Story 6_Story's reading guide_E.pdf"
+            },
+            de: {
+                url: "/learning-material/story-6/reading-guide/Story 6_Story's reading guide_G.pdf"
+            },
+            fr: {
+                url: "/learning-material/story-6/reading-guide/Story 6_Story's reading guide_F.pdf"
+            },
+            sv: {
+                url: "/learning-material/story-6/reading-guide/Story 6_Story's reading guide_S.pdf"
+            }
+        }
+    },
+    "story-7-reading": {
+        id: "story-7-reading-guide",
+        translations: {
+            en: {
+                url: "/learning-material/story-7/reading-guide/Story 7_Story's reading guide_E.pdf"
+            },
+            de: {
+                url: "/learning-material/story-7/reading-guide/Story 7_Story's reading guide_G.pdf"
+            },
+            fr: {
+                url: "/learning-material/story-7/reading-guide/Story 7_Story's reading guide_F.pdf"
+            },
+            sv: {
+                url: "/learning-material/story-7/reading-guide/Story 7_Story's reading guide_S.pdf"
+            }
+        }
+    },
+    "story-8-reading": {
+        id: "story-8-reading-guide",
+        translations: {
+            en: {
+                url: "/learning-material/story-8/reading-guide/Story 8_Story's reading guide_E.pdf"
+            },
+            de: {
+                url: "/learning-material/story-8/reading-guide/Story 8_Story's reading guide_G.pdf"
+            },
+            fr: {
+                url: "/learning-material/story-8/reading-guide/Story 8_Story's reading guide_F.pdf"
+            },
+            sv: {
+                url: "/learning-material/story-8/reading-guide/Story 8_Story's reading guide_S.pdf"
+            }
+        }
+    }
+};
+
+// Helper function to get story reading guide by story ID
+export const getStoryReadingGuide = (storyId: string, languageId: LanguageGuide["id"] = "en"): { url: string } | null => {
+    const guideKey = `story-${storyId}-reading` as GuideKey;
+    const guide = GUIDES[guideKey];
+    
+    if (!guide || !guide.translations) return null;
+    
+    // Try requested language first, then fallback to English
+    return guide.translations[languageId] || guide.translations.en || null;
+};
+
+// Helper function to check if a story has a reading guide
+export const hasStoryReadingGuide = (storyId: string, languageId?: LanguageGuide["id"]): boolean => {
+    const guideKey = `story-${storyId}-reading` as GuideKey;
+    const guide = GUIDES[guideKey];
+    
+    if (!guide || !guide.translations) return false;
+    
+    if (languageId) {
+        return !!guide.translations[languageId];
+    }
+    
+    return Object.keys(guide.translations).length > 0;
 };
