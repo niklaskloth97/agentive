@@ -29,11 +29,11 @@ export default function Page() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Storytime Card */}
           <Link href="/dashboard/stories">
-            <Card className="bg-primary/10 aspect-[4/3] transition cursor-pointer hover:shadow-lg">
+            <Card className="bg-blue-600/10 aspect-[4/3] transition cursor-pointer hover:shadow-lg">
               <div className="flex flex-col items-center justify-center h-full p-6">
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="p-3 bg-primary/20 rounded-full">
-                    <Book className="h-10 w-10 text-primary" />
+                  <div className="p-3 bg-blue-800/20 rounded-full">
+                    <Book className="h-10 w-10 text-blue-800" />
                   </div>
                   <CardTitle className="text-2xl">
                     <TranslateButtons translationKey="storytime" currentLanguage={websiteLanguage} />
