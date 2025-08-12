@@ -7,7 +7,7 @@
       "title": "Bobba's first trip to Earth",
       "titlePicture": "/learning-material/story-1/story-en/Story1_title_E.webp",
       "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
-      "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
+      "fullText": "/learning-material/story-1/story-en/Story 1_E.pdf",
       "pages": {
          "0": {
           "text": "Bobba's first trip to Earth",
@@ -113,7 +113,7 @@
       "title": "Bobbas erste Reise zur Erde",
       "titlePicture": "/learning-material/story-1/story-de/Story 1_1.jpg",
       "fullAudio": "/learning-material/story-1/story-de short/Bobba_DE_Story_1_Gesamt.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-1/story-de short/Story 1_G_short.pdf",
       "pages": {
          "0": {
           "text": "Bobbas erste Reise zur Erde",
@@ -166,7 +166,7 @@
       "title": "Premier voyage de Bobba vers la Terre",
       "titlePicture": "/learning-material/story-1/story-en/Story 1_title_F.jpg",
       "fullAudio": "/learning-material/story-1/story-fr/Bobba_FR_Story 1-MP3.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-1/story-fr/Story 1_F.pdf",
       "pages": {
          "0": {
           "text": "Premier voyage de Bobba vers la Terre",
@@ -219,7 +219,7 @@
       "title": "A primeira viagem do Bobba à Terra",
       "titlePicture": "/learning-material/story-1/story-port/Story_1_title_P.jpg",
       "fullAudio": "/learning-material/story-1/story-port/1_complete version.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-1/story-port/Story 1_P.pdf",
       "pages": {
         "0": {
           "text": "A primeira viagem do Bobba à Terra",
@@ -378,7 +378,7 @@
       "title": "Το πρώτο ταξίδι του Μπόμπα στη Γη",
       "titlePicture": "/learning-material/story-1/story-gr/Story 1_title_Gr.jpg",
       "fullAudio": "/learning-material/story-1/story-gr/story-1-greek-full.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-1/story-gr/Story 1_GR.pdf",
       "pages": {
         "0": {
           "text": "Το πρώτο ταξίδι του Μπόμπα στη Γη",
@@ -431,7 +431,7 @@
       "title": "Bobbas första resa till jorden",
       "titlePicture": "/learning-material/story-1/story-sv/Story 1_title_S.jpg",
       "fullAudio": "/learning-material/story-1/story-sv/Story 1_SLO_complete.m4a",
-      "fullText": "",
+      "fullText": "/learning-material/story-1/story-sv/Story 1_S.pdf",
       "pages": {
          "0": {
           "text": "Bobbas första resa till jorden",
@@ -484,7 +484,7 @@
       "title": "Udhëtimi i parë i Bobbas në Tokë",
       "titlePicture": "/learning-material/story-1/story-alb/Story 1_title_AL.jpg",
       "fullAudio": "/learning-material/story-1/story-alb/Bobba_AL_Story 1.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-1/story-alb/Story 1_AL.pdf",
       "pages": {
         "0": {
           "text": "Udhëtimi i parë i Bobbas në Tokë",
@@ -537,7 +537,7 @@
       "title": "L prim viac de Bobba sun la Tiera",
       "titlePicture": "/learning-material/story-1/story-alb/Story 1_title_AL.jpg", 
       "fullAudio": "/learning-material/story-1/story-ladin/Bobba__LADIN_Story 1-MP3.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-1/story-ladin/Story 1_L.pdf",
       "pages": {
         "0": {
           "text": "L prim viac de Bobba sun la Tiera",
@@ -594,7 +594,7 @@
       "pages": {
         "0": {
           "text": "Bobba’nın Dünya Yolculuğu",
-          "imageUrl": "/learning-material/story-1/story-pol/Story 1_title_PL.jpg", 
+          "imageUrl": "/learning-material/story-1/story-tur/Story 1_title_TU.jpg", 
           "audioUrl": "/learning-material/story-1/story-tur/Story_Turkish_Title.mp3"
         },
         "1": {
@@ -696,7 +696,7 @@
       "title": "Перша подорож Бобби на Землю",
       "titlePicture": "/learning-material/story-1/story-ukr/Story 1_title_UK.jpg",
       "fullAudio": "/learning-material/story-1/story-ukr/story-1-ukrainian-full.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-1/story-ukr/Story 1_UA.pdf",
       "pages": {
         "0": {
           "text": "Перша подорож Бобби на Землю",
@@ -1815,61 +1815,125 @@
     "id": "4",
     "slug": "story-4",
     "en": [{
-      "title": "Sleeping at a friend's",
-      "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
-      "fullAudio": "/learning-material/story-4/story-en/Story_1_full_audio.m4a",
-      "fullText": "",
-      "pages": {
-        "1": {
-          "text": "Bobba sees a beautiful brightly coloured building. He hears laughter and singing coming from inside. He is curious and wants to see what is going on.",
-          "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
-          "audioUrl": "/learning-material/story-4/story-en/Story 4_1.m4a"
-        },
-        "2": {
-          "text": "He opens the door and sees children running around and shouting. Bobba likes that and wants to join in. He waves at them. \"Saluton! Saluton!\"",
-          "imageUrl": "/learning-material/story-4/story-en/Story 4_2.jpeg",
-          "audioUrl": "/learning-material/story-4/story-en/Story 4_2.m4a"
-        },
-        "3": {
-          "text": "When the children see Bobba, they freeze and their eyes grow wide. \"Who is this?\" \"What is he saying?\" \"Is this our new teacher?\" The children quickly hide..",
-          "imageUrl": "/learning-material/story-4/story-en/Story 4_3.jpg",
-          "audioUrl": "/learning-material/story-4/story-en/Story 4_3.m4a"
-        },
-        "4": {
-          "text": "Bobba is now all alone, so he becomes sad. He would really like to play. \"Ludi! Ludi!\"",
-          "imageUrl": "/learning-material/story-4/story-en/Story 4_4.jpeg",
-          "audioUrl": "/learning-material/story-4/story-en/Story 4_4.m4a"
-        },
-        "5": {
-          "text": "A girl comes out of the toilet and looks around puzzled. \"Where is everybody?\" Then she sees Bobba.",
-          "imageUrl": "/learning-material/story-4/story-en/Story 4_5.jpg",
-          "audioUrl": "/learning-material/story-4/story-en/Story 4_5.m4a"
-        },
-        "6": {
-          "text": "She looks up at Bobba and smiles. \"Hi! Do you want to play?\" Bobba smiles back at her. \"Bone! Bone!\" They start playing.",
-          "imageUrl": "/learning-material/story-4/story-en/Story 4_6.jpg",
-          "audioUrl": "/learning-material/story-4/story-en/Story 4_6.m4a"
-        },
-        "7": {
-          "text": "The other children see Bobba and the girl playing and slowly, one by one, come out of their hiding places. They want to play with Bobba too.",
-          "imageUrl": "/learning-material/story-4/story-en/Story 4_7.jpg",
-          "audioUrl": "/learning-material/story-4/story-en/Story 4_7.m4a"
-        },
-        "8": {
-          "text": "All children surround Bobba. \"Ludi! Ludi!\" they all shout. \"What a great day!\", thinks Bobba.",
-          "imageUrl": "/learning-material/story-4/story-en/Story 4_8.jpg",
-          "audioUrl": "/learning-material/story-4/story-en/Story 4_8.m4a"
-        }
-      }
-    }],
+          "title": "Sleeping at a friend's",
+          "titlePicture": "/learning-material/story-4/story-en/Story 4_2 title_E.jpg",
+          "fullAudio": "/learning-material/story-4/story-en/Story_4_E whole story.mp3",
+          "fullText":"/learning-material/story-4/story-en/Story 4_E.pdf",
+          "pages": {
+            "0": {
+              "text": "Sleeping at a friend's",
+              "imageUrl": "/learning-material/story-4/story-en/Story 4_2 title_E.jpg",
+              "audioUrl": "/learning-material/story-4/story-en/Story 4_title.mp3"
+            },
+            "1": {
+              "text": "At the end of a long day, Ben, Alex and Olivia decide to go home. \"Where are you sleeping tonight?\", Olivia asks Bobba. Bobba looks at her with wide eyes. Olivia takes his hand. \"Come home with me.\"",
+              "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
+              "audioUrl": "/learning-material/story-4/story-en/Story 4_1_E.mp3"
+            },
+            "2": {
+              "text": "Bobba and Olivia are in the bedroom, Olivia takes her horse on a stick and her sword. \"Let's play knights!\" \"Ah, ludi kavalirojn.\" Bobba takes a sword. \"Let's go for a knights' fight\", suggests Olivia.",
+              "imageUrl": "/learning-material/story-4/story-en/Story 4_2.jpeg",
+              "audioUrl": "/learning-material/story-4/story-en/Story 4_2_E.mp3"
+            },
+            "3": {
+              "text": "Olivia is hungry. \"I want a slice of bread!\" Bobba is confused and doesn't understand. He follows her into the kitchen. Olivia opens the fridge.",
+              "imageUrl": "/learning-material/story-4/story-en/Story 4_3.jpg",
+              "audioUrl": "/learning-material/story-4/story-en/Story 4_3_E.mp3"
+            },
+            "4": {
+              "text": "\"What do you want on your bread?\" Bobba doesn't answer and looks at Olivia. He imitates her and puts everything he finds on his bread. Bobba smiles and says, \"Enjoy your meal!\"",
+              "imageUrl": "/learning-material/story-4/story-en/Story 4_4.jpeg",
+              "audioUrl": "/learning-material/story-4/story-en/Story 4_4_E.mp3"
+            },
+            "5": {
+              "text": "After the meal, they want to brush their teeth. Bobba presses firmly on the tube of the toothpaste. There is toothpaste everywhere on the floor. Bobba and Olivia can't stop laughing.",
+              "imageUrl": "/learning-material/story-4/story-en/Story 4_5.jpg",
+              "audioUrl": "/learning-material/story-4/story-en/Story 4_5_E.mp3"
+            },
+            "6": {
+              "text": "Olivia shows Bobba how to put toothpaste on his brush. \"Look, it's easy!\" Bobba nods and tries to copy Olivia. \"You did it!\" Olivia and Bobba brush their teeth and look at themselves in the mirror.",
+              "imageUrl": "/learning-material/story-4/story-en/Story 4_6.jpg",
+              "audioUrl": "/learning-material/story-4/story-en/Story 4_6_E.mp3"
+            },
+            "7": {
+              "text": "Olivia's mother enters. \"Clean up?\", asks Bobba. The mother nods. They clean the floor. \"Now, it's time to go to bed!\" Olivia yells, \"I still want to play!\" The mother shakes her head.",
+              "imageUrl": "/learning-material/story-4/story-en/Story 4_7.jpg",
+              "audioUrl": "/learning-material/story-4/story-en/Story 4_7_E.mp3"
+            },
+            "8": {
+              "text": "Back in the bedroom, Olivia covers herself with a blanket. \"Let's sleep!\" Bobba wraps himself in the carpet. \"Dormi\", he says in Esperanto. Olivia laughs.",
+              "imageUrl": "/learning-material/story-4/story-en/Story 4_8.jpg",
+              "audioUrl": "/learning-material/story-4/story-en/Story 4_8_E.mp3"
+            }
+          }
+        }],
+    "sw-ger": [{
+          "title": "Bobba übernachtet bei Olivia",
+          "titlePicture": "/learning-material/story-4/story-de/Story 4_2 title_GE.jpg",
+          "fullAudio": "/learning-material/story-4/story-de short/Bobba_DE_Story 4 gesamt.mp3",
+          "fullText": "/learning-material/story-4/story-de short/Story 4_G_short.pdf",
+          "pages": {
+            "0": {
+              "text": "Bobba übernachtet bei Olivia",
+              "imageUrl": "/learning-material/story-4/story-de/Story 4_2 title_GE.jpg",
+              "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4-Titel.mp3"
+            },
+            "1": {
+              "text": "Der Tag geht langsam zu Ende. Ben, Alex und Olivia wollen nach Hause gehen. „Bobba, wo schläfst Du heute Nacht?\", fragt Olivia. Bobba schaut sie mit großen Augen an. Olivia nimmt seine Hand: „Komm mit mir nach Hause!\"",
+              "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
+              "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4_1.mp3"
+            },
+            "2": {
+              "text": "Bobba und Olivia sind in ihrem Zimmer. Olivia nimmt ihr Steckenpferd und ihr Schwert und ruft: «Komm, wir spielen Ritter!» „Ah, ludi kavalirojn!\" Bobba nimmt ein Schwert. „Lass uns kämpfen wie Ritter!\", schlägt Olivia vor.",
+              "imageUrl": "/learning-material/story-4/story-en/Story 4_2.jpeg",
+              "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4_2.mp3"
+            },
+            "3": {
+              "text": "Olivia hat Hunger: „Ich möchte eine Scheibe Brot,\" Bobba ist verwirrt und versteht nicht. Er folgt ihr in die Küche.",
+              "imageUrl": "/learning-material/story-4/story-en/Story 4_3.jpg",
+              "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4_3.mp3"
+            },
+            "4": {
+              "text": "Olivia öffnet den Kühlschrank. „Was möchtest du auf deinem Brot haben?\" Bobba antwortet nicht und schaut Olivia zu. Dann macht er es ihr einfach nach. Er nimmt alles, was er finden kann, und packt es aufs Brot. Bobba lächelt und sagt: „Guten Appetit!\"",
+              "imageUrl": "/learning-material/story-4/story-en/Story 4_4.jpeg",
+              "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4_4.mp3"
+            },
+            "5": {
+              "text": "Nach dem Essen wollen die beiden ihre Zähne putzen. Bobba nimmt die Zahnpastatube und drückt… Plötzlich ist überall Zahnpasta! Bobba und Olivia können nicht aufhören zu lachen…",
+              "imageUrl": "/learning-material/story-4/story-en/Story 4_5.jpg",
+              "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4_5.mp3"
+            },
+            "6": {
+              "text": "Olivia zeigt Bobba, wie man die Zahnpasta auf die Zahnbürste bringt. „Sieh mal! Es ist ganz leicht!\" Bobba nickt und versucht, es wie Olivia zu machen. Olivia und Bobba putzen die Zähne und schauen sich im Spiegel an.",
+              "imageUrl": "/learning-material/story-4/story-en/Story 4_6.jpg",
+              "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4_6.mp3"
+            },
+            "7": {
+              "text": "Olivias Mutter kommt herein. „Sauber machen?\", fragt Bobba. Die Mutter nickt. Zusammen putzen sie den Fussboden. „Jetzt ist Bett-geh-Zeit!\" Olivia ruft: „Ich will aber noch spielen!!\" Aber die Mutter schüttelt den Kopf.",
+              "imageUrl": "/learning-material/story-4/story-en/Story 4_7.jpg",
+              "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4_7.mp3"
+            },
+            "8": {
+              "text": "Im Schlafzimmer kuschelt sich Olivia in ihre Decke ein. „Lass uns einschlafen!\" Bobba wickelt sich in den Teppich ein. „Dormi\". Olivia lacht.",
+              "imageUrl": "/learning-material/story-4/story-en/Story 4_8.jpg",
+              "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4_8.mp3"
+            }
+          }
+        }],
+    
     "de": [{
-      "title": "Bobbas Übernachtung",
-      "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
-      "fullAudio": "",
+      "title": "Bobba übernachtet bei Olivia",
+      "titlePicture": "/learning-material/story-4/story-de/Story 4_2 title_GE.jpg",
+      "fullAudio": "/learning-material/story-4/story-de/Story 4_G Long_complete.m4a",
       "fullText": "",
       "pages": {
+        "0": {
+          "text": "Bobba übernachtet bei Olivia",
+          "imageUrl": "/learning-material/story-4/story-de/Story 4_2 title_GE.jpg",
+          "audioUrl": "/learning-material/story-4/story-de/Bobbas_Übernachtung_Title.m4a"
+        },
         "1": {
-          "text": "Der Tag neigt sich langsam dem Ende zu und Ben, Alex und OIivia beschliessen nachhause zu gehen. “Wo schläfst Du heute Nacht?”, fragt Olivia Bobba. Bobba schaut sie mit grossen Augen an. Olivia greift nach seiner Hand “Komm mit mir nachhause!”",
+          "text": "Der Tag neigt sich langsam dem Ende zu und Ben, Alex und Olivia beschliessen nachhause zu gehen. \"Wo schläfst Du heute Nacht?\", fragt Olivia Bobba. Bobba schaut sie mit grossen Augen an. Olivia greift nach seiner Hand \"Komm mit mir nachhause!\"",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
           "audioUrl": "/learning-material/story-4/story-de/Story 4_G Long_4_1.m4a"
         },
@@ -1879,12 +1943,12 @@
           "audioUrl": "/learning-material/story-4/story-de/Story 4_G Long_4_2.m4a"
         },
         "3": {
-          "text": "Olivia ist hungrig. “Ich möchte eine Scheibe Brot!» Bobba ist verwirrt und versteht nicht. Er folgt ihr in die Küche.",
+          "text": "Olivia ist hungrig. \"Ich möchte eine Scheibe Brot!\" Bobba ist verwirrt und versteht nicht. Er folgt ihr in die Küche.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_3.jpg",
           "audioUrl": "/learning-material/story-4/story-de/Story 4_G Long_4_3.m4a"
         },
         "4": {
-          "text": "Olivia öffnet den Kühlschrank. “Was möchtest du auf deinem Brot haben?” Bobba antwortet nicht und schaut Olivia zu. Dann macht er es ihr einfach nach und nimmt alles, was er finden kann, und packt es aufs Brot. Bobba lächelt und sagt: «Guten Appetit!»",
+          "text": "Olivia öffnet den Kühlschrank. \"Was möchtest du auf deinem Brot haben?\" Bobba antwortet nicht und schaut Olivia zu. Dann macht er es ihr einfach nach und nimmt alles, was er finden kann, und packt es aufs Brot. Bobba lächelt und sagt: «Guten Appetit!»",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_4.jpeg",
           "audioUrl": "/learning-material/story-4/story-de/Story 4_G Long_4_4.m4a"
         },
@@ -1894,122 +1958,85 @@
           "audioUrl": "/learning-material/story-4/story-de/Story 4_G Long_4_5.m4a"
         },
         "6": {
-          "text": "Olivia zeigt Bobba, wie man die Zahnpasta auf die Zahnbürste bringt. ”Sieh mal! Es ist ganz leicht!” Bobba nickt und versucht, es wie Olivia zu machen. Olivia und Bobba putzen die Zähne und schauen sich im Spiegel an.",
+          "text": "Olivia zeigt Bobba, wie man die Zahnpasta auf die Zahnbürste bringt. \"Sieh mal! Es ist ganz leicht!\" Bobba nickt und versucht, es wie Olivia zu machen. Olivia und Bobba putzen die Zähne und schauen sich im Spiegel an.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_6.jpg",
-          "audioUrl":"/learning-material/story-4/story-de/Story 4_G Long_4_6.m4a"
+          "audioUrl": "/learning-material/story-4/story-de/Story 4_G Long_4_6.m4a"
         },
         "7": {
-          "text": "Olivias Mutter kommt herein. “Sauber machen?”, fragt Bobba. Die Mutter nickt. Zusammen säubern sie den Fussboden. ”Jetzt ist Bett-geh-Zeit!” Olivia schreit: ”Ich will aber noch spielen!!” Aber die Mutter schüttelt den Kopf.",
+          "text": "Olivias Mutter kommt herein. \"Sauber machen?\", fragt Bobba. Die Mutter nickt. Zusammen säubern sie den Fussboden. \"Jetzt ist Bett-geh-Zeit!\" Olivia schreit: \"Ich will aber noch spielen!!\" Aber die Mutter schüttelt den Kopf.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_7.jpg",
           "audioUrl": "/learning-material/story-4/story-de/Story 4_G Long_4_7.m4a"
         },
         "8": {
-          "text": "Im Schlafzimmer kuschelt sich Olivia in ihre Decke ein. ”Lass uns einschlafen!” Bobba wickelt sich in den Teppich ein. «Dormi», sagt er in Esperanto. Olivia lacht.",
+          "text": "Im Schlafzimmer kuschelt sich Olivia in ihre Decke ein. \"Lass uns einschlafen!\" Bobba wickelt sich in den Teppich ein. «Dormi», sagt er in Esperanto. Olivia lacht.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_8.jpg",
           "audioUrl": "/learning-material/story-4/story-de/Story 4_G Long_4_8.m4a"
         }
       }
     }],
-    "de-short": [{
-      "title": "Bobba übernachtet bei Olivia",
-      "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
-      "fullAudio": "/learning-material/story-4/story-de short/Bobba_DE_Story 4 gesamt.mp3",
-      "fullText": "",
-      "pages": {
-        "1": {
-          "text": "Der Tag geht langsam zu Ende. Ben, Alex und OIivia beschließen, nach Hause zu gehen. “Bobba, wo schläfst Du heute Nacht?”, fragt Olivia. Bobba schaut sie mit großen Augen an. Olivia nimmt seine Hand: “Komm mit mir nach Hause!”",
-          "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
-          "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4_1.mp3"
-        },
-        "2": {
-          "text": "Bobba und Olivia sind in ihrem Zimmer. Olivia nimmt ihr Steckenpferd und ihr Schwert und ruft: «Komm, wir spielen Ritter!» «Ah, ludi kavalirojn!» Bobba nimmt ein Schwert. «Lass uns kämpfen wie Ritter!», schlägt Olivia vor.", 
-          "imageUrl": "/learning-material/story-4/story-en/Story 4_2.jpeg",
-          "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4_2.mp3"
-        },
-        "3": {
-          "text": "Olivia hat Hunger: “Ich möchte eine Scheibe Brot!» Bobba ist verwirrt und versteht nicht. Er folgt ihr in die Küche.",
-          "imageUrl": "/learning-material/story-4/story-en/Story 4_3.jpg",
-          "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4_3.mp3"
-        },
-        "4": {
-          "text": "Olivia öffnet den Kühlschrank. “Was möchtest du auf deinem Brot haben?” Bobba antwortet nicht und schaut Olivia zu. Dann macht er es ihr einfach nach. Er nimmt alles, was er finden kann, und packt es aufs Brot. Bobba lächelt und sagt: «Guten Appetit!»",
-          "imageUrl": "/learning-material/story-4/story-en/Story 4_4.jpeg",
-          "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4_4.mp3"
-        },
-        "5": {
-          "text": "Nach dem Essen wollen die beiden ihre Zähne putzen. Bobba nimmt die Zahnpastatube und drückt… Plötzlich ist überall Zahnpasta! Bobba und Olivia können nicht aufhören zu lachen… ",
-          "imageUrl": "/learning-material/story-4/story-en/Story 4_5.jpg",
-          "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4_5.mp3"
-        },
-        "6": {
-          "text":"Olivia zeigt Bobba, wie man die Zahnpasta auf die Zahnbürste bringt. ”Sieh mal! Es ist ganz leicht!” Bobba nickt und versucht, es wie Olivia zu machen. Olivia und Bobba putzen die Zähne und schauen sich im Spiegel an.",
-          "imageUrl": "/learning-material/story-4/story-en/Story 4_6.jpg",
-          "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4_6.mp3"
-        },
-        "7": {
-          "text": "Olivias Mutter kommt herein. “Sauber machen?”, fragt Bobba. Die Mutter nickt. Zusammen putzen sie den Fussboden. ”Jetzt ist Bett-geh-Zeit!” Olivia ruft: ”Ich will aber noch spielen!!” Aber die Mutter schüttelt den Kopf. ",
-          "imageUrl": "/learning-material/story-4/story-en/Story 4_7.jpg",
-          "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4_7.mp3"
-        },
-        "8": {
-          "text": "Im Schlafzimmer kuschelt sich Olivia in ihre Decke ein. ”Lass uns einschlafen!” Bobba wickelt sich in den Teppich ein. «Dormi». Olivia lacht.",
-          "imageUrl": "/learning-material/story-4/story-en/Story 4_8.jpg",
-          "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4_8.mp3"
-        }
-      }
-    }],
-    "fr": [{"title": "",
-      "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
+    "fr": [{
+      "title": "Dormir chez une amie",
+      "titlePicture": "/learning-material/story-4/story-fr/Story 4_2 title_F.jpg",
       "fullAudio": "/learning-material/story-4/story-fr/Bobba_FR_Story 4-MP3.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-4/story-fr/Story 4_F.pdf",
       "pages": {
+        "0": {
+          "text": "Dormir chez une amie",
+          "imageUrl": "/learning-material/story-4/story-fr/Story 4_2 title_F.jpg",
+          "audioUrl": "/learning-material/story-4/story-fr/Bobba_FR_Story 4 Intro-MP3.mp3"
+        },
         "1": {
-          "text": "",
+          "text": "Après une longue journée, Ben, Alex et Olivia décident de rentrer à la maison. « Où est-ce que tu dors ce soir ? », demande Olivia à Bobba. Il la regarde avec de grands yeux. Olivia le prend par la main. « Viens dormir chez moi. »",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
           "audioUrl": "/learning-material/story-4/story-fr/Bobba_FR_Story 4_1-MP3.mp3"
         },
         "2": {
-          "text": "", 
+          "text": "Dans la chambre, Olivia prend son cheval en bois et son épée. « On joue aux chevaliers ? ». « Ah, ludi kavalirojn », dit Bobba. Il prend aussi une épée. « C'est parti, on fait un combat de chevaliers ! », dit Olivia.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_2.jpeg",
           "audioUrl": "/learning-material/story-4/story-fr/Bobba_FR_Story 4_2-MP3.mp3"
         },
         "3": {
-          "text": "",
+          "text": "Olivia a faim. « Je veux une tartine » Bobba est perdu et ne comprend pas. Il la suit dans la cuisine. Olivia ouvre le frigo.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_3.jpg",
           "audioUrl": "/learning-material/story-4/story-fr/Bobba_FR_Story 4_3-MP3.mp3"
         },
         "4": {
-          "text": "",
+          "text": "« Qu'est-ce que tu veux sur ta tartine ? » Bobba ne répond pas. Il regarde Olivia. Il fait comme elle et met tout ce qu'il trouve sur son pain. Bobba sourit et dit : « Bon appétit ! »",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_4.jpeg",
           "audioUrl": "/learning-material/story-4/story-fr/Bobba_FR_Story 4_4-MP3.mp3"
         },
         "5": {
-          "text": "",
+          "text": "Après le repas, ils veulent se brosser les dents. Bobba appuie fort sur le tube de dentifrice. Il y en a partout sur le sol ! Bobba et Olivia ne peuvent plus s'arrêter de rire.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_5.jpg",
           "audioUrl": "/learning-material/story-4/story-fr/Bobba_FR_Story 4_5-MP3.mp3"
         },
         "6": {
-          "text":"",
+          "text": "Olivia lui montre comment mettre du dentifrice sur la brosse à dents. « Regarde, c'est facile ! » Bobba essaie de faire comme elle. « Bravo, tu as réussi ! » Ils se brossent les dents et se regardent dans le miroir.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_6.jpg",
           "audioUrl": "/learning-material/story-4/story-fr/Bobba_FR_Story 4_6-MP3.mp3"
         },
         "7": {
-          "text": "",
+          "text": "La maman d'Olivia entre dans la salle de bain. « Nettoyer ? », demande Bobba. La maman hoche la tête. Ils nettoient le sol. « Maintenant, c'est l'heure de dormir ! ». « Mais je veux encore jouer ! », crie Olivia. La maman fait non de la tête.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_7.jpg",
           "audioUrl": "/learning-material/story-4/story-fr/Bobba_FR_Story 4_7-MP3.mp3"
         },
         "8": {
-          "text": "",
+          "text": "De retour dans la chambre, Olivia se met sous la couverture. « Allez, il est temps de dormir ! ». Bobba s'enroule dans le tapis. « Dormi », dit-il en espéranto. Olivia éclate de rire.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_8.jpg",
           "audioUrl": "/learning-material/story-4/story-fr/Bobba_FR_Story 4_8-MP3.mp3"
         }
       }
     }],
     "pt": [{"title": "Dormir em casa de um amigo",
-      "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
+      "titlePicture": "/learning-material/story-4/story-pt/Story 4_2 title_P.jpg",
       "fullAudio": "/learning-material/story-4/story-pt/4_complete version.m4a",
-      "fullText": "",
+      "fullText": "/learning-material/story-4/story-pt/Story 4_P.pdf",
       "pages": {
+        "0": {
+          "text": "Dormir em casa de um amigo",
+          "imageUrl": "/learning-material/story-4/story-pt/Story 4_2 title_P.jpg",
+          "audioUrl": "/learning-material/story-4/story-pt/4_title.m4a"
+        },
         "1": {
           "text": "Ao fim de um longo dia, o Ben, o Alex e a Olivia decidem voltar para casa. \"Onde vais dormir esta noite?\", pergunta a Olivia ao Bobba. O Bobba olha para ela com os olhos arregalados. Olívia pega na mão dele e diz: \"Vem comigo para minha casa.\" ",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
@@ -2052,7 +2079,59 @@
         }
       }
     }],
-    "es": [],
+    "ld": [{
+      "title": "Bobba duerm da Olivia",
+      "titlePicture": "/learning-material/story-4/story-ladin/Story 4_2 title_LA.jpg",
+      "fullAudio": "/learning-material/story-4/story-ladin/Bobba_LADIN_Story 4-MP3.mp3",
+      "fullText": "",
+      "pages": {
+        "0": {
+          "text": "Bobba duerm da Olivia",
+          "imageUrl": "/learning-material/story-4/story-ladin/Story 4_2 title_LA.jpg",
+          "audioUrl": "/learning-material/story-4/story-ladin/Bobba_LADIN_Story 4 Intro-MP3.mp3"
+        },
+        "1": {
+          "text": "Ala fin de n di lonch se mpënsa Ben, Alex y Olivia de jì a cësa. \"Ulà dormes'a tu nsnuet?\", ti damanda Olivia a Bobba. Bobba ti cëla a d'ëila cun de gran uedli. Olivia ti dà la man. \"Vie a cësa cun mé.\"",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
+          "audioUrl": "/learning-material/story-4/story-ladin/Bobba_LADIN_Story 4_1-MP3.mp3"
+        },
+        "2": {
+          "text": "Bobba y Olivia ie te majon. Olivia tol si ciaval sun n fust y si speda. \"Fajon finta de vester ciavalieres!\" \"Ah, ludi kavalirojn.\" Bobba tol na speda. \"Fajon n cumbatimënt danter ciavalieres\", dij Olivia.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_2.jpeg",
+          "audioUrl": "/learning-material/story-4/story-ladin/Bobba_LADIN_Story 4_2-MP3.mp3"
+        },
+        "3": {
+          "text": "Olivia à fam. \"Ie ue na sondla de pan!\" Bobba ie n pue' sotsëura y ne ntënd nia. L ti va do te cësadafuech. Olivia gëura l dlaciadoi.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_3.jpg",
+          "audioUrl": "/learning-material/story-4/story-ladin/Bobba_LADIN_Story 4_3-MP3.mp3"
+        },
+        "4": {
+          "text": "\"Cie ues'a sun ti pan?\" Bobba ne respuend nia y ti cëla a Olivia. L ti fej do y mët dut cie che l abina sun si pan. Bobba s'la rij y dij: \"Bon apetit!\"",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_4.jpeg",
+          "audioUrl": "/learning-material/story-4/story-ladin/Bobba_LADIN_Story 4_4-MP3.mp3"
+        },
+        "5": {
+          "text": "Do avëi maià, uei se lavé i dënz. Bobba schicia dassënn la tuba cun la pasta dai dënz. L ie pasta dai dënz dloncora sun fonz. Bobba y Olivia ne n'ie nia boni de lascé de rì.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_5.jpg",
+          "audioUrl": "/learning-material/story-4/story-ladin/Bobba_LADIN_Story 4_5-MP3.mp3"
+        },
+        "6": {
+          "text": "Olivia ti mostra a Bobba coche n mët su pasta dai dënz sun si bëusc. \"Cëla, l ie saurì!\" Bobba cinieia y prova a ti fé do a Olivia. \"Vëijes'a che te ses da l fé!\" Olivia y Bobba leva si dënz y se cëla te spiedl.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_6.jpg",
+          "audioUrl": "/learning-material/story-4/story-ladin/Bobba_LADIN_Story 4_6-MP3.mp3"
+        },
+        "7": {
+          "text": "L vën ite l'oma de Olivia. \"Puzené su?\", damanda Bobba. L'oma cinieia. I puzenea l fonz. \"Śën iel ëura de jì a tucia!\" Olivia svëia: \"Ie ue mo fé damat!\" L'oma cinieia de no.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_7.jpg",
+          "audioUrl": "/learning-material/story-4/story-ladin/Bobba_LADIN_Story 4_7-MP3.mp3"
+        },
+        "8": {
+          "text": "Canche i ie inò te majon, se cuer Olivia ju cun na chëutra. \"Durmion mé śën!\" Bobba se rudelnea ite tl tepih. \"Dormi\", dijel per esperanto. Olivia rij.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_8.jpg",
+          "audioUrl": "/learning-material/story-4/story-ladin/Bobba_LADIN_Story 4_8-MP3.mp3"
+        }
+      }
+    }],
     "slo": [{
       "title": "Bobba prespi pri prijateljici",
       "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
@@ -2247,10 +2326,15 @@
   }],
   "lux": [{
       "title": "De Bobba geet bei seng Frëndin Olivia schlofen",
-      "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
+      "titlePicture": "/learning-material/story-4/story-lux/Story 4_2 title_L.jpg",
       "fullAudio": "/learning-material/story-4/story-lux/Bobba_LU_Story 4-MP3.mp3",
       "fullText": "",
       "pages": {
+        "0": {
+          "text": "De Bobba geet bei seng Frëndin Olivia schlofen",
+          "imageUrl": "/learning-material/story-4/story-lux/Story 4_2 title_L.jpg",
+          "audioUrl": "/learning-material/story-4/story-lux/Bobba_LU_Story 4 Intro-MP3.mp3"
+        },
         "1": {
           "text": "No engem laange flotten Dag ginn de Ben, den Alex an d’Olivia gären heem. “Wou schléifs du haut den Owend?”, freet d’Olivia de Bobba. De Bobba kuckt hatt mat grousse Guckelcher un. D’Olivia hëlt hie mat der Hand. “Komm bei mech heem schlofen.”",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
@@ -2295,10 +2379,16 @@
   }],
     "gr": [{
       "title": "Φιλοξενία σε έναν φίλο",
-      "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
-      "fullAudio": "",
-      "fullText": "",
-      "pages": {
+      "titlePicture": "/learning-material/story-4/story-gr/Story 4_2 title_GR.jpg",
+      "fullAudio": "/learning-material/story-4/story-gr/story-4-greek-full.mp3",
+      "fullText": "/learning-material/story-4/story-gr/Story 4_GR.pdf",
+      "pages":
+      {
+        "0": {
+          "text": "Φιλοξενία σε έναν φίλο",
+          "imageUrl": "/learning-material/story-4/story-gr/Story 4_2 title_GR.jpg",
+          "audioUrl": "/learning-material/story-4/story-gr/story-4-greek-title.mp3"
+        },
         "1": {
           "text": "Στο τέλος μια μεγάλης ημέρας, ο Μπεν, ο Άλεξ και η Ολίβια αποφασίζουν να πάνε σπίτι. «Πού θα κοιμηθείς απόψε;», ρωτάει η Ολίβια τον Μπόμπα. Ο Μπόμπα την κοιτάζει με μεγάλα μάτια. Η Ολίβια παίρνει το χέρι του. «Έλα στο σπίτι μου.»",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
@@ -2343,10 +2433,15 @@
   }],
     "al": [{
       "title": "Fjetja te një shok",
-      "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
+      "titlePicture": "/learning-material/story-4/story-alb/Story 4_2 title_AL.jpg",
       "fullAudio": "/learning-material/story-4/story-alb/Bobba_AL_Story 4.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-4/story-alb/Story 4_AL.pdf",
       "pages": {
+        "0": {
+          "text": "Fjetja te një shok",
+          "imageUrl": "/learning-material/story-4/story-alb/Story 4_2 title_AL.jpg",
+          "audioUrl": "/learning-material/story-4/story-alb/Bobba_AL_Story 4 title.mp3"
+        },
         "1": {
           "text": "Në fund të një dite të gjatë, Beni, Aleksi dhe Olivia vendosin të shkojnë në shtëpi.“Ku do të flesh sonte?” – e pyet Olivia Bobbën.Bobba e shikon me sy të zmadhuar Olivia i kap dorën. \"Eja në shtëpi me mua.\"",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
@@ -2391,10 +2486,15 @@
   }],
     "ukr": [{
       "title": "Ночівля у друзів",
-      "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
-      "fullAudio": "",
-      "fullText": "",
+      "titlePicture": "/learning-material/story-4/story-ukr/Story 4_2 title_UKR.jpg",
+      "fullAudio": "/learning-material/story-4/story-ukr/story-4-ukrainian-full.mp3",
+      "fullText": "/learning-material/story-4/story-ukr/Story_4_UA.pdf",
       "pages": {
+        "0": {
+          "text": "Ночівля у друзів",
+          "imageUrl": "/learning-material/story-4/story-ukr/Story 4_2 title_UKR.jpg",
+          "audioUrl": "/learning-material/story-4/story-ukr/4-title.mp3"
+        },
         "1": {
           "text": "Наприкінці довгого дня Бен, Алекс та Олівія вирішують піти додому. \"Де ти будеш спати сьогодні?\", - запитує Олівія у Бобби. Бобба дивиться на неї широко розплющеними очима. Олівія бере його за руку. \"Ходімо зі мною додому\".",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
@@ -2436,7 +2536,7 @@
           "audioUrl": "/learning-material/story-4/story-ukr/Story 4_Ukrainian_4_8.MP3"
         }
       }
-  }]
+    }]
   },
   {
     "id": "5",

@@ -453,20 +453,38 @@ export function StoryPlayer({
                       <h3 className="text-sm font-medium mb-2">
                         <TranslateButtons translationKey="download" currentLanguage={websiteLanguage} />
                       </h3>
-                      
-                      {pages[currentPage]?.audioUrl && (
-                        <Button className="w-full mb-2" variant="outline" asChild>
-                          <a href={pages[currentPage].audioUrl} download>
-                            <Download className="mr-2" size={16}/>
-                            <TranslateButtons translationKey="audio" currentLanguage={websiteLanguage} />
-                          </a>
-                        </Button>
-                      )}
-                      
-                      <Button className="w-full mb-4" variant="outline">
-                        <Download className="mr-2" size={16}/>
-                        <TranslateButtons translationKey="text" currentLanguage={websiteLanguage} />
-                      </Button>
+                  
+                      {(() => {
+                        const languageData = selectedLanguage && storyInfo?.[selectedLanguage as keyof typeof storyInfo];
+                        const fullTextUrl = Array.isArray(languageData) && languageData.length > 0 ? 
+                          languageData[0].fullText : "";
+                        
+                        return fullTextUrl ? (
+                          <Button className="w-full mb-4" variant="outline" asChild>
+                            <a href={fullTextUrl} download>
+                              <Download className="mr-2" size={16}/>
+                              <TranslateButtons translationKey="text" currentLanguage={websiteLanguage} />
+                            </a>
+                          </Button>
+                        ) : null;
+                      })()}
+
+                      {/* Updated Audio Download Button (Full Story) */}
+                      {(() => {
+                        const languageData = selectedLanguage && storyInfo?.[selectedLanguage as keyof typeof storyInfo];
+                        const fullAudioUrl = Array.isArray(languageData) && languageData.length > 0 ? 
+                          languageData[0].fullAudio : "";
+                        
+                        return fullAudioUrl ? (
+                          <Button className="w-full mb-4" variant="outline" asChild>
+                            <a href={fullAudioUrl} download>
+                              <Download className="mr-2" size={16}/>
+                              <TranslateButtons translationKey="audio" currentLanguage={websiteLanguage} />
+                            </a>
+                          </Button>
+                        ) : null;
+                      })()}
+
                       <Button className="w-full mb-4" variant="outline">
                         <Download className="mr-2" size={16}/>
                         <TranslateButtons translationKey="picture" currentLanguage={websiteLanguage} />
