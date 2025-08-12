@@ -8,7 +8,8 @@ import { cn } from "@/lib/utils";
 const languageFlags: Record<string, string> = {
   en: "🇬🇧",  // UK flag for English
   de: "🇩🇪",  // German flag
-  gershort: "🇩🇪", // German short flag
+  // gershort: "🇩🇪", // German short flag
+  "sw-ger": "🇨🇭", // Swiss flag
   pt: "🇵🇹",  // Portuguese flag
   pl: "🇵🇱",  // Polish flag
   slo: "🇸🇮",  // Slovenian flag
@@ -20,7 +21,7 @@ const languageFlags: Record<string, string> = {
   al: "🇦🇱",  // Albanian flag
   ukr: "🇺🇦", // Ukrainian flag
   tur: "🇹🇷", // Turkish flag
-  ld: "🇱🇩", // Ladin flag 
+  ld: "🇮🇹", // Ladin flag 
 };
 
 export default function LanguageSelector() {

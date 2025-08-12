@@ -265,12 +265,20 @@ export function StoryPlayer({
     setCurrentPage(pageIndex);
     setIsPlaying(false);
     
-    // If autoplay is enabled and not Safari, start playing new page
+    // Reset audio to beginning when page changes
+    const audioElement = document.querySelector('audio');
+    if (audioElement) {
+      audioElement.pause();
+      audioElement.currentTime = 0;
+    }
+    
+    // If autoplay is enabled and not Safari, start playing new page after a delay
     if (audioAutoPlay && !isSafari) {
       // Small delay to ensure audio element is ready
       setTimeout(() => {
         const audioElement = document.querySelector('audio');
         if (audioElement) {
+          audioElement.currentTime = 0; // Ensure we start from beginning
           audioElement.play().catch(err => {
             console.error('Auto-play failed:', err);
           });
@@ -287,7 +295,8 @@ export function StoryPlayer({
     setIsFullscreen(open);
     
     if (!open) {
-      // Dialog is closing - reset audio and playing state
+      // Dialog is closing - reset everything to the beginning
+      setCurrentPage(0); // Reset to first page
       setIsPlaying(false);
       setAudioAutoPlay(false);
       
@@ -300,7 +309,7 @@ export function StoryPlayer({
     }
   };
 
-  // Update the useEffect for audio event listeners to also handle the reset
+  // Update the useEffect for audio event listeners to handle page resets
   useEffect(() => {
     const audioElement = document.querySelector('audio');
     audioRef.current = audioElement;
@@ -313,6 +322,9 @@ export function StoryPlayer({
         // Keep audioAutoPlay enabled when audio ends naturally
         // This allows autoplay to continue on next slide
       };
+      
+      // Reset audio to beginning when audio element changes
+      audioElement.currentTime = 0;
 
       audioElement.addEventListener('play', handlePlay);
       audioElement.addEventListener('pause', handlePause);
@@ -324,7 +336,7 @@ export function StoryPlayer({
         audioElement.removeEventListener('ended', handleEnded);
       };
     }
-  }, [selectedLanguage, currentPage]);
+  }, [selectedLanguage, currentPage, isFullscreen]); // Added isFullscreen to dependencies
 
   if (!storyInfo) {
     return <div className="p-4 text-center">Story not found</div>;
@@ -575,11 +587,17 @@ export function StoryPlayer({
                       {selectedLanguage && pages[currentPage]?.audioUrl && (
                         <audio 
                           autoPlay={audioAutoPlay && !isSafari}
-                          key={`audio-${selectedLanguage}-${currentPage}`}
+                          key={`audio-${selectedLanguage}-${currentPage}-${isFullscreen}`} // Added isFullscreen to key
                           className="w-full h-12"
                           preload="auto"
                           src={pages[currentPage].audioUrl}
-                          
+                          onLoadedData={() => {
+                            // Ensure audio starts from beginning when page changes
+                            const audioElement = document.querySelector('audio');
+                            if (audioElement) {
+                              audioElement.currentTime = 0;
+                            }
+                          }}
                         >
                           Your browser does not support the audio element.
                         </audio>
@@ -592,6 +610,8 @@ export function StoryPlayer({
                             const audioElement = document.querySelector('audio');
                             if (audioElement) {
                               if (audioElement.paused) {
+                                // Start from beginning of current page
+                                audioElement.currentTime = 0;
                                 audioElement.play().catch(err => {
                                   console.error('Audio playback failed:', err);
                                 });
@@ -600,7 +620,7 @@ export function StoryPlayer({
                                 setIsPlaying(true);
                               } else {
                                 audioElement.pause();
-                                // Disable autoplay when user clicks pause - use autoPlaySafariFix
+                                // Disable autoplay when user clicks pause
                                 autoPlaySafariFix(false);
                                 setIsPlaying(false);
                               }

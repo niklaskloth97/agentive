@@ -12,21 +12,21 @@ export default function HomeTestPage() {
       <div className="w-full overflow-hidden">
 
         {/* Hero Section */}            
-        <section className="relative w-full h-[70vh] md:h-[80vh] flex items-center justify-start isolate">
+        <section className="relative w-full h-[70vh] md:h-[80vh] flex items-start mt- justify-start isolate">
           <Image
             src="/back1-1.jpg"
             alt="Hero background"
             fill
             className="object-cover z-0"
           />
-          <div className="text-left px-4 md:px-16 text-white drop-shadow-lg relative z-10">
+          <div className="text-left mt-28 px-4 md:px-16 text-white drop-shadow-lg relative z-10">
             <h1 className="text-4xl md:text-5xl font-bold">
               <TranslateButtons 
                 translationKey="welcome-agentive" 
                 currentLanguage={websiteLanguage} 
               />
             </h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
               <p className="mt-4 text-xl">
                 <TranslateButtons 
                   translationKey="boosting-diversity" 

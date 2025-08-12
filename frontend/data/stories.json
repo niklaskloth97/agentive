@@ -17,42 +17,42 @@
         "1": {
           "text": "Bobba lives on a planet far away. Today he is very excited. He finally has his own spaceship and can now fly to wherever he wants!",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+          "audioUrl": "/learning-material/story-1/story-en/Story1_English_1.m4a"
         },
         "2": {
           "text": "His biggest dream is to fly to planet Earth.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+          "audioUrl": "/learning-material/story-1/story-en/Story1_English_2.m4a"
         },
         "3": {
           "text": "He jumps into the spaceship and lifts off. All his friends and family are surprised! \"Where is he going to?\", they wonder. Bobba is heading straight towards planet Earth.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+          "audioUrl": "/learning-material/story-1/story-en/Story1_English_3.m4a"
         },
         "4": {
           "text": "Bobba flies past a lot of planets and comets and he wonders when he will finally reach planet Earth.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_4.webp",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+          "audioUrl": "/learning-material/story-1/story-en/Story1_English_4.m4a"
         },
         "5": {
           "text": "Suddenly, he sees a blue ball and before he knows it, he shoots through the sky and with a loud bang lands in a pile of leaves and sticks!",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+          "audioUrl": "/learning-material/story-1/story-en/Story1_English_5.m4a"
         },
         "6": {
           "text": "He wriggles himself out of his spaceship and looks around. Two black eyes peering out from black feathers are looking at him. Bobba says: \"Saluton!\", but the feathery thing just looks at him and flies off. He scrambles down the tree and sees a red thing with black dots. \"Saluton!\" shouts Bobba, but the creature doesn't even see him.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_6.webp",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+          "audioUrl": "/learning-material/story-1/story-en/Story1_English_6.m4a"
         },
         "7": {
           "text": "A boy and a girl look at Bobba and giggle. \"Who are you talking to? They cannot talk!\" Bobba turns around \"Saluton! Ĉu vi estas infanoj?\", he asks. The children look at each other. \"Infanoj? Does he mean baby?\". \"No!\", they protest. \"We are not babies! We are children!\". \"Ahhhh!\", exclaims Bobba! \"Children! Infanoj! Children!\" This makes them laugh.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_7.webp",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+          "audioUrl": "/learning-material/story-1/story-en/Story1_English_7.m4a"
         },
         "8": {
           "text": "\"Do you want to see our playground?\" asks Olivia, the girl. Bobba smiles and Ben, the boy, takes him by the hand and together they take him to the playground.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+          "audioUrl": "/learning-material/story-1/story-en/Story1_English_8.m4a"
         }
       }
     }],
@@ -109,7 +109,7 @@
         }
       }
     }],
-    "gershort": [{
+    "sw-ger": [{
       "title": "Bobbas erste Reise zur Erde",
       "titlePicture": "/learning-material/story-1/story-de/Story 1_1.jpg",
       "fullAudio": "/learning-material/story-1/story-de short/Bobba_DE_Story_1_Gesamt.mp3",
@@ -171,7 +171,7 @@
          "0": {
           "text": "Premier voyage de Bobba vers la Terre",
           "imageUrl": "/learning-material/story-1/story-fr/Story 1_title_F.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Bobba_FR_Story 1 Intro-MP3.mp3"
+          "audioUrl": "/learning-material/story-1/story-fr/Bobba_FR_Story 1 Intro-MP3.mp3"
         },
         "1": {
           "text": "Bobba habite sur une planète très loin d’ici. Aujourd’hui, il est très excité. Il a enfin son propre vaisseau spatial! Il peut voler où il le veut! ",
@@ -939,54 +939,6 @@
           "text": "",
           "imageUrl": "",
           "audioUrl": "/learning-material/story-2/story-fr/Bobba_FR_Story 2_8-MP3.mp3"
-        }
-      }
-    }],
-    "es": [{
-      "title": "",
-      "titlePicture": "",
-      "fullAudio": "",
-      "fullText": "",
-      "pages": {
-        "1": {
-          "text": "",
-          "imageUrl": "",
-          "audioUrl": ""
-        },
-        "2": {
-          "text": "",
-          "imageUrl": "",
-          "audioUrl": ""
-        },
-        "3": {
-          "text": "",
-          "imageUrl": "",
-          "audioUrl": ""
-        },
-        "4": {
-          "text": "",
-          "imageUrl": "",
-          "audioUrl": ""
-        },
-        "5": {
-          "text": "",
-          "imageUrl": "",
-          "audioUrl": ""
-        },
-        "6": {
-          "text": "",
-          "imageUrl": "",
-          "audioUrl": ""
-        },
-        "7": {
-          "text": "",
-          "imageUrl": "",
-          "audioUrl": ""
-        },
-        "8": {
-          "text": "",
-          "imageUrl": "",
-          "audioUrl": ""
         }
       }
     }],
