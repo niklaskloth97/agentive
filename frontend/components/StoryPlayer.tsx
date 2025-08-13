@@ -144,6 +144,121 @@ function DialogicGuideSelector({ websiteLanguage }: { websiteLanguage: string })
   );
 }
 
+// New component for story guide selection
+function StoryGuideSelector({ storyId, websiteLanguage }: { storyId: string; websiteLanguage: string }) {
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedGuideLanguage, setSelectedGuideLanguage] = useState<string>("");
+
+  // Get available languages for story reading guide
+  const availableLanguages: string[] = [];
+  const languageLabels: Record<string, string> = {};
+
+  // Check which languages have story reading guides available
+  ['en', 'de', 'fr', 'sv'].forEach(lang => {
+    if (hasStoryReadingGuide(storyId, lang as "en" | "de" | "fr" | "sv")) {
+      availableLanguages.push(lang);
+      languageLabels[lang] = lang === 'en' ? 'EN' : 
+                            lang === 'de' ? 'DE' : 
+                            lang === 'fr' ? 'FR' : 
+                            lang === 'sv' ? 'SV' : 
+                            lang.toUpperCase();
+    }
+  });
+
+  // Create available languages object for LanguageSelector
+  const guideLanguageOptions = Object.fromEntries(
+    availableLanguages.map(langId => [
+      langId, 
+      { label: languageLabels[langId] }
+    ])
+  );
+
+  const handleLanguageChange = (languageId: string) => {
+    setSelectedGuideLanguage(languageId);
+  };
+
+  const handleDownload = () => {
+    if (!selectedGuideLanguage) return;
+
+    const guide = getStoryReadingGuide(storyId, selectedGuideLanguage as "en" | "de" | "fr" | "sv");
+    
+    if (guide?.url) {
+      // Create download link
+      const link = document.createElement('a');
+      link.href = guide.url;
+      link.download = `Story ${storyId} Reading Guide (${languageLabels[selectedGuideLanguage] || selectedGuideLanguage}).pdf`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      // Close dialog after download
+      setIsOpen(false);
+      setSelectedGuideLanguage("");
+    }
+  };
+
+  if (availableLanguages.length === 0) {
+    return null; // Don't render if no guides available
+  }
+
+  return (
+    <Dialog open={isOpen} onOpenChange={setIsOpen}>
+      <DialogTrigger asChild>
+        <Button className="w-full mb-4" variant="outline">
+          <Download className="mr-2" size={16}/>
+          <TranslateButtons translationKey="story-guide" currentLanguage={websiteLanguage} />
+        </Button>
+      </DialogTrigger>
+      <DialogContent className="sm:max-w-[425px]">
+        <DialogHeader>
+          <DialogTitle>
+            <TranslateButtons translationKey="select-guide-language" currentLanguage={websiteLanguage} />
+          </DialogTitle>
+        </DialogHeader>
+        <div className="py-4">
+          <div className="space-y-4">
+            <div>
+              <label className="text-sm font-medium mb-2 block">
+                <TranslateButtons translationKey="available-languages" currentLanguage={websiteLanguage} />
+              </label>
+              
+              {/* Use LanguageProvider and LanguageSelector */}
+              <LanguageProvider 
+                defaultLanguage=""
+                availableLanguages={guideLanguageOptions}
+                onLanguageChange={handleLanguageChange}
+              >
+                <LanguageSelector />
+              </LanguageProvider>
+            </div>
+            
+            {selectedGuideLanguage && (
+              <div className="flex gap-2 pt-4">
+                <Button 
+                  onClick={handleDownload}
+                  className="flex-1"
+                >
+                  <Download className="mr-2" size={16}/>
+                  <TranslateButtons translationKey="download" currentLanguage={websiteLanguage} />
+                </Button>
+                <Button 
+                  variant="outline" 
+                  onClick={() => {
+                    setIsOpen(false);
+                    setSelectedGuideLanguage("");
+                  }}
+                >
+                  <TranslateButtons translationKey="cancel" currentLanguage={websiteLanguage} />
+                </Button>
+              </div>
+            )}
+          </div>
+        </div>
+      </DialogContent>
+    </Dialog>
+  );
+}
+
 export function StoryPlayer({ 
   storyId, 
   showAudioControls = true,
@@ -384,40 +499,10 @@ export function StoryPlayer({
     return languageMap[websiteLanguage] || 'en';
   };
 
-  // Function to handle story reading guide download
-  const handleStoryGuideDownload = () => {
-    const guideLanguage = getGuideLanguage(websiteLanguage);
-    const guide = getStoryReadingGuide(storyId, guideLanguage);
-    
-    if (!guide) {
-      console.warn(`No story reading guide found for story ${storyId} in language ${guideLanguage}`);
-      // Try fallback to English if not already English
-      if (guideLanguage !== 'en') {
-        const englishGuide = getStoryReadingGuide(storyId, 'en');
-        if (englishGuide) {
-          downloadFile(englishGuide.url, `Story ${storyId} Reading Guide (EN).pdf`);
-          return;
-        }
-      }
-      return;
-    }
-    
-    downloadFile(guide.url, `Story ${storyId} Reading Guide.pdf`);
-  };
-
-  // Helper function to download files
-  const downloadFile = (url: string, filename: string) => {
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = filename;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
   // Check if guides are available for current language
-  const hasStoryGuide = hasStoryReadingGuide(storyId, getGuideLanguage(websiteLanguage)) || 
-                       hasStoryReadingGuide(storyId, 'en'); // Fallback check
+  const hasStoryGuide = ['en', 'de', 'fr', 'sv'].some(lang => 
+    hasStoryReadingGuide(storyId, lang as "en" | "de" | "fr" | "sv")
+  );
   
   // Check if dialogic guide is available (at least one language)
   const hasDialogicGuide = !!(GUIDES.dialogic && 
@@ -495,17 +580,11 @@ export function StoryPlayer({
                         <DialogicGuideSelector websiteLanguage={websiteLanguage} />
                       )}
                       
-                      {/* Story Reading Guide Button */}
+                      {/* Story Reading Guide Button with Language Selector */}
                       {hasStoryGuide && (
-                        <Button 
-                          className="w-full mb-4" 
-                          variant="outline"
-                          onClick={handleStoryGuideDownload}
-                        >
-                          <Download className="mr-2" size={16}/>
-                          <TranslateButtons translationKey="story-guide" currentLanguage={websiteLanguage} />
-                        </Button>
+                        <StoryGuideSelector storyId={storyId} websiteLanguage={websiteLanguage} />
                       )}
+
                     </div>
 
                     <Button 

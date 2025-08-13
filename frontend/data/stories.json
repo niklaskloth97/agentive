@@ -6,7 +6,7 @@
     "en": [{
       "title": "Bobba's first trip to Earth",
       "titlePicture": "/learning-material/story-1/story-en/Story1_title_E.webp",
-      "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
+      "fullAudio": "",
       "fullText": "/learning-material/story-1/story-en/Story 1_E.pdf",
       "pages": {
          "0": {
@@ -56,7 +56,7 @@
         }
       }
     }],
-    "de": [{
+    "sw-ger": [{
       "title": "Bobbas erste Reise zur Erde",
       "titlePicture": "/learning-material/story-1/story-de/Story 1_title_G.jpg",
       "fullAudio": "/learning-material/story-1/story-de/bobba_1_D_ALL.mp3",
@@ -109,9 +109,9 @@
         }
       }
     }],
-    "sw-ger": [{
+    "de": [{
       "title": "Bobbas erste Reise zur Erde",
-      "titlePicture": "/learning-material/story-1/story-de/Story 1_1.jpg",
+      "titlePicture": "/learning-material/story-1/story-de/Story 1_title_G.jpg",
       "fullAudio": "/learning-material/story-1/story-de short/Bobba_DE_Story_1_Gesamt.mp3",
       "fullText": "/learning-material/story-1/story-de short/Story 1_G_short.pdf",
       "pages": {
@@ -164,7 +164,7 @@
     }],
     "fr": [{
       "title": "Premier voyage de Bobba vers la Terre",
-      "titlePicture": "/learning-material/story-1/story-en/Story 1_title_F.jpg",
+      "titlePicture": "/learning-material/story-1/story-fr/Story 1_title_F.jpg",
       "fullAudio": "/learning-material/story-1/story-fr/Bobba_FR_Story 1-MP3.mp3",
       "fullText": "/learning-material/story-1/story-fr/Story 1_F.pdf",
       "pages": {
@@ -330,7 +330,7 @@
         "0": {
           "text": "Dem Bobba seng éischt Rees op d‘Äerd",
           "imageUrl": "/learning-material/story-1/story-lux/Story 1_title_L.jpg", 
-          "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1 Intrdo-MP3.mp3"
+          "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1 Intro-MP3.mp3"
         },
         "1": {
           "text": "De Bobba wunnt op engem Planéit ganz wäit ewech vun onser Äerd. Haut ass hie ganz opgereegt. Hie krut endlech säin eegent Raumschëff! Elo kann hie fléien, wuer hie wëllt!",
@@ -378,7 +378,7 @@
       "title": "Το πρώτο ταξίδι του Μπόμπα στη Γη",
       "titlePicture": "/learning-material/story-1/story-gr/Story 1_title_Gr.jpg",
       "fullAudio": "/learning-material/story-1/story-gr/story-1-greek-full.mp3",
-      "fullText": "/learning-material/story-1/story-gr/Story 1_GR.pdf",
+      "fullText": "/learning-material/story-1/story-gr/Story_1_GR.pdf",
       "pages": {
         "0": {
           "text": "Το πρώτο ταξίδι του Μπόμπα στη Γη",
@@ -488,7 +488,7 @@
       "pages": {
         "0": {
           "text": "Udhëtimi i parë i Bobbas në Tokë",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_title_AL.jpg",
+          "imageUrl": "/learning-material/story-1/story-alb/Story 1_title_AL.jpg",
           "audioUrl": "/learning-material/story-1/story-alb/Bobba_AL_Story 1_Intro.mp3"
         },
         "1": {
@@ -535,7 +535,7 @@
     }],
     "ld": [{
       "title": "L prim viac de Bobba sun la Tiera",
-      "titlePicture": "/learning-material/story-1/story-alb/Story 1_title_AL.jpg", 
+      "titlePicture": "/learning-material/story-1/story-ld/Story 1_title_AL.jpg", 
       "fullAudio": "/learning-material/story-1/story-ladin/Bobba__LADIN_Story 1-MP3.mp3",
       "fullText": "/learning-material/story-1/story-ladin/Story 1_L.pdf",
       "pages": {
