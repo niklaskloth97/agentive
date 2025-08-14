@@ -270,7 +270,7 @@ const translations: Record<string, Record<string, string>> = {
     'Lux': 'Interkulturellt Bewosstsinn a Verständnis',
     'Slovenian': 'Medkulturno zavedanje in razumevanje',
     'Italian': 'Consapevolezza e Comprensione Interculturale',
-    'German': 'Interkulturelle Bewusstsein und Verständnis',
+    'German': 'Interkulturelles Bewusstsein und Verständnis',
     'Greek': 'Διαπολιτισμική συνειδητοποίηση και κατανόηση'
   },
   'language-awareness': {

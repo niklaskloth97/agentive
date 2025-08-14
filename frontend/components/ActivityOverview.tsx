@@ -11,6 +11,7 @@ import LanguageSelector from "@/components/LanguageSelector";
 import { TranslateButtons } from '@/components/translateButtons';
 import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext';
 import { GUIDES } from "@/data";
+import storiesData from '@/data/stories.json';
 import {
     ACTIVITY_GROUPS,
     ACTIVITY_GROUPS_META,
@@ -182,13 +183,33 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
 
     const groupMeta = ACTIVITY_GROUPS_META[groupKey as ActivityGroupKey];
 
+    // Helper function to get translated story title
+    const getStoryTitle = (storyId: string) => {
+        const story = storiesData.find(s => s.id === storyId);
+        if (!story) return `Story ${storyId}`;
+        
+        // Get the story data for the website language
+        const languageData = story[websiteLanguage as keyof typeof story];
+        if (Array.isArray(languageData) && languageData.length > 0) {
+            return languageData[0].title;
+        }
+        
+        // Fallback to English if website language not available
+        const englishData = story.en;
+        if (Array.isArray(englishData) && englishData.length > 0) {
+            return englishData[0].title;
+        }
+        
+        return `Story ${storyId}`;
+    };
+
     // Get all activities across all stories and sets
     const allActivities = stories.flatMap((story) =>
         story.sets.flatMap((set, setIndex) =>
             set.map((activity) => ({
                 ...activity,
                 storyId: story.id,
-                storyTitle: story.title,
+                storyTitle: getStoryTitle(story.id), // Use translated title
                 setIndex,
             }))
         )
@@ -215,10 +236,8 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
             // Use selectedLanguage for activity downloads
             const languageData = activity.languages[selectedLanguage as keyof typeof activity.languages];
             if (languageData?.pdfUrl) {
-                // Use websiteLanguage for story title
-                const storyTitle = typeof activity.storyTitle === 'object' 
-                    ? activity.storyTitle[websiteLanguage]  || activity.storyTitle
-                    : activity.storyTitle;
+                // activity.storyTitle is now already translated
+                const storyTitle = activity.storyTitle;
                 
                 const filename = `${storyTitle}_${languageData.title}.pdf`;
                 console.log(`Downloading: ${filename}`);
@@ -343,7 +362,7 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                                                         className="p-4 font-medium border-r bg-gray-50/50 align-top"
                                                         rowSpan={story.sets.length}
                                                     >
-                                                            {story.title} 
+                                                        {getStoryTitle(story.id)}
                                                     </td>
                                                 )}
 
