@@ -2315,14 +2315,8 @@
         }
       }
     }],
-<<<<<<< HEAD
-    "pt": [{
-      "title": "Dormir em casa de um amigo",
-      "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
-=======
     "pt": [{"title": "Dormir em casa de um amigo",
       "titlePicture": "/learning-material/story-4/story-pt/Story 4_2 title_P.jpg",
->>>>>>> 5c1555d7cfb2d3450b61e2cdfbc503558e571a2f
       "fullAudio": "/learning-material/story-4/story-pt/4_complete version.m4a",
       "fullText": "/learning-material/story-4/story-pt/Story 4_P.pdf",
       "pages": {
