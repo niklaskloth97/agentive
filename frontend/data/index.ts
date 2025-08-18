@@ -158,7 +158,7 @@ export const ACTIVITY_GROUPS: Record<
 							},
 							fr: {
 								label: "French",
-								title: "MA PARTIE PRÉFÉRÉE DE L'HISTOIRE",
+								title: "Ma partie préférée de l’histoire",
 								pdfUrl: "/activities/story1/PC/Story_1_PL_1_F.pdf",
 							}
 						},
@@ -177,7 +177,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
 							pdfUrl: "/activities/story1/PC/Story_1_PL_2_F.pdf",
-							title: "COMPRENDRE LES DÉTAILS",
+							title: "Comprendre les détails",
 						}
 						},
 					},
@@ -194,7 +194,7 @@ export const ACTIVITY_GROUPS: Record<
 						fr: {
 							label: "French",
 							pdfUrl: "/activities/story1/PC/Story_1_PL_3_F.pdf",
-							title: "RACONTER L'HISTOIRE À NOUVEAU",
+							title: "Raconter l’histoire à nouveau",
 						}
 						},
 					}
@@ -215,12 +215,12 @@ export const ACTIVITY_GROUPS: Record<
 								label: "English",
 								title: "Dialogic reading",
 								audioUrl: "/audio/test-en.opus", // Use your test audio
-								pdfUrl: "/activities/story1/PC/Story_2_PL_1_E.pdf",
+								pdfUrl: "/activities/story2/PC/Story_2_PL_1_E.pdf",
 							},
 							fr: {
 								label: "French",
-								title: "LECTURE DIALOGIQUE",
-								pdfUrl: "/activities/story1/PC/Story_2_PL_1_F.pdf",
+								title: "Lecture dialogique",
+								pdfUrl: "/activities/story2/PC/Story_2_PL_1_F.pdf",
 							}
 						},
 					},
@@ -231,14 +231,14 @@ export const ACTIVITY_GROUPS: Record<
 						en: {
 							label: "English",
 							audioUrl: "/audio/test-en.opus",
-							pdfUrl: "/activities/story1/PC/Story_2_PL_1_E.pdf",
+							pdfUrl: "/activities/story2/PC/Story_2_PL_1_E.pdf",
 							title: "Plurilingual theater",
 						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story1/PC/Story_2_PL_2_F.pdf",
-							title: "THÉÂTRE PLURILINGUE",
+							pdfUrl: "/activities/story2/PC/Story_2_PL_2_F.pdf",
+							title: "Théâtre plurilingue",
 						}
 						},
 					},
@@ -249,13 +249,13 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 						en: {
 							label: "English",
-							pdfUrl: "/activities/story1/PC/Story_2_PL_3_E.pdf",
+							pdfUrl: "/activities/story2/PC/Story_2_PL_3_E.pdf",
 							title: "Counting and hide and seek",
 						},
 						fr: {
 							label: "French",
-							pdfUrl: "/activities/story1/PC/Story_2_PL_3_F.pdf",
-							title: "COMPTER et JOUER À CACHE-CACHE",
+							pdfUrl: "/activities/story2/PC/Story_2_PL_3_F.pdf",
+							title: "Compter et jouer à cache-cache",
 						}
 						},
 					}
@@ -276,12 +276,12 @@ export const ACTIVITY_GROUPS: Record<
 								label: "English",
 								title: "Dialogic reading",
 								audioUrl: "/audio/test-en.opus", // Use your test audio
-								pdfUrl: "/activities/story1/PC/Story_3_PL_1_E.pdf",
+								pdfUrl: "/activities/story3/PC/Story_3_PL_1_E.pdf",
 							},
 							fr: {
 								label: "French",
-								title: " LECTURE DIALOGIQUE",
-								pdfUrl: "/activities/story1/PC/Story_3_PL_1_F.pdf",
+								title: "Lecture dialogique",
+								pdfUrl: "/activities/story3/PC/Story_3_PL_1_F.pdf",
 							}
 						},
 					},
@@ -292,14 +292,14 @@ export const ACTIVITY_GROUPS: Record<
 						en: {
 							label: "English",
 							audioUrl: "/audio/test-en.opus",
-							pdfUrl: "/activities/story1/PC/Story_3_PL_1_E.pdf",
+							pdfUrl: "/activities/story3/PC/Story_3_PL_1_E.pdf",
 							title: "Action story",
 						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story1/PC/Story_3_PL_2_F.pdf",
-							title: "HISTOIRE À MIMER",
+							pdfUrl: "/activities/story3/PC/Story_3_PL_2_F.pdf",
+							title: "Histoire à mimer",
 						}
 						},
 					},
@@ -310,13 +310,13 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 						en: {
 							label: "English",
-							pdfUrl: "/activities/story1/PC/Story_3_PL_3_E.pdf",
+							pdfUrl: "/activities/story3/PC/Story_3_PL_3_E.pdf",
 							title: "Feelings",
 						},
 						fr: {
 							label: "French",
-							pdfUrl: "/activities/story1/PC/Story_3_PL_3_F.pdf",
-							title: "MISSING",
+							pdfUrl: "/activities/story3/PC/Story_3_PL_3_F.pdf",
+							title: "Les émotions",
 						}
 						},
 					},
@@ -327,12 +327,12 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 						en: {
 							label: "English",
-							pdfUrl: "/activities/story1/PC/Story_3_PL_4_E.pdf",
+							pdfUrl: "/activities/story3/PC/Story_3_PL_4_E.pdf",
 							title: "What can we see in the sea?",
 						},
 						fr: {
 							label: "French",
-							pdfUrl: "/activities/story1/PC/Story_3_PL_4_F.pdf",
+							pdfUrl: "/activities/story3/PC/Story_3_PL_4_F.pdf",
 							title: "QU'EST-CE QU'IL Y A DANS LA MER ?",
 						}
 						},
@@ -353,12 +353,12 @@ export const ACTIVITY_GROUPS: Record<
 							en: {
 								label: "English",
 								title: "Understand and create stories",
-								pdfUrl: "/activities/story1/PC/Story_4_PL_1_E.pdf",
+								pdfUrl: "/activities/story4/PC/Story_4_PL_1_E.pdf",
 							},
 							fr: {
 								label: "French",
-								title: "COMPRENDRE ET CRÉER DES HISTOIRES",
-								pdfUrl: "/activities/story1/PC/Story_4_PL_1_F.pdf",
+								title: "Comprendre et créer des histoires",
+								pdfUrl: "/activities/story4/PC/Story_4_PL_1_F.pdf",
 							}
 						},
 					},
@@ -369,14 +369,14 @@ export const ACTIVITY_GROUPS: Record<
 						en: {
 							label: "English",
 							audioUrl: "/audio/test-en.opus",
-							pdfUrl: "/activities/story1/PC/Story_4_PL_1_E.pdf",
+							pdfUrl: "/activities/story4/PC/Story_4_PL_1_E.pdf",
 							title: "Bon appetit",
 						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story1/PC/Story_4_PL_2_F.pdf",
-							title: "BON APPÉTIT",
+							pdfUrl: "/activities/story4/PC/Story_4_PL_2_F.pdf",
+							title: "Bon appétit",
 						}
 						},
 					},
@@ -387,19 +387,224 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 						en: {
 							label: "English",
-							pdfUrl: "/activities/story1/PC/Story_4_PL_3_E.pdf",
+							pdfUrl: "/activities/story4/PC/Story_4_PL_3_E.pdf",
 							title: "Move and speak along",
 						},
 						fr: {
 							label: "French",
-							pdfUrl: "/activities/story1/PC/Story_4_PL_3_F.pdf",
-							title: "MIME ET RÉPÈTE APRÈS MOI",
+							pdfUrl: "/activities/story4/PC/Story_4_PL_3_F.pdf",
+							title: "Mime et répète après moi",
 						}
 						},
 					}
 					]
 				],
-				}			
+				}, 
+				{
+				id: "5", // Match the ID from stories.json
+				title: "Bobba in the library", // Match title from stories.json
+				slug: "", // URL-friendly slug
+				description: "",
+				sets: [
+					[
+					{
+						id: "activity-5-1",
+						languages: {
+							de: {
+								label: "German",
+								title: "BIBLIOTHEKEN IN VERSCHIEDENEN SPRACHEN",
+								pdfUrl: "/activities/story5/PC/Story 5_PL_G/Story5_PL_1_G.pdf",
+							},
+							fr: {
+								label: "French",
+								title: "Tour du monde des bibliothèques",
+								pdfUrl: "/activities/story5/PC/Story 5_PL_F/Story5_PL_1_F.pdf",
+							}
+						},
+					},
+					{
+						id: "activity-5-2",
+						description: "",
+						languages: {
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus",
+							pdfUrl: "/activities/story5/PC/Story 5_PL_G/Story5_PL_2_G.pdf",
+							title: "TELEFONSPIEL",
+						},
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-fr.opus",
+							pdfUrl: "/activities/story5/PC/Story 5_PL_F/Story5_PL_2_F.pdf",
+							title: "Le jeu du téléphone sans fil",
+						}
+						},
+					},
+					{
+						id: "activity-5-3",
+						type: "worksheet",
+						description: "",
+						languages: {
+						de: {
+							label: "German",
+							pdfUrl: "/activities/story5/PC/Story 5_PL_G/Story5_PL_3_G.pdf",
+							title: "RATESPIEL",
+						},
+						fr: {
+							label: "French",
+							pdfUrl: "/activities/story5/PC/Story 5_PL_F/Story5_PL_3_F.pdf",
+							title: "Les devinettes",
+						}
+						},
+					}
+					]
+				],
+				},{
+				id: "6", // Match the ID from stories.json
+				title: "The Monster castle", // Match title from stories.json
+				slug: "", // URL-friendly slug
+				description: "",
+				sets: [
+					[
+					{
+						id: "activity-6-1",
+						languages: {
+							fr: {
+								label: "French",
+								title: "Laurentia. Liebe Laurentia mein",
+								pdfUrl: "/activities/story6/PC/Story 6_PL_1_F.pdf",
+							}
+						},
+					},
+					{
+						id: "activity-6-2",
+						description: "",
+						languages: {
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-fr.opus",
+							pdfUrl: "/activities/story6/PC/Story 6_PL_2_F.pdf",
+							title: "Dialogues plurilingues de monstres",
+						}
+						},
+					},
+					{
+						id: "activity-6-3",
+						type: "worksheet",
+						description: "",
+						languages: {
+						fr: {
+							label: "French",
+							pdfUrl: "/activities/story6/PC/Story 6_PL_3_F.pdf",
+							title: "Les devinettes",
+						}
+						},
+					}
+					]
+				],
+				},{
+				id: "7", // Match the ID from stories.json
+				title: "Celebrating Olivia's birthday", // Match title from stories.json
+				slug: "", // URL-friendly slug
+				description: "",
+				sets: [
+					[
+					{
+						id: "activity-7-1",
+						languages: {
+							en: {
+								label: "English",
+								title: "YOUR LAST BIRTHDAY",
+								pdfUrl: "/activities/story7/PC/Story7_PL_1_E.pdf",
+							},
+							fr: {
+								label: "French",
+								title: "Ton dernier anniversaire",
+								pdfUrl: "/activities/story7/PC/Story7_PL_1_F.pdf",
+							}
+						},
+					},
+					{
+						id: "activity-7-2",
+						description: "",
+						languages: {
+						en: {
+							label: "English",
+							audioUrl: "/audio/test-de.opus",
+							pdfUrl: "/activities/story7/PC/Story7_PL_2_E.pdf",
+							title: "BIRTHDAY WISHES",
+						},
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-fr.opus",
+							pdfUrl: "/activities/story7/PC/Story7_PL_2_F.pdf",
+							title: "Vœux d’anniversaire",
+						}
+						},
+					},
+					{
+						id: "activity-7-3",
+						type: "worksheet",
+						description: "",
+						languages: {
+						en: {
+							label: "English",
+							pdfUrl: "/activities/story7/PC/Story7_PL_3_E.pdf",
+							title: "THE INTRUDER",
+						},
+						fr: {
+							label: "French",
+							pdfUrl: "/activities/story7/PC/Story7_PL_3_F.pdf",
+							title: "L’intrus",
+						}
+						},
+					}
+					]
+				],
+				},{
+				id: "8", // Match the ID from stories.json
+				title: "Going home", // Match title from stories.json
+				slug: "", // URL-friendly slug
+				description: "",
+				sets: [
+					[
+					{
+						id: "activity-8-1",
+						languages: {
+							fr: {
+								label: "French",
+								title: "Fêtons le départ de Bobba",
+								pdfUrl: "/activities/story8/PC/Story 8_PL_1_F.pdf",
+							}
+						},
+					},
+					{
+						id: "activity-8-2",
+						description: "",
+						languages: {
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-fr.opus",
+							pdfUrl: "/activities/story8/PC/Story 8_PL_2_F.pdf",
+							title: "L’album de Bobba",
+						}
+						},
+					},
+					{
+						id: "activity-8-3",
+						type: "worksheet",
+						description: "",
+						languages: {
+						fr: {
+							label: "French",
+							pdfUrl: "/activities/story8/PC/Story 8_PL_3_F.pdf",
+							title: "Ton mot préféré",
+						}
+						},
+					}
+					]
+				],
+				}				
 		],
 	},
 	ELS: {
@@ -418,14 +623,14 @@ export const ACTIVITY_GROUPS: Record<
 						en: {
 							label: "English",
 							audioUrl: "/audio/test-en.opus", // Use your test audio
-							pdfUrl: "/activities/story1/PC/Story_1_ELS_1_E.pdf",
+							pdfUrl: "/activities/story1/ELS/Story_1_ELS_1_E.pdf",
 							title: "Writing Bobba",
 						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story1/PC/Story_1_ELS_1_F.pdf",
-							title: "ÉCRIRE LE MOT BOBBA",
+							pdfUrl: "/activities/story1/ELS/Story_1_ELS_1_F.pdf",
+							title: "Écrire le mot Bobba",
 						},
 						de: {
 								label: "German",
@@ -442,14 +647,14 @@ export const ACTIVITY_GROUPS: Record<
 						en: {
 							label: "English",
 							audioUrl: "/audio/test-en.opus",
-							pdfUrl: "/activities/story1/PC/Story_1_ELS_2_E.pdf",
+							pdfUrl: "/activities/story1/ELS/Story_1_ELS_2_E.pdf",
 							title: "Creating symobls",
 						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story1/PC/Story_1_ELS_2_F.pdf",
-							title: "CRÉER DES SYMBOLES",
+							pdfUrl: "/activities/story1/ELS/Story_1_ELS_2_F.pdf",
+							title: "Créer des symboles",
 						},
 						de: {
 								label: "German",
@@ -465,13 +670,13 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 						en: {
 							label: "English",
-							pdfUrl: "/activities/story1/PC/Story_1_ELS_3_E.pdf",
+							pdfUrl: "/activities/story1/ELS/Story_1_ELS_3_E.pdf",
 							title: "Symbols and names",
 						},
 						fr: {
 							label: "French",
-							pdfUrl: "/activities/story1/PC/Story_1_ELS_3_F.pdf",
-							title: "SYMBOLES ET NOMS",
+							pdfUrl: "/activities/story1/ELS/Story_1_ELS_3_F.pdf",
+							title: "Symboles et noms",
 						},
 						de: {
 								label: "German",
@@ -500,8 +705,8 @@ export const ACTIVITY_GROUPS: Record<
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story1/PC/Story_2_ELS_1_F.pdf",
-							title: "CHASSE AU TRÉSOR PAR ÉCRIT",
+							pdfUrl: "/activities/story2/ELS/Story_2_ELS_1_F.pdf",
+							title: "Chasse au trésor par écrit",
 						}
 					}, 
 				},//ich glaube hier fehlt eine Klammer zu }, bin mir aber nicht sicher (Mara)
@@ -512,8 +717,8 @@ export const ACTIVITY_GROUPS: Record<
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story1/PC/Story_2_ELS_2_F.pdf",
-							title: "TÂCHES PENDANT LA CHASSE AU TRÉSOR ET DÉCODAGE D'UN MESSAGE CACHÉ",
+							pdfUrl: "/activities/story2/ELS/Story_2_ELS_2_F.pdf",
+							title: "Tâches pendant la chasse au trésor et décodage",
 						}
 						},
 					},
@@ -523,8 +728,8 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 						fr: {
 							label: "French",
-							pdfUrl: "/activities/story1/PC/Story_3_ELS_3_F.pdf",
-							title: "CHASSE AU TRÉSOR À LA MAISON",
+							pdfUrl: "/activities/story2/ELS/Story_2_ELS_3_F.pdf",
+							title: "Chasse au trésor à la maison",
 						}
 						},
 					}
@@ -547,8 +752,8 @@ export const ACTIVITY_GROUPS: Record<
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story1/PC/Story_3_ELS_1_F-1.pdf",
-							title: "ÉCRIRE DANS LE SABLE À L'INTÉRIEUR",
+							pdfUrl: "/activities/story3/ELS/Story 3_ELS_1_F-1.pdf",
+							title: "Écrire dans le sable à l’intérieur",
 						}
 					}, 
 				},//ich glaube hier fehlt eine Klammer zu }, bin mir aber nicht sicher (Mara)
@@ -559,8 +764,8 @@ export const ACTIVITY_GROUPS: Record<
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story1/PC/Story_3_ELS_2_F.pdf",
-							title: "ÉCRIRE DANS LE SABLE À L'EXTÉRIEUR",
+							pdfUrl: "/activities/story3/ELS/Story 3_ELS_2_F.pdf",
+							title: "Écrire dans le sable à l’extérieur",
 						}
 						},
 					},
@@ -570,8 +775,8 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 						fr: {
 							label: "French",
-							pdfUrl: "/activities/story1/PC/Story_3_ELS_3_F.pdf",
-							title: "DES MOTS COMME DÉCORATIONS",
+							pdfUrl: "/activities/story3/ELS/Story 3_ELS_3_F.pdf",
+							title: "Des mots comme décorations",
 						}
 						},
 					}
@@ -594,8 +799,8 @@ export const ACTIVITY_GROUPS: Record<
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story1/PC/Story_4_ELS_1_F.pdf",
-							title: "SOIRÉE",
+							pdfUrl: "/activities/story4/ELS/Story 4_ELS_1_F.pdf",
+							title: "Soirée pyjama",
 						}
 					}, 
 				 }, //ich glaube hier fehlt eine Klammer zu, bin mir aber nicht sicher (Mara)
@@ -606,8 +811,8 @@ export const ACTIVITY_GROUPS: Record<
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story1/PC/Story_4_ELS_2_F.pdf",
-							title: "VITÉ 2 : LUMIÈRE SUR LES LETTRES",
+							pdfUrl: "/activities/story4/ELS/Story 4_ELS_2_F.pdf",
+							title: "Lumière sur les lettres",
 						}
 						},
 					},
@@ -617,8 +822,8 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 						fr: {
 							label: "French",
-							pdfUrl: "/activities/story1/PC/Story_4_ELS_3_F.pdf",
-							title: "VOS HISTOIRES DU SOIR PRÉFÉRÉES",
+							pdfUrl: "/activities/story4/ELS/Story 4_ELS_3_F.pdf",
+							title: "Vos histoires du soir préférées",
 						}
 						},
 					}
@@ -626,7 +831,213 @@ export const ACTIVITY_GROUPS: Record<
 					// Second set with different activities
 					
 				],
-				}	
+				},
+				{
+				id: "5", // Match the ID from stories.json
+				title: "Bobba in the library", // Match title from stories.json
+				slug: "", // URL-friendly slug
+				description: "",
+				sets: [
+					[
+					{
+						id: "activity-5-1",
+						description: "",
+						languages: {
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story5/ELS/Story 5_ELS_F/Story 5_ELS_1_F.pdf",
+							title: "Écrire avec différents matériaux",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_1_G.pdf",
+							title: "SCHREIBEN MIT VERSCHIEDENEN MATERIALIEN",
+						}
+					}, 
+				 }, //ich glaube hier fehlt eine Klammer zu, bin mir aber nicht sicher (Mara)
+					{
+						id: "activity-5-2",
+						description: "",
+						languages: {
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus",
+							pdfUrl: "/activities/story5/ELS/Story 5_ELS_F/Story 5_ELS_2_F.pdf",
+							title: "L’organisation d’une bibliothèque",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_2_G.pdf",
+							title: "AUFBAU EINER BIBLIOTHEK",
+						}
+						},
+					},
+					{
+						id: "activity-5-3",
+						description: "",
+						languages: {
+						fr: {
+							label: "French",
+							pdfUrl: "/activities/story5/ELS/Story 5_ELS_F/Story 5_ELS_3_F.pdf",
+							title: "Créer une bibliothèque dans la classe",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_3_G.pdf",
+							title: "EINE KLASSENBIBLIOTHEK ERSTELLEN",
+						}
+						},
+					}
+					]
+					// Second set with different activities
+					
+				],
+				},
+				{
+				id: "6", // Match the ID from stories.json
+				title: "The Monster castle", // Match title from stories.json
+				slug: "", // URL-friendly slug
+				description: "",
+				sets: [
+					[
+					{
+						id: "activity-6-1",
+						description: "",
+						languages: {
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story6/ELS/Story 6_ELS_1_F.pdf",
+							title: "Déchiffrer une invitation",
+						}
+					}, 
+				 }, //ich glaube hier fehlt eine Klammer zu, bin mir aber nicht sicher (Mara)
+					{
+						id: "activity-6-2",
+						description: "",
+						languages: {
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus",
+							pdfUrl: "/activities/story6/ELS/Story 6_ELS_2_F.pdf",
+							title: "Écrire une invitation",
+						}
+						},
+					},
+					{
+						id: "activity-6-3",
+						description: "",
+						languages: {
+						fr: {
+							label: "French",
+							pdfUrl: "/activities/story6/ELS/Story 6_ELS_3_F.pdf",
+							title: "Écrire une invitation",
+						}
+						},
+					}
+					]
+					// Second set with different activities
+					
+				],
+				},
+				{
+				id: "7", // Match the ID from stories.json
+				title: "Celebrating Olivia's birthday", // Match title from stories.json
+				slug: "", // URL-friendly slug
+				description: "",
+				sets: [
+					[
+					{
+						id: "activity-7-1",
+						description: "",
+						languages: {
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story7/ELS/Story 7_ELS_1_F.pdf",
+							title: "La couronne d’anniversaire",
+						}
+					}, 
+				 }, //ich glaube hier fehlt eine Klammer zu, bin mir aber nicht sicher (Mara)
+					{
+						id: "activity-7-2",
+						description: "",
+						languages: {
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus",
+							pdfUrl: "/activities/story7/ELS/Story 7_ELS_2_F.pdf",
+							title: "Vœux d’anniversaire, création de cadeaux d’anniversaire",
+						}
+						},
+					},
+					{
+						id: "activity-7-3",
+						description: "",
+						languages: {
+						fr: {
+							label: "French",
+							pdfUrl: "/activities/story7/ELS/Story 7_ELS_3_F.pdf",
+							title: "Jeu d’anniversaire : la pêche aux lettres",
+						}
+						},
+					}
+					]
+					// Second set with different activities
+					
+				],
+				},
+				{
+				id: "8", // Match the ID from stories.json
+				title: "Going home", // Match title from stories.json
+				slug: "", // URL-friendly slug
+				description: "",
+				sets: [
+					[
+					{
+						id: "activity-8-1",
+						description: "",
+						languages: {
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story8/ELS/Story 8_ELS_1_F.pdf",
+							title: "Trouve les lettres",
+						}
+					}, 
+				 }, //ich glaube hier fehlt eine Klammer zu, bin mir aber nicht sicher (Mara)
+					{
+						id: "activity-8-2",
+						description: "",
+						languages: {
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus",
+							pdfUrl: "/activities/story8/ELS/Story 8_ELS_2_F.pdf",
+							title: "ABC : l’alphabet",
+						}
+						},
+					},
+					{
+						id: "activity-8-3",
+						description: "",
+						languages: {
+						fr: {
+							label: "French",
+							pdfUrl: "/activities/story8/ELS/Story 8_ELS_3_F.pdf",
+							title: "À la recherche des lettres manquantes",
+						}
+						},
+					}
+					]
+					// Second set with different activities
+					
+				],
+				}
 		],
 	},
 	ICAU: {
@@ -646,13 +1057,13 @@ export const ACTIVITY_GROUPS: Record<
 							label: "English",
 							title: "Greetings",
 							audioUrl: "/audio/test-en.opus", // Use your test audio
-							pdfUrl: "/activities/story1/PC/Story_1_ICAU_1_E.pdf",
+							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_1_E.pdf",
 						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story1/PC/Story_1_ICAU_1_F.pdf",
-							title: "SE SALUER",
+							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_1_F.pdf",
+							title: "Se saluer",
 						},
 						sv: {
 							label: "Slovenian",
@@ -669,14 +1080,14 @@ export const ACTIVITY_GROUPS: Record<
 						en: {
 							label: "English",
 							audioUrl: "/audio/test-en.opus",
-							pdfUrl: "/activities/story1/PC/Story_1_ICAU_2_E.pdf",
+							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_2_E.pdf",
 							title: "Meanings of names",
 												},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story1/PC/Story_1_ICAU_2_F.pdf",
-							title: "EXPLORER LE SENS DES PRÉNOMS",
+							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_2_F.pdf",
+							title: "Explorer le sens des prénoms",
 						},
 						sv: {
 							label: "Slovenian",
@@ -692,13 +1103,13 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 						en: {
 							label: "English",
-							pdfUrl: "/activities/story1/PC/Story_1_ICAU_3_E.pdf",
+							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_3_E.pdf",
 							title: "ESPERANTO",
 						},
 						fr: {
 							label: "French",
-							pdfUrl: "/activities/story1/PC/Story_1_ICAU_3_F.pdf",
-							title: "PARLER L’ESPÉRANTO",
+							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_3_F.pdf",
+							title: "Parler l’espéranto",
 						},
 						sv: {
 							label: "Slovenian",
@@ -726,18 +1137,18 @@ export const ACTIVITY_GROUPS: Record<
 							label: "English",
 							title: "Sharing flavours",
 							audioUrl: "/audio/test-en.opus", // Use your test audio
-							pdfUrl: "/activities/story1/PC/Story_2_ICAU_1_E.pdf",
+							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_1_E.pdf",
 						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story1/PC/Story_2_ICAU_1_F.pdf",
-							title: "PARTAGE DE SAVEURS",
+							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_1_F.pdf",
+							title: "Partage de saveurs",
 						},
 						sv: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story1/ICAU/Story_2_ICAU_1_S.pdf",
+							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_1_S.pdf",
 							title: "DELIMO SI OKUSE",
 						}
 						},
@@ -749,41 +1160,41 @@ export const ACTIVITY_GROUPS: Record<
 						en: {
 							label: "English",
 							audioUrl: "/audio/test-en.opus",
-							pdfUrl: "/activities/story1/PC/Story_2_ICAU_2_E.pdf",
+							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_2_E.pdf",
 							title: "Building bridges: Connecting the new with the familiar",
 												},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story1/PC/Story_2_ICAU_2_F.pdf",
-							title: "UN PONT ENTRE NOUS : TROUVER LE LIEN ENTRE NOUVEAUTÉ ET FAMILIARITÉ",
+							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_2_F.pdf",
+							title: "Un pont entre nous",
 						},
 						sv: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story1/ICAU/Story_2_ICAU_2_S.pdf",
+							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_2_S.pdf",
 							title: "NOST 2: GRADIMO MOSTOVE – POVEZUJEMO NOVO Z ZNANIM",
 						}
 						},
 					},
 					{
-						id: "activity-3-3",
+						id: "activity-2-3",
 						description: "Learn words related to space in different languages",
 						languages: {
 						en: {
 							label: "English",
-							pdfUrl: "/activities/story1/PC/Story_2_ICAU_3_E.pdf",
+							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_3_E.pdf",
 							title: "Number detectives",
 						},
 						fr: {
 							label: "French",
-							pdfUrl: "/activities/story1/PC/Story_2_ICAU_3_F.pdf",
-							title: "L'AFFAIRE DES CHIFFRES",
+							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_3_F.pdf",
+							title: "L’affaire des chiffres",
 						},
 						sv: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story1/ICAU/Story_2_ICAU_3_S.pdf",
+							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_3_S.pdf",
 							title: "ŠTEVLIČNI DETEKTIVI",
 						}
 						},
@@ -806,18 +1217,18 @@ export const ACTIVITY_GROUPS: Record<
 							label: "English",
 							title: "Emotions around the world",
 							audioUrl: "/audio/test-en.opus", // Use your test audio
-							pdfUrl: "/activities/story1/PC/Story_3_ICAU_1_E.pdf",
+							pdfUrl: "/activities/story3/ICAU/Story_3_ICAU_1_E.pdf",
 						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story1/PC/Story_3_ICAU_1_F.pdf",
-							title: "TOUR DU MONDE DES ÉMOTIONS",
+							pdfUrl: "/activities/story3/ICAU/Story_3_ICAU_1_F.pdf",
+							title: "Tour du monde des émotions",
 						},
 						sv: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story1/ICAU/Story_3_ICAU_1_S.pdf",
+							pdfUrl: "/activities/story3/ICAU/Story_3_ICAU_1_S.pdf",
 							title: "ČUSTVA PO SVETU",
 						}
 						},
@@ -829,14 +1240,14 @@ export const ACTIVITY_GROUPS: Record<
 						en: {
 							label: "English",
 							audioUrl: "/audio/test-en.opus",
-							pdfUrl: "/activities/story1/PC/Story_3_ICAU_2_E.pdf",
+							pdfUrl: "/activities/story3/ICAU/Story_3_ICAU_2_E.pdf",
 							title: "Let's go to the beach",
 												},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story1/PC/Story_3_ICAU_2_F.pdf",
-							title: "ALLONS À LA PLAGE",
+							pdfUrl: "/activities/story3/ICAU/Story_3_ICAU_2_F.pdf",
+							title: "Allons à la plage",
 						},
 						sv: {
 							label: "Slovenian",
@@ -852,18 +1263,18 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 						en: {
 							label: "English",
-							pdfUrl: "/activities/story1/PC/Story_3_ICAU_3_E.pdf",
+							pdfUrl: "/activities/story3/ICAU/Story_3_ICAU_3_E.pdf",
 							title: "Five friends at the beach",
 						},
 						fr: {
 							label: "French",
-							pdfUrl: "/activities/story1/PC/Story_1_ICAU_3_F.pdf",
-							title: "CINQ AMI ES À LA PLAGE",
+							pdfUrl: "/activities/story3/ICAU/Story_1_ICAU_3_F.pdf",
+							title: "Cinq amis à la plage",
 						},
 						sv: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_3_S.pdf",
+							pdfUrl: "/activities/story3/ICAU/Story_1_ICAU_3_S.pdf",
 							title: "PET PRIJATELJEV NA PLAZI",
 						}
 						},
@@ -872,7 +1283,7 @@ export const ACTIVITY_GROUPS: Record<
 				],
 				},
 				{
-				id: "3", // Match the ID from stories.json
+				id: "4", // Match the ID from stories.json
 				title: "Sleeping at a friend's", // Match title from stories.json
 				slug: "at-a-friend", // URL-friendly slug
 				description: "Follow Bobba the alien as he discovers Earth for the first time.",
@@ -886,13 +1297,13 @@ export const ACTIVITY_GROUPS: Record<
 							label: "English",
 							title: "Food travels",
 							audioUrl: "/audio/test-en.opus", // Use your test audio
-							pdfUrl: "/activities/story1/PC/Story_4_ICAU_1_E.pdf",
+							pdfUrl: "/activities/story4/ICAU/Story_4_ICAU_1_E.pdf",
 						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story1/PC/Story_4_ICAU_1_F.pdf",
-							title: "JOUONS COMME MOI OU COMME TOI",
+							pdfUrl: "/activities/story4/ICAU/Story 4_ICAU_2_F-1.pdf",
+							title: "Voyager grâce à la nourriture",
 						}
 						},
 					},
@@ -903,14 +1314,14 @@ export const ACTIVITY_GROUPS: Record<
 						en: {
 							label: "English",
 							audioUrl: "/audio/test-en.opus",
-							pdfUrl: "/activities/story1/PC/Story_4_ICAU_2_E.pdf",
+							pdfUrl: "/activities/story4/ICAU/Story_4_ICAU_2_E.pdf",
 							title: "Play like me, play like you",
 												},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story1/PC/Story_4_ICAU_2_F-1.pdf",
-							title: "JOUONS COMME MOI OU COMME TOI",
+							pdfUrl: "/activities/story4/ICAU/Story 4_ICAU_2_F.pdf",
+							title: "Jouons comme moi ou comme toi",
 						}
 						},
 					},
@@ -920,16 +1331,360 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 						en: {
 							label: "English",
-							pdfUrl: "/activities/story1/PC/Story_4_ICAU_3_E.pdf",
+							pdfUrl: "/activities/story4/ICAU/Story_4_ICAU_3_E.pdf",
 							title: "Games from here and there",
 						},
 						fr: {
 							label: "French",
-							pdfUrl: "/activities/story1/PC/Story_4_ICAU_3_F.pdf",
-							title: "TOUR DU MONDE DES JEUX",
+							pdfUrl: "/activities/story4/ICAU/Story 4_ICAU_3_F.pdf",
+							title: "Tour du monde des jeux",
 						}
 						},
 					}
+					]
+				],
+				},
+				{
+				id: "5", // Match the ID from stories.json
+				title: "Bobba in the library", // Match title from stories.json
+				slug: "", // URL-friendly slug
+				description: "",
+				sets: [
+					[
+					{
+						id: "activity-5-1",			
+						description: "",
+						languages: {
+						en: {
+							label: "English",
+							title: "SAME NAME, DIFFERENT LETTERS",
+							audioUrl: "/audio/test-en.opus", // Use your test audio
+							pdfUrl: "/activities/story5/ICAU/Story_5_ICAU_E/Story_5_ICAU_1_E.pdf",
+						},
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_F/Story 5_ICAU_1_F.pdf",
+							title: "Un même prénom, différentes lettres",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_G/Story5_PL_1_G.pdf",
+							title: "BIBLIOTHEKEN IN VERSCHIEDENEN SPRACHEN",
+						},
+						sv: {
+							label: "Slovenian",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_S/Story_5_ICAU_1_S.pdf",
+							title: "STO IME, DRUGE ČRKE",
+						}
+						},
+					},
+					{
+						id: "activity-5-2",			
+						description: "",
+						languages: {
+						en: {
+							label: "English",
+							title: "HOW DOES YOUR BOOK TALK?",
+							audioUrl: "/audio/test-en.opus", // Use your test audio
+							pdfUrl: "/activities/story5/ICAU/Story_5_ICAU_E/Story_5_ICAU_2_E.pdf",
+						},
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_F/Story 5_ICAU_2_F.pdf",
+							title: "Comment parle ton livre ?",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_G/Story5_PL_2_G.pdf",
+							title: "TELEFONSPIEL",
+						},
+						sv: {
+							label: "Slovenian",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_S/Story_5_ICAU_2_S.pdf",
+							title: "KAKO GOVORI TVOJA KNJIGA?",
+						}
+						},
+					}, {
+						id: "activity-5-3",			
+						description: "",
+						languages: {
+						en: {
+							label: "English",
+							title: "HOMES IN BOOKS, BOOKS IN HOMES",
+							audioUrl: "/audio/test-en.opus", // Use your test audio
+							pdfUrl: "/activities/story5/ICAU/Story_5_ICAU_E/Story_5_ICAU_3_E.pdf",
+						},
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_F/Story 5_ICAU_3_F.pdf",
+							title: "Les maisons dans les livres, les livres à la maison",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_G/Story5_PL_3_G.pdf",
+							title: "RATESPIEL",
+						},
+						sv: {
+							label: "Slovenian",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_S/Story_5_ICAU_3_S.pdf",
+							title: "DOMOVI V KNJIGAH, KNJIGE V DOMOVIH",
+						}
+						},
+					}
+					]
+				],
+				},{
+				id: "6", // Match the ID from stories.json
+				title: "The Monster castle", // Match title from stories.json
+				slug: "", // URL-friendly slug
+				description: "",
+				sets: [
+					[
+					{
+						id: "activity-6-1",			
+						description: "",
+						languages: {
+						en: {
+							label: "English",
+							title: "MAGICAL CREATURES",
+							audioUrl: "/audio/test-en.opus", // Use your test audio
+							pdfUrl: "/activities/story6/ICAU/Story_6_ICAU_1_E.pdf",
+						},
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story6/ICAU/Story 6_ICAU_1_F.pdf",
+							title: "Les créatures magiques",
+						},
+						sv: {
+							label: "Slovenian",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story6/ICAU/Story_ICAU_1_S.pdf",
+							title: "ČAROBNA BITJA",
+						}
+						},
+					},
+					{
+						id: "activity-6-2",			
+						description: "",
+						languages: {
+						en: {
+							label: "English",
+							title: "THANK YOU AROUND THE WORLD",
+							audioUrl: "/audio/test-en.opus", // Use your test audio
+							pdfUrl: "/activities/story6/ICAU/Story_6_ICAU_2_E.pdf",
+						},
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story6/ICAU/Story 6_ICAU_2_F.pdf",
+							title: "Tour du monde des mercis",
+						},
+						sv: {
+							label: "Slovenian",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story6/ICAU/Story_ICAU_2_S.pdf",
+							title: "ZAHVALA V JEZIKIH SVETA",
+						}
+						},
+					},
+					{
+						id: "activity-6-3",			
+						description: "",
+						languages: {
+						en: {
+							label: "English",
+							title: "DIFFERENT WAYS OF EATING",
+							audioUrl: "/audio/test-en.opus", // Use your test audio
+							pdfUrl: "/activities/story6/ICAU/Story_6_ICAU_3_E.pdf",
+						},
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story6/ICAU/Story 6_ICAU_3_F.pdf",
+							title: "Les coutumes à table",
+						},
+						sv: {
+							label: "Slovenian",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story6/ICAU/Story_ICAU_3_S.pdf",
+							title: "JEMO NA RAZLIČNE NAČINE",
+						}
+						},
+					},
+					]
+				],
+				},
+				{
+				id: "7", // Match the ID from stories.json
+				title: "Celebrating Olivia's birthday", // Match title from stories.json
+				slug: "", // URL-friendly slug
+				description: "",
+				sets: [
+					[
+					{
+						id: "activity-7-1",			
+						description: "",
+						languages: {
+						en: {
+							label: "English",
+							title: "ONE YEAR, MANY CELEBRATIONS",
+							audioUrl: "/audio/test-en.opus", // Use your test audio
+							pdfUrl: "/activities/story7/ICAU/Story_7_ICAU_1_E.pdf",
+						},
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story7/ICAU/Story 7_ICAU_1_F.pdf",
+							title: "Tant de célébrations",
+						},
+						sv: {
+							label: "Slovenian",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story7/ICAU/Story_7_ICAU_1_S.pdf",
+							title: "ENO LETO, VELIKO PRAZNOVANJ",
+						}
+						},
+					},
+					{
+						id: "activity-7-2",			
+						description: "",
+						languages: {
+						en: {
+							label: "English",
+							title: "LET’S SING TOGETHER: BIRTHDAY SONGS FROM HOME",
+							audioUrl: "/audio/test-en.opus", // Use your test audio
+							pdfUrl: "/activities/story7/ICAU/Story_7_ICAU_2_E.pdf",
+						},
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story7/ICAU/Story 7_ICAU_2_F.pdf",
+							title: "Chantons les chansons d’anniversaire",
+						},
+						sv: {
+							label: "Slovenian",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story7/ICAU/Story_7_ICAU_2_S.pdf",
+							title: "ZAPOJMO SKUPAJ: ROJSTNODNEVNE PESMI OD DOMA",
+						}
+						},
+					},
+					{
+						id: "activity-7-3",			
+						description: "",
+						languages: {
+						en: {
+							label: "English",
+							title: "HANDS, WORDS AND WISHES",
+							audioUrl: "/audio/test-en.opus", // Use your test audio
+							pdfUrl: "/activities/story7/ICAU/Story_7_ICAU_3_E.pdf",
+						},
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story7/ICAU/Story 7_ICAU_3_F.pdf",
+							title: "Des mains, des mots et des vœux",
+						},
+						sv: {
+							label: "Slovenian",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story7/ICAU/Story_7_ICAU_3_S.pdf",
+							title: "ROKE, BESEDE IN ŽELJE",
+						}
+						},
+					}
+					]
+				],
+				},
+				{
+				id: "8", // Match the ID from stories.json
+				title: "Going home", // Match title from stories.json
+				slug: "", // URL-friendly slug
+				description: "",
+				sets: [
+					[
+					{
+						id: "activity-8-1",			
+						description: "",
+						languages: {
+						en: {
+							label: "English",
+							title: "LIVING AROUND THE WORLD",
+							audioUrl: "/audio/test-en.opus", // Use your test audio
+							pdfUrl: "/activities/story8/ICAU/Story_8_ICAU_1_E.pdf",
+						},
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story8/ICAU/Story 8_ICAU_1_F.pdf",
+							title: "Tour du monde des lieux de vie",
+						},
+						sv: {
+							label: "Slovenian",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story8/ICAU/Story_8_ICAU_1_S.pdf",
+							title: "ŽIVLJENJE NA RAZLIČNIH KONCIH SVETA",
+						}
+						},
+					},
+					{
+						id: "activity-8-2",			
+						description: "",
+						languages: {
+						en: {
+							label: "English",
+							title: "MY HOUSE, YOUR HOUSE",
+							audioUrl: "/audio/test-en.opus", // Use your test audio
+							pdfUrl: "/activities/story8/ICAU/Story_8_ICAU_2_E.pdf",
+						},
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story8/ICAU/Story 8_ICAU_2_F.pdf",
+							title: "Ma maison, ta maison",
+						},
+						sv: {
+							label: "Slovenian",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story8/ICAU/Story_8_ICAU_2_S.pdf",
+							title: "MOJ DOM, TVOJ DOM",
+						}
+						},
+					},
+					{
+						id: "activity-8-3",			
+						description: "",
+						languages: {
+						en: {
+							label: "English",
+							title: "GOODBYE",
+							audioUrl: "/audio/test-en.opus", // Use your test audio
+							pdfUrl: "/activities/story8/ICAU/Story_8_ICAU_3_E.pdf",
+						},
+						fr: {
+							label: "French",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story8/ICAU/Story 8_ICAU_3_F.pdf",
+							title: "Au revoir",
+						},
+						sv: {
+							label: "Slovenian",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story8/ICAU/Story_8_ICAU_3_S.pdf",
+							title: "NASVIDENJE",
+						}
+						},
+						}
 					]
 				],
 				}
