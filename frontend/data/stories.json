@@ -215,7 +215,7 @@
         }
       }
     }],
-    "pt": [{
+    "por": [{
       "title": "A primeira viagem do Bobba à Terra",
       "titlePicture": "/learning-material/story-1/story-port/Story_1_title_P.jpg",
       "fullAudio": "/learning-material/story-1/story-port/1_complete version.mp3",
@@ -480,7 +480,7 @@
         }
       }
     }],
-    "al": [{
+    "alb": [{
       "title": "Udhëtimi i parë i Bobbas në Tokë",
       "titlePicture": "/learning-material/story-1/story-alb/Story 1_title_AL.jpg",
       "fullAudio": "/learning-material/story-1/story-alb/Bobba_AL_Story 1.mp3",
@@ -856,7 +856,7 @@
         }
       }
     }],
-    "de-short": [{
+    "sw-ger": [{
       "title": "Im Kindergarten",
       "titlePicture": "",
       "fullAudio": "/learning-material/story-2/story-de short/Bobba_DE_Story_2_Gesamt.mp3",
@@ -1502,6 +1502,11 @@
       "fullAudio": "",
       "fullText": "/learning-material/story-3/story-en/Story3_EN.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba at the beach",
+          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_E.JPG",
+          "audioUrl": "/learning-material/story-3/story-en/Story 3_Intro.m4a"
+        },
         "1": {
           "text": "The children take Bobba to the beach. They are all in a very happy mood, laughing and singing the Dididi song. Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
@@ -1550,6 +1555,11 @@
       "fullAudio": "/learning-material/story-3/story-de/Story 3_G Long_Title_Bobba_am_Strand.m4a",
       "fullText": "/learning-material/story-3/story-de/Story3_DE_L.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba am Strand",
+          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_GE.JPG",
+          "audioUrl": "/learning-material/story-3/story-de/Story 3_G Long_Intro_Bobba_am_Strand.m4a"
+        },
         "1": {
           "text": "Heute nehmen die Kinder Bobba mit zum Strand. Alle sind bester Laune, lachen und singen ihr Dididi-Lied. Didididi …. ",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
@@ -1592,12 +1602,17 @@
         }
       }
     }],
-    "de-short": [{
+    "sw-ger": [{
       "title": "Bobba am Strand",
       "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_GE.JPG",
       "fullAudio":  "/learning-material/story-3/story-de short/Bobba_DE_Story_Gesamt.mp3",
       "fullText": "/learning-material/story-3/story-de short/Story3_DE_S.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba am Strand",
+          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_GE.JPG",
+          "audioUrl": "/learning-material/story-3/story-de short/Bobba_DE_Story_3_Titel.mp3"
+        },
         "1": {
           "text": "Heute nehmen die Kinder Bobba mit an den Strand. Alle haben gute Laune, sie lachen und singen das Dididi-Lied. Didididi didididi dididi dididi. Dadadada dadadada dadada dadada ",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
@@ -1646,6 +1661,11 @@
       "fullAudio": "/learning-material/story-3/story-fr/Bobba_FR_Story 3-MP3.mp3",
       "fullText": "",
       "pages": {
+        "0": {
+          "text": "Bobba à la plage",
+          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_F.JPG",
+          "audioUrl": "/learning-material/story-3/story-fr/Bobba_FR_Story 3 Intro-MP3.mp3"
+        },
         "1": {
           "text": "Les enfants emmènent Bobba à la plage. Ils sont tous de bonne humeur. Ils rient et chantent la chanson Dididi.",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
@@ -1688,99 +1708,56 @@
         }
       }
     }],
-    "es": [{
-      "title": "",
-      "titlePicture": "",
-      "fullAudio": "",
-      "fullText": "",
-      "pages": {
-        "1": {
-          "text": "",
-          "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
-          "audioUrl": ""
-        },
-        "2": {
-          "text": "",
-          "imageUrl": "/learning-material/story-3/story-en/Story 3_2.jpg",
-          "audioUrl": ""
-        },
-        "3": {
-          "text": "",
-          "imageUrl": "/learning-material/story-3/story-en/Story 3_3.jpg",
-          "audioUrl": ""
-        },
-        "4": {
-          "text": "",
-          "imageUrl": "/learning-material/story-3/story-en/Story 3_4.jpg",
-          "audioUrl": ""
-        },
-        "5": {
-          "text": "",
-          "imageUrl": "/learning-material/story-3/story-en/Story 3_5.jpg",
-          "audioUrl": ""
-        },
-        "6": {
-          "text": "",
-          "imageUrl": "/learning-material/story-3/story-en/Story 3_6.jpg",
-          "audioUrl": ""
-        },
-        "7": {
-          "text": "",
-          "imageUrl": "/learning-material/story-3/story-en/Story 3_7.jpg",
-          "audioUrl": ""
-        },
-        "8": {
-          "text": "",
-          "imageUrl": "/learning-material/story-3/story-en/Story 3_8.jpg",
-          "audioUrl": ""
-        }
-      }
-    }],
-    "it": [{
-      "title": "Bobba in spiaggia ",
+     "it": [{
+      "title": "Bobba in spiaggia",
       "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_IT.JPG",
       "fullAudio": "/learning-material/story-3/story-it/Story3_Italiano.mp3",
       "fullText": "/learning-material/story-3/story-it/Story3_IT.pdf",
       "pages": {
-        "1": {
-          "text": "Oggi i bambini portano Bobba in spiaggia. Sono tutti di buon umore, ridono e cantano la canzone “Dididi”. Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
-          "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
+        "0": {
+          "text": "Bobba in spiaggia",
+          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_IT.JPG",
           "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 1 - Bobba in spiaggia.mp3"
         },
-        "2": {
-          "text": "Quando Bobba vede il mare, rimane incantato. Non ha mai visto così tanta acqua prima d’ora. Quando Bobba vede il mare, rimane incantato. Non ha mai visto così tanta acqua prima d’ora. “Che piscina enorme!” pensa. ",
-          "imageUrl": "/learning-material/story-3/story-en/Story 3_2.jpg",
+        "1": {
+          "text": "Oggi i bambini portano Bobba in spiaggia. Sono tutti di buon umore, ridono e cantano la canzone \"Dididi\". Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
           "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 2 - Oggi i bambini portano Bobba.mp3"
         },
-        "3": {
-          "text": "I bambini lo aiutano a indossare dei braccioli colorati e un salvagente di gomma. “Adesso sei pronto Bobba! Andiamo!”",
-          "imageUrl": "/learning-material/story-3/story-en/Story 3_3.jpg",
-          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 3 - quando Bobba... de il mare.mp3"
+        "2": {
+          "text": "Quando Bobba vede il mare, rimane incantato. Non ha mai visto così tanta acqua prima d'ora. \"Che piscina enorme!\" pensa.",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_2.jpg",
+          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 3 - quando Bobba vede il mare.mp3"
         },
-        "4": {
-          "text": "I bambini prendono per mano Bobba e lo accompagnano in acqua. “Forza Bobba, andiamo!” Ma Bobba non vuole muoversi.",
-          "imageUrl": "/learning-material/story-3/story-en/Story 3_4.jpg",
+        "3": {
+          "text": "I bambini lo aiutano a indossare dei braccioli colorati e un salvagente di gomma. \"Adesso sei pronto Bobba! Andiamo!\"",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_3.jpg",
           "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 4 - I bambini lo aiutano.mp3"
         },
+        "4": {
+          "text": "I bambini prendono per mano Bobba e lo accompagnano in acqua. \"Forza Bobba, andiamo!\" Ma Bobba non vuole muoversi.",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_4.jpg",
+          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 5 - I bambini prendono per mano.mp3"
+        },
         "5": {
-          "text": "I bambini tirano e tirano, ma Bobba non si muove. “Che cosa c’è che non va Bobba? Non ti piace nuotare? È divertente!”",
+          "text": "I bambini tirano e tirano, ma Bobba non si muove. \"Che cosa c'è che non va Bobba? Non ti piace nuotare? È divertente!\"",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_5.jpg",
-          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 5 - I bambini prend... per mano.mp3"
+          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 6 - Ma Bobba non vuole muoversi.mp3"
         },
         "6": {
-          "text": "Uno dei bambini osserva bene Bobba e capisce perché non vuole entrare nel mare. “Credo che abbia paura dell’acqua. Cosa possiamo fare per aiutarlo?”",
+          "text": "Uno dei bambini osserva bene Bobba e capisce perché non vuole entrare nel mare. \"Credo che abbia paura dell'acqua. Cosa possiamo fare per aiutarlo?\"",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_6.jpg",
-          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 6 - Ma Bobba non vu... muoversi.mp3"
-        },
-        "7": {
-          "text": "Qualcuno ha un’idea eccezionale.  “Quando ho paura, mia mamma mi canta una canzone. Cantiamo tutti insieme la nostra canzone”. Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
-          "imageUrl": "/learning-material/story-3/story-en/Story 3_7.jpg",
           "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 7 - Uno dei bambini osserva bene.mp3"
         },
+        "7": {
+          "text": "Qualcuno ha un'idea eccezionale. \"Quando ho paura, mia mamma mi canta una canzone. Cantiamo tutti insieme la nostra canzone\". Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_7.jpg",
+          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 8 - Qualcuno ha un'idea eccezionale.mp3"
+        },
         "8": {
-          "text": "A Bobba la canzone piace tantissimo e inizia a cantare anche lui, mentre tutti insieme entrano  in acqua. Non ha più paura del mare. “Nuotare è divertente, vero Bobba?”. ",
+          "text": "A Bobba la canzone piace tantissimo e inizia a cantare anche lui, mentre tutti insieme entrano in acqua. Non ha più paura del mare. \"Nuotare è divertente, vero Bobba?\"",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_8.jpg",
-          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 8 - Qualcuno ha u... cezionale.mp3"
+          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 9 - a Bobba, la canzone piace tantissimo.mp3"
         }
       }
     }],
@@ -1790,6 +1767,11 @@
       "fullAudio": "/learning-material/story-3/story-tur/Stories_Turkish_3.m4a",
       "fullText": "/learning-material/story-3/story-tur/Story3_TUR.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba Sahilde",
+          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_TU.JPG",
+          "audioUrl": "/learning-material/story-3/story-tur/Story 3_TU_Intro.m4a"
+        },
         "1": {
           "text": "Bir gün çocuklar Bobba’yı sahile götürmeye karar verdiler. Hep birlikte neşeliydiler. Kahkahalar atıyor, ellerini çırpıyor ve hep bir ağızdan “Dididi” şarkısını söylüyorlardı: Didididi didididi dididi dididi didi didi didi, didi didi didi di di di, di di di. Dadadada dadadada dadada dadada dada dada dada, dada dada dada da da da, da da da.",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
@@ -1838,6 +1820,11 @@
       "fullAudio": "/learning-material/story-3/story-lux/Bobba_LU_Story 3-MP3.mp3",
       "fullText": "/learning-material/story-3/story-lux/Story3_LUX.pdf",
       "pages": {
+        "0": {
+          "text": "De Bobba op der Plage",
+          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_L.JPG",
+          "audioUrl": "/learning-material/story-3/story-lux/Bobba_LU_Story 3 Intro-MP3.mp3"
+        },
         "1": {
           "text": "D’Kanner huelen de Bobba mat op d’Plage. Jidderee freet sech. Si laachen a sangen d’Dididi-Lidd.",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
@@ -1886,6 +1873,11 @@
       "fullAudio": "learning-material/story-3/story-pl/Story 3_PL.m4a",
       "fullText": "learning-material/story-3/story-pl/Story_PL.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba na plaży",
+          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_PL.JPG",
+          "audioUrl": "/learning-material/story-3/story-pl/Story 3_PL_Intro.m4a"
+        },
         "1": {
           "text": "Dzieci zabierają Bobbę na plażę. Wszyscy są w bardzo radosnym nastroju, śmieją się i śpiewają piosenkę Dididi. Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
@@ -1987,6 +1979,11 @@
       "fullAudio": "/learning-material/story-3/story-slo/Story 3_SLO_complete.m4a",
       "fullText": "/learning-material/story-3/story-slo/Story3-SLO.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba na plaži",
+          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_SL.JPG",
+          "audioUrl": "/learning-material/story-3/story-slo/Story 3_SLO_Intro.m4a"
+        },
         "1": {
           "text": "Otroci odpeljejo Bobbo na plažo. Vsi so dobre volje, smejijo se in pojejo Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
@@ -2029,12 +2026,17 @@
         }
       }
     }],
-    "al": [{
+    "alb": [{
       "title": "Bobba në plazh",
       "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_AL.JPG",
       "fullAudio": "/learning-material/story-3/story-alb/Bobba_AL_Story 3.mp3",
       "fullText": "/learning-material/story-3/story-alb/Story3_AL.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba në plazh",
+          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_AL.JPG",
+          "audioUrl": "/learning-material/story-3/story-alb/Bobba_AL_Story 3 Intro.mp3"
+        },
         "1": {
           "text": "Fëmijët e çojnë Bobbën në plazh. Të gjithë janë shumë të gëzuar, duke qeshur dhe duke kënduar këngën Dididi. Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da. ",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
@@ -2083,6 +2085,11 @@
       "fullAudio": "/learning-material/story-3/story-ukr/story-3-ukrainian-full.mp3",
       "fullText": "/learning-material/story-3/story-ukr/Story3_UKR.pdf",
       "pages": {
+        "0": {
+          "text": "Бобба на пляжі",
+          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_UKR.JPG",
+          "audioUrl": "/learning-material/story-3/story-ukr/Story 3_Ukrainian_3_0.MP3"
+        },
         "1": {
           "text": "Діти ведуть Боббу на пляж. Вони всі в дуже веселому настрої, сміються і співають пісню Дідіді. Дідіді, діді, діді, діді, діді, діді, діді, діді, діді, діді, діді, діді діді діді діді діді діді діді діді діді ді ді ді ді ді. Дадададададададададададададададададададададададададададададададададададададададададададададададададада дада дада дада дада да да да да да да да да да. ",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
@@ -2131,6 +2138,11 @@
       "fullAudio": "/learning-material/story-3/story-por/3_complete version.m4a",
       "fullText": "/learning-material/story-3/story-por/Story3_POR.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba na praia",
+          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_POR.JPG",
+          "audioUrl": "/learning-material/story-3/story-por/3_Intro.m4a"
+        },
         "1": {
           "text": "As crianças levam o Bobba para a praia. Estão todas muito felizes, a rir e a cantar a cantiga do Dididi. Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da. ",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
@@ -2390,7 +2402,7 @@
         }
       }
     }],
-    "pt": [{"title": "Dormir em casa de um amigo",
+    "por": [{"title": "Dormir em casa de um amigo",
       "titlePicture": "/learning-material/story-4/story-pt/Story 4_2 title_P.jpg",
       "fullAudio": "/learning-material/story-4/story-pt/4_complete version.m4a",
       "fullText": "/learning-material/story-4/story-pt/Story 4_P.pdf",
@@ -2799,7 +2811,7 @@
         }
       }
   }],
-    "al": [{
+    "alb": [{
       "title": "Fjetja te një shok",
       "titlePicture": "/learning-material/story-4/story-alb/Story 4_2 title_AL.jpg",
       "fullAudio": "/learning-material/story-4/story-alb/Bobba_AL_Story 4.mp3",
@@ -3005,7 +3017,7 @@
         }
       }
     }],
-    "de-short": [{
+    "sw-ger": [{
       "title": "Bobba in der Bibliothek",
       "titlePicture": "/images/under-construction.png",
       "fullAudio": "/learning-material/story-5/story-de short/Bobba_DE_Story 5_gesamt.mp3",
@@ -3246,7 +3258,7 @@
         }
       }
     }],
-    "al": [{
+    "alb": [{
       "title": "Bobba në bibliotekë",
       "titlePicture": "",
       "fullAudio": "/learning-material/story-5/story-alb/Bobba_AL_Story 5.mp3",
@@ -3586,7 +3598,7 @@
         }
       }
     }],
-    "de-short": [{
+    "sw-ger": [{
       "title": "Das MONSTER Schloss ",
       "titlePicture": "/images/under-construction.png",
       "fullAudio": "/learning-material/story-6/story-de short/Bobba_DE_Story_6_Gesamt.mp3",
@@ -3874,7 +3886,7 @@
         }
       }
     }],
-    "al": [{
+    "alb": [{
       "title": "Kështjella e Përbindëshit",
       "titlePicture": "",
       "fullAudio": "/learning-material/story-6/story-alb/Bobba_AL_Story 6.mp3",
@@ -4214,7 +4226,7 @@
         }
       }
     }],
-    "de-short": [{
+    "sw-ger": [{
       "title": "Olivias Geburtstagsparty",
       "titlePicture": "",
       "fullAudio": "/learning-material/story-7/story-de-short/Bobba_DE_Story_7_Gesamt.mp3",
@@ -4550,7 +4562,7 @@
         }
       }
     }],
-    "al": [{
+    "alb": [{
       "title": "Duke festuar ditëlindjen e Olivias",
       "titlePicture": "",
       "fullAudio": "",
@@ -5130,7 +5142,7 @@
         }
       }
     }],
-    "al": [{
+    "alb": [{
       "title": "Kthimi në shtëpi",
       "titlePicture": "",
       "fullAudio": "",
