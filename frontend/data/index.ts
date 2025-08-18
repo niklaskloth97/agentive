@@ -154,7 +154,6 @@ export const ACTIVITY_GROUPS: Record<
 							en: {
 								label: "English",
 								title: "My favourite story part",
-								audioUrl: "/audio/test-en.opus", // Use your test audio
 								pdfUrl: "/activities/story1/PC/Story_1_PL_1_E.pdf",
 							},
 							fr: {
