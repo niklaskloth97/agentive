@@ -1,7 +1,4 @@
-import activitiesData from '@/data/activities.json';
-
-// Define types to match the JSON structure
-export type ActivityType = "song" | "game" | "worksheet" | "art" | "video";
+import { ACTIVITY_GROUPS, type ActivityGroupKey } from '@/data/index';
 
 export interface LanguageContent {
   label: string;
@@ -12,7 +9,6 @@ export interface LanguageContent {
 
 export interface Activity {
   id: string;
-  type: ActivityType;
   title: string;
   description: string;
   languages: Record<string, LanguageContent>;
@@ -26,8 +22,41 @@ export interface StoryActivities {
   activities: Activity[];
 }
 
-// Type assertion for the imported JSON
-const activities: StoryActivities[] = activitiesData as StoryActivities[];
+// Get all activities from ACTIVITY_GROUPS
+const getAllActivities = (): StoryActivities[] => {
+  const allActivities: StoryActivities[] = [];
+  
+  // Iterate through all activity groups
+  Object.entries(ACTIVITY_GROUPS).forEach(([, group]) => {
+    group.stories.forEach(story => {
+      // Convert the nested sets structure to flat activities array
+      const activities: Activity[] = [];
+      
+      story.sets.forEach((set) => {
+        set.forEach(activity => {
+          activities.push({
+            ...activity,
+            title: activity.title || 'Untitled Activity',
+            description: activity.description || ''
+          });
+        });
+      });
+      
+      allActivities.push({
+        id: story.id,
+        title: story.title,
+        slug: story.slug,
+        description: story.description || '',
+        activities: activities
+      });
+    });
+  });
+  
+  return allActivities;
+};
+
+// Get the activities array
+const activities = getAllActivities();
 
 /**
  * Debug function to print all activities
