@@ -752,10 +752,15 @@
     "all-pictures": "/learning-material/story-1/story-en/NOT IMPLEMENTED",
     "en": [{
       "title": "At the kindergarten",
-      "titlePicture": "/learning-material/story-2/4.Story2-AT THE KINDERGARDEN-Cover.jpeg",
+      "titlePicture": "/learning-material/story-2/story-en/Story 2_title_E.jpg",
       "fullAudio": "",
       "fullText": "/learning-material/story-2/story-en/Story2_EN.pdf",
       "pages": {
+        "0": {
+          "text": "At the kindergarten",
+          "imageUrl": "/learning-material/story-2/story-en/Story 2_title_E.jpg",
+          "audioUrl": ""
+        },
         "1": {
           "text": "Bobba sees a beautiful brightly coloured building. He hears laughter and singing coming from inside. He is curious and wants to see what is going on.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
@@ -800,10 +805,15 @@
     }],
     "de": [{
       "title": "Bobba im Kindergarten",
-      "titlePicture": "",
+      "titlePicture": "/learning-material/story-2/story-de/Story 2_COVER_GE.JPG",
       "fullAudio": "",
       "fullText": "/learning-material/story-2/story-de/Story2_DE_L.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba im Kindergarten",
+          "imageUrl": "/learning-material/story-2/story-de/Story 2_COVER_GE.JPG",
+          "audioUrl": "/learning-material/story-2/story-de/Story 2_G Long_Intro.mp3"
+        },
         "1": {
           "text": "Bobba sieht ein wunderschönes, buntes Gebäude. Von drinnen hört er Kinder lachen und singen. Neugierig geht er hinein, um nachzusehen, was da los ist. ",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
@@ -852,6 +862,11 @@
       "fullAudio": "/learning-material/story-2/story-de short/Bobba_DE_Story_2_Gesamt.mp3",
       "fullText": "/learning-material/story-2/story-de short/Story2_DE_S.pdf",
       "pages": {
+                "0": {
+          "text": "Bobba im Kindergarten",
+          "imageUrl": "/learning-material/story-2/story-de/Story 2_COVER_GE.JPG",
+          "audioUrl": ""
+        },
         "1": {
           "text": "Bobba sieht ein wunderschönes, buntes Gebäude. Von drinnen hört er Kinder lachen und singen. Bobba ist neugierig: Was ist da los?  ",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
@@ -896,10 +911,15 @@
     }],
     "fr": [{
       "title": "A l’école maternelle",
-      "titlePicture": "",
+      "titlePicture": "/learning-material/story-2/story-fr/Story 2_COVER_F.JPG",
       "fullAudio": "/learning-material/story-2/story-fr/Bobba_FR_Story 2-MP3.mp3",
       "fullText": "",
       "pages": {
+        "0": {
+          "text": "A l’école maternelle",
+          "imageUrl": "/learning-material/story-2/story-fr/Story 2_COVER_F.JPG",
+          "audioUrl": "/learning-material/story-2/story-fr/Bobba_FR_Story 2 Intro-MP3.mp3"
+        },
         "1": {
           "text": "Bobba voit un beau bâtiment plein de couleurs. Il entend rire et chanter à l’intérieur. Il est curieux et veut savoir ce qui se passe.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
@@ -944,10 +964,15 @@
     }],
     "it": [{
       "title": "Alla scuola dell’infanzia ",
-      "titlePicture": "",
+      "titlePicture": "/learning-material/story-2/story-it/Story 2_COVER_IT.JPG",
       "fullAudio": "/learning-material/story-2/story-it/Story2_Italiano.mp3",
       "fullText": "/learning-material/story-2/story-it/Story2_IT.pdf",
       "pages": {
+        "0": {
+          "text": "Alla scuola dell’infanzia",
+          "imageUrl": "/learning-material/story-2/Story 2_COVER_IT.JPG",
+          "audioUrl": "/learning-material/story-2/story-it/Story 2_Italiano - Titel.mp3"
+        },
         "1": {
           "text": "Bobba vede un bellissimo edificio dai colori vivaci. Sente delle risate e dei canti che provengono dall’interno. È proprio curioso e decide di entrare per vedere cosa sta succedendo.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
@@ -992,10 +1017,15 @@
     }],
     "lux": [{
       "title": "An der Spillschoul",
-      "titlePicture": "",
+      "titlePicture": "/learning-material/story-2/story-lux/Story 2_COVER_L.JPG",
       "fullAudio": "/learning-material/story-2/story-lux/Bobba_LU_Story 2-MP3.mp3",
       "fullText": "/learning-material/story-2/story-lux/Story2_LUX.pdf",
       "pages": {
+        "0": {
+          "text": "An der Spillschoul",
+          "imageUrl": "/learning-material/story-2/story-lux/Story 2_COVER_L.JPG",
+          "audioUrl": "/learning-material/story-2/story-lux/Bobba_LU_Story 2 Intro-MP3.mp3"
+        },
         "1": {
           "text": "De Bobba gesäit e ganz faarwegt Gebai. Hien héiert Kanner laachen a sangen. Hien ass virwëlzeg a wëllt wëssen, wat do lass ass.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
@@ -1040,10 +1070,15 @@
     }],
     "gr": [{
       "title": "Στο νηπιαγωγείο",
-      "titlePicture": "",
+      "titlePicture": "/learning-material/story-2/story-gr/Story 2_COVER_GR.JPG",
       "fullAudio": "/learning-material/story-2/story-gr/story-2-greek-full.mp3",
       "fullText": "/learning-material/story-2/story-gr/Story2_GR.pdf",
       "pages": {
+        "0": {
+          "text": "Στο νηπιαγωγείο",
+          "imageUrl": "/learning-material/story-2/story-gr/Story 2_COVER_GR.JPG",
+          "audioUrl": "/learning-material/story-2/story-gr/story-2-greek-title.mp3"
+        },
         "1": {
           "text": "Ο Μπόμπα βλέπει ένα όμορφο κτίριο με ζωηρά χρώματα. Ακούει γέλια και τραγούδια από το εσωτερικό. Περίεργο, αποφασίζει να δει τι συμβαίνει.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
@@ -1088,10 +1123,15 @@
     }],
     "sv": [{
       "title": "V vrtcu",
-      "titlePicture": "",
+      "titlePicture": "/learning-material/story-2/story-slo/Story 2_COVER_SL.JPG",
       "fullAudio": "/learning-material/story-2/story-slo/Story 2_SLO_complete.m4a",
       "fullText": "/learning-material/story-2/story-slo/Story2_SLO.pdf",
       "pages": {
+        "0": {
+          "text": "V vrtcu",
+          "imageUrl": "/learning-material/story-2/story-slo/Story 2_COVER_SL.JPG",
+          "audioUrl": "/learning-material/story-2/story-slo/Story 2_SLO_title.m4a"
+        },
         "1": {
           "text": "Bobba zagleda čudovito, pisano stavbo. Iz nje se slišita smeh in petje. Radoveden je, zato se odloči, da bo preveril, kaj se tam dogaja.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
@@ -1136,10 +1176,15 @@
     }],
     "alb": [{
       "title": "Në kopshtin e fëmijëve",
-      "titlePicture": "",
+      "titlePicture": "/learning-material/story-2/story-alb/Story 2_COVER_AL.JPG",
       "fullAudio": "/learning-material/story-2/story-alb/Bobba_AL_Story 2.mp3",
       "fullText": "/learning-material/story-2/story-alb/Story2_AL.pdf",
       "pages": {
+        "0": {
+          "text": "Në kopshtin e fëmijëve",
+          "imageUrl": "/learning-material/story-2/story-alb/Story 2_COVER_AL.JPG",
+          "audioUrl": "/learning-material/story-2/story-alb/Bobba_AL_Story 2 Intro.mp3"
+        },
         "1": {
           "text": "Bobba sheh një ndërtesë të bukur plot ngjyra të ndezura. Ai dëgjon të qeshura dhe këngë që vijnë nga brenda. Kureshtar, vendos të shikojë çfarë po ndodh.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
@@ -1184,10 +1229,15 @@
     }],
     "ukr": [{
       "title": "У дитячому садку ",
-      "titlePicture": "",
-      "fullAudio": "/learning-material/story-2/story-ukr/2.mp3",
+      "titlePicture": "/learning-material/story-2/story-ukr/Story 2_COVER_UKR.JPG",
+      "fullAudio": "/learning-material/story-2/story-ukr/story-2-ukrainian-full.mp3",
       "fullText": "/learning-material/story-2/story-ukr/Story2_UKR.pdf",
       "pages": {
+        "0": {
+          "text": "У дитячому садку",
+          "imageUrl": "/learning-material/story-2/story-ukr/Story 2_COVER_UKR.JPG",
+          "audioUrl": "/learning-material/story-2/story-ukr/2.mp3"
+        },
         "1": {
           "text": "Бобба бачить красиву яскраву будівлю. Зсередини він чує сміх і співи. З цікавості він вирішує подивитися, що там відбувається.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
@@ -1232,10 +1282,15 @@
     }],
     "tur": [{
       "title": "Bobba’nın Anaokulunda Macerası",
-      "titlePicture": "",
+      "titlePicture": "/learning-material/story-2/story-tur/Story 2_COVER_TU.JPG",
       "fullAudio": "/learning-material/story-2/story-tur/Stories_Turkish_2.m4a",
       "fullText": "/learning-material/story-2/story-tur/Story2_TUR.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba’nın Anaokulunda Macerası",
+          "imageUrl": "/learning-material/story-2/story-tur/Story 2_COVER_TU.JPG",
+          "audioUrl": ""
+        },
         "1": {
           "text": "Bir gün, küçük Bobba yemyeşil bir tepenin üstünde dolaşırken gözüne parlak renklerle boyanmış, rengârenk bir bina ilişti. İçeriden kahkaha ve şarkı sesleri geliyordu. Bobba çok meraklandı. “Acaba içeride neler oluyor?” diye düşündü.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
@@ -1280,10 +1335,15 @@
     }],
     "ld": [{
       "title": "Te scolina",
-      "titlePicture": "",
+      "titlePicture": "/learning-material/story-2/story-ladin/Story 2_COVER_LA.JPG",
       "fullAudio": "/learning-material/story-2/story-ladin/Bobba_LADIN_Story 2-MP3.mp3",
       "fullText": "",
       "pages": {
+        "0": {
+          "text": "Te scolina",
+          "imageUrl": "/learning-material/story-2/story-ladin/Story 2_COVER_LA.JPG",
+          "audioUrl": "/learning-material/story-2/story-ladin/Bobba_LADIN_Story 2 Intro-MP3.mp3"
+        },
         "1": {
           "text": "Bobba vëija na bela cësa depënta cun culëures lucënc. L aud che zachei s’la rij y s’la cianta dedite. Curiëus tolel la dezijion de jì a cialé cie che l suzed.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
@@ -1328,10 +1388,15 @@
     }],
      "por": [{
       "title": "No Infantário",
-      "titlePicture": "",
+      "titlePicture": "/learning-material/story-2/story-por/Story 2_COVER_P.JPG",
       "fullAudio": "/learning-material/story-2/story-por/2_complete version.m4a",
       "fullText": "/learning-material/story-2/story-por/Story2_POR.pdf",
       "pages": {
+        "0": {
+          "text": "No Infantário",
+          "imageUrl": "/learning-material/story-2/story-por/Story 2_COVER_P.JPG",
+          "audioUrl": "/learning-material/story-2/story-por/2_title.m4a"
+        },
         "1": {
           "text": "O Bobba vê um belo edifício de cores alegres vivas. Ouve rir e cantar lá dentro. Fica curioso e quer ver o que se passa.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
@@ -1376,10 +1441,15 @@
     }],
      "pl": [{
       "title": "W przedszkolu",
-      "titlePicture": "",
+      "titlePicture": "/learning-material/story-2/story-pl/Story 2_COVER_PL.JPG",
       "fullAudio": "/learning-material/story-2/story-pl/Story 2_PL.m4a",
       "fullText": "/learning-material/story-2/story-pl/Story2_PL.pdf",
       "pages": {
+        "0": {
+          "text": "W przedszkolu",
+          "imageUrl": "/learning-material/story-2/story-pl/Story 2_COVER_PL.JPG",
+          "audioUrl": "/learning-material/story-2/story-pl/Story 2_PL_title.m4a"
+        },
         "1": {
           "text": "Bobba widzi piękny, kolorowy budynek. Słyszy śmiech i śpiew dochodzące z wnętrza. Jest ciekawy i chce zobaczyć, co się tam dzieje.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
@@ -1864,6 +1934,11 @@
       "fullAudio": "/learning-material/story-3/story-gr/story-3-full.mp3",
       "fullText": "/learning-material/story-3/story-gr/Story3_GR.pdf",
       "pages": {
+        "0": {
+          "text": "Ο Μπόμπα στην παραλία",
+          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_GR.JPG",
+          "audioUrl": "/learning-material/story-3/story-gr/Story 3_Greek_3_0.m4a"
+        },
         "1": {
           "text": "Τα παιδιά πηγαίνουν τον Μπόμπα στην παραλία. Όλα είναι σε πολύ χαρούμενη διάθεση, γελώντας και τραγουδώντας το τραγούδι «Ντιντιντι». Ντιντιντιντι ντιντιντιντι ντιντιντι ντιντιντι ντιντι ντιντι ντιντι ντιντι ντιντι ντιντι ντι ντι ντι ντι ντι ντι. Νταντανταντα νταντανταντα ντανταντα ντανταντα νταντα νταντα νταντα νταντα νταντα νταντα ντα ντα ντα ντα ντα ντα.",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
@@ -2470,10 +2545,15 @@
   }],
     "it": [{
       "title": "Bobba dorme a casa di un’amica",
-      "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
+      "titlePicture": "/learning-material/story-4/story-it/Story 4_2 title_IT.jpg",
       "fullAudio": "/learning-material/story-4/story-it/Story4_Italiano.mp3",
       "fullText": "",
       "pages": {
+        "0": {
+          "text": "Bobba dorme a casa di un’amica",
+          "imageUrl": "/learning-material/story-4/story-it/Story 4_2 title_IT.jpg",
+          "audioUrl": "---"
+        },
         "1": {
           "text": "Alla fine di una lunga giornata, Ben, Alex e Olivia decidono di andare a casa. “E tu dove dormi stanotte?”, chiede Olivia a Bobba. Bobba la guarda con grandi occhioni. Olivia lo prende per mano. “Dai, vieni a casa con me”.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",

@@ -84,9 +84,9 @@ export default function Page() {
                                     className="object-cover"
                                 />
                                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                                    <h2 className="text-lg font-semibold text-white">
+                                    {/* <h2 className="text-lg font-semibold text-white">
                                         {getStoryTitle(story, websiteLanguage)}
-                                    </h2>
+                                    </h2> */}
                                 </div>
                             </div>
                         </Card>

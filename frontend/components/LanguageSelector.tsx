@@ -10,7 +10,7 @@ const languageFlags: Record<string, string> = {
   de: "🇩🇪",  // German flag
   // gershort: "🇩🇪", // German short flag
   "sw-ger": "🇨🇭", // Swiss flag
-  pt: "🇵🇹",  // Portuguese flag
+  por: "🇵🇹",  // Portuguese flag
   pl: "🇵🇱",  // Polish flag
   slo: "🇸🇮",  // Slovenian flag
   fr: "🇫🇷",  // French flag
@@ -18,7 +18,7 @@ const languageFlags: Record<string, string> = {
   sv: "🇸🇮",  // Slovenian flag
   gr: "🇬🇷",  // Greek flag
   lux: "🇱🇺", // Luxembourg flag
-  al: "🇦🇱",  // Albanian flag
+  alb: "🇦🇱",  // Albanian flag
   ukr: "🇺🇦", // Ukrainian flag
   tur: "🇹🇷", // Turkish flag
   ld: "🇮🇹", // Ladin flag 
