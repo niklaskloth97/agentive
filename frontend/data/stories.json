@@ -641,13 +641,13 @@
     }],
     "pl": [{
       "title": "L prim viac de Bobba sun la Tiera",
-      "titlePicture": "/learning-material/story-1/story-pol/Story 1_title_PL.jpg", 
+      "titlePicture": "/learning-material/story-1/story-pl/Story 1_title_PL.jpg", 
       "fullAudio": "/learning-material/story-1/story-pol/Bobba_AL_Story 1.mp3", 
       "fullText": "",
       "pages": {
         "0": {
           "text": "L prim viac de Bobba sun la Tiera",
-          "imageUrl": "/learning-material/story-1/story-pol/Story 1_title_PL.jpg", 
+          "imageUrl": "/learning-material/story-1/story-pl/Story 1_title_PL.jpg", 
           "audioUrl": "/learning-material/story-1/story-al/Bobba_AL_Story 1_Intro.mp3"
         },
         "1": {
@@ -970,7 +970,7 @@
       "pages": {
         "0": {
           "text": "Alla scuola dell’infanzia",
-          "imageUrl": "/learning-material/story-2/Story 2_COVER_IT.JPG",
+          "imageUrl": "/learning-material/story-2/story-it/Story 2_COVER_IT.JPG",
           "audioUrl": "/learning-material/story-2/story-it/Story 2_Italiano - Titel.mp3"
         },
         "1": {
@@ -1289,47 +1289,47 @@
         "0": {
           "text": "Bobba’nın Anaokulunda Macerası",
           "imageUrl": "/learning-material/story-2/story-tur/Story 2_COVER_TU.JPG",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-tur/Szene Titel.mp3"
         },
         "1": {
           "text": "Bir gün, küçük Bobba yemyeşil bir tepenin üstünde dolaşırken gözüne parlak renklerle boyanmış, rengârenk bir bina ilişti. İçeriden kahkaha ve şarkı sesleri geliyordu. Bobba çok meraklandı. “Acaba içeride neler oluyor?” diye düşündü.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-tur/Szene 1.mp3"
         },
         "2": {
           "text": "Bobba cesaretle kapıyı açtı. İçeride, etrafta koşuşturan ve yüksek sesle bağıran çocukları gördü. Çocukların enerjisi onu heyecanlandırdı. “Ben de onlara katılmak istiyorum!” diye düşündü. El sallayarak seslendi: «Saluton! Saluton!»",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_2.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-tur/Szene 2.mp3"
         },
         "3": {
           "text": "Çocuklar bir anda durup Bobba’ya baktılar. Gözleri kocaman olmuştu. “Bu da kim?” “Ne söylüyor böyle?” “Yoksa yeni öğretmenimiz mi?” diye fısıldaştılar ve hemen saklanacak yer aramaya başladılar.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_3.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-tur/Szene 3.mp3"
         },
         "4": {
           "text": "Bir anda etraf sessizleşti. Bobba yalnız kalmıştı. Gözleri dolu dolu oldu. “Ludi! Ludi!” diye mırıldandı. Çok oynamak istiyordu ama kimse yoktu.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_4.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-tur/Szene 4.mp3"
         },
         "5": {
           "text": "O sırada tuvaletten bir kız çıktı. Şaşkınlıkla etrafına bakındı: “Herkes nerede?” dedi. Sonra Bobba’yı fark etti.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_5.jpeg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-tur/Szene 5.mp3"
         },
         "6": {
           "text": "Kız gülümsedi ve yanına yaklaştı: “Merhaba! Oynamak ister misin?” dedi. Bobba çok mutlu oldu ve gülerek cevap verdi: “Bone! Bone!” ",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_6.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-tur/Szene 6.mp3"
         },
         "7": {
           "text": "Bobba ve kız oynamaya başladılar. Top sektirdiler, zıpladılar, güldüler. Diğer çocuklar onları uzaktan izliyordu. Bir süre sonra cesaretlerini topladılar ve saklandıkları yerlerden yavaşça çıktılar.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_7.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-tur/Szene 7.mp3"
         },
         "8": {
           "text": "Çocuklar Bobba ve küçük kızın yanına geldiler. Hepsi bir ağızdan bağırdı: “Ludi! Ludi!” Artık Bobba yalnız değildi. Tüm çocuklar onun etrafını sarmıştı. Beraber o kadar çok eğlendiler ki gün bitiverdi. Bobba gülümseyerek düşündü: “Ne harika bir gün!” Bobba, o günden sonra anaokuluna sık sık uğradı. Çünkü orası kahkahalarla dolup taşan bir mutluluk yuvasıydı.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_8.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-tur/Szene 8.mp3"
         }
       }
     }],
@@ -1779,7 +1779,7 @@
         },
         "2": {
           "text": "Bobba, çocukların enerjisinden çok etkilenmişti. Sahile vardıklarında Bobba, denizi gördü. Gözleri hayretle büyümüştü. Daha önce hiç bu kadar çok su görmemişti. “Ne kadar büyük bir yüzme havuzu!” diye düşündü. Hazırlıklar Başlasın ",
-          "imageUrl": "/learning-material/story-3/story-en/Story 3_2.jpeg",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_2.jpg",
           "audioUrl": ""
         },
         "3": {
@@ -1789,7 +1789,7 @@
         },
         "4": {
           "text": "Çocuklar Bobba’nın ellerini tutup onu denize götürmeye çalıştılar. “Hadi Bobba, suya gidelim!” diye heyecanla bağırıyorlardı. Ama Bobba hareket etmek istemiyordu. ",
-          "imageUrl": "/learning-material/story-3/story-en/Story 3_4.jpeg",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_4.jpg",
           "audioUrl": ""
         },
         "5": {
