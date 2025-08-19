@@ -1712,8 +1712,8 @@ export const ACTIVITY_GROUPS: Record<
 							fr: {
 								label: "French",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_1_LA_1_F.pdf",
-								title: "COMMENT T’APPELLES-TU?",
+								pdfUrl: "/activities/story1/LA/Story 1_LA_1_F.pdf",
+								title: "Comparer les noms",
 							},
 							sv: {
 								label: "Slovenian",
@@ -1736,8 +1736,8 @@ export const ACTIVITY_GROUPS: Record<
 							fr: {
 								label: "French",
 								audioUrl: "/audio/test-de.opus",
-								pdfUrl: "/activities/story1/LA/Story_1_LA_2_F.pdf",
-								title: "À LA RECHERCHE DU SON INITIAL",
+								pdfUrl: "/activities/story1/LA/Story 1_LA_2_F.pdf",
+								title: "Comment t’appelles-tu ?",
 							},
 							sv: {
 								label: "Slovenian",
@@ -1759,8 +1759,8 @@ export const ACTIVITY_GROUPS: Record<
 							},
 							fr: {
 								label: "French",
-								pdfUrl: "/activities/story1/LA/Story_1_LA_3_F.pdf",
-								title: "NOMMER LA PLANETE DE BOBBA",
+								pdfUrl: "/activities/story1/LA/Story 1_LA_3_F.pdf",
+								title: "Nommer la planète de Bobba",
 							},
 							sv: {
 								label: "Slovenian",
@@ -1787,19 +1787,19 @@ export const ACTIVITY_GROUPS: Record<
 							en: {
 								label: "English",
 								audioUrl: "/audio/test-en.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_2_LA_1_E.pdf",
+								pdfUrl: "/activities/story2/LA/Story_2_LA_1_E.pdf",
 								title: "Initial sound hunt",
 							},
 							fr: {
 								label: "French",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_2_LA_1_F.pdf",
-								title: "À LA RECHERCHE DU SON INITIAL",
+								pdfUrl: "/activities/story2/LA/Story 2_LA_1_F.pdf",
+								title: "À la recherche du son initial",
 							},
 							sv: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_2_LA_1_S.pdf",
+								pdfUrl: "/activities/story2/LA/Story_2_LA_1_S.pdf",
 								title: "LOV NA ZAČETNI GLAS",
 							},
 						},
@@ -1811,19 +1811,19 @@ export const ACTIVITY_GROUPS: Record<
 							en: {
 								label: "English",
 								audioUrl: "/audio/test-en.opus",
-								pdfUrl: "/activities/story1/LA/Story_2_LA_2_E.pdf",
+								pdfUrl: "/activities/story2/LA/Story_2_LA_2_E.pdf",
 								title: "Hello around the world",
 							},
 							fr: {
 								label: "French",
 								audioUrl: "/audio/test-de.opus",
-								pdfUrl: "/activities/story1/LA/Story_2_LA_2_F.pdf",
-								title: "TOUR DU MONDE DES BONJOURS",
+								pdfUrl: "/activities/story2/LA/Story 2_LA_2_F.pdf",
+								title: "Tour du monde des bonjours",
 							},
 							sv: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_2_LA_2_S.pdf",
+								pdfUrl: "/activities/story2/LA/Story_2_LA_2_S.pdf",
 								title: "ŽIVJO! V JEZIKIH SVETA",
 							},
 						},
@@ -1835,18 +1835,18 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 							en: {
 								label: "English",
-								pdfUrl: "/activities/story1/LA/Story_2_LA_3_E.pdf",
+								pdfUrl: "/activities/story2/LA/Story_2_LA_3_E.pdf",
 								title: "Which language is it?",
 							},
 							fr: {
 								label: "French",
-								pdfUrl: "/activities/story1/LA/Story_2_LA_3_F-1.pdf",
-								title: "COMPTER et JOUER À CACHE-CACHE",
+								pdfUrl: "/activities/story2/LA/Story 2_LA_3_F.pdf",
+								title: "Quelle langue c’est ?",
 							},
 							sv: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_2_LA_2_S.pdf",
+								pdfUrl: "/activities/story2/LA/Story_2_LA_3_S.pdf",
 								title: " KATERI JEZIK JE TO?",
 							}
 						},
@@ -1868,19 +1868,19 @@ export const ACTIVITY_GROUPS: Record<
 							en: {
 								label: "English",
 								audioUrl: "/audio/test-en.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_3_LA_1_E.pdf",
+								pdfUrl: "/activities/story3/LA/Story_3_LA_1_E.pdf",
 								title: "Dididi song",
 							},
 							fr: {
 								label: "French",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_3_LA_1_F.pdf",
-								title: "LA CHANSON DID",
+								pdfUrl: "/activities/story3/LA/Story 3_LA_1_F.pdf",
+								title: "La chanson Didi",
 							},
 							sv: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_3_LA_1_S.pdf",
+								pdfUrl: "/activities/story3/LA/Story_3_LA_1_S.pdf",
 								title: "PESMICA DIDIDI",
 							},
 						},
@@ -1892,19 +1892,19 @@ export const ACTIVITY_GROUPS: Record<
 							en: {
 								label: "English",
 								audioUrl: "/audio/test-en.opus",
-								pdfUrl: "/activities/story1/LA/Story_3_LA_2_E.pdf",
+								pdfUrl: "/activities/story3/LA/Story_3_LA_2_E.pdf",
 								title: "Rhyme memory",
 							},
 							fr: {
 								label: "French",
 								audioUrl: "/audio/test-de.opus",
-								pdfUrl: "/activities/story1/LA/Story_3_LA_2_F.pdf",
-								title: "JEU DE MÉMOIRE : LES RIMES",
+								pdfUrl: "/activities/story3/LA/Story 3_LA_2_F.pdf",
+								title: "Jeu de mémoire : les rimes",
 							},
 							sv: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_3_LA_2_S.pdf",
+								pdfUrl: "/activities/story3/LA/Story_3_LA_2_S.pdf",
 								title: "SPOMIN Z RIMAMI",
 							},
 						},
@@ -1916,18 +1916,18 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 							en: {
 								label: "English",
-								pdfUrl: "/activities/story1/LA/Story_3_LA_3_E.pdf",
+								pdfUrl: "/activities/story3/LA/Story_3_LA_3_E.pdf",
 								title: "Sounds of different languages",
 							},
 							fr: {
 								label: "French",
-								pdfUrl: "/activities/story1/LA/Story_3_LA_3_F.pdf",
-								title: "LES SONS DES DIFFÉRENTES LANGUES",
+								pdfUrl: "/activities/story3/LA/Story 3_LA_3_F.pdf",
+								title: "Les sons des différentes langues",
 							},
 							sv: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_3_LA_3_S.pdf",
+								pdfUrl: "/activities/story3/LA/Story_3_LA_3_S.pdf",
 								title: "ZVEN RAZLIČNIH JEZIKOV",
 							}
 						},
@@ -1949,19 +1949,19 @@ export const ACTIVITY_GROUPS: Record<
 							en: {
 								label: "English",
 								audioUrl: "/audio/test-en.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_4_LA_1_E.pdf",
+								pdfUrl: "/activities/story4/LA/Story_4_LA_1_E.pdf",
 								title: "The biggest sandwich in the world",
 							},
 							fr: {
 								label: "French",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_4_LA_1_F.pdf",
-								title: "LE PLUS GRAND SANDWICH AU MONDE",
+								pdfUrl: "/activities/story4/LA/Story 4_LA_1_F.pdf",
+								title: "Le plus grand sandwich au monde",
 							},
 							sv: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_4_LA_1_S.pdf",
+								pdfUrl: "/activities/story4/LA/Story_4_LA_1_S.pdf",
 								title: "NAJVEČJI SENDVIČ NA SVETU",
 							},
 						},
@@ -1973,19 +1973,19 @@ export const ACTIVITY_GROUPS: Record<
 							en: {
 								label: "English",
 								audioUrl: "/audio/test-en.opus",
-								pdfUrl: "/activities/story1/LA/Story_4_LA_2_E.pdf",
+								pdfUrl: "/activities/story4/LA/Story_4_LA_2_E.pdf",
 								title: "I spy with my little eye",
 							},
 							fr: {
 								label: "French",
 								audioUrl: "/audio/test-de.opus",
-								pdfUrl: "/activities/story1/LA/Story_4_LA_2_F.pdf",
-								title: "MON PETIT ŒIL VOIT",
+								pdfUrl: "/activities/story4/LA/Story_4_LA_2_F.pdf",
+								title: "Mon petit œil voit",
 							},
 							sv: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_4_LA_2_S.pdf",
+								pdfUrl: "/activities/story4/LA/Story_4_LA_2_S.pdf",
 								title: "VIDIM NEKAJ, KAR SE ZAČNE NA",
 							},
 						},
@@ -1997,25 +1997,345 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 							en: {
 								label: "English",
-								pdfUrl: "/activities/story1/LA/Story_4_LA_3_E.pdf",
+								pdfUrl: "/activities/story4/LA/Story_4_LA_3_E.pdf",
 								title: "What's this story about?",
 							},
 							fr: {
 								label: "French",
-								pdfUrl: "/activities/story1/LA/Story_4_LA_3_F.pdf",
-								title: "QUE RACONTE CETTE HISTOIRE?",
+								pdfUrl: "/activities/story4/LA/Story_4_LA_3_F.pdf",
+								title: "Que raconte cette histoire ?",
 							},
 							sv: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_4_LA_3_S.pdf",
+								pdfUrl: "/activities/story4/LA/Story_4_LA_3_S.pdf",
 								title: "O ČEM GOVORI TA ZGODBA?",
 							}
 						},
 					}
 				],
 			],
-		}
+		},{
+			id: "5", // Match the ID from stories.json
+			title: "Bobba in the library",
+			slug: "", // URL-friendly slug
+			description: "",
+			sets: [
+				[
+					{
+						id: "activity-5-1",
+						description: "",
+						languages: {
+							en: {
+								label: "English",
+								audioUrl: "/audio/test-en.opus", // Use your test audio
+								pdfUrl: "/activities/story5/LA/Story 5_LA_E/Story_5_LA_1_E.pdf",
+								title: " INITIAL SOUND SEARCH",
+							},
+							fr: {
+								label: "French",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story5/LA/Story 5_LA_F/Story 5_LA_1_F.pdf",
+								title: "La recherche du son initial continue",
+							},
+							sv: {
+								label: "Slovenian",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story5/LA/Story 5_LA_S/Story_5_LA_1_S.pdf",
+								title: "ISKANJE ZAČETNEGA GLASU",
+							}
+							}
+						},
+					{
+						id: "activity-5-2",
+						description: "",
+						languages: {
+							en: {
+								label: "English",
+								audioUrl: "/audio/test-en.opus", // Use your test audio
+								pdfUrl: "/activities/story5/LA/Story 5_LA_E/Story_5_LA_2_E.pdf",
+								title: "WHICH FAIRY TALE IS IT?",
+							},
+							fr: {
+								label: "French",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story5/LA/Story 5_LA_F/Story 5_LA_2_F.pdf",
+								title: "De quel conte de fées s’agit-il ?",
+							},
+							sv: {
+								label: "Slovenian",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story5/LA/Story 5_LA_S/Story_5_LA_2_S.pdf",
+								title: "KATERA PRAVLJICA JE TO?",
+							}
+							}
+						},
+					{
+						id: "activity-5-3",
+						title: "Space Vocabulary Worksheet",
+						description: "Learn words related to space in different languages",
+						languages: {
+							en: {
+								label: "English",
+								pdfUrl: "/activities/story5/LA/Story 5_LA_E/Story_5_LA_3_E.pdf",
+								title: "JAZZ CHANT",
+							},
+							fr: {
+								label: "French",
+								pdfUrl: "/activities/story5/LA/Story 5_LA_F/Story 5_LA_3_F.pdf",
+								title: "Le chant Jazz",
+							},
+							sv: {
+								label: "Slovenian",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story5/LA/Story 5_LA_S/Story_5_LA_3_S.pdf",
+								title: "JAZZ CHANT",
+							}
+						},
+					}
+				],
+			],
+		},{
+			id: "6", // Match the ID from stories.json
+			title: "The Monster castle",
+			slug: "", // URL-friendly slug
+			description: "",
+			sets: [
+				[
+					{
+						id: "activity-6-1",
+						description: "",
+						languages: {
+							en: {
+								label: "English",
+								audioUrl: "/audio/test-en.opus", // Use your test audio
+								pdfUrl: "/activities/story6/LA/Story_6_LA_1_E.pdf",
+								title: "LANGUAGE DANCE",
+							},
+							fr: {
+								label: "French",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story6/LA/Story 6_LA_1_F.pdf",
+								title: "La danse des langues",
+							},
+							sv: {
+								label: "Slovenian",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story6/LA/Story_6_LA_1_S.pdf",
+								title: "JEZIKOVNI PLES",
+							},
+						},
+					},
+					{
+						id: "activity-6-2",
+						description: "",
+						languages: {
+							en: {
+								label: "English",
+								audioUrl: "/audio/test-en.opus",
+								pdfUrl: "/activities/story6/LA/Story_6_LA_2_E.pdf",
+								title: "WHO SAYS QUACK QUACK?",
+							},
+							fr: {
+								label: "French",
+								audioUrl: "/audio/test-de.opus",
+								pdfUrl: "/activities/story6/LA/Story 6_LA_2_F.pdf",
+								title: "Qui fait coin-coin ?",
+							},
+							sv: {
+								label: "Slovenian",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story6/LA/Story_6_LA_2_S.pdf",
+								title: "KDO REČE KVAK KVAK?",
+							},
+						},
+					},
+					{
+						id: "activity-6-3",
+						title: "Worksheet",
+						description: "",
+						languages: {
+							en: {
+								label: "English",
+								pdfUrl: "/activities/story6/LA/Story_6_LA_3_E.pdf",
+								title: "FIND THE FINAL SOUND",
+							},
+							fr: {
+								label: "French",
+								pdfUrl: "/activities/story6/LA/Story 6_LA_3_F.pdf",
+								title: "À la recherche du son final",
+							},
+							sv: {
+								label: "Slovenian",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story6/LA/Story_6_LA_3_S.pdf",
+								title: "POIŠČI KONČNI GLAS",
+							}
+						},
+					}
+				],
+			],
+		},{
+			id: "7", // Match the ID from stories.json
+			title: "Celebrating Olivia's birthday",
+			slug: "", // URL-friendly slug
+			description: "",
+			sets: [
+				[
+					{
+						id: "activity-7-1",
+						description: "",
+						languages: {
+							en: {
+								label: "English",
+								audioUrl: "/audio/test-en.opus", // Use your test audio
+								pdfUrl: "/activities/story7/LA/Story_7_LA_1_E.pdf",
+								title: "GUESS THE LANGUAGE",
+							},
+							fr: {
+								label: "French",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story7/LA/Story 7_LA_1_F.pdf",
+								title: "Devine la langue",
+							},
+							sv: {
+								label: "Slovenian",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story7/LA/Story_7_LA_1_S.pdf",
+								title: "UGANI JEZIK",
+							},
+						},
+					},
+					{
+						id: "activity-7-2",
+						description: "",
+						languages: {
+							en: {
+								label: "English",
+								audioUrl: "/audio/test-en.opus",
+								pdfUrl: "/activities/story7/LA/Story_7_LA_2_E.pdf",
+								title: "WHICH HOLIDAY IS IT?",
+							},
+							fr: {
+								label: "French",
+								audioUrl: "/audio/test-de.opus",
+								pdfUrl: "/activities/story7/LA/Story 7_LA_2_F.pdf",
+								title: "De quelle fête s’agit-il ?",
+							},
+							sv: {
+								label: "Slovenian",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story7/LA/Story_7_LA_2_S.pdf",
+								title: "UGANI PRAZNIK",
+							},
+						},
+					},
+					{
+						id: "activity-7-3",
+						title: "Worksheet",
+						description: "",
+						languages: {
+							en: {
+								label: "English",
+								pdfUrl: "/activities/story7/LA/Story_7_LA_3_E.pdf",
+								title: "FIND THE RHYME",
+							},
+							fr: {
+								label: "French",
+								pdfUrl: "/activities/story7/LA/Story 7_LA_3_F.pdf",
+								title: "Trouve la rime",
+							},
+							sv: {
+								label: "Slovenian",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story7/LA/Story_7_LA_3_S.pdf",
+								title: "NAJDI RIMO",
+							}
+						},
+					}
+				],
+			],
+		},{
+			id: "8", // Match the ID from stories.json
+			title: "Going home",
+			slug: "", // URL-friendly slug
+			description: "",
+			sets: [
+				[
+					{
+						id: "activity-8-1",
+						description: "",
+						languages: {
+							en: {
+								label: "English",
+								audioUrl: "/audio/test-en.opus", // Use your test audio
+								pdfUrl: "/activities/story8/LA/Story_8_LA_1_E.pdf",
+								title: "GOODBYE AROUND THE WORLD",
+							},
+							fr: {
+								label: "French",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story8/LA/Story 8_LA_1_F.pdf",
+								title: "Tour du monde des au revoir",
+							},
+							sv: {
+								label: "Slovenian",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story8/LA/Story_8_LA_1_S.pdf",
+								title: "POSLAVLJANJE V JEZIKIH SVETA",
+							},
+						},
+					},
+					{
+						id: "activity-8-2",
+						description: "Match planet names in different languages",
+						languages: {
+							en: {
+								label: "English",
+								audioUrl: "/audio/test-en.opus",
+								pdfUrl: "/activities/story8/LA/Story_8_LA_2_E.pdf",
+								title: "JAZZ CHANT",
+							},
+							fr: {
+								label: "French",
+								audioUrl: "/audio/test-de.opus",
+								pdfUrl: "/activities/story8/LA/Story 8_LA_2_F.pdf",
+								title: "Le chant Jazz 2",
+							},
+							sv: {
+								label: "Slovenian",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story8/LA/Story_8_LA_2_S.pdf",
+								title: "JAZZ CHANT",
+							},
+						},
+					},
+					{
+						id: "activity-8-3",
+						title: "Worksheet",
+						description: "",
+						languages: {
+							en: {
+								label: "English",
+								pdfUrl: "/activities/story8/LA/Story_8_LA_3_E.pdf",
+								title: "FIND THE FINAL SOUND",
+							},
+							fr: {
+								label: "French",
+								pdfUrl: "/activities/story8/LA/Story 8_LA_3_F.pdf",
+								title: "À la recherche du son final 2",
+							},
+							sv: {
+								label: "Slovenian",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story8/LA/Story_8_LA_3_S.pdf",
+								title: "NAJDI KONČI GLAS",
+							}
+						},
+					}
+				],
+			],
+		},
 	],
 	},
 };
