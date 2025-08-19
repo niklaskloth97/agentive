@@ -2134,13 +2134,13 @@
     }],
      "por": [{
       "title": "Bobba na praia",
-      "titlePicture": "",
+      "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_P.JPG",
       "fullAudio": "/learning-material/story-3/story-por/3_complete version.m4a",
       "fullText": "/learning-material/story-3/story-por/Story3_POR.pdf",
       "pages": {
         "0": {
           "text": "Bobba na praia",
-          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_POR.JPG",
+          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_P.JPG",
           "audioUrl": "/learning-material/story-3/story-por/3_Intro.m4a"
         },
         "1": {
