@@ -345,12 +345,12 @@ export const ACTIVITY_GROUPS: Record<
 							fr: {
 								label: "French",
 								title: "Lecture dialogique",
-								pdfUrl: "/activities/story3/PC/Story_3_PL_1_F.pdf",
+								pdfUrl: "/activities/story3/PC/Story 3_PL_1_F.pdf",
 							},
 							de: {
 								label: "German",
-								title: "DIALOGISCHES LESEN",
-								pdfUrl: "/activities/story3/PC/Story_3_PL_1_G.pdf",
+								title: "Dialogisches Lesen",
+								pdfUrl: "/activities/story3/PC/Story_3_PL_G/Story3_PL_1_G.pdf",
 							}, 
 							it: {
 								label: "Italian",
@@ -371,19 +371,19 @@ export const ACTIVITY_GROUPS: Record<
 						en: {
 							label: "English",
 							audioUrl: "/audio/test-en.opus",
-							pdfUrl: "/activities/story3/PC/Story_3_PL_1_E.pdf",
+							pdfUrl: "/activities/story3/PC/Story_3_PL_2_E.pdf",
 							title: "Action story",
 						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-fr.opus",
-							pdfUrl: "/activities/story3/PC/Story_3_PL_2_F.pdf",
+							pdfUrl: "/activities/story3/PC/Story 3_PL_2_F.pdf",
 							title: "Histoire à mimer",
 						},
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story3/PC/Story_3_PL_2_G.pdf",
+							pdfUrl: "/activities/story3/PC/Story_3_PL_G/Story3_PL_2_G.pdf",
 							title: "Bewegungsgeschichte",
 						}, 
 						it: {
@@ -414,13 +414,13 @@ export const ACTIVITY_GROUPS: Record<
 						},
 						fr: {
 							label: "French",
-							pdfUrl: "/activities/story3/PC/Story_3_PL_3_F.pdf",
+							pdfUrl: "/activities/story3/PC/Story 3_PL_3_F.pdf",
 							title: "Les émotions",
 						},
 						de: {
 							label: "German",
-							pdfUrl: "/activities/story3/PC/Story_3_PL_3_G.pdf",
-							title: "GEFÜHLE",
+							pdfUrl: "/activities/story3/PC/Story_3_PL_G/Story3_PL_3_G.pdf",
+							title: "Gefühle",
 						},
 						it: {
 							label: "Italian",
@@ -446,13 +446,13 @@ export const ACTIVITY_GROUPS: Record<
 						},
 						fr: {
 							label: "French",
-							pdfUrl: "/activities/story3/PC/Story_3_PL_4_F.pdf",
-							title: "QU'EST-CE QU'IL Y A DANS LA MER ?",
+							pdfUrl: "/activities/story3/PC/Story 3_PL_4_F.pdf",
+							title: "Qu'est-ce qu'il y a dans la mer",
 						},
 						de: {
 							label: "German",
-							pdfUrl: "/activities/story3/PC/Story_3_PL_4_G.pdf",
-							title: "WAS KÖNNEN WIR AM MEER SEHEN?",
+							pdfUrl: "/activities/story3/PC/Story_3_PL_G/Story3_PL_4_G.pdf",
+							title: "Was können wir im Meer sehen?",
 						}, 
 						it: {
 							label: "Italian",
@@ -487,12 +487,12 @@ export const ACTIVITY_GROUPS: Record<
 							fr: {
 								label: "French",
 								title: "Comprendre et créer des histoires",
-								pdfUrl: "/activities/story4/PC/Story_4_PL_1_F.pdf",
+								pdfUrl: "/activities/story4/PC/Story 4_PL_1_F.pdf",
 							},
 							de: {
 								label: "German",
-								title: "GESCHICHTEN VERSTEHEN UND ERZÄHLEN",
-								pdfUrl: "/activities/story4/PC/Story_4_PL_1_G.pdf",
+								title: "Geschichten verstehen und erzählen",
+								pdfUrl: "/activities/story4/PC/Story 4_PL_G/Story4_PL_1_G.pdf",
 							}, 
 							it: {
 								label: "Italian",
@@ -519,14 +519,14 @@ export const ACTIVITY_GROUPS: Record<
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story4/PC/Story_4_PL_2_F.pdf",
+							pdfUrl: "/activities/story4/PC/Story 4_PL_2_F.pdf",
 							title: "Bon appétit",
 						},
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story4/PC/Story_4_PL_2_G.pdf",
-							title: "GUTEN APPETIT!",
+							pdfUrl: "/activities/story4/PC/Story 4_PL_G/Story4_PL_2_G.pdf",
+							title: "Guten Appetit!",
 						}, 
 						it: {
                             label: "Italian",
@@ -556,13 +556,13 @@ export const ACTIVITY_GROUPS: Record<
 						},
 						fr: {
 							label: "French",
-							pdfUrl: "/activities/story4/PC/Story_4_PL_3_F.pdf",
+							pdfUrl: "/activities/story4/PC/Story 4_PL_3_F.pdf",
 							title: "Mime et répète après moi",
 						}, 
 						de: {
 							label: "German",
-							pdfUrl: "/activities/story4/PC/Story_4_PL_3_G.pdf",
-							title: "MACH MIT, SPRICH MIT!",
+							pdfUrl: "/activities/story4/PC/Story 4_PL_G/Story4_PL_3_G.pdf",
+							title: "Mach mit, sprich mit!",
 						},
 						it: {
 							label: "Italian",
@@ -591,7 +591,7 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 							de: {
 								label: "German",
-								title: "BIBLIOTHEKEN IN VERSCHIEDENEN SPRACHEN",
+								title: "Bibliotheken in verschiedenen Sprachen",
 								pdfUrl: "/activities/story5/PC/Story 5_PL_G/Story5_PL_1_G.pdf",
 							},
 							fr: {
@@ -619,7 +619,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus",
 							pdfUrl: "/activities/story5/PC/Story 5_PL_G/Story5_PL_2_G.pdf",
-							title: "TELEFONSPIEL",
+							title: "Telefonspiel",
 						},
 						fr: {
 							label: "French",
@@ -647,7 +647,7 @@ export const ACTIVITY_GROUPS: Record<
 						de: {
 							label: "German",
 							pdfUrl: "/activities/story5/PC/Story 5_PL_G/Story5_PL_3_G.pdf",
-							title: "RATESPIEL",
+							title: "Ratespiel",
 						},
 						fr: {
 							label: "French",
@@ -729,7 +729,7 @@ export const ACTIVITY_GROUPS: Record<
 						fr: {
 							label: "French",
 							pdfUrl: "/activities/story6/PC/Story 6_PL_3_F.pdf",
-							title: "Les devinettes",
+							title: "Le jour de la fête plurilingue des monstres",
 						}, 
 						it: {
 							label: "Italian",
@@ -758,12 +758,12 @@ export const ACTIVITY_GROUPS: Record<
 							en: {
 								label: "English",
 								title: "Your last Birthday",
-								pdfUrl: "/activities/story7/PC/Story7_PL_1_E.pdf",
+								pdfUrl: "/activities/story7/PC/Story_7_PL_1_E.pdf",
 							},
 							fr: {
 								label: "French",
 								title: "Ton dernier anniversaire",
-								pdfUrl: "/activities/story7/PC/Story7_PL_1_F.pdf",
+								pdfUrl: "/activities/story7/PC/Story 7_PL_1_F.pdf",
 							}, 
 							it: {
 								label: "Italian",
@@ -784,13 +784,13 @@ export const ACTIVITY_GROUPS: Record<
 						en: {
 							label: "English",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story7/PC/Story7_PL_2_E.pdf",
+							pdfUrl: "/activities/story7/PC/Story_7_PL_2_E.pdf",
 							title: "Birthday wishes",
 						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-fr.opus",
-							pdfUrl: "/activities/story7/PC/Story7_PL_2_F.pdf",
+							pdfUrl: "/activities/story7/PC/Story 7_PL_2_F.pdf",
 							title: "Vœux d’anniversaire",
 						},
 						it: {
@@ -812,12 +812,12 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 						en: {
 							label: "English",
-							pdfUrl: "/activities/story7/PC/Story7_PL_3_E.pdf",
+							pdfUrl: "/activities/story7/PC/Story_7_PL_3_E.pdf",
 							title: "The Intruder",
 						},
 						fr: {
 							label: "French",
-							pdfUrl: "/activities/story7/PC/Story7_PL_3_F.pdf",
+							pdfUrl: "/activities/story7/PC/Story 7_PL_3_F.pdf",
 							title: "L’intrus",
 						}, 
 						it: {
@@ -1059,7 +1059,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story2/ELS/Story_2_ELS_1_G.pdf",
-							title: "SCHATZSUCHE MIT SCHRIFTLICHEN HINWEISEN",
+							title: "Schatzsuche mit schriftlichen Hinweisen",
 						}, 
 						it: {
                             label: "Italian",
@@ -1090,7 +1090,7 @@ export const ACTIVITY_GROUPS: Record<
 						de: {
 							label: "German",
 							pdfUrl: "/activities/story2/ELS/Story_2_ELS_2_G.pdf",
-							title: "AUFGABEN WÄHREND DER SCHATZSUCHE & EINE GEHEIMNACHRICHT ENTSCHLÜSSELN",
+							title: "Aufgaben während der Schatzsuche & eine Geheimnachricht entschlüsseln",
 						}, 
 						it: {
 							label: "Italian",
@@ -1116,7 +1116,7 @@ export const ACTIVITY_GROUPS: Record<
 						de: {
 							label: "German",
 							pdfUrl: "/activities/story2/ELS/Story_2_ELS_3_G.pdf",
-							title: "SCHATZSUCHE NACH SCHRIFTLICHEN GEGENSTÄNDEN ZUHAUSE",
+							title: "Schatzsuche nach schriftlichen Gegenständen zu Hause",
 						}, 
 						it: {
 							label: "Italian",
@@ -1240,8 +1240,8 @@ export const ACTIVITY_GROUPS: Record<
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story4/ELS/Story 4_ELS_1_G.pdf",
-							title: "ÜBERNACHTUNGSPARTY – BUCHSTABEN ENTDECKEN",
+							pdfUrl: "/activities/story4/ELS/Story_4_ELS_1_G.pdf",
+							title: "Übernachtungsparty – Buchstaben entdecken",
 						}, 
 						it: {
                             label: "Italian",
@@ -1270,8 +1270,8 @@ export const ACTIVITY_GROUPS: Record<
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story4/ELS/Story 4_ELS_2_G.pdf",
-							title: "BUCHSTABEN MIT SEILEN, TASCHENLAMPEN UND REFLEKTIERENDEN PUNKTEN",
+							pdfUrl: "/activities/story4/ELS/Story_4_ELS_2_G.pdf",
+							title: "Buchstaben mit Seilen, Taschenlampen und reflektierenden Punkten",
 						}, 
 						it: {
                             label: "Italian",
@@ -1301,7 +1301,7 @@ export const ACTIVITY_GROUPS: Record<
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story4/ELS/Story 4_ELS_2_G.pdf",
+							pdfUrl: "/activities/story4/ELS/Story_4_ELS_3_G.pdf",
 							title: "Lieblings-gute-Nacht-Geschichten",
 						}, 
 						it: {
@@ -1347,7 +1347,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_1_G.pdf",
-							title: "SCHREIBEN MIT VERSCHIEDENEN MATERIALIEN",
+							title: "Schreiben mit verschiedenen Materialien",
 						},
 						it: {
                             label: "Italian",
@@ -1379,7 +1379,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_2_G.pdf",
-							title: "AUFBAU EINER BIBLIOTHEK",
+							title: "Aufbau einer Bibliothek",
 						}, 
 						it: {
                             label: "Italian",
@@ -1410,7 +1410,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_3_G.pdf",
-							title: "EINE KLASSENBIBLIOTHEK ERSTELLEN",
+							title: "Eine Klassenbibliothek erstellen",
 						}, 
 						it: {
                             label: "Italian",
@@ -1499,7 +1499,7 @@ export const ACTIVITY_GROUPS: Record<
 						fr: {
 							label: "French",
 							pdfUrl: "/activities/story6/ELS/Story 6_ELS_3_F.pdf",
-							title: "Écrire une invitation",
+							title: "Les mots écrits dans différentes langues",
 						}, 
 						it: {
 							label: "Italian",
