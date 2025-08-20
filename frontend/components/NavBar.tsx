@@ -43,7 +43,7 @@ export default function NavBar() {
             </Link>
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-              <a className="transition-colors hover:text-foreground/80 text-foreground" href="/learning-material">
+              <a className="transition-colors hover:text-foreground/80 text-foreground" href="/dashboard">
                 <TranslateButtons translationKey="multilingual-ressources" currentLanguage={websiteLanguage} />
               </a>
               <a className="transition-colors hover:text-foreground/80 text-foreground" href="/about">
