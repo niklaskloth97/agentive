@@ -1873,6 +1873,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_1_F.pdf",
 							title: "Partage de saveurs",
 						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_1_G.pdf",
+							title: "GESCHMÄCKER TEILEN",
+						},
 						sv: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -1911,6 +1917,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_2_F.pdf",
 							title: "Un pont entre nous",
 						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_2_G.pdf",
+							title: "BRÜCKEN BAUEN – DAS NEUE MIT DEM VERTRAUTEN VERBINDEN",
+						},
 						sv: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -1946,6 +1958,12 @@ export const ACTIVITY_GROUPS: Record<
 							label: "French",
 							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_3_F.pdf",
 							title: "L’affaire des chiffres",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_3_G.pdf",
+							title: "ZAHLENDETEKTIVE",
 						},
 						sv: {
 							label: "Slovenian",
@@ -1995,6 +2013,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story3/ICAU/Story_3_ICAU_1_F.pdf",
 							title: "Tour du monde des émotions",
 						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story3/ICAU/Story_3_ICAU_1_G.pdf",
+							title: "GEFÜHLE GIBT ES ÜBERALL AUF DER WELT",
+						},
 						sv: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -2033,6 +2057,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story3/ICAU/Story_3_ICAU_2_F.pdf",
 							title: "Allons à la plage",
 						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story3/ICAU/Story_3_ICAU_2_G.pdf",
+							title: "KOMM, WIR GEHEN ZUM STRAND!",
+						},
 						sv: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -2068,6 +2098,12 @@ export const ACTIVITY_GROUPS: Record<
 							label: "French",
 							pdfUrl: "/activities/story3/ICAU/Story_1_ICAU_3_F.pdf",
 							title: "Cinq amis à la plage",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story3/ICAU/Story_1_ICAU_3_G.pdf",
+							title: "FÜNF FREUNDE AM STRAND",
 						},
 						sv: {
 							label: "Slovenian",
@@ -2117,6 +2153,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story4/ICAU/Story 4_ICAU_2_F-1.pdf",
 							title: "Voyager grâce à la nourriture",
 						}, 
+						sv: {
+							label: "Slovanian",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story4/ICAU/Story 4_ICAU_2_F-1.pdf",
+							title: "KULINARIČNO POTOVANJE",
+						}, 
 						it: {
                             label: "Italian",
                             audioUrl: "",
@@ -2149,6 +2191,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story4/ICAU/Story 4_ICAU_2_F.pdf",
 							title: "Jouons comme moi ou comme toi",
 						}, 
+						sv: {
+							label: "Slovanian",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story4/ICAU/Story 4_ICAU_2_F-1.pdf",
+							title: "IGRAJ SE PO MOJE, IGRAM SE PO TVOJE",
+						}, 
 						it: {
                             label: "Italian",
                             audioUrl: "",
@@ -2178,6 +2226,12 @@ export const ACTIVITY_GROUPS: Record<
 							label: "French",
 							pdfUrl: "/activities/story4/ICAU/Story 4_ICAU_3_F.pdf",
 							title: "Tour du monde des jeux",
+						}, 
+						sv: {
+							label: "Slovanian",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story4/ICAU/Story 4_ICAU_3_S.pdf",
+							title: "IGRE OD TU IN TAM",
 						}, 
 						it: {
 							label: "Italienisch",
@@ -2220,7 +2274,7 @@ export const ACTIVITY_GROUPS: Record<
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_G/Story5_PL_1_G.pdf",
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_G/Story5_ICAU_1_G.pdf",
 							title: "BIBLIOTHEKEN IN VERSCHIEDENEN SPRACHEN",
 						},
 						sv: {
@@ -2264,7 +2318,7 @@ export const ACTIVITY_GROUPS: Record<
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_G/Story5_PL_2_G.pdf",
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_G/Story5_ICAU_2_G.pdf",
 							title: "TELEFONSPIEL",
 						},
 						sv: {
@@ -2307,7 +2361,7 @@ export const ACTIVITY_GROUPS: Record<
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_G/Story5_PL_3_G.pdf",
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_G/Story5_ICAU_3_G.pdf",
 							title: "RATESPIEL",
 						},
 						sv: {
@@ -2732,6 +2786,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story1/LA/Story 1_LA_1_F.pdf",
 								title: "Comparer les noms",
 							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story1/LA/Story 1_LA_1_G.pdf",
+								title: "NAMEN VERGLEICHEN",
+							},
 							sv: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -2768,6 +2828,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story1/LA/Story 1_LA_2_F.pdf",
 								title: "Comment t’appelles-tu ?",
 							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story1/LA/Story 1_LA_2_G.pdf",
+								title: "WIE HEISST DU?",
+							},
 							sv: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -2802,6 +2868,12 @@ export const ACTIVITY_GROUPS: Record<
 								label: "French",
 								pdfUrl: "/activities/story1/LA/Story 1_LA_3_F.pdf",
 								title: "Nommer la planète de Bobba",
+							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story1/LA/Story 1_LA_3_G.pdf",
+								title: "BEGRÜSSUNGEN",
 							},
 							sv: {
 								label: "Slovenian",
@@ -2851,6 +2923,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story2/LA/Story 2_LA_1_F.pdf",
 								title: "À la recherche du son initial",
 							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							},
 							sv: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -2887,6 +2965,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story2/LA/Story 2_LA_2_F.pdf",
 								title: "Tour du monde des bonjours",
 							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story1/LA/Story2_LA_2_G.pdf",
+								title: "HALLO AUF DER GANZEN WELT",
+							},
 							sv: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -2921,6 +3005,12 @@ export const ACTIVITY_GROUPS: Record<
 								label: "French",
 								pdfUrl: "/activities/story2/LA/Story 2_LA_3_F.pdf",
 								title: "Quelle langue c’est ?",
+							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story1/LA/Story2_LA_3_G.pdf",
+								title: "WELCHE SPRACHE IST DAS?",
 							},
 							sv: {
 								label: "Slovenian",
@@ -2970,6 +3060,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story3/LA/Story 3_LA_1_F.pdf",
 								title: "La chanson Didi",
 							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story3/LA/Story 3_LA_1_G.pdf",
+								title: "DAS DIDIDI-LIED",
+							},
 							sv: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -3006,6 +3102,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story3/LA/Story 3_LA_2_F.pdf",
 								title: "Jeu de mémoire : les rimes",
 							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus",
+								pdfUrl: "/activities/story3/LA/Story 3_LA_2_G.pdf",
+								title: "REIME-MEMORY",
+							},
 							sv: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -3040,6 +3142,11 @@ export const ACTIVITY_GROUPS: Record<
 								label: "French",
 								pdfUrl: "/activities/story3/LA/Story 3_LA_3_F.pdf",
 								title: "Les sons des différentes langues",
+							},
+							de: {
+								label: "German",
+								pdfUrl: "/activities/story3/LA/Story 3_LA_3_G.pdf",
+								title: "SPRACHEN KLINGEN VERSCHIEDEN",
 							},
 							sv: {
 								label: "Slovenian",
@@ -3089,6 +3196,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story4/LA/Story 4_LA_1_F.pdf",
 								title: "Le plus grand sandwich au monde",
 							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story4/LA/Story 4_LA_1_G.pdf",
+								title: "",
+							},
 							sv: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -3125,6 +3238,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story4/LA/Story_4_LA_2_F.pdf",
 								title: "Mon petit œil voit",
 							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story4/LA/Story 4_LA_2_G.pdf",
+								title: "",
+							},
 							sv: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -3159,6 +3278,12 @@ export const ACTIVITY_GROUPS: Record<
 								label: "French",
 								pdfUrl: "/activities/story4/LA/Story_4_LA_3_F.pdf",
 								title: "Que raconte cette histoire ?",
+							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story4/LA/Story 4_LA_3_G.pdf",
+								title: "",
 							},
 							sv: {
 								label: "Slovenian",
