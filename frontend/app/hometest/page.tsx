@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function HomeTestPage() {
   return (
@@ -74,7 +73,7 @@ export default function HomeTestPage() {
           <p className="text-gray-700 mb-6">
            AGENTIVE involves universities and organizations from Luxembourg, Switzerland, Greece, Slovenia, 
            Germany and Italy. Together, were leveraging expertise across academia, schools, and businesses 
-           to drive innovation in multilingual education. Visit "The Team" page.
+           to drive innovation in multilingual education. Visit `&quot;`The Team`&quot;` page.
            Our team is made up of passionate researchers, teachers and developers working together 
            to make a multilingual education accessible to everyone.
           </p>
