@@ -2549,6 +2549,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story6/ICAU/Story_ICAU_1_S.pdf",
 							title: "ČAROBNA BITJA",
 						}, 
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story6/ICAU/Story6_ICAU_1_G.pdf",
+							title: "MAGISCHE WESEN",
+						}, 
 						it: {
                             label: "Italian",
                             audioUrl: "",
@@ -2587,6 +2593,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story6/ICAU/Story_ICAU_2_S.pdf",
 							title: "ZAHVALA V JEZIKIH SVETA",
 						}, 
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story6/ICAU/Story6_ICAU_2_G.pdf",
+							title: "DANKE AUF DER GANZEN WELT",
+						}, 
 						it: {
                             label: "Italian",
                             audioUrl: "",
@@ -2624,6 +2636,12 @@ export const ACTIVITY_GROUPS: Record<
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story6/ICAU/Story_ICAU_3_S.pdf",
 							title: "JEMO NA RAZLIČNE NAČINE",
+						}, 
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story6/ICAU/Story6_ICAU_2_G.pdf",
+							title: "VERSCHIEDENE ARTEN ZU ESSEN",
 						}, 
 						it: {
                             label: "Italian",
@@ -2671,6 +2689,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story7/ICAU/Story_7_ICAU_1_S.pdf",
 							title: "ENO LETO, VELIKO PRAZNOVANJ",
 						}, 
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story7/ICAU/Story7_ICAU_1_G.pdf",
+							title: "EIN JAHR UND VIELE FESTE",
+						}, 
 						it: {
                             label: "Italian",
                             audioUrl: "",
@@ -2709,6 +2733,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story7/ICAU/Story_7_ICAU_2_S.pdf",
 							title: "ZAPOJMO SKUPAJ: ROJSTNODNEVNE PESMI OD DOMA",
 						}, 
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story7/ICAU/Story7_ICAU_2_G.pdf",
+							title: "LASST UND SINGEN: GEBURTSTAGSLIEDER VON ZUHAUSE",
+						}, 
 						it: {
                             label: "Italian",
                             audioUrl: "",
@@ -2746,6 +2776,12 @@ export const ACTIVITY_GROUPS: Record<
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story7/ICAU/Story_7_ICAU_3_S.pdf",
 							title: "ROKE, BESEDE IN ŽELJE",
+						}, 
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story7/ICAU/Story7_ICAU_3_G.pdf",
+							title: "HÄNDE, WORTE, WÜNSCHE",
 						}, 
 						it: {
                             label: "Italian",
@@ -2795,6 +2831,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story8/ICAU/Story_8_ICAU_1_S.pdf",
 							title: "ŽIVLJENJE NA RAZLIČNIH KONCIH SVETA",
 						}, 
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story8/ICAU/Story8_ICAU_1_G.pdf",
+							title: "LEBENSWEISEN AUF DER WELT",
+						}, 
 						it: {
                             label: "Italian",
                             audioUrl: "",
@@ -2833,6 +2875,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story8/ICAU/Story_8_ICAU_2_S.pdf",
 							title: "MOJ DOM, TVOJ DOM",
 						}, 
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story8/ICAU/Story8_ICAU_2_G.pdf",
+							title: "MEIN HEIM, DEIN HEIM",
+						}, 
 						it: {
                             label: "Italian",
                             audioUrl: "",
@@ -2870,6 +2918,12 @@ export const ACTIVITY_GROUPS: Record<
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story8/ICAU/Story_8_ICAU_3_S.pdf",
 							title: "NASVIDENJE",
+						}, 
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story8/ICAU/Story8_ICAU_2_G.pdf",
+							title: "AUFWIEDERSEHEN",
 						}, 
 						it: {
                             label: "Italian",
@@ -3589,6 +3643,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story6/LA/Story_6_LA_1_S.pdf",
 								title: "JEZIKOVNI PLES",
 							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story6/LA/Story6_LA_1_G.pdf",
+								title: "SPRACHENTANZ",
+							},
 							it: {
 								label: "Italian",
 								audioUrl: "",
@@ -3625,6 +3685,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story6/LA/Story_6_LA_2_S.pdf",
 								title: "KDO REČE KVAK KVAK?",
 							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story6/LA/Story6_LA_2_G.pdf",
+								title: "WAS MACHT QUAK QUAK?",
+							},
 							it: {
 								label: "Italian",
 								audioUrl: "",
@@ -3659,6 +3725,12 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story6/LA/Story_6_LA_3_S.pdf",
 								title: "POIŠČI KONČNI GLAS",
+							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story6/LA/Story6_LA_3_G.pdf",
+								title: "DEN AUSLAUT FINDEN",
 							},
 							it: {
 								label: "Italian",
@@ -3707,6 +3779,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story7/LA/Story_7_LA_1_S.pdf",
 								title: "UGANI JEZIK",
 							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story7/LA/Story7_LA_1_G.pdf",
+								title: "ERRATE DIE SPRACHE",
+							},
 							it: {
 								label: "Italian",
 								audioUrl: "",
@@ -3743,6 +3821,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story7/LA/Story_7_LA_2_S.pdf",
 								title: "UGANI PRAZNIK",
 							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story7/LA/Story7_LA_2_G.pdf",
+								title: "WAS WIRD GEFEIERT?",
+							},
 							it: {
 								label: "Italian",
 								audioUrl: "",
@@ -3777,6 +3861,12 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story7/LA/Story_7_LA_3_S.pdf",
 								title: "NAJDI RIMO",
+							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story7/LA/Story7_LA_3_G.pdf",
+								title: "FINDE DEN REIM",
 							}, 
 							it: {
 								label: "Italian",
@@ -3823,6 +3913,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story8/LA/Story_8_LA_1_S.pdf",
 								title: "POSLAVLJANJE V JEZIKIH SVETA",
 							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story7/LA/Story8_LA_1_G.pdf",
+								title: "AUFWIEDERSEHEN AUF DER GANZEN WELT",
+							}, 
 							it: {
 								label: "Italian",
 								audioUrl: "",
@@ -3859,6 +3955,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story8/LA/Story_8_LA_2_S.pdf",
 								title: "JAZZ CHANT",
 							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story7/LA/Story8_LA_2_G.pdf",
+								title: "JAZZ CHANT",
+							}, 
 							it: {
 								label: "Italian",
 								audioUrl: "",
@@ -3894,6 +3996,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story8/LA/Story_8_LA_3_S.pdf",
 								title: "NAJDI KONČI GLAS",
 							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story7/LA/Story8_LA_2_G.pdf",
+								title: "AUSLAUTE FINDEN",
+							}, 
 							it: {
 								label: "Italian",
 								audioUrl: "",
