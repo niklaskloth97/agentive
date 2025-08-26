@@ -682,7 +682,12 @@ export const ACTIVITY_GROUPS: Record<
 								label: "French",
 								title: "Laurentia. Liebe Laurentia mein",
 								pdfUrl: "/activities/story6/PC/Story 6_PL_1_F.pdf",
-							}, 
+							},
+							de: {
+								label: "German",
+								title: "Laurentia. Liebe Laurentia mein",
+								pdfUrl: "/activities/story6/PC/Story6_PL_1_G.pdf",
+							},
 							it: {
 								label: "Italian",
 								title: "",
@@ -711,6 +716,11 @@ export const ACTIVITY_GROUPS: Record<
                             pdfUrl: "",
                             title: "",
                         },
+						de: {
+								label: "German",
+								title: "Mehrsprachige Monstergespräche",
+								pdfUrl: "/activities/story6/PC/Story6_PL_2_G.pdf",
+							},
                         ld: {
                             label: "Ladisch",
                             audioUrl: "",
@@ -731,6 +741,11 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story6/PC/Story 6_PL_3_F.pdf",
 							title: "Le jour de la fête plurilingue des monstres",
 						}, 
+						de: {
+								label: "German",
+								title: "Mach mit bei der mehrsprachigen Monsterparty!",
+								pdfUrl: "/activities/story6/PC/Story6_PL_3_G.pdf",
+							},
 						it: {
 							label: "Italian",
 							title: "",
@@ -765,6 +780,11 @@ export const ACTIVITY_GROUPS: Record<
 								title: "Ton dernier anniversaire",
 								pdfUrl: "/activities/story7/PC/Story 7_PL_1_F.pdf",
 							}, 
+							de: {
+								label: "German",
+								title: "Dein letzter Geburtstag",
+								pdfUrl: "/activities/story7/PC/Story7_PL_1_G.pdf",
+							},
 							it: {
 								label: "Italian",
 								title: "",
@@ -793,6 +813,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story7/PC/Story 7_PL_2_F.pdf",
 							title: "Vœux d’anniversaire",
 						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus",
+							title: "Geburtstagswünsche",
+							pdfUrl: "/activities/story7/PC/Story7_PL_2_G.pdf",
+							},
 						it: {
 							label: "Italian",
 							title: "",
@@ -819,7 +845,12 @@ export const ACTIVITY_GROUPS: Record<
 							label: "French",
 							pdfUrl: "/activities/story7/PC/Story 7_PL_3_F.pdf",
 							title: "L’intrus",
-						}, 
+						},
+						de: {
+								label: "German",
+								title: "Der Fremdling",
+								pdfUrl: "/activities/story7/PC/Story7_PL_3_G.pdf",
+							},
 						it: {
 							label: "Italian",
 							title: "",
@@ -844,6 +875,16 @@ export const ACTIVITY_GROUPS: Record<
 					{
 						id: "activity-8-1",
 						languages: {
+							en: {
+							label: "English",
+							pdfUrl: "/activities/story8/PC/Story_8_PL_1_E.pdf",
+							title: "Celebrating Bobba’s Farewell",
+							},
+							de: {
+								label: "German",
+								title: "Bobbas Abschied feiern",
+								pdfUrl: "/activities/story8/PC/Story8_PL_1_G.pdf",
+							},
 							fr: {
 								label: "French",
 								title: "Fêtons le départ de Bobba",
@@ -865,6 +906,18 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-8-2",
 						description: "",
 						languages: {
+							en: {
+							label: "English",
+							audioUrl: "/audio/test-en.opus",
+							pdfUrl: "/activities/story8/PC/Story_8_PL_2_E.pdf",
+							title: "Picture album",
+							},
+							de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus",
+							title: "Bilderalbum",
+							pdfUrl: "/activities/story8/PC/Story8_PL_2_G.pdf",
+							},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-fr.opus",
@@ -895,6 +948,16 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story8/PC/Story 8_PL_3_F.pdf",
 							title: "Ton mot préféré",
 						}, 
+						en: {
+							label: "English",
+							pdfUrl: "/activities/story8/PC/Story_8_PL_3_E.pdf",
+							title: "Favourite word",
+							},
+						de: {
+							label: "German",
+							title: "Lieblingswort",
+							pdfUrl: "/activities/story8/PC/Story8_PL_3_G.pdf",
+							},
 						it: {
 							label: "Italian",
 							title: "",
@@ -1450,6 +1513,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story6/ELS/Story 6_ELS_1_F.pdf",
 							title: "Déchiffrer une invitation",
 						}, 
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story6/ELS/Story_6_ELS_1_G.pdf",
+							title: "Eine Einladung entschlüsseln",
+						}, 
 						it: {
                             label: "Italian",
                             audioUrl: "",
@@ -1476,6 +1545,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story6/ELS/Story 6_ELS_2_F.pdf",
 							title: "Écrire une invitation",
 						}, 
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story6/ELS/Story_6_ELS_2_G.pdf",
+							title: "Schildbeschriftungen in verschiedenen Sprachen",
+						}, 
 						it: {
                             label: "Italian",
                             audioUrl: "",
@@ -1500,6 +1575,11 @@ export const ACTIVITY_GROUPS: Record<
 							label: "French",
 							pdfUrl: "/activities/story6/ELS/Story 6_ELS_3_F.pdf",
 							title: "Les mots écrits dans différentes langues",
+						}, 
+						de: {
+							label: "German",
+							pdfUrl: "/activities/story6/ELS/Story_6_ELS_3_G.pdf",
+							title: "Schildbeschriftungen in verschiedenen Sprachen",
 						}, 
 						it: {
 							label: "Italian",
@@ -1535,6 +1615,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story7/ELS/Story 7_ELS_1_F.pdf",
 							title: "La couronne d’anniversaire",
 						}, 
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story7/ELS/Story_7_ELS_1_G.pdf",
+							title: "Geburtstagskrone",
+						},
 						it: {
                             label: "Italian",
                             audioUrl: "",
@@ -1561,6 +1647,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story7/ELS/Story 7_ELS_2_F.pdf",
 							title: "Vœux d’anniversaire, création de cadeaux d’anniversaire",
 						}, 
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story7/ELS/Story_7_ELS_2_G.pdf",
+							title: "Geburtstagsgeschenke gestalten",
+						},
 						it: {
                             label: "Italian",
                             audioUrl: "",
@@ -1586,6 +1678,11 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story7/ELS/Story 7_ELS_3_F.pdf",
 							title: "Jeu d’anniversaire : la pêche aux lettres",
 						}, 
+						de: {
+							label: "German",
+							pdfUrl: "/activities/story7/ELS/Story_7_ELS_3_G.pdf",
+							title: "Geburtstagsspiel: Buchstaben angeln",
+						},
 						it: {
 							label: "Italian",
 							title: "",
@@ -1620,6 +1717,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story8/ELS/Story 8_ELS_1_F.pdf",
 							title: "Trouve les lettres",
 						}, 
+						en: {
+							label: "English",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story8/ELS/Story_8_ELS_1_E.pdf",
+							title: "Finding Letters",
+						}, 
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story8/ELS/Story_8_ELS_1_G.pdf",
+							title: "Buchstaben finden",
+						}, 
 						it: {
                             label: "Italian",
                             audioUrl: "",
@@ -1645,6 +1754,18 @@ export const ACTIVITY_GROUPS: Record<
 							audioUrl: "/audio/test-de.opus",
 							pdfUrl: "/activities/story8/ELS/Story 8_ELS_2_F.pdf",
 							title: "ABC : l’alphabet",
+						},
+						en: {
+							label: "English",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story8/ELS/Story_8_ELS_2_E.pdf",
+							title: "ABC - The Alphabet",
+						}, 
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story8/ELS/Story_8_ELS_2_G.pdf",
+							title: "ABC - Das Alphabet",
 						}, 
 						it: {
                             label: "Italian",
@@ -1670,6 +1791,16 @@ export const ACTIVITY_GROUPS: Record<
 							label: "French",
 							pdfUrl: "/activities/story8/ELS/Story 8_ELS_3_F.pdf",
 							title: "À la recherche des lettres manquantes",
+						},
+						en: {
+							label: "English",
+							pdfUrl: "/activities/story8/ELS/Story_8_ELS_3_E.pdf",
+							title: "Looking for Missing Letters",
+						}, 
+						de: {
+							label: "German",
+							pdfUrl: "/activities/story8/ELS/Story_8_ELS_3_G.pdf",
+							title: "Fehlende Buchstaben finden",
 						}, 
 						it: {
 							label: "Italian",
