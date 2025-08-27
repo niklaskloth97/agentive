@@ -1091,7 +1091,15 @@ const translations: Record<string, Record<string, string>> = {
     'Slovenian': 'Prekliči',
     'Italian': 'Annulla',
     'Greek': 'Ακύρωση'
-    
+},
+'early-literacy-education': {
+  'English': 'Early Literacy Education',
+  'French': 'Éducation Précoce à la Littératie',
+  'Lux': 'Fréizäiteg Schriftsproochen-Educatioun',
+  'Slovenian': 'Zgodnje opismenjevanje',
+  'Italian': 'Educazione alla Prima Alfabetizzazione',
+  'German': 'Schriftspracherwerb',
+  'Greek': 'Πρώιμη Εκπαίδευση Γραμματισμού'
 }
 };
 

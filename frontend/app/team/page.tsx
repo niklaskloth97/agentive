@@ -176,6 +176,26 @@ export default function Team() {
           ), 
           image: '/images/people/Yasmine_Azza.png' 
         },
+        { 
+          name: 'Sven Nickel', 
+          role: (
+            <TranslateButtons
+              translationKey='early-literacy-education'
+              currentLanguage={websiteLanguage}
+            />
+          ), 
+          image: '/images/people/Sven_Nickel.jpeg' 
+        },
+        { 
+          name: 'Renata Zanin', 
+          role: (
+            <TranslateButtons
+              translationKey='early-literacy-education'
+              currentLanguage={websiteLanguage}
+            />
+          ), 
+          image: '/placeholder.svg' 
+        },
       ]
     },
     { 
