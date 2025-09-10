@@ -2,12 +2,12 @@
 
 import { motion } from "framer-motion";
 import { cn } from '@/lib/utils';
-import React from 'react';
+import React, { ReactNode } from 'react';
 
 interface SectionWithIconProps {
   icon?: React.ReactNode;
-  title: string;
-  description: string;
+  title: ReactNode; // Changed from string to ReactNode
+  description: ReactNode; // Changed from string to ReactNode
   color?: string;
   className?: string;
 }
@@ -63,7 +63,7 @@ const SectionWithIcon: React.FC<SectionWithIconProps> = ({
       <h2 className="text-2xl font-bold mb-4 flex items-center justify-center gap-3">
         {icon} {title}
       </h2>
-      <p className="text-lg max-w-4xl mx-auto">{description}</p>
+      <div className="text-lg max-w-4xl mx-auto">{description}</div>
     </motion.div>
   );
 };

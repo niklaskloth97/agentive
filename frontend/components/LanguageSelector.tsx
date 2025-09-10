@@ -8,20 +8,20 @@ import { cn } from "@/lib/utils";
 const languageFlags: Record<string, string> = {
   en: "🇬🇧",  // UK flag for English
   de: "🇩🇪",  // German flag
-  deshort: "🇩🇪", // German short flag
-  pt: "🇵🇹",  // Portuguese flag
+  // gershort: "🇩🇪", // German short flag
+  "sw-ger": "🇨🇭", // Swiss flag
+  por: "🇵🇹",  // Portuguese flag
   pl: "🇵🇱",  // Polish flag
   slo: "🇸🇮",  // Slovenian flag
   fr: "🇫🇷",  // French flag
   it: "🇮🇹",  // Italian flag
-  es: "🇪🇸",  // Spanish flag
   sv: "🇸🇮",  // Slovenian flag
   gr: "🇬🇷",  // Greek flag
   lux: "🇱🇺", // Luxembourg flag
-  al: "🇦🇱",  // Albanian flag
+  alb: "🇦🇱",  // Albanian flag
   ukr: "🇺🇦", // Ukrainian flag
   tur: "🇹🇷", // Turkish flag
-
+  ld: "🇮🇹", // Ladin flag 
 };
 
 export default function LanguageSelector() {

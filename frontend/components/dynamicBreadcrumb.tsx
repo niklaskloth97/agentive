@@ -6,9 +6,10 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"
+import React from "react";
 
 interface BreadcrumbItem {
-  label: string;
+  label: string | React.ReactNode ;
   href?: string;
 }
 
@@ -42,3 +43,5 @@ export function DynamicBreadcrumb({ items }: DynamicBreadcrumbProps) {
     </Breadcrumb>
   )
 }
+
+export { BreadcrumbItem };

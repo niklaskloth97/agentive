@@ -7,11 +7,14 @@ import Link from "next/link";
 import { ACTIVITY_GROUPS, ACTIVITY_GROUPS_META, ActivityGroupKey } from "@/data";
 import storiesData from '@/data/stories.json';
 import { Story, SimpleStory, getStoryTitle, getStoryCoverImage } from "@/types/story";
+import { TranslateButtons } from '@/components/translateButtons';
+import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext';
 
 export default function StoryActivitiesPage() {
   const params = useParams();
   const router = useRouter();
   const storyId = params.storyId as string;
+  const { websiteLanguage } = useWebsiteLanguage();
   const [story, setStory] = useState<SimpleStory>();
   const [availableGroups, setAvailableGroups] = useState<ActivityGroupKey[]>([]);
 
@@ -51,18 +54,32 @@ export default function StoryActivitiesPage() {
   }, [storyId, router]);
   
   const breadcrumbItems = [
-    { label: "Multilingual Resources", href: "/dashboard" },
-    { label: "Stories", href: "/dashboard/stories" },
-    { label: story?.title || "Story", href: `/dashboard/stories/${storyId}` },
-    { label: "Activities", href: `/dashboard/stories/${storyId}/activities` },
+    { 
+      label: <TranslateButtons translationKey="multilingual-ressources" currentLanguage={websiteLanguage} />, 
+      href: "/dashboard" 
+    },
+    { 
+      label: <TranslateButtons translationKey="stories" currentLanguage={websiteLanguage} />, 
+      href: "/dashboard/stories" 
+    },
+    { 
+      label: story?.title || "Story", 
+      href: `/dashboard/stories/${storyId}` 
+    },
+    { 
+      label: <TranslateButtons translationKey="activities" currentLanguage={websiteLanguage} />, 
+      href: `/dashboard/stories/${storyId}/activities` 
+    },
   ];
   
   return (
     <DashboardLayout breadcrumbItems={breadcrumbItems}>
       <div className="container py-6">
-        <h1 className="text-3xl text-center font-bold mb-6">Activities for {story?.title || 'Story'}</h1>
+        <h1 className="text-3xl text-center font-bold mb-6">
+          <TranslateButtons translationKey="activities" currentLanguage={websiteLanguage} /> for {story?.title || 'Story'}
+        </h1>
         <p className="mb-8 text-center text-muted-foreground">
-          Select an activity category to explore learning resources for this story
+          <TranslateButtons translationKey="select-activity-category" currentLanguage={websiteLanguage} />
         </p>
         
         {availableGroups.length > 0 ? (
@@ -100,7 +117,9 @@ export default function StoryActivitiesPage() {
           </div>
         ) : (
           <div className="py-12 text-center">
-            <p>No activities found for this story.</p>
+            <p>
+              <TranslateButtons translationKey="no-activities-found" currentLanguage={websiteLanguage} />
+            </p>
           </div>
         )}
       </div>

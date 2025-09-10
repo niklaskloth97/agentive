@@ -5,14 +5,14 @@ import { Card} from "./ui/card";
 import { cn } from "@/lib/utils";
 
 interface VisionItem {
-  title: string;
+  title: ReactNode; // Changed from string to ReactNode
   color: string;
-  description: string;
+  description: ReactNode; // Changed from string to ReactNode
   icon?: ReactNode;
 }
 
 interface VisionCardProps {
-  title: string;
+  title: ReactNode; // Changed from string to ReactNode
   items: VisionItem[];
   className?: string;
   cardClassName?: string;

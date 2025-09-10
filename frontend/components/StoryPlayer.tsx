@@ -1,30 +1,24 @@
 "use client"
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { 
   Download, 
-  Maximize2, 
+   
   Play, 
   Pause, 
   Globe, 
 } from "lucide-react";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import LanguageSelector from "@/components/LanguageSelector";
-import Image from "next/image";
-import { Dialog, DialogContent } from "@/components/ui/dialog";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-import { type CarouselApi } from "@/components/ui/carousel";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Card, CardContent } from "@/components/ui/card";
 import storiesData from '@/data/stories.json';
-import { DialogTitle } from "@radix-ui/react-dialog";
 import { cn } from "@/lib/utils";
+import { TranslateButtons } from '@/components/translateButtons';
+import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext';
+import { StoryCarousel } from '@/components/StoryCarousel';
+import { getStoryReadingGuide, hasStoryReadingGuide, GUIDES } from "@/data";
 
 interface StoryPlayerProps {
   storyId: string;
@@ -39,11 +33,231 @@ interface StoryLanguageContent {
   coverImage: string;
 }
 
-type StoryPageItem = {
-  text: string;
-  imageUrl: string;
-  audioUrl?: string;
-};
+function DialogicGuideSelector({ websiteLanguage }: { websiteLanguage: string }) {
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedGuideLanguage, setSelectedGuideLanguage] = useState<string>("");
+
+  // Get available languages for dialogic guide
+  const dialogicGuide = GUIDES.dialogic;
+  const availableLanguages = dialogicGuide ? Object.keys(dialogicGuide.translations).filter(
+    lang => dialogicGuide.translations[lang as keyof typeof dialogicGuide.translations]?.url
+  ) : [];
+
+  // Create available languages object for LanguageSelector
+  const guideLanguageOptions = Object.fromEntries(
+    availableLanguages.map(langId => [
+      langId, 
+      { 
+        label: langId === 'en' ? 'EN' : 
+               langId === 'de' ? 'DE' : 
+               langId === 'fr' ? 'FR' : 
+               langId === 'sv' ? 'SV' : 
+               langId === 'gr' ? 'GR' : 
+               langId.toUpperCase() 
+      }
+    ])
+  );
+
+  const handleLanguageChange = (languageId: string) => {
+    setSelectedGuideLanguage(languageId);
+  };
+
+  const handleDownload = () => {
+    if (!selectedGuideLanguage) return;
+
+    const guideData = dialogicGuide?.translations[selectedGuideLanguage as keyof typeof dialogicGuide.translations];
+    
+    if (guideData?.url) {
+      // Create download link
+      const link = document.createElement('a');
+      link.href = guideData.url;
+      link.download = `Dialogic Reading Guide (${guideLanguageOptions[selectedGuideLanguage]?.label || selectedGuideLanguage}).pdf`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      // Close dialog after download
+      setIsOpen(false);
+      setSelectedGuideLanguage("");
+    }
+  };
+
+  if (availableLanguages.length === 0) {
+    return null; // Don't render if no guides available
+  }
+
+  return (
+    <Dialog open={isOpen} onOpenChange={setIsOpen}>
+      <DialogTrigger asChild>
+        <Button className="w-full mb-4" variant="outline">
+          <Download className="mr-2" size={16}/>
+          <TranslateButtons translationKey="dialog-guide" currentLanguage={websiteLanguage} />
+        </Button>
+      </DialogTrigger>
+      <DialogContent className="sm:max-w-[425px]">
+        <DialogHeader>
+          <DialogTitle>
+            <TranslateButtons translationKey="select-guide-language" currentLanguage={websiteLanguage} />
+          </DialogTitle>
+        </DialogHeader>
+        <div className="py-4">
+          <div className="space-y-4">
+            <div>
+              <label className="text-sm font-medium mb-2 block">
+                <TranslateButtons translationKey="available-languages" currentLanguage={websiteLanguage} />
+              </label>
+              
+              {/* Use LanguageProvider and LanguageSelector */}
+              <LanguageProvider 
+                defaultLanguage=""
+                availableLanguages={guideLanguageOptions}
+                onLanguageChange={handleLanguageChange}
+              >
+                <LanguageSelector />
+              </LanguageProvider>
+            </div>
+            
+            {selectedGuideLanguage && (
+              <div className="flex gap-2 pt-4">
+                <Button 
+                  onClick={handleDownload}
+                  className="flex-1"
+                >
+                  <Download className="mr-2" size={16}/>
+                  <TranslateButtons translationKey="download" currentLanguage={websiteLanguage} />
+                </Button>
+                <Button 
+                  variant="outline" 
+                  onClick={() => {
+                    setIsOpen(false);
+                    setSelectedGuideLanguage("");
+                  }}
+                >
+                  <TranslateButtons translationKey="cancel" currentLanguage={websiteLanguage} />
+                </Button>
+              </div>
+            )}
+          </div>
+        </div>
+      </DialogContent>
+    </Dialog>
+  );
+}
+
+// New component for story guide selection
+function StoryGuideSelector({ storyId, websiteLanguage }: { storyId: string; websiteLanguage: string }) {
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedGuideLanguage, setSelectedGuideLanguage] = useState<string>("");
+
+  // Get available languages for story reading guide
+  const availableLanguages: string[] = [];
+  const languageLabels: Record<string, string> = {};
+
+  // Check which languages have story reading guides available
+  ['en', 'de', 'fr', 'sv'].forEach(lang => {
+    if (hasStoryReadingGuide(storyId, lang as "en" | "de" | "fr" | "sv")) {
+      availableLanguages.push(lang);
+      languageLabels[lang] = lang === 'en' ? 'EN' : 
+                            lang === 'de' ? 'DE' : 
+                            lang === 'fr' ? 'FR' : 
+                            lang === 'sv' ? 'SV' : 
+                            lang.toUpperCase();
+    }
+  });
+
+  // Create available languages object for LanguageSelector
+  const guideLanguageOptions = Object.fromEntries(
+    availableLanguages.map(langId => [
+      langId, 
+      { label: languageLabels[langId] }
+    ])
+  );
+
+  const handleLanguageChange = (languageId: string) => {
+    setSelectedGuideLanguage(languageId);
+  };
+
+  const handleDownload = () => {
+    if (!selectedGuideLanguage) return;
+
+    const guide = getStoryReadingGuide(storyId, selectedGuideLanguage as "en" | "de" | "fr" | "sv");
+    
+    if (guide?.url) {
+      // Create download link
+      const link = document.createElement('a');
+      link.href = guide.url;
+      link.download = `Story ${storyId} Reading Guide (${languageLabels[selectedGuideLanguage] || selectedGuideLanguage}).pdf`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      // Close dialog after download
+      setIsOpen(false);
+      setSelectedGuideLanguage("");
+    }
+  };
+
+  if (availableLanguages.length === 0) {
+    return null; // Don't render if no guides available
+  }
+
+  return (
+    <Dialog open={isOpen} onOpenChange={setIsOpen}>
+      <DialogTrigger asChild>
+        <Button className="w-full mb-4" variant="outline">
+          <Download className="mr-2" size={16}/>
+          <TranslateButtons translationKey="story-guide" currentLanguage={websiteLanguage} />
+        </Button>
+      </DialogTrigger>
+      <DialogContent className="sm:max-w-[425px]">
+        <DialogHeader>
+          <DialogTitle>
+            <TranslateButtons translationKey="select-guide-language" currentLanguage={websiteLanguage} />
+          </DialogTitle>
+        </DialogHeader>
+        <div className="py-4">
+          <div className="space-y-4">
+            <div>
+              <label className="text-sm font-medium mb-2 block">
+                <TranslateButtons translationKey="available-languages" currentLanguage={websiteLanguage} />
+              </label>
+              
+              {/* Use LanguageProvider and LanguageSelector */}
+              <LanguageProvider 
+                defaultLanguage=""
+                availableLanguages={guideLanguageOptions}
+                onLanguageChange={handleLanguageChange}
+              >
+                <LanguageSelector />
+              </LanguageProvider>
+            </div>
+            
+            {selectedGuideLanguage && (
+              <div className="flex gap-2 pt-4">
+                <Button 
+                  onClick={handleDownload}
+                  className="flex-1"
+                >
+                  <Download className="mr-2" size={16}/>
+                  <TranslateButtons translationKey="download" currentLanguage={websiteLanguage} />
+                </Button>
+                <Button 
+                  variant="outline" 
+                  onClick={() => {
+                    setIsOpen(false);
+                    setSelectedGuideLanguage("");
+                  }}
+                >
+                  <TranslateButtons translationKey="cancel" currentLanguage={websiteLanguage} />
+                </Button>
+              </div>
+            )}
+          </div>
+        </div>
+      </DialogContent>
+    </Dialog>
+  );
+}
 
 export function StoryPlayer({ 
   storyId, 
@@ -51,23 +265,32 @@ export function StoryPlayer({
   showText = true,
   className 
 }: StoryPlayerProps) {
+  // Get website language for translations
+  const { websiteLanguage } = useWebsiteLanguage();
+  
   // Story data access
   const storyInfo = storiesData.find(story => story.id === storyId);
   
-  // Carousel state
-  const [api, setApi] = useState<CarouselApi>();
-  const [fullscreenApi, setFullscreenApi] = useState<CarouselApi>();
-  // Remove the unused current variable
+  // State
   const [isFullscreen, setIsFullscreen] = useState(false);
-  
-  // Language state
   const [selectedLanguage, setSelectedLanguage] = useState<string>("");
   const [currentPage, setCurrentPage] = useState(0);
-  
-  // Audio player state
   const [isPlaying, setIsPlaying] = useState(false);
   const [audioAutoPlay, setAudioAutoPlay] = useState(false);
-  
+  const [isSafari, setIsSafari] = useState(false);
+
+  const autoPlaySafariFix = (enable: boolean) => {
+    // Safari requires user interaction to play audio, so we never enable autoplay on Safari
+    if (isSafari) {
+      setAudioAutoPlay(false);
+      return false;
+    } else {
+      // For other browsers, set autoplay based on the enable parameter
+      setAudioAutoPlay(enable);
+      return enable;
+    }
+  }
+
   // Text visibility state
   const [isTextVisible] = useState<boolean>(showText);
   
@@ -120,69 +343,24 @@ export function StoryPlayer({
     // Only reset to first page if current page doesn't exist in new language
     if (currentPage >= newLanguagePages.length) {
       setCurrentPage(0);
-      if (api) {
-        api.scrollTo(0);
-      }
     }
-    // Otherwise keep the current page position
     
     setIsPlaying(false);
-    setAudioAutoPlay(false);
   };
 
-  // COMMENTED OUT - using HTML5 player controls instead
-  // // play/pause
-  // const togglePlayPause = () => {
-  //   if (!audioRef.current) return;
-    
-  //   if (isPlaying) {
-  //     audioRef.current.pause();
-  //   } else {
-  //     audioRef.current.play();
-  //   }
-  //   setIsPlaying(!isPlaying);
-  // };
+  // Safari detection useEffect
+  useEffect(() => {
+    const detectSafari = () => {
+      const userAgent = navigator.userAgent.toLowerCase();
+      const isSafariBrowser = userAgent.includes('safari') && 
+                             !userAgent.includes('chrome') && 
+                             !userAgent.includes('chromium') && 
+                             !userAgent.includes('edg');
+      setIsSafari(isSafariBrowser);
+    };
 
-  // COMMENTED OUT - using HTML5 player controls instead
-  // // Handle when audio ended
-  // const handleAudioEnded = () => {
-  //   setIsPlaying(false);
-  // };
-
-  // COMMENTED OUT - using HTML5 player controls instead
-  // // Handle volume change
-  // const handleVolumeChange = (value: number[]) => {
-  //   const newVolume = value[0];
-  //   setVolume(newVolume);
-    
-  //   if (audioRef.current) {
-  //     audioRef.current.volume = newVolume;
-  //   }
-  // };
-  
-  // // Toggle text visibility
-  // const toggleTextVisibility = () => {
-  //   setIsTextVisible(prev => !prev);
-  // };
-
-  // Render text container
-  const renderTextContainer = (page: StoryPageItem, isFullscreen: boolean = false) => {
-    if (!isTextVisible) return null;
-    
-    return (
-      <div className={cn(
-        "text-container mt-4 bg-white rounded-lg w-full max-w-4xl mx-auto",
-        isFullscreen ? "p-4" : "border p-2 shadow-sm"
-      )}>
-        <p className={cn(
-          "text-center break-words hyphens-auto",
-          isFullscreen ? "text-2xl" : "text-xl"
-        )}>
-          {page.text}
-        </p>
-      </div>
-    );
-  };
+    detectSafari();
+  }, []);
 
   // Get pages for the selected language
   const languageData = selectedLanguage && storyInfo?.[selectedLanguage as keyof typeof storyInfo];
@@ -197,45 +375,71 @@ export function StoryPlayer({
       text: ""
     };
 
-  // Handle regular carousel
-  useEffect(() => {
-    if (!api) return;
-
-    // Remove the setCurrent call since current is no longer used
-
-    api.on("select", () => {
-      // Remove the setCurrent call since current is no longer used
-      setCurrentPage(api.selectedScrollSnap());
-      setIsPlaying(false);
-    });
-  }, [api]);
-  // Fullscreen and audio button - SIMPLIFIED to just open fullscreen
-  const openFullscreenWithAutoplay = () => {
-    setIsFullscreen(true);
+  // Handle page changes for autoplay
+  const handlePageChange = (pageIndex: number) => {
+    setCurrentPage(pageIndex);
+    setIsPlaying(false);
+    
+    // Reset audio to beginning when page changes
+    const audioElement = document.querySelector('audio');
+    if (audioElement) {
+      audioElement.pause();
+      audioElement.currentTime = 0;
+    }
+    
+    // If autoplay is enabled and not Safari, start playing new page after a delay
+    if (audioAutoPlay && !isSafari) {
+      // Small delay to ensure audio element is ready
+      setTimeout(() => {
+        const audioElement = document.querySelector('audio');
+        if (audioElement) {
+          audioElement.currentTime = 0; // Ensure we start from beginning
+          audioElement.play().catch(err => {
+            console.error('Auto-play failed:', err);
+          });
+        }
+      }, 100);
+    }
   };
 
-  // Sync fullscreen carousel with main carousel
-  useEffect(() => {
-    if (!fullscreenApi || !api) return;
-    
-    fullscreenApi.scrollTo(api.selectedScrollSnap());
-    
-    fullscreenApi.on("select", () => {
-      api.scrollTo(fullscreenApi.selectedScrollSnap());
-      setCurrentPage(fullscreenApi.selectedScrollSnap());
-    });
-  }, [fullscreenApi, api, isFullscreen]);
-
   // Add event listeners to track actual audio state
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  // Update the dialog close handler
+  const handleDialogClose = (open: boolean) => {
+    setIsFullscreen(open);
+    
+    if (!open) {
+      // Dialog is closing - reset everything to the beginning
+      setCurrentPage(0); // Reset to first page
+      setIsPlaying(false);
+      setAudioAutoPlay(false);
+      
+      // Reset audio to beginning and pause it
+      const audioElement = document.querySelector('audio');
+      if (audioElement) {
+        audioElement.pause();
+        audioElement.currentTime = 0;
+      }
+    }
+  };
+
+  // Update the useEffect for audio event listeners to handle page resets
   useEffect(() => {
     const audioElement = document.querySelector('audio');
+    audioRef.current = audioElement;
+    
     if (audioElement) {
       const handlePlay = () => setIsPlaying(true);
       const handlePause = () => setIsPlaying(false);
       const handleEnded = () => {
         setIsPlaying(false);
-        setAudioAutoPlay(false);
+        // Keep audioAutoPlay enabled when audio ends naturally
+        // This allows autoplay to continue on next slide
       };
+      
+      // Reset audio to beginning when audio element changes
+      audioElement.currentTime = 0;
 
       audioElement.addEventListener('play', handlePlay);
       audioElement.addEventListener('pause', handlePause);
@@ -247,7 +451,7 @@ export function StoryPlayer({
         audioElement.removeEventListener('ended', handleEnded);
       };
     }
-  }, [selectedLanguage, currentPage]);
+  }, [selectedLanguage, currentPage, isFullscreen]); // Added isFullscreen to dependencies
 
   if (!storyInfo) {
     return <div className="p-4 text-center">Story not found</div>;
@@ -269,7 +473,40 @@ export function StoryPlayer({
     }
     
     return "Story";
+
+   
   };
+
+  // Helper function to map website language to guide language with fallback
+  const getGuideLanguage = (websiteLanguage: string): "en" | "de" | "fr" | "sv" => {
+    const languageMap: Record<string, "en" | "de" | "fr" | "sv"> = {
+      'en': 'en',
+      'English': 'en',
+      'de': 'de', 
+      'German': 'de',
+      'fr': 'fr',
+      'French': 'fr',
+      'Slovenian': 'sv',
+      'it': 'en',
+      'Italian': 'en',
+      'lux': 'en',
+      'Lux': 'en',
+      'gr': 'en',
+      'Greek': 'en',
+      'el': 'en'
+    };
+    
+    return languageMap[websiteLanguage] || 'en';
+  };
+
+  // Check if guides are available for current language
+  const hasStoryGuide = ['en', 'de', 'fr', 'sv'].some(lang => 
+    hasStoryReadingGuide(storyId, lang as "en" | "de" | "fr" | "sv")
+  );
+  
+  // Check if dialogic guide is available (at least one language)
+  const hasDialogicGuide = !!(GUIDES.dialogic && 
+    Object.values(GUIDES.dialogic.translations).some(translation => translation?.url));
 
   return (
     <LanguageProvider 
@@ -285,45 +522,82 @@ export function StoryPlayer({
         </div>
 
         <div className="flex flex-row w-full gap-0 relative">
-          <div className="flex flex-col border-r border-slate-200 transition-all duration-300 ease-in-out h-full w-56">
+          <div className="flex flex-col border-r border-slate-200 transition-all duration-300 ease-in-out h-full w-64">
             <div className="flex flex-col p-4 gap-6 h-full relative">
               <div className="transition-opacity space-y-8">
                 <div>
-                  <h3 className="text-sm font-medium mb-2">Select a Language</h3>
+                  <h3 className="text-sm font-medium mb-2">
+                    <TranslateButtons translationKey="select-lang" currentLanguage={websiteLanguage} />
+                  </h3>
                   <LanguageSelector />
                 </div>
                 
                 {selectedLanguage && (
                   <>
                     <div>
-                      <h3 className="text-sm font-medium mb-2">Download</h3>
+                      <h3 className="text-sm font-medium mb-2">
+                        <TranslateButtons translationKey="download" currentLanguage={websiteLanguage} />
+                      </h3>
+                  
+                      {(() => {
+                        const languageData = selectedLanguage && storyInfo?.[selectedLanguage as keyof typeof storyInfo];
+                        const fullTextUrl = Array.isArray(languageData) && languageData.length > 0 ? 
+                          languageData[0].fullText : "";
+                        
+                        return fullTextUrl ? (
+                          <Button className="w-full mb-4" variant="outline" asChild>
+                            <a href={fullTextUrl} download>
+                              <Download className="mr-2" size={16}/>
+                              <TranslateButtons translationKey="text" currentLanguage={websiteLanguage} />
+                            </a>
+                          </Button>
+                        ) : null;
+                      })()}
+
+                      {/* Updated Audio Download Button (Full Story) */}
+                      {(() => {
+                        const languageData = selectedLanguage && storyInfo?.[selectedLanguage as keyof typeof storyInfo];
+                        const fullAudioUrl = Array.isArray(languageData) && languageData.length > 0 ? 
+                          languageData[0].fullAudio : "";
+                        
+                        return fullAudioUrl ? (
+                          <Button className="w-full mb-4" variant="outline" asChild>
+                            <a href={fullAudioUrl} download>
+                              <Download className="mr-2" size={16}/>
+                              <TranslateButtons translationKey="audio" currentLanguage={websiteLanguage} />
+                            </a>
+                          </Button>
+                        ) : null;
+                      })()}
+
+                      <Button className="w-full mb-4" variant="outline">
+                        <Download className="mr-2" size={16}/>
+                        <TranslateButtons translationKey="picture" currentLanguage={websiteLanguage} />
+                      </Button>
                       
-                      {pages[currentPage]?.audioUrl && (
-                        <Button className="w-full mb-2" variant="outline" asChild>
-                          <a href={pages[currentPage].audioUrl} download>
-                            <Download className="mr-2" size={16}/> Audio
-                          </a>
-                        </Button>
+                      {/* Dialogic Reading Guide Button with Language Selector */}
+                      {hasDialogicGuide && (
+                        <DialogicGuideSelector websiteLanguage={websiteLanguage} />
                       )}
                       
-                      <Button className="w-full mb-4" variant="outline">
-                        <Download className="mr-2" size={16}/> Text
-                      </Button>
-                      <Button className="w-full mb-4" variant="outline">
-                        <Download className="mr-2" size={16}/> Pictures
-                      </Button>
-                      <Button className="w-full mb-4" variant="outline">
-                        <Download className="mr-2" size={16}/> Dialogic Reading Guide
-                      </Button>
+                      {/* Story Reading Guide Button with Language Selector */}
+                      {hasStoryGuide && (
+                        <StoryGuideSelector storyId={storyId} websiteLanguage={websiteLanguage} />
+                      )}
+
                     </div>
 
                     <Button 
                       className="center w-full mt-auto h-16 text-lg"
                       variant="default"
-                      onClick={openFullscreenWithAutoplay}
+                      onClick={() => {
+                        setIsFullscreen(true);
+                        // Don't enable autoplay automatically - let user decide
+                      }}
                       disabled={!pages[currentPage]?.audioUrl}
                     >
-                      <Play className="mr-2" size={24}/> Go
+                      <Play className="mr-2" size={24}/>
+                      <TranslateButtons translationKey="go" currentLanguage={websiteLanguage} />
                     </Button>
                   </>
                 )}
@@ -337,13 +611,15 @@ export function StoryPlayer({
             "w-[calc(100%-16rem)]"
           )}>
             <div className="w-full max-w-4xl mx-auto h-full flex flex-col">
-              <div className="relative flex-1">
+              <div className="relative flex-1 px-16">
                 {!selectedLanguage && (
                   <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/5 backdrop-blur-sm">
-                    <Card className="w-80 shadow-lg">
+                    <Card className=" w-80 shadow-lg">
                       <CardContent className="flex flex-col items-center p-6 text-center">
                         <Globe className="h-12 w-12 text-primary mb-4" />
-                        <h3 className="text-xl font-medium mb-2">Select a Language</h3>
+                        <h3 className="text-xl font-medium mb-2">
+                          <TranslateButtons translationKey="select-lang" currentLanguage={websiteLanguage} />
+                        </h3>
                         
                         <div className="mt-2">
                           <LanguageSelector />
@@ -353,7 +629,7 @@ export function StoryPlayer({
                   </div>
                 )}
 
-                {/* Fullscreen button - only visible when a language is selected */}
+                {/* Fullscreen button - only visible when a language is selected
                 {selectedLanguage && (
                   <div className="absolute top-2 right-2 z-10">
                     <Button 
@@ -364,149 +640,102 @@ export function StoryPlayer({
                     >
                       <Maximize2 className="h-4 w-4" />
                     </Button>
-                  </div>
-                )}
+                  </div> */}
+                {/* )} */}
                 
-                {/* Carousel - always render but show placeholder if no language selected */}
-                <Carousel setApi={setApi} className="">
-                  <CarouselContent className="">
-                    {(selectedLanguage && pages.length > 0 ? pages : [placeholderPage]).map((page, index) => (
-                      <CarouselItem 
-                        key={`${selectedLanguage || "placeholder"}-${index}`} 
-                        className="w-full flex items-center justify-center"
-                      >
-                        <Card className="w-full max-h-[100vh]">
-                          <CardContent className="flex flex-col p-4 items-center justify-center">
-                            <div className="w-full aspect-video relative">
-                              <Image
-                                src={page.imageUrl} 
-                                alt={`Story scene ${index + 1}`}
-                                fill
-                                className={cn(
-                                  "object-contain rounded-lg",
-                                  !selectedLanguage && "opacity-50 blur-sm"
-                                )}
-                              />
-                            </div>
-                            
-                            {selectedLanguage && renderTextContainer(page)}
-                          </CardContent>
-                        </Card>
-                      </CarouselItem>
-                    ))}
-                  </CarouselContent>
-                  {selectedLanguage && pages.length > 1 && (
-                    <>
-                      <CarouselPrevious />
-                      <CarouselNext />
-                    </>
-                  )}
-                </Carousel>
+                {/* Main Carousel */}
+                <StoryCarousel
+                  pages={selectedLanguage && pages.length > 0 ? pages : [placeholderPage]}
+                  selectedLanguage={selectedLanguage}
+                  isTextVisible={isTextVisible}
+                  onPageChange={handlePageChange}
+                  isFullscreen={false}
+                />
               </div>
             </div>
           </div>
           
-          {/* COMMENTED OUT - Hidden audio player replaced by HTML5 player in fullscreen */}
-          {/* {showAudioControls && selectedLanguage && pages[currentPage]?.audioUrl && (
-            <audio 
-              ref={audioRef}
-              src={pages[currentPage].audioUrl}
-              onEnded={handleAudioEnded}
-              className="hidden"
-            />
-          )} */}
-          
           {/* Fullscreen */}
-          <Dialog open={isFullscreen} onOpenChange={setIsFullscreen}>
+          <Dialog open={isFullscreen} onOpenChange={handleDialogClose}>
             <DialogTitle className="sr-only">Story Details</DialogTitle>
             <DialogContent
               className={cn(
-                "p-0 m-0 border bg-white rounded-lg flex flex-col items-center justify-center",
-                "w-full h-full max-w-[90vw] max-h-[90vh] overflow-hidden"
+                "p-0 m-0 border-0 bg-white rounded-lg flex flex-col items-center justify-center",
+                "w-[95vw] h-[95vh] max-w-none max-h-none overflow-hidden"
               )}
               style={{ boxSizing: "border-box" }}
             >
-              <div className="flex flex-col max-h-screen max-w-screen items-center justify-center">
+              <div className="flex flex-col h-full w-full overflow-hidden">
                 {/* Fullscreen carousel - takes remaining space */}
-                <div className="flex-1 flex items-center justify-center h-">
-                  <Carousel setApi={setApi} className="">
-                    <CarouselContent className="max-w-5xl">
-                      {(selectedLanguage && pages.length > 0 ? pages : [placeholderPage]).map((page, index) => (
-                        <CarouselItem 
-                          key={`${selectedLanguage || "placeholder"}-${index}`} 
-                          className="flex items-center justify-center"
-                        >
-                          <Card className="w-full h-full flex items-center justify-center">
-                            <CardContent className="flex flex-col w-full h-full items-center justify-center p-2">
-                              <div className="relative w-3/4 h-3/4 aspect-video">
-                                <Image
-                                  src={page.imageUrl} 
-                                  alt={`Story scene ${index + 1}`}
-                                  fill
-                                  className={cn(
-                                    "object-contain rounded-lg",
-                                    !selectedLanguage && "opacity-50 blur-sm"
-                                  )}
-                                />
-                              </div>
-                              {selectedLanguage && renderTextContainer(page, true)}
-                            </CardContent>
-                          </Card>
-                        </CarouselItem>
-                      ))}
-                    </CarouselContent>
-                    {selectedLanguage && pages.length > 1 && (
-                      <>
-                        <CarouselPrevious />
-                        <CarouselNext />
-                      </>
-                    )}
-                  </Carousel>
+                <div className="flex-1 min-h-0 w-full px-4">
+                  <StoryCarousel
+                    pages={selectedLanguage && pages.length > 0 ? pages : [placeholderPage]}
+                    selectedLanguage={selectedLanguage}
+                    isTextVisible={isTextVisible}
+                    onPageChange={handlePageChange}
+                    isFullscreen={true}
+                  />
                 </div>
-                
+
                 {/* Bottom section - fixed height to prevent overflow */}
-                <div className="flex-shrink-0 space-y-2">
+                <div className="flex-shrink-0 p-4 border-t bg-white">
                   {showAudioControls && (
-                    <div className="flex justify-between flex-col">
+                    <div className="flex flex-col gap-4">
                       {selectedLanguage && pages[currentPage]?.audioUrl && (
                         <audio 
-                        
-                          autoPlay={audioAutoPlay}
-                          key={`audio-${selectedLanguage}-${currentPage}`}
-                          className="w-full"
+                          autoPlay={audioAutoPlay && !isSafari}
+                          key={`audio-${selectedLanguage}-${currentPage}-${isFullscreen}`} // Added isFullscreen to key
+                          className="w-full h-12"
+                          preload="auto"
+                          src={pages[currentPage].audioUrl}
+                          onLoadedData={() => {
+                            // Ensure audio starts from beginning when page changes
+                            const audioElement = document.querySelector('audio');
+                            if (audioElement) {
+                              audioElement.currentTime = 0;
+                            }
+                          }}
                         >
-                          <source src={pages[currentPage].audioUrl} type="audio/mpeg" />
                           Your browser does not support the audio element.
                         </audio>
                       )}
                       
-                      <div className="flex gap-2 justify-between w-full">
+                      <div className="flex gap-4 justify-between w-full">
                         <Button 
                           size="lg"
                           onClick={() => {
                             const audioElement = document.querySelector('audio');
                             if (audioElement) {
                               if (audioElement.paused) {
-                                audioElement.play();
-                                setAudioAutoPlay(true);
+                                // Start from beginning of current page
+                                audioElement.currentTime = 0;
+                                audioElement.play().catch(err => {
+                                  console.error('Audio playback failed:', err);
+                                });
+                                // Enable autoplay when user clicks play
+                                autoPlaySafariFix(true);
                                 setIsPlaying(true);
                               } else {
                                 audioElement.pause();
-                                setAudioAutoPlay(false);
+                                // Disable autoplay when user clicks pause
+                                autoPlaySafariFix(false);
                                 setIsPlaying(false);
                               }
                             }
                           }}
-                          className="h-12 w-32" // double width
+                          className="h-14 min-w-[140px]"
                           variant="default"
                         >
                           {isPlaying ? <Pause className="mr-2" size={20} /> : <Play className="mr-2" size={20} />}
-                          {isPlaying ? "Pause" : "Play"}
+                          {isPlaying ? 
+                            <TranslateButtons translationKey="pause" currentLanguage={websiteLanguage} /> : 
+                            <TranslateButtons translationKey="play" currentLanguage={websiteLanguage} />
+                          }
                         </Button>
                         <Button 
                           size="lg"
                           variant="outline"
-                          className="h-12 flex-shrink-0 min-w-[120px]"
+                          className="h-14 min-w-[140px]"
                           asChild
                         >
                           <a href="/dashboard/stories">
@@ -514,7 +743,7 @@ export function StoryPlayer({
                               <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
                               <polyline points="9 22 9 12 15 12 15 22"/>
                             </svg>
-                            Stories
+                            <TranslateButtons translationKey="stories" currentLanguage={websiteLanguage} />
                           </a>
                         </Button>
                       </div>
@@ -522,12 +751,12 @@ export function StoryPlayer({
                   )}
                   
                   {/* Home button - show when audio controls are disabled */}
-                   {!showAudioControls && (
-                    <div className="flex gap-2 justify-between w-full">
+                  {!showAudioControls && (
+                    <div className="flex gap-2 justify-center w-full">
                       <Button 
                         size="lg"
                         variant="outline"
-                        className="h-12 flex-shrink-0 min-w-[120px]"
+                        className="h-14 min-w-[140px]"
                         asChild
                       >
                         <a href="/dashboard/stories">
@@ -535,7 +764,7 @@ export function StoryPlayer({
                             <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
                             <polyline points="9 22 9 12 15 12 15 22"/>
                           </svg>
-                          Stories
+                          <TranslateButtons translationKey="stories" currentLanguage={websiteLanguage} />
                         </a>
                       </Button>
                     </div>

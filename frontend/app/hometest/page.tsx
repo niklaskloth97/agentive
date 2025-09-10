@@ -12,7 +12,7 @@ export default function HomeTestPage() {
       <div className="w-full overflow-hidden">
 
         {/* Hero Section */}            
-        <section className="relative w-full h-[70vh] md:h-[80vh] flex items-start mt- justify-start isolate">
+        <section className="-full h-[70vh] md:h-[80vh] flex items-start justify-start isolate">
           <Image
             src="/back1-1.jpg"
             alt="Hero background"
