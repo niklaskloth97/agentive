@@ -2323,49 +2323,51 @@
     "slug": "story-5",
     "en": [{
       "title": "Bobba in the library",
-      "titlePicture": "/images/under-construction.png",
+      "titlePicture": "/learning-material/story-5/story-en//Story 5_title_E.jpg",
       "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
-      "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
+      "fullText": "/learning-material/story-5/story-en/Story_5_full_text.pdf",
       "pages": {
         "1": {
-          "text": "Bobba sees a beautiful brightly coloured building. He hears laughter and singing coming from inside. He is curious and wants to see what is going on.",
+          "text": "Bobba bounces down the street. His fluffy ears are twitching with excitement.
+\"Where are we going? \" \"To the library!\" says Olivia. \"It's full of books!\" Bobba's eyes
+widen. \"Books!\"",
           "imageUrl": "/images/under-construction.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+          "audioUrl": "/learning-material/story-5/story-en/Story 5_1.m4a"
         },
         "2": {
-          "text": "He opens the door and sees children running around and shouting. Bobba likes that and wants to join in. He waves at them. \"Saluton! Saluton!\"",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+          "text": "There are many high shelves in the library. The air smells magical. A lady with big glasses smiles. \"Hello there!\" \"Wow\" Bobba whispers. \"So many books!\"",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_2.png",
+          "audioUrl": "/learning-material/story-5/story-en/Story 5_2.m4a"
         },
         "3": {
-          "text": "When the children see Bobba, they freeze and their eyes grow wide. \"Who is this?\" \"What is he saying?v \"Is this our new teacher?\" The children quickly hide..",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+          "text": "Bobba follows the children to the shelves. \"Let's find a book for you\" says Ben. They pull out books with pictures of monsters, dinosaurs and magical creatures.",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_3.png",
+          "audioUrl": "/learning-material/story-5/story-en/Story 5_3.m4a"
         },
         "4": {
-          "text": "Bobba is now all alone, so he becomes sad. He would really like to play. \"Ludi! Ludi!\"",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+          "text": "Bobba gasps. \"Wow\" He points at a page of his book. The children look. \"What is it?\" Bobba stares at the creature in the book. Fluffy ears. Big eyes. \"Almost like… me\", he thinks. His big eyes grow wider.",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_4.jpg",
+          "audioUrl": "/learning-material/story-5/story-en/Story 5_4.m4a"
         },
         "5": {
-          "text": "A girl comes out of the toilet and looks around puzzled.  \"Where is everybody?\" Then she sees Bobba.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+          "text": "Bobba turns page after page and likes what he sees, more exciting creatures. \"Home… I miss home…\" Bobba sighs.",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_5.png",
+          "audioUrl": "/learning-material/story-5/story-en/Story 5_5.m4a"
         },
         "6": {
-          "text": "She looks up at Bobba and smiles. \"Hi! Do you want to play?\" Bobba smiles back at her. \"Bone! Bone!\" They start playing.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+          "text": "Ben says: \"You can borrow it.\" \"Borrow?\" Bobba blinks. The librarian nods. \"You just need a library card, then you are a library member.\"",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_6.png",
+          "audioUrl": "/learning-material/story-5/story-en/Story 5_6.m4a"
         },
         "7": {
-          "text": "The other children see Bobba and the girl playing and slowly, one by one, come out of their hiding places. They want to play with Bobba too.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+          "text": "The children help write Bobba's name on the card. Bobba holds up the new card. \"I am a library member!\"",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_7.jpg",
+          "audioUrl": "/learning-material/story-5/story-en/Story 5_7.m4a"
         },
         "8": {
-          "text": "All children surround Bobba. \"Ludi! Ludi!\" they all shout. \"What a great day!\", thinks Bobba.",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+          "text": "The stars twinkle in the sky. Bobba hugs the book. The book in his hands feels like a piece of home. \"One day... I will go home.\"",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_8.jpg",
+          "audioUrl": "/learning-material/story-5/story-en/Story 5_8.m4a"
         }
       }
     }],
@@ -2561,7 +2563,54 @@
     "es": [],
     "it": [],
     "lux": [],
-    "gr": [],
+    "gr": [{
+      "title": "Going home",
+      "titlePicture": "/images/under-construction.png",
+      "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
+      "fullText": "/learning-material/story-1/story-en/Story_1_full_text.pdf",
+      "pages": {
+        "1": {
+          "text": "Bobba and his friends are having fun playing with a ball in the park where Bobba's spaceship landed.",
+          "imageUrl": "/images/under-construction.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+        },
+        "2": {
+          "text": "The sun is setting and the sky is full of different colours. Bobba is impressed. How beautiful it is! Suddenly a star appears, and another one, and another one. Bobba points at a very bright one and shouts: \"Vidu la stelan!! Jen mia planedo!!\"",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+        },
+        "3": {
+          "text": "His friends stop playing because they all want to see. They stand close to Bobba to find his star.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+        },
+        "4": {
+          "text": "Suddenly, they hear a little beeping sound. They hear it again, this time louder \"Beep\" and louder still \"BEEP!\" \"BEEEEEEEEP!\" \"BEEEEEEEEEEEEEEP!!!!!!\" Bobba shouts:  \"Ohhhh, My spaceship telephone!\"",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+        },
+        "5": {
+          "text": "He rushes to his spaceship and answers the phone. His friends follow him. They hear him say: \"Ĉu mi venu hejmen ? Ĉu mi povas reveni ? Esta bona! Ĝis baldaŭ!\"",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_5.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_5.m4a"
+        },
+        "6": {
+          "text": "He hangs up the phone and says \"My family says, I must come home now. But I can come again!!\" Ben says \"I think we all have to go home now. It is getting dark.\"",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_6.png",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_6.m4a"
+        },
+        "7": {
+          "text": "The children give Bobba a big hug and Olivia says: \"Come back soon!\" and Bobba smiles. \"Mi revenos! I promise!\", he says.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_7.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_7.m4a"
+        },
+        "8": {
+          "text": "Bobba gets into his spaceship and waves. He takes off and soars through the sky until only a little light is left – the light of his planet shining. \"See you soon, Bobba!\", they all shout and smile.",
+          "imageUrl": "/learning-material/story-1/story-en/Story 1_8.jpg",
+          "audioUrl": "/learning-material/story-1/story-en/Story 1_8.m4a"
+        }
+      }
+    }],
     "sv": [],
     "al": [],
     "ukr": []
