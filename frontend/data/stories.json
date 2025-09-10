@@ -3308,8 +3308,8 @@
     "ukr": [{
       "title": " Бобба у бібліотеці",
       "titlePicture": "/learning-material/story-5/story-ukr/Story_5_title_ukr.jpg",
-      "fullAudio": "/learning-material/story-5/story-alb/story-5-ukrainian-full.mp3",
-      "fullText": "/learning-material/story-5/story-alb/Story5_UKR.pdf",
+      "fullAudio": "/learning-material/story-5/story-ukr/story-5-ukrainian-full.mp3",
+      "fullText": "/learning-material/story-5/story-ukr/Story5_UKR.pdf",
       "pages": {
         "1": {
           "text": "Бобба підстрибує на вулиці. Його пухнасті вуха смикаються від хвилювання. \"Куди ми йдемо?\" \"До бібліотеки!\" - каже Олівія. \"Там повно книжок!\" Очі Бобби розширюються.\"Книжок!\"",
@@ -3355,49 +3355,49 @@
     }],
     "pl": [{
       "title": "Bobba w bibliotece",
-      "titlePicture": "",
-      "fullAudio": "",
-      "fullText": "",
+      "titlePicture": "/learning-material/story-5/story-pl/Story_5_title_pl.jpg",
+      "fullAudio": "/learning-material/story-5/story-pl/Story 5_PL.m4a",
+      "fullText": "/learning-material/story-5/story-pl/Story5_PL.pdf",
       "pages": {
         "1": {
           "text": "Bobba podskakuje na ulicy. Jego puszyste uszy drgają z podekscytowania. „Dokąd idziemy?” „Do biblioteki!” - mówi Olivia. „Jest pełna książek!” Oczy Bobby rozszerzają się. „Książki!”",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
+          "audioUrl": "/learning-material/story-5/story-pl/Story_5_1.m4a"
         },
         "2": {
           "text": "W bibliotece jest wiele wysokich regałów. Powietrze pachnie magicznie. Pani w wielkich okularach uśmiecha się. „Witajcie!” „Wow” - szepcze Bobba. „Tyle książek!”",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_2.png",
+          "audioUrl": "/learning-material/story-5/story-pl/Story_5_2.m4a"
         },
         "3": {
           "text": "Bobba podąża za dziećmi do regałów. „Znajdźmy książkę dla ciebie” - mówi Ben. Wyciągają książki z obrazkami potworów, dinozaurów i magicznych stworzeń. ",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_3.png",
+          "audioUrl": "/learning-material/story-5/story-pl/Story_5_3.m4a"
         },
         "4": {
           "text": "Bobba łapie oddech. Wskazuje na stronę swojej książki. Dzieci przyglądają się. „Co to jest?” Bobba wpatruje się w stworzenie w książce. Puszyste uszy. Duże oczy. „Prawie jak... ja”, myśli. Jego wielkie oczy rozszerzają się.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_4.png",
+          "audioUrl": "/learning-material/story-5/story-pl/Story_5_4.m4a"
         },
         "5": {
           "text": "Bobba przewraca stronę za stroną i podoba mu się to, co widzi, bardziej ekscytujące stworzenia. „Dom... Tęsknię za domem...” wzdycha Bobba.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_5.png",
+          "audioUrl": "/learning-material/story-5/story-pl/Story_5_5.m4a"
         },
         "6": {
           "text": "Ben mówi: „Możesz ją pożyczyć”. „Pożyczyć?” Bobba zamrugał. Bibliotekarz kiwa głową. „Potrzebujesz tylko karty bibliotecznej, wtedy jesteś członkiem biblioteki”.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_6.png",
+          "audioUrl": "/learning-material/story-5/story-pl/Story_5_6.m4a"
         },
         "7": {
           "text": "Dzieci pomagają napisać imię Bobby na karcie. Bobba podnosi nową kartę. „Jestem członkiem biblioteki!”",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_7.png",
+          "audioUrl": "/learning-material/story-5/story-pl/Story_5_7.m4a"
         },
         "8": {
           "text": "Gwiazdy migoczą na niebie. Bobba przytula książkę. Książka w jego rękach jest jak kawałek domu. \"Pewnego dnia... wrócę do domu\".",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_8.png",
+          "audioUrl": "/learning-material/story-5/story-pl/Story_5_8.m4a"
         }
       }
     }],
