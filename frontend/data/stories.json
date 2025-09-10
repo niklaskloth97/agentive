@@ -2923,31 +2923,29 @@
     "slug": "story-5",
     "en": [{
       "title": "Bobba in the library",
-      "titlePicture": "/learning-material/story-5/story-en//Story 5_title_E.jpg",
-      "fullAudio": "/learning-material/story-1/story-en/Story_1_full_audio.m4a",
+      "titlePicture": "/learning-material/story-5/story-en/Story 5_title_E.jpg",
+      "fullAudio": "/learning-material/story-5/story-en/Story_5_full_audio.m4a",
       "fullText": "/learning-material/story-5/story-en/Story_5_full_text.pdf",
       "pages": {
         "1": {
-          "text": "Bobba bounces down the street. His fluffy ears are twitching with excitement.
-\"Where are we going? \" \"To the library!\" says Olivia. \"It's full of books!\" Bobba's eyes
-widen. \"Books!\"",
+          "text": "Bobba bounces down the street. His fluffy ears are twitching with excitement.\"Where are we going? \" \"To the library!\" says Olivia. \"It's full of books!\" Bobba's eyeswiden. \"Books!\"",
           "imageUrl": "/images/under-construction.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_1.m4a"
+          "audioUrl": "/learning-material/story-5/story-en/Story 5_1.m4a"
         },
         "2": {
-          "text": "He opens the door and sees children running around and shouting. Bobba likes that and wants to join in. He waves at them. \"Saluton! Saluton!\"",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_2.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_2.m4a"
+          "text": "There are many high shelves in the library. The air smells magical. A lady with big glasses smiles. \"Hello there!\" \"Wow\" Bobba whispers. \"So many books!\"",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_2.png",
+          "audioUrl": "/learning-material/story-5/story-en/Story 5_2.m4a"
         },
         "3": {
           "text": "When the children see Bobba, they freeze and their eyes grow wide. \"Who is this?\" \"What is he saying?v \"Is this our new teacher?\" The children quickly hide..",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_3.png",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_3.m4a"
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_3.png",
+          "audioUrl": "/learning-material/story-5/story-en/Story 5_3.m4a"
         },
         "4": {
           "text": "Bobba is now all alone, so he becomes sad. He would really like to play. \"Ludi! Ludi!\"",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_4.jpg",
-          "audioUrl": "/learning-material/story-1/story-en/Story 1_4.m4a"
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_4.jpg",
+          "audioUrl": "/learning-material/story-5/story-en/Story 5_4.m4a"
         },
         "5": {
           "text": "A girl comes out of the toilet and looks around puzzled.  \"Where is everybody?\" Then she sees Bobba.",
