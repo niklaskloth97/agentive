@@ -3082,52 +3082,51 @@
           "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5_2-MP3.mp3"
         },
         "3": {
-          "text": "",
-          "imageUrl": "",
+          "text": "Bobba suit les enfants jusqu’aux étagères. «On va te trouver un livre», dit Ben. Ils choisissent des livres avec des images de monstres, de dinosaures et de créatures magiques.",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_3.png",
           "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5_3-MP3.mp3"
         },
         "4": {
-          "text": "",
-          "imageUrl": "",
+          "text": "Bobba ouvre grand la bouche. «Waouh!». Il montre une page de son livre. Les enfants regardent. «C’est quoi?» Bobba fixe la créature sur l’image. De grandes oreilles aux poils doux. De grands yeux. «Presque comme … moi», pense-t-il. Il ouvre encore plus les yeux",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_4.png",
           "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5_4-MP3.mp3"
         },
         "5": {
-          "text": "",
-          "imageUrl": "",
+          "text": "Bobba tourne les pages une par une. Il aime ce qu’il voit: des créatures bizarres, drôles, magnifiques. «Ma maison… Ma maison me manque…», soupire Bobba.",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_5.png",
           "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5_5-MP3.mp3"
         },
         "6": {
-          "text": "",
-          "imageUrl": "",
+          "text": "«Tu peux l’emprunter», dit Ben. «Emprunter ?», demande Bobba. La bibliothécaire hoche la tête. «Il faut juste une carte de lecteur. Avec ça, tu deviens membre de la bibliothèque.»",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_6.png",
           "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5_6-MP3.mp3"
         },
         "7": {
-          "text": "",
-          "imageUrl": "",
+          "text": "Les enfants aident Bobba à écrire son nom sur la carte. Bobba montre sa nouvelle carte, il est tout fier. « Maintenant, je suis aussi membre de la bibliothèque ! »",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_7.png",
           "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5_7-MP3.mp3"
         },
         "8": {
-          "text": "",
-          "imageUrl": "",
+          "text": "Les étoiles brillent dans le ciel. Bobba serre le livre très fort contre lui. Il se sent un peu comme à la maison. « Un jour… je rentrerai chez moi. »",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_8.png",
           "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5_8-MP3.mp3"
         }
       }
     }],
-    "es": [],
     "it": [{
       "title": "Bobba in biblioteca ",
-      "titlePicture": "/images/under-construction.png",
+      "titlePicture": "/learning-material/story-5/story-de/Story 5_title_it.jpg",
       "fullAudio": "/learning-material/story-5/story-it/Story5_Italiano.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-5/story-en/Story_5_full_text_it.pdf",
       "pages": {
         "1": {
           "text": "Bobba saltella per la strada. Le sue orecchie soffici si muovono per l’emozione. “Dove stiamo andando?” “In biblioteca!” dice Olivia. “È piena di libri!” Bobba spalanca gli occhi. “Libri!”",
-          "imageUrl": "/images/under-construction.png",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
           "audioUrl": "/learning-material/story-5/story-it/Story5_01.mp3"
         },
         "2": {
           "text": "In biblioteca ci sono tanti scaffali alti. L’aria ha un profumo magico. Una signora con dei grandi occhiali sorride. “Buongiorno bambini!” “Wow” sussurra Bobba. “Quanti libri!”",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_2.png",
           "audioUrl": "/learning-material/story-5/story-it/Story5_02.mp3"
         },
         "3": {
