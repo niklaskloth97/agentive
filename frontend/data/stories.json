@@ -2929,7 +2929,7 @@
       "pages": {
         "1": {
           "text": "Bobba bounces down the street. His fluffy ears are twitching with excitement.\"Where are we going? \" \"To the library!\" says Olivia. \"It's full of books!\" Bobba's eyeswiden. \"Books!\"",
-          "imageUrl": "/images/under-construction.png",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
           "audioUrl": "/learning-material/story-5/story-en/Story 5_1.m4a"
         },
         "2": {
@@ -2971,9 +2971,9 @@
     }],
     "de": [{
       "title": "Bobba in der Bibliothek",
-      "titlePicture": "/images/under-construction.png",
+      "titlePicture": "/learning-material/story-5/story-de/Story 5_title_de.jpg",
       "fullAudio": "/learning-material/story-5/story-de/Bobba_in_der_Bibliothek_Title.m4a",
-      "fullText": "",
+      "fullText": "/learning-material/story-5/story-en/Story_5_full_text_de.pdf",
       "pages": {
         "1": {
           "text": "Bobba hüpft fröhlich die Strasse entlang. Seine flauschigen Ohren zucken vor Freude. ”Wo gehen wir denn hin?” – ”In die Bücherei!” antwortet Olivia.”Da gibt’s ganz viele Bücher!” Bobbas Augen werden ganz groß: ”Bücher!”",
@@ -3019,9 +3019,9 @@
     }],
     "sw-ger": [{
       "title": "Bobba in der Bibliothek",
-      "titlePicture": "/images/under-construction.png",
+      "titlePicture": "/learning-material/story-5/story-de/Story 5_title_de.jpg",
       "fullAudio": "/learning-material/story-5/story-de short/Bobba_DE_Story 5_gesamt.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-5/story-en/Story_5_full_text_de-short.pdf",
       "pages": {
         "1": {
           "text": "Bobba hüpft fröhlich die Strasse entlang. Seine flauschigen Ohren zucken vor Freude. ”Wo gehen wir denn hin?” – ”In die Bibliothek!” antwortet Olivia.”Da gibt es ganz viele Bücher!” Bobbas Augen werden ganz groß: ”Bücher!”",
@@ -3066,19 +3066,19 @@
       }
     }],
     "fr": [{
-      "title": "",
-      "titlePicture": "/images/under-construction.png",
+      "title": "Bobba à la bibliothèque",
+      "titlePicture": "/learning-material/story-5/story-de/Story 5_title_fr.jpg",
       "fullAudio": "/learning-material/story-5/story-fr/Bobba_FR_Story 5-MP3.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-5/story-en/Story_5_full_text_fr.pdf",
       "pages": {
         "1": {
-          "text": "",
-          "imageUrl": "/images/under-construction.png",
+          "text": "Bobba s’amuse à sautiller le long du trottoir. Ses oreilles aux poils doux bougent dans tous les sens. «Où est-ce qu’on va ?». «À la bibliothèque!», dit Olivia.«Tu vas voir, il y a plein de livres!» Bobba ouvre grand les yeux. «Livres!»",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
           "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5_1-MP3.mp3"
         },
         "2": {
-          "text": "",
-          "imageUrl": "",
+          "text": "Dans la bibliothèque, il y a beaucoup d’étagères très hautes. C’est magique. Une dame avec de grosses lunettes sourit. «Bonjour les enfants!». «Waouh…», chuchot Bobba. «Tous ces livres!»",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_2.png",
           "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5_2-MP3.mp3"
         },
         "3": {
