@@ -4310,584 +4310,639 @@
     "en": [{
       "title": "Celebrating Olivia's birthday",
       "titlePicture": "/learning-material/story-7/covers/Story 7_title_E.jpg",
-      "fullAudio": "/learning-material/story-6/story-en/6_complete version.m4a",
-      "fullText": "/learning-material/story-6/story-en/Story6_EN.pdf",
+      "fullAudio": "/learning-material/story-7/story-en/Story 7_Full_E.mp3",
+      "fullText": "/learning-material/story-7/story-en/Story7_EN.pdf",
       "pages": {
         "0": {
-          "text": "The Monster castle",
-          "imageUrl":  "/learning-material/story-6/covers/Story 6_title_E.jpg",
-          "audioUrl": "/learning-material/story-6/story-en/Story_6_title.m4a"
+          "text": "Celebrating Olivia's birthday",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_E.jpg",
+          "audioUrl": "/learning-material/story-7/story-en/Story 7_title E.mp3"
         },
         "1": {
           "text": "It is a special day. Bobba is invited to Olivia's birthday party. In front of the house are many balloons with a big 5.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
+          "audioUrl": "/learning-material/story-7/story-en/Story 7_1_E.mp3"
         },
         "2": {
           "text": "Bobba spots many children he knows but also many tall people. He wonders who they are.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
+          "audioUrl": "/learning-material/story-7/story-en/Story 7_2_E.mp3"
         },
         "3": {
           "text": "The children play the musical chairs game. Next, they play hide-and-seek in the garden. They have a lot of fun.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_3.jpeg",
+          "audioUrl": "/learning-material/story-7/story-en/Story 7_3_E.mp3"
         },
         "4": {
           "text": "\"La naskiĝtaga kuko!\", calls the father. He carries a huge cake that looks like a castle with 5 towers on fire.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_4.jpeg",
+          "audioUrl": "/learning-material/story-7/story-en/Story 7_4_E.mp3"
         },
         "5": {
           "text": "\"Ni kantu\", says grandma in Esperanto for Bobba to understand. They sing \"Happy birthday\" in 3 languages. Bobba knows the song in English and tries to sing along.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
+          "audioUrl": "/learning-material/story-7/story-en/Story 7_5_E.mp3"
         },
         "6": {
           "text": "Bobba, put the candles out, suggests Olivia. Bobba almost touches the towers on the castle. \"Stop\", says Ben and shows him how to blow them out.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
+          "audioUrl": "/learning-material/story-7/story-en/Story 7_6_E.mp3"
         },
         "7": {
           "text": "The cake is delicious. Bobba eats five pieces. \"Very good\", he says. \"Will Bobba get a stomach-ache now?\", asks Olivia.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
+          "audioUrl": "/learning-material/story-7/story-en/Story 7_7_E.mp3"
         },
         "8": {
           "text": "\"I wonder what presents you've brought? Let's open the boxes\". Olivia is delighted. \"I always wanted this!\" she shouts as she opens present after present. The children play a bit longer before they go home.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
+          "audioUrl": "/learning-material/story-7/story-en/Story 7_8_E.mp3"
         }
       }
     }],
     "de": [{
       "title": "Olivias Geburtstagsparty",
-      "titlePicture": "",
-      "fullAudio": "",
-      "fullText": "",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_GE.jpg",
+      "fullAudio": "/learning-material/story-7/story-de/Story 7_Full_GE.mp3",
+      "fullText": "/learning-material/story-7/story-de/Story7_DE_L.pdf",
       "pages": {
+        "0": {
+          "text": "Olivias Geburtstagsparty",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_GE.jpg",
+          "audioUrl": "/learning-material/story-7/story-de/Olivias_Geburtstagsparty.m4a"
+        },
         "1": {
           "text": "Heute ist ein besonderer Tag. Bobba ist zu Olivias Geburtstagsfeier eingeladen. Vor dem Haus gibt es viele Ballons mit einer großen 5.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
           "audioUrl": "/learning-material/story-7/story-de/Story 7_G Long_7_1.m4a"
         },
         "2": {
           "text": "Bobba sieht viele Kinder, die er kennt, aber da sind auch viele große Menschen. Bobba fragt sich, wer sie sind.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
           "audioUrl": "/learning-material/story-7/story-de/Story 7_G Long_7_2.m4a"
         },
         "3": {
           "text": "Die Kinder spielen die “Stuhlpolonaise“. Dann spielen sie Verstecken im Garten. Sie haben so viel Spaß.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_3.jpeg",
           "audioUrl": "/learning-material/story-7/story-de/Story 7_G Long_7_3.m4a"
         },
         "4": {
           "text": "“La naskiĝtaga kuko!”, ruft der Vater. Er bringt einen großen Kuchen, der aussieht wie eine Burg mit fünf Feuertürmen.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_4.jpeg",
           "audioUrl": "/learning-material/story-7/story-de/Story 7_G Long_7_4.m4a"
         },
         "5": {
           "text": "“Ni kantu”, sagt die Großmutter auf Esperanto, damit Bobba sie versteht. Sie singen «Happy Birthday» in drei Sprachen. Bobba kennt das Lied auf Englisch und singt mit. ",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
           "audioUrl": "/learning-material/story-7/story-de/Story 7_G Long_7_5.m4a"
         },
         "6": {
           "text": "“Bobba, mach du die Kerzen aus!“, schlägt Olivia vor. Bobba probiert es und stößt fast die Türme auf dem Kuchen um. «Halt!» sagt die Mutter und zeigt ihm, wie man Kerzen auspustet. ",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
           "audioUrl": "/learning-material/story-7/story-de/Story 7_G Long_7_6.m4a"
         },
         "7": {
           "text": "Der Kuchen schmeckt fantastisch. Bobba isst gleich fünf ganze Stücke hintereinander. «Sehr lecker!», sagt er. «Bekommt Bobba jetzt Bauchweh?», fragt Olivia.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
           "audioUrl": "/learning-material/story-7/story-de/Story 7_G Long_7_7.m4a"
         },
         "8": {
           "text": "“Jetzt bin ich neugierig auf eure Geschenke! Kommt, wir öffnen die Päckchen!» Olivia ist hocherfreut. «Das wollte ich schon immer haben!», ruft sie immer wieder. Die Kinder spielen noch ein bisschen, bis sie nach Hause gehen.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
           "audioUrl": "/learning-material/story-7/story-de/Story 7_G Long_7_8.m4a"
         }
       }
     }],
     "sw-ger": [{
       "title": "Olivias Geburtstagsparty",
-      "titlePicture": "",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_GE.jpg",
       "fullAudio": "/learning-material/story-7/story-de-short/Bobba_DE_Story_7_Gesamt.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-7/story-de-short/Story7_DE_S.pdf",
       "pages": {
+        "0": {
+          "text": "Olivias Geburtstagsparty",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_GE.jpg",
+          "audioUrl": "/learning-material/story-7/story-de-short/Bobba_DE_Story_7_Titel.mp3"
+        },
         "1": {
           "text": "Heute ist ein besonderer Tag. Bobba ist zu Olivias Geburtstagsfeier eingeladen. Vor dem Haus gibt es viele Ballons mit einer großen 5. ",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
           "audioUrl": "/learning-material/story-7/story-de-short/Bobba_DE_Story_7_1.mp3"
         },
         "2": {
           "text": "Bobba sieht viele Kinder, die er kennt, aber da sind auch viele große Menschen. Bobba fragt sich, wer sie sind. ",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
           "audioUrl": "/learning-material/story-7/story-de-short/Bobba_DE_Story_7_2.mp3"
         },
         "3": {
           "text": "Die Kinder spielen “Reise nach Jerusalem“. Dann spielen sie Verstecken im Garten. Sie haben so viel Spaß. ",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_3.jpg",
           "audioUrl": "/learning-material/story-7/story-de-short/Bobba_DE_Story_7_3.mp3"
         },
         "4": {
           "text": "“La naskiĝtaga kuko!”, ruft der Vater. Er bringt einen großen Kuchen, der aussieht wie eine Burg mit fünf Feuertürmen. ",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_4.jpg",
           "audioUrl": "/learning-material/story-7/story-de-short/Bobba_DE_Story_7_4.mp3"
         },
         "5": {
           "text": "“Ni kantu”, sagt die Großmutter auf Esperanto, damit Bobba sie versteht. Sie singen «Happy Birthday» in drei Sprachen. Bobba kennt das Lied auf Englisch und singt mit.  ",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
           "audioUrl": "/learning-material/story-7/story-de-short/Bobba_DE_Story_7_5.mp3"
         },
         "6": {
           "text": "“Bobba, mach du die Kerzen aus!“, schlägt Olivia vor. Bobba probiert es und stößt fast die Türme auf dem Kuchen um. «Halt!» sagt die Mutter und zeigt ihm, wie man Kerzen auspustet.  ",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
           "audioUrl": "/learning-material/story-7/story-de-short/Bobba_DE_Story_7_6.mp3"
         },
         "7": {
           "text": "Der Kuchen schmeckt fantastisch. Bobba isst gleich fünf ganze Stücke hintereinander. «Sehr lecker!», sagt er. «Bekommt Bobba jetzt Bauchweh?», fragt Olivia. ",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
           "audioUrl": "/learning-material/story-7/story-de-short/Bobba_DE_Story_7_7.mp3"
         },
         "8": {
           "text": "“Jetzt bin ich neugierig auf eure Geschenke! Kommt, wir öffnen die Päckchen!» Olivia freut sich. «Das wollte ich schon immer haben!», ruft sie immer wieder. Die Kinder spielen noch ein bisschen, bis sie nach Hause gehen. ",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
           "audioUrl": "/learning-material/story-7/story-de-short/Bobba_DE_Story_7_8.mp3"
         }
       }
     }],
     "fr": [{
-      "title": "",
-      "titlePicture": "",
+      "title": "Olivia fête son anniversaire",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_F.jpg",
       "fullAudio": "/learning-material/story-7/story-fr/Bobba_FR_Story 7-MP3.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-7/story-fr/Story 7_F.pdf",
       "pages": {
+        "0": {
+          "text": "Olivia fête son anniversaire",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_F.jpg",
+          "audioUrl": "/learning-material/story-7/story-fr/Bobba_FR_Story 7 Intro-MP3.mp3"
+        },
         "1": {
-          "text": "",
-          "imageUrl": "",
+          "text": "Aujourd’hui, c’est un jour spécial. Bobba est invité à l’anniversaire d’Olivia. Un gros 5 est écrit sur tous les ballons devant la maison.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
           "audioUrl":  "/learning-material/story-7/story-fr/Bobba_FR_Story 7_1-MP3.mp3"
         },
         "2": {
-          "text": "",
-          "imageUrl": "",
+          "text": "Bobba voit beaucoup d’enfants qu’il connaît. Mais il y a aussi de grandes personnes. Bobba se demande qui elles sont.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
           "audioUrl": "/learning-material/story-7/story-fr/Bobba_FR_Story 7_2-MP3.mp3"
         },
         "3": {
-          "text": "",
-          "imageUrl": "",
+          "text": "Les enfants jouent aux chaises musicales, puis à cache-cache dans le jardin. Ils s’amusent beaucoup.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_3.jpeg",
           "audioUrl": "/learning-material/story-7/story-fr/Bobba_FR_Story 7_3-MP3.mp3"
         },
         "4": {
-          "text": "",
-          "imageUrl": "",
+          "text": "«La naskiĝtaga kuko!», annonce le papa. Il porte un énorme gâteau qui ressemble à un château avec cinq tours en feu",
+          "imageUrl": "/learning-material/story-7/images/Story 7_4.jpeg",
           "audioUrl": "/learning-material/story-7/story-fr/Bobba_FR_Story 7_4-MP3.mp3"
         },
         "5": {
-          "text": "",
-          "imageUrl": "",
+          "text": "« Ni kantu ! », dit la grand-mère, en espéranto, pour que Bobba comprenne. Ils chantent « Joyeux anniversaire » dans trois langues différentes. Bobba connaît la chanson en français et essaie de chanter aussi.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
           "audioUrl": "/learning-material/story-7/story-fr/Bobba_FR_Story 7_5-MP3.mp3"
         },
         "6": {
-          "text": "",
-          "imageUrl": "",
+          "text": "« Bobba, souffle les bougies ! », propose Olivia. Bobba veut toucher les tours du gâteau. « Stop ! », dit Ben. Il lui montre comment éteindre les bougies",
+          "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
           "audioUrl": "/learning-material/story-7/story-fr/Bobba_FR_Story 7_6-MP3.mp3"
         },
         "7": {
-          "text": "",
-          "imageUrl": "",
+          "text": "Le gâteau est délicieux. Bobba mange cinq parts. « Très bon ! », dit-il. « Il va avoir mal au ventre maintenant ? », demande Olivia.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
           "audioUrl": "/learning-material/story-7/story-fr/Bobba_FR_Story 7_7-MP3.mp3"
         },
         "8": {
-          "text": "",
-          "imageUrl": "",
+          "text": "« Je me demande quels cadeaux vous m’avez apportés ? Ouvrons les boîtes ! ». Olivia est super contente. « J’ai toujours voulu ça ! », dit-elle en ouvrant chaque cadeau. Les enfants jouent encore un peu, puis chacun repart à la maison.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
           "audioUrl": "/learning-material/story-7/story-fr/Bobba_FR_Story 7_8-MP3.mp3"
         }
       }
     }],
-    "es": [{
-      "title": "",
-      "titlePicture": "",
-      "fullAudio": "",
-      "fullText": "",
-      "pages": {
-        "1": {
-          "text": "",
-          "imageUrl": "",
-          "audioUrl": ""
-        },
-        "2": {
-          "text": "",
-          "imageUrl": "",
-          "audioUrl": ""
-        },
-        "3": {
-          "text": "",
-          "imageUrl": "",
-          "audioUrl": ""
-        },
-        "4": {
-          "text": "",
-          "imageUrl": "",
-          "audioUrl": ""
-        },
-        "5": {
-          "text": "",
-          "imageUrl": "",
-          "audioUrl": ""
-        },
-        "6": {
-          "text": "",
-          "imageUrl": "",
-          "audioUrl": ""
-        },
-        "7": {
-          "text": "",
-          "imageUrl": "",
-          "audioUrl": ""
-        },
-        "8": {
-          "text": "",
-          "imageUrl": "",
-          "audioUrl": ""
-        }
-      }
-    }],
     "it": [{
-      "title": "La festa di compleanno di Olivia ",
-      "titlePicture": "",
-      "fullAudio": "/learning-material/story-7/story-it/Story7_Italiano_komplett.mp3",
-      "fullText": "",
+      "title": "La festa di compleanno di Olivia",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_I.jpg",
+      "fullAudio": "/learning-material/story-7/story-it/Story 7_Italiano_komplett.mp3",
+      "fullText": "/learning-material/story-7/story-it/Story 7_IT.pdf",
       "pages": {
+        "0": {
+          "text": "La festa di compleanno di Olivia",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_I.jpg",
+          "audioUrl": "/learning-material/story-7/story-it/Story_7_title.mp3"
+        },
         "1": {
           "text": "Oggi è un giorno speciale. Bobba è invitato alla festa di compleanno di Olivia. Davanti alla casa ci sono tanti palloncini con un grande numero 5. ",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
           "audioUrl": "/learning-material/story-7/story-it/Story 7_Szene 1 - Oggi è un giorno speciale.mp3"
         },
         "2": {
           "text": "Bobba vede tanti bambini che conosce ma anche molte persone grandi. Si chiede chi siano.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
           "audioUrl": "/learning-material/story-7/story-it/Story 7_Szene 2 - Bobba vede tanti bambini.mp3"
         },
         "3": {
           "text": "I bambini fanno il gioco delle sedie musicali. Poi giocano a nascondino in giardino. Si divertono tanto.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_3.jpeg",
           "audioUrl": "/learning-material/story-7/story-it/Story 7_Szene 3 - I bambini fanno il gioco.mp3"
         },
         "4": {
           "text": "“La naskiĝtaga kuko!”, avverte il papà. Porta una grande torta che sembra un castello con 5 torri infuocate.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_4.jpeg",
           "audioUrl": "/learning-material/story-7/story-it/Story 7_Szene 4 - Nashaga cuco avverte il papà.mp3"
         },
         "5": {
           "text": "“Ni kantu”, dice la nonna in esperanto così che Bobba possa capire. Cantano “Tanti auguri a te” in 3 lingue. Bobba conosce la canzone in inglese e prova a cantarla anche lui.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
           "audioUrl": "/learning-material/story-7/story-it/Story 7_Szene 5- ni cantu dice la nonna.mp3"
         },
         "6": {
           "text": "“Bobba spegni le candeline”, propone Olivia. Bobba sta per far cadere le torri del castello. “Fermo” dice Ben e gli mostra come soffiarle. ",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
           "audioUrl": "/learning-material/story-7/story-it/Story 7_Szene 6- Bobba, spegni le candeline.mp3"
         },
         "7": {
           "text": "La torta è deliziosa. Bobba ne mangia 5 pezzi. “Molto buona”, dice. “Adesso a Bobba gli verrà mal di pancia?”, chiede Olivia. ",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
           "audioUrl": "/learning-material/story-7/story-it/Story 7_Szene 7 - la torta è deliziosa.mp3"
         },
         "8": {
           "text": "“Sono curiosa di vedere i vostri regali”, dice Olivia.  “Apriamo i pacchi?” Olivia è felicissima. “Proprio quello che desideravo!”, esclama aprendo un regalo dopo l’altro. I bambini giocano ancora un po’ prima di tornare a casa. ",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
           "audioUrl": "/learning-material/story-7/story-it/Story 7_Szene 8 - Sono curiosa di vedere i vostri regali.mp3"
         }
       }
     }],
     "lux": [{
       "title": "Dem Olivia säi Gebuertsdag",
-      "titlePicture": "",
-      "fullAudio": "",
-      "fullText": "",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_L.jpg",
+      "fullAudio": "/learning-material/story-7/story-lux/Bobba_LU_Story 7.mp3",
+      "fullText": "/learning-material/story-7/story-lux/Story 7_LUX.pdf",
       "pages": {
+        "0": {
+          "text": "Dem Olivia säi Gebuertsdag",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_L.jpg",
+          "audioUrl": "/learning-material/story-7/story-lux/Bobba_LU_Story 7 Intro.mp3"
+        },
         "1": {
           "text": "Haut ass e besonneschen Dag. De Bobba ass op dem Olivia säi Gebuertsdag invitéiert. Virum Haus si vill Ballonen an iwwerall steet eng grouss 5 drop.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
+          "audioUrl": "/learning-material/story-7/story-lux/Bobba_LU_Story 7_1.mp3"
         },
         "2": {
           "text": "De Bobba gesäit vill Kanner, déi hie scho kennt, mä och vill grouss Leit. Hie wëllt gär wëssen, wien déi Leit sinn.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
+          "audioUrl": "/learning-material/story-7/story-lux/Bobba_LU_Story 7_2.mp3"
         },
         "3": {
           "text": "D’Kanner maachen eng Stullpolka. Duerno spille si am Gaart Stoppches. Et mécht alles esou vill Spaass.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_3.jpeg",
+          "audioUrl": "/learning-material/story-7/story-lux/Bobba_LU_Story 7_3.mp3"
         },
         "4": {
           "text": "„La naskiĝtaga kuko“, rifft de Papp. An hie stellt e ganz héiche Kuch op den Dësch. Dee gesäit aus wéi e Schlass mat fënnef Tierm. Op all Tuerm brennt eng Käerz.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_4.jpeg",
+          "audioUrl": "/learning-material/story-7/story-lux/Bobba_LU_Story 7_4.mp3"
         },
         "5": {
           "text": "“Ni kantu”, seet d’Boma op Esperanto fir datt de Bobba si versteet. Si sangen d’Gebuertsdagslidd an 3 Sproochen. De Bobba erkennt d’Melodie vum Lidd op Lëtzerbuergesch a probéiert matzesangen.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
+          "audioUrl": "/learning-material/story-7/story-lux/Bobba_LU_Story 7_5.mp3"
         },
         "6": {
           "text": "“Bobba, blos d‘Käerzen aus”, schléit d’Olivia vir. De Bobba well mat sengem Fanger d’Tierm upaken. “Stop”, rifft de Ben a weist dem Bobba, wéi een d’Käerzen ausbléist.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
+          "audioUrl": "/learning-material/story-7/story-lux/Bobba_LU_Story 7_6.mp3"
         },
         "7": {
           "text": "De Kuch schmaacht dem Bobba esou gutt, datt hien an enger Kéier fënnef Stécker ësst. „Richteg lecker“, seet hien. “Elo kritt de Bobba bestëmmt de Bauch wéi, gell“, freet d’Olivia.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
+          "audioUrl": "/learning-material/story-7/story-lux/Bobba_LU_Story 7_7.mp3"
         },
         "8": {
           "text": "“Ech froe mech, wat fir Kaddoen dir mir matbruecht hutt. Kommt mir maachen d’Këschten op.” D’Olivia ass iwwer alles glécklech. “Dat wollt ech schonn ëmmer hunn!”, jäizt hatt an hatt mécht ee Kado no deem aneren op. D’Kanner spillen nach e bëssen, da ginn se all heem.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
+          "audioUrl": "/learning-material/story-7/story-lux/Bobba_LU_Story 7_8.mp3"
         }
       }
     }],
     "gr": [{
       "title": "Γιορτάζοντας τα γενέθλια της Ολίβια",
-      "titlePicture": "",
-      "fullAudio": "",
-      "fullText": "",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_GR.jpg",
+      "fullAudio": "/learning-material/story-7/story-gr/story-7-greek-full.mp3",
+      "fullText": "/learning-material/story-7/story-gr/Story7_GR.pdf",
       "pages": {
+        "0": {
+          "text": "Γιορτάζοντας τα γενέθλια της Ολίβια",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_GR.jpg",
+          "audioUrl": "/learning-material/story-7/story-gr/story-7-greek-title.mp3"
+        },
         "1": {
           "text": "Είναι μια ιδιαίτερη μέρα. Ο Μπόμπα είναι προσκεκλημένος στο πάρτυ γενεθλίων της Ολίβια. Μπροστά από το σπίτι υπάρχουν πολλά μπαλόνια με ένα μεγάλο 5.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
+          "audioUrl": "/learning-material/story-7/story-gr/Story 7_Greek_7_1.m4a"
         },
         "2": {
           "text": "Ο Μπόμπα εντοπίζει πολλά παιδιά που γνωρίζει αλλά και πολλούς ψηλούς ανθρώπους. Αναρωτιέται ποιοι είναι.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
+          "audioUrl": "/learning-material/story-7/story-gr/Story 7_Greek_7_2.m4a"
         },
         "3": {
           "text": "Τα παιδιά παίζουν το παιχνίδι μουσικές καρέκλες. Μετά παίζουν κρυφτό στον κήπο. Διασκεδάζουν πολύ.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_3.jpeg",
+          "audioUrl": "/learning-material/story-7/story-gr/Story 7_Greek_7_3.m4a"
         },
         "4": {
           "text": "«La naskiĝtaga kuko!», φωνάζει ο μπαμπάς. Μεταφέρει μια τεράστια τούρτα που μοιάζει με ένα κάστρο με 5 φλεγόμενους πύργους.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_4.jpeg",
+          "audioUrl": "/learning-material/story-7/story-gr/Story 7_Greek_7_4.m4a"
         },
         "5": {
           "text": "«Ni kantu», λέει η γιαγιά στη γλώσσα Εσπεράντο για να καταλάβει ο Μπόμπα. Τραγουδούν το τραγούδι των γενεθλίων σε 3 γλώσσες. Ο Μπόμπα γνωρίζει το τραγούδι στα Αγγλικά και προσπαθεί να τραγουδήσει μαζί. ",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
+          "audioUrl": "/learning-material/story-7/story-gr/Story 7_Greek_7_5.m4a"
         },
         "6": {
           "text": "«Μπόμπα, σβήσε τα κεριά» προτείνει η Ολίβια. Ο Μπόμπα σχεδόν ακουμπάει του πύργους στο κάστρο. «Σταμάτα» λέει ο Μπεν και του δείχνει πώς να τα σβήσει.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
+          "audioUrl": "/learning-material/story-7/story-gr/Story 7_Greek_7_6.m4a"
         },
         "7": {
           "text": "Η τούρτα είναι νόστιμη. Ο Μπόμπα τρώει πέντε κομμάτι. «Πολύ ωραία», λέει. «Θα πονέσει η κοιλιά του Μπόμπα τώρα;» ρωτάει η Ολίβια.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
+          "audioUrl": "/learning-material/story-7/story-gr/Story 7_Greek_7_7.m4a"
         },
         "8": {
           "text": "«Αναρωτιέμαι τι δώρα να φέρατε; Ας ανοίξουμε τα κουτιά». Η Ολίβια είναι χαρούμενη. «Πάντα το ήθελα αυτό!» φωνάζει καθώς ανοίγει το ένα δώρο μετά το άλλο. Τα παιδιά παίζουν λίγο ακόμα πριν να πάνε σπίτι. ",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
+          "audioUrl": "/learning-material/story-7/story-gr/Story 7_Greek_7_8.m4a"
         }
       }
     }],
-    "sv": [{
+    "slo": [{
       "title": "Olivia praznuje rojstni dan",
-      "titlePicture": "",
-      "fullAudio": "",
-      "fullText": "",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_SL.jpg",
+      "fullAudio": "/learning-material/story-7/story-slo/Story 7_SLO_complete.m4a",
+      "fullText": "/learning-material/story-7/story-slo/Story7_SLO.pdf",
       "pages": {
+        "0": {
+          "text": "Olivia praznuje rojstni dan",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_SL.jpg",
+          "audioUrl": "/learning-material/story-7/story-slo/Story 7_SLO_title.wav"
+        },
         "1": {
           "text": "Danes je poseben dan. Bobba je povabljen na Oliviino rojstnodnevno zabavo. Pred hišo je veliko balonov v obliki številke 5.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
+          "audioUrl": "/learning-material/story-7/story-slo/Story 7_SLO_1.wav"
         },
         "2": {
           "text": "Bobba vidi veliko otrok, ki jih že pozna, pa tudi veliko visokih ljudi. Sprašuje se, kdo so.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
+          "audioUrl": "/learning-material/story-7/story-slo/Story 7_SLO_2.wav"
         },
         "3": {
           "text": "Otroci se igrajo igrico glasbeni stoli. Nato se na vrtu igrajo skrivalnice. Zelo se zabavajo.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_3.jpeg",
+          "audioUrl": "/learning-material/story-7/story-slo/Story 7_SLO_3.wav"
         },
         "4": {
           "text": "\"La naskiĝtaga kuko!\" zakliče Oliviin oče. Nosi ogromno torto, ki je videti kot grad s petimi gorečimi stolpi.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_4.jpeg",
+          "audioUrl": "/learning-material/story-7/story-slo/Story 7_SLO_4.wav"
         },
         "5": {
           "text": "\"Ni kantu,\" reče babica v esperantu, da bi jo tudi Bobba razumel. Zapojejo \"Vse najboljše\" v treh jezikih. Bobba pozna pesem v angleščini in skuša zapeti z ostalimi.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
+          "audioUrl": "/learning-material/story-7/story-slo/Story 7_SLO_5.wav"
         },
         "6": {
           "text": "\"Bobba, upihni svečke\" predlaga Olivia. Bobba seže proti gorečim stolpom, da bi svečke ugasnil kar z roko. \"Stoj!\" ga ustavi Ben in mu pokaže, kako naj jih upihne.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
+          "audioUrl": "/learning-material/story-7/story-slo/Story 7_SLO_6.wav"
         },
         "7": {
           "text": "Torta je odlična. Bobba poje pet kosov. \"Zelo dobro,\" reče. \"Ali bo zdaj Bobbo bolel trebuh?\" vpraša Olivia.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
+          "audioUrl": "/learning-material/story-7/story-slo/Story 7_SLO_7.wav"
         },
         "8": {
           "text": "\"Me prav zanima, kakšna darila sem dobila. Odprimo škatle.\" Olivia je navdušena. \"Prav to sem si želela!\" vzklika, ko odpira darila enega za drugim. Otroci se še malo poigrajo, nato pa odidejo domov.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
+          "audioUrl": "/learning-material/story-7/story-slo/Story 7_SLO_8.wav"
         }
       }
     }],
     "alb": [{
       "title": "Duke festuar ditëlindjen e Olivias",
-      "titlePicture": "",
-      "fullAudio": "",
-      "fullText": "",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_AL.jpg",
+      "fullAudio": "/learning-material/story-7/story-alb/Bobba_AL_Story 7.mp3",
+      "fullText": "/learning-material/story-7/story-alb/Story7_AL.pdf",
       "pages": {
+        "0": {
+          "text": "Duke festuar ditëlindjen e Olivias",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_AL.jpg",
+          "audioUrl": "/learning-material/story-7/story-alb/Bobba_AL_Story 7 Intro.mp3"
+        },
         "1": {
           "text": "Është një ditë e veçantë. Bobba është i ftuar në festën e ditëlindjes së Olivias. Përpara shtëpisë ka shumë tullumbace me një 5(pesëshe) të madhe.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
+          "audioUrl": "/learning-material/story-7/story-alb/Bobba_AL_Story 7_1.mp3"
         },
         "2": {
           "text": "Bobba vëren shumë fëmijë që i njeh, por edhe shumë njerëz të gjatë. Ai pyet veten se kush janë ata.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
+          "audioUrl": "/learning-material/story-7/story-alb/Bobba_AL_Story 7_2.mp3"
         },
         "3": {
           "text": "Fëmijët luajnë lojën e karrigeve muzikore. Më pas, luajnë kukafshehti në kopsht. Ata argëtohen shumë.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_3.jpeg",
+          "audioUrl": "/learning-material/story-7/story-alb/Bobba_AL_Story 7_3.mp3"
         },
         "4": {
           "text": "“La naskiĝtaga kuko!”, thërret babai. Ai mban në dorë një tortë të madhe që duket si një kështjellë me 5 kulla në flakë.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_4.jpeg",
+          "audioUrl": "/learning-material/story-7/story-alb/Bobba_AL_Story 7_4.mp3"
         },
         "5": {
           "text": "“Ni kantu,” – thotë gjyshja në Esperanto që Bobba ta kuptojë. Ata këndojnë “Gëzuar ditëlindjen” në 3 gjuhë. Bobba e di këngën në anglisht dhe përpiqet të këndojë me ta.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
+          "audioUrl": "/learning-material/story-7/story-alb/Bobba_AL_Story 7_5.mp3"
         },
         "6": {
           "text": "\"Bobba, fryji qirinjtë,\" sugjeron Olivia. Bobba pothuajse i prek kullat e kështjellës. \"Ndalo,\" thotë Beni dhe i tregon si t’i fryjë qirinjve.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
+          "audioUrl": "/learning-material/story-7/story-alb/Bobba_AL_Story 7_6.mp3"
         },
         "7": {
           "text": "Torta është e shijshme. Bobba ha pesë copa. “Shumë e mirë”, thotë ai. “A do t’i dhembë stomaku Bobbës tani?”, pyet Olivia.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
+          "audioUrl": "/learning-material/story-7/story-alb/Bobba_AL_Story 7_7.mp3"
         },
         "8": {
           "text": "“Po pyes veten se çfarë dhuratash keni sjellë? Le t’i hapim kutitë.” Olivia është shumë e kënaqur. “Këtë e kam dashur gjithmonë!” bërtet ajo ndërsa hap dhuratë pas dhurate. Fëmijët luajnë edhe pak para se të shkojnë në shtëpi.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
+          "audioUrl": "/learning-material/story-7/story-alb/Bobba_AL_Story 7_8.mp3"
         }
       }
     }],
     "ukr": [{
       "title": "Святкування дня народження Олівії",
-      "titlePicture": "",
-      "fullAudio": "",
-      "fullText": "",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_UKR.jpg",
+      "fullAudio": "/learning-material/story-7/story-ukr/story-7-ukrainian-full.mp3",
+      "fullText": "/learning-material/story-7/story-ukr/Story7_UKR.pdf",
       "pages": {
+        "0": {
+          "text": "Святкування дня народження Олівії",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_UKR.jpg",
+          "audioUrl": "/learning-material/story-7/story-ukr/7.mp3"
+        },
         "1": {
           "text": "Сьогодні особливий день. Бобба запрошений на день народження Олівії. Перед будинком багато повітряних кульок з великою п'ятіркою.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
+          "audioUrl": "/learning-material/story-7/story-ukr/Story 7_Ukrainian_7_1.MP3"
         },
         "2": {
           "text": "Бобба помічає багато знайомих дітей, а також багато високих людей. Йому цікаво, хто вони.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
+          "audioUrl": "/learning-material/story-7/story-ukr/Story 7_Ukrainian_7_2.MP3"
         },
         "3": {
           "text": "Діти грають у гру \"Музичні стільці\". Потім вони грають у хованки в саду. Вони дуже весело проводять час.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_3.jpeg",
+          "audioUrl": "/learning-material/story-7/story-ukr/Story 7_Ukrainian_7_3.MP3"
         },
         "4": {
           "text": "\"La naskiĝtaga kuko!\", - кличе батько. Він несе величезний торт, схожий на замок з 5 вежами у вогні.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_4.jpg",
+          "audioUrl": "/learning-material/story-7/story-ukr/Story 7_Ukrainian_7_4.MP3"
         },
         "5": {
           "text": "\"Ні канту\", - каже бабуся есперанто, щоб Бобба зрозумів. Вони співають \"Happy birthday\" 3- ма мовами. Бобба знає пісню англійською і намагається підспівувати.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
+          "audioUrl": "/learning-material/story-7/story-ukr/Story 7_Ukrainian_7_5.MP3"
         },
         "6": {
           "text": " \"Бобба, загаси свічки\", - пропонує Олівія. Бобба майже торкається веж замку. \"Стоп\", - каже Бен і показує йому, як їх задути.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
+          "audioUrl": "/learning-material/story-7/story-ukr/Story 7_Ukrainian_7_6.MP3"
         },
         "7": {
           "text": "Торт дуже смачний. Бобба з'їдає п'ять шматочків. \"Дуже смачно\", - каже він. \"У Бобби тепер буде боліти живіт?\", - запитує Олівія.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
+          "audioUrl": "/learning-material/story-7/story-ukr/Story 7_Ukrainian_7_7.MP3"
         },
         "8": {
           "text": " \"Цікаво, які подарунки ви привезли? Давай відкриємо коробки\". Олівія в захваті. \"Я завжди цього хотіла!\" - вигукує вона, відкриваючи подарунок за подарунком. Діти ще трохи граються, перш ніж піти додому.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
+          "audioUrl": "/learning-material/story-7/story-ukr/Story 7_Ukrainian_7_8.MP3"
         }
       }
     }],
     "pl": [{
       "title": "Urodziny Olivii",
-      "titlePicture": "",
-      "fullAudio": "",
-      "fullText": "",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_PL.jpg",
+      "fullAudio": "/learning-material/story-7/story-pl/Story 7_PL.m4a",
+      "fullText": "/learning-material/story-7/story-pl/Story7_Pl.pdf",
       "pages": {
+        "0": {
+          "text": "Urodziny Olivii",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_PL.jpg",
+          "audioUrl": "/learning-material/story-7/story-/title.mp3"
+        },
         "1": {
           "text": "To wyjątkowy dzień. Bobba zostaje zaproszony na przyjęcie urodzinowe Olivii. Przed domem znajduje się wiele dorosłych z dużą cyfrą 5.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
           "audioUrl": ""
         },
         "2": {
           "text": "Bobba dostrzega wiele dzieci, które zna, ale także wiele wysokich osób. Zastanawia się, kim oni są.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
           "audioUrl": ""
         },
         "3": {
           "text": "Dzieci grają w muzyczną grę w krzesła. Następnie bawią się w chowanego w ogrodzie. Świetnie się bawią.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_3.jpeg",
           "audioUrl": ""
         },
         "4": {
           "text": "„La naskiĝtaga kuko!”, woła tata. Niesie ogromny tort, który wygląda jak zamek z pięcioma płonącymi wieżami.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_4.jpeg",
           "audioUrl": ""
         },
         "5": {
           "text": "„Ni kantu”, mówi babcia w esperanto, żeby Bobba zrozumiał. Śpiewają „Sto lat” w 3 językach. Bobba zna piosenkę po angielsku i próbuje ją zaśpiewać.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
           "audioUrl": ""
         },
         "6": {
           "text": "„Bobba, zdmuchnij świeczki”, sugeruje Olivia. Bobba dmuchając prawie dotyka wież na zamku. „Przestań”, mówi Ben i pokazuje mu, jak je prawidłowo zdmuchnąć.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
           "audioUrl": ""
         },
         "7": {
           "text": "Ciasto jest pyszne. Bobba zjada pięć kawałków. „Bardzo dobre”, mówi. „Czy Bobbę będzie teraz bolał brzuch?”, pyta Olivia.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
           "audioUrl": ""
         },
         "8": {
           "text": "\"Ciekawe, jakie prezenty przyniosłeś? Otwórzmy je\". Olivia jest zachwycona. „Zawsze to chciałam dostać!” krzyczy, otwierając prezent za prezentem. Dzieci bawią się jeszcze trochę, zanim wrócą do domu.",
-          "imageUrl": "",
+          "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
           "audioUrl": ""
         }
       }
-    }]
+    }],
+     "por": [{
+      "title": "A festa de aniversário da Olívia",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_P.jpg",
+      "fullAudio": "/learning-material/story-7/story-por/7_complete version.m4a",
+      "fullText": "/learning-material/story-7/story-por/Story7_POR.pdf",
+      "pages": {
+        "0": {
+          "text": "A festa de aniversário da Olívia",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_GR.jpg",
+          "audioUrl": "/learning-material/story-7/story-por/7_title.m4a"
+        },
+        "1": {
+          "text": "Hoje é um dia especial. O Bobba foi convidado para a festa de aniversário da Olívia. Em frente à casa, há muitos balões com um grande 5.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
+          "audioUrl": "/learning-material/story-7/story-por/7_1.m4a"
+        },
+        "2": {
+          "text": "O Bobba vê muitas crianças conhecidas, mas também muitas pessoas altas. E pergunta-se quem serão.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
+         "audioUrl": "/learning-material/story-7/story-por/7_2.m4a"
+        },
+        "3": {
+          "text": "As crianças brincam à dança das cadeiras. Em seguida, brincam às escondidas no jardim. Divertem-se muito.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_3.jpeg",
+          "audioUrl": "/learning-material/story-7/story-por/7_3.m4a"
+        },
+        "4": {
+          "text": "\"La naskiĝtaga kuko!\", grita o pai. Carrega um bolo enorme que parece um castelo com 5 torres em chamas.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_4.jpeg",
+          "audioUrl": "/learning-material/story-7/story-por/7_4.m4a"
+        },
+        "5": {
+          "text": "\"Ni kantu\", diz a avó em esperanto para que o Bobba perceba. Cantam \"Parabéns a você\" em 3 línguas. O Bobba conhece a cantiga em português e tenta cantar com eles.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
+          "audioUrl": "/learning-material/story-7/story-por/7_5.m4a"
+        },
+        "6": {
+          "text": "\"Bobba, apaga as velas!\", sugere a Olívia. O Bobba quase toca nas torres do castelo. \"Pára\", diz Ben, mostrando-lhe como se sopram as velas.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
+          "audioUrl": "/learning-material/story-7/story-por/7_6.m4a"
+        },
+        "7": {
+          "text": "O bolo é delicioso. Bobba come cinco fatias. \"Muito bom\", diz. \"Será que o Bobba agora vai ficar com dores de barriga?\", pergunta a Olivia.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
+          "audioUrl": "/learning-material/story-7/story-por/7_7.m4a"
+        },
+        "8": {
+          "text": "\"Estou a imaginar que presentes me trouxeram. Vamos abrir as caixas.\" A Olívia está encantada. \"Eu sempre quis isto!\", grita ela enquanto abre um presente atras do outro. As crianças brincam mais um pouco antes de irem para casa.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
+          "audioUrl": "/learning-material/story-7/story-por/7_1.m4a"
+        }
+      }
+    }],
   },
   {
     "id": "8",
