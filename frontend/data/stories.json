@@ -2971,7 +2971,7 @@
     }],
     "de": [{
       "title": "Bobba in der Bibliothek",
-      "titlePicture": "/learning-material/story-5/story-de/Story 5_title_de.jpg",
+      "titlePicture": "/learning-material/story-5/story-de/Story 5_title_de.jpeg",
       "fullAudio": "/learning-material/story-5/story-de/Bobba_in_der_Bibliothek_Title.m4a",
       "fullText": "/learning-material/story-5/story-de/Story_5_full_text_de.pdf",
       "pages": {
@@ -3019,7 +3019,7 @@
     }],
     "sw-ger": [{
       "title": "Bobba in der Bibliothek",
-      "titlePicture": "/learning-material/story-5/story-de/Story 5_title_de.jpg",
+      "titlePicture": "/learning-material/story-5/story-de/Story 5_title_de.jpeg",
       "fullAudio": "/learning-material/story-5/story-de short/Bobba_DE_Story 5_gesamt.mp3",
       "fullText": "/learning-material/story-5/story-sw-ger/Story_5_full_text_de-short.pdf",
       "pages": {
@@ -3067,7 +3067,7 @@
     }],
     "fr": [{
       "title": "Bobba à la bibliothèque",
-      "titlePicture": "/learning-material/story-5/story-fr/Story 5_title_fr.jpg",
+      "titlePicture": "/learning-material/story-5/story-fr/Story 5_title_fr.jpeg",
       "fullAudio": "/learning-material/story-5/story-fr/Bobba_FR_Story 5-MP3.mp3",
       "fullText": "/learning-material/story-5/story-fr/Story_5_full_text_fr.pdf",
       "pages": {
@@ -3115,7 +3115,7 @@
     }],
     "it": [{
       "title": "Bobba in biblioteca ",
-      "titlePicture": "/learning-material/story-5/story-it/Story 5_title_it.jpg",
+      "titlePicture": "/learning-material/story-5/story-it/Story 5_title_it.jpeg",
       "fullAudio": "/learning-material/story-5/story-it/Story5_Italiano.mp3",
       "fullText": "/learning-material/story-5/story-en/Story_5_full_text_it.pdf",
       "pages": {
@@ -3163,7 +3163,7 @@
     }],
     "lux": [{
       "title": "De Bobba an der Bibliothéik",
-      "titlePicture": "/learning-material/story-5/story-lux/Story_5_title_lux.jpg",
+      "titlePicture": "/learning-material/story-5/story-lux/Story_5_title_lux.jpeg",
       "fullAudio": "/learning-material/story-5/story-lux/Bobba_LU_Story 5.mp3",
       "fullText": "/learning-material/story-5/story-lux/Story5_LUX.pdf",
       "pages": {
@@ -3211,7 +3211,7 @@
     }],
     "gr": [{
       "title": "Ο Μπόμπα στη βιβλιοθήκη",
-      "titlePicture": "/learning-material/story-5/story-gr/Story_5_title_gr.jpg",
+      "titlePicture": "/learning-material/story-5/story-gr/Story_5_title_gr.jpeg",
       "fullAudio": "/learning-material/story-5/story-gr/story-5-greek-full.mp3",
       "fullText": "/learning-material/story-5/story-gr/Story5_GR.pdf",
       "pages": {
@@ -3259,7 +3259,7 @@
     }],
     "alb": [{
       "title": "Bobba në bibliotekë",
-      "titlePicture": "/learning-material/story-5/story-alb/Story_5_title_alb.jpg",
+      "titlePicture": "/learning-material/story-5/story-alb/Story_5_title_alb.jpeg",
       "fullAudio": "/learning-material/story-5/story-alb/Bobba_AL_Story 5.mp3",
       "fullText": "/learning-material/story-5/story-alb/Story5_AL.pdf",
       "pages": {
@@ -3307,7 +3307,7 @@
     }],
     "ukr": [{
       "title": " Бобба у бібліотеці",
-      "titlePicture": "/learning-material/story-5/story-ukr/Story_5_title_ukr.jpg",
+      "titlePicture": "/learning-material/story-5/story-ukr/Story_5_title_ukr.jpeg",
       "fullAudio": "/learning-material/story-5/story-ukr/story-5-ukrainian-full.mp3",
       "fullText": "/learning-material/story-5/story-ukr/Story5_UKR.pdf",
       "pages": {
@@ -3355,7 +3355,7 @@
     }],
     "pl": [{
       "title": "Bobba w bibliotece",
-      "titlePicture": "/learning-material/story-5/story-pl/Story_5_title_pl.jpg",
+      "titlePicture": "/learning-material/story-5/story-pl/Story_5_title_pl.jpeg",
       "fullAudio": "/learning-material/story-5/story-pl/Story 5_PL.m4a",
       "fullText": "/learning-material/story-5/story-pl/Story5_PL.pdf",
       "pages": {
@@ -3403,49 +3403,49 @@
     }],
     "slo": [{
       "title": "Bobba v knjižnici",
-      "titlePicture": "/learning-material/story-5/story-slo/Story_5_title_slo.jpg",
+      "titlePicture": "/learning-material/story-5/story-slo/Story_5_title_slo.jpeg",
       "fullAudio": "/learning-material/story-5/story-slo/Recording 5.m4a",
       "fullText": "/learning-material/story-5/story-slo/Story5_SLO.pdf",
       "pages": {
         "1": {
           "text": "Bobba poskakuje po ulici. Od navdušenja striže z ušesi. \"Kam pa gremo?\" \"V knjižnico!\" reče Olivia. \"Tam je polno knjig!\" Bobba jo debelo pogleda: \"Knjig?\"",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
-          "audioUrl": "/learning-material/story-5/story-slo/Story_5_1.m4a"
+          "audioUrl": "/learning-material/story-5/story-slo/Story 5_SLO_1.wav"
         },
         "2": {
           "text": "V knjižnici je veliko visokih polic. V zraku je čaroben vonj. Gospa z velikimi očali se nasmehne: \"Dober dan!\" \"Vau,\" zašepeta Bobba. \"Koliko knjig!\"",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_2.png",
-          "audioUrl": "/learning-material/story-5/story-slo/Story_5_2.m4a"
+          "audioUrl": "/learning-material/story-5/story-slo/Story 5_SLO_2.wav"
         },
         "3": {
           "text": "Bobba gre z otroki do polic. \"Poiščimo knjigo zate,\" reče Ben. Izvlečejo knjige s slikami, na katerih so pošasti, dinozavri in čarobne živali.",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_3.png",
-          "audioUrl": "/learning-material/story-5/story-slo/Story_5_3.m4a"
+          "audioUrl": "/learning-material/story-5/story-slo/Story 5_SLO_3.wav"
         },
         "4": {
           "text": "Bobba vzklikne. \"Uau!\" in pokaže na stran v knjigi. \"Kaj si videl?\" ga vprašajo otroci in Bobba pokaže na bitje v knjigi. Špičasta ušesa. Velike oči. \"Skoraj tak kot jaz,\" pomisli. Njegove velike oči postanejo še večje.",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_4.png",
-          "audioUrl": "/learning-material/story-5/story-slo/Story_5_4.m4a"
+          "audioUrl": "/learning-material/story-5/story-slo/Story 5_SLO_4.wav"
         },
         "5": {
           "text": "Bobba obrača stran za stranjo in všeč mu je, kar vidi – še več neverjetnih bitij. \"Dom… pogrešam dom…\" zavzdihne Bobba.",
          "imageUrl": "/learning-material/story-5/story-en/Story 5_5.png",
-          "audioUrl": "/learning-material/story-5/story-slo/Story_5_5.m4a"
+          "audioUrl": "/learning-material/story-5/story-slo/Story 5_SLO_5.wav"
         },
         "6": {
           "text": "Ben reče: \"Lahko si jo izposodiš.\" \"Izposodim?\" mežikne Bobba. Knjižničarka prikima. \"Potrebuješ samo izkaznico in tako se včlaniš v knjižnico.\"",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_6.png",
-          "audioUrl": "/learning-material/story-5/story-slo/Story_5_6.m4a"
+          "audioUrl": "/learning-material/story-5/story-slo/Story 5_SLO_6.wav"
         },
         "7": {
           "text": "Otroci Bobbi pomagajo napisati ime na izkaznico. Bobba ponosno dvigne svojo novo izkaznico. \"Zdaj sem včlanjen v knjižnico!\"",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_7.png",
-          "audioUrl": "/learning-material/story-5/story-slo/Story_5_7.m4a"
+          "audioUrl": "/learning-material/story-5/story-slo/Story 5_SLO_7.wav"
         },
         "8": {
           "text": "Nebo je polno zvezd. Bobba objema knjigo. Počuti se, kot bi imel v naročju košček doma. \"Nekega dne… bom le šel domov.\"",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_8.png",
-          "audioUrl": "/learning-material/story-5/story-slo/Story_5_8.m4a"
+          "audioUrl": "/learning-material/story-5/story-slo/Story 5_SLO_8.wav"
         }
       }
     }],
@@ -3494,6 +3494,54 @@
           "text": "O gece, yıldızlar gökyüzünde parlarken, Bobba kitabına sıkıca sarıldı. Bu kitap ona evinden bir parça gibi geliyordu. “Bir gün… Eve döneceğim,” dedi Bobba. Ve kütüphanenin büyüsü içinde tatlı bir uykuya daldı. 🌟",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_8.png",
           "audioUrl": "/learning-material/story-5/story-tur/Story_5_7.m4a"
+        }
+      }
+    }],
+    "por": [{
+      "title": "Bobba na biblioteca",
+      "titlePicture": "/learning-material/story-5/story-por/Story_5_title_por.jpeg",
+      "fullAudio": "/learning-material/story-5/story-por/5_complete version.m4a",
+      "fullText": "/learning-material/story-5/story-por/Story5_por.pdf",
+      "pages": {
+        "1": {
+          "text": "O Bobba saltita pela rua abaixo. As suas orelhas fofas abanam de excitação. \"Para onde é que vamos?\" \"Para a biblioteca!\" diz a Olívia. \"Há lá muitos livros!\" O Bobba arregala os olhos. \"Livros!\"",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
+          "audioUrl": "/learning-material/story-5/story-por/5_1.m4a"
+        },
+        "2": {
+          "text": "Na biblioteca há muitas prateleiras altas. O ar tem um cheiro mágico. Uma senhora com óculos grandes sorri. \"Olá!\" \"Uau\", murmura o Bobba. \"Tantos livros!\"",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_2.png",
+          "audioUrl": "/learning-material/story-5/story-por/5_2.m4a"
+        },
+        "3": {
+          "text": "O Bobba segue as crianças até às prateleiras. \"Vamos encontrar um livro para ti\", diz o Ben. Pegam em livros com imagens de monstros, de dinossauros e de criaturas mágicas.",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_3.png",
+          "audioUrl": "/learning-material/story-5/story-por/5_3.m4a"
+        },
+        "4": {
+          "text": "O Bobba suspira. \"Uau\", aponta para uma página do livro. As crianças olham. \"O que é?\" O Bobba fixa a criatura do livro. Orelhas peludas. Olhos grandes. \"Quase como…eu\", pensa. E arregala ainda mais os seus grandes olhos.",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_4.png",
+          "audioUrl": "/learning-material/story-5/story-por/5_4.m4a"
+        },
+        "5": {
+          "text": "O Bobba vira página após página e gosta do que vê: mais criaturas esquisitas e engraçadas. \"Casa... tenho saudades de casa...\" O Bobba suspira.",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_5.png",
+          "audioUrl": "/learning-material/story-5/story-por/5_5.m4a"
+        },
+        "6": {
+          "text": "O Ben diz: \"Podes pedir o livro emprestado.\" \"Pedir emprestado?\" O Bobba pisca os olhos. A bibliotecária faz sinal que sim. \"Só precisas de um cartão da biblioteca, depois ficas membro da biblioteca\".",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_6.png",
+          "audioUrl": "/learning-material/story-5/story-por/5_6.m4a"
+        },
+        "7": {
+          "text": "As crianças ajudam o Bobba a escrever o nome dele no cartão. Depois, o Bobba segura o seu novo cartão todo contente. \"Agora sou membro da biblioteca!\"",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_7.png",
+          "audioUrl": "/learning-material/story-5/story-por/5_7.m4a"
+        },
+        "8": {
+          "text": "As estrelas brilham no céu. O Bobba abraça o livro. O livro que tem nas mãos é como se fosse um pedaço de sua casa. \"Um dia... voltarei a casa.\"",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_8.png",
+          "audioUrl": "/learning-material/story-5/story-por/5_7.m4a"
         }
       }
     }]
