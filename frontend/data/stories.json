@@ -2927,6 +2927,11 @@
       "fullAudio": "/learning-material/story-5/story-en/Story_5_full_audio.m4a",
       "fullText": "/learning-material/story-5/story-en/Story_5_full_text.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba in the library",
+          "imageUrl": "/learning-material/story-5/story-en/Story5_title_E.jpg",
+          "audioUrl": "/learning-material/story-5/story-en/Story5_English_Title.m4a"
+        },
         "1": {
           "text": "Bobba bounces down the street. His fluffy ears are twitching with excitement.\"Where are we going? \" \"To the library!\" says Olivia. \"It's full of books!\" Bobba's eyeswiden. \"Books!\"",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
@@ -2975,6 +2980,11 @@
       "fullAudio": "/learning-material/story-5/story-de/Bobba_in_der_Bibliothek_Title.m4a",
       "fullText": "/learning-material/story-5/story-de/Story_5_full_text_de.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba in der Bibliothek",
+          "imageUrl": "/learning-material/story-5/story-de/Story 5_title_de.jpeg",
+          "audioUrl": "/learning-material/story-5/story-de/Bobba_in_der_Bibliothek_Title.m4a"
+        },
         "1": {
           "text": "Bobba hüpft fröhlich die Strasse entlang. Seine flauschigen Ohren zucken vor Freude. ”Wo gehen wir denn hin?” – ”In die Bücherei!” antwortet Olivia.”Da gibt’s ganz viele Bücher!” Bobbas Augen werden ganz groß: ”Bücher!”",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
@@ -3023,6 +3033,11 @@
       "fullAudio": "/learning-material/story-5/story-de short/Bobba_DE_Story 5_gesamt.mp3",
       "fullText": "/learning-material/story-5/story-sw-ger/Story_5_full_text_de-short.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba in der Bibliothek",
+          "imageUrl": "/learning-material/story-5/story-de/Story 5_title_de.jpeg",
+          "audioUrl": "/learning-material/story-5/story-de/Bobba_in_der_Bibliothek_Title.m4a"
+        },
         "1": {
           "text": "Bobba hüpft fröhlich die Strasse entlang. Seine flauschigen Ohren zucken vor Freude. ”Wo gehen wir denn hin?” – ”In die Bibliothek!” antwortet Olivia.”Da gibt es ganz viele Bücher!” Bobbas Augen werden ganz groß: ”Bücher!”",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
@@ -3071,6 +3086,11 @@
       "fullAudio": "/learning-material/story-5/story-fr/Bobba_FR_Story 5-MP3.mp3",
       "fullText": "/learning-material/story-5/story-fr/Story_5_full_text_fr.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba à la bibliothèque",
+          "imageUrl": "/learning-material/story-5/story-fr/Story 5_title_fr.jpeg",
+          "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5 Intro-MP3.mp3"
+        },
         "1": {
           "text": "Bobba s’amuse à sautiller le long du trottoir. Ses oreilles aux poils doux bougent dans tous les sens. «Où est-ce qu’on va ?». «À la bibliothèque!», dit Olivia.«Tu vas voir, il y a plein de livres!» Bobba ouvre grand les yeux. «Livres!»",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
@@ -3114,11 +3134,16 @@
       }
     }],
     "it": [{
-      "title": "Bobba in biblioteca ",
+      "title": "Bobba in biblioteca",
       "titlePicture": "/learning-material/story-5/story-it/Story 5_title_it.jpeg",
       "fullAudio": "/learning-material/story-5/story-it/Story5_Italiano.mp3",
       "fullText": "/learning-material/story-5/story-en/Story_5_full_text_it.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba in biblioteca",
+          "imageUrl": "/learning-material/story-5/story-it/Story 5_title_it.jpeg",
+          "audioUrl": "/learning-material/story-5/story-it/Story 5_Title.mp3"
+        },
         "1": {
           "text": "Bobba saltella per la strada. Le sue orecchie soffici si muovono per l’emozione. “Dove stiamo andando?” “In biblioteca!” dice Olivia. “È piena di libri!” Bobba spalanca gli occhi. “Libri!”",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
@@ -3167,6 +3192,11 @@
       "fullAudio": "/learning-material/story-5/story-lux/Bobba_LU_Story 5.mp3",
       "fullText": "/learning-material/story-5/story-lux/Story5_LUX.pdf",
       "pages": {
+        "0": {
+          "text": "De Bobba an der Bibliothéik",
+          "imageUrl": "/learning-material/story-5/story-lux/Story_5_title_lux.jpeg",
+          "audioUrl": "/learning-material/story-5/story-lux/Bobba_LU_Story 5 Intro.mp3"
+        },
         "1": {
           "text": "De Bobba hopst d’Strooss erof. Seng grouss muusseg Ouere beweege sech an all Richtung, sou frou ass hien. “Wou gi mir hin?” “An d’Bibliothéik!”, seet d’Olivia.”Do ginn et eng ganz Rëtsch Bicher!”. Dem Bobba seng Ae gi ganz grouss. “Bicher!”",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
@@ -3215,6 +3245,11 @@
       "fullAudio": "/learning-material/story-5/story-gr/story-5-greek-full.mp3",
       "fullText": "/learning-material/story-5/story-gr/Story5_GR.pdf",
       "pages": {
+        "0": {
+          "text": "Ο Μπόμπα στη βιβλιοθήκη",
+          "imageUrl": "/learning-material/story-5/story-gr/Story_5_title_gr.jpeg",
+          "audioUrl": "/learning-material/story-5/story-gr/story-5-greek-title.mp3"
+        },
         "1": {
           "text": "Ο Μπόμπα χοροπηδάει στο δρόμο. Τα χνουδωτά αυτιά του τινάζονται με ενθουσιασμό. «Πού πάμε;» «Στη βιβλιοθήκη!» λέει η Ολίβια. «Είναι γεμάτη βιβλία!» Τα μάτια του Μπόμπα ανοίγουν διάπλατα. «Βιβλία!»",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
@@ -3263,6 +3298,11 @@
       "fullAudio": "/learning-material/story-5/story-alb/Bobba_AL_Story 5.mp3",
       "fullText": "/learning-material/story-5/story-alb/Story5_AL.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba në bibliotekë",
+          "imageUrl": "/learning-material/story-5/story-alb/Story_5_title_alb.jpeg",
+          "audioUrl": "/learning-material/story-5/story-alb/Bobba_AL_Story 5 Intro.mp3"
+        },
         "1": {
           "text": "Bobba kërcen nëpër rrugë. Veshët e tij të butë dridhen nga emocionet. “Ku po shkojmë?” “Në bibliotekë!” – thotë Olivia. “Është plot me libra!” Sytë e Bobbës zgjerohen. “Libra!”",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
@@ -3306,11 +3346,16 @@
       }
     }],
     "ukr": [{
-      "title": " Бобба у бібліотеці",
+      "title": "Бобба у бібліотеці",
       "titlePicture": "/learning-material/story-5/story-ukr/Story_5_title_ukr.jpeg",
       "fullAudio": "/learning-material/story-5/story-ukr/story-5-ukrainian-full.mp3",
       "fullText": "/learning-material/story-5/story-ukr/Story5_UKR.pdf",
       "pages": {
+        "0": {
+          "text": "Бобба у бібліотеці",
+          "imageUrl": "/learning-material/story-5/story-ukr/Story_5_title_ukr.jpeg",
+          "audioUrl": "/learning-material/story-5/story-ukr/Story_5_title_ukr.mp3"
+        },
         "1": {
           "text": "Бобба підстрибує на вулиці. Його пухнасті вуха смикаються від хвилювання. \"Куди ми йдемо?\" \"До бібліотеки!\" - каже Олівія. \"Там повно книжок!\" Очі Бобби розширюються.\"Книжок!\"",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
@@ -3359,6 +3404,11 @@
       "fullAudio": "/learning-material/story-5/story-pl/Story 5_PL.m4a",
       "fullText": "/learning-material/story-5/story-pl/Story5_PL.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba w bibliotece",
+          "imageUrl": "/learning-material/story-5/story-pl/Story_5_title_pl.jpeg",
+          "audioUrl": "/learning-material/story-5/story-pl/Story_5_title_pl.mp3"
+        },
         "1": {
           "text": "Bobba podskakuje na ulicy. Jego puszyste uszy drgają z podekscytowania. „Dokąd idziemy?” „Do biblioteki!” - mówi Olivia. „Jest pełna książek!” Oczy Bobby rozszerzają się. „Książki!”",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
@@ -3407,6 +3457,11 @@
       "fullAudio": "/learning-material/story-5/story-slo/Recording 5.m4a",
       "fullText": "/learning-material/story-5/story-slo/Story5_SLO.pdf",
       "pages": {
+         "0": {
+          "text": "Bobba v knjižnici",
+          "imageUrl": "/learning-material/story-5/story-slo/Story_5_title_slo.jpeg",
+          "audioUrl": "/learning-material/story-5/story-slo/Story 5_SLO_title.wav"
+        },
         "1": {
           "text": "Bobba poskakuje po ulici. Od navdušenja striže z ušesi. \"Kam pa gremo?\" \"V knjižnico!\" reče Olivia. \"Tam je polno knjig!\" Bobba jo debelo pogleda: \"Knjig?\"",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
@@ -3455,6 +3510,11 @@
       "fullAudio": "/learning-material/story-5/story-tur/Stories_Turkish_5.m4a",
       "fullText": "/learning-material/story-5/story-tur/Story5_TUR.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba kütüphanede",
+          "imageUrl": "/learning-material/story-5/story-tur/Story_5_title_tur.jpeg",
+          "audioUrl": "/learning-material/story-5/story-tur/Story 5_tur_title.m4a"
+        },
         "1": {
           "text": "Bobba, sokakta zıplıyordu. Pofuduk kulakları heyecanla seğiriyordu. “Nereye gidiyoruz?” diye sordu. “Kütüphaneye!” dedi Olivia. “Kitaplarla dolu bir yer!” Bobba’nın gözleri kocaman açıldı. “Kitaplar!” diye haykırdı.",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
@@ -3503,6 +3563,11 @@
       "fullAudio": "/learning-material/story-5/story-por/5_complete version.m4a",
       "fullText": "/learning-material/story-5/story-por/Story5_por.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba na biblioteca",
+          "imageUrl": "/learning-material/story-5/story-por/Story_5_title_por.jpeg",
+          "audioUrl": "/learning-material/story-5/story-por/5_title.m4a"
+        },
         "1": {
           "text": "O Bobba saltita pela rua abaixo. As suas orelhas fofas abanam de excitação. \"Para onde é que vamos?\" \"Para a biblioteca!\" diz a Olívia. \"Há lá muitos livros!\" O Bobba arregala os olhos. \"Livros!\"",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
