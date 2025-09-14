@@ -60,7 +60,7 @@
       "title": "Bobbas erste Reise zur Erde",
       "titlePicture": "/learning-material/story-1/story-de/Story 1_title_G.jpg",
       "fullAudio": "/learning-material/story-1/story-de/bobba_1_D_ALL.mp3",
-      "fullText": "/learning-material/story-1/story-de/Story_1_full_text.pdf",
+      "fullText": "/learning-material/story-1/story-de/Story1_DE_L.pdf",
       "pages": {
          "0": {
           "text": "Bobbas erste Reise zur Erde",
@@ -272,7 +272,7 @@
       "title": "Il primo viaggio di Bobba sulla Terra",
       "titlePicture": "/learning-material/story-1/story-it/Story 1_title_I.jpg",
       "fullAudio": "/learning-material/story-1/story-it/Story 1_Italiano.m4a",
-      "fullText": "",
+      "fullText": "/learning-material/story-1/story-it/Story1_IT.pdf",
       "pages": {
         "0": {
           "text": "Il primo viaggio di Bobba sulla Terra",
@@ -325,7 +325,7 @@
       "title": "Dem Bobba seng éischt Rees op d‘Äerd",
       "titlePicture": "/learning-material/story-1/story-lux/Story 1_title_L.jpg", 
       "fullAudio": "/learning-material/story-1/story-lux/Bobba_LU_Story 1-MP3.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-1/story-lux/Story1_LUX.pdf",
       "pages": {
         "0": {
           "text": "Dem Bobba seng éischt Rees op d‘Äerd",
@@ -589,8 +589,8 @@
     "tur": [{
       "title": "Bobba’nın Dünya Yolculuğu",
       "titlePicture": "/learning-material/story-1/story-tur/Story 1_title_TU.jpg", 
-      "fullAudio": "", 
-      "fullText": "",
+      "fullAudio": "/learning-material/story-1/story-tur/Stories_Turkish_1.m4a", 
+      "fullText": "/learning-material/story-1/story-tur/Story1_TUR.pdf",
       "pages": {
         "0": {
           "text": "Bobba’nın Dünya Yolculuğu",
@@ -640,55 +640,55 @@
       }
     }],
     "pl": [{
-      "title": "L prim viac de Bobba sun la Tiera",
+      "title": "Pierwsza wizyta Bobby na Ziemi",
       "titlePicture": "/learning-material/story-1/story-pl/Story 1_title_PL.jpg", 
-      "fullAudio": "/learning-material/story-1/story-pol/Bobba_AL_Story 1.mp3", 
-      "fullText": "",
+      "fullAudio": "/learning-material/story-1/story-pl/Story 1_PL.m4a", 
+      "fullText": "/learning-material/story-1/story-pl/Story1_PL.pdf",
       "pages": {
         "0": {
-          "text": "L prim viac de Bobba sun la Tiera",
+          "text": "Pierwsza wizyta Bobby na Ziemi",
           "imageUrl": "/learning-material/story-1/story-pl/Story 1_title_PL.jpg", 
-          "audioUrl": "/learning-material/story-1/story-al/Bobba_AL_Story 1_Intro.mp3"
+          "audioUrl": "/learning-material/story-1/story-pl/Story 1_Title_PL - Kopie.mp3"
         },
         "1": {
-          "text": "Bobba sta sun n planët bëndebò dalonc. Ncuei iel scialdi emoziunà. L à finalmënter si berca da julé tl univiers y śën possel julé ulache l uel!",
+          "text": "Bobba mieszka na odległej planecie. Dziś jest bardzo podekscytowany. W końcu ma swój własny statek kosmiczny i może latać, gdzie tylko chce!",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
-          "audioUrl": "/learning-material/story-1/story-lad/1. L prim viac de Bobba.mp3"
+          "audioUrl": "/learning-material/story-1/story-pl/Story 1_1_Polish.mp3"
         },
         "2": {
-          "text": "Si majer sëmi ie de julé sun l planët Tiera. ",
+          "text": "Jego największym marzeniem jest polecieć na Ziemię.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
-          "audioUrl": "/learning-material/story-1/story-lad/2. Te scolina.mp3"
+          "audioUrl": "/learning-material/story-1/story-pl/Story 1_2_Polish.mp3"
         },
         "3": {
-          "text": "L sauta ite te si berca spaziela y pea l jol. Duc si cumpanies y si familia se fej marueia! “Ulà jiral pa mei?”, se mpënsi. Bobba va bel ndrët de viers dl planët Tiera.  ",
+          "text": "Wskakuje do statku kosmicznego i odlatuje. Wszyscy jego przyjaciele i rodzina są zaskoczeni! „Dokąd on leci?”, zastanawiają się.  Bobba zmierza prosto w kierunku Ziemi.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
-          "audioUrl": "/learning-material/story-1/story-lad/3. Bobba sun la spiagia.mp3"
+          "audioUrl": "/learning-material/story-1/story-pl/Story 1_3_Polish.mp3"
         },
         "4": {
-          "text": "Bobba passa via truep planëc y cumec, ne savan nia canche l ruverà finalmënter sun l planët Tiera. ",
+          "text": "Bobba przelatuje obok wielu planet i komet i zastanawia się, kiedy w końcu dotrze na Ziemię.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_4.webp",
-          "audioUrl": "/learning-material/story-1/story-lad/4. Durmì da na cumpania.mp3"
+          "audioUrl": "/learning-material/story-1/story-pl/Story 1_4_Polish.mp3"
         },
         "5": {
-          "text": "Ora de nia vëijel na codla bruma y dan che l l sà, svëiel tres l ciel y cun n colp adaut dal sëura sun n mudl de pleces y rames! ",
+          "text": "Nagle widzi niebieską kulę i zanim się zorientuje, wystrzeliwuje w niebo i z głośnym hukiem ląduje na stercie liści i patyków!",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
-          "audioUrl": "/learning-material/story-1/story-lad/5. Bobba te biblioteca.mp3"
+          "audioUrl": "/learning-material/story-1/story-pl/Story 1_5_Polish.mp3"
         },
         "6": {
-          "text": "L sgravedea ora de si berca spaziela y cëla ncantëur. Doi uedli fosc che cuca ora danter pluma foscia ti cëla. Bobba dij: “Saluton!”, ma la cossa da plumes ti cëla mé y jola demez. L scana ju dl lën y vëija zeche de cueciun cun ponc fosc. “Saluton!”, svëia Bobba, ma la criatura ne l vëija nianca no. ",
+          "text": "Wydostaje się ze swojego statku kosmicznego i rozgląda się. Z czarnych piór spogląda na niego dwoje czarnych oczu. Bobba mówi: „Saluton!”, ale ptak tylko na niego patrzy i odlatuje. Bobba schodzi z drzewa i widzi czerwoną rzecz z czarnymi kropkami. „Saluton!” krzyczy Bobba, ale owad nawet go nie widzi.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_6.webp",
-          "audioUrl": "/learning-material/story-1/story-lad/6. L ciastel di mostri.mp3"
+          "audioUrl": "/learning-material/story-1/story-pl/Story 1_6_Polish.mp3"
         },
         "7": {
-          "text": "N mut y na muta ti cëla a Bobba y s’la rij. “Cun chi rejones’a? I ne sà nia da rujené!” Bobba se raida ntëur. “Saluton! Ĉu vi estas infanoj?”, damandel. I mutons se cëla: “Infanoj? Mienel pa pop?” “No!”, prutestei. “Nëus ne son nia popsc! Nëus son mutons!” “Ahhhh!”, svëia Bobba! “Mutons! Infanoj! Mutons!” Sun na tela s’la riji. ",
+          "text": "Chłopiec i dziewczynka patrzą na Bobbę i chichoczą. \"Z kim ty rozmawiasz? Oni nie potrafią mówić!\" Bobba odwraca się: \"Saluton! Ĉu vi estas infanoj?\", pyta. Dzieci patrzą na siebie. \"Infanoj? Czy on ma na myśli niemowlęta?\". „Nie!”, protestują. \"Nie jesteśmy niemowlętami! Jesteśmy już dziećmi!\". „Ahhh!”, woła Bobba! \"Dzieci! Infanoj! Dzieci!\" To sprawia, że dzieci się śmieją.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_7.webp",
-          "audioUrl": "/learning-material/story-1/story-lad/7. Festejé l cumplì di ani de Olivia.mp3"
+          "audioUrl": "/learning-material/story-1/story-pl/Story 1_7_Polish.mp3"
         },
         "8": {
-          "text": "“Ues’a cialé ulache fajon damat?”, damanda Olivia, la muta. Bobba s’la rij y Ben, l mut, l tol pra la man y po‘ l mëini deberieda pra la plaza dai juesc.  ",
+          "text": "„Chcesz zobaczyć nasz plac zabaw?” - pyta Olivia. Bobba uśmiecha się, a Ben bierze go za rękę i razem zabierają go na plac zabaw.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
-          "audioUrl": "/learning-material/story-1/story-lad/8. Jì a cesa.mp3"
+          "audioUrl": "/learning-material/story-1/story-pl/Story 1_8_Polish.mp3"
         }
       }
     }],
@@ -696,7 +696,7 @@
       "title": "Перша подорож Бобби на Землю",
       "titlePicture": "/learning-material/story-1/story-ukr/Story 1_title_UK.jpg",
       "fullAudio": "/learning-material/story-1/story-ukr/story-1-ukrainian-full.mp3",
-      "fullText": "/learning-material/story-1/story-ukr/Story 1_UA.pdf",
+      "fullText": "/learning-material/story-1/story-ukr/Story1_UKR.pdf",
       "pages": {
         "0": {
           "text": "Перша подорож Бобби на Землю",
@@ -2192,7 +2192,7 @@
     "en": [{
           "title": "Sleeping at a friend's",
           "titlePicture": "/learning-material/story-4/story-en/Story 4_2 title_E.jpg",
-          "fullAudio": "/learning-material/story-4/story-en/Story_4_E whole story.mp3",
+          "fullAudio": "/learning-material/story-4/story-en/Story 4_E whole story.mp3",
           "fullText":"/learning-material/story-4/story-en/Story 4_E.pdf",
           "pages": {
             "0": {
@@ -2242,11 +2242,11 @@
             }
           }
         }],
-    "sw-ger": [{
+    "de": [{
           "title": "Bobba übernachtet bei Olivia",
           "titlePicture": "/learning-material/story-4/story-de/Story 4_2 title_GE.jpg",
           "fullAudio": "/learning-material/story-4/story-de short/Bobba_DE_Story 4 gesamt.mp3",
-          "fullText": "/learning-material/story-4/story-de short/Story 4_G_short.pdf",
+          "fullText": "/learning-material/story-4/story-de/Story4_DE_L.pdf",
           "pages": {
             "0": {
               "text": "Bobba übernachtet bei Olivia",
@@ -2296,11 +2296,11 @@
           }
         }],
     
-    "de": [{
+    "sw-ger": [{
       "title": "Bobba übernachtet bei Olivia",
       "titlePicture": "/learning-material/story-4/story-de/Story 4_2 title_GE.jpg",
       "fullAudio": "/learning-material/story-4/story-de/Story 4_G Long_complete.m4a",
-      "fullText": "",
+      "fullText": "/learning-material/story-4/story-de short/Story 4_G_short.pdf",
       "pages": {
         "0": {
           "text": "Bobba übernachtet bei Olivia",
@@ -2510,8 +2510,8 @@
     "slo": [{
       "title": "Bobba prespi pri prijateljici",
       "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
-      "fullAudio": "",
-      "fullText": "",
+      "fullAudio": "/learning-material/story-4/story-slo/Recording 4.m4a",
+      "fullText": "/learning-material/story-4/story-slo/Story4_SLO.pdf",
       "pages": {
         "1": {
           "text": "Ob koncu dolgega dne se Ben, Alex in Olivia odpravijo domov. \"Kje boš pa ti spal, Bobba?\" vpraša Olivia. Bobba jo začudeno pogleda. Olivia ga prime za roko in reče: \"Lahko greš z mano domov.\"",
@@ -2558,7 +2558,7 @@
     "it": [{
       "title": "Bobba dorme a casa di un’amica",
       "titlePicture": "/learning-material/story-4/story-it/Story 4_2 title_IT.jpg",
-      "fullAudio": "/learning-material/story-4/story-it/Story4_Italiano.mp3",
+      "fullAudio": "/learning-material/story-4/story-it/Story 4_Italiano.mp3",
       "fullText": "",
       "pages": {
         "0": {
@@ -2708,7 +2708,7 @@
       "title": "De Bobba geet bei seng Frëndin Olivia schlofen",
       "titlePicture": "/learning-material/story-4/story-lux/Story 4_2 title_L.jpg",
       "fullAudio": "/learning-material/story-4/story-lux/Bobba_LU_Story 4-MP3.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-4/story-lux/Story4_LUX.pdf",
       "pages": {
         "0": {
           "text": "De Bobba geet bei seng Frëndin Olivia schlofen",
@@ -2761,7 +2761,7 @@
       "title": "Φιλοξενία σε έναν φίλο",
       "titlePicture": "/learning-material/story-4/story-gr/Story 4_2 title_GR.jpg",
       "fullAudio": "/learning-material/story-4/story-gr/story-4-greek-full.mp3",
-      "fullText": "/learning-material/story-4/story-gr/Story 4_GR.pdf",
+      "fullText": "/learning-material/story-4/story-gr/Story_4_GR.pdf",
       "pages":
       {
         "0": {
