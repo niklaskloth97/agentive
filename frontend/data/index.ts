@@ -62,13 +62,13 @@ type Activity = {
 };
 
 type Language = {
-	id: "en" | "de" | "it" | "fr" | "sv" | "lux" | "gr"| "ld";
+	id: "en" | "de" | "it" | "fr" | "svn" | "lux" | "gr"| "ld";
 	label: string;
 	code: string;
 };
 
 type LanguageGuide = {
-	id: "en" | "de" | "fr" | "sv" | "gr";
+	id: "en" | "de" | "fr" | "svn" | "gr";
 	label: string;
 	code: string;
 };
@@ -160,12 +160,12 @@ export const ACTIVITY_GROUPS: Record<
 								label: "French",
 								title: "Ma partie préférée de l’histoire",
 								pdfUrl: "/activities/story1/PC/Story_1_PL_1_F.pdf",
-							}, 
-							it: {
-								label: "Italienisch",
+							},
+							svn: {
+								label: "Slowenian",
 								title: "",
 								pdfUrl: "",
-							}, 
+							},
 							ld: {
 								label: "Ladisch",
 								title: "",
@@ -189,18 +189,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story1/PC/Story_1_PL_2_F.pdf",
 							title: "Comprendre les détails",
 						}, 
-						it: {
-							label: "Italian",
-							audioUrl: "",
-							pdfUrl: "",
-							title: "",
-						},
 						ld: {
 							label: "Ladisch",
 							audioUrl: "",
 							pdfUrl: "",
 							title: "",
-						}
+						},
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 						},
 					},
 					{
@@ -218,16 +218,17 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story1/PC/Story_1_PL_3_F.pdf",
 							title: "Raconter l’histoire à nouveau",
 						}, 
-						it: {
-							label: "Italian",
-							title: "",
-							pdfUrl: "",
-						}, 
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}
+						},
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 						},
 					}
 					]
@@ -254,15 +255,16 @@ export const ACTIVITY_GROUPS: Record<
 								title: "Lecture dialogique",
 								pdfUrl: "/activities/story2/PC/Story_2_PL_1_F.pdf",
 							}, 
-							it: {
-								label: "Italian",
-								title: "",
-								pdfUrl: "",
-							}, 
 							ld: {
 								label: "Ladisch",
 								title: "",
 								pdfUrl: "",
+							},
+							svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
 							}
 						},
 					},
@@ -282,17 +284,17 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story2/PC/Story_2_PL_2_F.pdf",
 							title: "Théâtre plurilingue",
 						}, 
-						it: {
-							label: "Italian",
-							audioUrl: "",
-							pdfUrl: "",
-							title: "",
-						},
 						ld: {
 							label: "Ladisch",
 							audioUrl: "",
 							pdfUrl: "",
 							title: "",
+						},
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
 							}
 						}
 						},
@@ -311,16 +313,17 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story2/PC/Story_2_PL_3_F.pdf",
 							title: "Compter et jouer à cache-cache",
 						}, 
-						it: {
-							label: "Italian",
-							title: "",
-							pdfUrl: "",
-						}, 
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}
+						},
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 						},
 					}
 					]
@@ -352,15 +355,16 @@ export const ACTIVITY_GROUPS: Record<
 								title: "Dialogisches Lesen",
 								pdfUrl: "/activities/story3/PC/Story_3_PL_G/Story3_PL_1_G.pdf",
 							}, 
-							it: {
-								label: "Italian",
-								title: "",
-								pdfUrl: "",
-							}, 
 							ld: {
 								label: "Ladisch",
 								title: "",
 								pdfUrl: "",
+							},
+							svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
 							}
 						},
 					},
@@ -386,18 +390,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story3/PC/Story_3_PL_G/Story3_PL_2_G.pdf",
 							title: "Bewegungsgeschichte",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 
 
 					},
@@ -422,16 +426,17 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story3/PC/Story_3_PL_G/Story3_PL_3_G.pdf",
 							title: "Gefühle",
 						},
-						it: {
-							label: "Italian",
-							title: "",
-							pdfUrl: "",
-						}, 
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}
+						},
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 						},
 					},
 					{
@@ -454,16 +459,17 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story3/PC/Story_3_PL_G/Story3_PL_4_G.pdf",
 							title: "Was können wir im Meer sehen?",
 						}, 
-						it: {
-							label: "Italian",
-							title: "",
-							pdfUrl: "",
-						}, 
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}
+						},
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 						},
 					}
 					]
@@ -494,15 +500,16 @@ export const ACTIVITY_GROUPS: Record<
 								title: "Geschichten verstehen und erzählen",
 								pdfUrl: "/activities/story4/PC/Story 4_PL_G/Story4_PL_1_G.pdf",
 							}, 
-							it: {
-								label: "Italian",
-								title: "",
-								pdfUrl: "",
-							}, 
 							ld: {
 								label: "Ladisch",
 								title: "",
 								pdfUrl: "",
+							},
+							svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
 							}
 						},
 					},
@@ -528,18 +535,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story4/PC/Story 4_PL_G/Story4_PL_2_G.pdf",
 							title: "Guten Appetit!",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 
 
 						},
@@ -564,16 +571,17 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story4/PC/Story 4_PL_G/Story4_PL_3_G.pdf",
 							title: "Mach mit, sprich mit!",
 						},
-						it: {
-							label: "Italian",
-							title: "",
-							pdfUrl: "",
-						}, 
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}
+						},
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 					},
 					}
 					]
@@ -599,15 +607,16 @@ export const ACTIVITY_GROUPS: Record<
 								title: "Tour du monde des bibliothèques",
 								pdfUrl: "/activities/story5/PC/Story 5_PL_F/Story5_PL_1_F.pdf",
 							}, 
-							it: {
-								label: "Italian",
-								title: "",
-								pdfUrl: "",
-							}, 
 							ld: {
 								label: "Ladisch",
 								title: "",
 								pdfUrl: "",
+							},
+							svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
 							}
 						},
 					},
@@ -627,15 +636,16 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story5/PC/Story 5_PL_F/Story5_PL_2_F.pdf",
 							title: "Le jeu du téléphone sans fil",
 						}, 
-						it: {
-							label: "Italian",
-							title: "",
-							pdfUrl: "",
-						}, 
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
+						}, 
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
 						}
 						},
 					},
@@ -654,16 +664,17 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story5/PC/Story 5_PL_F/Story5_PL_3_F.pdf",
 							title: "Les devinettes",
 						},
-						 it: {
-							label: "Italian",
-							title: "",
-							pdfUrl: "",
-						}, 
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}
+						},
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 						},
 					}
 					]
@@ -688,15 +699,16 @@ export const ACTIVITY_GROUPS: Record<
 								title: "Laurentia. Liebe Laurentia mein",
 								pdfUrl: "/activities/story6/PC/Story6_PL_1_G.pdf",
 							},
-							it: {
-								label: "Italian",
-								title: "",
-								pdfUrl: "",
-							}, 
 							ld: {
 								label: "Ladisch",
 								title: "",
 								pdfUrl: "",
+							},
+							svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
 							}
 						},
 					},
@@ -710,12 +722,6 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story6/PC/Story 6_PL_2_F.pdf",
 							title: "Dialogues plurilingues de monstres",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
 						de: {
 								label: "German",
 								title: "Mehrsprachige Monstergespräche",
@@ -726,7 +732,13 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 
 
 						},
@@ -746,16 +758,17 @@ export const ACTIVITY_GROUPS: Record<
 								title: "Mach mit bei der mehrsprachigen Monsterparty!",
 								pdfUrl: "/activities/story6/PC/Story6_PL_3_G.pdf",
 							},
-						it: {
-							label: "Italian",
-							title: "",
-							pdfUrl: "",
-						}, 
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}
+						},
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 						},
 					}
 					]
@@ -785,15 +798,16 @@ export const ACTIVITY_GROUPS: Record<
 								title: "Dein letzter Geburtstag",
 								pdfUrl: "/activities/story7/PC/Story7_PL_1_G.pdf",
 							},
-							it: {
-								label: "Italian",
-								title: "",
-								pdfUrl: "",
-							}, 
 							ld: {
 								label: "Ladisch",
 								title: "",
 								pdfUrl: "",
+							},
+							svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
 							}
 						},
 					},
@@ -819,16 +833,17 @@ export const ACTIVITY_GROUPS: Record<
 							title: "Geburtstagswünsche",
 							pdfUrl: "/activities/story7/PC/Story7_PL_2_G.pdf",
 							},
-						it: {
-							label: "Italian",
-							title: "",
-							pdfUrl: "",
-						}, 
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}
+						},
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 						},
 					},
 					{
@@ -851,16 +866,17 @@ export const ACTIVITY_GROUPS: Record<
 								title: "Der Fremdling",
 								pdfUrl: "/activities/story7/PC/Story7_PL_3_G.pdf",
 							},
-						it: {
-							label: "Italian",
-							title: "",
-							pdfUrl: "",
-						}, 
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}
+						},
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 						},
 					}
 					]
@@ -890,15 +906,16 @@ export const ACTIVITY_GROUPS: Record<
 								title: "Fêtons le départ de Bobba",
 								pdfUrl: "/activities/story8/PC/Story 8_PL_1_F.pdf",
 							}, 
-							it: {
-								label: "Italian",
-								title: "",
-								pdfUrl: "",
-							}, 
 							ld: {
 								label: "Ladisch",
 								title: "",
 								pdfUrl: "",
+							},
+							svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
 							}
 						},
 					},
@@ -924,18 +941,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story8/PC/Story 8_PL_2_F.pdf",
 							title: "L’album de Bobba",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 						},
 					},
 					{
@@ -958,16 +975,17 @@ export const ACTIVITY_GROUPS: Record<
 							title: "Lieblingswort",
 							pdfUrl: "/activities/story8/PC/Story8_PL_3_G.pdf",
 							},
-						it: {
-							label: "Italian",
-							title: "",
-							pdfUrl: "",
-						}, 
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}
+						},
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 						},
 					}
 					]
@@ -1006,18 +1024,18 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story1/ELS/Story_1_ELS_1_G.pdf",
 								title: "Bobba schreiben",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 
 
 					}, 
@@ -1044,18 +1062,18 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story1/ELS/Story_1_ELS_2_G.pdf",
 								title: "Symbole erstellen",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 
 
 						},
@@ -1080,18 +1098,18 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story1/ELS/Story_1_ELS_3_G.pdf",
 								title: "Symbol und Name",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 
 
 						},
@@ -1124,18 +1142,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story2/ELS/Story_2_ELS_1_G.pdf",
 							title: "Schatzsuche mit schriftlichen Hinweisen",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 
 
 					}, 
@@ -1155,16 +1173,17 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story2/ELS/Story_2_ELS_2_G.pdf",
 							title: "Aufgaben während der Schatzsuche & eine Geheimnachricht entschlüsseln",
 						}, 
-						it: {
-							label: "Italian",
-							title: "",
-							pdfUrl: "",
-						}, 
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}
+						},
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 						},
 					},
 					{
@@ -1181,16 +1200,17 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story2/ELS/Story_2_ELS_3_G.pdf",
 							title: "Schatzsuche nach schriftlichen Gegenständen zu Hause",
 						}, 
-						it: {
-							label: "Italian",
-							title: "",
-							pdfUrl: "",
-						}, 
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}
+						},
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 						},
 					}
 					]
@@ -1215,18 +1235,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story3/ELS/Story 3_ELS_1_F-1.pdf",
 							title: "Écrire dans le sable à l’intérieur",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 
 
 					}, 
@@ -1241,18 +1261,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story3/ELS/Story 3_ELS_2_F.pdf",
 							title: "Écrire dans le sable à l’extérieur",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 
 
 						},
@@ -1266,16 +1286,17 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story3/ELS/Story 3_ELS_3_F.pdf",
 							title: "Des mots comme décorations",
 						}, 
-						it: {
-							label: "Italian",
-							title: "",
-							pdfUrl: "",
-						}, 
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}
+						},
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 						},
 					}
 					]
@@ -1306,18 +1327,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story4/ELS/Story_4_ELS_1_G.pdf",
 							title: "Übernachtungsparty – Buchstaben entdecken",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
 						},
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 					}, 
 				 }, //ich glaube hier fehlt eine Klammer zu, bin mir aber nicht sicher (Mara)
 					{
@@ -1336,18 +1357,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story4/ELS/Story_4_ELS_2_G.pdf",
 							title: "Buchstaben mit Seilen, Taschenlampen und reflektierenden Punkten",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 
 
 						},
@@ -1367,18 +1388,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story4/ELS/Story_4_ELS_3_G.pdf",
 							title: "Lieblings-gute-Nacht-Geschichten",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 
 
 					
@@ -1412,18 +1433,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_1_G.pdf",
 							title: "Schreiben mit verschiedenen Materialien",
 						},
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+						}
 
 
 					}, 
@@ -1444,18 +1465,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_2_G.pdf",
 							title: "Aufbau einer Bibliothek",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							}
 
 
 						},
@@ -1475,18 +1496,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_3_G.pdf",
 							title: "Eine Klassenbibliothek erstellen",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+						}
 
 
 						},
@@ -1519,18 +1540,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story6/ELS/Story_6_ELS_1_G.pdf",
 							title: "Eine Einladung entschlüsseln",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							},
 
 
 					}, 
@@ -1551,18 +1572,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story6/ELS/Story_6_ELS_2_G.pdf",
 							title: "Schildbeschriftungen in verschiedenen Sprachen",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                         },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							},	
 
 
 						},
@@ -1581,16 +1602,17 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story6/ELS/Story_6_ELS_3_G.pdf",
 							title: "Schildbeschriftungen in verschiedenen Sprachen",
 						}, 
-						it: {
-							label: "Italian",
-							title: "",
-							pdfUrl: "",
-						}, 
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}
+						},
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							},
 						},
 					}
 					]
@@ -1621,18 +1643,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story7/ELS/Story_7_ELS_1_G.pdf",
 							title: "Geburtstagskrone",
 						},
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        }, 
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+						}
 
 
 					}, 
@@ -1653,18 +1675,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story7/ELS/Story_7_ELS_2_G.pdf",
 							title: "Geburtstagsgeschenke gestalten",
 						},
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+						},
 
 
 						},
@@ -1683,16 +1705,17 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story7/ELS/Story_7_ELS_3_G.pdf",
 							title: "Geburtstagsspiel: Buchstaben angeln",
 						},
-						it: {
-							label: "Italian",
-							title: "",
-							pdfUrl: "",
-						}, 
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}
+						}, 
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+						},
 						},
 					}
 					]
@@ -1729,18 +1752,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story8/ELS/Story_8_ELS_1_G.pdf",
 							title: "Buchstaben finden",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        }, 
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+						},
 
 
 					}, 
@@ -1767,18 +1790,18 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story8/ELS/Story_8_ELS_2_G.pdf",
 							title: "ABC - Das Alphabet",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        },
+						svn: {
+							label: "Slovenian",
+							audioUrl: "", // Use your test audio
+							pdfUrl: "",
+							title: "",
+						},
 
 
 						},
@@ -1802,16 +1825,17 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story8/ELS/Story_8_ELS_3_G.pdf",
 							title: "Fehlende Buchstaben finden",
 						}, 
-						it: {
-							label: "Italian",
-							title: "",
-							pdfUrl: "",
-						}, 
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}
+						}, 
+						svn: {
+								label: "Slovenian",
+								audioUrl: "", // Use your test audio
+								pdfUrl: "",
+								title: "",
+							},
 						},
 					}
 					]
@@ -1846,7 +1870,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_1_F.pdf",
 							title: "Se saluer",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_1_S.pdf",
@@ -1864,13 +1888,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_1_GR.pdf",
 							title: "ΧΑΙΡΕΤΙΣΜΟΙ",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -1896,7 +1914,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_2_F.pdf",
 							title: "Explorer le sens des prénoms",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_2_S.pdf",
@@ -1914,20 +1932,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_2_GR.pdf",
 							title: "Η ΣΗΜΑΣΙΑ ΤΩΝ ΟΝΟΜΑΤΩΝ",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
                             }
-
-
 						},
 					},
 					{
@@ -1944,7 +1954,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_3_F.pdf",
 							title: "Parler l’espéranto",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_3_S.pdf",
@@ -1962,20 +1972,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_3_GR.pdf",
 							title: "ΕΣΠΕΡΑΝΤΟ",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
                             }
-
-
 						},
 					}
 					]
@@ -2010,19 +2012,13 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_1_G.pdf",
 							title: "GESCHMÄCKER TEILEN",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_1_S.pdf",
 							title: "DELIMO SI OKUSE",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -2054,19 +2050,13 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_2_G.pdf",
 							title: "BRÜCKEN BAUEN – DAS NEUE MIT DEM VERTRAUTEN VERBINDEN",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_2_S.pdf",
 							title: "NOST 2: GRADIMO MOSTOVE – POVEZUJEMO NOVO Z ZNANIM",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -2096,19 +2086,13 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_3_G.pdf",
 							title: "ZAHLENDETEKTIVE",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_3_S.pdf",
 							title: "ŠTEVLIČNI DETEKTIVI",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -2150,18 +2134,12 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story3/ICAU/Story_3_ICAU_1_G.pdf",
 							title: "GEFÜHLE GIBT ES ÜBERALL AUF DER WELT",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story3/ICAU/Story_3_ICAU_1_S.pdf",
 							title: "ČUSTVA PO SVETU",
-						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
+						},
                         ld: {
                             label: "Ladisch",
                             audioUrl: "",
@@ -2194,19 +2172,13 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story3/ICAU/Story_3_ICAU_2_G.pdf",
 							title: "KOMM, WIR GEHEN ZUM STRAND!",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story1/ICAU/Story_3_ICAU_2_S.pdf",
 							title: "GREMO NA PLAZO",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -2236,19 +2208,13 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story3/ICAU/Story_1_ICAU_3_G.pdf",
 							title: "FÜNF FREUNDE AM STRAND",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story3/ICAU/Story_1_ICAU_3_S.pdf",
 							title: "PET PRIJATELJEV NA PLAZI",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -2284,19 +2250,13 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story4/ICAU/Story 4_ICAU_2_F-1.pdf",
 							title: "Voyager grâce à la nourriture",
 						}, 
-						sv: {
+						svn: {
 							label: "Slovanian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story4/ICAU/Story 4_ICAU_2_F-1.pdf",
 							title: "KULINARIČNO POTOVANJE",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -2322,19 +2282,13 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story4/ICAU/Story 4_ICAU_2_F.pdf",
 							title: "Jouons comme moi ou comme toi",
 						}, 
-						sv: {
+						svn: {
 							label: "Slovanian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story4/ICAU/Story 4_ICAU_2_F-1.pdf",
 							title: "IGRAJ SE PO MOJE, IGRAM SE PO TVOJE",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -2358,16 +2312,11 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story4/ICAU/Story 4_ICAU_3_F.pdf",
 							title: "Tour du monde des jeux",
 						}, 
-						sv: {
+						svn: {
 							label: "Slovanian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story4/ICAU/Story 4_ICAU_3_S.pdf",
 							title: "IGRE OD TU IN TAM",
-						}, 
-						it: {
-							label: "Italienisch",
-							title: "",
-							pdfUrl: "",
 						}, 
 						ld: {
 							label: "Ladisch",
@@ -2408,19 +2357,13 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_G/Story5_ICAU_1_G.pdf",
 							title: "BIBLIOTHEKEN IN VERSCHIEDENEN SPRACHEN",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_S/Story_5_ICAU_1_S.pdf",
 							title: "STO IME, DRUGE ČRKE",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -2452,19 +2395,13 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_G/Story5_ICAU_2_G.pdf",
 							title: "TELEFONSPIEL",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_S/Story_5_ICAU_2_S.pdf",
 							title: "KAKO GOVORI TVOJA KNJIGA?",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -2495,19 +2432,13 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_G/Story5_ICAU_3_G.pdf",
 							title: "RATESPIEL",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_S/Story_5_ICAU_3_S.pdf",
 							title: "DOMOVI V KNJIGAH, KNJIGE V DOMOVIH",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -2543,7 +2474,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story6/ICAU/Story 6_ICAU_1_F.pdf",
 							title: "Les créatures magiques",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story6/ICAU/Story_ICAU_1_S.pdf",
@@ -2555,13 +2486,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story6/ICAU/Story6_ICAU_1_G.pdf",
 							title: "MAGISCHE WESEN",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -2587,7 +2512,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story6/ICAU/Story 6_ICAU_2_F.pdf",
 							title: "Tour du monde des mercis",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story6/ICAU/Story_ICAU_2_S.pdf",
@@ -2599,13 +2524,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story6/ICAU/Story6_ICAU_2_G.pdf",
 							title: "DANKE AUF DER GANZEN WELT",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -2631,7 +2550,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story6/ICAU/Story 6_ICAU_3_F.pdf",
 							title: "Les coutumes à table",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story6/ICAU/Story_ICAU_3_S.pdf",
@@ -2643,13 +2562,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story6/ICAU/Story6_ICAU_2_G.pdf",
 							title: "VERSCHIEDENE ARTEN ZU ESSEN",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -2683,7 +2596,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story7/ICAU/Story 7_ICAU_1_F.pdf",
 							title: "Tant de célébrations",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story7/ICAU/Story_7_ICAU_1_S.pdf",
@@ -2695,13 +2608,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story7/ICAU/Story7_ICAU_1_G.pdf",
 							title: "EIN JAHR UND VIELE FESTE",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -2727,7 +2634,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story7/ICAU/Story 7_ICAU_2_F.pdf",
 							title: "Chantons les chansons d’anniversaire",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story7/ICAU/Story_7_ICAU_2_S.pdf",
@@ -2739,13 +2646,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story7/ICAU/Story7_ICAU_2_G.pdf",
 							title: "LASST UND SINGEN: GEBURTSTAGSLIEDER VON ZUHAUSE",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -2771,7 +2672,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story7/ICAU/Story 7_ICAU_3_F.pdf",
 							title: "Des mains, des mots et des vœux",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story7/ICAU/Story_7_ICAU_3_S.pdf",
@@ -2783,13 +2684,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story7/ICAU/Story7_ICAU_3_G.pdf",
 							title: "HÄNDE, WORTE, WÜNSCHE",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -2825,7 +2720,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story8/ICAU/Story 8_ICAU_1_F.pdf",
 							title: "Tour du monde des lieux de vie",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story8/ICAU/Story_8_ICAU_1_S.pdf",
@@ -2837,13 +2732,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story8/ICAU/Story8_ICAU_1_G.pdf",
 							title: "LEBENSWEISEN AUF DER WELT",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
-                        ld: {
+						ld: {
                             label: "Ladisch",
                             audioUrl: "",
                             pdfUrl: "",
@@ -2869,7 +2758,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story8/ICAU/Story 8_ICAU_2_F.pdf",
 							title: "Ma maison, ta maison",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story8/ICAU/Story_8_ICAU_2_S.pdf",
@@ -2881,12 +2770,6 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story8/ICAU/Story8_ICAU_2_G.pdf",
 							title: "MEIN HEIM, DEIN HEIM",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
                         ld: {
                             label: "Ladisch",
                             audioUrl: "",
@@ -2913,7 +2796,7 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story8/ICAU/Story 8_ICAU_3_F.pdf",
 							title: "Au revoir",
 						},
-						sv: {
+						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story8/ICAU/Story_8_ICAU_3_S.pdf",
@@ -2925,12 +2808,6 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story8/ICAU/Story8_ICAU_2_G.pdf",
 							title: "AUFWIEDERSEHEN",
 						}, 
-						it: {
-                            label: "Italian",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        },
                         ld: {
                             label: "Ladisch",
                             audioUrl: "",
@@ -2977,17 +2854,11 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story1/LA/Story 1_LA_1_G.pdf",
 								title: "NAMEN VERGLEICHEN",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story1/LA/Story_1_LA_1_S.pdf",
 								title: "PRIMERJAJMO IMENA",
-							},
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3019,17 +2890,11 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story1/LA/Story 1_LA_2_G.pdf",
 								title: "WIE HEISST DU?",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story1/LA/Story_1_LA_2_S.pdf",
 								title: "KAKO TI JE IME?",
-							},
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3060,18 +2925,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story1/LA/Story 1_LA_3_G.pdf",
 								title: "BEGRÜSSUNGEN",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story1/LA/Story_1_LA_3_S.pdf",
 								title: "POIMENUJ BOBBOV PLANET",
 							}, 
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
-							},
 							ld: {
 								label: "Ladisch",
 								audioUrl: "",
@@ -3114,17 +2973,11 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "",
 								title: "",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story2/LA/Story_2_LA_1_S.pdf",
 								title: "LOV NA ZAČETNI GLAS",
-							},
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3156,17 +3009,11 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story1/LA/Story2_LA_2_G.pdf",
 								title: "HALLO AUF DER GANZEN WELT",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story2/LA/Story_2_LA_2_S.pdf",
 								title: "ŽIVJO! V JEZIKIH SVETA",
-							},
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3197,18 +3044,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story1/LA/Story2_LA_3_G.pdf",
 								title: "WELCHE SPRACHE IST DAS?",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story2/LA/Story_2_LA_3_S.pdf",
 								title: " KATERI JEZIK JE TO?",
 							}, 
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
-							},
 							ld: {
 								label: "Ladisch",
 								audioUrl: "",
@@ -3251,17 +3092,11 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story3/LA/Story 3_LA_1_G.pdf",
 								title: "DAS DIDIDI-LIED",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story3/LA/Story_3_LA_1_S.pdf",
 								title: "PESMICA DIDIDI",
-							},
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3293,17 +3128,11 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story3/LA/Story 3_LA_2_G.pdf",
 								title: "REIME-MEMORY",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story3/LA/Story_3_LA_2_S.pdf",
 								title: "SPOMIN Z RIMAMI",
-							},
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3333,18 +3162,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story3/LA/Story 3_LA_3_G.pdf",
 								title: "SPRACHEN KLINGEN VERSCHIEDEN",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story3/LA/Story_3_LA_3_S.pdf",
 								title: "ZVEN RAZLIČNIH JEZIKOV",
 							}, 
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
-							},
 							ld: {
 								label: "Ladisch",
 								audioUrl: "",
@@ -3387,17 +3210,11 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story4/LA/Story 4_LA_1_G.pdf",
 								title: "",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story4/LA/Story_4_LA_1_S.pdf",
 								title: "NAJVEČJI SENDVIČ NA SVETU",
-							},
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3429,17 +3246,11 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story4/LA/Story 4_LA_2_G.pdf",
 								title: "",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story4/LA/Story_4_LA_2_S.pdf",
 								title: "VIDIM NEKAJ, KAR SE ZAČNE NA",
-							},
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3470,18 +3281,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story4/LA/Story 4_LA_3_G.pdf",
 								title: "",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story4/LA/Story_4_LA_3_S.pdf",
 								title: "O ČEM GOVORI TA ZGODBA?",
 							}, 
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
-							},
 							ld: {
 								label: "Ladisch",
 								audioUrl: "",
@@ -3515,17 +3320,11 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story5/LA/Story 5_LA_F/Story 5_LA_1_F.pdf",
 								title: "La recherche du son initial continue",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story5/LA/Story 5_LA_S/Story_5_LA_1_S.pdf",
 								title: "ISKANJE ZAČETNEGA GLASU",
-							},
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3553,18 +3352,12 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story5/LA/Story 5_LA_F/Story 5_LA_2_F.pdf",
 								title: "De quel conte de fées s’agit-il ?",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story5/LA/Story 5_LA_S/Story_5_LA_2_S.pdf",
 								title: "KATERA PRAVLJICA JE TO?",
-							},
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
-							},
+							}, 
 							ld: {
 								label: "Ladisch",
 								audioUrl: "",
@@ -3590,17 +3383,11 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story5/LA/Story 5_LA_F/Story 5_LA_3_F.pdf",
 								title: "Le chant Jazz",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story5/LA/Story 5_LA_S/Story_5_LA_3_S.pdf",
 								title: "JAZZ CHANT",
-							},
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3637,7 +3424,7 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story6/LA/Story 6_LA_1_F.pdf",
 								title: "La danse des langues",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story6/LA/Story_6_LA_1_S.pdf",
@@ -3648,12 +3435,6 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story6/LA/Story6_LA_1_G.pdf",
 								title: "SPRACHENTANZ",
-							},
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3679,7 +3460,7 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story6/LA/Story 6_LA_2_F.pdf",
 								title: "Qui fait coin-coin ?",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story6/LA/Story_6_LA_2_S.pdf",
@@ -3690,12 +3471,6 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story6/LA/Story6_LA_2_G.pdf",
 								title: "WAS MACHT QUAK QUAK?",
-							},
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3720,7 +3495,7 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story6/LA/Story 6_LA_3_F.pdf",
 								title: "À la recherche du son final",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story6/LA/Story_6_LA_3_S.pdf",
@@ -3731,12 +3506,6 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story6/LA/Story6_LA_3_G.pdf",
 								title: "DEN AUSLAUT FINDEN",
-							},
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3773,7 +3542,7 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story7/LA/Story 7_LA_1_F.pdf",
 								title: "Devine la langue",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story7/LA/Story_7_LA_1_S.pdf",
@@ -3784,12 +3553,6 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story7/LA/Story7_LA_1_G.pdf",
 								title: "ERRATE DIE SPRACHE",
-							},
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3815,7 +3578,7 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story7/LA/Story 7_LA_2_F.pdf",
 								title: "De quelle fête s’agit-il ?",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story7/LA/Story_7_LA_2_S.pdf",
@@ -3826,12 +3589,6 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story7/LA/Story7_LA_2_G.pdf",
 								title: "WAS WIRD GEFEIERT?",
-							},
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3856,7 +3613,7 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story7/LA/Story 7_LA_3_F.pdf",
 								title: "Trouve la rime",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story7/LA/Story_7_LA_3_S.pdf",
@@ -3868,12 +3625,6 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story7/LA/Story7_LA_3_G.pdf",
 								title: "FINDE DEN REIM",
 							}, 
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
-							},
 							ld: {
 								label: "Ladisch",
 								audioUrl: "",
@@ -3907,7 +3658,7 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story8/LA/Story 8_LA_1_F.pdf",
 								title: "Tour du monde des au revoir",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story8/LA/Story_8_LA_1_S.pdf",
@@ -3919,12 +3670,6 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story7/LA/Story8_LA_1_G.pdf",
 								title: "AUFWIEDERSEHEN AUF DER GANZEN WELT",
 							}, 
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
-							},
 							ld: {
 								label: "Ladisch",
 								audioUrl: "",
@@ -3949,7 +3694,7 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story8/LA/Story 8_LA_2_F.pdf",
 								title: "Le chant Jazz 2",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story8/LA/Story_8_LA_2_S.pdf",
@@ -3961,12 +3706,6 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story7/LA/Story8_LA_2_G.pdf",
 								title: "JAZZ CHANT",
 							}, 
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
-							},
 							ld: {
 								label: "Ladisch",
 								audioUrl: "",
@@ -3990,7 +3729,7 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story8/LA/Story 8_LA_3_F.pdf",
 								title: "À la recherche du son final 2",
 							},
-							sv: {
+							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story8/LA/Story_8_LA_3_S.pdf",
@@ -4002,12 +3741,6 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story7/LA/Story8_LA_2_G.pdf",
 								title: "AUSLAUTE FINDEN",
 							}, 
-							it: {
-								label: "Italian",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",
-							},
 							ld: {
 								label: "Ladisch",
 								audioUrl: "",
@@ -4035,7 +3768,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
 			fr: {
 				url: "/learning-material/dialogic-reading-guide/Dialogic reading guide_F.pdf"
 			},
-			sv: {
+			svn: {
 				url: "/learning-material/dialogic-reading-guide/Dialogic reading guide_S.pdf"
 			},
 			gr: {
@@ -4055,7 +3788,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-1/reading-guide/Story 1_Story's reading guide_F.pdf"
             },
-            sv: {
+            svn: {
                 url: "/learning-material/story-1/reading-guide/Story 1_Story's reading guide_S.pdf"
             },
 			gr: {
@@ -4086,7 +3819,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-3/reading-guide/Story 3_Guide de lecture_F.pdf"
             },
-            sv: {
+            svn: {
                 url: "/learning-material/story-3/reading-guide/Story 3_Story's reading guide_S.pdf"
             }
         }
@@ -4103,7 +3836,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_F.pdf"
             },
-            sv: {
+            svn: {
                 url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_S.pdf"
             }
         }
@@ -4120,7 +3853,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-5/reading-guide/Story 5_Story's reading guide_F.pdf"
             },
-            sv: {
+            svn: {
                 url: "/learning-material/story-5/reading-guide/Story 5_Story's reading guide_S.pdf"
             }
         }
@@ -4137,7 +3870,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-6/reading-guide/Story 6_Story's reading guide_F.pdf"
             },
-            sv: {
+            svn: {
                 url: "/learning-material/story-6/reading-guide/Story 6_Story's reading guide_S.pdf"
             }
         }
@@ -4154,7 +3887,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-7/reading-guide/Story 7_Story's reading guide_F.pdf"
             },
-            sv: {
+            svn: {
                 url: "/learning-material/story-7/reading-guide/Story 7_Story's reading guide_S.pdf"
             }
         }
@@ -4171,7 +3904,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-8/reading-guide/Story 8_Story's reading guide_F.pdf"
             },
-            sv: {
+            svn: {
                 url: "/learning-material/story-8/reading-guide/Story 8_Story's reading guide_S.pdf"
             }
         }
