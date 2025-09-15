@@ -155,7 +155,7 @@ function StoryGuideSelector({ storyId, websiteLanguage }: { storyId: string; web
 
   // Check which languages have story reading guides available
   ['en', 'de', 'fr', 'sv'].forEach(lang => {
-    if (hasStoryReadingGuide(storyId, lang as "en" | "de" | "fr" | "sv")) {
+    if (hasStoryReadingGuide(storyId, lang as "en" | "de" | "fr" | "svn" | "gr" | undefined)) {
       availableLanguages.push(lang);
       languageLabels[lang] = lang === 'en' ? 'EN' : 
                             lang === 'de' ? 'DE' : 
@@ -180,7 +180,7 @@ function StoryGuideSelector({ storyId, websiteLanguage }: { storyId: string; web
   const handleDownload = () => {
     if (!selectedGuideLanguage) return;
 
-    const guide = getStoryReadingGuide(storyId, selectedGuideLanguage as "en" | "de" | "fr" | "sv");
+    const guide = getStoryReadingGuide(storyId, selectedGuideLanguage as "en" | "de" | "fr" | "svn" | "gr" | undefined);
     
     if (guide?.url) {
       // Create download link
@@ -501,7 +501,7 @@ export function StoryPlayer({
 
   // Check if guides are available for current language
   const hasStoryGuide = ['en', 'de', 'fr', 'sv'].some(lang => 
-    hasStoryReadingGuide(storyId, lang as "en" | "de" | "fr" | "sv")
+    hasStoryReadingGuide(storyId, lang as "en" | "de" | "fr" | "svn" | "gr" | undefined)
   );
   
   // Check if dialogic guide is available (at least one language)

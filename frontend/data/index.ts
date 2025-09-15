@@ -160,16 +160,6 @@ export const ACTIVITY_GROUPS: Record<
 								label: "French",
 								title: "Ma partie préférée de l’histoire",
 								pdfUrl: "/activities/story1/PC/Story_1_PL_1_F.pdf",
-							},
-							svn: {
-								label: "Slowenian",
-								title: "",
-								pdfUrl: "",
-							},
-							ld: {
-								label: "Ladisch",
-								title: "",
-								pdfUrl: "",
 							}
 						},
 					},
@@ -194,14 +184,8 @@ export const ACTIVITY_GROUPS: Record<
 							audioUrl: "",
 							pdfUrl: "",
 							title: "",
-						},
-						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
-						},
+						}
+					}
 					},
 					{
 						id: "activity-1-3",
