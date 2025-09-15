@@ -2974,11 +2974,11 @@
         }
       }
     }],
-    "sw-ger": [{
+    "de": [{
       "title": "Bobba in der Bibliothek",
       "titlePicture": "/learning-material/story-5/story-de/Story 5_title_de.jpeg",
       "fullAudio": "/learning-material/story-5/story-de/Bobba_in_der_Bibliothek_Title.m4a",
-      "fullText": "/learning-material/story-5/story-de/Story_5_full_text_de.pdf",
+      "fullText": "/learning-material/story-5/story-de/Story5_DE_L.pdf",
       "pages": {
         "0": {
           "text": "Bobba in der Bibliothek",
@@ -3027,7 +3027,7 @@
         }
       }
     }],
-    "de": [{
+    "sw-ger": [{
       "title": "Bobba in der Bibliothek",
       "titlePicture": "/learning-material/story-5/story-de/Story 5_title_de.jpeg",
       "fullAudio": "/learning-material/story-5/story-de short/Bobba_DE_Story 5_gesamt.mp3",
