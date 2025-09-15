@@ -2929,7 +2929,7 @@
       "pages": {
         "0": {
           "text": "Bobba in the library",
-          "imageUrl": "/learning-material/story-5/story-en/Story5_title_E.jpg",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_title_E.jpg",
           "audioUrl": "/learning-material/story-5/story-en/Story5_English_Title.m4a"
         },
         "1": {
@@ -2949,7 +2949,7 @@
         },
         "4": {
           "text": "Bobba gasps. \"Wow\" He points at a page of his book. The children look. \"What is it?\" Bobba stares at the creature in the book. Fluffy ears. Big eyes. \"Almost like… me\", he thinks. His big eyes grow wider",
-          "imageUrl": "/learning-material/story-5/story-en/Story 5_4.jpg",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_4.png",
           "audioUrl": "/learning-material/story-5/story-en/Story 5_4.m4a"
         },
         "5": {
@@ -2964,12 +2964,12 @@
         },
         "7": {
           "text": "The children help write Bobba’s name on the card. Bobba holds up the new card. \"I am a library member!\"",
-          "imageUrl": "/learning-material/story-5/story-en/Story 5_7.jpg",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_7.png",
           "audioUrl": "/learning-material/story-5/story-en/Story 5_7.m4a"
         },
         "8": {
           "text": "The stars twinkle in the sky. Bobba hugs the book. The book in his hands feels like a piece of home. \"One day... I will go home.\"",
-          "imageUrl": "/learning-material/story-5/story-en/Story 5_8.jpg",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_8.png",
           "audioUrl": "/learning-material/story-5/story-en/Story 5_8.m4a"
         }
       }
@@ -3017,7 +3017,7 @@
         },
         "7": {
           "text": "Die Kinder helfen Bobba dabei, seinen Namen auf die Karte zu schreiben. Bobba hält die neue Karte stolz in die Luft. „Ich bin jetzt Bibliotheksmitglied!“",
-          "imageUrl": "/learning-material/story-5/story-en/Story 5_7png",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_7.png",
           "audioUrl": "/learning-material/story-5/story-de/Story 5_G Long_5_7.m4a"
         },
         "8": {
@@ -3082,13 +3082,13 @@
     }],
     "fr": [{
       "title": "Bobba à la bibliothèque",
-      "titlePicture": "/learning-material/story-5/story-fr/Story 5_title_fr.jpeg",
+      "titlePicture": "/learning-material/story-5/story-fr/Story_5_title_fr.jpeg",
       "fullAudio": "/learning-material/story-5/story-fr/Bobba_FR_Story 5-MP3.mp3",
       "fullText": "/learning-material/story-5/story-fr/Story_5_full_text_fr.pdf",
       "pages": {
         "0": {
           "text": "Bobba à la bibliothèque",
-          "imageUrl": "/learning-material/story-5/story-fr/Story 5_title_fr.jpeg",
+          "imageUrl": "/learning-material/story-5/story-fr/Story_5_title_fr.jpeg",
           "audioUrl": "/learning-material/story-5/story-fr/Bobba_FR_Story 5 Intro-MP3.mp3"
         },
         "1": {
@@ -3135,13 +3135,13 @@
     }],
     "it": [{
       "title": "Bobba in biblioteca",
-      "titlePicture": "/learning-material/story-5/story-it/Story 5_title_it.jpeg",
+      "titlePicture": "/learning-material/story-5/story-it/Story_5_title_it.jpeg",
       "fullAudio": "/learning-material/story-5/story-it/Story5_Italiano.mp3",
       "fullText": "/learning-material/story-5/story-en/Story_5_full_text_it.pdf",
       "pages": {
         "0": {
           "text": "Bobba in biblioteca",
-          "imageUrl": "/learning-material/story-5/story-it/Story 5_title_it.jpeg",
+          "imageUrl": "/learning-material/story-5/story-it/Story_5_title_it.jpeg",
           "audioUrl": "/learning-material/story-5/story-it/Story 5_Title.mp3"
         },
         "1": {
@@ -3506,7 +3506,7 @@
     }],
     "tur": [{
       "title": "Bobba kütüphanede",
-      "titlePicture": "/learning-material/story-5/story-tur/Story_5_title_tur.jpg",
+      "titlePicture": "/learning-material/story-5/story-tur/Story_5_title_tur.jpeg",
       "fullAudio": "/learning-material/story-5/story-tur/Stories_Turkish_5.m4a",
       "fullText": "/learning-material/story-5/story-tur/Story5_TUR.pdf",
       "pages": {
@@ -4949,61 +4949,639 @@
     "slug": "story-8",
     "en": [{
       "title": "Going home",
-      "titlePicture": "/images/under-construction.png",
-      "fullAudio": "",
-      "fullText": "",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_E.jpg",
+      "fullAudio": "/learning-material/story-8/story-en/Story 8_Full_E.mp3",
+      "fullText": "/learning-material/story-8/story-en/Story8_EN.pdf",
       "pages": {
+        "0": {
+          "text": "Going home",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_E.jpg",
+          "audioUrl": "/learning-material/story-8/story-en/Story 8_title E.mp3"
+        },
         "1": {
           "text": "Bobba and his friends are having fun playing with a ball in the park where Bobba's spaceship landed.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
+          "audioUrl": "/learning-material/story-8/story-en/Story 8_1.mp3"
         },
         "2": {
           "text": "The sun is setting and the sky is full of different colours. Bobba is impressed. How beautiful it is! Suddenly a star appears, and another one, and another one. Bobba points at a very bright one and shouts: \"Vidu la stelan!! Jen mia planedo!!\"",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
+          "audioUrl": "/learning-material/story-8/story-en/Story 8_2.mp3"
         },
         "3": {
           "text": "His friends stop playing because they all want to see. They stand close to Bobba to find his star.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
+          "audioUrl": "/learning-material/story-8/story-en/Story 8_3.mp3"
         },
         "4": {
           "text": "Suddenly, they hear a little beeping sound. They hear it again, this time louder \"Beep\" and louder still \"BEEP!\" \"BEEEEEEEEP!\" \"BEEEEEEEEEEEEEEP!!!!!!\" Bobba shouts:  \"Ohhhh, My spaceship telephone!\"",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
+          "audioUrl": "/learning-material/story-8/story-en/Story 8_4.mp3"
         },
         "5": {
           "text": "He rushes to his spaceship and answers the phone. His friends follow him. They hear him say: \"Ĉu mi venu hejmen ? Ĉu mi povas reveni ? Esta bona! Ĝis baldaŭ!\"",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
+          "audioUrl": "/learning-material/story-8/story-en/Story 8_5.mp3"
         },
         "6": {
           "text": "He hangs up the phone and says \"My family says, I must come home now. But I can come again!!\" Ben says \"I think we all have to go home now. It is getting dark.\"",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
+          "audioUrl": "/learning-material/story-8/story-en/Story 8_6.mp3"
         },
         "7": {
           "text": "The children give Bobba a big hug and Olivia says: \"Come back soon!\" and Bobba smiles. \"Mi revenos! I promise!\", he says.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
+          "audioUrl": "/learning-material/story-8/story-en/Story 8_7.mp3"
         },
         "8": {
           "text": "Bobba gets into his spaceship and waves. He takes off and soars through the sky until only a little light is left – the light of his planet shining. \"See you soon, Bobba!\", they all shout and smile.",
-          "imageUrl": "",
-          "audioUrl": ""
+          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpg",
+          "audioUrl": "/learning-material/story-8/story-en/Story 8_8.mp3"
         }
       }
     }],
-    "de": [],
-    "": [],
-    "fr": [],
-    "es": [],
-    "it": [],
-    "lux": [],
-    "gr": [],
-    "sv": [],
-    "al": [],
-    "ukr": []
+    "de": [{
+      "title": "Bobba fliegt wieder nach Hause",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_G.png",
+      "fullAudio": "/learning-material/story-8/story-de short/Bobba_DE_Story 8 gesamt.mp3",
+      "fullText": "/learning-material/story-8/story-de short/Story8_DE_S.pdf",
+      "pages": {
+        "0": {
+          "text": "Bobba fliegt wieder nach Hause",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_G.png",
+          "audioUrl": "/learning-material/story-8/story-de short/Bobba_DE_Story 8 Titel.mp3"
+        },
+        "1": {
+          "text": "Bobba und seine Freunde spielen im Park neben seinem Ufo mit dem Ball.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
+          "audioUrl": "/learning-material/story-8/story-de short/Bobba_DE_Story 8_1.mp3"
+        },
+        "2": {
+          "text": "Langsam geht die Sonne unter und der Himmel wird bunt. Bobba hält inne. Wie schön es ist! Plötzlich taucht ein Stern auf… und noch einer ... und noch einer ... Bobba zeigt auf einen Stern, der ganz hell leuchtet, und ruft: “Vidu la stelan!! Jen mia planedo!!”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
+          "audioUrl": "/learning-material/story-8/story-de short/Bobba_DE_Story 8_2.mp3"
+        },
+        "3": {
+          "text": "Seine Freunde hören auf zu spielen. Das wollen sie auch sehen. Sie gehen ganz nah zu Bobba, um seinen Stern zu sehen.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
+          "audioUrl": "/learning-material/story-8/story-de short/Bobba_DE_Story 8_3.mp3"
+        },
+        "4": {
+          "text": "Plötzlich hören sie ein biependes Geräusch. Dann hören sie es nochmal lauter. «Biep!» und noch lauter «BIEP!», «BIIIIIIIIIEP!!!». Bobba ruft auf: ”Ohhhh, Mein Raumschiff-Telefon!!”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
+          "audioUrl": "/learning-material/story-8/story-de short/Bobba_DE_Story 8_4.mp3"
+        },
+        "5": {
+          "text": "Er rennt zu seinem Ufo und geht ans Telefon. Alle Kinder laufen ihm hinterher. Sie hören ihn sagen: “Ĉu mi venu hejmen?....... Ĉu mi povas reveni? .... Esta bona! ĝis baldaŭ!”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
+          "audioUrl": "/learning-material/story-8/story-de short/Bobba_DE_Story 8_5.mp3"
+        },
+        "6": {
+          "text": "Dann legt er auf und sagt: \"Meine Familie sagt, dass ich nach Hause kommen muss. Aber ich komme bald wieder!\" Ben sagt: \"Ich glaube, wir müssen alle nach Hause. Es wird dunkel.\"",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
+          "audioUrl": "/learning-material/story-8/story-de short/Bobba_DE_Story 8_6.mp3"
+        },
+        "7": {
+          "text": "Die Kinder umarmen Bobba ganz fest. Olivia sagt: «Komm bald wieder!» Bobba lächelt. \"Mi revenos!\", verspricht er.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
+          "audioUrl": "/learning-material/story-8/story-de short/Bobba_DE_Story 8_7.mp3"
+        },
+        "8": {
+          "text": "Bobba steigt in sein Ufo und winkt. Er hebt ab und saust in den Himmel, bis nur noch ein kleines Licht zu sehen ist – das Licht seines Planeten. «Bis bald, Bobba!», rufen alle und lächeln",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpg",
+          "audioUrl": "/learning-material/story-8/story-de short/Bobba_DE_Story 8_8.mp3"
+        }
+      }
+    }],
+    "sw-ger": [{
+      "title": "Bobba fährt zurück nach Hause",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_G.png",
+      "fullAudio": "/learning-material/story-8/story-de/story-8-long-version_G_Komplett.mp3",
+      "fullText": "/learning-material/story-8/story-de/Story8_DE_L.pdf",
+      "pages": {
+        "0": {
+          "text": "Bobba fährt zurück nach Hause",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_G.png",
+          "audioUrl": "/learning-material/story-8/story-de/story 8_Long Version_1 Title.mp3"
+        },
+        "1": {
+          "text": "Bobba und seine Freunde spielen im Park neben seinem Raumschiff mit dem Ball.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
+          "audioUrl": "/learning-material/story-8/story-de/story 8_Long Version_2.mp3"
+        },
+        "2": {
+          "text": "Langsam geht die Sonne unter und am Himmel zeigen sich lauter bunte Farben. Bobba hält inne. Wie schön es ist! Plötzlich taucht ein Stern auf… und noch einer ... und noch einer ... Bobba zeigt auf einen, der ganz hell leuchtet, und ruft: “Vidu la stelan!! Jen mia planedo!!”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
+          "audioUrl": "/learning-material/story-8/story-de/story 8_Long Version_3.mp3"
+        },
+        "3": {
+          "text": "Seine Freunde hören auf zu spielen. Das wollen sie auch alle sehen. Sie scharen sich um Bobba, um seinen Stern zu sehen.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
+          "audioUrl": "/learning-material/story-8/story-de/story 8_Long Version_4.mp3"
+        },
+        "4": {
+          "text": "Plötzlich hören sie ein biependes Geräusch. Dann hören sie es nochmal und dieses Mal ist es lauter. «Biep!» und nochmals lauter «BIEP!», «BIIIIIIIIIEP!!!». Bobba ruft auf: ”Ohhhh, Mein Raumschifftelefon!!”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
+          "audioUrl": "/learning-material/story-8/story-de/story 8_Long Version_5.mp3"
+        },
+        "5": {
+          "text": "Er rennt zu seinem Ufo und geht ans Telefon. Alle Kinder laufen ihm hinterher. Sie hören ihn sagen: “Ĉu mi venu hejmen?....... Ĉu mi povas reveni? .... Esta bona! ĝis baldaŭ!”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
+          "audioUrl": "/learning-material/story-8/story-de/story 8_Long Version_6.mp3"
+        },
+        "6": {
+          "text": "Dann legt er auf und sagt: \"Meine Familie sgt, dass ich nachhause kommen muss. Aber ich komme bald wieder!\" Ben sagt: \"Ich glaube, wir müssen alle nachhause. Es wird dunkel.\"",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
+          "audioUrl": "/learning-material/story-8/story-de/story 8_Long Version_7.mp3"
+        },
+        "7": {
+          "text": "Die Kinder geben Bobba eine feste Umarmung. Olivia sagt: «Komm bald wieder!» Bobba lächelt. \"Mi revenos!\", verspricht er.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
+          "audioUrl": "/learning-material/story-8/story-de/story 8_Long Version_8.mp3"
+        },
+        "8": {
+          "text": "Bobba steigt in sein Ufo und winkt. Er hebt ab und saust in den Himmel, bis nur noch ein kleines Licht zu sehen ist – das Licht seines Planeten. «Bis bald, Bobba!», rufen alle und lächeln",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpg",
+          "audioUrl": "/learning-material/story-8/story-de/story 8_Long Version_9.mp3"
+        }
+      }
+    }],
+    "alb": [{
+      "title": "Kthimi në shtëpi",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_ALB.png",
+      "fullAudio": "/learning-material/story-8/story-alb/Bobba_AL_Story 8.mp3",
+      "fullText": "/learning-material/story-8/story-alb/Story8_AL.pdf",
+      "pages": {
+        "0": {
+          "text": "Kthimi në shtëpi",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_ALB.png",
+          "audioUrl": "/learning-material/story-8/story-alb/Bobba_AL_Story 8 Intro.mp3"
+        },
+        "1": {
+          "text": "Bobba dhe shokët e tij po argëtohen duke luajtur me top në parkun ku u ul anija kozmike e Bobbës.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
+          "audioUrl": "/learning-material/story-8/story-alb/Bobba_AL_Story 8_1.mp3"
+        },
+        "2": {
+          "text": "Dielli po perëndon dhe qielli është mbushur me ngjyra të ndryshme. Bobba është i mahnitur. Sa i bukur është! Papritmas shfaqet një yll, dhe një tjetër, dhe një tjetër. Bobba tregon me gisht një yll shumë të ndritshëm dhe bërtet: “Vidu la stelan!! Jen mia planedo!!”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
+          "audioUrl": "/learning-material/story-8/story-alb/Bobba_AL_Story 8_2.mp3"
+        },
+        "3": {
+          "text": "Shokët e tij ndalojnë së luajturi sepse të gjithë duan të shohin. Ata qëndrojnë pranë Bobbës për të gjetur yllin e tij.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
+          "audioUrl": "/learning-material/story-8/story-alb/Bobba_AL_Story 8_3.mp3"
+        },
+        "4": {
+          "text": "Papritmas, ata dëgjojnë një tingull të vogël \"bip\". E dëgjojnë sërish, këtë herë më me zë \"Beep\" dhe më fort \"BEEP!\" \"BEEEEEEEEP!\" \"BEEEEEEEEEEEEEEP!!!!!!\" Bobba bërtet: “Ohhhh, telefoni i anijes sime kozmike!”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
+          "audioUrl": "/learning-material/story-8/story-alb/Bobba_AL_Story 8_4.mp3"
+        },
+        "5": {
+          "text": "Ai nxiton drejt anijes së tij kozmike dhe përgjigjet në telefon. Shokët e tij e ndjekin. Ata e dëgjojnë atë duke thënë: “Ĉu mi venu hejmen? Ĉu mi povas reveni? Esta bona! Ĝis baldaŭ!”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
+          "audioUrl": "/learning-material/story-8/story-alb/Bobba_AL_Story 8_5.mp3"
+        },
+        "6": {
+          "text": "Ai e mbyll telefonin dhe thotë: “Familja ime thotë se duhet të kthehem tani. Por mund të vij përsëri!!” Beni thotë: “Mendoj se të gjithë duhet të shkojmë në shtëpi tani. Po errësohet.”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
+          "audioUrl": "/learning-material/story-8/story-alb/Bobba_AL_Story 8_6.mp3"
+        },
+        "7": {
+          "text": "Fëmijët e përqafojnë fort Bobbën dhe Olivia thotë: “Kthehu shpejt!” dhe Boba buzëqesh. “Mi revenos! Të premtoj!”, thotë ai.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
+          "audioUrl": "/learning-material/story-8/story-alb/Bobba_AL_Story 8_7.mp3"
+        },
+        "8": {
+          "text": "Bobba hip në anijen e tij kozmike dhe përshëndet me dorë. Ai niset dhe fluturon lart në qiell, derisa mbetet vetëm një dritë e vogë- drita e planetit të tij që shkëlqen. \"Shihemi së shpejti, Bobba!\", bërtasin të gjithë dhe buzëqeshin.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpg",
+          "audioUrl": "/learning-material/story-8/story-alb/Bobba_AL_Story 8_8.mp3"
+        }
+      }
+    }],
+    "fr": [{
+      "title": "Retour à la maison",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_F.png",
+      "fullAudio": "/learning-material/story-8/story-fr/Bobba_FR_Story 8-MP3.mp3",
+      "fullText": "/learning-material/story-8/story-fr/Story8_F.pdf",
+      "pages": {
+        "0": {
+          "text": "Retour à la maison",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_F.png",
+          "audioUrl": "/learning-material/story-8/story-fr/Bobba_FR_Story 8 Intro-MP3.mp3"
+        },
+        "1": {
+          "text": "Bobba s’amuse avec ses amis dans le parc. Ils jouent avec un ballon à l’endroit où Bobba a atterri avec son vaisseau spatial.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
+          "audioUrl": "/learning-material/story-8/story-fr/Bobba_FR_Story 8_1-MP3.mp3"
+        },
+        "2": {
+          "text": "Le soleil commence à se coucher et le ciel devient magnifique, avec plein de couleurs. Bobba regarde en l’air, impressionné. Il trouve ça très beau. Tout à coup, une étoile apparaît. Puis une autre. Et encore une autre. Une très brillante attire son attention. Il la montre du doigt : « Vidu la stelan !! Jen mia planedo ! »",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
+          "audioUrl": "/learning-material/story-8/story-fr/Bobba_FR_Story 8_2-MP3.mp3"
+        },
+        "3": {
+          "text": "Les enfants arrêtent de jouer pour voir. Ils s’approchent de Bobba pour essayer de trouver son étoile dans le ciel.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
+          "audioUrl": "/learning-material/story-8/story-fr/Bobba_FR_Story 8_3-MP3.mp3"
+        },
+        "4": {
+          "text": "Tout à coup, ils entendent un petit bruit : « Bip ». Encore une fois, un peu plus fort : « Biiip ». Puis encore plus fort : « BIIP ». Et encore plus fort : « BIIIIIIIIIIIIIIIIIP ! » « BIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIP ! ». Bobba s’écrie : « OHH, c’est le téléphone de mon vaisseau qui sonne ! » ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
+          "audioUrl": "/learning-material/story-8/story-fr/Bobba_FR_Story 8_4-MP3.mp3"
+        },
+        "5": {
+          "text": "Bobba court vers son vaisseau et il répond. Ses amis le suivent. Ils l’entendent dire: « Ĉu mi venu hejmen ? Ĉu mi povas reveni? Esta bona! Ĝis baldaŭ ! » ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
+          "audioUrl": "/learning-material/story-8/story-fr/Bobba_FR_Story 8_5-MP3.mp3"
+        },
+        "6": {
+          "text": "Il raccroche le téléphone : « Ma famille m’a dit de rentrer maintenant. Mais je peux revenir un jour !! » Ben dit : « Je pense que nous devons tous rentrer maintenant. Il commence à faire sombre. »",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
+          "audioUrl": "/learning-material/story-8/story-fr/Bobba_FR_Story 8_6-MP3.mp3"
+        },
+        "7": {
+          "text": "Les enfants font un gros câlin à Bobba et Olivia dit : « Reviens-vite ! » Bobba sourit. « Mi revenos ! Promis ! », dit-il.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
+          "audioUrl": "/learning-material/story-8/story-fr/Bobba_FR_Story 8_7-MP3.mp3"
+        },
+        "8": {
+          "text": "Il monte dans son vaisseau et fait un dernier signe de la main. Il décolle. Il fonce dans le ciel. Bientôt, il ne reste plus qu’une petite lumière : celle de sa planète. « À très bientôt, Bobba ! », crient les enfants en souriant.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpg",
+          "audioUrl": "/learning-material/story-8/story-fr/Bobba_FR_Story 8_8-MP3.mp3"
+        }
+      }
+    }],
+    "it": [{
+      "title": "Bobba torna a casa",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_ITA.png",
+      "fullAudio": "/learning-material/story-8/story-it/Story 8_Italiano_Komplett.mp3",
+      "fullText": "/learning-material/story-8/story-it/Story8_IT.pdf",
+      "pages": {
+        "0": {
+          "text": "Bobba torna a casa",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_ITA.png",
+          "audioUrl": "/learning-material/story-8/story-it/Story 8_Title.mp3"
+        },
+        "1": {
+          "text": "Bobba e i suoi amici si divertono giocando a palla nel parco, proprio dove l’astronave di Bobba era atterrata.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
+          "audioUrl": "/learning-material/story-8/story-it/Story 8_Szene 1.mp3"
+        },
+        "2": {
+          "text": "Il sole sta per tramontare e il cielo è pieno di colori diversi. Bobba è incantato. Che meraviglia! All’improvviso appare una stella, poi un'altra e un’altra anco",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
+          "audioUrl": "/learning-material/story-8/story-it/Story 8_Szene 2.mp3"
+        },
+        "3": {
+          "text": "I suoi amici smettono di giocare perché vogliono vedere anche loro. Si avvicinano a Bobba per osservare la sua stella.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
+          "audioUrl": "/learning-material/story-8/story-it/Story 8_Szene 3.mp3"
+        },
+        "4": {
+          "text": "Improvvisamente, sentono un suono che fa beep. Lo sentono di nuovo, questa volta più forte. “Beep” e ancora più forte “BEEP!” “BEEEEEEEEP!” “BEEEEEEEEEEEEEEP!!!!!!” Bobba esclama “Ohhh, il telefono della mia astronave!” ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
+          "audioUrl": "/learning-material/story-8/story-it/Story 8_Szene 4.mp3"
+        },
+        "5": {
+          "text": "Corre alla sua astronave e risponde al telefono. I suoi amici lo seguono. Lo sentono dire: Ĉu mi venu hejmen ? Ĉu mi povas reveni ? Esta bona! Ĝis baldaŭ!”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
+          "audioUrl": "/learning-material/story-8/story-it/Story 8_Szene 5.mp3"
+        },
+        "6": {
+          "text": "Riaggancia il telefono e dice “La mia famiglia dice che adesso devo tornare a casa. Ma posso venirvi a trovare di nuovo!” Ben allora dice “Credo che dobbiamo tornare a casa tutti quanti adesso. Sta diventando buio”. ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
+          "audioUrl": "/learning-material/story-8/story-it/Story 8_Szene 6.mp3"
+        },
+        "7": {
+          "text": "I bambini abbracciano forte Bobba e Olivia dice: “Torna presto, mi raccomando!” Bobba sorride e dice. “Mi revenos! Lo prometto!”. ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
+          "audioUrl": "/learning-material/story-8/story-it/Story 8_Szene 7.mp3"
+        },
+        "8": {
+          "text": "Bobba entra nella sua astronave e saluta con la mano. Decolla e vola nel cielo notturno, finché non rimane che una piccola luce – la luce del suo pianeta che brilla. “A presto, Bobba!” gridano tutti in coro sorridendo.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpg",
+          "audioUrl": "/learning-material/story-8/story-it/Story 8_Szene 8.mp3"
+        }
+      }
+    }],
+    "lux": [{
+      "title": "Zeréck heem",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_LUX.png",
+      "fullAudio": "/learning-material/story-8/story-lux/Bobba_LU_Story 8.mp3",
+      "fullText": "/learning-material/story-8/story-lux/Story8_LUX.pdf",
+      "pages": {
+        "0": {
+          "text": "Zeréck heem",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_LUX.png",
+          "audioUrl": "/learning-material/story-8/story-lux/Bobba_LU_Story 8 Intro.mp3"
+        },
+        "1": {
+          "text": "De Bobba a seng Frënn spille mam Ball an amuséieren sech am Park, wou dem Bobba säi Raumschëff gelant war.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
+          "audioUrl": "/learning-material/story-8/story-lux/Bobba_LU_Story 8_1.mp3"
+        },
+        "2": {
+          "text": "D’Sonn geet lues a lues ënner an den Himmel weist sech a senge schéinste Faarwen. De Bobba ass paff. “Wéi wonnerschéin dat ass!“, rifft hien. Op eemol gesäit hien e Stär. Dann nach een. An nach een. De Bobba weist mam Fanger op e ganz helle Stär a jäizt: “Vidu la stelan!! Jen mia planedo!”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
+          "audioUrl": "/learning-material/story-8/story-lux/Bobba_LU_Story 8_2.mp3"
+        },
+        "3": {
+          "text": "D’Kanner halen op mat spillen fir ze kucken. Si komme bei hien a probéieren och dem Bobba säi Stär ze entdecken. ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
+          "audioUrl": "/learning-material/story-8/story-lux/Bobba_LU_Story 8_3.mp3"
+        },
+        "4": {
+          "text": "Op eemol héieren si e klengen, piipsegen Toun: „Bip“. Duerno nach eemol, awer dës Kéier méi haart “Biip”. Dann nach méi haart: “BIIP!” “BIIIIIIIIIP!” “BIIIIIIIIIIIIIIIIIiP!!!!!!”. De Bobba rifft: „Ooooo, dat ass den Telefon aus mengem Raumschëff!“ ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
+          "audioUrl": "/learning-material/story-8/story-lux/Bobba_LU_Story 8_4.mp3"
+        },
+        "5": {
+          "text": "De Bobba hëlt seng Been an de Grapp, rennt bei säi Raumschëff an hieft den Telefon op. Seng Frënn lafen him no.Si héiere wéi de Bobba seet: “Ĉu mi venu hejmen? Ĉu mi povasreveni? Esta bona! Ĝis baldaŭ!”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
+          "audioUrl": "/learning-material/story-8/story-lux/Bobba_LU_Story 8_5.mp3"
+        },
+        "6": {
+          "text": "Hien hänkt an an erkläert: “Meng Famill huet gesot, datt ech elo heem fléie muss. Mä ech kommen zeréck!“. De Ben seet: „Och fir ons gëtt et Zäit heem ze goen. Et gëtt schonn däischter.”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
+          "audioUrl": "/learning-material/story-8/story-lux/Bobba_LU_Story 8_6.mp3"
+        },
+        "7": {
+          "text": "D’Kanner ëmäerbelen de Bobba an d’Olivia seet: „Komm geschwënn erëm zeréck!“ De Bobba laacht: “Mi revenos! Versprach!”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
+          "audioUrl": "/learning-material/story-8/story-lux/Bobba_LU_Story 8_7.mp3"
+        },
+        "8": {
+          "text": "Hie klëmmt a säi Raumschëff a wénkt de Kanner. D’Raumschëff start a flitzt den Himmel erop bis op eemol just nach e klengt Liicht ze gesinn ass. Et ass d’Luucht vu sengem Planéit. „Bis geschwënn, Bobba!“, jäizen si all mateneen an denke mat vill Freed un hien a laachen.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpg",
+          "audioUrl": "/learning-material/story-8/story-lux/Bobba_LU_Story 8_8.mp3"
+        }
+      }
+    }],
+     "gr": [{
+      "title": "Επιστροφή στο σπίτι",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_GRE.png",
+      "fullAudio": "/learning-material/story-8/story-gr/story-8-greek-full.mp3",
+      "fullText": "/learning-material/story-8/story-gr/Story8_GR.pdf",
+      "pages": {
+        "0": {
+          "text": "Επιστροφή στο σπίτι",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_GRE.png",
+          "audioUrl": "/learning-material/story-8/story-gr/story-8-greek-title.mp3"
+        },
+        "1": {
+          "text": "Ο Μπόμπα και οι φίλοι του διασκεδάζουν με μια μπάλα στο πάρκο όπου προσγειώθηκε το διαστημόπλοιο του Μπόμπα. ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
+          "audioUrl": "/learning-material/story-8/story-gr/Story 8_Greek_8_1.m4a"
+        },
+        "2": {
+          "text": "Ο ήλιος δύει και ο ουρανός είναι γεμάτος διαφορετικά χρώματα. Ο Μπόμπα είναι εντυπωσιασμένος. Πόσο όμορφα είναι. Ξαφνικά εμφανίζεται ένα αστέρι και άλλο ένα και άλλο ένα. Ο Μπόμπα δείχνει ένα πολύ λαμπερό αστέρι και φωνάζει: «Vidu la stelan!! Jen mia planedo!!»",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
+          "audioUrl": "/learning-material/story-8/story-gr/Story 8_Greek_8_2.m4a"
+        },
+        "3": {
+          "text": "Οι φίλοι του σταματάνε να παίζουν γιατί όλοι θέλουν να δουν. Στέκονται δίπλα στο Μπόμπα για να βρει το αστέρι του.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
+          "audioUrl": "/learning-material/story-8/story-gr/Story 8_Greek_8_3.m4a"
+        },
+        "4": {
+          "text": "Ξαφνικά, ακούνε ένα μικρό ήχο μπιπ. Τον ακούνε ξανά, αυτή τη φορά πιο δυνατό «Μπιπ» και ακόμα πιο δυνατό «ΜΠΙΠ!», «ΜΠΙΙΙΙΙΙΙΙΙΙΙΠ!» «ΜΠΙΙΙΙΙΙΙΙΙΙΙΙΙΙΙΙΙΙΙΠ!» Ο Μπόμπα φωνάζει: «Ωωωω το τηλέφωνο στο διαστημόπλοιό μου!»",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
+          "audioUrl": "/learning-material/story-8/story-gr/Story 8_Greek_8_4.m4a"
+        },
+        "5": {
+          "text": "Τρέχει στο διαστημόπλοιό του και απαντάει στο τηλέφωνο. Οι φίλοι του τον ακολουθούν. Τον ακούνε να λέει: «Ĉu mi venu hejmen ? Ĉu mi povas reveni ? Esta bona! Ĝis baldaŭ!»",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
+          "audioUrl": "/learning-material/story-8/story-gr/Story 8_Greek_8_5.m4a"
+        },
+        "6": {
+          "text": "Κλείνει το τηλέφωνο και λέει «Η οικογένειά μου λέει ότι πρέπει να επιστρέψω σπίτι τώρα. Αλλά μπορώ να έρθω ξανά!!» Ο Μπεν λέει «Νομίζω ότι όλοι πρέπει να πάμε σπίτι τώρα. Σκοτεινιάζει.»",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
+          "audioUrl": "/learning-material/story-8/story-gr/Story 8_Greek_8_6.m4a"
+        },
+        "7": {
+          "text": "Τα παιδιά κάνουν τον Μπόμπα μια μεγάλη αγκαλιά και η Ολίβια λέει: «Να ξαναέρθεις σύντομα» και ο Μπόμπα χαμογελάει. «Mi revenos! Το υπόσχομαι!», λέει.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
+          "audioUrl": "/learning-material/story-8/story-gr/Story 8_Greek_8_7.m4a"
+        },
+        "8": {
+          "text": "Ο Μπόμπα μπαίνει μέσα στο διαστημόπλοιο και τους αποχαιρετάει. Απογειώνεται και υψώνεται στον ουρανό μέχρι που φαίνεται μόνο ένα μικρό φως – το φως του πλανήτη του που λάμπει. «Τα λέμε σύντομα, Μπόμπα!», φωνάζουν όλοι και χαμογελούν.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpg",
+          "audioUrl": "/learning-material/story-8/story-gr/Story 8_Greek_8_8.m4a"
+        }
+      }
+    }],
+    "sv": [{
+      "title": "Bobba gre domov",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_SVN.png",
+      "fullAudio": "/learning-material/story-8/story-slo/Story 8_SLO_complete.m4a",
+      "fullText": "/learning-material/story-8/story-slo/Story8_SLO.pdf",
+      "pages": {
+        "0": {
+          "text": "Bobba gre domov",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_SVN.png",
+          "audioUrl": "/learning-material/story-8/story-slo/Story 8_SLO_title.wav"
+        },
+        "1": {
+          "text": "Bobba in njegovi prijatelji se žogajo v parku, kjer je pristala Bobbova vesoljska ladja",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
+          "audioUrl": "/learning-material/story-8/story-slo/Story 8_SLO_1.wav"
+        },
+        "2": {
+          "text": "Sončni zahod nebo odene v čudovite barve. Bobba je navdušen. Kako lepo je! Nenadoma se na nebu pojavi zvezda, pa še ena, in še ena. Bobba pokaže na zelo svetlo zvezdo in zakliče: \"Vidu la stelan!! Jen mia planedo!!\"",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
+          "audioUrl": "/learning-material/story-8/story-slo/Story 8_SLO_2.wav"
+        },
+        "3": {
+          "text": "Prijatelji prenehajo z igro. Zanima jih, kaj jim kaže Bobba. Približajo se mu in skupaj na nebu poiščejo njegovo zvezdo.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
+          "audioUrl": "/learning-material/story-8/story-slo/Story 8_SLO_3.wav"
+        },
+        "4": {
+          "text": "Nenadoma zaslišijo tanek piskajoč zvok. Spet zapiska, tokrat glasneje: »Piiiiip«, in še glasneje: »PIP!«, »PIIIIIIP!«, »PIIIIIIIIIIIIIIIIP!!!!!« Bobba vzklikne: »Ohhhh, moj vesoljski telefon!«",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
+          "audioUrl": "/learning-material/story-8/story-slo/Story 8_SLO_4.wav"
+        },
+        "5": {
+          "text": "Steče k svoji vesoljski ladji in dvigne slušalko. Prijatelji mu sledijo. Slišijo, kako se pogovarja: »Ĉu mi venu hejmen? Ĉu mi povas reveni? Estas bone! Ĝis baldaŭ!«",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
+          "audioUrl": "/learning-material/story-8/story-slo/Story 8_SLO_5.wav"
+        },
+        "6": {
+          "text": "Bobba odloži slušalko in reče otrokom: »Moji starši pravijo, da moram zdaj domov. A lahko vas spet obiščem!« Ben reče: »Mislim, da moramo zdaj vsi domov. Mrači se.«",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
+          "audioUrl": "/learning-material/story-8/story-slo/Story 8_SLO_6.wav"
+        },
+        "7": {
+          "text": "Otroci objamejo Bobbo in Olivia zašepeta: »Kmalu se vrni!« Bobba se nasmehne. »Mi revenos! Obljubim!« reče.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
+          "audioUrl": "/learning-material/story-8/story-slo/Story 8_SLO_7.wav"
+        },
+        "8": {
+          "text": "Bobba vstopi v svojo vesoljsko ladjo in pomaha. Ladja vzleti in švigne v nebo. Kmalu na nebu ostane le še majhna lučka. »Se vidimo kmalu, Bobba!« zakličejo otroci.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpg",
+          "audioUrl": "/learning-material/story-8/story-slo/Story 8_SLO_8.wav"
+        }
+      }
+    }],
+    "ukr": [{
+      "title": "Додому",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_UKR.png",
+      "fullAudio": "/learning-material/story-8/story-ukr/story-8-ukrainian-full.mp3",
+      "fullText": "/learning-material/story-8/story-ukr/Story8_UKR.pdf",
+      "pages": {
+        "0": {
+          "text": "Додому",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_UKR.png",
+          "audioUrl": "/learning-material/story-8/story-ukr/8.mp3"
+        },
+        "1": {
+          "text": "Бобба та його друзі весело граються з м'ячем у парку, де приземлився космічний корабель Бобби.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
+          "audioUrl": "/learning-material/story-8/story-ukr/Story 8_Ukrainian_8_1.MP3"
+        },
+        "2": {
+          "text": "Сонце сідає, і небо сповнене різних кольорів. Бобба вражений. Яке воно гарне! Раптом з'являється зірка, і ще одна, і ще одна. Бобба показує на дуже яскраву і кричить: \"Vidu la stelan!! Jen mia planedo!!!\"",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
+          "audioUrl": "/learning-material/story-8/story-ukr/Story 8_Ukrainian_8_2.MP3"
+        },
+        "3": {
+          "text": "Його друзі припиняють грати, бо всі хочуть побачити. Вони стоять близько до Бобби, щоб знайти його зірку.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
+          "audioUrl": "/learning-material/story-8/story-ukr/Story 8_Ukrainian_8_3.MP3"
+        },
+        "4": {
+          "text": "Раптом вони чують тоненький звуковий сигнал. Вони чують його знову, цього разу голосніше \"Біп\" і ще голосніше \"БІП!\" \"БІІІІІІІІП!\" \"БІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІІ\" Бобба кричить: \"Оооо, мій космічний телефон!\"",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
+          "audioUrl": "/learning-material/story-8/story-ukr/Story 8_Ukrainian_8_4.MP3"
+        },
+        "5": {
+          "text": "Він поспішає до свого космічного корабля і відповідає на телефонний дзвінок. Його друзі йдуть за ним. Вони чують, як він каже: \"Я хочу повернутися додому? \"Я знаю, що ти повернувся? Esta bona! Це балда!\"",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
+          "audioUrl": "/learning-material/story-8/story-ukr/Story 8_Ukrainian_8_5.MP3"
+        },
+        "6": {
+          "text": "Він кладе слухавку і каже: \"Моя сім'я каже, що я повинен повернутися додому. Але я можу приїхати знову!! Бен каже: \"Думаю, нам усім треба йти додому. Вже темніє.\"",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
+          "audioUrl": "/learning-material/story-8/story-ukr/Story 8_Ukrainian_8_6.MP3"
+        },
+        "7": {
+          "text": "Діти міцно обіймають Боббу, а Олівія каже: \"Приходьте ще!\", і Бобба посміхається. \"Mi revenos! Обіцяю!\", - каже він.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
+          "audioUrl": "/learning-material/story-8/story-ukr/Story 8_Ukrainian_8_7.MP3"
+        },
+        "8": {
+          "text": "Бобба сідає у свій космічний корабель і махає рукою. Він злітає і ширяє в небі, аж поки не залишається лише маленький вогник - світло його планети. \"Скоро побачимося, Бобба!\", - кричать вони всі і посміхаються.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpg",
+          "audioUrl": "/learning-material/story-8/story-ukr/Story 8_Ukrainian_8_8.MP3"
+        }
+      }
+    }],
+    "por": [{
+      "title": "Regresso a casa",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_POR.png",
+      "fullAudio": "/learning-material/story-8/story-por/8_complete version.m4a",
+      "fullText": "/learning-material/story-8/story-por/Story8_POR.pdf",
+      "pages": {
+        "0": {
+          "text": "Regresso a casa",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_UKR.png",
+          "audioUrl": "/learning-material/story-8/story-por/8_title.m4a"
+        },
+        "1": {
+          "text": "O Bobba e os seus amigos divertem-se a brincar com uma bola no parque onde a nave espacial do Bobba aterrou.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
+          "audioUrl": "/learning-material/story-8/story-por/8_1.m4a"
+        },
+        "2": {
+          "text": "O sol está a pôr-se e o céu está cheio de cores diferentes. O Bobba está impressionado. Como é lindo! De repente, aparece uma estrela, e mais uma, e mais outra ainda. O Bobba aponta para uma estrela muito brilhante e grita: \"Vidu la stelan!! Jen mia planedo!!\". ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
+          "audioUrl": "/learning-material/story-8/story-por/8_2.m4a"
+        },
+        "3": {
+          "text": "Os seus amigos param de brincar porque todos querem ver. Ficam ao pé do Bobba para encontrar a sua estrela. \"BIP!\"",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
+          "audioUrl": "/learning-material/story-8/story-por/8_3.m4a"
+        },
+        "4": {
+          "text": "De repente, ouvem um pequeno sinal sonoro \"Bip!\" !. Voltam a ouvir, desta vez mais alto, \"Biip!\" e ainda mais alto, \"BIIP!\" \"BIIIIIIIIP!\" \"BIIIIIIIIIIIIIIP!\" Bobba grita: \"Ohhhh, é o telefone da minha nave espacial!\"",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
+          "audioUrl": "/learning-material/story-8/story-por/8_4.m4a"
+        },
+        "5": {
+          "text": "Ele corre para a sua nave espacial e atende o telefone. Os seus amigos vão atrás dele. Ouvem ele dizer: “Ĉu mi venu hejmen? Ĉu mi povas reveni? Esta bona! Ĝis baldaŭ!”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
+          "audioUrl": "/learning-material/story-8/story-por/8_5.m4a"
+        },
+        "6": {
+          "text": "Ele desliga o telefone e diz: “A minha família diz que tenho que voltar para casa agora. Mas posso voltar cá outra vez!!” O Ben diz: “Acho que temos todos de voltar para casa agora. Está a escurecer”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
+          "audioUrl": "/learning-material/story-8/story-por/8_6.m4a"
+        },
+        "7": {
+          "text": "As crianças dão um grande abraço ao Bobba e a Olivia diz: “Volta depressa!” e o Bobba sorri. “Mi revenos! Eu prometo!”, diz.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
+          "audioUrl": "/learning-material/story-8/story-por/8_7.m4a"
+        },
+        "8": {
+          "text": "O Bobba entra na sua nave espacial e diz adeus. Levanta voo e voa pelo céu fora até que só resta uma luzinha – a luz do seu planeta a brilhar. “Até breve, Bobba!”, gritam todos, sorrindo.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpg",
+          "audioUrl": "/learning-material/story-8/story-por/8_8.m4a"
+        }
+      }
+    }],
+    "ladin": [{
+      "title": "Zeréck heem",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_LAD.png",
+      "fullAudio": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8-MP3.mp3",
+      "fullText": "/learning-material/story-8/story-ladin/Story8_L.pdf",
+      "pages": {
+        "0": {
+          "text": "Zeréck heem",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_LAD.png",
+          "audioUrl": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8 Intro-MP3.mp3"
+        },
+        "1": {
+          "text": "De Bobba a seng Frënn spille mam Ball an amuséieren sech am Park, wou dem Bobba säi Raumschëff gelant war.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
+          "audioUrl": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8_1-MP3.mp3"
+        },
+        "2": {
+          "text": "D’Sonn geet lues a lues ënner an den Himmel weist sech a senge schéinste Faarwen. De Bobba ass paff. “Wéi wonnerschéin dat ass!“, rifft hien. Op eemol gesäit hien e Stär. Dann nach een. An nach een. De Bobba weist mam Fanger op e ganz helle Stär a jäizt: “Vidu la stelan!! Jen mia planedo!”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
+          "audioUrl": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8_2-MP3.mp3"
+        },
+        "3": {
+          "text": "D’Kanner halen op mat spillen fir ze kucken. Si komme bei hien a probéieren och dem Bobba säi Stär ze entdecken.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
+          "audioUrl": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8_3.MP3.mp3"
+        },
+        "4": {
+          "text": "Op eemol héieren si e klengen, piipsegen Toun: „Bip“. Duerno nach eemol, awer dës Kéier méi haart “Biip”. Dann nach méi haart: “BIIP!” “BIIIIIIIIIP!” “BIIIIIIIIIIIIIIIIIiP!!!!!!”. De Bobba rifft: „Ooooo, dat ass den Telefon aus mengem Raumschëff!“",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
+          "audioUrl": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8_4-MP3.mp3"
+        },
+        "5": {
+          "text": "De Bobba hëlt seng Been an de Grapp, rennt bei säi Raumschëff an hieft den Telefon op. Seng Frënn lafen him no. Si héiere wéi de Bobba seet: “Ĉu mi venu hejmen? Ĉu mi povas reveni? Esta bona! Ĝis baldaŭ!” ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
+          "audioUrl": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8_5-MP3.mp3"
+        },
+        "6": {
+          "text": "Hien hänkt an an erkläert: “Meng Famill huet gesot, datt ech elo heem fléie muss. Mä ech kommen zeréck!“. De Ben seet: „Och fir ons gëtt et Zäit heem ze goen. Et gëtt schonn däischter.” ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
+          "audioUrl": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8_6-MP3.mp3"
+        },
+        "7": {
+          "text": "D’Kanner ëmäerbelen de Bobba an d’Olivia seet: „Komm geschwënn erëm zeréck!“ De Bobba laacht: “Mi revenos! Versprach!”",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
+          "audioUrl": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8_7-MP3.mp3"
+        },
+        "8": {
+          "text": "Hie klëmmt a säi Raumschëff a wénkt de Kanner. D’Raumschëff start a flitzt den Himmel erop bis op eemol just nach e klengt Liicht ze gesinn ass. Et ass d’Luucht vu sengem Planéit. „Bis geschwënn, Bobba!“, jäizen si all mateneen an denke mat vill Freed un hien a laachen.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpg",
+          "audioUrl": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8_7-MP3.mp3"
+        }
+      }
+    }],
   }
 ]
