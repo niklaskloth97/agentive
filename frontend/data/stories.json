@@ -2974,7 +2974,7 @@
         }
       }
     }],
-    "de": [{
+    "sw-ger": [{
       "title": "Bobba in der Bibliothek",
       "titlePicture": "/learning-material/story-5/story-de/Story 5_title_de.jpeg",
       "fullAudio": "/learning-material/story-5/story-de/Bobba_in_der_Bibliothek_Title.m4a",
@@ -3027,11 +3027,11 @@
         }
       }
     }],
-    "sw-ger": [{
+    "de": [{
       "title": "Bobba in der Bibliothek",
       "titlePicture": "/learning-material/story-5/story-de/Story 5_title_de.jpeg",
       "fullAudio": "/learning-material/story-5/story-de short/Bobba_DE_Story 5_gesamt.mp3",
-      "fullText": "/learning-material/story-5/story-sw-ger/Story_5_full_text_de-short.pdf",
+      "fullText": "/learning-material/story-5/story-de short/Story5_DE_S.pdf",
       "pages": {
         "0": {
           "text": "Bobba in der Bibliothek",
@@ -3235,7 +3235,7 @@
         "8": {
           "text": "D’Stäre blénken hell am Himmel. De Bobba dréckt d’Buch ganz fest u sech. D’Buch a sengen Hänn erënnert hien u säin Doheem. “Enges Daags… fléien ech nees heem.”",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_8.png",
-          "audioUrl": "/learning-material/story-5/story-lux/Bobba_LU_Story 5_7.mp3"
+          "audioUrl": "/learning-material/story-5/story-lux/Bobba_LU_Story 5_8.mp3"
         }
       }
     }],
@@ -3606,7 +3606,7 @@
         "8": {
           "text": "As estrelas brilham no céu. O Bobba abraça o livro. O livro que tem nas mãos é como se fosse um pedaço de sua casa. \"Um dia... voltarei a casa.\"",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_8.png",
-          "audioUrl": "/learning-material/story-5/story-por/5_7.m4a"
+          "audioUrl": "/learning-material/story-5/story-por/5_8.m4a"
         }
       }
     }]
@@ -3667,7 +3667,7 @@
         }
       }
     }],
-    "de": [{
+    "sw-ger": [{
       "title": "Das Monsterschloss",
       "titlePicture": "/learning-material/story-6/covers/Story 6_COVER_G.jpeg",
       "fullAudio": "/learning-material/story-6/story-de/6_complete version.m4a",
@@ -3720,7 +3720,7 @@
         }
       }
     }],
-    "sw-ger": [{
+    "de": [{
       "title": "Das MONSTER Schloss",
       "titlePicture": "/learning-material/story-6/covers/Story 6_COVER_G.jpeg",
       "fullAudio": "/learning-material/story-6/story-de short/Bobba_DE_Story_6_Gesamt.mp3",
@@ -5525,7 +5525,7 @@
         },
         "8": {
           "text": "O Bobba entra na sua nave espacial e diz adeus. Levanta voo e voa pelo céu fora até que só resta uma luzinha – a luz do seu planeta a brilhar. “Até breve, Bobba!”, gritam todos, sorrindo.",
-          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpg",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpeg",
           "audioUrl": "/learning-material/story-8/story-por/8_8.m4a"
         }
       }
@@ -5578,7 +5578,7 @@
         },
         "8": {
           "text": "Hie klëmmt a säi Raumschëff a wénkt de Kanner. D’Raumschëff start a flitzt den Himmel erop bis op eemol just nach e klengt Liicht ze gesinn ass. Et ass d’Luucht vu sengem Planéit. „Bis geschwënn, Bobba!“, jäizen si all mateneen an denke mat vill Freed un hien a laachen.",
-          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpg",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpeg",
           "audioUrl": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8_8-MP3.mp3"
         }
       }
