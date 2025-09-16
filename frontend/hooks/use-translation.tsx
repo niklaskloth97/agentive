@@ -275,7 +275,7 @@ const translations: Record<string, Record<string, string>> = {
   },
   'language-awareness': {
     'English': 'Language Awareness',
-    'French': 'Éveil aux Sciences',
+    'French': 'Éveil aux Langues',
     'Lux': 'Sproochbewosstsinn',
     'Slovenian': 'Jezikovno zavedanje',
     'Italian': 'Consapevolezza Linguistica',
