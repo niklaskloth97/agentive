@@ -17,7 +17,7 @@ const translations: Record<string, Record<string, string>> = {
     'Lux': 'Storytime',
     'Slovenian': 'Zgodbe / Storytime',
     'Italian': 'Ora delle Storie',
-    'German': 'Geschichte',
+    'German': 'Geschichten',
     'Greek': 'Η ιστορία μας'
   },
   'activities': {

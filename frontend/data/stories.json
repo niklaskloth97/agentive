@@ -16,17 +16,17 @@
         },
         "1": {
           "text": "Bobba lives on a planet far away. Today he is very excited. He finally has his own spaceship and can now fly to wherever he wants!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp-dep",
           "audioUrl": "/learning-material/story-1/story-en/Story1_English_1.m4a"
         },
         "2": {
           "text": "His biggest dream is to fly to planet Earth.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp-dep",
           "audioUrl": "/learning-material/story-1/story-en/Story1_English_2.m4a"
         },
         "3": {
           "text": "He jumps into the spaceship and lifts off. All his friends and family are surprised! \"Where is he going to?\", they wonder. Bobba is heading straight towards planet Earth.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp-dep",
           "audioUrl": "/learning-material/story-1/story-en/Story1_English_3.m4a"
         },
         "4": {
@@ -36,7 +36,7 @@
         },
         "5": {
           "text": "Suddenly, he sees a blue ball and before he knows it, he shoots through the sky and with a loud bang lands in a pile of leaves and sticks!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp-dep",
           "audioUrl": "/learning-material/story-1/story-en/Story1_English_5.m4a"
         },
         "6": {
@@ -51,12 +51,12 @@
         },
         "8": {
           "text": "\"Do you want to see our playground?\" asks Olivia, the girl. Bobba smiles and Ben, the boy, takes him by the hand and together they take him to the playground.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp-dep",
           "audioUrl": "/learning-material/story-1/story-en/Story1_English_8.m4a"
         }
       }
     }],
-    "sw-ger": [{
+    "de": [{
       "title": "Bobbas erste Reise zur Erde",
       "titlePicture": "/learning-material/story-1/story-de/Story 1_title_G.jpg",
       "fullAudio": "/learning-material/story-1/story-de/bobba_1_D_ALL.mp3",
@@ -69,17 +69,17 @@
         },
         "1": {
           "text": "Bobba lebt auf einem weit entfernten Planeten. Heute ist er wahnsinnig aufgeregt! Endlich bekommt er sein eigenes Raumschiff und nun kann er endlich hinfliegen, wohin er will!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp-dep",
           "audioUrl": "/learning-material/story-1/story-de/Story 1_G Long_1_1.m4a"
         },
         "2": {
           "text": "Sein größter Traum ist es, zum Planeten Erde zu fliegen.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp-dep",
           "audioUrl": "/learning-material/story-1/story-de/Story 1_G Long_1_2.m4a"
         },
         "3": {
           "text": "Er hüpft in sein Raumschiff und fliegt los. Seine Familie und Freunde sind überrascht. \"Wo fliegt er denn hin?\", fragen sie sich. Bobba fliegt geradewegs Richtung Erde!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp-dep",
           "audioUrl": "/learning-material/story-1/story-de/Story 1_G Long_1_3.m4a"
         },
         "4": {
@@ -89,7 +89,7 @@
         },
         "5": {
           "text": "Endlich sieht er einen blauen Ball. Bevor er sich versieht, schießt er durch den Himmel und landet mit einem lauten Knall in einem Haufen voller Blätter und Ästen.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp-dep",
           "audioUrl": "/learning-material/story-1/story-de/Story 1_G Long_1_5.m4a"
         },
         "6": {
@@ -104,12 +104,12 @@
         },
         "8": {
           "text": "\"Möchtest Du unseren Spielplatz sehen?\", fragt Olivia, das Mädchen. Bobba lächelt und Ben, der Junge, nimmt ihn an der Hand. Zusammen bringen sie ihn zum Spielplatz.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp-dep",
           "audioUrl": "/learning-material/story-1/story-de/Story 1_G Long_1_8.m4a"
         }
       }
     }],
-    "de": [{
+    "sw-ger": [{
       "title": "Bobbas erste Reise zur Erde",
       "titlePicture": "/learning-material/story-1/story-de/Story 1_title_G.jpg",
       "fullAudio": "/learning-material/story-1/story-de short/Bobba_DE_Story_1_Gesamt.mp3",
@@ -122,17 +122,17 @@
         },
         "1": {
           "text": "Bobba lebt auf einem weit entfernten Planeten. Heute ist er wahnsinnig aufgeregt! Endlich bekommt er sein eigenes Raumschiff. Er kann jetzt hinfliegen, wohin er will! ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp-dep",
           "audioUrl": "/learning-material/story-1/story-de short/Bobba_DE_Story_1_1.mp3"
         },
         "2": {
           "text": "Zur Erde zu fliegen ist Bobbas größter Traum.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp-dep",
           "audioUrl": "/learning-material/story-1/story-de short/Bobba_DE_Story_1_2.mp3"
         },
         "3": {
           "text": "Er steigt in sein Raumschiff und fliegt los. Seine Familie und Freunde sind überrascht. “Wohin fliegt er?”, fragen sie sich. Bobba fliegt zur Erde! ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp-dep",
           "audioUrl": "/learning-material/story-1/story-de short/Bobba_DE_Story_1_3.mp3"
         },
         "4": {
@@ -142,7 +142,7 @@
         },
         "5": {
           "text": "Plötzlich sieht einen blauen Ball. Bobba landet mit einem lauten Knall in einem Baum. ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp-dep",
           "audioUrl": "/learning-material/story-1/story-de short/Bobba_DE_Story_1_5.mp3"
         },
         "6": {
@@ -157,7 +157,7 @@
         },
         "8": {
           "text": "“Möchtest Du unseren Spielplatz sehen?”, fragt Olivia. Bobba lächelt. Ben nimmt ihn an der Hand. Zusammen bringen sie ihn zum Spielplatz. ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp-dep",
           "audioUrl": "/learning-material/story-1/story-de short/Bobba_DE_Story_1_8.mp3"
         }
       }
@@ -175,17 +175,17 @@
         },
         "1": {
           "text": "Bobba habite sur une planète très loin d’ici. Aujourd’hui, il est très excité. Il a enfin son propre vaisseau spatial! Il peut voler où il le veut! ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp-dep",
           "audioUrl": "/learning-material/story-1/story-fr/Bobba_FR_Story 1_1-MP3.mp3"
         },
         "2": {
           "text": "Son plus grand rêve est d’aller sur la Terre.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp-dep",
           "audioUrl": "/learning-material/story-1/story-fr/Bobba_FR_Story 1_2-MP3.mp3"
         },
         "3": {
           "text": "Il saute dans son vaisseau et il décolle. Ses amis et sa famille sont surpris! Ils se demandent: «Où va-t-il?» Bobba fonce tout droit vers la Terre.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp-dep",
           "audioUrl": "/learning-material/story-1/story-fr/Bobba_FR_Story 1_3-MP3.mp3"
         },
         "4": {
@@ -195,7 +195,7 @@
         },
         "5": {
           "text": "Tout à coup, il voit une boule bleue. En un rien de temps, il traverse le ciel … et boum ! Il atterrit dans un tas de feuilles et de branches ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp-dep",
           "audioUrl": "/learning-material/story-1/story-fr/Bobba_FR_Story 1_5-MP3.mp3"
         },
         "6": {
@@ -210,7 +210,7 @@
         },
         "8": {
           "text": "« Tu veux voir notre terrain de jeux ? », demande Olivia. Bobba sourit et Ben le prend par la main. Ensemble, ils partent au terrain de jeux. ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp-dep",
           "audioUrl": "/learning-material/story-1/story-fr/Bobba_FR_Story 1_8-MP3.mp3"
         }
       }
@@ -228,17 +228,17 @@
         },
         "1": {
           "text": "O Bobba vive num planeta distante. Hoje está muito animado. Finalmente tem a sua própria nave espacial e agora pode voar para onde quiser!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp-dep",
           "audioUrl": "/learning-material/story-1/story-port/1_1.mp3"
         },
         "2": {
           "text": "O seu maior sonho é voar para o planeta Terra. ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp-dep",
           "audioUrl": "/learning-material/story-1/story-port/1_2.mp3"
         },
         "3": {
           "text": "Então, ele salta para a nave espacial e levanta voo. Todos os seus amigos e a sua família ficam surpreendidos! \"Para onde é que ele vai?\", perguntam-se. Bobba vai diretamente para o planeta Terra.      ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp-dep",
           "audioUrl": "/learning-material/story-1/story-port/1_3.mp3"
         },
         "4": {
@@ -248,7 +248,7 @@
         },
         "5": {
           "text": "De repente, vê uma bola azul e, num instante, dispara pelo céu fora e, com um grande estrondo, aterra num monte de folhas e paus!   ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp-dep",
           "audioUrl": "/learning-material/story-1/story-port/1_5.mp3"
         },
         "6": {
@@ -263,7 +263,7 @@
         },
         "8": {
           "text": "\"Queres ver o nosso parque infantil?\", pergunta a Olívia. O Bobba sorri e o Ben dá-lhe a mão, e juntos levam-no para o pátio. ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp-dep",
           "audioUrl": "/learning-material/story-1/story-port/1_8.mp3"
         }
       }
@@ -281,17 +281,17 @@
         },
         "1": {
           "text": "Bobba vive su un pianeta molto lontano. Oggi è emozionatissimo. Finalmente ha una propria astronave e può volare dove vuole!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp-dep",
           "audioUrl": "/learning-material/story-1/story-it/Story 1_1_Italiano.mp3"
         },
         "2": {
           "text": "Il suo più grande sogno è quello di andare sul pianeta Terra.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp-dep",
           "audioUrl": "/learning-material/story-1/story-it/Story 1_2_Italiano.mp3"
         },
         "3": {
           "text": "Salta sull’astronave e decolla. Tutti i suoi amici e la sua famiglia sono sorpresi! “Dove starà andando?”, si chiedono. Bobba si dirige dritto dritto verso il pianeta Terra. ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp-dep",
           "audioUrl": "/learning-material/story-1/story-it/Story 1_3_Italiano.mp3"
         },
         "4": {
@@ -301,7 +301,7 @@
         },
         "5": {
           "text": "Improvvisamente, vede una palla blu e prima di realizzare cosa succede sfreccia nel cielo e con un forte botto atterra in un mucchio di foglie e rami! ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp-dep",
           "audioUrl": "/learning-material/story-1/story-it/Story 1_5_Italiano.mp3"
         },
         "6": {
@@ -316,7 +316,7 @@
         },
         "8": {
           "text": "“Vuoi vedere il nostro parco giochi?” chiede Olivia. Bobba sorride e Ben lo prende per la mano. Insieme lo portano al parco giochi. ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp-dep",
           "audioUrl": "/learning-material/story-1/story-it/Story 1_8_Italiano.mp3"
         }
       }
@@ -334,17 +334,17 @@
         },
         "1": {
           "text": "De Bobba wunnt op engem Planéit ganz wäit ewech vun onser Äerd. Haut ass hie ganz opgereegt. Hie krut endlech säin eegent Raumschëff! Elo kann hie fléien, wuer hie wëllt!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp-dep",
           "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1_1-MP3.mp3"
         },
         "2": {
           "text": "Hie wëllt op d’Äerd fléien. Dat ass säi gréissten Dram.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp-dep",
           "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1_2-MP3.mp3"
         },
         "3": {
           "text": "Hie spréngt a säi Raumschëff a flitt fort. Seng Famill a seng Frënn si ganz iwwerrascht! “Wou flitt hien hin?”, froe si sech all. De Bobba flitzt a Richtung Äerd.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp-dep",
           "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1_3-MP3.mp3"
         },
         "4": {
@@ -354,7 +354,7 @@
         },
         "5": {
           "text": "Op eemol gesäit hien eng blo Bull. Éiert hie sech ëmsinn huet, schéisst hien duerch den Himmel. Bumsdeg, fält hien an e Koup Blieder an Äscht.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp-dep",
           "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1_5-MP3.mp3"
         },
         "6": {
@@ -369,7 +369,7 @@
         },
         "8": {
           "text": "„Wëlls du eis Spillplaz gesinn?“, freet d’Olivia. De Bobba laacht an de Ben hëlt hie mat der Hand. Zesummen trëppelen si op d’Spillplaz.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp-dep",
           "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1_8-MP3.mp3"
         }
       }
@@ -387,17 +387,17 @@
         },
         "1": {
           "text": "Ο Μπόμπα ζει σε ένα μακρινό πλανήτη. Σήμερα είναι πολύ ενθουσιασμένος. Έχει επιτέλους το δικό του διαστημόπλοιο και μπορεί τώρα να πετάξει όπου θέλει!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp-dep",
           "audioUrl": "/learning-material/story-1/story-gr/Story 1_1.m4a"
         },
         "2": {
           "text": "Το μεγαλύτερο όνειρό του είναι να πετάξει στον πλανήτη Γη.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp-dep",
           "audioUrl": "/learning-material/story-1/story-gr/Story 1_2.m4a"
         },
         "3": {
           "text": "Πηδάει μέσα στο διαστημόπλοιο και απογειώνεται. Όλοι οι φίλοι του και η οικογένεια του είναι έκπληκτοι! «Πού πάει;», αναρωτιούνται. Ο Μπόμπα κατευθύνεται κατευθείαν προς τον πλανήτη Γη.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp-dep",
           "audioUrl": "/learning-material/story-1/story-gr/Story 1_3.m4a"
         },
         "4": {
@@ -407,7 +407,7 @@
         },
         "5": {
           "text": "Ξαφνικά, βλέπει μια μπλε μπάλα και πριν να το καταλάβει, πυροβολεί μέσα στον ουρανό και με ένα δυνατό κρότο προσγειώνεται σε έναν σωρό από φύλλα και κλαδιά!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp-dep",
           "audioUrl": "/learning-material/story-1/story-gr/Story 1_5.m4a"
         },
         "6": {
@@ -422,7 +422,7 @@
         },
         "8": {
           "text": "«Θες να δεις το προαύλιό μας;» ρωτάει η Ολίβια. Ο Μπόμπα χαμογελάει και ο Μπεν, τον παίρνει από το χέρι και μαζί πηγαίνουν στο προαύλιο.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp-dep",
           "audioUrl": "/learning-material/story-1/story-gr/Story 1_8.m4a"
         }
       }
@@ -440,17 +440,17 @@
         },
         "1": {
           "text": "Bobba živi na planetu daleč stran. Danes je zelo vznemirjen. Končno je dobil svojo vesoljsko ladjo in zdaj lahko leti, kamor koli želi!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp-dep",
           "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_1.m4a"
         },
         "2": {
           "text": "Že dolgo sanja, da bi poletel na Zemljo",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp-dep",
           "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_2.m4a"
         },
         "3": {
           "text": "Skoči v svojo vesoljsko ladjo in vzleti. Njegovi prijatelji in družina so presenečeni! »Kam pa gre?« se sprašujejo. Bobba leti naravnost proti planetu Zemlja.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp-dep",
           "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_3.m4a"
         },
         "4": {
@@ -460,7 +460,7 @@
         },
         "5": {
           "text": "Nenadoma zagleda modro kroglo in še preden se zave, že leti skozi oblake in z glasnim pokom pristane v kupu listja in vej!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp-dep",
           "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_5.m4a"
         },
         "6": {
@@ -475,7 +475,7 @@
         },
         "8": {
           "text": "»Bi rad videl naše igrišče?« vpraša Olivia. Bobba se nasmehne. Ben ga prime za roko in skupaj se odpravijo na igrišče.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp-dep",
           "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_8.m4a"
         }
       }
@@ -493,17 +493,17 @@
         },
         "1": {
           "text": "Bobba jeton në një planet shumë larg. Sot ai është shumë i emocionuar. Më në fund ka anijen e tij kozmike dhe tani mund të fluturojë kudo që dëshiron!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp-dep",
           "audioUrl": "/learning-material/story-1/story-alb/Bobba_AL_Story 1_1.mp3"
         },
         "2": {
           "text": "Ëndrra e tij më e madhe është të fluturojë në planetin Tokë.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp-dep",
           "audioUrl": "/learning-material/story-1/story-alb/Bobba_AL_Story 1_2.mp3"
         },
         "3": {
           "text": "Ai hidhet në anijen kozmike dhe ngrihet në ajër. Të gjithë miqtë dhe familjarët e tij janë të habitur! \"Ku po shkon vallë?\", pyesin ata. Bobba është nisur drejt planetit Tokë.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp-dep",
           "audioUrl": "/learning-material/story-1/story-alb/Bobba_AL_Story 1_3.mp3"
         },
         "4": {
@@ -513,7 +513,7 @@
         },
         "5": {
           "text": "Papritmas, ai sheh një top blu dhe pa e kuptuar, fluturon nëpër qiell dhe me një zhurmë të madhe përplaset në një grumbull me gjethe dhe degë!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp-dep",
           "audioUrl": "/learning-material/story-1/story-alb/Bobba_AL_Story 1_5.mp3"
         },
         "6": {
@@ -528,7 +528,7 @@
         },
         "8": {
           "text": "\"A do ta shohësh këndin tonë të lojërave?\" pyet Olivia. Bobba buzëqesh dhe Beni e merr për dore dhe së bashku e çojnë në këndin e lojërave.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp-dep",
           "audioUrl": "/learning-material/story-1/story-alb/Bobba_AL_Story 1_8.mp3"
         }
       }
@@ -546,17 +546,17 @@
         },
         "1": {
           "text": "Bobba sta sun n planët bëndebò dalonc. Ncuei iel scialdi emoziunà. L à finalmënter si berca da julé tl univiers y śën possel julé ulache l uel!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp-dep",
           "audioUrl": "/learning-material/story-1/story-ladin/Bobba_LADIN_Story 1_1-MP3.mp3"
         },
         "2": {
           "text": "Si majer sëmi ie de julé sun l planët Tiera. ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp-dep",
           "audioUrl": "/learning-material/story-1/story-ladin/Bobba_LADIN_Story 1_2-MP3.mp3"
         },
         "3": {
           "text": "L sauta ite te si berca spaziela y pea l jol. Duc si cumpanies y si familia se fej marueia! “Ulà jiral pa mei?”, se mpënsi. Bobba va bel ndrët de viers dl planët Tiera.  ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp-dep",
           "audioUrl": "/learning-material/story-1/story-ladin/Bobba_LADIN_Story 1_3-MP3.mp3"
         },
         "4": {
@@ -566,7 +566,7 @@
         },
         "5": {
           "text": "Ora de nia vëijel na codla bruma y dan che l l sà, svëiel tres l ciel y cun n colp adaut dal sëura sun n mudl de pleces y rames! ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp-dep",
           "audioUrl": "/learning-material/story-1/story-ladin/Bobba_LADIN_Story 1_5-MP3.mp3"
         },
         "6": {
@@ -581,7 +581,7 @@
         },
         "8": {
           "text": "“Ues’a cialé ulache fajon damat?”, damanda Olivia, la muta. Bobba s’la rij y Ben, l mut, l tol pra la man y po‘ l mëini deberieda pra la plaza dai juesc.  ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp-dep",
           "audioUrl": "/learning-material/story-1/story-ladin/Bobba_LADIN_Story 1_8-MP3.mp3"
         }
       }
@@ -599,17 +599,17 @@
         },
         "1": {
           "text": "Bir zamanlar, çok uzak bir gezegende Bobba adında sevimli bir uzaylı yaşardı. Bobba, hem çok meraklı hem de çok cesur biriydi. Ama bugün, her zamankinden daha heyecanlıydı! Çünkü sonunda kendi uzay gemisine kavuşmuştu. Artık dilediği her yere uçabilirdi!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp-dep",
           "audioUrl": "/learning-material/story-1/story-tur/Story_1_1_Turkish.mp3"
         },
         "2": {
           "text": "Bobba’nın en büyük hayali neydi biliyor musunuz? Dünya adındaki o harika gezegeni görmek! Hakkında çok şey duymuştu: Mavi okyanusları, yeşil ormanları ve renkli canlıları vardı. ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp-dep",
           "audioUrl": "/learning-material/story-1/story-tur/Story_1_2_Turkish.mp3"
         },
         "3": {
           "text": "'Daha fazla bekleyemem!' dedi Bobba. Uzay gemisine atladığı gibi motorları çalıştırdı ve gökyüzüne yükseldi.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp-dep",
           "audioUrl": "/learning-material/story-1/story-tur/Story_1_3_Turkish.mp3"
         },
         "4": {
@@ -619,7 +619,7 @@
         },
         "5": {
           "text": "Ora de nia vëijel na codla bruma y dan che l l sà, svëiel tres l ciel y cun n colp adaut dal sëura sun n mudl de pleces y rames! ",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp-dep",
           "audioUrl": "/learning-material/story-1/story-tur/Story_1_5_Turkish.mp3"
         },
         "6": {
@@ -634,7 +634,7 @@
         },
         "8": {
           "text": "Olivia adındaki kız, \"Oyun alanımızı görmek ister misin?\" diye sordu. Bobba'nın yüzü mutlulukla parladı. \"Elbette isterim!\" dedi. Ben isimli oğlan, Bobba'nın elinden tuttu. Birlikte oyun alanına doğru yürüdüler.\n\nVe böylece Bobba, Dünya'da yeni arkadaşlar edinmenin ve bu güzel gezegeni keşfetmenin keyfini çıkardı. Bu, onun unutamayacağı bir maceranın başlangıcıydı!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp-dep",
           "audioUrl": "/learning-material/story-1/story-tur/Story_1_8_Turkish.mp3"
         }
       }
@@ -652,17 +652,17 @@
         },
         "1": {
           "text": "Bobba mieszka na odległej planecie. Dziś jest bardzo podekscytowany. W końcu ma swój własny statek kosmiczny i może latać, gdzie tylko chce!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp-dep",
           "audioUrl": "/learning-material/story-1/story-pl/Story 1_1_Polish.mp3"
         },
         "2": {
           "text": "Jego największym marzeniem jest polecieć na Ziemię.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp-dep",
           "audioUrl": "/learning-material/story-1/story-pl/Story 1_2_Polish.mp3"
         },
         "3": {
           "text": "Wskakuje do statku kosmicznego i odlatuje. Wszyscy jego przyjaciele i rodzina są zaskoczeni! „Dokąd on leci?”, zastanawiają się.  Bobba zmierza prosto w kierunku Ziemi.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp-dep",
           "audioUrl": "/learning-material/story-1/story-pl/Story 1_3_Polish.mp3"
         },
         "4": {
@@ -672,7 +672,7 @@
         },
         "5": {
           "text": "Nagle widzi niebieską kulę i zanim się zorientuje, wystrzeliwuje w niebo i z głośnym hukiem ląduje na stercie liści i patyków!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp-dep",
           "audioUrl": "/learning-material/story-1/story-pl/Story 1_5_Polish.mp3"
         },
         "6": {
@@ -687,7 +687,7 @@
         },
         "8": {
           "text": "„Chcesz zobaczyć nasz plac zabaw?” - pyta Olivia. Bobba uśmiecha się, a Ben bierze go za rękę i razem zabierają go na plac zabaw.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp-dep",
           "audioUrl": "/learning-material/story-1/story-pl/Story 1_8_Polish.mp3"
         }
       }
@@ -705,17 +705,17 @@
         },
         "1": {
           "text": "Бобба живе на далекій планеті. Сьогодні він дуже схвильований. У нього нарешті з'явився власний космічний корабель, і тепер він може полетіти туди, куди захоче!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp-dep",
           "audioUrl": "/learning-material/story-1/story-ukr/Story 1_1.MP3"
         },
         "2": {
           "text": "Його найбільша мрія - полетіти на планету Земля.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp-dep",
           "audioUrl": "/learning-material/story-1/story-ukr/Story 1_2.MP3"
         },
         "3": {
           "text": "Він застрибує в космічний корабель і злітає. Всі його друзі та родина здивовані! «Куди він летить?», - запитують вони. Бобба прямує прямо до планети Земля.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp-dep",
           "audioUrl": "/learning-material/story-1/story-ukr/Story 1_3.m4a"
         },
         "4": {
@@ -725,7 +725,7 @@
         },
         "5": {
           "text": "Раптом він бачить блакитну кульку і, не встигнувши озирнутися, прострілює небо і з гучним тріском падає на купу листя і паличок!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp-dep",
           "audioUrl": "/learning-material/story-1/story-ukr/Story 1_5.MP3"
         },
         "6": {
@@ -740,7 +740,7 @@
         },
         "8": {
           "text": "«Хочеш побачити наш ігровий майданчик?» - запитує дівчинка Олівія. Бобба посміхається, а Бен, хлопчик, бере його за руку, і вони разом ведуть його на дитячий майданчик.",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp",
+          "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp-dep",
           "audioUrl": "/learning-material/story-1/story-ukr/Story 1_8.MP3"
         }
       }
@@ -2242,7 +2242,7 @@
             }
           }
         }],
-    "de": [{
+    "sw-ger": [{
           "title": "Bobba übernachtet bei Olivia",
           "titlePicture": "/learning-material/story-4/story-de/Story 4_2 title_GE.jpg",
           "fullAudio": "/learning-material/story-4/story-de short/Bobba_DE_Story 4 gesamt.mp3",
@@ -2296,7 +2296,7 @@
           }
         }],
     
-    "sw-ger": [{
+    "de": [{
       "title": "Bobba übernachtet bei Olivia",
       "titlePicture": "/learning-material/story-4/story-de/Story 4_2 title_GE.jpg",
       "fullAudio": "/learning-material/story-4/story-de/Story 4_G Long_complete.m4a",
