@@ -170,7 +170,7 @@ export const ACTIVITY_GROUPS: Record<
 						en: {
 							label: "English",
 							audioUrl: "/audio/test-en.opus",
-							pdfUrl: "/activities/story1/PC/Story_1_PL_1_E.pdf",
+							pdfUrl: "/activities/story1/PC/Story_1_PL_2_E.pdf",
 							title: "Understanding details",
 						},
 						fr: {
@@ -259,7 +259,7 @@ export const ACTIVITY_GROUPS: Record<
 						en: {
 							label: "English",
 							audioUrl: "/audio/test-en.opus",
-							pdfUrl: "/activities/story2/PC/Story_2_PL_1_E.pdf",
+							pdfUrl: "/activities/story2/PC/Story_2_PL_2_E.pdf",
 							title: "Plurilingual theater",
 						},
 						fr: {
@@ -504,7 +504,7 @@ export const ACTIVITY_GROUPS: Record<
 						en: {
 							label: "English",
 							audioUrl: "/audio/test-en.opus",
-							pdfUrl: "/activities/story4/PC/Story_4_PL_1_E.pdf",
+							pdfUrl: "/activities/story4/PC/Story_4_PL_2_E.pdf",
 							title: "Bon appetit",
 						},
 						fr: {
@@ -894,12 +894,6 @@ export const ACTIVITY_GROUPS: Record<
 								label: "Ladisch",
 								title: "",
 								pdfUrl: "",
-							},
-							svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
 							}
 						},
 					},
@@ -930,13 +924,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        },
-						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
+                        }
 						},
 					},
 					{
@@ -963,13 +951,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						},
-						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
+						}
 						},
 					}
 					]
@@ -1013,15 +995,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        },
-						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
-
-
+                        }
 					}, 
 				},//ich glaube hier fehlt eine Klammer zu }, bin mir aber nicht sicher (Mara)
 					{
@@ -1051,15 +1025,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        },
-						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
-
-
+                        }
 						},
 					},
 					{
@@ -1087,15 +1053,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        },
-						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
-
-
+                        }
 						},
 					}
 					]
@@ -1131,15 +1089,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        },
-						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
-
-
+                        }
 					}, 
 				},//ich glaube hier fehlt eine Klammer zu }, bin mir aber nicht sicher (Mara)
 					{
@@ -1161,12 +1111,6 @@ export const ACTIVITY_GROUPS: Record<
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						},
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
 						}
 						},
 					},
@@ -1188,12 +1132,6 @@ export const ACTIVITY_GROUPS: Record<
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						},
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
 						}
 						},
 					}
@@ -1224,13 +1162,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        },
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
-						}
+                        }
 					}, 
 				},//ich glaube hier fehlt eine Klammer zu }, bin mir aber nicht sicher (Mara)
 					{
@@ -1248,13 +1180,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        },
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
-						}
+                        }
 						},
 					},
 					{
@@ -1270,18 +1196,11 @@ export const ACTIVITY_GROUPS: Record<
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						},
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
 						}
 						},
 					}
 					]
-					// Second set with different activities
-					
+				
 				],
 				},
 			{
@@ -1312,15 +1231,9 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-						},
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
 						}
 					}, 
-				 }, //ich glaube hier fehlt eine Klammer zu, bin mir aber nicht sicher (Mara)
+				 }, 
 					{
 						id: "activity-4-2",
 						description: "Match planet names in different languages",
@@ -1342,14 +1255,9 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        },
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
+                        
 						}
-						},
+					}
 					},
 					{
 						id: "activity-4-3",
@@ -1371,13 +1279,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        },
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
-						}
+                        }
 						},
 					}
 					]
@@ -1413,12 +1315,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        },
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
+                        
 					}
 					}, 
 				 }, //ich glaube hier fehlt eine Klammer zu, bin mir aber nicht sicher (Mara)
@@ -1443,13 +1340,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        },
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
-						}
+                        }
 						},
 					},
 					{
@@ -1472,13 +1363,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        },
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
-					}
+                        }
 					},
 					}
 					]
@@ -1514,13 +1399,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        },
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
-						},
+                        }
 					}, 
 				 }, //ich glaube hier fehlt eine Klammer zu, bin mir aber nicht sicher (Mara)
 					{
@@ -1544,13 +1423,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                         },
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
-						},	
+                         }
 						},
 					},
 					{
@@ -1571,13 +1444,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						},
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
-						},
+						}
 						},
 					}
 					]
@@ -1613,13 +1480,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        }, 
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
-						}
+                        }
 					}, 
 				 }, //ich glaube hier fehlt eine Klammer zu, bin mir aber nicht sicher (Mara)
 					{
@@ -1643,13 +1504,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        },
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
-						}
+                        }
 						},
 					},
 					{
@@ -1670,12 +1525,6 @@ export const ACTIVITY_GROUPS: Record<
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}, 
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
 						}
 						},
 					}
@@ -1718,12 +1567,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        }, 
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
+                        
 						}
 					}, 
 				 }, //ich glaube hier fehlt eine Klammer zu, bin mir aber nicht sicher (Mara)
@@ -1754,13 +1598,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        },
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
-						}
+                        }
 						},
 					},
 					{
@@ -1786,12 +1624,6 @@ export const ACTIVITY_GROUPS: Record<
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						}, 
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
 						}
 						},
 					}
