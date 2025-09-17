@@ -17,7 +17,7 @@ const translations: Record<string, Record<string, string>> = {
     'Lux': 'Storytime',
     'Slovenian': 'Zgodbe / Storytime',
     'Italian': 'Ora delle Storie',
-    'German': 'Geschichte',
+    'German': 'Geschichten',
     'Greek': 'Η ιστορία μας'
   },
   'activities': {
@@ -275,7 +275,7 @@ const translations: Record<string, Record<string, string>> = {
   },
   'language-awareness': {
     'English': 'Language Awareness',
-    'French': 'Éveil aux Sciences',
+    'French': 'Éveil aux Langues',
     'Lux': 'Sproochbewosstsinn',
     'Slovenian': 'Jezikovno zavedanje',
     'Italian': 'Consapevolezza Linguistica',
@@ -1101,6 +1101,7 @@ const translations: Record<string, Record<string, string>> = {
   'German': 'Schriftspracherwerb',
   'Greek': 'Πρώιμη Εκπαίδευση Γραμματισμού'
 },
+
 'stimulating-multilingual-learning': {
   'English': 'Stimulating Multilingual Learning in Early Childhood Education',
   'French': 'Stimuler l\'apprentissage multilingue dans l\'éducation de la petite enfance',
@@ -1216,6 +1217,25 @@ const translations: Record<string, Record<string, string>> = {
   'Italian': 'Costruendo sull\'expertise dei suoi partner e sfruttando le realtà multilingui dell\'Europa, AGENTIVE mira a stabilire un benchmark per l\'educazione multilingue della prima infanzia. I risultati del progetto contribuiranno ad ambienti di apprendimento più inclusivi e innovativi in tutta Europa. Per maggiori informazioni sulle risorse AGENTIVE e gli eventi futuri, esplorate la nostra piattaforma. Insieme, possiamo ispirare la prossima generazione ad abbracciare il potere del multilinguismo!',
   'German': 'Durch den Aufbau auf die Expertise seiner Partner und die Nutzung der mehrsprachigen Realitäten Europas zielt AGENTIVE darauf ab, einen Maßstab für die frühkindliche mehrsprachige Bildung zu setzen. Die Ergebnisse des Projekts werden zu inklusiveren und innovativeren Lernumgebungen in ganz Europa beitragen. Für weitere Informationen über die AGENTIVE-Ressourcen und kommende Veranstaltungen erkunden Sie bitte unsere Plattform. Gemeinsam können wir die nächste Generation dazu inspirieren, die Kraft der Mehrsprachigkeit zu umarmen!',
   'Greek': 'Χτίζοντας πάνω στην εμπειρογνωμοσύνη των εταίρων του και αξιοποιώντας τις πολυγλωσσικές πραγματικότητες της Ευρώπης, το AGENTIVE στοχεύει να θέσει ένα σημείο αναφοράς για την προσχολική πολυγλωσσική εκπαίδευση. Τα αποτελέσματα του έργου θα συμβάλουν σε πιο περιεκτικά και καινοτόμα μαθησιακά περιβάλλοντα σε όλη την Ευρώπη. Για περισσότερες πληροφορίες σχετικά με τους πόρους AGENTIVE και τις επερχόμενες εκδηλώσεις, παρακαλούμε εξερευνήστε την πλατφόρμα μας. Μαζί, μπορούμε να εμπνεύσουμε την επόμενη γενιά να αγκαλιάσει τη δύναμη της πολυγλωσσίας!'
+
+'resources': {
+    'English': 'Resources',
+    'French': 'Ressources',
+    'Lux': 'Ressourcen',
+    'Slovenian': 'Viri',
+    'Italian': 'Risorse',
+    'German': 'Ressourcen',
+    'Greek': 'Πόροι'
+},
+'story-resources': {
+    'English': 'Story Resources',
+    'French': 'Ressources de l\'histoire',
+    'Lux': 'Geschicht Ressourcen',
+    'Slovenian': 'Viri zgodbe',
+    'Italian': 'Risorse della storia',
+    'German': 'Geschichte Ressourcen',
+    'Greek': 'Πόροι ιστορίας'
+
 }
 };
 
