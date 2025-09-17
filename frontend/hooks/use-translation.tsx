@@ -1217,7 +1217,7 @@ const translations: Record<string, Record<string, string>> = {
   'Italian': 'Costruendo sull\'expertise dei suoi partner e sfruttando le realtà multilingui dell\'Europa, AGENTIVE mira a stabilire un benchmark per l\'educazione multilingue della prima infanzia. I risultati del progetto contribuiranno ad ambienti di apprendimento più inclusivi e innovativi in tutta Europa. Per maggiori informazioni sulle risorse AGENTIVE e gli eventi futuri, esplorate la nostra piattaforma. Insieme, possiamo ispirare la prossima generazione ad abbracciare il potere del multilinguismo!',
   'German': 'Durch den Aufbau auf die Expertise seiner Partner und die Nutzung der mehrsprachigen Realitäten Europas zielt AGENTIVE darauf ab, einen Maßstab für die frühkindliche mehrsprachige Bildung zu setzen. Die Ergebnisse des Projekts werden zu inklusiveren und innovativeren Lernumgebungen in ganz Europa beitragen. Für weitere Informationen über die AGENTIVE-Ressourcen und kommende Veranstaltungen erkunden Sie bitte unsere Plattform. Gemeinsam können wir die nächste Generation dazu inspirieren, die Kraft der Mehrsprachigkeit zu umarmen!',
   'Greek': 'Χτίζοντας πάνω στην εμπειρογνωμοσύνη των εταίρων του και αξιοποιώντας τις πολυγλωσσικές πραγματικότητες της Ευρώπης, το AGENTIVE στοχεύει να θέσει ένα σημείο αναφοράς για την προσχολική πολυγλωσσική εκπαίδευση. Τα αποτελέσματα του έργου θα συμβάλουν σε πιο περιεκτικά και καινοτόμα μαθησιακά περιβάλλοντα σε όλη την Ευρώπη. Για περισσότερες πληροφορίες σχετικά με τους πόρους AGENTIVE και τις επερχόμενες εκδηλώσεις, παρακαλούμε εξερευνήστε την πλατφόρμα μας. Μαζί, μπορούμε να εμπνεύσουμε την επόμενη γενιά να αγκαλιάσει τη δύναμη της πολυγλωσσίας!'
-
+},
 'resources': {
     'English': 'Resources',
     'French': 'Ressources',
