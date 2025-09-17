@@ -1100,6 +1100,24 @@ const translations: Record<string, Record<string, string>> = {
   'Italian': 'Educazione alla Prima Alfabetizzazione',
   'German': 'Schriftspracherwerb',
   'Greek': 'Πρώιμη Εκπαίδευση Γραμματισμού'
+},
+'resources': {
+    'English': 'Resources',
+    'French': 'Ressources',
+    'Lux': 'Ressourcen',
+    'Slovenian': 'Viri',
+    'Italian': 'Risorse',
+    'German': 'Ressourcen',
+    'Greek': 'Πόροι'
+},
+'story-resources': {
+    'English': 'Story Resources',
+    'French': 'Ressources de l\'histoire',
+    'Lux': 'Geschicht Ressourcen',
+    'Slovenian': 'Viri zgodbe',
+    'Italian': 'Risorse della storia',
+    'German': 'Geschichte Ressourcen',
+    'Greek': 'Πόροι ιστορίας'
 }
 };
 

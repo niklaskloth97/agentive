@@ -251,6 +251,21 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                 document.body.removeChild(link);
             }
         });
+
+        // Handle ICAU resources if selected
+        if (groupKey === 'ICAU') {
+            stories.forEach((story) => {
+                if (selectedActivities.has(`resource-${story.id}`)) {
+                    const resourceUrl = `/activities/story${story.id}/ICAU/Story ${story.id}_ICAU_Res.pdf`;
+                    const link = document.createElement('a');
+                    link.href = resourceUrl;
+                    link.download = `Story_${story.id}_ICAU_Resources.pdf`;
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                }
+            });
+        }
     };
 
     return (
@@ -332,6 +347,14 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                                     <th className="p-4 text-left font-semibold border-r">
                                         <TranslateButtons translationKey="story-title" currentLanguage={websiteLanguage} />
                                     </th>
+                                    
+                                    {/* Add Resources column only for ICAU */}
+                                    {groupKey === 'ICAU' && (
+                                        <th className="p-4 text-center font-semibold border-r">
+                                            <TranslateButtons translationKey="resources" currentLanguage={websiteLanguage} />
+                                        </th>
+                                    )}
+                                    
                                     {Array.from({
                                         length: Math.max(
                                             ...stories.flatMap((story) =>
@@ -363,6 +386,42 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                                                         rowSpan={story.sets.length}
                                                     >
                                                         {getStoryTitle(story.id)}
+                                                    </td>
+                                                )}
+
+                                                {/* Add Resources cell only for ICAU */}
+                                                {groupKey === 'ICAU' && setIndex === 0 && (
+                                                    <td
+                                                        className="p-4 border-r align-top"
+                                                        rowSpan={story.sets.length}
+                                                    >
+                                                        <div className="p-2 bg-gray-50 rounded border">
+                                                            <div className="flex items-center gap-2">
+                                                                <Checkbox
+                                                                    id={`resource-${story.id}`}
+                                                                    checked={selectedActivities.has(`resource-${story.id}`)}
+                                                                    onCheckedChange={(checked) => {
+                                                                        const newSelected = new Set(selectedActivities);
+                                                                        if (checked) {
+                                                                            newSelected.add(`resource-${story.id}`);
+                                                                        } else {
+                                                                            newSelected.delete(`resource-${story.id}`);
+                                                                        }
+                                                                        setSelectedActivities(newSelected);
+                                                                    }}
+                                                                    className="flex-shrink-0"
+                                                                />
+                                                                <div className="min-w-0 flex-1">
+                                                                    <a
+                                                                        href={`/activities/story${story.id}/ICAU/Story ${story.id}_ICAU_Res.pdf`}
+                                                                        rel="noopener noreferrer"
+                                                                        className="font-medium text-sm text-blue-600 hover:text-blue-800 hover:underline truncate"
+                                                                    >
+                                                                        <TranslateButtons translationKey="story-resources" currentLanguage={websiteLanguage} />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </td>
                                                 )}
 
@@ -439,7 +498,7 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                                                         s.sets.map((set) => set.length)
                                                     ),
                                                     0
-                                                ) + 1
+                                                ) + 1 + (groupKey === 'ICAU' ? 1 : 0) // Add 1 for Resources column if ICAU -> for ressources
                                             }
                                             className="p-8 text-center text-gray-500"
                                         >
