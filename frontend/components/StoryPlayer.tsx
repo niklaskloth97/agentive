@@ -162,7 +162,7 @@ function StoryGuideSelector({ storyId, websiteLanguage }: { storyId: string; web
       languageLabels[lang] = lang === 'en' ? 'EN' : 
                             lang === 'de' ? 'DE' : 
                             lang === 'fr' ? 'FR' : 
-                            lang === 'sv' ? 'SV' : 
+                            lang === 'svn' ? 'SVN' : 
                             lang.toUpperCase();
     }
   });

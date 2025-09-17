@@ -2148,12 +2148,12 @@ export const ACTIVITY_GROUPS: Record<
 							label: "English",
 							title: "Same name, different letters",
 							audioUrl: "/audio/test-en.opus", // Use your test audio
-							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_E/Story_5_ICAU_1_E.pdf",
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_1_E.pdf",
 						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_F/Story 5_ICAU_1_F.pdf",
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_1_F.pdf",
 							title: "Un même prénom, différentes lettres",
 						},
 						de: {
@@ -2165,7 +2165,7 @@ export const ACTIVITY_GROUPS: Record<
 						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_S/Story_5_ICAU_1_S.pdf",
+							pdfUrl: "/activities/story5/ICAU/Story_5_ICAU_1_S.pdf",
 							title: "STO IME, DRUGE ČRKE",
 						}, 
 						ld: {
@@ -2184,12 +2184,12 @@ export const ACTIVITY_GROUPS: Record<
 							label: "English",
 							title: "How does your book talk?",
 							audioUrl: "/audio/test-en.opus", // Use your test audio
-							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_E/Story_5_ICAU_2_E.pdf",
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_2_E.pdf",
 						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_F/Story 5_ICAU_2_F.pdf",
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_2_F.pdf",
 							title: "Comment parle ton livre?",
 						},
 						de: {
@@ -2201,7 +2201,7 @@ export const ACTIVITY_GROUPS: Record<
 						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_S/Story_5_ICAU_2_S.pdf",
+							pdfUrl: "/activities/story5/ICAU/Story_5_ICAU_2_S.pdf",
 							title: "KAKO GOVORI TVOJA KNJIGA?",
 						}, 
 						ld: {
@@ -2221,12 +2221,12 @@ export const ACTIVITY_GROUPS: Record<
 							label: "English",
 							title: "Homes in books, books in homes",
 							audioUrl: "/audio/test-en.opus", // Use your test audio
-							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_E/Story_5_ICAU_3_E.pdf",
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_3_E.pdf",
 						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_F/Story 5_ICAU_3_F.pdf",
+							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_3_F.pdf",
 							title: "Les maisons dans les livres, les livres à la maison",
 						},
 						de: {
@@ -2238,7 +2238,7 @@ export const ACTIVITY_GROUPS: Record<
 						svn: {
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story5/ICAU/Story 5_ICAU_S/Story_5_ICAU_3_S.pdf",
+							pdfUrl: "/activities/story5/ICAU/Story_5_ICAU_3_S.pdf",
 							title: "DOMOVI V KNJIGAH, KNJIGE V DOMOVIH",
 						}, 
 						ld: {

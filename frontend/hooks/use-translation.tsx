@@ -1236,6 +1236,43 @@ const translations: Record<string, Record<string, string>> = {
     'German': 'Geschichte Ressourcen',
     'Greek': 'Πόροι ιστορίας'
 
+},
+'digital-resources-multilingual': {
+  'English': 'Digital resources for multilingual literacy',
+  'French': 'Ressources numériques pour l\'alphabétisation multilingue',
+  'Lux': 'Digital Ressourcen fir multilingual Literalitéit',
+  'Italian': 'Risorse digitali per l\'alfabetizzazione multilingue',
+  'German': 'Digitale Ressourcen für mehrsprachige Alphabetisierung',
+  'Greek': 'Ψηφιακοί πόροι για πολυγλωσσικό γραμματισμό'
+},
+
+'digital-resources-description': {
+  'English': 'The project provides open access digital materials that promote multilingual storytelling, language learning and literacy skills, addressing a key gap in early childhood education.',
+  'French': 'Le projet fournit des matériaux numériques en libre accès qui promeuvent la narration multilingue, l\'apprentissage des langues et les compétences en alphabétisation, comblant une lacune clé dans l\'éducation de la petite enfance.',
+  'Lux': 'De Projet bitt oppen Accès digital Materialen déi multilingual Geschichten erzählen, Sproochenléieren an Literalitéitsfäegkeeten förderen, eng Schlëssellück an der Fréikendheetspädagogik ëmgoen.',
+  'Italian': 'Il progetto fornisce materiali digitali ad accesso aperto che promuovono la narrazione multilingue, l\'apprendimento linguistico e le competenze di alfabetizzazione, affrontando una lacuna chiave nell\'educazione della prima infanzia.',
+  'German': 'Das Projekt bietet frei zugängliche digitale Materialien, die mehrsprachiges Geschichtenerzählen, Sprachenlernen und Alphabetisierungsfähigkeiten fördern und eine wichtige Lücke in der frühkindlichen Bildung schließen.',
+  'Greek': 'Το έργο παρέχει ψηφιακά υλικά ανοιχτής πρόσβασης που προωθούν την πολυγλωσσική αφήγηση, τη γλωσσική μάθηση και τις δεξιότητες γραμματισμού, αντιμετωπίζοντας ένα βασικό κενό στην προσχολική εκπαίδευση.'
+},
+
+'equipping-educators-description': {
+  'English': 'By equipping pre-service and in-service teachers with science-based tools and evidence-informed digital competences, AGENTIVE empowers professionals to support multilingual teaching effectively.',
+  'French': 'En équipant les enseignants en formation et en service avec des outils basés sur la science et des compétences numériques éclairées par les preuves, AGENTIVE permet aux professionnels de soutenir efficacement l\'enseignement multilingue.',
+  'Lux': 'Andeems prä-Service an am Service Enseignanten mat wëssenschafts-baséierten Tools an evidenz-informéierten digitalen Kompetenzen equipéiert ginn, erméiglecht AGENTIVE Professionnellen multilinguale Léieren effektiv ze ënnerstëtzen.',
+  'Italian': 'Equipaggiando insegnanti pre-servizio e in servizio con strumenti basati sulla scienza e competenze digitali informate dalle evidenze, AGENTIVE potenzia i professionisti per supportare efficacemente l\'insegnamento multilingue.',
+  'German': 'Durch die Ausstattung von angehenden und praktizierenden Lehrern mit wissenschaftsbasierten Werkzeugen und evidenzbasierten digitalen Kompetenzen befähigt AGENTIVE Fachkräfte, mehrsprachigen Unterricht effektiv zu unterstützen.',
+  'Greek': 'Εξοπλίζοντας εκπαιδευτικούς προ-υπηρεσίας και εν υπηρεσία με εργαλεία βασισμένα στην επιστήμη και ψηφιακές ικανότητες ενημερωμένες από αποδείξεις, το AGENTIVE δυναμώνει επαγγελματίες να υποστηρίζουν αποτελεσματικά την πολυγλωσσική διδασκαλία.'
+},
+
+
+
+'cross-sector-collaboration-description': {
+  'English': 'The synergy between academia and business enhances the development of child-driven educational content and fosters sustainable partnerships.',
+  'French': 'La synergie entre le monde académique et les entreprises améliore le développement de contenu éducatif axé sur l\'enfant et favorise des partenariats durables.',
+  'Lux': 'D\'Synergie tëschent Akademie a Business verbessert d\'Entwécklung vum kannergedriwwenem pädagogeschen Inhalt a fördert nohalteg Partnerschaften.',
+  'Italian': 'La sinergia tra accademia e business migliora lo sviluppo di contenuti educativi guidati dai bambini e favorisce partnership sostenibili.',
+  'German': 'Die Synergie zwischen Wissenschaft und Wirtschaft verbessert die Entwicklung kindzentrierter Bildungsinhalte und fördert nachhaltige Partnerschaften.',
+  'Greek': 'Η συνέργεια μεταξύ ακαδημίας και επιχειρήσεων ενισχύει την ανάπτυξη εκπαιδευτικού περιεχομένου κεντρισμένου στο παιδί και προωθεί βιώσιμες εταιρικές σχέσεις.'
 }
 };
 
