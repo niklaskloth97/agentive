@@ -42,7 +42,7 @@ export default function LanguageSelector() {
           )}
         >
           <span className="text-lg" aria-hidden="true">
-            {languageFlags[langCode] || "🌐"}
+            {languageFlags[langCode] || "🇸🇮"}
           </span>
           <span className="text-xs md:text-sm">{value.label}</span>
         </Button>
