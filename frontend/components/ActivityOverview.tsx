@@ -523,7 +523,7 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
                 en: { label: "EN" },
                 fr: { label: "FR" },
                 de: { label: "DE" },
-                it: { label: "IT" },
+                // it: { label: "IT" },
                 svn: { label: "SV" },
             }}
         >
