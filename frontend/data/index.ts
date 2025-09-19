@@ -275,11 +275,11 @@ export const ACTIVITY_GROUPS: Record<
 							title: "",
 						},
 						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
+							label: "Slovenian",
+							audioUrl: "", // Use your test audio
+							pdfUrl: "",
+							title: "",
+						}
 						}
 						},
 					{
@@ -303,11 +303,11 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "",
 						},
 						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
+							label: "Slovenian",
+							audioUrl: "", // Use your test audio
+							pdfUrl: "",
+							title: "",
+						}
 						},
 					}
 					]
@@ -381,13 +381,11 @@ export const ACTIVITY_GROUPS: Record<
                             title: "",
                         },
 						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
-
-
+							label: "Slovenian",
+							audioUrl: "", // Use your test audio
+							pdfUrl: "",
+							title: "",
+						}
 					},
 				},
 					{
@@ -416,11 +414,11 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "",
 						},
 						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
+							label: "Slovenian",
+							audioUrl: "", // Use your test audio
+							pdfUrl: "",
+							title: "",
+						}
 						},
 					},
 					{
@@ -449,11 +447,11 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "",
 						},
 						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
+							label: "Slovenian",
+							audioUrl: "", // Use your test audio
+							pdfUrl: "",
+							title: "",
+						}
 						},
 					}
 					]
@@ -526,13 +524,11 @@ export const ACTIVITY_GROUPS: Record<
                             title: "",
                         },
 						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
-
-
+							label: "Slovenian",
+							audioUrl: "", // Use your test audio
+							pdfUrl: "",
+							title: "",
+						}
 						},
 					},
 					{
@@ -561,11 +557,11 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "",
 						},
 						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
+							label: "Slovenian",
+							audioUrl: "", // Use your test audio
+							pdfUrl: "",
+							title: "",
+						}
 					},
 					}
 					]
@@ -579,35 +575,45 @@ export const ACTIVITY_GROUPS: Record<
 				sets: [
 					[
 					{
-						id: "activity-5-1",
-						languages: {
-							de: {
-								label: "German",
-								title: "Bibliotheken in verschiedenen Sprachen",
-								pdfUrl: "/activities/story5/PC/Story 5_PL_G/Story5_PL_1_G.pdf",
-							},
-							fr: {
-								label: "French",
-								title: "Tour du monde des bibliothèques",
-								pdfUrl: "/activities/story5/PC/Story 5_PL_F/Story5_PL_1_F.pdf",
-							}, 
-							ld: {
-								label: "Ladisch",
-								title: "",
-								pdfUrl: "",
-							},
-							svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
+					id: "activity-5-1",
+					languages: {
+						en: {
+							label: "English",
+							pdfUrl: "/activities/story5/PC/Story 5_PL_E/Story_5_PL_1_E.pdf",
+							title: "Libraries in different countries",
+						},
+						de: {
+							label: "German",
+							title: "Bibliotheken in verschiedenen Sprachen",
+							pdfUrl: "/activities/story5/PC/Story 5_PL_G/Story5_PL_1_G.pdf",
+						},
+						fr: {
+							label: "French",
+							title: "Tour du monde des bibliothèques",
+							pdfUrl: "/activities/story5/PC/Story 5_PL_F/Story5_PL_1_F.pdf",
+						}, 
+						ld: {
+							label: "Ladisch",
+							title: "",
+							pdfUrl: "",
+						},
+						svn: {
+							label: "Slovenian",
+							audioUrl: "", // Use your test audio
+							pdfUrl: "",
+							title: "",
+						}
 						},
 					},
 					{
 						id: "activity-5-2",
 						description: "",
 						languages: {
+						en: {
+							label: "English",
+							pdfUrl: "/activities/story5/PC/Story 5_PL_E/Story_5_PL_2_E.pdf",
+							title: "Telephone game",
+						},
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus",
@@ -638,6 +644,11 @@ export const ACTIVITY_GROUPS: Record<
 						type: "worksheet",
 						description: "",
 						languages: {
+						en: {
+							label: "English",
+							pdfUrl: "/activities/story5/PC/Story 5_PL_E/Story_5_PL_3_E.pdf",
+							title: "Guessing game",
+						},
 						de: {
 							label: "German",
 							pdfUrl: "/activities/story5/PC/Story 5_PL_G/Story5_PL_3_G.pdf",
@@ -707,10 +718,10 @@ export const ACTIVITY_GROUPS: Record<
 							title: "Dialogues plurilingues de monstres",
 						}, 
 						de: {
-								label: "German",
-								title: "Mehrsprachige Monstergespräche",
-								pdfUrl: "/activities/story6/PC/Story6_PL_2_G.pdf",
-							},
+							label: "German",
+							title: "Mehrsprachige Monstergespräche",
+							pdfUrl: "/activities/story6/PC/Story6_PL_2_G.pdf",
+						},
                         ld: {
                             label: "Ladisch",
                             audioUrl: "",
@@ -718,13 +729,11 @@ export const ACTIVITY_GROUPS: Record<
                             title: "",
                         },
 						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
-
-
+							label: "Slovenian",
+							audioUrl: "", // Use your test audio
+							pdfUrl: "",
+							title: "",
+						}
 						},
 					},
 					{
@@ -738,21 +747,21 @@ export const ACTIVITY_GROUPS: Record<
 							title: "Le jour de la fête plurilingue des monstres",
 						}, 
 						de: {
-								label: "German",
-								title: "Mach mit bei der mehrsprachigen Monsterparty!",
-								pdfUrl: "/activities/story6/PC/Story6_PL_3_G.pdf",
-							},
+							label: "German",
+							title: "Mach mit bei der mehrsprachigen Monsterparty!",
+							pdfUrl: "/activities/story6/PC/Story6_PL_3_G.pdf",
+						},
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
 						},
 						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
+							label: "Slovenian",
+							audioUrl: "", // Use your test audio
+							pdfUrl: "",
+							title: "",
+						}
 						},
 					}
 					]
@@ -823,11 +832,11 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "",
 						},
 						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
+							label: "Slovenian",
+							audioUrl: "", // Use your test audio
+							pdfUrl: "",
+							title: "",
+						}
 						},
 					},
 					{
@@ -846,21 +855,21 @@ export const ACTIVITY_GROUPS: Record<
 							title: "L’intrus",
 						},
 						de: {
-								label: "German",
-								title: "Der Fremdling",
-								pdfUrl: "/activities/story7/PC/Story7_PL_3_G.pdf",
-							},
+							label: "German",
+							title: "Der Fremdling",
+							pdfUrl: "/activities/story7/PC/Story7_PL_3_G.pdf",
+						},
 						ld: {
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
 						},
 						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
+							label: "Slovenian",
+							audioUrl: "", // Use your test audio
+							pdfUrl: "",
+							title: "",
+						}
 						},
 					}
 					]
@@ -902,29 +911,29 @@ export const ACTIVITY_GROUPS: Record<
 						description: "",
 						languages: {
 							en: {
-							label: "English",
-							audioUrl: "/audio/test-en.opus",
-							pdfUrl: "/activities/story8/PC/Story_8_PL_2_E.pdf",
-							title: "Picture album",
+								label: "English",
+								audioUrl: "/audio/test-en.opus",
+								pdfUrl: "/activities/story8/PC/Story_8_PL_2_E.pdf",
+								title: "Picture album",
 							},
 							de: {
-							label: "German",
-							audioUrl: "/audio/test-de.opus",
-							title: "Bilderalbum",
-							pdfUrl: "/activities/story8/PC/Story8_PL_2_G.pdf",
+								label: "German",
+								audioUrl: "/audio/test-de.opus",
+								title: "Bilderalbum",
+								pdfUrl: "/activities/story8/PC/Story8_PL_2_G.pdf",
 							},
-						fr: {
-							label: "French",
-							audioUrl: "/audio/test-fr.opus",
-							pdfUrl: "/activities/story8/PC/Story 8_PL_2_F.pdf",
-							title: "L’album de Bobba",
-						}, 
-						ld: {
-                            label: "Ladisch",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        }
+							fr: {
+								label: "French",
+								audioUrl: "/audio/test-fr.opus",
+								pdfUrl: "/activities/story8/PC/Story 8_PL_2_F.pdf",
+								title: "L’album de Bobba",
+							}, 
+							ld: {
+                            	label: "Ladisch",
+                            	audioUrl: "",
+                            	pdfUrl: "",
+                            	title: "",
+                       		}
 						},
 					},
 					{
