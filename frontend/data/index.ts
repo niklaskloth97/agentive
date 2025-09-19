@@ -1096,13 +1096,11 @@ export const ACTIVITY_GROUPS: Record<
                             title: "",
                         },
 						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
-
-
+							label: "Slovenian",
+							audioUrl: "", // Use your test audio
+							pdfUrl: "",
+							title: "",
+						}
 					}, 
 				},//ich glaube hier fehlt eine Klammer zu }, bin mir aber nicht sicher (Mara)
 					{
@@ -1768,7 +1766,7 @@ export const ACTIVITY_GROUPS: Record<
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_1_S.pdf",
 							title: "POZDRAVI",
-						}, 
+						},
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -1813,17 +1811,17 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_2_S.pdf",
 							title: "POMENI IMEN",
 						}, 
-						de: {
-							label: "German",
-							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_2_G.pdf",
-							title: "BEDEUTUNGEN VON VORNAMEN",
-						}, 
 						gr: {
 							label: "Greek",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_2_GR.pdf",
 							title: "Η ΣΗΜΑΣΙΑ ΤΩΝ ΟΝΟΜΑΤΩΝ",
+						},
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_2_G.pdf",
+							title: "BEDEUTUNGEN VON VORNAMEN",
 						}, 
 						ld: {
                             label: "Ladisch",
@@ -1917,8 +1915,6 @@ export const ACTIVITY_GROUPS: Record<
                             pdfUrl: "",
                             title: "",
                             }
-
-
 						},
 					},
 					{
@@ -1930,7 +1926,7 @@ export const ACTIVITY_GROUPS: Record<
 							audioUrl: "/audio/test-en.opus",
 							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_2_E.pdf",
 							title: "Building bridges: Connecting the new with the familiar",
-												},
+						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
@@ -1954,9 +1950,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
-
-
+                        }
 						},
 					},
 					{
@@ -1990,9 +1984,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
-
-
+                        }
 						},
 					}
 					]
@@ -2146,13 +2138,13 @@ export const ACTIVITY_GROUPS: Record<
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "",
-							title: "",
+							pdfUrl: "/activities/story4/ICAU/Story4_ICAU_1_G.pdf",
+							title: "Essen auf Reisen",
 						}, 
 						svn: {
 							label: "Slovanian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "/activities/story4/ICAU/Story_4_ICAU_2_S.pdf",
+							pdfUrl: "/activities/story4/ICAU/Story_4_ICAU_1_S.pdf",
 							title: "KULINARIČNO POTOVANJE",
 						}, 
 						ld: {
@@ -2184,8 +2176,8 @@ export const ACTIVITY_GROUPS: Record<
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "",
-							title: "",
+							pdfUrl: "/activities/story4/ICAU/Story4_ICAU_2_G.pdf",
+							title: "Spiel wie ich, spiel wie du",
 						}, 
 						svn: {
 							label: "Slovanian",
@@ -2218,9 +2210,9 @@ export const ACTIVITY_GROUPS: Record<
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "",
-							title: "",
-						}, 
+							pdfUrl: "/activities/story4/ICAU/Story4_ICAU_3_G.pdf",
+							title: "Spiele von hier und da",
+						},
 						svn: {
 							label: "Slovanian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -2263,8 +2255,8 @@ export const ACTIVITY_GROUPS: Record<
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "",
-							title: "",
+							pdfUrl: "/activities/story5/ICAU/Story5_ICAU_1_G.pdf",
+							title: "Gleicher Name, verschiedene Buchstaben",
 						},
 						svn: {
 							label: "Slovenian",
@@ -2299,8 +2291,8 @@ export const ACTIVITY_GROUPS: Record<
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "",
-							title: "",
+							pdfUrl: "/activities/story5/ICAU/Story5_ICAU_2_G.pdf",
+							title: "Wie spricht dein Buch?",
 						},
 						svn: {
 							label: "Slovenian",
@@ -2336,8 +2328,8 @@ export const ACTIVITY_GROUPS: Record<
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
-							pdfUrl: "",
-							title: "",
+							pdfUrl: "/activities/story5/ICAU/Story5_ICAU_3_G.pdf",
+							title: "Bücher zuhause, Zuhause in Büchern",
 						},
 						svn: {
 							label: "Slovenian",
@@ -2554,8 +2546,6 @@ export const ACTIVITY_GROUPS: Record<
                             pdfUrl: "",
                             title: "",
                             }
-
-
 						},
 					},
 					{
@@ -2592,8 +2582,6 @@ export const ACTIVITY_GROUPS: Record<
                             pdfUrl: "",
                             title: "",
                             }
-
-
 						},
 					}
 					]
@@ -2639,9 +2627,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
-
-
+                        }
 						},
 					},
 					{
@@ -2677,9 +2663,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
-
-
+                        }
 						},
 					},
 					{
@@ -2715,9 +2699,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
-
-
+                        }
 						},
 						}
 					]
