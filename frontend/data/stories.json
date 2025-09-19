@@ -812,7 +812,7 @@
         "0": {
           "text": "Bobba im Kindergarten",
           "imageUrl": "/learning-material/story-2/story-de/Story 2_COVER_GE.JPG",
-          "audioUrl": "/learning-material/story-2/story-de/Story 2_G Long_Intro.mp3"
+          "audioUrl": "/learning-material/story-2/story-de/Bobba_im_Kindergarten_Title.m4a"
         },
         "1": {
           "text": "Bobba sieht ein wunderschönes, buntes Gebäude. Von drinnen hört er Kinder lachen und singen. Neugierig geht er hinein, um nachzusehen, was da los ist. ",
@@ -865,7 +865,7 @@
                 "0": {
           "text": "Bobba im Kindergarten",
           "imageUrl": "/learning-material/story-2/story-de/Story 2_COVER_GE.JPG",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-de short/Bobba_DE_Story_2_Titel.mp3"
         },
         "1": {
           "text": "Bobba sieht ein wunderschönes, buntes Gebäude. Von drinnen hört er Kinder lachen und singen. Bobba ist neugierig: Was ist da los?  ",
@@ -2513,6 +2513,11 @@
       "fullAudio": "/learning-material/story-4/story-slo/Recording 4.m4a",
       "fullText": "/learning-material/story-4/story-slo/Story4_SLO.pdf",
       "pages": {
+        "0": {
+          "text": "Bobba prespi pri prijateljici",
+          "imageUrl": "/learning-material/story-4/story-slo/Story 4_2 title_SL.jpg",
+          "audioUrl": ""
+        },
         "1": {
           "text": "Ob koncu dolgega dne se Ben, Alex in Olivia odpravijo domov. \"Kje boš pa ti spal, Bobba?\" vpraša Olivia. Bobba jo začudeno pogleda. Olivia ga prime za roko in reče: \"Lahko greš z mano domov.\"",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
@@ -2614,6 +2619,11 @@
       "fullAudio": "",
       "fullText": "",
       "pages": {
+        "0": {
+          "text": "Nocowanie u przyjaciółki",
+          "imageUrl": "/learning-material/story-4/story-pl/Story 4_2 title_PL.jpg",
+          "audioUrl": ""
+        },
         "1": {
           "text": "Pod koniec długiego dnia Ben, Alex i Olivia postanawiają wrócić do domu. \"Gdzie dziś śpisz?\", Olivia pyta Bobbę. Bobba patrzy na nią szeroko otwartymi oczami. Olivia bierze go za rękę. „Chodź ze mną do domu”.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
@@ -2662,6 +2672,11 @@
       "fullAudio": "",
       "fullText": "",
       "pages": {
+        "0": {
+          "text": "Bir arkadaşın evinde uyumak",
+          "imageUrl": "/learning-material/story-4/story-tur/Story 4_2 title_TUR.jpg",
+          "audioUrl": ""
+        },
         "1": {
           "text": "Nereye Gideceksin, Bobba? Günün sonunda, Ben, Alex ve Olivia eve gitmek için ayrılmaya karar verdiler. Olivia, Bobba’ya dönerek sordu: “Bu gece nerede uyuyacaksın?” Bobba, geniş gözlerle Olivia’ya baktı, ne diyeceğini bilemedi. Olivia onun elini tuttu ve gülümseyerek: “Benimle eve gel,” dedi.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",

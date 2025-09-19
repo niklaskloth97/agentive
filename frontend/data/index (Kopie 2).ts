@@ -1043,10 +1043,10 @@ export const ACTIVITY_GROUPS: Record<
 							title: "Symboles et noms",
 						},
 						de: {
-							label: "German",
-							audioUrl: "/audio/test-en.opus", // Use your test audio
-							pdfUrl: "/activities/story1/ELS/Story_1_ELS_3_G.pdf",
-							title: "Symbol und Name",
+								label: "German",
+								audioUrl: "/audio/test-en.opus", // Use your test audio
+								pdfUrl: "/activities/story1/ELS/Story_1_ELS_3_G.pdf",
+								title: "Symbol und Name",
 						}, 
 						ld: {
                             label: "Ladisch",
@@ -1072,11 +1072,6 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-2-1",
 						description: "A fun song about space travel in different languages",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story2/ELS/Story_2_ELS_1_E.pdf",
-							title: "Treasure hunts with written signs",
-						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -1094,26 +1089,13 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        },
-						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
-
-
+                        }
 					}, 
 				},//ich glaube hier fehlt eine Klammer zu }, bin mir aber nicht sicher (Mara)
 					{
 						id: "activity-2-2",
 						description: "Match planet names in different languages",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story2/ELS/Story_2_ELS_2_E.pdf",
-							title: "Tasks during treasure hunt & decivering a secret message",
-						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
@@ -1136,11 +1118,6 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-2-3",
 						description: "Learn words related to space in different languages",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story2/ELS/Story_2_ELS_3_E.pdf",
-							title: "Treasure hunts for artifacts at home",
-						},
 						fr: {
 							label: "French",
 							pdfUrl: "/activities/story2/ELS/Story_2_ELS_3_F.pdf",
@@ -1174,11 +1151,6 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-3-1",
 						description: "A fun song about space travel in different languages",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story3/ELS/Story_3_ELS_1_E.pdf",
-							title: "Writing in sand, inside",
-						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -1197,11 +1169,6 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-3-2",
 						description: "Match planet names in different languages",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story3/ELS/Story_3_ELS_2_E.pdf",
-							title: "Writing in sand, outside",
-						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
@@ -1220,11 +1187,6 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-3-3",
 						description: "Learn words related to space in different languages",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story3/ELS/Story_3_ELS_3_E.pdf",
-							title: "Decorating words",
-						},
 						fr: {
 							label: "French",
 							pdfUrl: "/activities/story3/ELS/Story 3_ELS_3_F.pdf",
@@ -1252,11 +1214,6 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-4-1",
 						description: "A fun song about space travel in different languages",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story4/ELS/Story_4_ELS_1_E.pdf",
-							title: "Sleep over party",
-						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -1281,11 +1238,6 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-4-2",
 						description: "Match planet names in different languages",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story4/ELS/Story_4_ELS_2_E.pdf",
-							title: "Letters with ropes, flashlights and reflecting dots",
-						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
@@ -1311,11 +1263,6 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-4-3",
 						description: "Learn words related to space in different languages",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story4/ELS/Story_4_ELS_3_E.pdf",
-							title: "Favorite bedtime stories",
-						},
 						fr: {
 							label: "French",
 							pdfUrl: "/activities/story4/ELS/Story 4_ELS_3_F.pdf",
@@ -1351,11 +1298,6 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-5-1",
 						description: "",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story5/ELS/Story_5_ELS_1_E.pdf",
-							title: "Writing with different materials",
-						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -1381,11 +1323,6 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-5-2",
 						description: "",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story5/ELS/Story_5_ELS_2_E.pdf",
-							title: "Structure of a library",
-						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
@@ -1410,11 +1347,6 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-5-3",
 						description: "",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story5/ELS/Story_5_ELS_E/Story_5_ELS_1_E.pdf",
-							title: "Creating a class library",
-						},
 						fr: {
 							label: "French",
 							pdfUrl: "/activities/story5/ELS/Story 5_ELS_F/Story 5_ELS_3_F.pdf",
@@ -1450,11 +1382,6 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-6-1",
 						description: "",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story6/ELS/Story_6_ELS_1_E.pdf",
-							title: "Deciphering an invitation",
-						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -1479,11 +1406,6 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-6-2",
 						description: "",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story6/ELS/Story_6_ELS_2_E.pdf",
-							title: "Writing an invitation",
-						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
@@ -1508,11 +1430,6 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-6-3",
 						description: "",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story6/ELS/Story_6_ELS_3_E.pdf",
-							title: "Written signs in different languages",
-						},
 						fr: {
 							label: "French",
 							pdfUrl: "/activities/story6/ELS/Story 6_ELS_3_F.pdf",
@@ -1527,13 +1444,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "Ladisch",
 							title: "",
 							pdfUrl: "",
-						},
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
-						},
+						}
 						},
 					}
 					]
@@ -1552,11 +1463,6 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-7-1",
 						description: "",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story7/ELS/Story_7_ELS_1_E.pdf",
-							title: "Birthday crown",
-						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -1581,11 +1487,6 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-7-2",
 						description: "",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story7/ELS/Story_7_ELS_2_E.pdf",
-							title: "Creating birthday presents",
-						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-de.opus",
@@ -1610,11 +1511,6 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-7-3",
 						description: "",
 						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story7/ELS/Story_7_ELS_3_E.pdf",
-							title: "Birthday party game : Fishing for letters",
-						},
 						fr: {
 							label: "French",
 							pdfUrl: "/activities/story7/ELS/Story 7_ELS_3_F.pdf",

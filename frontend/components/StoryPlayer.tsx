@@ -19,6 +19,8 @@ import { TranslateButtons } from '@/components/translateButtons';
 import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext';
 import { StoryCarousel } from '@/components/StoryCarousel';
 import { getStoryReadingGuide, hasStoryReadingGuide, GUIDES } from "@/data";
+import jsPDF from 'jspdf';
+import { stringify } from "querystring";
 
 interface StoryPlayerProps {
   storyId: string;
@@ -160,7 +162,7 @@ function StoryGuideSelector({ storyId, websiteLanguage }: { storyId: string; web
       languageLabels[lang] = lang === 'en' ? 'EN' : 
                             lang === 'de' ? 'DE' : 
                             lang === 'fr' ? 'FR' : 
-                            lang === 'sv' ? 'SV' : 
+                            lang === 'svn' ? 'SVN' : 
                             lang.toUpperCase();
     }
   });
@@ -259,6 +261,156 @@ function StoryGuideSelector({ storyId, websiteLanguage }: { storyId: string; web
   );
 }
 
+// Replace the existing generateStoryImagesPDF function with this updated version:
+interface StoryPage {
+  imageUrl: string;
+  text?: string;
+  audioUrl?: string;
+}
+
+const generateStoryImagesPDF = async (pages: StoryPage[], storyTitle: string) => {
+  console.log('Starting PDF generation with pages:', pages.length);
+  console.log('Story title:', storyTitle);
+
+  const pdf = new jsPDF({
+    orientation: 'landscape', 
+    unit: 'mm',
+    format: 'a4'
+  });
+
+  const pageWidth = pdf.internal.pageSize.getWidth();
+  const pageHeight = pdf.internal.pageSize.getHeight();
+  const margin = 20;
+
+  // Function to load image and convert to base64
+  const loadImage = (src: string): Promise<HTMLImageElement> => {
+    return new Promise((resolve, reject) => {
+      console.log('Loading image:', src);
+      const img = new Image();
+      
+      // Remove crossOrigin for local images or add proper CORS headers
+      if (!src.startsWith('http')) {
+        // For local images, don't set crossOrigin
+        img.crossOrigin = '';
+      } else {
+        img.crossOrigin = 'anonymous';
+      }
+      
+      img.onload = () => {
+        console.log('Image loaded successfully:', src);
+        resolve(img);
+      };
+      
+      img.onerror = (error) => {
+        console.error('Failed to load image:', src, error);
+        reject(new Error(`Failed to load image: ${src}`));
+      };
+      
+      img.src = src;
+    });
+  };
+
+  // Function to convert image to base64
+  const imageToBase64 = (img: HTMLImageElement): string => {
+    const canvas = document.createElement('canvas');
+    const ctx = canvas.getContext('2d');
+    canvas.width = img.naturalWidth || img.width;
+    canvas.height = img.naturalHeight || img.height;
+    ctx?.drawImage(img, 0, 0);
+    return canvas.toDataURL('image/jpeg', 0.8);
+  };
+
+  try {
+    // Filter out pages without images
+    const validPages = pages.filter(page => page && page.imageUrl);
+    console.log('Valid pages with images:', validPages.length);
+
+    if (validPages.length === 0) {
+      throw new Error('No pages with images found');
+    }
+
+    let isFirstPage = true;
+
+    // Process each page
+    for (let i = 0; i < validPages.length; i++) {
+      const page = validPages[i];
+      
+      try {
+        console.log(`Processing page ${i + 1}/${validPages.length}`);
+        
+        // Add new page for each image (except the first one)
+        if (!isFirstPage) {
+          pdf.addPage();
+        }
+        isFirstPage = false;
+
+        const img = await loadImage(page.imageUrl);
+        const base64Image = imageToBase64(img);
+        
+        // Calculate dimensions to fit the image on the page while maintaining aspect ratio
+        const maxWidth = pageWidth - (margin * 2);
+        const maxHeight = pageHeight - (margin * 2);
+        
+        // Get original image dimensions
+        const originalWidth = img.naturalWidth || img.width;
+        const originalHeight = img.naturalHeight || img.height;
+        const aspectRatio = originalWidth / originalHeight;
+        
+        // Calculate scaled dimensions
+        let imageWidth = maxWidth;
+        let imageHeight = maxWidth / aspectRatio;
+        
+        // If height is too large, scale by height instead
+        if (imageHeight > maxHeight) {
+          imageHeight = maxHeight;
+          imageWidth = maxHeight * aspectRatio;
+        }
+        
+        // Center the image on the page
+        const x = (pageWidth - imageWidth) / 2;
+        const y = (pageHeight - imageHeight) / 2 - 10; // Slightly higher to make room for page number
+
+        // Add image to PDF
+        pdf.addImage(
+          base64Image,
+          'JPEG',
+          x,
+          y,
+          imageWidth,
+          imageHeight
+        );
+
+        // Add page number at the bottom center
+        pdf.setFontSize(12);
+        pdf.setFont('helvetica', 'normal');
+        const pageNumber = `${i + 1}`;
+        const pageNumberWidth = pdf.getTextWidth(pageNumber);
+        pdf.text(
+          pageNumber,
+          (pageWidth - pageNumberWidth) / 2,
+          pageHeight - margin + 5
+        );
+
+        console.log(`Successfully added page ${i + 1} with dimensions ${imageWidth.toFixed(1)}x${imageHeight.toFixed(1)}`);
+      } catch (error) {
+        console.warn(`Failed to process page ${i + 1}:`, error);
+        // Continue with other images
+      }
+    }
+
+    // Save the PDF
+    const fileName = `${storyTitle.replace(/[^a-z0-9\s]/gi, '_').replace(/\s+/g, '_')}_Images.pdf`;
+    console.log('Saving PDF as:', fileName);
+    pdf.save(fileName);
+
+    return true;
+  } catch (error) {
+    console.error('Error generating PDF:', error);
+    throw error;
+  }
+};
+
+
 export function StoryPlayer({ 
   storyId, 
   showAudioControls = true,
@@ -278,6 +430,7 @@ export function StoryPlayer({
   const [isPlaying, setIsPlaying] = useState(false);
   const [audioAutoPlay, setAudioAutoPlay] = useState(false);
   const [isSafari, setIsSafari] = useState(false);
+  const [isGeneratingPDF, setIsGeneratingPDF] = useState(false);
 
   const autoPlaySafariFix = (enable: boolean) => {
     // Safari requires user interaction to play audio, so we never enable autoplay on Safari
@@ -570,9 +723,50 @@ export function StoryPlayer({
                         ) : null;
                       })()}
 
-                      <Button className="w-full mb-4" variant="outline">
+                      {/* Picture Download Button with PDF Generation */}
+                      <Button 
+                        className="w-full mb-4" 
+                        variant="outline"
+                        onClick={async (e) => {
+                          e.preventDefault();
+                          
+                          console.log('PDF download button clicked');
+                          console.log('Selected language:', selectedLanguage);
+                          console.log('Pages available:', pages.length);
+                          console.log('Pages data:', pages);
+
+                          if (!selectedLanguage || pages.length === 0) {
+                            alert('Please select a language first and ensure story pages are loaded');
+                            return;
+                          }
+
+                          try {
+                            setIsGeneratingPDF(true);
+                            console.log('Starting PDF generation...');
+                            
+                            const result = await generateStoryImagesPDF(pages, getStoryTitle());
+                            
+                            if (result) {
+                              console.log('PDF generated successfully');
+                              // Optional: Show success message
+                              // alert('PDF generated successfully!');
+                            }
+                          } catch (error) {
+                            console.error('Failed to generate PDF:', error);
+                            alert(`Failed to generate PDF: ${error instanceof Error ? error.message : 'Unknown error'}`);
+                          } finally {
+                            setIsGeneratingPDF(false);
+                            console.log('PDF generation process completed');
+                          }
+                        }}
+                        disabled={!selectedLanguage || pages.length === 0 || isGeneratingPDF}
+                      >
                         <Download className="mr-2" size={16}/>
-                        <TranslateButtons translationKey="picture" currentLanguage={websiteLanguage} />
+                        {isGeneratingPDF ? (
+                          'Generating PDF...'
+                        ) : (
+                          <TranslateButtons translationKey="picture" currentLanguage={websiteLanguage} />
+                        )}
                       </Button>
                       
                       {/* Dialogic Reading Guide Button with Language Selector */}
@@ -689,7 +883,7 @@ export function StoryPlayer({
                           preload="auto"
                           src={pages[currentPage].audioUrl}
                           onLoadedData={() => {
-                            // Ensure audio starts from beginning when page changes
+                            // Ensure audio starts from beginning when audio element is ready
                             const audioElement = document.querySelector('audio');
                             if (audioElement) {
                               audioElement.currentTime = 0;
