@@ -524,7 +524,7 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
                 fr: { label: "FR" },
                 de: { label: "DE" },
                 it: { label: "IT" },
-                slo: { label: "SV" },
+                svn: { label: "SV" },
             }}
         >
             <ActivityOverviewContent groupKey={groupKey} />
