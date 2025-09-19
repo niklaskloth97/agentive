@@ -632,10 +632,10 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "",
 						}, 
 						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
+							label: "Slovenian",
+							audioUrl: "", // Use your test audio
+							pdfUrl: "",
+							title: "",
 						}
 						},
 					},
@@ -1310,7 +1310,6 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        
 						}
 					}
 					},
@@ -1380,8 +1379,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                        
-					}
+						}
 					}, 
 				 }, //ich glaube hier fehlt eine Klammer zu, bin mir aber nicht sicher (Mara)
 					{
@@ -1545,7 +1543,6 @@ export const ACTIVITY_GROUPS: Record<
 					}
 					]
 					// Second set with different activities
-					
 				],
 				},
 				{
@@ -2077,9 +2074,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
-
-
+                        }
 						},
 					},
 					{
@@ -2113,9 +2108,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
-
-
+                        }
 						},
 					}
 					]
@@ -2199,7 +2192,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        }
 						},
 					},
 					{
@@ -2278,7 +2271,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        }
 						},
 					},
 					{
@@ -2314,9 +2307,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
-
-
+                        }
 						},
 					}, {
 						id: "activity-5-3",			
@@ -2396,9 +2387,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
-
-
+                        }
 						},
 					},
 					{
@@ -2434,9 +2423,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
-
-
+                    	}
 						},
 					},
 					{
@@ -2554,7 +2541,7 @@ export const ACTIVITY_GROUPS: Record<
                             audioUrl: "",
                             pdfUrl: "",
                             title: "",
-                            }
+                        }
 						},
 					},
 					{
@@ -2946,9 +2933,7 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "",
 								pdfUrl: "",
 								title: "",
-								}
-	
-	
+							}
 						},
 					}
 				],
@@ -3064,9 +3049,7 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "",
 								pdfUrl: "",
 								title: "",
-								}
-	
-	
+							}
 						},
 					}
 				],
