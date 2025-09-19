@@ -2820,9 +2820,7 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "",
 								pdfUrl: "",
 								title: "",
-								}
-	
-	
+							}
 						},
 					}
 				],
@@ -3221,9 +3219,7 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "",
 								pdfUrl: "",
 								title: "",
-								}
-	
-	
+							}	
 							}
 						},
 					{
@@ -3259,9 +3255,7 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "",
 								pdfUrl: "",
 								title: "",
-								}
-	
-	
+							}
 							}
 						},
 					{
@@ -3296,9 +3290,7 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "",
 								pdfUrl: "",
 								title: "",
-								}
-	
-	
+							}
 						},
 					}
 				],
@@ -3343,7 +3335,7 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "",
 								pdfUrl: "",
 								title: "",
-								},	
+							},	
 						},
 					},
 					{
@@ -3379,7 +3371,7 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "",
 								pdfUrl: "",
 								title: "",
-								},	
+							},	
 						},
 					},
 					{
@@ -3414,9 +3406,7 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "",
 								pdfUrl: "",
 								title: "",
-								}
-	
-	
+							}
 						},
 					}
 				],
@@ -3461,7 +3451,7 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "",
 								pdfUrl: "",
 								title: "",
-								},	
+							},	
 						},
 					},
 					{
@@ -3497,7 +3487,7 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "",
 								pdfUrl: "",
 								title: "",
-								},	
+							},	
 						},
 					},
 					{
@@ -3532,7 +3522,7 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "",
 								pdfUrl: "",
 								title: "",
-								},	
+							},	
 						},
 					}
 				],
@@ -3577,7 +3567,7 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "",
 								pdfUrl: "",
 								title: "",
-								},	
+							},	
 						},
 					},
 					{
@@ -3648,9 +3638,7 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "",
 								pdfUrl: "",
 								title: "",
-								}
-	
-	
+							}
 						},
 					}
 				],
