@@ -15,7 +15,8 @@ const languageFlags: Record<string, string> = {
   slo: "🇸🇮",  // Slovenian flag
   fr: "🇫🇷",  // French flag
   it: "🇮🇹",  // Italian flag
-  sv: "🇸🇮",  // Slovenian flag
+  svn: "🇸🇮",  // Slovenian flag
+  sl: "🇸🇮",  // Slovenian flag
   gr: "🇬🇷",  // Greek flag
   lux: "🇱🇺", // Luxembourg flag
   alb: "🇦🇱",  // Albanian flag

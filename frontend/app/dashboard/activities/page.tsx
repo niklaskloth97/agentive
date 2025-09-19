@@ -34,7 +34,7 @@ function ActivityGuideSelector({
   const [selectedGuideLanguage, setSelectedGuideLanguage] = useState<string>("");
 
   // Update this to match your actual language system
-  const availableLanguages = ["en", "fr", "de", "gr", "sl"]; // Use 'gr' instead of 'el'
+  const availableLanguages = ["en", "fr", "de", "gr", "svn"]; // Use 'gr' instead of 'el'
 
   // Create available languages object for LanguageSelector
   const guideLanguageOptions = Object.fromEntries(
@@ -44,7 +44,8 @@ function ActivityGuideSelector({
         label: langId === 'en' ? 'EN' : 
                langId === 'de' ? 'DE' : 
                langId === 'fr' ? 'FR' : 
-               langId === 'gr' ? 'GR' : // Changed from 'el' to 'gr'
+               langId === 'gr' ? 'GR' : 
+               langId === 'svn' ? 'SVN' :
                langId.toUpperCase() 
       }
     ])
@@ -56,7 +57,7 @@ function ActivityGuideSelector({
       'en': 'E',
       'fr': 'F', 
       'de': 'German',
-      'gr': 'GR',  // Changed from 'el' to 'gr'
+      'gr': 'GR',  
     };
     
     console.log('Mapping language:', language, 'to:', languageMap[language]); // Debug log
