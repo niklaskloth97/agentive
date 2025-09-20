@@ -3624,6 +3624,59 @@
           "audioUrl": "/learning-material/story-5/story-por/5_8.m4a"
         }
       }
+    }],
+    "ladin": [{
+      "title": "Bobba te biblioteca",
+      "titlePicture": "",
+      "fullAudio": "/learning-material/story-5/story-ladin/Bobba_LADIN_Story 5-MP3.mp3",
+      "fullText": "",
+      "pages": {
+        "0": {
+          "text": "Bobba te biblioteca",
+          "imageUrl":  "",
+          "audioUrl": "/learning-material/story-5/story-ladin/Bobba_LADIN_Story 5 Intro-MP3.mp3"
+        },
+        "1": {
+          "text": "Bobba va ju per streda, trajan sauc. Si urëdles fines se raida busientes. “Ulà jons’a?” “Te biblioteca!”, dij Olivia. “La ie plëina de libri!” Bobba fej de gran uedli. “Libri!”",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
+          "audioUrl": "/learning-material/story-5/story-ladin/Bobba_LADIN_Story 5_1-MP3.mp3"
+        },
+        "2": {
+          "text": "Te biblioteca iel truep gran castli. L’aria à n tof da magia. N’ëila cun de gran udleies s’la rij. “Bonvenon!” “Uau”, dij Bobba achiet. “Tan de libri!”",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_2.png",
+          "audioUrl": "/learning-material/story-5/story-ladin/Bobba_LADIN_Story 5_2-MP3.mp3"
+        },
+        "3": {
+          "text": "Bobba ti va do ai mutons pra i castli. “Jon ma a crì n liber per té”, dij Ben. I tira ora libri cun ilustrazions de crëps da nëif, ozeans soc, de bona roba da maië. Un n mut tën su n liber cun tieres da risses, ponc y codes longes.",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_3.png",
+          "audioUrl": "/learning-material/story-5/story-ladin/Bobba_LADIN_Story 5_3-MP3.mp3"
+        },
+        "4": {
+          "text":"Bobba se stënta a tré l fla. “Didi, didi!” L mostra sun na plata de si liber. I mutons cëla. “Cie iel pa?” Bobba cunscidrea na criatura tl liber. Urëdles fines. De gran uedli. “Belau sciche… ie”, se mpënsel. Si gran uedli se spalanca su mo deplù.",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_4.png",
+          "audioUrl": "/learning-material/story-5/story-ladin/Bobba_LADIN_Story 5_4-MP3.mp3"
+        },
+        "5": {
+          "text": "Bobba ëuta ntëur una na plata ndolauter y chël che l vëija ti sà bel, mo d‘autri mostri. “Cësa… L me ncrësc do mi ncësa…”, sustea Bobba.",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_5.png",
+          "audioUrl": "/learning-material/story-5/story-ladin/Bobba_LADIN_Story 5_5-MP3.mp3"
+        },
+        "6": {
+          "text": "Ben dij: “Tu posses l mpresté ora.” “Mpresté ora?” Bobba tira de uedl. La bibliotechera cinieia de sci. “Te adroves mé na cherta dla biblioteca, pona ies n cumëmber dla biblioteca.”",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_6.png",
+          "audioUrl": "/learning-material/story-5/story-ladin/Bobba_LADIN_Story 5_6-MP3.mp3"
+        },
+        "7": {
+          "text": "I mutons ti juda a Bobba a scrì si inuem sun la cherta. Bobba mostra si cherta nueva. “Ie son n cumëmber dla biblioteca!”",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_7.png",
+          "audioUrl": "/learning-material/story-5/story-ladin/Bobba_LADIN_Story 5_7-MP3.mp3"
+        },
+        "8": {
+          "text": "La stëiles stiza tl ciel. Bobba mbracia si liber. L liber te si mans ti sà sciche n tòch de si ncësa. “N di... jirei a cësa.”",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_8.png",
+          "audioUrl": "/learning-material/story-5/story-ladin/Bobba_LADIN_Story 5_8-MP3.mp3"
+        }
+      }
     }]
   },
   {
