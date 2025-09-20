@@ -26,11 +26,36 @@ interface ProposedChange {
   description: string;
 }
 
+interface ChangeLog {
+  timestamp: string;
+  changes: Array<{
+    type: 'new_activity' | 'update_url' | 'add_language';
+    groupName: string;
+    storyId: string;
+    activityId: string;
+    language?: string;
+    details: string;
+    oldValue?: string;
+    newValue: string;
+    action: 'auto_added' | 'user_approved' | 'user_rejected';
+  }>;
+  summary: {
+    newActivities: number;
+    languagesAdded: number;
+    urlsUpdated: number;
+    autoChanges: number;
+    userApprovedChanges: number;
+    userRejectedChanges: number;
+  };
+}
+
 const LANGUAGE_MAP: Record<string, string> = {
   'E': 'en',
   'F': 'fr', 
   'G': 'de',
   'S': 'svn',
+  'SL': 'svn',
+  'SVN': 'svn',
   'GR': 'gr',
   'It': 'it',
   'Lux': 'lux'
@@ -46,6 +71,20 @@ const LANGUAGE_LABELS: Record<string, string> = {
   'lux': 'Luxembourgish'
 };
 
+// Global change log
+const changeLog: ChangeLog = {
+  timestamp: new Date().toISOString(),
+  changes: [],
+  summary: {
+    newActivities: 0,
+    languagesAdded: 0,
+    urlsUpdated: 0,
+    autoChanges: 0,
+    userApprovedChanges: 0,
+    userRejectedChanges: 0
+  }
+};
+
 // Create readline interface for user input
 const rl = readline.createInterface({
   input: process.stdin,
@@ -56,6 +95,73 @@ function askQuestion(question: string): Promise<string> {
   return new Promise((resolve) => {
     rl.question(question, resolve);
   });
+}
+
+function logChange(
+  type: 'new_activity' | 'update_url' | 'add_language',
+  groupName: string,
+  storyId: string,
+  activityId: string,
+  details: string,
+  newValue: string,
+  action: 'auto_added' | 'user_approved' | 'user_rejected',
+  language?: string,
+  oldValue?: string
+) {
+  changeLog.changes.push({
+    type,
+    groupName,
+    storyId,
+    activityId,
+    language,
+    details,
+    oldValue,
+    newValue,
+    action
+  });
+
+  // Update summary
+  switch (type) {
+    case 'new_activity':
+      changeLog.summary.newActivities++;
+      break;
+    case 'add_language':
+      changeLog.summary.languagesAdded++;
+      break;
+    case 'update_url':
+      changeLog.summary.urlsUpdated++;
+      break;
+  }
+
+  switch (action) {
+    case 'auto_added':
+      changeLog.summary.autoChanges++;
+      break;
+    case 'user_approved':
+      changeLog.summary.userApprovedChanges++;
+      break;
+    case 'user_rejected':
+      changeLog.summary.userRejectedChanges++;
+      break;
+  }
+
+  // Also log to console with detailed information
+  const prefix = type === 'new_activity' ? '🆕' : type === 'add_language' ? '🌐' : '🔄';
+  const actionIcon = action === 'auto_added' ? '⚡' : action === 'user_approved' ? '✅' : '❌';
+  
+  console.log(`    ${prefix}${actionIcon} ${details}`);
+  if (oldValue && newValue !== oldValue) {
+    console.log(`       📤 Old: ${oldValue}`);
+  }
+  console.log(`       📥 New: ${newValue}`);
+  
+  if (type === 'new_activity') {
+    console.log(`       🎯 Action: Automatically added new activity with ${language ? `language ${language}` : 'multiple languages'}`);
+  } else if (type === 'add_language') {
+    console.log(`       🎯 Action: Automatically added missing language '${language}'`);
+  } else {
+    console.log(`       🎯 Action: ${action === 'user_approved' ? 'User approved URL change' : action === 'user_rejected' ? 'User rejected URL change' : 'Automatically updated'}`);
+  }
 }
 
 function scanActivitiesFolder(activitiesPath: string): ActivityFile[] {
@@ -94,14 +200,14 @@ function scanActivitiesFolder(activitiesPath: string): ActivityFile[] {
             const fullRelativePath = relativePath ? `${relativePath}/${item.name}` : item.name;
             const webPath = `/activities/${storyFolder}/${activityGroup}/${fullRelativePath}`;
             
-            console.log(`📄 Checking file: ${item.name} in ${activityGroup}`); // Add this debug line
+            console.log(`📄 Checking file: ${item.name} in ${activityGroup}`);
             
             const match = item.name.match(/Story[_\s]?(\d+)[_\s](\w+)[_\s](\d+)[_\s]([A-Z]{1,3})\.pdf/i);
             if (match) {
               const [, , , activityNumber, langCode] = match;
               const language = LANGUAGE_MAP[langCode.toUpperCase()];
               
-              console.log(`🔍 Matched: ${item.name} -> Story: ${storyId}, Group: ${activityGroup}, Activity: ${activityNumber}, LangCode: ${langCode}, Language: ${language}`); // Add this debug line
+              console.log(`🔍 Matched: ${item.name} -> Story: ${storyId}, Group: ${activityGroup}, Activity: ${activityNumber}, LangCode: ${langCode}, Language: ${language}`);
               
               if (language) {
                 activities.push({
@@ -112,10 +218,10 @@ function scanActivitiesFolder(activitiesPath: string): ActivityFile[] {
                   filePath: webPath
                 });
               } else {
-                console.log(`⚠️  Unknown language code: ${langCode} in file ${item.name}`); // Add this debug line
+                console.log(`⚠️  Unknown language code: ${langCode} in file ${item.name}`);
               }
             } else {
-              console.log(`❌ No match for file: ${item.name}`); // Add this debug line
+              console.log(`❌ No match for file: ${item.name}`);
             }
           }
         }
@@ -219,27 +325,6 @@ ${languages}
             }`;
 }
 
-function findStoryInGroup(content: string, groupName: string, storyId: string): { found: boolean; position: number } {
-  // Look for the specific story within the specific group
-  const groupPattern = new RegExp(
-    `${groupName}:\\s*\\{[\\s\\S]*?stories:\\s*\\[([\\s\\S]*?)\\]\\s*\\}`,
-    'g'
-  );
-  
-  const groupMatch = groupPattern.exec(content);
-  if (!groupMatch) {
-    return { found: false, position: -1 };
-  }
-  
-  const storiesSection = groupMatch[1];
-  const storyPattern = new RegExp(`\\{\\s*id:\\s*"${storyId}"[\\s\\S]*?\\}`);
-  
-  return {
-    found: storyPattern.test(storiesSection),
-    position: groupMatch.index + groupMatch[0].indexOf(storiesSection)
-  };
-}
-
 function addActivityToIndex(content: string, groupName: string, storyId: string, newActivityCode: string): string {
   // Find the exact group and story
   const groupPattern = new RegExp(
@@ -254,16 +339,6 @@ function addActivityToIndex(content: string, groupName: string, storyId: string,
       'g'
     );
     
-    interface StoryPatternMatch {
-      storyPrefix: string;
-      activitiesContent: string;
-      storySuffix: string;
-    }
-
-    interface ActivitySeparator {
-      separator: string;
-    }
-
     const updatedStoriesContent: string = storiesContent.replace(
       storyPattern, 
       (storyMatch: string, storyPrefix: string, activitiesContent: string, storySuffix: string): string => {
@@ -348,53 +423,44 @@ async function handleProposedChanges(proposedChanges: ProposedChange[]): Promise
     return acceptedChanges;
   }
 
-  console.log('\n🔄 PROPOSED CHANGES:');
-  console.log('====================');
+  console.log('\n🔄 PROPOSED URL CHANGES (requiring confirmation):');
+  console.log('==================================================');
   
   for (let i = 0; i < proposedChanges.length; i++) {
     const change = proposedChanges[i];
-    console.log(`\n${i + 1}. ${change.description}`);
-    console.log(`   Group: ${change.groupName}, Story: ${change.storyId}, Activity: ${change.activityId}`);
-    console.log(`   Language: ${change.language}`);
     
-    if (change.currentUrl) {
-      console.log(`   Current URL: ${change.currentUrl}`);
-    }
-    console.log(`   Proposed URL: ${change.proposedUrl}`);
-  }
-  
-  console.log('\nOptions:');
-  console.log('1. Accept all changes');
-  console.log('2. Reject all changes');
-  console.log('3. Review each change individually');
-  
-  const overallChoice = await askQuestion('\nChoose an option (1-3): ');
-  
-  switch (overallChoice.trim()) {
-    case '1':
-      return proposedChanges;
-    
-    case '2':
-      return [];
-    
-    case '3':
-      for (let i = 0; i < proposedChanges.length; i++) {
-        const change = proposedChanges[i];
-        console.log(`\n--- Change ${i + 1}/${proposedChanges.length} ---`);
-        console.log(change.description);
-        console.log(`Proposed URL: ${change.proposedUrl}`);
-        
-        const individualChoice = await askQuestion('Accept this change? (y/n): ');
-        if (individualChoice.toLowerCase().startsWith('y')) {
-          acceptedChanges.push(change);
-        }
+    if (change.type === 'update_url') {
+      console.log(`\n--- URL Change ${i + 1} ---`);
+      console.log(`📍 Location: ${change.groupName} > Story ${change.storyId} > ${change.activityId} > ${change.language}`);
+      console.log(`📤 Current URL: ${change.currentUrl}`);
+      console.log(`📥 Found file:  ${change.proposedUrl}`);
+      console.log(`📝 Description: ${change.description}`);
+      
+      const choice = await askQuestion('\nUpdate this URL? (y/n): ');
+      if (choice.toLowerCase().startsWith('y')) {
+        acceptedChanges.push(change);
+        console.log('✅ Change accepted');
+      } else {
+        console.log('❌ Change rejected');
+        logChange(
+          'update_url',
+          change.groupName,
+          change.storyId,
+          change.activityId,
+          change.description,
+          change.proposedUrl || '',
+          'user_rejected',
+          change.language,
+          change.currentUrl
+        );
       }
-      return acceptedChanges;
-    
-    default:
-      console.log('Invalid choice. Rejecting all changes.');
-      return [];
+    } else {
+      // Auto-add missing languages (no confirmation needed)
+      acceptedChanges.push(change);
+    }
   }
+  
+  return acceptedChanges;
 }
 
 async function generateUpdatedIndex(
@@ -438,10 +504,22 @@ async function generateUpdatedIndex(
         const existingActivity = existingStoryActivities.find(a => a.id === activityId);
         
         if (!existingActivity) {
-          // Activity doesn't exist in this group - add it
+          // Activity doesn't exist in this group - add it automatically
           console.log(`    ➕ Adding new activity: ${activityId} to ${groupName}`);
           const newActivityCode = generateNewActivityCode(storyId, activityNumber, files);
           updatedContent = addActivityToIndex(updatedContent, groupName, storyId, newActivityCode);
+          
+          // Log the new activity with all its languages
+          const languageList = files.map(f => `${f.language} (${f.filePath})`).join(', ');
+          logChange(
+            'new_activity',
+            groupName,
+            storyId,
+            activityId,
+            `Added new activity ${activityId} to ${groupName}/Story ${storyId} with languages: ${files.map(f => f.language).join(', ')}`,
+            languageList,
+            'auto_added'
+          );
         } else {
           // Activity exists - check for missing languages or different URLs
           console.log(`    🔍 Checking existing activity: ${activityId} in ${groupName}`);
@@ -450,6 +528,7 @@ async function generateUpdatedIndex(
             const existingLang = existingActivity.languages[file.language];
             
             if (!existingLang) {
+              // Missing language - add automatically
               proposedChanges.push({
                 type: 'add_language',
                 groupName,
@@ -460,6 +539,7 @@ async function generateUpdatedIndex(
                 description: `Add missing language '${file.language}' to ${activityId} in ${groupName}`
               });
             } else if (existingLang.pdfUrl !== file.filePath) {
+              // URL differs - ask for confirmation
               proposedChanges.push({
                 type: 'update_url',
                 groupName,
@@ -490,7 +570,20 @@ async function generateUpdatedIndex(
       change.language,
       change.proposedUrl
     );
-    console.log(`✅ Applied change: ${change.description}`);
+    
+    // Log the accepted change
+    const action = change.type === 'add_language' ? 'auto_added' : 'user_approved';
+    logChange(
+      change.type,
+      change.groupName,
+      change.storyId,
+      change.activityId,
+      change.description,
+      change.proposedUrl,
+      action,
+      change.language,
+      change.currentUrl
+    );
   }
 
   if (acceptedChanges.length === 0 && Object.keys(groupedActivities).length === 0) {
@@ -546,6 +639,55 @@ async function main() {
 
   fs.writeFileSync(reportPath, JSON.stringify(report, null, 2));
   console.log(`📄 Report written to: ${reportPath}`);
+
+  // Write detailed change log
+  const changeLogPath = path.join(projectRoot, 'activity-changes.json');
+  fs.writeFileSync(changeLogPath, JSON.stringify(changeLog, null, 2));
+  
+  // Print comprehensive summary
+  console.log('\n📊 COMPREHENSIVE SUMMARY:');
+  console.log('========================');
+  console.log(`🆕 New activities added automatically: ${changeLog.summary.newActivities}`);
+  console.log(`🌐 Languages added automatically: ${changeLog.summary.languagesAdded}`);
+  console.log(`🔄 URLs updated (user approved): ${changeLog.summary.urlsUpdated}`);
+  console.log(`⚡ Total automatic changes: ${changeLog.summary.autoChanges}`);
+  console.log(`✅ Total user-approved changes: ${changeLog.summary.userApprovedChanges}`);
+  console.log(`❌ Total user-rejected changes: ${changeLog.summary.userRejectedChanges}`);
+  console.log(`📝 Total changes made: ${changeLog.changes.filter(c => c.action !== 'user_rejected').length}`);
+  console.log(`📄 Detailed change log: ${changeLogPath}`);
+  
+  if (changeLog.changes.length > 0) {
+    console.log('\n📋 DETAILED CHANGES MADE:');
+    console.log('=========================');
+    changeLog.changes
+      .filter(change => change.action !== 'user_rejected')
+      .forEach((change, index) => {
+        const icon = change.type === 'new_activity' ? '🆕' : change.type === 'add_language' ? '🌐' : '🔄';
+        const actionIcon = change.action === 'auto_added' ? '⚡' : '✅';
+        console.log(`${index + 1}. ${icon}${actionIcon} ${change.details}`);
+        console.log(`   📍 ${change.groupName} > Story ${change.storyId} > ${change.activityId}${change.language ? ` > ${change.language}` : ''}`);
+        if (change.oldValue) {
+          console.log(`   📤 Old: ${change.oldValue}`);
+        }
+        console.log(`   📥 New: ${change.newValue}`);
+        console.log(`   🎯 ${change.action === 'auto_added' ? 'Added automatically' : 'User approved'}`);
+        console.log('');
+      });
+    
+    if (changeLog.summary.userRejectedChanges > 0) {
+      console.log('\n❌ REJECTED CHANGES:');
+      console.log('===================');
+      changeLog.changes
+        .filter(change => change.action === 'user_rejected')
+        .forEach((change, index) => {
+          console.log(`${index + 1}. 🔄❌ ${change.details}`);
+          console.log(`   📍 ${change.groupName} > Story ${change.storyId} > ${change.activityId} > ${change.language}`);
+          console.log(`   📤 Kept: ${change.oldValue}`);
+          console.log(`   📥 Rejected: ${change.newValue}`);
+          console.log('');
+        });
+    }
+  }
   
   rl.close();
 }

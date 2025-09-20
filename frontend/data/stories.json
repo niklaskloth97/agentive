@@ -806,7 +806,7 @@
     "de": [{
       "title": "Bobba im Kindergarten",
       "titlePicture": "/learning-material/story-2/story-de/Story 2_COVER_GE.JPG",
-      "fullAudio": "",
+      "fullAudio": "/learning-material/story-2/story-de/bobba-im-kindergarten_Komplett.mp3",
       "fullText": "/learning-material/story-2/story-de/Story2_DE_L.pdf",
       "pages": {
         "0": {
@@ -965,7 +965,7 @@
     "it": [{
       "title": "Alla scuola dell’infanzia ",
       "titlePicture": "/learning-material/story-2/story-it/Story 2_COVER_IT.JPG",
-      "fullAudio": "/learning-material/story-2/story-it/Story2_Italiano.mp3",
+      "fullAudio": "/learning-material/story-2/story-it/Story 2_Italiano.mp3",
       "fullText": "/learning-material/story-2/story-it/Story2_IT.pdf",
       "pages": {
         "0": {
@@ -976,42 +976,42 @@
         "1": {
           "text": "Bobba vede un bellissimo edificio dai colori vivaci. Sente delle risate e dei canti che provengono dall’interno. È proprio curioso e decide di entrare per vedere cosa sta succedendo.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
-          "audioUrl": "/learning-material/story-2/story-it/Story2_Italiano - Szene 1.mp3"
+          "audioUrl": "/learning-material/story-2/story-it/Story 2_Italiano - Szene 1.mp3"
         },
         "2": {
           "text": "Apre la porta e vede dei bambini che corrono in giro e gridano.  A Bobba piace tanto e vuole unirsi a loro. Li saluta con la mano. “Saluton! Saluton!”",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_2.jpg",
-          "audioUrl": "/learning-material/story-2/story-it/Story2_Italiano - Szene 2.mp3"
+          "audioUrl": "/learning-material/story-2/story-it/Story 2_Italiano - Szene 2.mp3"
         },
         "3": {
           "text": "Quando i bambini vedono Bobba, si bloccano e lo guardano ad occhi spalancati. “Chi è questo?” “Che cosa dice?” “È il nostro nuovo maestro?” E scappano subito a nascondersi.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_3.jpg",
-          "audioUrl": "/learning-material/story-2/story-it/Story2_Italiano - Szene 3.mp3"
+          "audioUrl": "/learning-material/story-2/story-it/Story 2_Italiano - Szene 3.mp3"
         },
         "4": {
           "text": "Bobba, rimasto tutto solo, diventa triste. Gli piacerebbe tanto giocare. “Ludi! Ludi!”, esclama. ",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_4.jpg",
-          "audioUrl": "/learning-material/story-2/story-it/Story2_Italiano - Szene 4.mp3"
+          "audioUrl": "/learning-material/story-2/story-it/Story 2_Italiano - Szene 4.mp3"
         },
         "5": {
           "text": "Una bambina esce dal bagno e si guarda intorno, confusa. “Dove sono spariti tutti?” Poi vede Bobba.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_5.jpeg",
-          "audioUrl": "/learning-material/story-2/story-it/Story2_Italiano - Szene 5.mp3"
+          "audioUrl": "/learning-material/story-2/story-it/Story 2_Italiano - Szene 5.mp3"
         },
         "6": {
           "text": "Lei lo guarda e sorride. “Ciao! Ti va di giocare!” Anche Bobba le sorride. “Bone! Bone!” E cominciano subito a giocare.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_6.jpg",
-          "audioUrl": "/learning-material/story-2/story-it/Story2_Italiano - Szene 6.mp3"
+          "audioUrl": "/learning-material/story-2/story-it/Story 2_Italiano - Szene 6.mp3"
         },
         "7": {
           "text": "Gli altri bambini vedono Bobba e la bambina giocare insieme e lentamente, uno dopo l’altro, escono dai loro nascondigli. Vogliono giocare anche loro con Bobba.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_7.jpg",
-          "audioUrl": "/learning-material/story-2/story-it/Story2_Italiano - Szene 7.mp3"
+          "audioUrl": "/learning-material/story-2/story-it/Story 2_Italiano - Szene 7.mp3"
         },
         "8": {
           "text": "Tutti i bambini circondano Bobba. “Ludi! Ludi!” gridano in coro. “Che giornata meravigliosa!”, pensa Bobba.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_8.jpg",
-          "audioUrl": "/learning-material/story-2/story-it/Story2_Italiano - Szene 8.mp3"
+          "audioUrl": "/learning-material/story-2/story-it/Story 2_Italiano - Szene 8.mp3"
         }
       }
     }],

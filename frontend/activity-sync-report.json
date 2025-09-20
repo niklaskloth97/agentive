@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-09-19T12:56:16.032Z",
+  "timestamp": "2025-09-20T23:17:40.496Z",
   "scannedFiles": [
     {
       "storyId": "1",
@@ -971,6 +971,27 @@
       "storyId": "4",
       "activityGroup": "ICAU",
       "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story4/ICAU/Story4_ICAU_1_G.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story4/ICAU/Story4_ICAU_2_G.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story4/ICAU/Story4_ICAU_3_G.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
       "language": "en",
       "filePath": "/activities/story4/ICAU/Story_4_ICAU_1_E.pdf"
     },
@@ -1265,6 +1286,27 @@
       "storyId": "5",
       "activityGroup": "ICAU",
       "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story5/ICAU/Story5_ICAU_1_G.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story5/ICAU/Story5_ICAU_2_G.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story5/ICAU/Story5_ICAU_3_G.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
       "language": "svn",
       "filePath": "/activities/story5/ICAU/Story_5_ICAU_1_S.pdf"
     },
@@ -1428,6 +1470,27 @@
       "activityNumber": "3",
       "language": "de",
       "filePath": "/activities/story5/PC/Story 5_PL_G/Story5_PL_3_G.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story5/PC/Story_5_PL_E/Story_5_PL_1_E.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story5/PC/Story_5_PL_E/Story_5_PL_2_E.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story5/PC/Story_5_PL_E/Story_5_PL_3_E.pdf"
     },
     {
       "storyId": "6",
@@ -2270,7 +2333,7 @@
       "filePath": "/activities/story8/PC/Story_8_PL_3_E.pdf"
     }
   ],
-  "totalFiles": 324,
+  "totalFiles": 333,
   "groupedByStory": {
     "ELS-1": [
       {
@@ -3269,6 +3332,27 @@
         "storyId": "4",
         "activityGroup": "ICAU",
         "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story4/ICAU/Story4_ICAU_1_G.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story4/ICAU/Story4_ICAU_2_G.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story4/ICAU/Story4_ICAU_3_G.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
         "language": "en",
         "filePath": "/activities/story4/ICAU/Story_4_ICAU_1_E.pdf"
       },
@@ -3571,6 +3655,27 @@
         "storyId": "5",
         "activityGroup": "ICAU",
         "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story5/ICAU/Story5_ICAU_1_G.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story5/ICAU/Story5_ICAU_2_G.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story5/ICAU/Story5_ICAU_3_G.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
         "language": "svn",
         "filePath": "/activities/story5/ICAU/Story_5_ICAU_1_S.pdf"
       },
@@ -3738,6 +3843,27 @@
         "activityNumber": "3",
         "language": "de",
         "filePath": "/activities/story5/PC/Story 5_PL_G/Story5_PL_3_G.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story5/PC/Story_5_PL_E/Story_5_PL_1_E.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story5/PC/Story_5_PL_E/Story_5_PL_2_E.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story5/PC/Story_5_PL_E/Story_5_PL_3_E.pdf"
       }
     ],
     "ELS-6": [
