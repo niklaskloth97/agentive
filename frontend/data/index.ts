@@ -436,39 +436,7 @@ export const ACTIVITY_GROUPS: Record<
 						}
 						},
 					},
-					{
-						id: "activity-3-4",
-						type: "worksheet",
-						description: "Learn words related to space in different languages",
-						languages: {
-						en: {
-							label: "English",
-							pdfUrl: "/activities/story3/PC/Story_3_PL_4_E.pdf",
-							title: "What can we see in the sea?",
-						},
-						fr: {
-							label: "French",
-							pdfUrl: "/activities/story3/PC/Story 3_PL_4_F.pdf",
-							title: "Qu'est-ce qu'il y a dans la mer",
-						},
-						de: {
-							label: "German",
-							pdfUrl: "/activities/story3/PC/Story_3_PL_G/Story3_PL_4_G.pdf",
-							title: "Was können wir im Meer sehen?",
-						}, 
-						ld: {
-							label: "Ladisch",
-							title: "",
-							pdfUrl: "",
-						},
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
-						}
-						},
-					}
+					
 					]
 				],
 				},

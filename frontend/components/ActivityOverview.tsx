@@ -266,6 +266,29 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                 }
             });
         }
+
+        // Handle PC resources if selected
+        if (groupKey === 'PC') {
+            stories.forEach((story) => {
+                if (selectedActivities.has(`resource-${story.id}`)) {
+                    // Map story IDs to their resource names
+                    const resourceNames: Record<string, string> = {
+                        '1': 'Bobba, Children, Backgrounds',
+                        '2': 'Bobba, Children, Backgrounds',
+                        // Add more mappings as needed for other stories
+                    };
+                    
+                    const resourceName = resourceNames[story.id] || 'Resources';
+                    const resourceUrl = `/activities/story${story.id}/PC/Story_${story.id}_${resourceName}.pdf`;
+                    const link = document.createElement('a');
+                    link.href = resourceUrl;
+                    link.download = `Story_${story.id}_${resourceName}.pdf`;
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                }
+            });
+        }
     };
 
     return (
@@ -348,8 +371,8 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                                         <TranslateButtons translationKey="story-title" currentLanguage={websiteLanguage} />
                                     </th>
                                     
-                                    {/* Add Resources column only for ICAU */}
-                                    {groupKey === 'ICAU' && (
+                                    {/* Add Resources column for both ICAU and PC */}
+                                    {(groupKey === 'ICAU' || groupKey === 'PC') && (
                                         <th className="p-4 text-center font-semibold border-r">
                                             <TranslateButtons translationKey="resources" currentLanguage={websiteLanguage} />
                                         </th>
@@ -389,8 +412,8 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                                                     </td>
                                                 )}
 
-                                                {/* Add Resources cell only for ICAU */}
-                                                {groupKey === 'ICAU' && setIndex === 0 && (
+                                                {/* Add Resources cell for both ICAU and PC */}
+                                                {(groupKey === 'ICAU' || groupKey === 'PC') && setIndex === 0 && (
                                                     <td
                                                         className="p-4 border-r align-top"
                                                         rowSpan={story.sets.length}
@@ -412,13 +435,40 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                                                                     className="flex-shrink-0"
                                                                 />
                                                                 <div className="min-w-0 flex-1">
-                                                                    <a
-                                                                        href={`/activities/story${story.id}/ICAU/Story ${story.id}_ICAU_Res.pdf`}
-                                                                        rel="noopener noreferrer"
-                                                                        className="font-medium text-sm text-blue-600 hover:text-blue-800 hover:underline truncate"
-                                                                    >
-                                                                        <TranslateButtons translationKey="story-resources" currentLanguage={websiteLanguage} />
-                                                                    </a>
+                                                                    {groupKey === 'ICAU' ? (
+                                                                        <a
+                                                                            href={`/activities/story${story.id}/ICAU/Story ${story.id}_ICAU_Res.pdf`}
+                                                                            rel="noopener noreferrer"
+                                                                            className="font-medium text-sm text-blue-600 hover:text-blue-800 hover:underline truncate"
+                                                                        >
+                                                                            <TranslateButtons translationKey="story-resources" currentLanguage={websiteLanguage} />
+                                                                        </a>
+                                                                    ) : (
+                                                                        // PC Resources
+                                                                        (() => {
+                                                                            const resourceNames: Record<string, string> = {
+                                                                                '1': 'Bobba, Children, Backgrounds',
+                                                                                '2': 'Bobba, Children, Backgrounds',
+                                                                                '3': 'Bobba, Children, Backgrounds',
+                                                                                '4': 'Bobba, Children, Backgrounds',
+                                                                                '5': 'Bobba, Children, Backgrounds',
+                                                                                '6': 'Bobba, Children, Backgrounds',
+                                                                                '7': 'Bobba, Children, Backgrounds',
+                                                                                '8': 'Bobba, Children, Backgrounds',
+
+                                                                        };
+                                                                        const resourceName = resourceNames[story.id] || 'Resources';
+                                                                        return (
+                                                                            <a
+                                                                                href={`/activities/story${story.id}/PC/Story_${story.id}_${resourceName}.pdf`}
+                                                                                rel="noopener noreferrer"
+                                                                                className="font-medium text-sm text-blue-600 hover:text-blue-800 hover:underline truncate"
+                                                                            >
+                                                                                {resourceName}
+                                                                            </a>
+                                                                        );
+                                                                        })()
+                                                                    )}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -498,7 +548,7 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                                                         s.sets.map((set) => set.length)
                                                     ),
                                                     0
-                                                ) + 1 + (groupKey === 'ICAU' ? 1 : 0) // Add 1 for Resources column if ICAU -> for ressources
+                                                ) + 1 + ((groupKey === 'ICAU' || groupKey === 'PC') ? 1 : 0) // Add 1 for Resources column if ICAU or PC
                                             }
                                             className="p-8 text-center text-gray-500"
                                         >
