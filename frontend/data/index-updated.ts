@@ -68,7 +68,7 @@ type Language = {
 };
 
 type LanguageGuide = {
-	id: "en" | "de" | "fr" | "svn" | "gr";
+	id: "en" | "de" | "fr" | "slo" | "gr";
 	label: string;
 	code: string;
 };
@@ -154,24 +154,24 @@ export const ACTIVITY_GROUPS: Record<
 							en: {
 								label: "English",
 								title: "My favourite story part",
-								pdfUrl: "/activities/story1/PC/Story_1_PL_1_E.pdf",
+								pdfUrl: "/activities/story5/PC/Story_5_PL_E/Story_5_PL_3_E.pdf",
 							},
 							fr: {
 								label: "French",
 								title: "Ma partie préférée de l’histoire",
-								pdfUrl: "/activities/story1/PC/Story_1_PL_1_F.pdf",
+								pdfUrl: "/activities/story5/PC/Story 5_PL_F/Story 5_PL_3_F.pdf",
 							},
 							svn: {
 								label: "Slovenian",
-								pdfUrl: "",
-								title: "",
-							},
-							ld: {
-							label: "Ladisch",
-							title: "",
-							pdfUrl: "",
-						}
+								pdfUrl: "/activities/story3/ICAU/Story_3_ICAU_2_S.pdf",
+								title: "Activity",
 						},
+							de: {
+							  label: "German",
+							  title: "Activity",
+							  pdfUrl: "/activities/story1/PC/Story_1_PL_1_G.pdf"
+							}
+},
 					},
 					{
 						id: "activity-1-2",
@@ -1723,7 +1723,8 @@ export const ACTIVITY_GROUPS: Record<
 					
 				],
 				}
-		],
+		]
+	
 	},
 	ICAU: {
 		stories: [
@@ -3633,7 +3634,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
 			fr: {
 				url: "/learning-material/dialogic-reading-guide/Dialogic reading guide_F.pdf"
 			},
-			svn: {
+			slo: {
 				url: "/learning-material/dialogic-reading-guide/Dialogic reading guide_S.pdf"
 			},
 			gr: {
@@ -3653,7 +3654,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-1/reading-guide/Story 1_Story's reading guide_F.pdf"
             },
-            svn: {
+            slo: {
                 url: "/learning-material/story-1/reading-guide/Story 1_Story's reading guide_S.pdf"
             },
 			gr: {
@@ -3684,7 +3685,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-3/reading-guide/Story 3_Guide de lecture_F.pdf"
             },
-            svn: {
+            slo: {
                 url: "/learning-material/story-3/reading-guide/Story 3_Story's reading guide_S.pdf"
             }
         }
@@ -3701,7 +3702,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_F.pdf"
             },
-            svn: {
+            slo: {
                 url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_S.pdf"
             }
         }
@@ -3718,7 +3719,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-5/reading-guide/Story 5_Story's reading guide_F.pdf"
             },
-            svn: {
+            slo: {
                 url: "/learning-material/story-5/reading-guide/Story 5_Story's reading guide_S.pdf"
             }
         }
@@ -3735,7 +3736,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-6/reading-guide/Story 6_Story's reading guide_F.pdf"
             },
-            svn: {
+            slo: {
                 url: "/learning-material/story-6/reading-guide/Story 6_Story's reading guide_S.pdf"
             }
         }
@@ -3752,7 +3753,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-7/reading-guide/Story 7_Story's reading guide_F.pdf"
             },
-            svn: {
+            slo: {
                 url: "/learning-material/story-7/reading-guide/Story 7_Story's reading guide_S.pdf"
             }
         }
@@ -3769,7 +3770,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-8/reading-guide/Story 8_Story's reading guide_F.pdf"
             },
-            svn: {
+            slo: {
                 url: "/learning-material/story-8/reading-guide/Story 8_Story's reading guide_S.pdf"
             }
         }

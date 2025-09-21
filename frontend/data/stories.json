@@ -56,7 +56,7 @@
         }
       }
     }],
-    "de": [{
+    "de-lang": [{
       "title": "Bobbas erste Reise zur Erde",
       "titlePicture": "/learning-material/story-1/story-de/Story 1_title_G.jpg",
       "fullAudio": "/learning-material/story-1/story-de/bobba_1_D_ALL.mp3",
@@ -109,7 +109,7 @@
         }
       }
     }],
-    "sw-ger": [{
+    "de": [{
       "title": "Bobbas erste Reise zur Erde",
       "titlePicture": "/learning-material/story-1/story-de/Story 1_title_G.jpg",
       "fullAudio": "/learning-material/story-1/story-de short/Bobba_DE_Story_1_Gesamt.mp3",
@@ -277,47 +277,47 @@
         "0": {
           "text": "Il primo viaggio di Bobba sulla Terra",
           "imageUrl": "/learning-material/story-1/story-it/Story 1_title_I.jpg",
-          "audioUrl": "/learning-material/story-1/story-it/Story 1_Italiano_Title.mp3"
+          "audioUrl": "/learning-material/story-1/story-it/Bobba_Teil_1_v4.mp3"
         },
         "1": {
           "text": "Bobba vive su un pianeta molto lontano. Oggi è emozionatissimo. Finalmente ha una propria astronave e può volare dove vuole!",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp-dep",
-          "audioUrl": "/learning-material/story-1/story-it/Story 1_1_Italiano.mp3"
+          "audioUrl": "/learning-material/story-1/story-it/Bobba_Teil_2_v4.mp3"
         },
         "2": {
           "text": "Il suo più grande sogno è quello di andare sul pianeta Terra.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp-dep",
-          "audioUrl": "/learning-material/story-1/story-it/Story 1_2_Italiano.mp3"
+          "audioUrl": "/learning-material/story-1/story-it/Bobba_Teil_3_v4.mp3"
         },
         "3": {
           "text": "Salta sull’astronave e decolla. Tutti i suoi amici e la sua famiglia sono sorpresi! “Dove starà andando?”, si chiedono. Bobba si dirige dritto dritto verso il pianeta Terra. ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp-dep",
-          "audioUrl": "/learning-material/story-1/story-it/Story 1_3_Italiano.mp3"
+          "audioUrl": "/learning-material/story-1/story-it/Bobba_Teil_4_v4.mp3"
         },
         "4": {
           "text": "Bobba oltrepassa tanti pianeti e diverse comete e si chiede quando finalmente raggiungerà la Terra. ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_4.webp",
-          "audioUrl": "/learning-material/story-1/story-it/Story 1_4_Italiano.mp3"
+          "audioUrl": "/learning-material/story-1/story-it/Bobba_Teil_5_v4.mp3"
         },
         "5": {
           "text": "Improvvisamente, vede una palla blu e prima di realizzare cosa succede sfreccia nel cielo e con un forte botto atterra in un mucchio di foglie e rami! ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp-dep",
-          "audioUrl": "/learning-material/story-1/story-it/Story 1_5_Italiano.mp3"
+          "audioUrl": "/learning-material/story-1/story-it/Bobba_Teil_6_v4.mp3"
         },
         "6": {
           "text": "Esce a stento dall’astronave e si guarda intorno. Due occhi neri che sbucano tra piume nere lo stanno osservando. Bobba dice: “Saluton!”, ma l’uccello lo guarda e vola via. Allora scende dall’albero e vede una cosa rossa con dei puntini neri. “Saluton!” esclama Bobba, ma la creatura nemmeno lo nota. ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_6.webp",
-          "audioUrl": "/learning-material/story-1/story-it/Story 1_6_Italiano.mp3"
+          "audioUrl": "/learning-material/story-1/story-it/Bobba_Teil_7_v4.mp3"
         },
         "7": {
           "text": "Un bambino e una bambina guardano Bobba e ridacchiano. “Con chi stai parlando? Loro non sanno parlare!” Bobba si gira e dice: “Saluton! Ĉu vi estas infanoj?”. I bambini si guardano l’un l’altro. “Infanoj? Intende bambini piccoli?”. “No!”, protestano. “Noi non siamo dei bebè! Siamo dei bambini!”. “Ahhhh!”, esclama entusiasta Bobba! “Bambini! Infanoj!” E tutti si mettono a ridere. ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_7.webp",
-          "audioUrl": "/learning-material/story-1/story-it/Story 1_7_Italiano.mp3"
+          "audioUrl": "/learning-material/story-1/story-it/Bobba_Teil_8_v4.mp3"
         },
         "8": {
           "text": "“Vuoi vedere il nostro parco giochi?” chiede Olivia. Bobba sorride e Ben lo prende per la mano. Insieme lo portano al parco giochi. ",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp-dep",
-          "audioUrl": "/learning-material/story-1/story-it/Story 1_8_Italiano.mp3"
+          "audioUrl": "/learning-material/story-1/story-it/Bobba_Teil_9_v4.mp3"
         }
       }
     }],
@@ -428,55 +428,55 @@
       }
     }],
     "sv": [{
-      "title": "Bobbas första resa till jorden",
+      "title": "Bobba prvič potuje na Zemljo",
       "titlePicture": "/learning-material/story-1/story-sv/Story 1_title_S.jpg",
-      "fullAudio": "/learning-material/story-1/story-sv/Story 1_SLO_complete.m4a",
+      "fullAudio": "/learning-material/story-1/story-sv/Story 1_SLO_complete.mp3",
       "fullText": "/learning-material/story-1/story-sv/Story 1_S.pdf",
       "pages": {
          "0": {
-          "text": "Bobbas första resa till jorden",
+          "text": "    Bobba prvič potuje na Zemljo",
           "imageUrl": "/learning-material/story-1/story-sv/Story 1_title_S.jpg",
-          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_title.m4a"
+          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_Title.mp3"
         },
         "1": {
           "text": "Bobba živi na planetu daleč stran. Danes je zelo vznemirjen. Končno je dobil svojo vesoljsko ladjo in zdaj lahko leti, kamor koli želi!",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp-dep",
-          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_1.m4a"
+          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_1.mp3"
         },
         "2": {
           "text": "Že dolgo sanja, da bi poletel na Zemljo",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_2.webp-dep",
-          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_2.m4a"
+          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_2.mp3"
         },
         "3": {
           "text": "Skoči v svojo vesoljsko ladjo in vzleti. Njegovi prijatelji in družina so presenečeni! »Kam pa gre?« se sprašujejo. Bobba leti naravnost proti planetu Zemlja.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_3.webp-dep",
-          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_3.m4a"
+          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_3.mp3"
         },
         "4": {
           "text": "Leti mimo planetov in kometov in se sprašuje, kdaj bo končno prispel na Zemljo.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_4.webp",
-          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_4.m4a"
+          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_4.mp3"
         },
         "5": {
           "text": "Nenadoma zagleda modro kroglo in še preden se zave, že leti skozi oblake in z glasnim pokom pristane v kupu listja in vej!",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_5.webp-dep",
-          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_5.m4a"
+          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_5.mp3"
         },
         "6": {
           "text": "Skobaca se iz vesoljske ladje in pogleda naokoli. Zagleda dve črni očesi sredi črnega perja, ki strmita vanj. Bobba pozdravi: »Saluton!«, a pernato bitje ga le ošine in odleti. Spusti se z drevesa in opazi rdeče bitje s črnimi pikami. »Saluton!« zavpije Bobba, a bitje se sploh ne zmeni zanj.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_6.webp",
-          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_6.m4a"
+          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_6.mp3"
         },
         "7": {
           "text": "Deček in deklica zagledata Bobbo in se zahihitata. »S kom pa se pogovarjaš? Oni ne znajo govoriti!« Bobba se obrne. »Saluton! Ĉu vi estas infanoj?« vpraša. Otroka se spogledata. »Infanoj? Misliš, da sva dojenčka?« »To pa ne!« se razburita. »Nisva dojenčka! Otroka sva!« »Ahaaaa!« vzklikne Bobba. »Otroci! Infanoj! Otroci!« Deček in deklica se zasmejeta.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_7.webp",
-          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_7.m4a"
+          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_7.mp3"
         },
         "8": {
           "text": "»Bi rad videl naše igrišče?« vpraša Olivia. Bobba se nasmehne. Ben ga prime za roko in skupaj se odpravijo na igrišče.",
           "imageUrl": "/learning-material/story-1/story-en/Story_1_8.webp-dep",
-          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_8.m4a"
+          "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_8.mp3"
         }
       }
     }],
@@ -489,7 +489,7 @@
         "0": {
           "text": "Udhëtimi i parë i Bobbas në Tokë",
           "imageUrl": "/learning-material/story-1/story-alb/Story 1_title_AL.jpg",
-          "audioUrl": "/learning-material/story-1/story-alb/Bobba_AL_Story 1_Intro.mp3"
+          "audioUrl": "/learning-material/story-1/story-alb/Bobba_AL_Story 1 Intro.mp3"
         },
         "1": {
           "text": "Bobba jeton në një planet shumë larg. Sot ai është shumë i emocionuar. Më në fund ka anijen e tij kozmike dhe tani mund të fluturojë kudo që dëshiron!",
@@ -595,7 +595,7 @@
         "0": {
           "text": "Bobba’nın Dünya Yolculuğu",
           "imageUrl": "/learning-material/story-1/story-tur/Story 1_title_TU.jpg", 
-          "audioUrl": "/learning-material/story-1/story-tur/Story_Turkish_Title.mp3"
+          "audioUrl": "/learning-material/story-1/story-tur/Stories_Turkish_Title.mp3"
         },
         "1": {
           "text": "Bir zamanlar, çok uzak bir gezegende Bobba adında sevimli bir uzaylı yaşardı. Bobba, hem çok meraklı hem de çok cesur biriydi. Ama bugün, her zamankinden daha heyecanlıydı! Çünkü sonunda kendi uzay gemisine kavuşmuştu. Artık dilediği her yere uçabilirdi!",
@@ -803,7 +803,7 @@
         }
       }
     }],
-    "de": [{
+    "de-lang": [{
       "title": "Bobba im Kindergarten",
       "titlePicture": "/learning-material/story-2/story-de/Story 2_COVER_GE.JPG",
       "fullAudio": "/learning-material/story-2/story-de/bobba-im-kindergarten_Komplett.mp3",
@@ -856,7 +856,7 @@
         }
       }
     }],
-    "sw-ger": [{
+    "de": [{
       "title": "Im Kindergarten",
       "titlePicture": "",
       "fullAudio": "/learning-material/story-2/story-de short/Bobba_DE_Story_2_Gesamt.mp3",
@@ -913,7 +913,7 @@
       "title": "A l’école maternelle",
       "titlePicture": "/learning-material/story-2/story-fr/Story 2_COVER_F.JPG",
       "fullAudio": "/learning-material/story-2/story-fr/Bobba_FR_Story 2-MP3.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-2/story-fr/Story 2_F.pdf",
       "pages": {
         "0": {
           "text": "A l’école maternelle",
@@ -1398,7 +1398,7 @@
           "audioUrl": "/learning-material/story-2/story-por/2_title.m4a"
         },
         "1": {
-          "text": "O Bobba vê um belo edifício de cores alegres vivas. Ouve rir e cantar lá dentro. Fica curioso e quer ver o que se passa.",
+          "text": "O Bobba vê um belo edifício de cores alegres. Ouve rir e cantar lá dentro. Fica curioso e quer ver o que se passa.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
           "audioUrl": "/learning-material/story-2/story-por/2_1.m4a"
         },
@@ -1549,16 +1549,16 @@
         }
       }
     }],
-    "de": [{
+    "de-lang": [{
       "title": "Bobba am Strand",
       "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_GE.JPG",
-      "fullAudio": "/learning-material/story-3/story-de/Story 3_G Long_Title_Bobba_am_Strand.m4a",
+      "fullAudio": "/learning-material/story-3/story-de/story-3-g-long_komplett.mp3",
       "fullText": "/learning-material/story-3/story-de/Story3_DE_L.pdf",
       "pages": {
         "0": {
           "text": "Bobba am Strand",
           "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_GE.JPG",
-          "audioUrl": "/learning-material/story-3/story-de/Story 3_G Long_Intro_Bobba_am_Strand.m4a"
+          "audioUrl": "/learning-material/story-3/story-de/Story 3_G Long_Title_Bobba_am_Strand.m4a"
         },
         "1": {
           "text": "Heute nehmen die Kinder Bobba mit zum Strand. Alle sind bester Laune, lachen und singen ihr Dididi-Lied. Didididi …. ",
@@ -1602,10 +1602,10 @@
         }
       }
     }],
-    "sw-ger": [{
+    "de": [{
       "title": "Bobba am Strand",
       "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_GE.JPG",
-      "fullAudio":  "/learning-material/story-3/story-de short/Bobba_DE_Story_Gesamt.mp3",
+      "fullAudio":  "/learning-material/story-3/story-de short/Bobba_DE_Story_3_Gesamt.mp3",
       "fullText": "/learning-material/story-3/story-de short/Story3_DE_S.pdf",
       "pages": {
         "0": {
@@ -1711,53 +1711,106 @@
      "it": [{
       "title": "Bobba in spiaggia",
       "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_IT.JPG",
-      "fullAudio": "/learning-material/story-3/story-it/Story3_Italiano.mp3",
+      "fullAudio": "/learning-material/story-3/story-it/Story 3_Italiano.mp3",
       "fullText": "/learning-material/story-3/story-it/Story3_IT.pdf",
       "pages": {
         "0": {
           "text": "Bobba in spiaggia",
           "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_IT.JPG",
-          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 1 - Bobba in spiaggia.mp3"
+          "audioUrl": "/learning-material/story-3/story-it/Story 3_Italiano Clip 1 - Bobba in spiaggia.mp3"
         },
         "1": {
           "text": "Oggi i bambini portano Bobba in spiaggia. Sono tutti di buon umore, ridono e cantano la canzone \"Dididi\". Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
-          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 2 - Oggi i bambini portano Bobba.mp3"
+          "audioUrl": "/learning-material/story-3/story-it/Story 3_Italiano Clip 2 - Oggi i bambini portano Bobba.mp3"
         },
         "2": {
           "text": "Quando Bobba vede il mare, rimane incantato. Non ha mai visto così tanta acqua prima d'ora. \"Che piscina enorme!\" pensa.",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_2.jpg",
-          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 3 - quando Bobba vede il mare.mp3"
+          "audioUrl": "/learning-material/story-3/story-it/Story 3_Italiano Clip 3 - quando Bobba vede il mare.mp3"
         },
         "3": {
           "text": "I bambini lo aiutano a indossare dei braccioli colorati e un salvagente di gomma. \"Adesso sei pronto Bobba! Andiamo!\"",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_3.jpg",
-          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 4 - I bambini lo aiutano.mp3"
+          "audioUrl": "/learning-material/story-3/story-it/Story 3_Italiano Clip 4 - I bambini lo aiutano.mp3"
         },
         "4": {
           "text": "I bambini prendono per mano Bobba e lo accompagnano in acqua. \"Forza Bobba, andiamo!\" Ma Bobba non vuole muoversi.",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_4.jpg",
-          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 5 - I bambini prendono per mano.mp3"
+          "audioUrl": "/learning-material/story-3/story-it/Story 3_Italiano Clip 5 - I bambini prendono per mano.mp3"
         },
         "5": {
           "text": "I bambini tirano e tirano, ma Bobba non si muove. \"Che cosa c'è che non va Bobba? Non ti piace nuotare? È divertente!\"",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_5.jpg",
-          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 6 - Ma Bobba non vuole muoversi.mp3"
+          "audioUrl": "/learning-material/story-3/story-it/Story 3_Italiano Clip 6 - Ma Bobba non vuole muoversi.mp3"
         },
         "6": {
           "text": "Uno dei bambini osserva bene Bobba e capisce perché non vuole entrare nel mare. \"Credo che abbia paura dell'acqua. Cosa possiamo fare per aiutarlo?\"",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_6.jpg",
-          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 7 - Uno dei bambini osserva bene.mp3"
+          "audioUrl": "/learning-material/story-3/story-it/Story 3_Italiano Clip 7 - Uno dei bambini osserva bene.mp3"
         },
         "7": {
           "text": "Qualcuno ha un'idea eccezionale. \"Quando ho paura, mia mamma mi canta una canzone. Cantiamo tutti insieme la nostra canzone\". Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_7.jpg",
-          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 8 - Qualcuno ha un'idea eccezionale.mp3"
+          "audioUrl": "/learning-material/story-3/story-it/Story 3_Italiano Clip 8 - Qualcuno ha un'idea eccezionale.mp3"
         },
         "8": {
           "text": "A Bobba la canzone piace tantissimo e inizia a cantare anche lui, mentre tutti insieme entrano in acqua. Non ha più paura del mare. \"Nuotare è divertente, vero Bobba?\"",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_8.jpg",
-          "audioUrl": "/learning-material/story-3/story-it/Story3_Italiano Clip 9 - a Bobba, la canzone piace tantissimo.mp3"
+          "audioUrl": "/learning-material/story-3/story-it/Story 3_Italiano Clip 9 - a Bobba, la canzone piace tantissimo.mp3"
+        }
+      }
+    }],
+      "ld": [{
+      "title": "Bobba sun la spiagia",
+      "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_LAD.JPG",
+      "fullAudio": "/learning-material/story-3/story-ladin/Bobba_LADIN_Story 3-MP3.mp3",
+      "fullText": "/learning-material/story-3/story-ladin/Story 3_L.pdf",
+      "pages": {
+        "0": {
+          "text": "Bobba sun la spiagia",
+          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_LA.JPG",
+          "audioUrl": "/learning-material/story-3/story-ladin/Bobba_LADIN_Story 3 Intro-MP3.mp3"
+        },
+        "1": {
+          "text": "I mutons va cun Bobba sun la spiagia. I ie duc de bona ueia, s'la rij y cianta la ciantia Dididi. Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
+          "audioUrl": "/learning-material/story-3/story-ladin/Bobba_LADIN_Story 3_1-MP3.mp3"
+        },
+        "2": {
+          "text": "Canche Bobba vëija l mer, iel nmaruià. L ne à mo mei udù tan de ega nchinamò. \"Ce gran nudadoia\", se mpënsel.",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_2.jpg",
+          "audioUrl": "/learning-material/story-3/story-ladin/Bobba_LADIN_Story 3_2-MP3.mp3"
+        },
+        "3": {
+          "text": "I mutons ti juda a tré sëura la eles da nudé d'uni culëur y n anel de gumi. \"Śën ies njinià, Bobba! Jon!\"",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_3.jpg",
+          "audioUrl": "/learning-material/story-3/story-ladin/Bobba_LADIN_Story 3_3-MP3.mp3"
+        },
+        "4": {
+          "text": "I mutons ti dà la man a Bobba y va cun ël ite tl'ega. \"Vie Bobba, jon!\" Ma Bobba ne uel nia se muever.",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_4.jpg",
+          "audioUrl": "/learning-material/story-3/story-ladin/Bobba_LADIN_Story 3_4-MP3.mp3"
+        },
+        "5": {
+          "text": "I mutons tira y tira, ma Bobba ne se muev nia. \"Cie iel pa, Bobba? Ne ues'a nia jì a nudé? Chël ie tan da rì!\"",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_5.jpg",
+          "audioUrl": "/learning-material/story-3/story-ladin/Bobba_LADIN_Story 3_5-MP3.mp3"
+        },
+        "6": {
+          "text": "Un di mutons ti cëla a Bobba y ntënd ciuldì che l ne uel nia jì tl mer. \"Ie rate che l ebe tëma dal'ega. Cie pudons'a fé per ti judé?\"",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_6.jpg",
+          "audioUrl": "/learning-material/story-3/story-ladin/Bobba_LADIN_Story 3_6-MP3.mp3"
+        },
+        "7": {
+          "text": "Zachei à na bona idea. \"Canche ie é tëma, me cianta mi mami na ciantia. Cianton na ciantia deberieda.\" Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_7.jpg",
+          "audioUrl": "/learning-material/story-3/story-ladin/Bobba_LADIN_Story 3_7-MP3.mp3"
+        },
+        "8": {
+          "text": "La ciantia ti sà bela a Bobba y l cianta pea ntan che i va tl'ega deberieda. L ne à nia plu tëma dal mer. \"Nudé ie da rì, no pa Bobba?\"",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_8.jpg",
+          "audioUrl": "/learning-material/story-3/story-ladin/Bobba_LADIN_Story 3_8-MP3.mp3"
         }
       }
     }],
@@ -1770,47 +1823,47 @@
         "0": {
           "text": "Bobba Sahilde",
           "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_TU.JPG",
-          "audioUrl": "/learning-material/story-3/story-tur/Story 3_TU_Intro.m4a"
+          "audioUrl": "/learning-material/story-3/story-tur/Story3_Title.mp3"
         },
         "1": {
           "text": "Bir gün çocuklar Bobba’yı sahile götürmeye karar verdiler. Hep birlikte neşeliydiler. Kahkahalar atıyor, ellerini çırpıyor ve hep bir ağızdan “Dididi” şarkısını söylüyorlardı: Didididi didididi dididi dididi didi didi didi, didi didi didi di di di, di di di. Dadadada dadadada dadada dadada dada dada dada, dada dada dada da da da, da da da.",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
-          "audioUrl": ""
+        "audioUrl": "/learning-material/story-3/story-tur/Story3_1.mp3"
         },
         "2": {
           "text": "Bobba, çocukların enerjisinden çok etkilenmişti. Sahile vardıklarında Bobba, denizi gördü. Gözleri hayretle büyümüştü. Daha önce hiç bu kadar çok su görmemişti. “Ne kadar büyük bir yüzme havuzu!” diye düşündü. Hazırlıklar Başlasın ",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_2.jpg",
-          "audioUrl": ""
+        "audioUrl": "/learning-material/story-3/story-tur/Story3_2.mp3"
         },
         "3": {
           "text": "Çocuklar Bobba’ya yardım ettiler. Ona rengârenk kolluklar taktılar ve beline lastik bir yüzme halkası geçirdiler. “Artık hazırsın, Bobba! Hadi gidelim!” dediler. ",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_3.jpg",
-          "audioUrl": ""
+        "audioUrl": "/learning-material/story-3/story-tur/Story3_3.mp3"
         },
         "4": {
           "text": "Çocuklar Bobba’nın ellerini tutup onu denize götürmeye çalıştılar. “Hadi Bobba, suya gidelim!” diye heyecanla bağırıyorlardı. Ama Bobba hareket etmek istemiyordu. ",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_4.jpg",
-          "audioUrl": ""
+        "audioUrl": "/learning-material/story-3/story-tur/Story3_4.mp3"
         },
         "5": {
           "text": "Çocuklar Bobba’yı çekip durdular ama o yerinden kıpırdamadı. “Sorun ne Bobba? Yüzmek eğlencelidir!” diye sordular. ",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_5.jpg",
-          "audioUrl": ""
+        "audioUrl": "/learning-material/story-3/story-tur/Story3_5.mp3"
         },
         "6": {
           "text": "Sonunda çocuklardan biri durumu fark etti. Sanırım Bobba sudan korkuyor. Ona nasıl yardım edebiliriz?” ",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_6.jpg",
-          "audioUrl": ""
+         "audioUrl": "/learning-material/story-3/story-tur/Story3_6.mp3"
         },
         "7": {
           "text": "Birinin aklına harika bir fikir gelir. \"Korktuğum zaman annem bana bir şarkı söyler. Hadi şarkımızı birlikte söyleyelim.\" Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada dada da da da da da da. ",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_7.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-3/story-tur/Story3_7.mp3"
         },
         "8": {
           "text": "Bobba şarkıyı çok sevdi. Çocuklarla birlikte şarkı söylerken suya doğru yürüdü. Birlikte suya girdiklerinde, artık sudan korkmuyordu. “Yüzmek eğlenceli, değil mi Bobba?” diye sordular. Bobba gülümsedi ve mutlu bir şekilde cevap verdi: “Evet, çok eğlenceli!” O günden sonra Bobba denizi çok sevdi. Ne zaman sahile gelseler, çocuklarla birlikte şarkılar söyleyip doyasıya yüzdüler. Sahil artık Bobba için mutlulukla dolu bir yerdi. ",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_8.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-3/story-tur/Story3_8.mp3"
         }
       }
   }],
@@ -1977,12 +2030,12 @@
       "title": "Bobba na plaži",
       "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_SL.JPG",
       "fullAudio": "/learning-material/story-3/story-slo/Story 3_SLO_complete.m4a",
-      "fullText": "/learning-material/story-3/story-slo/Story3-SLO.pdf",
+      "fullText": "/learning-material/story-3/story-slo/Story3_SLO.pdf",
       "pages": {
         "0": {
           "text": "Bobba na plaži",
           "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_SL.JPG",
-          "audioUrl": "/learning-material/story-3/story-slo/Story 3_SLO_Intro.m4a"
+          "audioUrl": "/learning-material/story-3/story-slo/Story 3_SLO_title.m4a"
         },
         "1": {
           "text": "Otroci odpeljejo Bobbo na plažo. Vsi so dobre volje, smejijo se in pojejo Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
@@ -2088,7 +2141,7 @@
         "0": {
           "text": "Бобба на пляжі",
           "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_UKR.JPG",
-          "audioUrl": "/learning-material/story-3/story-ukr/Story 3_Ukrainian_3_0.MP3"
+          "audioUrl": "/learning-material/story-3/story-ukr/3.mp3"
         },
         "1": {
           "text": "Діти ведуть Боббу на пляж. Вони всі в дуже веселому настрої, сміються і співають пісню Дідіді. Дідіді, діді, діді, діді, діді, діді, діді, діді, діді, діді, діді, діді діді діді діді діді діді діді діді діді ді ді ді ді ді. Дадададададададададададададададададададададададададададададададададададададададададададададададададада дада дада дада дада да да да да да да да да да. ",
@@ -2141,7 +2194,7 @@
         "0": {
           "text": "Bobba na praia",
           "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_P.JPG",
-          "audioUrl": "/learning-material/story-3/story-por/3_Intro.m4a"
+          "audioUrl": "/learning-material/story-3/story-por/3_title.m4a"
         },
         "1": {
           "text": "As crianças levam o Bobba para a praia. Estão todas muito felizes, a rir e a cantar a cantiga do Dididi. Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da. ",
@@ -2174,7 +2227,7 @@
           "audioUrl": "/learning-material/story-3/story-por/3_6.m4a"
         },
         "7": {
-          "text": "Alguém Uma delas tem uma grande ideia. “Quando estou com medo, a minha mãe canta-me uma cantiga. Vamos cantar a nossa cantiga juntos.” Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da. ",
+          "text": "Uma delas tem uma grande ideia. “Quando estou com medo, a minha mãe canta-me uma cantiga. Vamos cantar a nossa cantiga juntos.” Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da. ",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_7.jpg",
           "audioUrl": "/learning-material/story-3/story-por/3_7.m4a"
         },
@@ -2242,7 +2295,7 @@
             }
           }
         }],
-    "sw-ger": [{
+    "de": [{
           "title": "Bobba übernachtet bei Olivia",
           "titlePicture": "/learning-material/story-4/story-de/Story 4_2 title_GE.jpg",
           "fullAudio": "/learning-material/story-4/story-de short/Bobba_DE_Story 4 gesamt.mp3",
@@ -2296,7 +2349,7 @@
           }
         }],
     
-    "de": [{
+    "de-lang": [{
       "title": "Bobba übernachtet bei Olivia",
       "titlePicture": "/learning-material/story-4/story-de/Story 4_2 title_GE.jpg",
       "fullAudio": "/learning-material/story-4/story-de/Story 4_G Long_complete.m4a",
@@ -2507,9 +2560,9 @@
         }
       }
     }],
-    "slo": [{
+    "sv": [{
       "title": "Bobba prespi pri prijateljici",
-      "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
+      "titlePicture": "/learning-material/story-4/story-slo/Story 4_2 title_SL.jpg",
       "fullAudio": "/learning-material/story-4/story-slo/Recording 4.m4a",
       "fullText": "/learning-material/story-4/story-slo/Story4_SLO.pdf",
       "pages": {
@@ -2989,7 +3042,7 @@
         }
       }
     }],
-    "de": [{
+    "de-lang": [{
       "title": "Bobba in der Bibliothek",
       "titlePicture": "/learning-material/story-5/story-de/Story 5_title_de.jpeg",
       "fullAudio": "/learning-material/story-5/story-de/Bobba_in_der_Bibliothek_Title.m4a",
@@ -3042,7 +3095,7 @@
         }
       }
     }],
-    "sw-ger": [{
+    "de": [{
       "title": "Bobba in der Bibliothek",
       "titlePicture": "/learning-material/story-5/story-de/Story 5_title_de.jpeg",
       "fullAudio": "/learning-material/story-5/story-de short/Bobba_DE_Story 5_gesamt.mp3",
@@ -3466,7 +3519,7 @@
         }
       }
     }],
-    "slo": [{
+    "sv": [{
       "title": "Bobba v knjižnici",
       "titlePicture": "/learning-material/story-5/story-slo/Story_5_title_slo.jpeg",
       "fullAudio": "/learning-material/story-5/story-slo/Recording 5.m4a",
@@ -3735,7 +3788,7 @@
         }
       }
     }],
-    "sw-ger": [{
+    "de-lang": [{
       "title": "Das Monsterschloss",
       "titlePicture": "/learning-material/story-6/covers/Story 6_COVER_G.jpeg",
       "fullAudio": "/learning-material/story-6/story-de/6_complete version.m4a",
@@ -3789,13 +3842,13 @@
       }
     }],
     "de": [{
-      "title": "Das MONSTER Schloss",
+      "title": "Das Montster-Schloss",
       "titlePicture": "/learning-material/story-6/covers/Story 6_COVER_G.jpeg",
       "fullAudio": "/learning-material/story-6/story-de short/Bobba_DE_Story_6_Gesamt.mp3",
       "fullText": "/learning-material/story-6/story-de short/Story6_DE_S.pdf",
       "pages": {
         "0": {
-          "text": "Das MONSTER Schloss",
+          "text": "Das Monster-Schloss",
           "imageUrl": "/learning-material/story-6/covers/Story 6_COVER_G.jpeg",
           "audioUrl": "/learning-material/story-6/story-de short/Bobba_DE_Story_6_Titel.mp3"
         },
@@ -4212,7 +4265,7 @@
         }
       }
     }],
-    "slo": [{
+    "sv": [{
       "title": "Pošasti v gradu",
       "titlePicture": "/learning-material/story-6/covers/Story 6_COVER_SLO.jpeg",
       "fullAudio": "/learning-material/story-6/story-slo/Story 6_SLO_complete.m4a",
@@ -4480,7 +4533,7 @@
         }
       }
     }],
-    "de": [{
+    "de-lang": [{
       "title": "Olivias Geburtstagsparty",
       "titlePicture": "/learning-material/story-7/covers/Story 7_title_GE.jpg",
       "fullAudio": "/learning-material/story-7/story-de/Story 7_Full_GE.mp3",
@@ -4533,7 +4586,7 @@
         }
       }
     }],
-    "sw-ger": [{
+    "de": [{
       "title": "Olivias Geburtstagsparty",
       "titlePicture": "/learning-material/story-7/covers/Story 7_title_GE.jpg",
       "fullAudio": "/learning-material/story-7/story-de-short/Bobba_DE_Story_7_Gesamt.mp3",
@@ -4798,7 +4851,7 @@
         }
       }
     }],
-    "slo": [{
+    "sv": [{
       "title": "Olivia praznuje rojstni dan",
       "titlePicture": "/learning-material/story-7/covers/Story 7_title_SL.jpg",
       "fullAudio": "/learning-material/story-7/story-slo/Story 7_SLO_complete.m4a",
@@ -5225,7 +5278,7 @@
         }
       }
     }],
-    "sw-ger": [{
+    "de-lang": [{
       "title": "Bobba fährt zurück nach Hause",
       "titlePicture": "/learning-material/story-8/covers/Story 8_title_G.png",
       "fullAudio": "/learning-material/story-8/story-de/story-8-long-version_G_Komplett.mp3",

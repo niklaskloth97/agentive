@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-09-20T23:17:40.438Z",
+  "timestamp": "2025-09-21T11:36:37.711Z",
   "changes": [
     {
       "type": "new_activity",
@@ -655,7 +655,7 @@
       "storyId": "1",
       "activityId": "activity-1-1",
       "details": "Added new activity activity-1-1 to PC/Story 1 with languages: de, en, fr",
-      "newValue": "de (/activities/story1/PC/Story_1_LA_1_G.pdf), en (/activities/story1/PC/Story_1_PL_1_E.pdf), fr (/activities/story1/PC/Story_1_PL_1_F.pdf)",
+      "newValue": "de (/activities/story1/PC/Story1_PL_1_G.pdf), en (/activities/story1/PC/Story_1_PL_1_E.pdf), fr (/activities/story1/PC/Story_1_PL_1_F.pdf)",
       "action": "auto_added"
     },
     {
@@ -664,7 +664,7 @@
       "storyId": "1",
       "activityId": "activity-1-2",
       "details": "Added new activity activity-1-2 to PC/Story 1 with languages: de, en, fr",
-      "newValue": "de (/activities/story1/PC/Story_1_LA_2_G.pdf), en (/activities/story1/PC/Story_1_PL_2_E.pdf), fr (/activities/story1/PC/Story_1_PL_2_F.pdf)",
+      "newValue": "de (/activities/story1/PC/Story1_PL_2_G.pdf), en (/activities/story1/PC/Story_1_PL_2_E.pdf), fr (/activities/story1/PC/Story_1_PL_2_F.pdf)",
       "action": "auto_added"
     },
     {
@@ -673,7 +673,7 @@
       "storyId": "1",
       "activityId": "activity-1-3",
       "details": "Added new activity activity-1-3 to PC/Story 1 with languages: de, en, fr",
-      "newValue": "de (/activities/story1/PC/Story_1_LA_3_G.pdf), en (/activities/story1/PC/Story_1_PL_3_E.pdf), fr (/activities/story1/PC/Story_1_PL_3_F.pdf)",
+      "newValue": "de (/activities/story1/PC/Story1_PL_3_G.pdf), en (/activities/story1/PC/Story_1_PL_3_E.pdf), fr (/activities/story1/PC/Story_1_PL_3_F.pdf)",
       "action": "auto_added"
     },
     {
@@ -682,7 +682,7 @@
       "storyId": "2",
       "activityId": "activity-2-1",
       "details": "Added new activity activity-2-1 to PC/Story 2 with languages: de, en, fr",
-      "newValue": "de (/activities/story2/PC/Story2_LA_1_G.pdf), en (/activities/story2/PC/Story_2_PL_1_E.pdf), fr (/activities/story2/PC/Story_2_PL_1_F.pdf)",
+      "newValue": "de (/activities/story2/PC/Story2_PL_1_G.pdf), en (/activities/story2/PC/Story_2_PL_1_E.pdf), fr (/activities/story2/PC/Story_2_PL_1_F.pdf)",
       "action": "auto_added"
     },
     {
@@ -691,7 +691,7 @@
       "storyId": "2",
       "activityId": "activity-2-2",
       "details": "Added new activity activity-2-2 to PC/Story 2 with languages: de, en, fr",
-      "newValue": "de (/activities/story2/PC/Story2_LA_2_G.pdf), en (/activities/story2/PC/Story_2_PL_2_E.pdf), fr (/activities/story2/PC/Story_2_PL_2_F.pdf)",
+      "newValue": "de (/activities/story2/PC/Story2_PL_2_G.pdf), en (/activities/story2/PC/Story_2_PL_2_E.pdf), fr (/activities/story2/PC/Story_2_PL_2_F.pdf)",
       "action": "auto_added"
     },
     {
@@ -700,7 +700,7 @@
       "storyId": "2",
       "activityId": "activity-2-3",
       "details": "Added new activity activity-2-3 to PC/Story 2 with languages: de, en, fr",
-      "newValue": "de (/activities/story2/PC/Story2_LA_3_G.pdf), en (/activities/story2/PC/Story_2_PL_3_E.pdf), fr (/activities/story2/PC/Story_2_PL_3_F.pdf)",
+      "newValue": "de (/activities/story2/PC/Story2_PL_3_G.pdf), en (/activities/story2/PC/Story_2_PL_3_E.pdf), fr (/activities/story2/PC/Story_2_PL_3_F.pdf)",
       "action": "auto_added"
     },
     {
@@ -816,8 +816,8 @@
       "groupName": "PC",
       "storyId": "7",
       "activityId": "activity-7-1",
-      "details": "Added new activity activity-7-1 to PC/Story 7 with languages: en, fr, de",
-      "newValue": "en (/activities/story7/PC/Story_7_PL_1_E.pdf), fr (/activities/story7/PC/Story_7_PL_1_F.pdf), de (/activities/story7/PC/Story_7_PL_1_G.pdf)",
+      "details": "Added new activity activity-7-1 to PC/Story 7 with languages: fr, en, de",
+      "newValue": "fr (/activities/story7/PC/Story 7_PL_1_F.pdf), en (/activities/story7/PC/Story_7_PL_1_E.pdf), de (/activities/story7/PC/Story_7_PL_1_G.pdf)",
       "action": "auto_added"
     },
     {
@@ -825,8 +825,8 @@
       "groupName": "PC",
       "storyId": "7",
       "activityId": "activity-7-2",
-      "details": "Added new activity activity-7-2 to PC/Story 7 with languages: en, fr, de",
-      "newValue": "en (/activities/story7/PC/Story_7_PL_2_E.pdf), fr (/activities/story7/PC/Story_7_PL_2_F.pdf), de (/activities/story7/PC/Story_7_PL_2_G.pdf)",
+      "details": "Added new activity activity-7-2 to PC/Story 7 with languages: fr, en, de",
+      "newValue": "fr (/activities/story7/PC/Story 7_PL_2_F.pdf), en (/activities/story7/PC/Story_7_PL_2_E.pdf), de (/activities/story7/PC/Story_7_PL_2_G.pdf)",
       "action": "auto_added"
     },
     {
@@ -834,8 +834,8 @@
       "groupName": "PC",
       "storyId": "7",
       "activityId": "activity-7-3",
-      "details": "Added new activity activity-7-3 to PC/Story 7 with languages: en, fr, de",
-      "newValue": "en (/activities/story7/PC/Story_7_PL_3_E.pdf), fr (/activities/story7/PC/Story_7_PL_3_F.pdf), de (/activities/story7/PC/Story_7_PL_3_G.pdf)",
+      "details": "Added new activity activity-7-3 to PC/Story 7 with languages: fr, en, de",
+      "newValue": "fr (/activities/story7/PC/Story 7_PL_3_F.pdf), en (/activities/story7/PC/Story_7_PL_3_E.pdf), de (/activities/story7/PC/Story_7_PL_3_G.pdf)",
       "action": "auto_added"
     },
     {

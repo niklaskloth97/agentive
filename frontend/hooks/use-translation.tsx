@@ -15,7 +15,7 @@ const translations: Record<string, Record<string, string>> = {
     'English': 'Storytime',
     'French': 'Heure des Histoires',
     'Lux': 'Storytime',
-    'Slovenian': 'Zgodbe / Storytime',
+    'Slovenian': 'Zgodbe',
     'Italian': 'Ora delle Storie',
     'German': 'Geschichten',
     'Greek': 'Η ιστορία μας'
@@ -70,7 +70,7 @@ const translations: Record<string, Record<string, string>> = {
     'English': 'About AGENTIVE',
     'French': 'À propos d\'AGENTIVE',
     'Lux': 'À propos AGENTIVE',
-    'Slovenian': 'O projektu (AGENTIVE)',
+    'Slovenian': 'O projektu',
     'Italian': 'Riguardo AGENTIVE',
     'German': 'Über Agentive',
     'Greek': 'Σχετικά με το AGENTIVE'
@@ -142,7 +142,7 @@ const translations: Record<string, Record<string, string>> = {
     'English': 'Stories',
     'French': 'Histoires',
     'Lux': 'Geschichten',
-    'Slovenian': 'Zgodbe',
+    'Slovenian': 'Zgodb',
     'Italian': 'Storie',
     'German': 'Geschichten',
     'Greek': 'Ιστορίες'
@@ -475,7 +475,7 @@ const translations: Record<string, Record<string, string>> = {
     'English': 'What Can You Expect?',
     'French': 'À quoi pouvez-vous vous attendre ?',
     'Lux': 'Wat kënnt Dir erwaarden?',
-    'Slovenian': 'Kaj ponujamo boste tu našli?',
+    'Slovenian': 'Kaj boste tu našli?',
     'Italian': 'Cosa Puoi Aspettarti?',
     'German': 'Was können Sie erwarten?',
     'Greek': 'Τι σας προσφέρει;'
@@ -547,7 +547,7 @@ const translations: Record<string, Record<string, string>> = {
     'English': 'Visit our page',
     'French': 'Visitez notre page',
     'Lux': 'Kuckt op eis',
-    'Slovenian': 'Za več informacij obiščite stran',
+    'Slovenian': 'Za več informacij obiščite stran »Projektna skupina«',
     'Italian': 'Visita la nostra pagina',
     'German': 'Besuchen Sie unsere Seite',
     'Greek': 'Επισκεφθείτε τη σελίδα'
@@ -1060,7 +1060,7 @@ const translations: Record<string, Record<string, string>> = {
     'English': 'partners',
     'French': 'partenaires',
     'Lux': 'Partner',
-    'Slovenian': 'partnerji',
+    'Slovenian': 'Partnerjev',
     'Italian': 'partner',
     'German': 'Partner',
     'Greek': 'συνεργάτες'

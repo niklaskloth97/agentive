@@ -68,7 +68,7 @@ type Language = {
 };
 
 type LanguageGuide = {
-	id: "en" | "de" | "fr" | "svn" | "gr";
+	id: "en" | "de" | "fr" | "slo" | "gr";
 	label: string;
 	code: string;
 };
@@ -161,10 +161,10 @@ export const ACTIVITY_GROUPS: Record<
 								title: "Ma partie préférée de l’histoire",
 								pdfUrl: "/activities/story1/PC/Story_1_PL_1_F.pdf",
 							},
-							svn: {
-								label: "Slovenian",
-								pdfUrl: "",
-								title: "",
+							de: {
+								label: "German",
+								pdfUrl: "/activities/story1/PC/Story1_PL_1_G.pdf ",
+								title: "Mein Lieblingsteil der Geschichte",
 							},
 							ld: {
 							label: "Ladisch",
@@ -195,12 +195,11 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "",
 							title: "",
 						},
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
-							},
+						de: {
+								label: "German",
+								pdfUrl: "/activities/story1/PC/Story1_PL_2_G.pdf ",
+								title: "Details verstehen",
+						}
 					}
 					},
 					{
@@ -223,12 +222,11 @@ export const ACTIVITY_GROUPS: Record<
 							title: "",
 							pdfUrl: "",
 						},
-						svn: {
-								label: "Slovenian",
-								audioUrl: "", // Use your test audio
-								pdfUrl: "",
-								title: "",
-							}
+						de: {
+								label: "German",
+								pdfUrl: "/activities/story1/PC/Story1_PL_3_G.pdf ",
+								title: "Eine Geschichte nacherzählen",
+						}
 						},
 					}
 					]
@@ -255,16 +253,12 @@ export const ACTIVITY_GROUPS: Record<
 								title: "Lecture dialogique",
 								pdfUrl: "/activities/story2/PC/Story_2_PL_1_F.pdf",
 							}, 
-							ld: {
-								label: "Ladisch",
-								title: "",
-								pdfUrl: "",
+							de: {
+								label: "German",
+								pdfUrl: "/activities/story2/PC/Story2_PL_1_G.pdf ",
+								title: "Dialogisches Lesen",
 							},
-							svn: {
-								label: "Slovenian",
-								pdfUrl: "",
-								title: "",
-							}
+
 						},
 					},
 					{
@@ -289,11 +283,10 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "",
 							title: "",
 						},
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
+						de: {
+							label: "German",
+							pdfUrl: "/activities/story2/PC/Story2_PL_2_G.pdf ",
+							title: "Plurilinguales Theater",
 						}
 						}
 						},
@@ -317,11 +310,10 @@ export const ACTIVITY_GROUPS: Record<
 							title: "",
 							pdfUrl: "",
 						},
-						svn: {
-							label: "Slovenian",
-							audioUrl: "", // Use your test audio
-							pdfUrl: "",
-							title: "",
+							de: {
+								label: "German",
+								pdfUrl: "/activities/story2/PC/Story2_PL_3_G.pdf ",
+								title: "Zählen und verstehen",
 						}
 						},
 					}
@@ -667,6 +659,11 @@ export const ACTIVITY_GROUPS: Record<
 					{
 						id: "activity-6-1",
 						languages: {
+							en: {
+								label: "English",
+								title: "Laurentia. Liebe Laurentia mein",
+								pdfUrl: "/activities/story6/PC/Story_6_PL_1_E.pdf",
+							},
 							fr: {
 								label: "French",
 								title: "Laurentia. Liebe Laurentia mein",
@@ -694,6 +691,12 @@ export const ACTIVITY_GROUPS: Record<
 						id: "activity-6-2",
 						description: "",
 						languages: {
+						en: {
+							label: "English",
+							audioUrl: "/audio/test-en.opus",
+							pdfUrl: "/activities/story6/PC/Story_6_PL_2_E.pdf",
+							title: "Multilingual monster talks",
+						},
 						fr: {
 							label: "French",
 							audioUrl: "/audio/test-fr.opus",
@@ -724,6 +727,11 @@ export const ACTIVITY_GROUPS: Record<
 						type: "worksheet",
 						description: "",
 						languages: {
+						en: {
+							label: "English",
+							pdfUrl: "/activities/story6/PC/Story_6_PL_3_E.pdf",
+							title: "Attending a multilingual monsterparty",
+						},
 						fr: {
 							label: "French",
 							pdfUrl: "/activities/story6/PC/Story 6_PL_3_F.pdf",
@@ -1400,7 +1408,7 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 						en: {
 							label: "English",
-							pdfUrl: "/activities/story5/ELS/Story_5_ELS_E/Story_5_ELS_1_E.pdf",
+							pdfUrl: "/activities/story5/ELS/Story_5_ELS_1_E.pdf",
 							title: "Creating a class library",
 						},
 						fr: {
@@ -1723,7 +1731,8 @@ export const ACTIVITY_GROUPS: Record<
 					
 				],
 				}
-		],
+		]
+	
 	},
 	ICAU: {
 		stories: [
@@ -2703,7 +2712,7 @@ export const ACTIVITY_GROUPS: Record<
 								label: "English",
 								audioUrl: "/audio/test-en.opus", // Use your test audio
 								pdfUrl: "/activities/story1/LA/Story_1_LA_1_E.pdf",
-								title: "What's your name?",
+								title: "Comparing names",
 							},
 							fr: {
 								label: "French",
@@ -2739,7 +2748,7 @@ export const ACTIVITY_GROUPS: Record<
 								label: "English",
 								audioUrl: "/audio/test-en.opus",
 								pdfUrl: "/activities/story1/LA/Story_2_LA_2_E.pdf",
-								title: "Initial sound hunt",
+								title: "What is your name?",
 							},
 							fr: {
 								label: "French",
@@ -2751,19 +2760,13 @@ export const ACTIVITY_GROUPS: Record<
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story1/LA/Story_1_LA_2_G.pdf",
-								title: "WIE HEISST DU?",
+								title: "Wie heißt du?",
 							},
 							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story1/LA/Story_1_LA_2_S.pdf",
 								title: "KAKO TI JE IME?",
-							},
-							ld: {
-								label: "Ladisch",
-								audioUrl: "",
-								pdfUrl: "",
-								title: "",	
 							},
 						},
 					},
@@ -3437,7 +3440,7 @@ export const ACTIVITY_GROUPS: Record<
 								label: "English",
 								audioUrl: "/audio/test-en.opus",
 								pdfUrl: "/activities/story7/LA/Story_7_LA_2_E.pdf",
-								title: "Which holiday is it??",
+								title: "Which holiday is it?",
 							},
 							fr: {
 								label: "French",
@@ -3633,7 +3636,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
 			fr: {
 				url: "/learning-material/dialogic-reading-guide/Dialogic reading guide_F.pdf"
 			},
-			svn: {
+			slo: {
 				url: "/learning-material/dialogic-reading-guide/Dialogic reading guide_S.pdf"
 			},
 			gr: {
@@ -3653,7 +3656,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-1/reading-guide/Story 1_Story's reading guide_F.pdf"
             },
-            svn: {
+            slo: {
                 url: "/learning-material/story-1/reading-guide/Story 1_Story's reading guide_S.pdf"
             },
 			gr: {
@@ -3684,7 +3687,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-3/reading-guide/Story 3_Guide de lecture_F.pdf"
             },
-            svn: {
+            slo: {
                 url: "/learning-material/story-3/reading-guide/Story 3_Story's reading guide_S.pdf"
             }
         }
@@ -3701,7 +3704,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_F.pdf"
             },
-            svn: {
+            slo: {
                 url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_S.pdf"
             }
         }
@@ -3718,7 +3721,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-5/reading-guide/Story 5_Story's reading guide_F.pdf"
             },
-            svn: {
+            slo: {
                 url: "/learning-material/story-5/reading-guide/Story 5_Story's reading guide_S.pdf"
             }
         }
@@ -3735,7 +3738,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-6/reading-guide/Story 6_Story's reading guide_F.pdf"
             },
-            svn: {
+            slo: {
                 url: "/learning-material/story-6/reading-guide/Story 6_Story's reading guide_S.pdf"
             }
         }
@@ -3752,7 +3755,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-7/reading-guide/Story 7_Story's reading guide_F.pdf"
             },
-            svn: {
+            slo: {
                 url: "/learning-material/story-7/reading-guide/Story 7_Story's reading guide_S.pdf"
             }
         }
@@ -3769,7 +3772,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-8/reading-guide/Story 8_Story's reading guide_F.pdf"
             },
-            svn: {
+            slo: {
                 url: "/learning-material/story-8/reading-guide/Story 8_Story's reading guide_S.pdf"
             }
         }
