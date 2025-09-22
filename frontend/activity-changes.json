@@ -1,0 +1,877 @@
+{
+  "timestamp": "2025-09-21T11:36:37.711Z",
+  "changes": [
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "1",
+      "activityId": "activity-1-1",
+      "details": "Added new activity activity-1-1 to ELS/Story 1 with languages: en, fr, de",
+      "newValue": "en (/activities/story1/ELS/Story_1_ELS_1_E.pdf), fr (/activities/story1/ELS/Story_1_ELS_1_F.pdf), de (/activities/story1/ELS/Story_1_ELS_1_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "1",
+      "activityId": "activity-1-2",
+      "details": "Added new activity activity-1-2 to ELS/Story 1 with languages: en, fr, de",
+      "newValue": "en (/activities/story1/ELS/Story_1_ELS_2_E.pdf), fr (/activities/story1/ELS/Story_1_ELS_2_F.pdf), de (/activities/story1/ELS/Story_1_ELS_2_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "1",
+      "activityId": "activity-1-3",
+      "details": "Added new activity activity-1-3 to ELS/Story 1 with languages: en, fr, de",
+      "newValue": "en (/activities/story1/ELS/Story_1_ELS_3_E.pdf), fr (/activities/story1/ELS/Story_1_ELS_3_F.pdf), de (/activities/story1/ELS/Story_1_ELS_3_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "2",
+      "activityId": "activity-2-1",
+      "details": "Added new activity activity-2-1 to ELS/Story 2 with languages: en, fr, de",
+      "newValue": "en (/activities/story2/ELS/Story_2_ELS_1_E.pdf), fr (/activities/story2/ELS/Story_2_ELS_1_F.pdf), de (/activities/story2/ELS/Story_2_ELS_1_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "2",
+      "activityId": "activity-2-2",
+      "details": "Added new activity activity-2-2 to ELS/Story 2 with languages: en, fr, de",
+      "newValue": "en (/activities/story2/ELS/Story_2_ELS_2_E.pdf), fr (/activities/story2/ELS/Story_2_ELS_2_F.pdf), de (/activities/story2/ELS/Story_2_ELS_2_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "2",
+      "activityId": "activity-2-3",
+      "details": "Added new activity activity-2-3 to ELS/Story 2 with languages: en, fr, de",
+      "newValue": "en (/activities/story2/ELS/Story_2_ELS_3_E.pdf), fr (/activities/story2/ELS/Story_2_ELS_3_F.pdf), de (/activities/story2/ELS/Story_2_ELS_3_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "3",
+      "activityId": "activity-3-1",
+      "details": "Added new activity activity-3-1 to ELS/Story 3 with languages: en",
+      "newValue": "en (/activities/story3/ELS/Story_3_ELS_1_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "3",
+      "activityId": "activity-3-2",
+      "details": "Added new activity activity-3-2 to ELS/Story 3 with languages: fr, en",
+      "newValue": "fr (/activities/story3/ELS/Story 3_ELS_2_F.pdf), en (/activities/story3/ELS/Story_3_ELS_2_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "3",
+      "activityId": "activity-3-3",
+      "details": "Added new activity activity-3-3 to ELS/Story 3 with languages: fr, en",
+      "newValue": "fr (/activities/story3/ELS/Story 3_ELS_3_F.pdf), en (/activities/story3/ELS/Story_3_ELS_3_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "4",
+      "activityId": "activity-4-1",
+      "details": "Added new activity activity-4-1 to ELS/Story 4 with languages: fr, en, de",
+      "newValue": "fr (/activities/story4/ELS/Story 4_ELS_1_F.pdf), en (/activities/story4/ELS/Story_4_ELS_1_E.pdf), de (/activities/story4/ELS/Story_4_ELS_1_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "4",
+      "activityId": "activity-4-2",
+      "details": "Added new activity activity-4-2 to ELS/Story 4 with languages: fr, en, de",
+      "newValue": "fr (/activities/story4/ELS/Story 4_ELS_2_F.pdf), en (/activities/story4/ELS/Story_4_ELS_2_E.pdf), de (/activities/story4/ELS/Story_4_ELS_2_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "4",
+      "activityId": "activity-4-3",
+      "details": "Added new activity activity-4-3 to ELS/Story 4 with languages: fr, en, de",
+      "newValue": "fr (/activities/story4/ELS/Story 4_ELS_3_F.pdf), en (/activities/story4/ELS/Story_4_ELS_3_E.pdf), de (/activities/story4/ELS/Story_4_ELS_3_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "5",
+      "activityId": "activity-5-1",
+      "details": "Added new activity activity-5-1 to ELS/Story 5 with languages: fr, de, en",
+      "newValue": "fr (/activities/story5/ELS/Story 5_ELS_F/Story 5_ELS_1_F.pdf), de (/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_1_G.pdf), en (/activities/story5/ELS/Story_5_ELS_E/Story_5_ELS_1_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "5",
+      "activityId": "activity-5-2",
+      "details": "Added new activity activity-5-2 to ELS/Story 5 with languages: fr, de, en",
+      "newValue": "fr (/activities/story5/ELS/Story 5_ELS_F/Story 5_ELS_2_F.pdf), de (/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_2_G.pdf), en (/activities/story5/ELS/Story_5_ELS_E/Story_5_ELS_2_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "5",
+      "activityId": "activity-5-3",
+      "details": "Added new activity activity-5-3 to ELS/Story 5 with languages: fr, de, en",
+      "newValue": "fr (/activities/story5/ELS/Story 5_ELS_F/Story 5_ELS_3_F.pdf), de (/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_3_G.pdf), en (/activities/story5/ELS/Story_5_ELS_E/Story_5_ELS_3_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "6",
+      "activityId": "activity-6-1",
+      "details": "Added new activity activity-6-1 to ELS/Story 6 with languages: fr, en, de",
+      "newValue": "fr (/activities/story6/ELS/Story 6_ELS_1_F.pdf), en (/activities/story6/ELS/Story_6_ELS_1_E.pdf), de (/activities/story6/ELS/Story_6_ELS_1_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "6",
+      "activityId": "activity-6-2",
+      "details": "Added new activity activity-6-2 to ELS/Story 6 with languages: fr, en, de",
+      "newValue": "fr (/activities/story6/ELS/Story 6_ELS_2_F.pdf), en (/activities/story6/ELS/Story_6_ELS_2_E.pdf), de (/activities/story6/ELS/Story_6_ELS_2_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "6",
+      "activityId": "activity-6-3",
+      "details": "Added new activity activity-6-3 to ELS/Story 6 with languages: fr, en, de",
+      "newValue": "fr (/activities/story6/ELS/Story 6_ELS_3_F.pdf), en (/activities/story6/ELS/Story_6_ELS_3_E.pdf), de (/activities/story6/ELS/Story_6_ELS_3_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "7",
+      "activityId": "activity-7-1",
+      "details": "Added new activity activity-7-1 to ELS/Story 7 with languages: fr, en, de",
+      "newValue": "fr (/activities/story7/ELS/Story 7_ELS_1_F.pdf), en (/activities/story7/ELS/Story_7_ELS_1_E.pdf), de (/activities/story7/ELS/Story_7_ELS_1_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "7",
+      "activityId": "activity-7-2",
+      "details": "Added new activity activity-7-2 to ELS/Story 7 with languages: fr, en, de",
+      "newValue": "fr (/activities/story7/ELS/Story 7_ELS_2_F.pdf), en (/activities/story7/ELS/Story_7_ELS_2_E.pdf), de (/activities/story7/ELS/Story_7_ELS_2_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "7",
+      "activityId": "activity-7-3",
+      "details": "Added new activity activity-7-3 to ELS/Story 7 with languages: fr, en, de",
+      "newValue": "fr (/activities/story7/ELS/Story 7_ELS_3_F.pdf), en (/activities/story7/ELS/Story_7_ELS_3_E.pdf), de (/activities/story7/ELS/Story_7_ELS_3_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "8",
+      "activityId": "activity-8-1",
+      "details": "Added new activity activity-8-1 to ELS/Story 8 with languages: fr, en, de",
+      "newValue": "fr (/activities/story8/ELS/Story 8_ELS_1_F.pdf), en (/activities/story8/ELS/Story_8_ELS_1_E.pdf), de (/activities/story8/ELS/Story_8_ELS_1_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "8",
+      "activityId": "activity-8-2",
+      "details": "Added new activity activity-8-2 to ELS/Story 8 with languages: fr, en, de",
+      "newValue": "fr (/activities/story8/ELS/Story 8_ELS_2_F.pdf), en (/activities/story8/ELS/Story_8_ELS_2_E.pdf), de (/activities/story8/ELS/Story_8_ELS_2_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ELS",
+      "storyId": "8",
+      "activityId": "activity-8-3",
+      "details": "Added new activity activity-8-3 to ELS/Story 8 with languages: fr, en, de",
+      "newValue": "fr (/activities/story8/ELS/Story 8_ELS_3_F.pdf), en (/activities/story8/ELS/Story_8_ELS_3_E.pdf), de (/activities/story8/ELS/Story_8_ELS_3_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "1",
+      "activityId": "activity-1-1",
+      "details": "Added new activity activity-1-1 to ICAU/Story 1 with languages: en, fr, de, gr, svn",
+      "newValue": "en (/activities/story1/ICAU/Story_1_ICAU_1_E.pdf), fr (/activities/story1/ICAU/Story_1_ICAU_1_F.pdf), de (/activities/story1/ICAU/Story_1_ICAU_1_G.pdf), gr (/activities/story1/ICAU/Story_1_ICAU_1_GR.pdf), svn (/activities/story1/ICAU/Story_1_ICAU_1_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "1",
+      "activityId": "activity-1-2",
+      "details": "Added new activity activity-1-2 to ICAU/Story 1 with languages: en, fr, de, gr, svn",
+      "newValue": "en (/activities/story1/ICAU/Story_1_ICAU_2_E.pdf), fr (/activities/story1/ICAU/Story_1_ICAU_2_F.pdf), de (/activities/story1/ICAU/Story_1_ICAU_2_G.pdf), gr (/activities/story1/ICAU/Story_1_ICAU_2_GR.pdf), svn (/activities/story1/ICAU/Story_1_ICAU_2_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "1",
+      "activityId": "activity-1-3",
+      "details": "Added new activity activity-1-3 to ICAU/Story 1 with languages: en, fr, de, gr, svn",
+      "newValue": "en (/activities/story1/ICAU/Story_1_ICAU_3_E.pdf), fr (/activities/story1/ICAU/Story_1_ICAU_3_F.pdf), de (/activities/story1/ICAU/Story_1_ICAU_3_G.pdf), gr (/activities/story1/ICAU/Story_1_ICAU_3_GR.pdf), svn (/activities/story1/ICAU/Story_1_ICAU_3_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "2",
+      "activityId": "activity-2-1",
+      "details": "Added new activity activity-2-1 to ICAU/Story 2 with languages: de, en, fr, svn",
+      "newValue": "de (/activities/story2/ICAU/Story2_ICAU_1_G.pdf), en (/activities/story2/ICAU/Story_2_ICAU_1_E.pdf), fr (/activities/story2/ICAU/Story_2_ICAU_1_F.pdf), svn (/activities/story2/ICAU/Story_2_ICAU_1_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "2",
+      "activityId": "activity-2-2",
+      "details": "Added new activity activity-2-2 to ICAU/Story 2 with languages: de, en, fr, svn",
+      "newValue": "de (/activities/story2/ICAU/Story2_ICAU_2_G.pdf), en (/activities/story2/ICAU/Story_2_ICAU_2_E.pdf), fr (/activities/story2/ICAU/Story_2_ICAU_2_F.pdf), svn (/activities/story2/ICAU/Story_2_ICAU_2_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "2",
+      "activityId": "activity-2-3",
+      "details": "Added new activity activity-2-3 to ICAU/Story 2 with languages: de, en, fr, svn",
+      "newValue": "de (/activities/story2/ICAU/Story2_ICAU_3_G.pdf), en (/activities/story2/ICAU/Story_2_ICAU_3_E.pdf), fr (/activities/story2/ICAU/Story_2_ICAU_3_F.pdf), svn (/activities/story2/ICAU/Story_2_ICAU_3_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "3",
+      "activityId": "activity-3-1",
+      "details": "Added new activity activity-3-1 to ICAU/Story 3 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story3/ICAU/Story 3_ICAU_1_F.pdf), de (/activities/story3/ICAU/Story3_ICAU_1_G.pdf), en (/activities/story3/ICAU/Story_3_ICAU_1_E.pdf), svn (/activities/story3/ICAU/Story_3_ICAU_1_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "3",
+      "activityId": "activity-3-2",
+      "details": "Added new activity activity-3-2 to ICAU/Story 3 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story3/ICAU/Story 3_ICAU_2_F.pdf), de (/activities/story3/ICAU/Story3_ICAU_2_G.pdf), en (/activities/story3/ICAU/Story_3_ICAU_2_E.pdf), svn (/activities/story3/ICAU/Story_3_ICAU_2_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "3",
+      "activityId": "activity-3-3",
+      "details": "Added new activity activity-3-3 to ICAU/Story 3 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story3/ICAU/Story 3_ICAU_3_F.pdf), de (/activities/story3/ICAU/Story3_ICAU_3_G.pdf), en (/activities/story3/ICAU/Story_3_ICAU_3_E.pdf), svn (/activities/story3/ICAU/Story_3_ICAU_3_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "4",
+      "activityId": "activity-4-1",
+      "details": "Added new activity activity-4-1 to ICAU/Story 4 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story4/ICAU/Story 4_ICAU_1_F.pdf), de (/activities/story4/ICAU/Story4_ICAU_1_G.pdf), en (/activities/story4/ICAU/Story_4_ICAU_1_E.pdf), svn (/activities/story4/ICAU/Story_4_ICAU_1_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "4",
+      "activityId": "activity-4-2",
+      "details": "Added new activity activity-4-2 to ICAU/Story 4 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story4/ICAU/Story 4_ICAU_2_F.pdf), de (/activities/story4/ICAU/Story4_ICAU_2_G.pdf), en (/activities/story4/ICAU/Story_4_ICAU_2_E.pdf), svn (/activities/story4/ICAU/Story_4_ICAU_2_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "4",
+      "activityId": "activity-4-3",
+      "details": "Added new activity activity-4-3 to ICAU/Story 4 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story4/ICAU/Story 4_ICAU_3_F.pdf), de (/activities/story4/ICAU/Story4_ICAU_3_G.pdf), en (/activities/story4/ICAU/Story_4_ICAU_3_E.pdf), svn (/activities/story4/ICAU/Story_4_ICAU_3_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "5",
+      "activityId": "activity-5-1",
+      "details": "Added new activity activity-5-1 to ICAU/Story 5 with languages: en, fr, de, svn",
+      "newValue": "en (/activities/story5/ICAU/Story 5_ICAU_1_E.pdf), fr (/activities/story5/ICAU/Story 5_ICAU_1_F.pdf), de (/activities/story5/ICAU/Story5_ICAU_1_G.pdf), svn (/activities/story5/ICAU/Story_5_ICAU_1_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "5",
+      "activityId": "activity-5-2",
+      "details": "Added new activity activity-5-2 to ICAU/Story 5 with languages: en, fr, de, svn",
+      "newValue": "en (/activities/story5/ICAU/Story 5_ICAU_2_E.pdf), fr (/activities/story5/ICAU/Story 5_ICAU_2_F.pdf), de (/activities/story5/ICAU/Story5_ICAU_2_G.pdf), svn (/activities/story5/ICAU/Story_5_ICAU_2_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "5",
+      "activityId": "activity-5-3",
+      "details": "Added new activity activity-5-3 to ICAU/Story 5 with languages: en, fr, de, svn",
+      "newValue": "en (/activities/story5/ICAU/Story 5_ICAU_3_E.pdf), fr (/activities/story5/ICAU/Story 5_ICAU_3_F.pdf), de (/activities/story5/ICAU/Story5_ICAU_3_G.pdf), svn (/activities/story5/ICAU/Story_5_ICAU_3_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "6",
+      "activityId": "activity-6-1",
+      "details": "Added new activity activity-6-1 to ICAU/Story 6 with languages: fr, de, en",
+      "newValue": "fr (/activities/story6/ICAU/Story 6_ICAU_1_F.pdf), de (/activities/story6/ICAU/Story6_ICAU_1_G.pdf), en (/activities/story6/ICAU/Story_6_ICAU_1_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "6",
+      "activityId": "activity-6-2",
+      "details": "Added new activity activity-6-2 to ICAU/Story 6 with languages: fr, de, en",
+      "newValue": "fr (/activities/story6/ICAU/Story 6_ICAU_2_F.pdf), de (/activities/story6/ICAU/Story6_ICAU_2_G.pdf), en (/activities/story6/ICAU/Story_6_ICAU_2_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "6",
+      "activityId": "activity-6-3",
+      "details": "Added new activity activity-6-3 to ICAU/Story 6 with languages: fr, de, en",
+      "newValue": "fr (/activities/story6/ICAU/Story 6_ICAU_3_F.pdf), de (/activities/story6/ICAU/Story6_ICAU_3_G.pdf), en (/activities/story6/ICAU/Story_6_ICAU_3_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "7",
+      "activityId": "activity-7-1",
+      "details": "Added new activity activity-7-1 to ICAU/Story 7 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story7/ICAU/Story 7_ICAU_1_F.pdf), de (/activities/story7/ICAU/Story7_ICAU_1_G.pdf), en (/activities/story7/ICAU/Story_7_ICAU_1_E.pdf), svn (/activities/story7/ICAU/Story_7_ICAU_1_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "7",
+      "activityId": "activity-7-2",
+      "details": "Added new activity activity-7-2 to ICAU/Story 7 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story7/ICAU/Story 7_ICAU_2_F.pdf), de (/activities/story7/ICAU/Story7_ICAU_2_G.pdf), en (/activities/story7/ICAU/Story_7_ICAU_2_E.pdf), svn (/activities/story7/ICAU/Story_7_ICAU_2_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "7",
+      "activityId": "activity-7-3",
+      "details": "Added new activity activity-7-3 to ICAU/Story 7 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story7/ICAU/Story 7_ICAU_3_F.pdf), de (/activities/story7/ICAU/Story7_ICAU_3_G.pdf), en (/activities/story7/ICAU/Story_7_ICAU_3_E.pdf), svn (/activities/story7/ICAU/Story_7_ICAU_3_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "8",
+      "activityId": "activity-8-1",
+      "details": "Added new activity activity-8-1 to ICAU/Story 8 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story8/ICAU/Story 8_ICAU_1_F.pdf), de (/activities/story8/ICAU/Story8_ICAU_1_G.pdf), en (/activities/story8/ICAU/Story_8_ICAU_1_E.pdf), svn (/activities/story8/ICAU/Story_8_ICAU_1_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "8",
+      "activityId": "activity-8-2",
+      "details": "Added new activity activity-8-2 to ICAU/Story 8 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story8/ICAU/Story 8_ICAU_2_F.pdf), de (/activities/story8/ICAU/Story8_ICAU_2_G.pdf), en (/activities/story8/ICAU/Story_8_ICAU_2_E.pdf), svn (/activities/story8/ICAU/Story_8_ICAU_2_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "ICAU",
+      "storyId": "8",
+      "activityId": "activity-8-3",
+      "details": "Added new activity activity-8-3 to ICAU/Story 8 with languages: fr, svn, de, en",
+      "newValue": "fr (/activities/story8/ICAU/Story 8_ICAU_3_F.pdf), svn (/activities/story8/ICAU/Story 8_ICAU_3_S.pdf), de (/activities/story8/ICAU/Story8_ICAU_3_G.pdf), en (/activities/story8/ICAU/Story_8_ICAU_3_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "1",
+      "activityId": "activity-1-1",
+      "details": "Added new activity activity-1-1 to LA/Story 1 with languages: en, fr, de, svn",
+      "newValue": "en (/activities/story1/LA/Story_1_LA_1_E.pdf), fr (/activities/story1/LA/Story_1_LA_1_F.pdf), de (/activities/story1/LA/Story_1_LA_1_G.pdf), svn (/activities/story1/LA/Story_1_LA_1_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "1",
+      "activityId": "activity-1-2",
+      "details": "Added new activity activity-1-2 to LA/Story 1 with languages: fr, de, svn, en",
+      "newValue": "fr (/activities/story1/LA/Story_1_LA_2_F.pdf), de (/activities/story1/LA/Story_1_LA_2_G.pdf), svn (/activities/story1/LA/Story_1_LA_2_S.pdf), en (/activities/story1/LA/Story_2_LA_2_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "1",
+      "activityId": "activity-1-3",
+      "details": "Added new activity activity-1-3 to LA/Story 1 with languages: en, fr, de, svn",
+      "newValue": "en (/activities/story1/LA/Story_1_LA_3_E.pdf), fr (/activities/story1/LA/Story_1_LA_3_F.pdf), de (/activities/story1/LA/Story_1_LA_3_G.pdf), svn (/activities/story1/LA/Story_1_LA_3_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "2",
+      "activityId": "activity-2-1",
+      "details": "Added new activity activity-2-1 to LA/Story 2 with languages: en, fr, de, svn",
+      "newValue": "en (/activities/story2/LA/Story_2_LA_1_E.pdf), fr (/activities/story2/LA/Story_2_LA_1_F.pdf), de (/activities/story2/LA/Story_2_LA_1_G.pdf), svn (/activities/story2/LA/Story_2_LA_1_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "2",
+      "activityId": "activity-2-2",
+      "details": "Added new activity activity-2-2 to LA/Story 2 with languages: en, fr, de, svn",
+      "newValue": "en (/activities/story2/LA/Story_2_LA_2_E.pdf), fr (/activities/story2/LA/Story_2_LA_2_F.pdf), de (/activities/story2/LA/Story_2_LA_2_G.pdf), svn (/activities/story2/LA/Story_2_LA_2_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "2",
+      "activityId": "activity-2-3",
+      "details": "Added new activity activity-2-3 to LA/Story 2 with languages: en, fr, de, svn, fr",
+      "newValue": "en (/activities/story2/LA/Story_2_LA_3_E.pdf), fr (/activities/story2/LA/Story_2_LA_3_F.pdf), de (/activities/story2/LA/Story_2_LA_3_G.pdf), svn (/activities/story2/LA/Story_2_LA_3_S.pdf), fr (/activities/story2/LA/Story_2_PL_3_F.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "3",
+      "activityId": "activity-3-1",
+      "details": "Added new activity activity-3-1 to LA/Story 3 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story3/LA/Story 3_LA_1_F.pdf), de (/activities/story3/LA/Story3_LA_1_G.pdf), en (/activities/story3/LA/Story_3_LA_1_E.pdf), svn (/activities/story3/LA/Story_3_LA_1_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "3",
+      "activityId": "activity-3-2",
+      "details": "Added new activity activity-3-2 to LA/Story 3 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story3/LA/Story 3_LA_2_F.pdf), de (/activities/story3/LA/Story3_LA_2_G.pdf), en (/activities/story3/LA/Story_3_LA_2_E.pdf), svn (/activities/story3/LA/Story_3_LA_2_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "3",
+      "activityId": "activity-3-3",
+      "details": "Added new activity activity-3-3 to LA/Story 3 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story3/LA/Story 3_LA_3_F.pdf), de (/activities/story3/LA/Story3_LA_3_G.pdf), en (/activities/story3/LA/Story_3_LA_3_E.pdf), svn (/activities/story3/LA/Story_3_LA_3_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "4",
+      "activityId": "activity-4-1",
+      "details": "Added new activity activity-4-1 to LA/Story 4 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story4/LA/Story 4_LA_1_F.pdf), de (/activities/story4/LA/Story4_PL_1_G.pdf), en (/activities/story4/LA/Story_4_LA_1_E.pdf), svn (/activities/story4/LA/Story_4_LA_1_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "4",
+      "activityId": "activity-4-2",
+      "details": "Added new activity activity-4-2 to LA/Story 4 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story4/LA/Story 4_LA_2_F.pdf), de (/activities/story4/LA/Story4_PL_2_G.pdf), en (/activities/story4/LA/Story_4_LA_2_E.pdf), svn (/activities/story4/LA/Story_4_LA_2_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "4",
+      "activityId": "activity-4-3",
+      "details": "Added new activity activity-4-3 to LA/Story 4 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story4/LA/Story 4_LA_3_F.pdf), de (/activities/story4/LA/Story4_PL_3_G.pdf), en (/activities/story4/LA/Story_4_LA_3_E.pdf), svn (/activities/story4/LA/Story_4_LA_3_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "5",
+      "activityId": "activity-5-1",
+      "details": "Added new activity activity-5-1 to LA/Story 5 with languages: en, fr, de, svn",
+      "newValue": "en (/activities/story5/LA/Story 5_LA_E/Story_5_LA_1_E.pdf), fr (/activities/story5/LA/Story 5_LA_F/Story 5_LA_1_F.pdf), de (/activities/story5/LA/Story 5_LA_G/Story5_PL_1_G.pdf), svn (/activities/story5/LA/Story 5_LA_S/Story_5_LA_1_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "5",
+      "activityId": "activity-5-2",
+      "details": "Added new activity activity-5-2 to LA/Story 5 with languages: en, fr, de, svn",
+      "newValue": "en (/activities/story5/LA/Story 5_LA_E/Story_5_LA_2_E.pdf), fr (/activities/story5/LA/Story 5_LA_F/Story 5_LA_2_F.pdf), de (/activities/story5/LA/Story 5_LA_G/Story5_PL_2_G.pdf), svn (/activities/story5/LA/Story 5_LA_S/Story_5_LA_2_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "5",
+      "activityId": "activity-5-3",
+      "details": "Added new activity activity-5-3 to LA/Story 5 with languages: en, fr, de, svn",
+      "newValue": "en (/activities/story5/LA/Story 5_LA_E/Story_5_LA_3_E.pdf), fr (/activities/story5/LA/Story 5_LA_F/Story 5_LA_3_F.pdf), de (/activities/story5/LA/Story 5_LA_G/Story5_PL_3_G.pdf), svn (/activities/story5/LA/Story 5_LA_S/Story_5_LA_3_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "6",
+      "activityId": "activity-6-1",
+      "details": "Added new activity activity-6-1 to LA/Story 6 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story6/LA/Story 6_LA_1_F.pdf), de (/activities/story6/LA/Story6_LA_1_G.pdf), en (/activities/story6/LA/Story_6_LA_1_E.pdf), svn (/activities/story6/LA/Story_6_LA_1_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "6",
+      "activityId": "activity-6-2",
+      "details": "Added new activity activity-6-2 to LA/Story 6 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story6/LA/Story 6_LA_2_F.pdf), de (/activities/story6/LA/Story6_LA_2_G.pdf), en (/activities/story6/LA/Story_6_LA_2_E.pdf), svn (/activities/story6/LA/Story_6_LA_2_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "6",
+      "activityId": "activity-6-3",
+      "details": "Added new activity activity-6-3 to LA/Story 6 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story6/LA/Story 6_LA_3_F.pdf), de (/activities/story6/LA/Story6_LA_3_G.pdf), en (/activities/story6/LA/Story_6_LA_3_E.pdf), svn (/activities/story6/LA/Story_6_LA_3_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "7",
+      "activityId": "activity-7-1",
+      "details": "Added new activity activity-7-1 to LA/Story 7 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story7/LA/Story 7_LA_1_F.pdf), de (/activities/story7/LA/Story7_LA_1_G.pdf), en (/activities/story7/LA/Story_7_LA_1_E.pdf), svn (/activities/story7/LA/Story_7_LA_1_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "7",
+      "activityId": "activity-7-2",
+      "details": "Added new activity activity-7-2 to LA/Story 7 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story7/LA/Story 7_LA_2_F.pdf), de (/activities/story7/LA/Story7_LA_2_G.pdf), en (/activities/story7/LA/Story_7_LA_2_E.pdf), svn (/activities/story7/LA/Story_7_LA_2_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "7",
+      "activityId": "activity-7-3",
+      "details": "Added new activity activity-7-3 to LA/Story 7 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story7/LA/Story 7_LA_3_F.pdf), de (/activities/story7/LA/Story7_LA_3_G.pdf), en (/activities/story7/LA/Story_7_LA_3_E.pdf), svn (/activities/story7/LA/Story_7_LA_3_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "8",
+      "activityId": "activity-8-1",
+      "details": "Added new activity activity-8-1 to LA/Story 8 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story8/LA/Story 8_LA_1_F.pdf), de (/activities/story8/LA/Story8_LA_1_G.pdf), en (/activities/story8/LA/Story_8_LA_1_E.pdf), svn (/activities/story8/LA/Story_8_LA_1_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "8",
+      "activityId": "activity-8-2",
+      "details": "Added new activity activity-8-2 to LA/Story 8 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story8/LA/Story 8_LA_2_F.pdf), de (/activities/story8/LA/Story8_LA_2_G.pdf), en (/activities/story8/LA/Story_8_LA_2_E.pdf), svn (/activities/story8/LA/Story_8_LA_2_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "LA",
+      "storyId": "8",
+      "activityId": "activity-8-3",
+      "details": "Added new activity activity-8-3 to LA/Story 8 with languages: fr, de, en, svn",
+      "newValue": "fr (/activities/story8/LA/Story 8_LA_3_F.pdf), de (/activities/story8/LA/Story8_LA_3_G.pdf), en (/activities/story8/LA/Story_8_LA_3_E.pdf), svn (/activities/story8/LA/Story_8_LA_3_S.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "1",
+      "activityId": "activity-1-1",
+      "details": "Added new activity activity-1-1 to PC/Story 1 with languages: de, en, fr",
+      "newValue": "de (/activities/story1/PC/Story1_PL_1_G.pdf), en (/activities/story1/PC/Story_1_PL_1_E.pdf), fr (/activities/story1/PC/Story_1_PL_1_F.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "1",
+      "activityId": "activity-1-2",
+      "details": "Added new activity activity-1-2 to PC/Story 1 with languages: de, en, fr",
+      "newValue": "de (/activities/story1/PC/Story1_PL_2_G.pdf), en (/activities/story1/PC/Story_1_PL_2_E.pdf), fr (/activities/story1/PC/Story_1_PL_2_F.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "1",
+      "activityId": "activity-1-3",
+      "details": "Added new activity activity-1-3 to PC/Story 1 with languages: de, en, fr",
+      "newValue": "de (/activities/story1/PC/Story1_PL_3_G.pdf), en (/activities/story1/PC/Story_1_PL_3_E.pdf), fr (/activities/story1/PC/Story_1_PL_3_F.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "2",
+      "activityId": "activity-2-1",
+      "details": "Added new activity activity-2-1 to PC/Story 2 with languages: de, en, fr",
+      "newValue": "de (/activities/story2/PC/Story2_PL_1_G.pdf), en (/activities/story2/PC/Story_2_PL_1_E.pdf), fr (/activities/story2/PC/Story_2_PL_1_F.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "2",
+      "activityId": "activity-2-2",
+      "details": "Added new activity activity-2-2 to PC/Story 2 with languages: de, en, fr",
+      "newValue": "de (/activities/story2/PC/Story2_PL_2_G.pdf), en (/activities/story2/PC/Story_2_PL_2_E.pdf), fr (/activities/story2/PC/Story_2_PL_2_F.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "2",
+      "activityId": "activity-2-3",
+      "details": "Added new activity activity-2-3 to PC/Story 2 with languages: de, en, fr",
+      "newValue": "de (/activities/story2/PC/Story2_PL_3_G.pdf), en (/activities/story2/PC/Story_2_PL_3_E.pdf), fr (/activities/story2/PC/Story_2_PL_3_F.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "3",
+      "activityId": "activity-3-1",
+      "details": "Added new activity activity-3-1 to PC/Story 3 with languages: fr, de, en",
+      "newValue": "fr (/activities/story3/PC/Story 3_PL_1_F.pdf), de (/activities/story3/PC/Story3_PL_1_G.pdf), en (/activities/story3/PC/Story_3_PL_1_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "3",
+      "activityId": "activity-3-2",
+      "details": "Added new activity activity-3-2 to PC/Story 3 with languages: fr, de, en",
+      "newValue": "fr (/activities/story3/PC/Story 3_PL_2_F.pdf), de (/activities/story3/PC/Story3_PL_2_G.pdf), en (/activities/story3/PC/Story_3_PL_2_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "3",
+      "activityId": "activity-3-3",
+      "details": "Added new activity activity-3-3 to PC/Story 3 with languages: fr, de, en",
+      "newValue": "fr (/activities/story3/PC/Story 3_PL_3_F.pdf), de (/activities/story3/PC/Story 3_PL_3_G.pdf), en (/activities/story3/PC/Story_3_PL_3_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "4",
+      "activityId": "activity-4-1",
+      "details": "Added new activity activity-4-1 to PC/Story 4 with languages: fr, de, en",
+      "newValue": "fr (/activities/story4/PC/Story 4_PL_1_F.pdf), de (/activities/story4/PC/Story4_PL_1_G.pdf), en (/activities/story4/PC/Story_4_PL_1_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "4",
+      "activityId": "activity-4-2",
+      "details": "Added new activity activity-4-2 to PC/Story 4 with languages: fr, de, en",
+      "newValue": "fr (/activities/story4/PC/Story 4_PL_2_F.pdf), de (/activities/story4/PC/Story4_PL_2_G.pdf), en (/activities/story4/PC/Story_4_PL_2_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "4",
+      "activityId": "activity-4-3",
+      "details": "Added new activity activity-4-3 to PC/Story 4 with languages: fr, de, en",
+      "newValue": "fr (/activities/story4/PC/Story 4_PL_3_F.pdf), de (/activities/story4/PC/Story4_PL_3_G.pdf), en (/activities/story4/PC/Story_4_PL_3_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "5",
+      "activityId": "activity-5-1",
+      "details": "Added new activity activity-5-1 to PC/Story 5 with languages: fr, fr, de, en",
+      "newValue": "fr (/activities/story5/PC/Story 5_PL_F/Story 5_PL_1_F.pdf), fr (/activities/story5/PC/Story 5_PL_F/Story5_PL_1_F.pdf), de (/activities/story5/PC/Story 5_PL_G/Story5_PL_1_G.pdf), en (/activities/story5/PC/Story_5_PL_E/Story_5_PL_1_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "5",
+      "activityId": "activity-5-2",
+      "details": "Added new activity activity-5-2 to PC/Story 5 with languages: fr, fr, de, en",
+      "newValue": "fr (/activities/story5/PC/Story 5_PL_F/Story 5_PL_2_F.pdf), fr (/activities/story5/PC/Story 5_PL_F/Story5_PL_2_F.pdf), de (/activities/story5/PC/Story 5_PL_G/Story5_PL_2_G.pdf), en (/activities/story5/PC/Story_5_PL_E/Story_5_PL_2_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "5",
+      "activityId": "activity-5-3",
+      "details": "Added new activity activity-5-3 to PC/Story 5 with languages: fr, fr, de, en",
+      "newValue": "fr (/activities/story5/PC/Story 5_PL_F/Story 5_PL_3_F.pdf), fr (/activities/story5/PC/Story 5_PL_F/Story5_PL_3_F.pdf), de (/activities/story5/PC/Story 5_PL_G/Story5_PL_3_G.pdf), en (/activities/story5/PC/Story_5_PL_E/Story_5_PL_3_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "6",
+      "activityId": "activity-6-1",
+      "details": "Added new activity activity-6-1 to PC/Story 6 with languages: fr, de",
+      "newValue": "fr (/activities/story6/PC/Story 6_PL_1_F.pdf), de (/activities/story6/PC/Story6_PL_1_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "6",
+      "activityId": "activity-6-2",
+      "details": "Added new activity activity-6-2 to PC/Story 6 with languages: fr, de",
+      "newValue": "fr (/activities/story6/PC/Story 6_PL_2_F.pdf), de (/activities/story6/PC/Story6_PL_2_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "6",
+      "activityId": "activity-6-3",
+      "details": "Added new activity activity-6-3 to PC/Story 6 with languages: fr, de",
+      "newValue": "fr (/activities/story6/PC/Story 6_PL_3_F.pdf), de (/activities/story6/PC/Story6_PL_3_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "7",
+      "activityId": "activity-7-1",
+      "details": "Added new activity activity-7-1 to PC/Story 7 with languages: fr, en, de",
+      "newValue": "fr (/activities/story7/PC/Story 7_PL_1_F.pdf), en (/activities/story7/PC/Story_7_PL_1_E.pdf), de (/activities/story7/PC/Story_7_PL_1_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "7",
+      "activityId": "activity-7-2",
+      "details": "Added new activity activity-7-2 to PC/Story 7 with languages: fr, en, de",
+      "newValue": "fr (/activities/story7/PC/Story 7_PL_2_F.pdf), en (/activities/story7/PC/Story_7_PL_2_E.pdf), de (/activities/story7/PC/Story_7_PL_2_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "7",
+      "activityId": "activity-7-3",
+      "details": "Added new activity activity-7-3 to PC/Story 7 with languages: fr, en, de",
+      "newValue": "fr (/activities/story7/PC/Story 7_PL_3_F.pdf), en (/activities/story7/PC/Story_7_PL_3_E.pdf), de (/activities/story7/PC/Story_7_PL_3_G.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "8",
+      "activityId": "activity-8-1",
+      "details": "Added new activity activity-8-1 to PC/Story 8 with languages: fr, de, en",
+      "newValue": "fr (/activities/story8/PC/Story 8_PL_1_F.pdf), de (/activities/story8/PC/Story8_PL_1_G.pdf), en (/activities/story8/PC/Story_8_PL_1_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "8",
+      "activityId": "activity-8-2",
+      "details": "Added new activity activity-8-2 to PC/Story 8 with languages: fr, de, en",
+      "newValue": "fr (/activities/story8/PC/Story 8_PL_2_F.pdf), de (/activities/story8/PC/Story8_PL_2_G.pdf), en (/activities/story8/PC/Story_8_PL_2_E.pdf)",
+      "action": "auto_added"
+    },
+    {
+      "type": "new_activity",
+      "groupName": "PC",
+      "storyId": "8",
+      "activityId": "activity-8-3",
+      "details": "Added new activity activity-8-3 to PC/Story 8 with languages: fr, de, en",
+      "newValue": "fr (/activities/story8/PC/Story 8_PL_3_F.pdf), de (/activities/story8/PC/Story8_PL_3_G.pdf), en (/activities/story8/PC/Story_8_PL_3_E.pdf)",
+      "action": "auto_added"
+    }
+  ],
+  "summary": {
+    "newActivities": 96,
+    "languagesAdded": 0,
+    "urlsUpdated": 0,
+    "autoChanges": 96,
+    "userApprovedChanges": 0,
+    "userRejectedChanges": 0
+  }
+}

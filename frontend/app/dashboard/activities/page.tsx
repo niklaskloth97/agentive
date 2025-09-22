@@ -58,6 +58,7 @@ function ActivityGuideSelector({
       'fr': 'F', 
       'de': 'German',
       'gr': 'GR',  
+      'svn': 'S'
     };
     
     console.log('Mapping language:', language, 'to:', languageMap[language]); // Debug log
