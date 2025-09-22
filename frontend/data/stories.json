@@ -1523,7 +1523,7 @@
           "audioUrl": ""
         },
         "4": {
-          "text": "  The children take Bobba’s hands to lead him into the water. “Come on, Bobba, let’s go!” But Bobba doesn’t want to move.",
+          "text": "The children take Bobba’s hands to lead him into the water. “Come on, Bobba, let’s go!” But Bobba doesn’t want to move.",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_4.jpg",
           "audioUrl": ""
         },
@@ -2563,53 +2563,53 @@
     "sv": [{
       "title": "Bobba prespi pri prijateljici",
       "titlePicture": "/learning-material/story-4/story-slo/Story 4_2 title_SL.jpg",
-      "fullAudio": "/learning-material/story-4/story-slo/Recording 4.m4a",
+      "fullAudio": "/learning-material/story-4/story-slo/Story 4_SLO_complete (1).m4a",
       "fullText": "/learning-material/story-4/story-slo/Story4_SLO.pdf",
       "pages": {
         "0": {
           "text": "Bobba prespi pri prijateljici",
           "imageUrl": "/learning-material/story-4/story-slo/Story 4_2 title_SL.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-4/story-slo/Story 4_SLO_title.m4a"
         },
         "1": {
           "text": "Ob koncu dolgega dne se Ben, Alex in Olivia odpravijo domov. \"Kje boš pa ti spal, Bobba?\" vpraša Olivia. Bobba jo začudeno pogleda. Olivia ga prime za roko in reče: \"Lahko greš z mano domov.\"",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-4/story-slo/Story 4_SLO_1.m4a"
         },
         "2": {
           "text": "Bobba in Olivia sta v njeni sobi. Olivia vzame svojega konjička in meč. \"Igrajva se viteze!\" \"Ah, ludi kavalirojn,\" reče Bobba in prime meč. \"Greva se viteški dvoboj,\" predlaga Olivia.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_2.jpeg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-4/story-slo/Story 4_SLO_2.m4a"
         },
         "3": {
           "text": "Olivia je lačna. \"Hočem kos kruha!\" Bobba je zmeden, ker je ne razume. Sledi ji v kuhinjo. Olivia odpre hladilnik.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_3.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-4/story-slo/Story 4_SLO_3.m4a"
         },
         "4": {
           "text": "\"Kaj ti damo v sendvič?\" Bobba ne odgovori, le pogleda Olivio. Potem si na kruh da vse, kar mu pride pod roko. Nasmehne se in reče: \"Dober tek!\"",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_4.jpeg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-4/story-slo/Story 4_SLO_4.m4a"
         },
         "5": {
           "text": "Po jedi si želita umiti zobe. Bobba močno pritisne na tubo zobne paste, ki brizgne po tleh. Bobba in Olivia se krohotata.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_5.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-4/story-slo/Story 4_SLO_5.m4a"
         },
         "6": {
           "text": " Olivia pokaže Bobbi, kako stisniti pasto na ščetko. \"Poglej, enostavno je!\" Bobba prikima in poskuša posnemati Olivio. \"Uspelo ti je!\" Olivia in Bobba si umivata zobe in se gledata v ogledalu.",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_6.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-4/story-slo/Story 4_SLO_6.m4a"
         },
         "7": {
           "text": "Vstopi Oliviina mama. \"Pospraviti?\" vpraša Bobba. Mama prikima in skupaj pobrišejo tla. \"Zdaj pa spat!\" pravi mama, Olivia pa vzklikne: \"Jaz bi se še igrala!\" Mama ne popusti. ",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_7.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-4/story-slo/Story 4_SLO_7.m4a"
         },
         "8": {
           "text": "Olivia se pokrije z odejo. \"Zdaj pa spiva!\" Bobba se pogrne s preprogo. \"Dormi,\" reče in Olivia se nasmehne. ",
           "imageUrl": "/learning-material/story-4/story-en/Story 4_8.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-4/story-slo/Story 4_SLO_8.m4a"
         }
       }
   }],
@@ -2617,7 +2617,7 @@
       "title": "Bobba dorme a casa di un’amica",
       "titlePicture": "/learning-material/story-4/story-it/Story 4_2 title_IT.jpg",
       "fullAudio": "/learning-material/story-4/story-it/Story 4_Italiano.mp3",
-      "fullText": "",
+      "fullText": "/learning-material/story-4/story-it/Story 4_Italian.pdf",
       "pages": {
         "0": {
           "text": "Bobba dorme a casa di un’amica",

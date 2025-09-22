@@ -1183,11 +1183,11 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story3/ELS/Story 3_ELS_1_F-1.pdf",
 							title: "Écrire dans le sable à l’intérieur",
 						}, 
-						ld: {
-                            label: "Ladisch",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus", // Use your test audio
+							pdfUrl: "/activities/story3/ELS/Story_3_ELS_1_G.pdf",
+							title: "Im Sand schreiben, drinnen",
                         }
 					}, 
 				},//ich glaube hier fehlt eine Klammer zu }, bin mir aber nicht sicher (Mara)
@@ -1206,14 +1206,15 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story3/ELS/Story 3_ELS_2_F.pdf",
 							title: "Écrire dans le sable à l’extérieur",
 						}, 
-						ld: {
-                            label: "Ladisch",
-                            audioUrl: "",
-                            pdfUrl: "",
-                            title: "",
-                        }
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus",
+							pdfUrl: "/activities/story3/ELS/Story_3_ELS_2_G.pdf",
+							title: "Im Sand schreiben, draußen",
 						},
 					},
+				},
+				
 					{
 						id: "activity-3-3",
 						description: "Learn words related to space in different languages",
@@ -1228,14 +1229,15 @@ export const ACTIVITY_GROUPS: Record<
 							pdfUrl: "/activities/story3/ELS/Story 3_ELS_3_F.pdf",
 							title: "Des mots comme décorations",
 						}, 
-						ld: {
-							label: "Ladisch",
-							title: "",
-							pdfUrl: "",
-						}
+						de: {
+							label: "German",
+							audioUrl: "/audio/test-de.opus",
+							pdfUrl: "/activities/story3/ELS/Story_3_ELS_3_G.pdf",
+							title: "Wörter kustvoll gestalten",
 						},
 					}
-					]
+				}
+				]
 				
 				],
 				},
@@ -3673,6 +3675,12 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-2/reading-guide/Story 2_Guide de lecture_F.pdf"
             },
+			de: {
+                url: "/learning-material/story-3/reading-guide/Story_2_Story's_reading_guide_G.pdf"
+            },
+			slo: {
+                url: "/learning-material/story-3/reading-guide/Story 2_Dialogic reading guide_S.pdf"
+            }
         }
     },
     "story-3-reading": {
@@ -3682,13 +3690,13 @@ export const GUIDES: Record<GuideKey, Guide> = {
                 url: "/learning-material/story-3/reading-guide/Story 3_Story's reading guide_E.pdf"
             },
             de: {
-                url: "/learning-material/story-3/reading-guide/Story 3_Story's reading guide_G.pdf"
+                url: "/learning-material/story-3/reading-guide/Story_3_Story's_reading_guide_G.pdf"
             },
             fr: {
                 url: "/learning-material/story-3/reading-guide/Story 3_Guide de lecture_F.pdf"
             },
             slo: {
-                url: "/learning-material/story-3/reading-guide/Story 3_Story's reading guide_S.pdf"
+                url: "/learning-material/story-3/reading-guide/Story 3_Dialogic reading guide_S.pdf"
             }
         }
     },
@@ -3699,13 +3707,13 @@ export const GUIDES: Record<GuideKey, Guide> = {
                 url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_E.pdf"
             },
             de: {
-                url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_G.pdf"
+                url: "/learning-material/story-4/reading-guide/Story_4_Story's_reading_guide_G.pdf"
             },
             fr: {
                 url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_F.pdf"
             },
             slo: {
-                url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_S.pdf"
+                url: "/learning-material/story-4/reading-guide/Story 4_Dialogic reading guide_S.pdf"
             }
         }
     },
@@ -3719,7 +3727,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
                 url: "/learning-material/story-5/reading-guide/Story 5_Story's reading guide_G.pdf"
             },
             fr: {
-                url: "/learning-material/story-5/reading-guide/Story 5_Story's reading guide_F.pdf"
+                url: "/learning-material/story-5/reading-guide/Story 5_Guide de lecture_F.pdf"
             },
             slo: {
                 url: "/learning-material/story-5/reading-guide/Story 5_Story's reading guide_S.pdf"
@@ -3729,17 +3737,17 @@ export const GUIDES: Record<GuideKey, Guide> = {
     "story-6-reading": {
         id: "story-6-reading-guide",
         translations: {
-            en: {
-                url: "/learning-material/story-6/reading-guide/Story 6_Story's reading guide_E.pdf"
+           en: {
+                url: "/learning-material/story-5/reading-guide/Story 6_Story's reading guide_E.pdf"
             },
             de: {
-                url: "/learning-material/story-6/reading-guide/Story 6_Story's reading guide_G.pdf"
+                url: "/learning-material/story-5/reading-guide/Story 6_Story's reading guide_G.pdf"
             },
             fr: {
-                url: "/learning-material/story-6/reading-guide/Story 6_Story's reading guide_F.pdf"
+                url: "/learning-material/story-5/reading-guide/Story 6_Guide de lecture_F.pdf"
             },
             slo: {
-                url: "/learning-material/story-6/reading-guide/Story 6_Story's reading guide_S.pdf"
+                url: "/learning-material/story-5/reading-guide/Stroy 6_Dialogic reading guide_S.pdf"
             }
         }
     },
@@ -3750,13 +3758,13 @@ export const GUIDES: Record<GuideKey, Guide> = {
                 url: "/learning-material/story-7/reading-guide/Story 7_Story's reading guide_E.pdf"
             },
             de: {
-                url: "/learning-material/story-7/reading-guide/Story 7_Story's reading guide_G.pdf"
+                url: "/learning-material/story-7/reading-guide/Story 7_ Story's reading guide_G.pdf"
             },
             fr: {
-                url: "/learning-material/story-7/reading-guide/Story 7_Story's reading guide_F.pdf"
+                url: "/learning-material/story-7/reading-guide/Story 7_Guide de lecture_F.pdf"
             },
             slo: {
-                url: "/learning-material/story-7/reading-guide/Story 7_Story's reading guide_S.pdf"
+                url: "/learning-material/story-7/reading-guide/Story 7_Dialogic reading guide_S.pdf"
             }
         }
     },
@@ -3764,16 +3772,16 @@ export const GUIDES: Record<GuideKey, Guide> = {
         id: "story-8-reading-guide",
         translations: {
             en: {
-                url: "/learning-material/story-8/reading-guide/Story 8_Story's reading guide_E.pdf"
+                url: "/learning-material/story-8/reading-guide/Story 8_ Story's_reading_guide_E.pdf"
             },
             de: {
-                url: "/learning-material/story-8/reading-guide/Story 8_Story's reading guide_G.pdf"
+                url: "/learning-material/story-8/reading-guide/Story 8_ Story's_reading_guide_G.pdf"
             },
             fr: {
-                url: "/learning-material/story-8/reading-guide/Story 8_Story's reading guide_F.pdf"
+                url: "/learning-material/story-8/reading-guide/Story 8_Guide de lecture_F.pdf"
             },
             slo: {
-                url: "/learning-material/story-8/reading-guide/Story 8_Story's reading guide_S.pdf"
+                url: "/learning-material/story-8/reading-guide/Story 8_Dialogic reading guide_S.pdf"
             }
         }
     }
