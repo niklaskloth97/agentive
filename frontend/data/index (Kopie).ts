@@ -3650,7 +3650,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
                 url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_G.pdf"
             },
             fr: {
-                url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_F.pdf"
+                url: "/learning-material/story-4/reading-guide/Story 4_Guide de lecture_F.pdf"
             },
             svn: {
                 url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_S.pdf"
