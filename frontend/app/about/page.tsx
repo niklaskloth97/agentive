@@ -201,18 +201,6 @@ export default function AboutPage() {
             </p>
         </div>
     </section>
-
-    {/* Footer (simple placeholder) */}
-    <footer className="py-12 text-center text-sm text-gray-400">
-        <p>© {new Date().getFullYear()} AGENTIVE. All rights reserved.</p>
-        <Image
-            src="/LOGO.jpeg"
-            alt="Agentive Logo"
-            width={120}
-            height={60}
-            className="mx-auto mt-4"
-        />
-    </footer>
     </main>
     </div>
   );
