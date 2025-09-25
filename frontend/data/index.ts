@@ -1410,7 +1410,7 @@ export const ACTIVITY_GROUPS: Record<
 						languages: {
 						en: {
 							label: "English",
-							pdfUrl: "/activities/story5/ELS/Story_5_ELS_1_E.pdf",
+							pdfUrl: "/activities/story5/ELS/Story_5_ELS_3_E.pdf",
 							title: "Creating a class library",
 						},
 						fr: {

@@ -779,26 +779,26 @@ const translations: Record<string, Record<string, string>> = {
   },
   'equipping-educators': {
     'English': 'Equipping Educators',
-    'French': 'Équiper les éducateurs',
-    'Lux': 'Educateuren equipéieren',
-    'Slovenian': 'Opremljanje pedagogov',
+    'French': 'Formation des éducateurs/-trices',
+    'Lux': 'Formatioun',
+    'Slovenian': 'Opolnomočenje vzgojiteljev in učiteljev',
     'Italian': 'Equipaggiare gli educatori',
-    'German': 'Pädagogen ausstatten',
-    'Greek': 'Εξοπλισμός εκπαιδευτικών'
+    'German': 'Ausbildung von Erziehern',
+    'Greek': 'Ενδυνάμωση των εκπαιδευτικών'
   },
   'equipping-educators-desc': {
     'English': 'By equipping pre- and in-service teachers with evidence-based strategies and digital competencies, AGENTIVE empowers educators to implement multilingual teaching effectively',
     'French': 'En équipant les enseignants pré- et en service avec des stratégies fondées sur des preuves et des compétences numériques, AGENTIVE permet aux éducateurs de mettre en œuvre efficacement l\'enseignement multilingue',
     'Lux': 'Andeem Vir- a Servicepersonal Enseignanten mat evidenzbaséierte Strategien a digitale Kompetenzen equipéiert ginn, erméiglecht AGENTIVE Educateuren multilingual Ënnerweisung effektiv ze implementéieren',
-    'Slovenian': 'Z opremljanjem vzgojiteljev pred in med službo z na dokazih temelječimi strategijami in digitalnimi kompetencami AGENTIVE opolnomoči pedagoge za učinkovito izvajanje večjezičnega poučevanja',
+    'Slovenian': 'AGENTIVE bodoče in že zaposlene vzgojitelje ter učitelje opremlja s strokovno razvitimi strategijami in digitalnimi kompetencami ter jim tako omogoča učinkovito izvajanje večjezičnega poučevanja.',
     'Italian': 'Equipaggiando insegnanti pre- e in-servizio con strategie basate su evidenze e competenze digitali, AGENTIVE consente agli educatori di implementare efficacemente l\'insegnamento multilingue',
     'German': 'Durch die Ausstattung von Vor- und Inservice-Lehrern mit evidenzbasierten Strategien und digitalen Kompetenzen befähigt AGENTIVE Pädagogen, mehrsprachigen Unterricht effektiv umzusetzen',
     'Greek': 'Εξοπλίζοντας τους εκπαιδευτικούς πριν και κατά τη διάρκεια της υπηρεσίας με στρατηγικές βασισμένες σε αποδείξεις και ψηφιακές ικανότητες, το AGENTIVE δίνει τη δυνατότητα στους εκπαιδευτικούς να εφαρμόσουν αποτελεσματικά την πολυγλωσσική διδασκαλία'
   },
   'cross-sector-collaboration': {
-    'English': 'Cross-Sector Collaboration',
+    'English': 'Cross-Sector collaboration',
     'French': 'Collaboration intersectorielle',
-    'Lux': 'Sektoriwwergräifend Kollaboratioun',
+    'Lux': 'Secteuriwwergräifend Zesummenaarbecht',
     'Slovenian': 'Medsektorsko sodelovanje',
     'Italian': 'Collaborazione intersettoriale',
     'German': 'Sektorübergreifende Zusammenarbeit',
@@ -808,10 +808,11 @@ const translations: Record<string, Record<string, string>> = {
     'English': 'The synergy between academia and businesses drives the development of innovative educational tools and sustainable partnerships',
     'French': 'La synergie entre le monde académique et les entreprises stimule le développement d\'outils éducatifs innovants et de partenariats durables',
     'Lux': 'D\'Synergie tëscht der Akademie a Betriber dreizt d\'Entwécklung vun innovative pädagogesche Tools a nohaltege Partnerschaften',
-    'Slovenian': 'Sinergija med akademskim svetom in podjetji spodbuja razvoj inovativnih izobraževalnih orodij in trajnostnih partnerstev',
+    'Slovenian': 'Sinergija med akademskim svetom in podjetji spodbuja razvoj inovativnih izobraževalnih orodij in trajnostnih partnerstev.',
     'Italian': 'La sinergia tra mondo accademico e aziende guida lo sviluppo di strumenti educativi innovativi e partnership sostenibili',
     'German': 'Die Synergie zwischen Wissenschaft und Unternehmen treibt die Entwicklung innovativer Bildungstools und nachhaltiger Partnerschaften voran',
-    'Greek': 'Η συνέργεια μεταξύ ακαδημαϊκού κόσμου και επιχειρήσεων οδηγεί στην ανάπτυξη καινοτόμων εκπαιδευτικών εργαλείων και βιώσιμων συνεργασιών'
+    'Greek': 'Η συνέργεια μεταξύ ακαδημαϊκού κόσμου και επιχειρήσεων οδηγεί στην ανάπτυξη καινοτόμων εκπαιδευτικών εργαλείων και βιώσιμων συνεργασιών',
+
   },
   'agentive-made-possible': {
     'English': 'The AGENTIVE project is made possible by:',
@@ -1108,7 +1109,8 @@ const translations: Record<string, Record<string, string>> = {
   'Lux': 'D’ méisproochegt Léieren an der Bildung vun der fréier Kandheet fërderen',
   'Italian': 'Stimolare l\'apprendimento multilingue nell\'educazione della prima infanzia',
   'German': 'Förderung des Mehrsprachenlernens in der frühkindlichen Bildung (ECE – Early Childhood Education)',
-  'Greek': 'Ενισχύοντας την πολύγλωσση μάθηση στην προσχολική αγωγή'
+  'Greek': 'Ενισχύοντας την πολύγλωσση μάθηση στην προσχολική αγωγή',
+  'Slovenian': 'Spodbujanje večjezičnega učenja v predšolskem obdobju'
 },
 
 'promoting-multilingualism-ece': {
@@ -1117,7 +1119,8 @@ const translations: Record<string, Record<string, string>> = {
   'Lux': 'Eis Visioun: D’Méisproochegkeet am ECE fërderen',
   'Italian': 'La nostra visione: promuovere il multilinguismo nell\'ECE',
   'German': 'Unsere Vision: Förderung der Mehrsprachigkeit in der ECE',
-  'Greek': 'Το όραμά μας: προώθηση της πολυγλωσσίας στην προσχολική αγωγή'
+  'Greek': 'Το όραμά μας: προώθηση της πολυγλωσσίας στην προσχολική αγωγή',
+  'Slovenian': 'Naša vizija: Spodbujanje večjezičnosti v predšolski vzgoji'
 },
 
 'multilingual-intro-text': {
@@ -1126,7 +1129,8 @@ const translations: Record<string, Record<string, string>> = {
   'Lux': 'D’Sprooche spillen eng wichteg Roll am Alldag vun de Kanner an Europa: Vill Kanner schwätzen doheem verschidde Sproochen a begéinen aner Sproochen an der Schoul. Vill europäesch Länner hu scho multilingual Elementer an d’Bildung vun der fréier Kandheet integréiert. Duerch Etuden iwwert kognitiv, sozial an akademesch Virdeeler vun der Méisproochegkeet gouf bewisen, datt Kanner scho vu klengem u Sprooche léiere kënnen – virausgesat, si hu passend a stimuléierend Konditiounen. Och wa vill Programmer d’Sproochesensibiliséierung an d’Léiere vum Engleschen ënnerstëtzen, bremst awer dacks de Manktem u multilinguale Ressourcen d‘Enseignanteën/Enseignanten, wann si passend pedagogesch Methode fir d’Fërdere vu Sproocheléieren sichen.',
   'Italian': 'Le lingue svolgono un ruolo importante nella vita quotidiana dei bambini in Europa; molti parlano diverse lingue a casa incontrando anche altre lingue a scuola. Molti paesi europei hanno introdotto elementi di educazione multilingue nell\'Educazione della Prima Infanzia (EPI). Un tale approccio è il translanguaging, un metodo ricco e adatto ai bambini del multilinguismo, attraverso il quale i bambini possono imparare dai loro repertori linguistici completi indipendentemente dall\'input linguistico e dalle condizioni di apprendimento. Quando i bambini vedono le loro lingue riflesse nelle risorse educative, si sentono compresi e ascoltati, e hanno accesso a libri e storie in lingue che comprendono e che stanno loro a cuore, gli insegnanti sembrano più a loro agio e fiduciosi nel promuovere l\'apprendimento linguistico poiché mancano di risorse multilingui.',
   'German': 'Das Spielen mit Sprachen im Alltag der Kinder spielt in Europa eine wichtige Rolle: Viele Kinder sprechen zu Hause mehrere Sprachen und kommen in der Schule mit weiteren Sprachen in Kontakt. Viele europäische Länder haben Elemente der mehrsprachigen Erziehung in der frühkindlichen Bildung (ECE) eingeführt. Aufgrund der kognitiven, sozialen und akademischen Vorteile (der Mehrsprachigkeit) hat sich gezeigt, dass Kinder schon früh im Leben Sprachen lernen können, wenn sie kindgerechte und anregende Bedingungen vorfinden. Zwar gibt es zahlreiche Programme zur Förderung des Sprachbewusstseins und zum frühen Erlernen der englischen Sprache, doch scheinen die Lehrkräfte unsicher zu sein, wie sie das Sprachenlernen am besten fördern können, da es ihnen an mehrsprachigen Ressourcen fehlt.',
-  'Greek': 'Οι γλώσσες παίζουν σημαντικό ρόλο στην καθημερινή ζωή των παιδιών στην Ευρώπη· πολλά μιλούν διάφορες γλώσσες στο σπίτι ενώ συναντούν και άλλες γλώσσες στο σχολείο. Πολλές ευρωπαϊκές χώρες έχουν εισαγάγει στοιχεία πολυγλωσσικής εκπαίδευσης στην Προσχολική Αγωγή (ΠΑ). Μια τέτοια προσέγγιση είναι το translanguaging, μια πλούσια και φιλική προς τα παιδιά μέθοδος πολυγλωσσίας, μέσω της οποίας τα παιδιά μπορούν να μάθουν από τα πλήρη γλωσσικά τους ρεπερτόρια ανεξάρτητα από τη γλωσσική εισροή και τις συνθήκες μάθησης. Όταν τα παιδιά βλέπουν τις γλώσσες τους αντανακλασμένες σε εκπαιδευτικούς πόρους, αισθάνονται κατανοητά και ακουσμένα, και έχουν πρόσβαση σε βιβλία και ιστορίες σε γλώσσες που καταλαβαίνουν και νοιάζονται, οι εκπαιδευτικοί φαίνονται πιο άνετοι και σίγουροι για την προώθηση της γλωσσικής μάθησης καθώς τους λείπουν πολυγλωσσικοί πόροι.'
+  'Greek': 'Οι γλώσσες παίζουν σημαντικό ρόλο στην καθημερινή ζωή των παιδιών στην Ευρώπη· πολλά μιλούν διάφορες γλώσσες στο σπίτι ενώ συναντούν και άλλες γλώσσες στο σχολείο. Πολλές ευρωπαϊκές χώρες έχουν εισαγάγει στοιχεία πολυγλωσσικής εκπαίδευσης στην Προσχολική Αγωγή (ΠΑ). Μια τέτοια προσέγγιση είναι το translanguaging, μια πλούσια και φιλική προς τα παιδιά μέθοδος πολυγλωσσίας, μέσω της οποίας τα παιδιά μπορούν να μάθουν από τα πλήρη γλωσσικά τους ρεπερτόρια ανεξάρτητα από τη γλωσσική εισροή και τις συνθήκες μάθησης. Όταν τα παιδιά βλέπουν τις γλώσσες τους αντανακλασμένες σε εκπαιδευτικούς πόρους, αισθάνονται κατανοητά και ακουσμένα, και έχουν πρόσβαση σε βιβλία και ιστορίες σε γλώσσες που καταλαβαίνουν και νοιάζονται, οι εκπαιδευτικοί φαίνονται πιο άνετοι και σίγουροι για την προώθηση της γλωσσικής μάθησης καθώς τους λείπουν πολυγλωσσικοί πόροι.',
+  'Slovenian': 'Jeziki igrajo pomembno vlogo v vsakdanjem življenju otrok po vsej Evropi – številni doma govorijo več jezikov, poleg tega pa se z dodatnimi jeziki srečujejo tudi v vrtcu ali šoli. Mnoge evropske države so v predšolsko vzgojo že uvedle elemente večjezičnega izobraževanja, ki prinaša številne kognitivne, socialne in učne koristi. Pokazalo se je, da se otroci lahko jezikov učijo že zelo zgodaj, če imajo na voljo spodbudno in otrokom prijazno okolje. Čeprav obstaja veliko programov za razvoj jezikovnega zavedanja in zgodnje učenje angleščine, se zdi, da številni vzgojitelji in učitelji še vedno niso prepričani, kako učinkovito spodbujati učenje jezikov, saj jim primanjkuje večjezičnih gradiv.'
 },
 
 'agentive-bridge-gap': {
@@ -1135,7 +1139,8 @@ const translations: Record<string, Record<string, string>> = {
   'Lux': 'De Projet AGENTIVE wëll dës Lacune opfëllen, andeems en evidenzbaséiert multilingual Ressourcen ubitt, déi d’Entwécklung vun der Literacy a verschiddene Sprooche fërderen an déi sech liicht un ënnerschiddlech kulturell a sproochlech Kontexter upasse loossen. Fachleit an Eltere kënnen eis aacht pedagogesch Kitten – dat heescht, Geschichten zesumme mat passenden Suivi-Aktivitéiten – direkt iwwer eis digital Plattform eroflueden. Fir déi digital a pedagogesch Kompetenzen ze stäerken, déi fir eng effizient Notzung vun eise Ressourcen néideg sinn, bitt AGENTIVE och Seminaire fir zukünfteg Enseignanteën/Enseignanten a Weiderbildungen un. D’Zil vun de Synergie tëscht Schoulen, Universitéiten a Betriber ass eng breet Diffusioun vun de Resultater ze garantéieren.',
   'Italian': 'AGENTIVE cerca di colmare questa lacuna fornendo risorse multilingui basate su evidenze che supportano lo sviluppo dell\'alfabetizzazione in più lingue e sono facilmente adattate a vari contesti culturali e linguistici. Professionisti e genitori possono scaricare i nostri otto set pedagogici (cioè storie e attività di follow-up) sulla nostra piattaforma digitale. AGENTIVE offre anche seminari per studenti insegnanti e corsi di sviluppo professionale per insegnanti per sviluppare le competenze digitali e pedagogiche necessarie per utilizzare efficacemente i nostri materiali. La nostra sinergia scuola-università-azienda provvederà all\'ampia diffusione dei risultati.',
   'German': 'AGENTIVE versucht, diese Lücke zu schließen, indem es mehrsprachige, evidenzbasierte Ressourcen bereitstellt, die die Entwicklung der Lese- und Schreibfähigkeit in mehreren Sprachen unterstützen und leicht an verschiedene kulturelle und sprachliche Kontexte angepasst werden können. Fachleute und Eltern können unsere acht pädagogischen Sets (d. h. Geschichten und Folgeaktivitäten) auf unserer digitalen Plattform herunterladen. AGENTIVE bietet auch Seminare für Lehramtsstudenten und Weiterbildungskurse für Lehrer an, um die digitalen und pädagogischen Kompetenzen zu entwickeln, die für die effektive Nutzung unserer Materialien erforderlich sind. Unsere Synergie zwischen Schulen, Universitäten und Unternehmen wird für eine weite Verbreitung der Ergebnisse sorgen.',
-  'Greek': 'Το AGENTIVE επιδιώκει να γεφυρώσει αυτό το κενό παρέχοντας πολύγλωσσες τεκμηριωμένες πηγές που υποστηρίζουν την ανάπτυξη του γραμματισμού σε πολλές γλώσσες και προσαρμόζονται εύκολα σε διάφορα πολιτισμικά και γλωσσικά πλαίσια. Οι επαγγελματίες και οι γονείς μπορούν να χρησιμοποιήσουν τις οκτώ παιδαγωγικές σειρές (δηλαδή ιστορίες και δραστηριότητες πάνω σε αυτές) στην ψηφιακή μας πλατφόρμα. Το AGENTIVE προσφέρει επίσης σεμινάρια σε φοιτητές παιδαγωγικών σχολών και μαθήματα επαγγελματικής κατάρτισης σε εκπαιδευτικούς, προκειμένου να αναπτύξουν τις ψηφιακές και παιδαγωγικές ικανότητες που απαιτούνται για την αποτελεσματική χρήση του υλικού μας. Η σύμπραξή μας που αποτελείται από σχολεία, πανεπιστήμια και επιχειρήσεις θα φροντίσει για την ευρεία διάδοση των ευρημάτων.'
+  'Greek': 'Το AGENTIVE επιδιώκει να γεφυρώσει αυτό το κενό παρέχοντας πολύγλωσσες τεκμηριωμένες πηγές που υποστηρίζουν την ανάπτυξη του γραμματισμού σε πολλές γλώσσες και προσαρμόζονται εύκολα σε διάφορα πολιτισμικά και γλωσσικά πλαίσια. Οι επαγγελματίες και οι γονείς μπορούν να χρησιμοποιήσουν τις οκτώ παιδαγωγικές σειρές (δηλαδή ιστορίες και δραστηριότητες πάνω σε αυτές) στην ψηφιακή μας πλατφόρμα. Το AGENTIVE προσφέρει επίσης σεμινάρια σε φοιτητές παιδαγωγικών σχολών και μαθήματα επαγγελματικής κατάρτισης σε εκπαιδευτικούς, προκειμένου να αναπτύξουν τις ψηφιακές και παιδαγωγικές ικανότητες που απαιτούνται για την αποτελεσματική χρήση του υλικού μας. Η σύμπραξή μας που αποτελείται από σχολεία, πανεπιστήμια και επιχειρήσεις θα φροντίσει για την ευρεία διάδοση των ευρημάτων.',
+  'Slovenian': 'AGENTIVE želi zapolniti to vrzel z oblikovanjem večjezičnih, na strokovnih izsledkih temelječih gradiv, ki podpirajo večjezično pismenost in jih je mogoče enostavno prilagoditi različnim kulturnim in jezikovnim okoljem. Strokovnjaki in starši si lahko z naše digitalne platforme prenesejo osem pedagoških kompletov (tj. zgodb z dejavnostmi). AGENTIVE poleg tega ponuja seminarje za študente pedagoških ved in strokovna usposabljanja za vzgojitelje in učitelje, na katerih lahko pridobijo digitalne in pedagoške kompetence, potrebne za učinkovito uporabo naših gradiv. Sodelovanje med šolami, univerzami in podjetji pa nam bo omogočilo široko diseminacijo pridobljenih spoznanj.'
 },
 
 'erasmus-initiative-sectors': {
@@ -1144,7 +1149,8 @@ const translations: Record<string, Record<string, string>> = {
   'Lux': 'Eng EU finanzéiert Erasmus+ - Initiativ fir verschidde Secteuren',
   'Italian': 'Un\'iniziativa Erasmus+ finanziata dall\'UE attraverso i settori',
   'German': 'Eine von der EU finanzierte sektorübergreifende Erasmus+-Initiative',
-  'Greek': 'Μια ευρωπαϊκά χρηματοδοτούμενη πρωτοβουλία Erasmus+ σε διάφορους τομείς'
+  'Greek': 'Μια ευρωπαϊκά χρηματοδοτούμενη πρωτοβουλία Erasmus+ σε διάφορους τομείς',
+  'Slovenian': 'Iniciativa, financirana s strani EU v okviru programa Erasmus+, ki povezuje različne sektorje'
 },
 
 'erasmus-description': {
@@ -1153,7 +1159,8 @@ const translations: Record<string, Record<string, string>> = {
   'Lux': 'De Projet AGENTIVE ass eng innovativ Initiativ, déi vum Erasmus+ -Programm vun der Europäescher Unioun finanzéiert gëtt. Dëse paneuropäesche Partnerschaftsprojet, deen Universitéiten a verschidden Organisatiounen aus sechs Länner zesummebréngt, ënnerstëtzt dat europäescht Engagement fir d’Sproochendiversitéit, d’Inclusioun an d’digital Transformatioun am Bildungsberäich. Ënnert der Leedung vun der Prof. Dr. Claudine Kirsch bréngt de Projet AGENTIVE d’Universitéit Lëtzebuerg, d’Universitéit Münster (Däitschland), d’Universitéit Bolzano (Italien), d’Pädagogesch Héichschoul Grigonen (Schwäiz), d’Universitéit Primorska (Slowenien) an d’Entreprise Web2Learn (Griicheland) zesummen. A Länner/Regioune wéi Lëtzebuerg, d’Schwäiz, Südtiroul an d’Primorska, existéiere verschidde Sproochen niefteneen, an d’Kanner kënne scho vu klengem un zwou offiziell Sprooche léieren – sief et am Alldag oder an der Schoul. Zousätzlech huet d’Migratioun an Europa zu enger erhieflecher sproochlecher Diversitéit an de Gesellschaften an an de Schoulklasse gefouert. Dofir ginn et vill Programmer, déi d’Sensibiliséierung fir d’Sproochen an dat fréizäitegt Léiere vum Englesche fërderen. AGENTIVE dréit dëse Realitéite Rechnung. Eis Synergien tëscht den Universitéiten an de Schoulen erlaben et, innovativ pedagogesch Approchen an haltbar, evidenzbaséiert multilingual Ressourcen ze entwéckelen– zum Profit vun den Enseignanteën/Enseignanten, de Kanner an den Elteren.',
   'Italian': 'Il progetto AGENTIVE è un\'iniziativa rivoluzionaria finanziata dal programma Erasmus+ dell\'Unione Europea. Unendo università e organizzazioni di sei paesi, questa partnership paneuropea sostiene l\'impegno dell\'UE verso la diversità linguistica, l\'inclusione e la trasformazione digitale nell\'istruzione. Guidato dalla Prof.ssa Dr. Claudine Kirsch, AGENTIVE riunisce l\'Università del Lussemburgo, l\'Università di Münster (Germania), l\'Università Libera di Bolzano (Italia), l\'Università di Formazione degli Insegnanti dei Grigioni (Svizzera), l\'Università del Litorale (Slovenia), e Web2Learn (Grecia). In regioni come Lussemburgo, Svizzera, Tirolo e Litorale, più lingue sono parlate fianco a fianco e i bambini possono imparare due lingue sociali fin dalla tenera età attraverso interazioni quotidiane o apprendimento linguistico nella scuola materna. Inoltre, i modelli migratori in Europa hanno aumentato la diversità linguistica nelle società e nelle aule. I programmi per la consapevolezza linguistica e l\'inglese precoce prosperano. AGENTIVE affronta queste realtà. Le nostre sinergie tra accademia e scuole ci permettono di sviluppare pedagogie innovative e materiali di apprendimento multilingue sostenibili e basati su evidenze che beneficiano insegnanti, bambini e genitori.',
   'German': 'Das AGENTIVE-Projekt ist eine bahnbrechende Initiative, die durch das Erasmus+-Programm der Europäischen Union finanziert wird. Diese pan-europäische Partnerschaft, die Universitäten und Organisationen aus sechs Ländern vereint, unterstützt das Engagement der EU für sprachliche Vielfalt, Inklusion und digitale Transformation in der Bildung. Unter der Leitung von Prof. Dr. Claudine Kirsch bringt AGENTIVE die Universität Luxemburg, die Universität Münster (Deutschland), die Freie Universität Bozen (Italien), die Pädagogische Hochschule Graubünden (Schweiz), die Universität Primorska (Slowenien) und Web2Learn (Griechenland) zusammen. In Regionen wie Luxemburg, der Schweiz, Tirol und Primorska werden mehrere Sprachen nebeneinander gesprochen, und Kinder können durch tägliche Interaktionen oder Sprachunterricht in der Vorschule von klein auf zwei Gesellschaftssprachen lernen. Darüber hinaus haben die Migrationsmuster in ganz Europa die Sprachenvielfalt in den Gesellschaften und Klassenzimmern erhöht. Programme für Sprachbewusstsein und frühes Englisch gedeihen. AGENTIVE geht auf diese Realitäten ein. Unsere Synergien zwischen Wissenschaft und Schule ermöglichen es uns, innovative Pädagogik und evidenzbasierte und nachhaltige mehrsprachige Lernmaterialien zu entwickeln, die Lehrern, Kindern und Eltern zugute kommen.',
-  'Greek': 'Το έργο AGENTIVE είναι μια πρωτοποριακή πρωτοβουλία που χρηματοδοτείται από το πρόγραμμα Erasmus+ της Ευρωπαϊκής Ένωσης. Ενώνοντας πανεπιστήμια και ιδιωτικούς φορείς από έξι χώρες, αυτή η πανευρωπαϊκή σύμπραξη υποστηρίζει τη δέσμευση της ΕΕ για γλωσσική ποικιλομορφία, συμπερίληψη και ψηφιακό μετασχηματισμό στην εκπαίδευση. Με επικεφαλής την καθηγήτρια, Δρ. Claudine Kirsch, το AGENTIVE φέρνει μαζί το Πανεπιστήμιο του Λουξεμβούργου, το Πανεπιστήμιο του Münster (Γερμανία), το Ελεύθερο Πανεπιστήμιο του Bolzano (Ιταλία), το Πανεπιστήμιο Κατάρτισης Εκπαιδευτικών του Grisons (Ελβετία), το Πανεπιστήμιο Primorska (Σλοβενία) και την εταιρεία Web2Learn (Ελλάδα). Σε περιοχές όπως το Λουξεμβούργο, η Ελβετία, το Τιρόλο και η Primorska, πολλές γλώσσες ομιλούνται παράλληλα και τα παιδιά μπορούν να μάθουν δύο κοινωνικές γλώσσες από μικρή ηλικία μέσω καθημερινών αλληλεπιδράσεων ή εκμάθησης γλωσσών στην προσχολική ηλικία. Επιπλέον, τα μεταναστευτικά μοτίβα σε όλη την Ευρώπη έχουν αυξήσει τη γλωσσική ποικιλομορφία στις κοινωνίες και στις σχολικές τάξεις. Προγράμματα για τη γλωσσική επίγνωση και την εκμάθηση της αγγλικής γλώσσας σε πρώιμη ηλικία  αναπτύσσονται συνεχώς. Το AGENTIVE εντάσσεται στο πλαίσιο αυτών των νέων δεδομένων. Οι συνέργειες μεταξύ πανεπιστημίων και σχολείων μας επιτρέπουν να αναπτύσσουμε καινοτόμες παιδαγωγικές μεθόδους και τεκμηριωμένα και βιώσιμα πολυγλωσσικά εκπαιδευτικά υλικά προς όφελος των εκπαιδευτικών, των παιδιών και των γονέων. '
+  'Greek': 'Το έργο AGENTIVE είναι μια πρωτοποριακή πρωτοβουλία που χρηματοδοτείται από το πρόγραμμα Erasmus+ της Ευρωπαϊκής Ένωσης. Ενώνοντας πανεπιστήμια και ιδιωτικούς φορείς από έξι χώρες, αυτή η πανευρωπαϊκή σύμπραξη υποστηρίζει τη δέσμευση της ΕΕ για γλωσσική ποικιλομορφία, συμπερίληψη και ψηφιακό μετασχηματισμό στην εκπαίδευση. Με επικεφαλής την καθηγήτρια, Δρ. Claudine Kirsch, το AGENTIVE φέρνει μαζί το Πανεπιστήμιο του Λουξεμβούργου, το Πανεπιστήμιο του Münster (Γερμανία), το Ελεύθερο Πανεπιστήμιο του Bolzano (Ιταλία), το Πανεπιστήμιο Κατάρτισης Εκπαιδευτικών του Grisons (Ελβετία), το Πανεπιστήμιο Primorska (Σλοβενία) και την εταιρεία Web2Learn (Ελλάδα). Σε περιοχές όπως το Λουξεμβούργο, η Ελβετία, το Τιρόλο και η Primorska, πολλές γλώσσες ομιλούνται παράλληλα και τα παιδιά μπορούν να μάθουν δύο κοινωνικές γλώσσες από μικρή ηλικία μέσω καθημερινών αλληλεπιδράσεων ή εκμάθησης γλωσσών στην προσχολική ηλικία. Επιπλέον, τα μεταναστευτικά μοτίβα σε όλη την Ευρώπη έχουν αυξήσει τη γλωσσική ποικιλομορφία στις κοινωνίες και στις σχολικές τάξεις. Προγράμματα για τη γλωσσική επίγνωση και την εκμάθηση της αγγλικής γλώσσας σε πρώιμη ηλικία  αναπτύσσονται συνεχώς. Το AGENTIVE εντάσσεται στο πλαίσιο αυτών των νέων δεδομένων. Οι συνέργειες μεταξύ πανεπιστημίων και σχολείων μας επιτρέπουν να αναπτύσσουμε καινοτόμες παιδαγωγικές μεθόδους και τεκμηριωμένα και βιώσιμα πολυγλωσσικά εκπαιδευτικά υλικά προς όφελος των εκπαιδευτικών, των παιδιών και των γονέων. ',
+  'Slovenian': 'Projekt AGENTIVE je prelomna iniciativa, financirana iz programa Erasmus+ Evropske unije. S povezovanjem univerz in organizacij iz šestih držav to vseevropsko partnerstvo podpira zavezanost EU k jezikovni raznolikosti in vključevanju ter digitalni preobrazbi izobraževanja. Pod vodstvom prof. dr. Claudine Kirsch v projektu AGENTIVE sodelujejo Univerza v Luksemburgu, Univerza v Münstru (Nemčija), Svobodna univerza v Bolzanu (Italija), Pedagoška visoka šola Grisons (Švica), Univerza na Primorskem (Slovenija) in organizacija Web2Learn (Grčija). V regijah, kot so Luksemburg, Švica, Tirolska in Primorska, se vzporedno uporabljajo različni jeziki, otroci pa se že zgodaj v otroštvu lahko učijo dveh jezikov okolja – bodisi skozi vsakodnevne interakcije bodisi preko učenja jezika v vrtcu. Poleg tega migracijski tokovi po Evropi še povečujejo jezikovno raznolikost v družbi in učnih okoljih. Programi za razvijanje jezikovnega zavedanja in zgodnje učenje angleščine cvetijo. Na te izzive se neposredno odziva tudi projekt AGENTIVE. S sodelovanjem in sinergijo med akademskim okoljem in šolami razvijamo inovativne pedagoške pristope ter trajnostna, na strokovnih spoznanjih temelječa gradiva za večjezično učenje, ki bodo v pomoč učiteljem, otrokom in staršem.'
 },
 
 'innovation-and-impact': {
@@ -1162,7 +1169,8 @@ const translations: Record<string, Record<string, string>> = {
   'Lux': 'Innovatioun an Impakt',
   'Italian': 'Innovazione e Impatto',
   'German': 'Innovation und Wirkung',
-  'Greek': 'Καινοτομία και αντίκτυπος'
+  'Greek': 'Καινοτομία και αντίκτυπος',
+  'Slovenian': 'Inovacije in vpliv'
 },
 
 'objectives-project': {
@@ -1171,7 +1179,8 @@ const translations: Record<string, Record<string, string>> = {
   'Lux': 'Ziler vum Projet',
   'Italian': 'Obiettivi del progetto',
   'German': 'Zielsetzung des Projekts',
-  'Greek': 'Στόχοι του Έργου'
+  'Greek': 'Στόχοι του Έργου',
+  'Slovenian': 'Cilji projekta'
 },
 
 'agentive-guided-objectives': {
@@ -1180,7 +1189,8 @@ const translations: Record<string, Record<string, string>> = {
   'Lux': 'De Projet AGENTIVE huet zwou Haaptzilsetzungen:',
   'Italian': 'AGENTIVE è guidato da due obiettivi chiave.',
   'German': 'AGENTIVE wird von zwei Hauptzielen geleitet:',
-  'Greek': 'Το AGENTIVE βασίζεται σε δύο βασικούς στόχους:'
+  'Greek': 'Το AGENTIVE βασίζεται σε δύο βασικούς στόχους:',
+  'Slovenian': 'Projekt AGENTIVE ima dva ključna cilja:'
 },
 
 'enhance-digital-transformation-full': {
@@ -1189,7 +1199,8 @@ const translations: Record<string, Record<string, string>> = {
   'Lux': 'D’digital Transformatioun vun de Schoulen an Universitéiten duerch innovativ pedagogesch Approchen an oppen edukativ Ressourcen ze stäerken – Ressourcen, déi Enseignanteën/Enseignanten, Educatricen/Educateuren an Elteren direkt kënnen an hir Praxis integréieren. Duerch pedagogescht, innovativ a fräi zougänglecht Material ënnerstëtzt de Projet d’digital Virbereedung vun de Schoulen an Universitéiten. D’Programmer fir d’Ausbildung vun zukünftegen Enseignanteën/Enseignanten a fir d‘Weiderbildung sinn e wichtege Bestanddeel vun dësem Zil.',
   'Italian': 'Migliorare la trasformazione digitale di scuole e università attraverso pedagogie innovative e risorse educative aperte che insegnanti e genitori possono integrare direttamente nelle loro pratiche. Creando strumenti pedagogici innovativi ad accesso aperto, il progetto supporta la prontezza digitale di scuole e università. I programmi di formazione per insegnanti EPI in formazione e in servizio sono integrali a questo obiettivo.',
   'German': 'Förderung der digitalen Transformation von Schulen und Universitäten durch innovative Pädagogik und offene Bildungsressourcen, die Lehrende, Betreuende und Eltern direkt in ihre Praxis integrieren können. Durch die Schaffung frei zugänglicher, innovativer pädagogischer Werkzeuge unterstützt das Projekt die digitale Bereitschaft von Schulen und Universitäten. Schulungsprogramme für Lehrer in der Aus- und Fortbildung sind ein wesentlicher Bestandteil dieses Ziels.',
-  'Greek': 'Ενίσχυση του ψηφιακού μετασχηματισμού των σχολείων και των πανεπιστημίων μέσω καινοτόμων παιδαγωγικών μεθόδων και ανοικτών εκπαιδευτικών πηγών που οι εκπαιδευτικοί, οι φροντιστές και οι γονείς μπορούν να ενσωματώσουν άμεσα στις πρακτικές τους. Με τη δημιουργία καινοτόμων παιδαγωγικών εργαλείων ανοικτής πρόσβασης, το έργο υποστηρίζει την ψηφιακή ετοιμότητα των σχολείων και των πανεπιστημίων. Αναπόσπαστο μέρος αυτού του στόχου αποτελούν τα προγράμματα κατάρτισης για εν ενεργεία εκπαιδευτικούς στην προσχολική αγωγή και για εκπαιδευτικούς που δεν έχουν ακόμα ξεκινήσει τη διδασκαλία.'
+  'Greek': 'Ενίσχυση του ψηφιακού μετασχηματισμού των σχολείων και των πανεπιστημίων μέσω καινοτόμων παιδαγωγικών μεθόδων και ανοικτών εκπαιδευτικών πηγών που οι εκπαιδευτικοί, οι φροντιστές και οι γονείς μπορούν να ενσωματώσουν άμεσα στις πρακτικές τους. Με τη δημιουργία καινοτόμων παιδαγωγικών εργαλείων ανοικτής πρόσβασης, το έργο υποστηρίζει την ψηφιακή ετοιμότητα των σχολείων και των πανεπιστημίων. Αναπόσπαστο μέρος αυτού του στόχου αποτελούν τα προγράμματα κατάρτισης για εν ενεργεία εκπαιδευτικούς στην προσχολική αγωγή και για εκπαιδευτικούς που δεν έχουν ακόμα ξεκινήσει τη διδασκαλία.',
+  'Slovenian': 'Spodbujati digitalno preobrazbo šol in univerz s pomočjo inovativnih pedagoških pristopov in odprtih izobraževalnih virov, ki jih učitelji in starši lahko neposredno vključujejo v svojo prakso. Z razvijanjem odprto dostopnih, inovativnih pedagoških orodij projekt podpira digitalno pripravljenost šol in univerz. Za dosego tega cilja so pomembni tudi programi usposabljanja za študente predšolske vzgoje in že zaposlene vzgojitelje.'
 },
 
 'leverage-synergies-full': {
@@ -1198,7 +1209,8 @@ const translations: Record<string, Record<string, string>> = {
   'Lux': 'D’Fërderung vun enger oppener, méisproocheger a secteuriwwergräifender Bildung an der fréier Kandheet duerch Synergien tëscht Universitéiten, Schoulen a Betriber: AGENTIVE encouragéiert Zesummenaarbecht (Partenariater) tëscht Schoulen, Universitéiten a Betriber, fir d’Innovatioun an der méisproocheger Bildung ze fërderen. Dës Kooperatioune garantéieren passend, inklusiv an op d’Zukunft ausgeriicht pedagogesch Approchen a Ressourcen.',
   'Italian': 'Sfruttare un\'EPI aperta, multilingue e intersettoriale attraverso sinergie università-scuola-azienda: AGENTIVE promuove partnership tra scuole, università e aziende per innovare l\'educazione multilingue. Queste collaborazioni garantiscono che i nostri approcci pedagogici e materiali siano appropriati, inclusivi e lungimiranti.',
   'German': 'Nutzung offener, mehrsprachiger und sektorübergreifender ECE durch Synergien zwischen Universität, Schule und Unternehmen: AGENTIVE fördert Partnerschaften zwischen Schulen, Universitäten und Unternehmen, um die mehrsprachige Bildung zu erneuern. Diese Zusammenarbeit gewährleistet, dass unsere pädagogischen Ansätze und Materialien angemessen, integrativ und zukunftsorientiert sind.',
-  'Greek': 'Αξιοποίηση της ανοικτής, πολύγλωσσης και διατομεακής προσχολικής αγωγής μέσω συνεργειών μεταξύ πανεπιστημίων, σχολείων και επιχειρήσεων: το έργο AGENTIVE προωθεί συνεργασίες μεταξύ σχολείων, πανεπιστημίων και επιχειρήσεων για την καινοτομία στην πολύγλωσση εκπαίδευση. Αυτές οι συνέργειες διασφαλίζουν ότι οι παιδαγωγικές μας προσεγγίσεις και τα υλικά μας είναι κατάλληλα, συμπεριληπτικά και προοδευτικά.'
+  'Greek': 'Αξιοποίηση της ανοικτής, πολύγλωσσης και διατομεακής προσχολικής αγωγής μέσω συνεργειών μεταξύ πανεπιστημίων, σχολείων και επιχειρήσεων: το έργο AGENTIVE προωθεί συνεργασίες μεταξύ σχολείων, πανεπιστημίων και επιχειρήσεων για την καινοτομία στην πολύγλωσση εκπαίδευση. Αυτές οι συνέργειες διασφαλίζουν ότι οι παιδαγωγικές μας προσεγγίσεις και τα υλικά μας είναι κατάλληλα, συμπεριληπτικά και προοδευτικά.',
+  'Slovenian': 'Krepiti odprto, večjezično in medsektorsko predšolsko vzgojo s pomočjo sodelovanja univerz, šol in podjetji: AGENTIVE spodbuja partnerstva med šolami, univerzami in gospodarstvom z namenom razviti inovativno večjezično izobraževanje. To sodelovanja nam omogoča razvoj ustreznih, vključujočih in inovativnih pedagoških pristopov in gradiv.'
 },
 
 'model-for-future': {
@@ -1207,7 +1219,8 @@ const translations: Record<string, Record<string, string>> = {
   'Lux': 'E Modell fir d’Zukunft',
   'Italian': 'Un modello per il futuro',
   'German': 'Ein Modell für die Zukunft',
-  'Greek': 'Ένα πρότυπο για το μέλλον'
+  'Greek': 'Ένα πρότυπο για το μέλλον',
+  'Slovenian': 'Model za prihodnost'
 },
 
 'model-future-description': {
@@ -1216,7 +1229,8 @@ const translations: Record<string, Record<string, string>> = {
   'Lux': 'Andeem AGENTIVE sech op d’Expertise vu senge Partner stäipt a vun de méisproochege Realitéiten an Europa profitéiert, huet de Projet d’Zil, eng Referenz am Beräich vun der méisproocheger Bildung an der fréier Kandheet ze ginn. D’Resultater vum Projet droen dozou bäi, e méi inklusiivt an innovatiivt Léierëmfeld an Europa ze schafen. Fir méi iwwer d’AGENTIVE-Ressourcen an zukünfteg Evenementer gewuer ze ginn, invitéiere mir Iech, eis Plattform ze besichen. Zesumme kënne mir déi nächst Generatioun dozou bréngen, de Räichtum vun der Méisproochegkeet ze entdecken!',
   'Italian': 'Costruendo sull\'expertise dei suoi partner e sfruttando le realtà multilingui dell\'Europa, AGENTIVE mira a stabilire un benchmark per l\'educazione multilingue della prima infanzia. I risultati del progetto contribuiranno ad ambienti di apprendimento più inclusivi e innovativi in tutta Europa. Per maggiori informazioni sulle risorse AGENTIVE e gli eventi futuri, esplorate la nostra piattaforma. Insieme, possiamo ispirare la prossima generazione ad abbracciare il potere del multilinguismo!',
   'German': 'Indem AGENTIVE auf dem Fachwissen seiner Partner aufbaut und die mehrsprachige Realität in Europa nutzt, will es einen Maßstab für die frühkindliche mehrsprachige Erziehung setzen. Die Ergebnisse des Projekts werden zu einem integrativeren und innovativeren Lernumfeld in ganz Europa beitragen. Weitere Informationen über die AGENTIVE-Ressourcen und bevorstehende Veranstaltungen finden Sie auf unserer Plattform. Gemeinsam können wir die nächste Generation dazu inspirieren, sich die Kraft der Mehrsprachigkeit zu eigen zu machen!',
-  'Greek': 'Αξιοποιώντας την τεχνογνωσία των εταίρων και την πολυγλωσσική πραγματικότητα στην Ευρώπη, το AGENTIVE στοχεύει να αποτελέσει ορόσημο για την πολυγλωσσική προσχολική αγωγή. Τα αποτελέσματα του έργου θα συμβάλουν σε πιο συμπεριληπτικά και καινοτόμα μαθησιακά περιβάλλοντα σε όλη την Ευρώπη. Για περισσότερες πληροφορίες σχετικά με τις πηγές του AGENTIVE και τις επερχόμενες εκδηλώσεις, επισκεφτείτε την πλατφόρμα μας. Μαζί, μπορούμε να εμπνεύσουμε την επόμενη γενιά να αγκαλιάσει τη δύναμη της πολυγλωσσίας!'
+  'Greek': 'Αξιοποιώντας την τεχνογνωσία των εταίρων και την πολυγλωσσική πραγματικότητα στην Ευρώπη, το AGENTIVE στοχεύει να αποτελέσει ορόσημο για την πολυγλωσσική προσχολική αγωγή. Τα αποτελέσματα του έργου θα συμβάλουν σε πιο συμπεριληπτικά και καινοτόμα μαθησιακά περιβάλλοντα σε όλη την Ευρώπη. Για περισσότερες πληροφορίες σχετικά με τις πηγές του AGENTIVE και τις επερχόμενες εκδηλώσεις, επισκεφτείτε την πλατφόρμα μας. Μαζί, μπορούμε να εμπνεύσουμε την επόμενη γενιά να αγκαλιάσει τη δύναμη της πολυγλωσσίας!',
+  'Slovenian': 'AGENTIVE si prizadeva postaviti nove standarde na področju večjezičnega izobraževanja na predšolski stopnji, ki bi temeljili na strokovnem znanju vključenih partnerjev in upoštevali večjezično evropsko realnost. Rezultati projekta bodo prispevali k bolj vključujočim in inovativnim učnim okoljem po vsej Evropi. Za več informacij o gradivih in prihajajočih dogodkih projekta AGENTIVE spremljajte našo platformo. Skupaj lahko navdihnemo prihodnje generacije, da prepoznajo in izkoristijo moč večjezičnosti!'
 },
 'resources': {
     'English': 'Resources',
@@ -1239,40 +1253,42 @@ const translations: Record<string, Record<string, string>> = {
 },
 'digital-resources-multilingual': {
   'English': 'Digital resources for multilingual literacy',
-  'French': 'Ressources numériques pour l\'alphabétisation multilingue',
-  'Lux': 'Digital Ressourcen fir multilingual Literalitéit',
+  'French': 'Des ressources numériques pour la littératie multilingue',
+  'Lux': 'Digital Ressourcë fir d’méisproocheg Literacy',
   'Italian': 'Risorse digitali per l\'alfabetizzazione multilingue',
   'German': 'Digitale Ressourcen für mehrsprachige Alphabetisierung',
-  'Greek': 'Ψηφιακοί πόροι για πολυγλωσσικό γραμματισμό'
+  'Greek': 'Ψηφιακές πηγές για πολυγλωσσικό γραμματισμό',
+  'Slovenian': 'Digitalne vire za razvoj večjezične pismenosti'
 },
 
 'digital-resources-description': {
-  'English': 'The project provides open access digital materials that promote multilingual storytelling, language learning and literacy skills, addressing a key gap in early childhood education.',
-  'French': 'Le projet fournit des matériaux numériques en libre accès qui promeuvent la narration multilingue, l\'apprentissage des langues et les compétences en alphabétisation, comblant une lacune clé dans l\'éducation de la petite enfance.',
-  'Lux': 'De Projet bitt oppen Accès digital Materialen déi multilingual Geschichten erzählen, Sproochenléieren an Literalitéitsfäegkeeten förderen, eng Schlëssellück an der Fréikendheetspädagogik ëmgoen.',
+  'English': 'The project provides open access digital materials that promote the learning of multiple languages and early literacy skills, addressing a key gap in early childhood education.',
+  'French': 'le projet met à disposition du matériel numérique en libre accès qui soutient l’apprentissage de plusieurs langues et le développement précoce des compétences en littératie, comblant ainsi une lacune majeure dans l’éducation de la petite enfance.',
+  'Lux': 'De Projet stellt fräi zougänglecht digitaalt Material zur Verfügung, dat d’Sproocheléieren an déi fréizäiteg Entwécklung vu Kompetenzen an der Literacy ënnerstëtzt a sou eng wichteg Lacune an der Bildung an der fréier Kandheet fëllt',
   'Italian': 'Il progetto fornisce materiali digitali ad accesso aperto che promuovono la narrazione multilingue, l\'apprendimento linguistico e le competenze di alfabetizzazione, affrontando una lacuna chiave nell\'educazione della prima infanzia.',
-  'German': 'Das Projekt bietet frei zugängliche digitale Materialien, die mehrsprachiges Geschichtenerzählen, Sprachenlernen und Alphabetisierungsfähigkeiten fördern und eine wichtige Lücke in der frühkindlichen Bildung schließen.',
-  'Greek': 'Το έργο παρέχει ψηφιακά υλικά ανοιχτής πρόσβασης που προωθούν την πολυγλωσσική αφήγηση, τη γλωσσική μάθηση και τις δεξιότητες γραμματισμού, αντιμετωπίζοντας ένα βασικό κενό στην προσχολική εκπαίδευση.'
+  'German': 'Das Projekt stellt frei zugängliche digitale Materialien zur Verfügung, die das Erlernen mehrerer Sprachen und früher Lese- und Schreibfähigkeiten fördern und damit eine wichtige Lücke in der frühkindlichen Bildung schließen. ',
+  'Greek': 'Το έργο παρέχει ψηφιακά υλικά ανοικτής πρόσβασης που προάγουν την εκμάθηση πολλαπλών γλωσσών και την εκμάθηση δεξιοτήτων πρώιμου γραμματισμού, αντιμετωπίζοντας ένα βασικό κενό στην προσχολική αγωγή.',
+  'Slovenian': 'S prosto dostopnimi digitalnimi gradivi, ki spodbujajo učenje več jezikov in zgodnje opismenjevanje, projekt naslavlja ključni manko v predšolski vzgoji.'
 },
 
 'equipping-educators-description': {
-  'English': 'By equipping pre-service and in-service teachers with science-based tools and evidence-informed digital competences, AGENTIVE empowers professionals to support multilingual teaching effectively.',
-  'French': 'En équipant les enseignants en formation et en service avec des outils basés sur la science et des compétences numériques éclairées par les preuves, AGENTIVE permet aux professionnels de soutenir efficacement l\'enseignement multilingue.',
-  'Lux': 'Andeems prä-Service an am Service Enseignanten mat wëssenschafts-baséierten Tools an evidenz-informéierten digitalen Kompetenzen equipéiert ginn, erméiglecht AGENTIVE Professionnellen multilinguale Léieren effektiv ze ënnerstëtzen.',
+  'English': 'By equipping pre-service and in-service teachers with evidence-based strategies and digital competencies, AGENTIVE empowers professionals to implement multilingual teaching effectively.',
+  'French': 'en fournissant aux futurs enseignants/-tes et aux enseignants/-tes en exercice des stratégies fondées sur des données probantes et des compétences numériques, le projet AGENTIVE permet aux professionnels/-elles de mettre en œuvre un enseignement multilingue de manière efficace.',
+  'Lux': 'AGENTIVE ënnerstëtzt zukünfteg an aktiv Enseignanteën/Enseignanten mat evidenzbaséierte Strategien a mat digitale Kompetenzen, fir eng effizient méisproocheg Bildung ze erméiglechen.',
   'Italian': 'Equipaggiando insegnanti pre-servizio e in servizio con strumenti basati sulla scienza e competenze digitali informate dalle evidenze, AGENTIVE potenzia i professionisti per supportare efficacemente l\'insegnamento multilingue.',
-  'German': 'Durch die Ausstattung von angehenden und praktizierenden Lehrern mit wissenschaftsbasierten Werkzeugen und evidenzbasierten digitalen Kompetenzen befähigt AGENTIVE Fachkräfte, mehrsprachigen Unterricht effektiv zu unterstützen.',
-  'Greek': 'Εξοπλίζοντας εκπαιδευτικούς προ-υπηρεσίας και εν υπηρεσία με εργαλεία βασισμένα στην επιστήμη και ψηφιακές ικανότητες ενημερωμένες από αποδείξεις, το AGENTIVE δυναμώνει επαγγελματίες να υποστηρίζουν αποτελεσματικά την πολυγλωσσική διδασκαλία.'
+  'German': 'Durch die Vermittlung von evidenzbasierten Strategien und digitalen Kompetenzen an Lehrkräfte in der Aus- und Weiterbildung befähigt AGENTIVE die Fachkräfte, mehrsprachigen Unterricht effektiv umzusetzen.',
+  'Greek': 'Το AGENTIVE ενδυναμώνει τους εκπαιδευτικούς να εφαρμόσουν πολύγλωσση διδασκαλία αποτελεσματικά, προσφέροντας στους εν ενεργεία εκπαιδευτικούς και στους εκπαιδευτικούς που δεν έχουν ακόμα ξεκινήσει τη διδασκαλία τεκμηριωμένες στρατηγικές και ψηφιακές δεξιότητες.',
+  'Slovenian': 'AGENTIVE bodoče in že zaposlene vzgojitelje ter učitelje opremlja s strokovno razvitimi strategijami in digitalnimi kompetencami ter jim tako omogoča učinkovito izvajanje večjezičnega poučevanja.'
 },
 
-
-
 'cross-sector-collaboration-description': {
-  'English': 'The synergy between academia and business enhances the development of child-driven educational content and fosters sustainable partnerships.',
-  'French': 'La synergie entre le monde académique et les entreprises améliore le développement de contenu éducatif axé sur l\'enfant et favorise des partenariats durables.',
-  'Lux': 'D\'Synergie tëschent Akademie a Business verbessert d\'Entwécklung vum kannergedriwwenem pädagogeschen Inhalt a fördert nohalteg Partnerschaften.',
+  'English': 'The synergy between academia and businesses drives the development of innovative educational tools and sustainable partnerships.',
+  'French': 'la synergie entre le monde académique et les entreprises favorise le développement d’outils éducatifs innovants et de partenariats durables.',
+  'Lux': 'D’Synergien tëscht dem akademesche Milieu an den Entreprisen droen zur Entwécklung vun innovative pedagogesche Ressourcë bäi a fërdere laangfristeg Partnerschaften.',
   'Italian': 'La sinergia tra accademia e business migliora lo sviluppo di contenuti educativi guidati dai bambini e favorisce partnership sostenibili.',
-  'German': 'Die Synergie zwischen Wissenschaft und Wirtschaft verbessert die Entwicklung kindzentrierter Bildungsinhalte und fördert nachhaltige Partnerschaften.',
-  'Greek': 'Η συνέργεια μεταξύ ακαδημίας και επιχειρήσεων ενισχύει την ανάπτυξη εκπαιδευτικού περιεχομένου κεντρισμένου στο παιδί και προωθεί βιώσιμες εταιρικές σχέσεις.'
+  'German': 'Die Synergie zwischen Hochschulen und Unternehmen fördert die Entwicklung innovativer Bildungsinstrumente und nachhaltiger Partnerschaften.',
+  'Greek': 'Η συνέργεια μεταξύ πανεπιστημίων και επιχειρήσεων προωθεί την ανάπτυξη καινοτόμων εκπαιδευτικών εργαλείων και βιώσιμων συνεργασιών.',
+  'Slovenian': 'Sinergija med akademskim svetom in podjetji spodbuja razvoj inovativnih izobraževalnih orodij in trajnostnih partnerstev.'
 }
 };
 
