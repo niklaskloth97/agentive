@@ -50,19 +50,21 @@ export default function HomeTestPage() {
         {/* What Can You Expect Section */}
         <section className="px-4 md:px-16">
           <div className="flex items-center justify-center gap-4 mb-6">
-            <Image
-              src="/bobba.jpg"
-              alt="Logo"
-              width={150}
-              height={150}
-              className="object-contain"
-            />
+           
             <h2 className="text-3xl font-cherry text-figmaGreen">
               <TranslateButtons 
                 translationKey="what-can-expect" 
                 currentLanguage={websiteLanguage} 
               />
             </h2>
+
+             <Image
+              src="/bobba.jpg"
+              alt="Logo"
+              width={150}
+              height={150}
+              className="object-contain"
+            />
           </div>
 
           <p className="text-gray-700 text-justify">
@@ -72,6 +74,7 @@ export default function HomeTestPage() {
             />
           </p>
         </section>
+
 
         {/* What is Agentive Section */}
         <section className="px-4 md:px-16 flex flex-col lg:flex-row items-center gap-10">
@@ -151,7 +154,26 @@ export default function HomeTestPage() {
         </section>
         {/* Follow Our Journey Section */}
         <section className="px-4 md:px-16 flex flex-col lg:flex-row items-center gap-10">
-          {/* Left Text Content */}
+         
+          {/* Left Image */}
+          <div className="lg:w-1/2 flex justify-center lg:justify-start">
+            {/* Yellow border mask frame */}
+                      <div className="mask-wave bg-yellow-400 w-[420px] h-[420px] p-2 mx-auto lg:mx-0 relative z-0">
+
+              {/* Actual image layer */}
+              <div className="mask-wave w-full h-full relative">
+                <Image
+                  src="/back1.jpg" 
+                  alt="Follow Our Journey"
+                  width={400}
+                  height={400}
+                  className="w-full h-full object-cover object-[80%_100%] scale-110"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Right Text Content */}
           <div className="lg:w-1/2 text-center lg:text-left">
             <h2 className="text-3xl font-cherry text-figmaGreen mb-4">
               <TranslateButtons 
@@ -172,23 +194,7 @@ export default function HomeTestPage() {
             </p>
           </div>
 
-          {/* Right Image */}
-          <div className="lg:w-1/2 flex justify-center lg:justify-end">
-            {/* Yellow border mask frame */}
-                      <div className="mask-wave bg-yellow-400 w-[420px] h-[420px] p-2 mx-auto lg:mx-0 relative z-0">
-
-              {/* Actual image layer */}
-              <div className="mask-wave w-full h-full relative">
-                <Image
-                  src="/back1.jpg" 
-                  alt="Follow Our Journey"
-                  width={400}
-                  height={400}
-                  className="w-full h-full object-cover object-[80%_100%] scale-110"
-                />
-              </div>
-            </div>
-          </div>
+          
         </section>
 
       </div>

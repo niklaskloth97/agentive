@@ -1,0 +1,4734 @@
+{
+  "timestamp": "2025-09-21T11:43:36.045Z",
+  "scannedFiles": [
+    {
+      "storyId": "1",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story1/ELS/Story_1_ELS_1_E.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story1/ELS/Story_1_ELS_1_F.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story1/ELS/Story_1_ELS_1_G.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story1/ELS/Story_1_ELS_2_E.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story1/ELS/Story_1_ELS_2_F.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story1/ELS/Story_1_ELS_2_G.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story1/ELS/Story_1_ELS_3_E.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story1/ELS/Story_1_ELS_3_F.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story1/ELS/Story_1_ELS_3_G.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story1/ICAU/Story_1_ICAU_1_E.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story1/ICAU/Story_1_ICAU_1_F.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story1/ICAU/Story_1_ICAU_1_G.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "gr",
+      "filePath": "/activities/story1/ICAU/Story_1_ICAU_1_GR.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "svn",
+      "filePath": "/activities/story1/ICAU/Story_1_ICAU_1_S.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story1/ICAU/Story_1_ICAU_2_E.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story1/ICAU/Story_1_ICAU_2_F.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story1/ICAU/Story_1_ICAU_2_G.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "gr",
+      "filePath": "/activities/story1/ICAU/Story_1_ICAU_2_GR.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "svn",
+      "filePath": "/activities/story1/ICAU/Story_1_ICAU_2_S.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story1/ICAU/Story_1_ICAU_3_E.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story1/ICAU/Story_1_ICAU_3_F.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story1/ICAU/Story_1_ICAU_3_G.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "gr",
+      "filePath": "/activities/story1/ICAU/Story_1_ICAU_3_GR.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "svn",
+      "filePath": "/activities/story1/ICAU/Story_1_ICAU_3_S.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story1/LA/Story_1_LA_1_E.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story1/LA/Story_1_LA_1_F.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story1/LA/Story_1_LA_1_G.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "svn",
+      "filePath": "/activities/story1/LA/Story_1_LA_1_S.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story1/LA/Story_1_LA_2_F.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story1/LA/Story_1_LA_2_G.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "svn",
+      "filePath": "/activities/story1/LA/Story_1_LA_2_S.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story1/LA/Story_1_LA_3_E.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story1/LA/Story_1_LA_3_F.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story1/LA/Story_1_LA_3_G.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "svn",
+      "filePath": "/activities/story1/LA/Story_1_LA_3_S.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story1/LA/Story_2_LA_2_E.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story1/PC/Story1_PL_1_G.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story1/PC/Story1_PL_2_G.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story1/PC/Story1_PL_3_G.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story1/PC/Story_1_PL_1_E.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story1/PC/Story_1_PL_1_F.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story1/PC/Story_1_PL_2_E.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story1/PC/Story_1_PL_2_F.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story1/PC/Story_1_PL_3_E.pdf"
+    },
+    {
+      "storyId": "1",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story1/PC/Story_1_PL_3_F.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story2/ELS/Story_2_ELS_1_E.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story2/ELS/Story_2_ELS_1_F.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story2/ELS/Story_2_ELS_1_G.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story2/ELS/Story_2_ELS_2_E.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story2/ELS/Story_2_ELS_2_F.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story2/ELS/Story_2_ELS_2_G.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story2/ELS/Story_2_ELS_3_E.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story2/ELS/Story_2_ELS_3_F.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story2/ELS/Story_2_ELS_3_G.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story2/ICAU/Story2_ICAU_1_G.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story2/ICAU/Story2_ICAU_2_G.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story2/ICAU/Story2_ICAU_3_G.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story2/ICAU/Story_2_ICAU_1_E.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story2/ICAU/Story_2_ICAU_1_F.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "svn",
+      "filePath": "/activities/story2/ICAU/Story_2_ICAU_1_S.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story2/ICAU/Story_2_ICAU_2_E.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story2/ICAU/Story_2_ICAU_2_F.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "svn",
+      "filePath": "/activities/story2/ICAU/Story_2_ICAU_2_S.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story2/ICAU/Story_2_ICAU_3_E.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story2/ICAU/Story_2_ICAU_3_F.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "svn",
+      "filePath": "/activities/story2/ICAU/Story_2_ICAU_3_S.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story2/LA/Story_2_LA_1_E.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story2/LA/Story_2_LA_1_F.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story2/LA/Story_2_LA_1_G.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "svn",
+      "filePath": "/activities/story2/LA/Story_2_LA_1_S.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story2/LA/Story_2_LA_2_E.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story2/LA/Story_2_LA_2_F.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story2/LA/Story_2_LA_2_G.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "svn",
+      "filePath": "/activities/story2/LA/Story_2_LA_2_S.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story2/LA/Story_2_LA_3_E.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story2/LA/Story_2_LA_3_F.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story2/LA/Story_2_LA_3_G.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "svn",
+      "filePath": "/activities/story2/LA/Story_2_LA_3_S.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story2/LA/Story_2_PL_3_F.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story2/PC/Story2_PL_1_G.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story2/PC/Story2_PL_2_G.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story2/PC/Story2_PL_3_G.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story2/PC/Story_2_PL_1_E.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story2/PC/Story_2_PL_1_F.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story2/PC/Story_2_PL_2_E.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story2/PC/Story_2_PL_2_F.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story2/PC/Story_2_PL_3_E.pdf"
+    },
+    {
+      "storyId": "2",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story2/PC/Story_2_PL_3_F.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story3/ELS/Story 3_ELS_2_F.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story3/ELS/Story 3_ELS_3_F.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story3/ELS/Story_3_ELS_1_E.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story3/ELS/Story_3_ELS_2_E.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story3/ELS/Story_3_ELS_3_E.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story3/ICAU/Story 3_ICAU_1_F.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story3/ICAU/Story 3_ICAU_2_F.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story3/ICAU/Story 3_ICAU_3_F.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story3/ICAU/Story3_ICAU_1_G.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story3/ICAU/Story3_ICAU_2_G.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story3/ICAU/Story3_ICAU_3_G.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story3/ICAU/Story_3_ICAU_1_E.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "svn",
+      "filePath": "/activities/story3/ICAU/Story_3_ICAU_1_S.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story3/ICAU/Story_3_ICAU_2_E.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "svn",
+      "filePath": "/activities/story3/ICAU/Story_3_ICAU_2_S.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story3/ICAU/Story_3_ICAU_3_E.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "svn",
+      "filePath": "/activities/story3/ICAU/Story_3_ICAU_3_S.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story3/LA/Story 3_LA_1_F.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story3/LA/Story 3_LA_2_F.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story3/LA/Story 3_LA_3_F.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story3/LA/Story3_LA_1_G.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story3/LA/Story3_LA_2_G.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story3/LA/Story3_LA_3_G.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story3/LA/Story_3_LA_1_E.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "svn",
+      "filePath": "/activities/story3/LA/Story_3_LA_1_S.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story3/LA/Story_3_LA_2_E.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "svn",
+      "filePath": "/activities/story3/LA/Story_3_LA_2_S.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story3/LA/Story_3_LA_3_E.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "svn",
+      "filePath": "/activities/story3/LA/Story_3_LA_3_S.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story3/PC/Story 3_PL_1_F.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story3/PC/Story 3_PL_2_F.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story3/PC/Story 3_PL_3_F.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story3/PC/Story 3_PL_3_G.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story3/PC/Story3_PL_1_G.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story3/PC/Story3_PL_2_G.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story3/PC/Story_3_PL_1_E.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story3/PC/Story_3_PL_2_E.pdf"
+    },
+    {
+      "storyId": "3",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story3/PC/Story_3_PL_3_E.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story4/ELS/Story 4_ELS_1_F.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story4/ELS/Story 4_ELS_2_F.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story4/ELS/Story 4_ELS_3_F.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story4/ELS/Story_4_ELS_1_E.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story4/ELS/Story_4_ELS_1_G.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story4/ELS/Story_4_ELS_2_E.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story4/ELS/Story_4_ELS_2_G.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story4/ELS/Story_4_ELS_3_E.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story4/ELS/Story_4_ELS_3_G.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story4/ICAU/Story 4_ICAU_1_F.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story4/ICAU/Story 4_ICAU_2_F.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story4/ICAU/Story 4_ICAU_3_F.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story4/ICAU/Story4_ICAU_1_G.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story4/ICAU/Story4_ICAU_2_G.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story4/ICAU/Story4_ICAU_3_G.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story4/ICAU/Story_4_ICAU_1_E.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "svn",
+      "filePath": "/activities/story4/ICAU/Story_4_ICAU_1_S.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story4/ICAU/Story_4_ICAU_2_E.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "svn",
+      "filePath": "/activities/story4/ICAU/Story_4_ICAU_2_S.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story4/ICAU/Story_4_ICAU_3_E.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "svn",
+      "filePath": "/activities/story4/ICAU/Story_4_ICAU_3_S.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story4/LA/Story 4_LA_1_F.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story4/LA/Story 4_LA_2_F.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story4/LA/Story 4_LA_3_F.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story4/LA/Story4_PL_1_G.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story4/LA/Story4_PL_2_G.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story4/LA/Story4_PL_3_G.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story4/LA/Story_4_LA_1_E.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "svn",
+      "filePath": "/activities/story4/LA/Story_4_LA_1_S.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story4/LA/Story_4_LA_2_E.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "svn",
+      "filePath": "/activities/story4/LA/Story_4_LA_2_S.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story4/LA/Story_4_LA_3_E.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "svn",
+      "filePath": "/activities/story4/LA/Story_4_LA_3_S.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story4/PC/Story 4_PL_1_F.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story4/PC/Story 4_PL_2_F.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story4/PC/Story 4_PL_3_F.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story4/PC/Story4_PL_1_G.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story4/PC/Story4_PL_2_G.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story4/PC/Story4_PL_3_G.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story4/PC/Story_4_PL_1_E.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story4/PC/Story_4_PL_2_E.pdf"
+    },
+    {
+      "storyId": "4",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story4/PC/Story_4_PL_3_E.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story5/ELS/Story 5_ELS_F/Story 5_ELS_1_F.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story5/ELS/Story 5_ELS_F/Story 5_ELS_2_F.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story5/ELS/Story 5_ELS_F/Story 5_ELS_3_F.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_1_G.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_2_G.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_3_G.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story5/ELS/Story_5_ELS_E/Story_5_ELS_1_E.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story5/ELS/Story_5_ELS_E/Story_5_ELS_2_E.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story5/ELS/Story_5_ELS_E/Story_5_ELS_3_E.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story5/ICAU/Story 5_ICAU_1_E.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story5/ICAU/Story 5_ICAU_1_F.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story5/ICAU/Story 5_ICAU_2_E.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story5/ICAU/Story 5_ICAU_2_F.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story5/ICAU/Story 5_ICAU_3_E.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story5/ICAU/Story 5_ICAU_3_F.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story5/ICAU/Story5_ICAU_1_G.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story5/ICAU/Story5_ICAU_2_G.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story5/ICAU/Story5_ICAU_3_G.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "svn",
+      "filePath": "/activities/story5/ICAU/Story_5_ICAU_1_S.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "svn",
+      "filePath": "/activities/story5/ICAU/Story_5_ICAU_2_S.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "svn",
+      "filePath": "/activities/story5/ICAU/Story_5_ICAU_3_S.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story5/LA/Story 5_LA_E/Story_5_LA_1_E.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story5/LA/Story 5_LA_E/Story_5_LA_2_E.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story5/LA/Story 5_LA_E/Story_5_LA_3_E.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story5/LA/Story 5_LA_F/Story 5_LA_1_F.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story5/LA/Story 5_LA_F/Story 5_LA_2_F.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story5/LA/Story 5_LA_F/Story 5_LA_3_F.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story5/LA/Story 5_LA_G/Story5_PL_1_G.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story5/LA/Story 5_LA_G/Story5_PL_2_G.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story5/LA/Story 5_LA_G/Story5_PL_3_G.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "svn",
+      "filePath": "/activities/story5/LA/Story 5_LA_S/Story_5_LA_1_S.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "svn",
+      "filePath": "/activities/story5/LA/Story 5_LA_S/Story_5_LA_2_S.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "svn",
+      "filePath": "/activities/story5/LA/Story 5_LA_S/Story_5_LA_3_S.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story5/PC/Story 5_PL_F/Story 5_PL_1_F.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story5/PC/Story 5_PL_F/Story 5_PL_2_F.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story5/PC/Story 5_PL_F/Story 5_PL_3_F.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story5/PC/Story 5_PL_F/Story5_PL_1_F.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story5/PC/Story 5_PL_F/Story5_PL_2_F.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story5/PC/Story 5_PL_F/Story5_PL_3_F.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story5/PC/Story 5_PL_G/Story5_PL_1_G.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story5/PC/Story 5_PL_G/Story5_PL_2_G.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story5/PC/Story 5_PL_G/Story5_PL_3_G.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story5/PC/Story_5_PL_E/Story_5_PL_1_E.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story5/PC/Story_5_PL_E/Story_5_PL_2_E.pdf"
+    },
+    {
+      "storyId": "5",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story5/PC/Story_5_PL_E/Story_5_PL_3_E.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story6/ELS/Story 6_ELS_1_F.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story6/ELS/Story 6_ELS_2_F.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story6/ELS/Story 6_ELS_3_F.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story6/ELS/Story_6_ELS_1_E.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story6/ELS/Story_6_ELS_1_G.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story6/ELS/Story_6_ELS_2_E.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story6/ELS/Story_6_ELS_2_G.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story6/ELS/Story_6_ELS_3_E.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story6/ELS/Story_6_ELS_3_G.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story6/ICAU/Story 6_ICAU_1_F.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story6/ICAU/Story 6_ICAU_2_F.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story6/ICAU/Story 6_ICAU_3_F.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story6/ICAU/Story6_ICAU_1_G.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story6/ICAU/Story6_ICAU_2_G.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story6/ICAU/Story6_ICAU_3_G.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story6/ICAU/Story_6_ICAU_1_E.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story6/ICAU/Story_6_ICAU_2_E.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story6/ICAU/Story_6_ICAU_3_E.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story6/LA/Story 6_LA_1_F.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story6/LA/Story 6_LA_2_F.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story6/LA/Story 6_LA_3_F.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story6/LA/Story6_LA_1_G.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story6/LA/Story6_LA_2_G.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story6/LA/Story6_LA_3_G.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story6/LA/Story_6_LA_1_E.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "svn",
+      "filePath": "/activities/story6/LA/Story_6_LA_1_S.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story6/LA/Story_6_LA_2_E.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "svn",
+      "filePath": "/activities/story6/LA/Story_6_LA_2_S.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story6/LA/Story_6_LA_3_E.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "svn",
+      "filePath": "/activities/story6/LA/Story_6_LA_3_S.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story6/PC/Story 6_PL_1_F.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story6/PC/Story 6_PL_2_F.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story6/PC/Story 6_PL_3_F.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story6/PC/Story6_PL_1_G.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story6/PC/Story6_PL_2_G.pdf"
+    },
+    {
+      "storyId": "6",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story6/PC/Story6_PL_3_G.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story7/ELS/Story 7_ELS_1_F.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story7/ELS/Story 7_ELS_2_F.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story7/ELS/Story 7_ELS_3_F.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story7/ELS/Story_7_ELS_1_E.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story7/ELS/Story_7_ELS_1_G.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story7/ELS/Story_7_ELS_2_E.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story7/ELS/Story_7_ELS_2_G.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story7/ELS/Story_7_ELS_3_E.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story7/ELS/Story_7_ELS_3_G.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story7/ICAU/Story 7_ICAU_1_F.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story7/ICAU/Story 7_ICAU_2_F.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story7/ICAU/Story 7_ICAU_3_F.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story7/ICAU/Story7_ICAU_1_G.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story7/ICAU/Story7_ICAU_2_G.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story7/ICAU/Story7_ICAU_3_G.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story7/ICAU/Story_7_ICAU_1_E.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "svn",
+      "filePath": "/activities/story7/ICAU/Story_7_ICAU_1_S.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story7/ICAU/Story_7_ICAU_2_E.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "svn",
+      "filePath": "/activities/story7/ICAU/Story_7_ICAU_2_S.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story7/ICAU/Story_7_ICAU_3_E.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "svn",
+      "filePath": "/activities/story7/ICAU/Story_7_ICAU_3_S.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story7/LA/Story 7_LA_1_F.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story7/LA/Story 7_LA_2_F.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story7/LA/Story 7_LA_3_F.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story7/LA/Story7_LA_1_G.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story7/LA/Story7_LA_2_G.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story7/LA/Story7_LA_3_G.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story7/LA/Story_7_LA_1_E.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "svn",
+      "filePath": "/activities/story7/LA/Story_7_LA_1_S.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story7/LA/Story_7_LA_2_E.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "svn",
+      "filePath": "/activities/story7/LA/Story_7_LA_2_S.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story7/LA/Story_7_LA_3_E.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "svn",
+      "filePath": "/activities/story7/LA/Story_7_LA_3_S.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story7/PC/Story 7_PL_1_F.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story7/PC/Story 7_PL_2_F.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story7/PC/Story 7_PL_3_F.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story7/PC/Story_7_PL_1_E.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story7/PC/Story_7_PL_1_G.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story7/PC/Story_7_PL_2_E.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story7/PC/Story_7_PL_2_G.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story7/PC/Story_7_PL_3_E.pdf"
+    },
+    {
+      "storyId": "7",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story7/PC/Story_7_PL_3_G.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story8/ELS/Story 8_ELS_1_F.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story8/ELS/Story 8_ELS_2_F.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story8/ELS/Story 8_ELS_3_F.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story8/ELS/Story_8_ELS_1_E.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ELS",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story8/ELS/Story_8_ELS_1_G.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story8/ELS/Story_8_ELS_2_E.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ELS",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story8/ELS/Story_8_ELS_2_G.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story8/ELS/Story_8_ELS_3_E.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ELS",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story8/ELS/Story_8_ELS_3_G.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story8/ICAU/Story 8_ICAU_1_F.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story8/ICAU/Story 8_ICAU_2_F.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story8/ICAU/Story 8_ICAU_3_F.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "svn",
+      "filePath": "/activities/story8/ICAU/Story 8_ICAU_3_S.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story8/ICAU/Story8_ICAU_1_G.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story8/ICAU/Story8_ICAU_2_G.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story8/ICAU/Story8_ICAU_3_G.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story8/ICAU/Story_8_ICAU_1_E.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ICAU",
+      "activityNumber": "1",
+      "language": "svn",
+      "filePath": "/activities/story8/ICAU/Story_8_ICAU_1_S.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story8/ICAU/Story_8_ICAU_2_E.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ICAU",
+      "activityNumber": "2",
+      "language": "svn",
+      "filePath": "/activities/story8/ICAU/Story_8_ICAU_2_S.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "ICAU",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story8/ICAU/Story_8_ICAU_3_E.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story8/LA/Story 8_LA_1_F.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story8/LA/Story 8_LA_2_F.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story8/LA/Story 8_LA_3_F.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story8/LA/Story8_LA_1_G.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story8/LA/Story8_LA_2_G.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story8/LA/Story8_LA_3_G.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story8/LA/Story_8_LA_1_E.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "LA",
+      "activityNumber": "1",
+      "language": "svn",
+      "filePath": "/activities/story8/LA/Story_8_LA_1_S.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story8/LA/Story_8_LA_2_E.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "LA",
+      "activityNumber": "2",
+      "language": "svn",
+      "filePath": "/activities/story8/LA/Story_8_LA_2_S.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story8/LA/Story_8_LA_3_E.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "LA",
+      "activityNumber": "3",
+      "language": "svn",
+      "filePath": "/activities/story8/LA/Story_8_LA_3_S.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "fr",
+      "filePath": "/activities/story8/PC/Story 8_PL_1_F.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "fr",
+      "filePath": "/activities/story8/PC/Story 8_PL_2_F.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "fr",
+      "filePath": "/activities/story8/PC/Story 8_PL_3_F.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "de",
+      "filePath": "/activities/story8/PC/Story8_PL_1_G.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "de",
+      "filePath": "/activities/story8/PC/Story8_PL_2_G.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "de",
+      "filePath": "/activities/story8/PC/Story8_PL_3_G.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "PC",
+      "activityNumber": "1",
+      "language": "en",
+      "filePath": "/activities/story8/PC/Story_8_PL_1_E.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "PC",
+      "activityNumber": "2",
+      "language": "en",
+      "filePath": "/activities/story8/PC/Story_8_PL_2_E.pdf"
+    },
+    {
+      "storyId": "8",
+      "activityGroup": "PC",
+      "activityNumber": "3",
+      "language": "en",
+      "filePath": "/activities/story8/PC/Story_8_PL_3_E.pdf"
+    }
+  ],
+  "totalFiles": 333,
+  "groupedByStory": {
+    "ELS-1": [
+      {
+        "storyId": "1",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story1/ELS/Story_1_ELS_1_E.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story1/ELS/Story_1_ELS_1_F.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story1/ELS/Story_1_ELS_1_G.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story1/ELS/Story_1_ELS_2_E.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story1/ELS/Story_1_ELS_2_F.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story1/ELS/Story_1_ELS_2_G.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story1/ELS/Story_1_ELS_3_E.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story1/ELS/Story_1_ELS_3_F.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story1/ELS/Story_1_ELS_3_G.pdf"
+      }
+    ],
+    "ICAU-1": [
+      {
+        "storyId": "1",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story1/ICAU/Story_1_ICAU_1_E.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story1/ICAU/Story_1_ICAU_1_F.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story1/ICAU/Story_1_ICAU_1_G.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "gr",
+        "filePath": "/activities/story1/ICAU/Story_1_ICAU_1_GR.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "svn",
+        "filePath": "/activities/story1/ICAU/Story_1_ICAU_1_S.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story1/ICAU/Story_1_ICAU_2_E.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story1/ICAU/Story_1_ICAU_2_F.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story1/ICAU/Story_1_ICAU_2_G.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "gr",
+        "filePath": "/activities/story1/ICAU/Story_1_ICAU_2_GR.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "svn",
+        "filePath": "/activities/story1/ICAU/Story_1_ICAU_2_S.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story1/ICAU/Story_1_ICAU_3_E.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story1/ICAU/Story_1_ICAU_3_F.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story1/ICAU/Story_1_ICAU_3_G.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "gr",
+        "filePath": "/activities/story1/ICAU/Story_1_ICAU_3_GR.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "svn",
+        "filePath": "/activities/story1/ICAU/Story_1_ICAU_3_S.pdf"
+      }
+    ],
+    "LA-1": [
+      {
+        "storyId": "1",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story1/LA/Story_1_LA_1_E.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story1/LA/Story_1_LA_1_F.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story1/LA/Story_1_LA_1_G.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "svn",
+        "filePath": "/activities/story1/LA/Story_1_LA_1_S.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story1/LA/Story_1_LA_2_F.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story1/LA/Story_1_LA_2_G.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "svn",
+        "filePath": "/activities/story1/LA/Story_1_LA_2_S.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story1/LA/Story_1_LA_3_E.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story1/LA/Story_1_LA_3_F.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story1/LA/Story_1_LA_3_G.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "svn",
+        "filePath": "/activities/story1/LA/Story_1_LA_3_S.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story1/LA/Story_2_LA_2_E.pdf"
+      }
+    ],
+    "PC-1": [
+      {
+        "storyId": "1",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story1/PC/Story1_PL_1_G.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story1/PC/Story1_PL_2_G.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story1/PC/Story1_PL_3_G.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story1/PC/Story_1_PL_1_E.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story1/PC/Story_1_PL_1_F.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story1/PC/Story_1_PL_2_E.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story1/PC/Story_1_PL_2_F.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story1/PC/Story_1_PL_3_E.pdf"
+      },
+      {
+        "storyId": "1",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story1/PC/Story_1_PL_3_F.pdf"
+      }
+    ],
+    "ELS-2": [
+      {
+        "storyId": "2",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story2/ELS/Story_2_ELS_1_E.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story2/ELS/Story_2_ELS_1_F.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story2/ELS/Story_2_ELS_1_G.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story2/ELS/Story_2_ELS_2_E.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story2/ELS/Story_2_ELS_2_F.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story2/ELS/Story_2_ELS_2_G.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story2/ELS/Story_2_ELS_3_E.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story2/ELS/Story_2_ELS_3_F.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story2/ELS/Story_2_ELS_3_G.pdf"
+      }
+    ],
+    "ICAU-2": [
+      {
+        "storyId": "2",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story2/ICAU/Story2_ICAU_1_G.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story2/ICAU/Story2_ICAU_2_G.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story2/ICAU/Story2_ICAU_3_G.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story2/ICAU/Story_2_ICAU_1_E.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story2/ICAU/Story_2_ICAU_1_F.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "svn",
+        "filePath": "/activities/story2/ICAU/Story_2_ICAU_1_S.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story2/ICAU/Story_2_ICAU_2_E.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story2/ICAU/Story_2_ICAU_2_F.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "svn",
+        "filePath": "/activities/story2/ICAU/Story_2_ICAU_2_S.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story2/ICAU/Story_2_ICAU_3_E.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story2/ICAU/Story_2_ICAU_3_F.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "svn",
+        "filePath": "/activities/story2/ICAU/Story_2_ICAU_3_S.pdf"
+      }
+    ],
+    "LA-2": [
+      {
+        "storyId": "2",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story2/LA/Story_2_LA_1_E.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story2/LA/Story_2_LA_1_F.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story2/LA/Story_2_LA_1_G.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "svn",
+        "filePath": "/activities/story2/LA/Story_2_LA_1_S.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story2/LA/Story_2_LA_2_E.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story2/LA/Story_2_LA_2_F.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story2/LA/Story_2_LA_2_G.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "svn",
+        "filePath": "/activities/story2/LA/Story_2_LA_2_S.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story2/LA/Story_2_LA_3_E.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story2/LA/Story_2_LA_3_F.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story2/LA/Story_2_LA_3_G.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "svn",
+        "filePath": "/activities/story2/LA/Story_2_LA_3_S.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story2/LA/Story_2_PL_3_F.pdf"
+      }
+    ],
+    "PC-2": [
+      {
+        "storyId": "2",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story2/PC/Story2_PL_1_G.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story2/PC/Story2_PL_2_G.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story2/PC/Story2_PL_3_G.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story2/PC/Story_2_PL_1_E.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story2/PC/Story_2_PL_1_F.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story2/PC/Story_2_PL_2_E.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story2/PC/Story_2_PL_2_F.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story2/PC/Story_2_PL_3_E.pdf"
+      },
+      {
+        "storyId": "2",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story2/PC/Story_2_PL_3_F.pdf"
+      }
+    ],
+    "ELS-3": [
+      {
+        "storyId": "3",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story3/ELS/Story 3_ELS_2_F.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story3/ELS/Story 3_ELS_3_F.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story3/ELS/Story_3_ELS_1_E.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story3/ELS/Story_3_ELS_2_E.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story3/ELS/Story_3_ELS_3_E.pdf"
+      }
+    ],
+    "ICAU-3": [
+      {
+        "storyId": "3",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story3/ICAU/Story 3_ICAU_1_F.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story3/ICAU/Story 3_ICAU_2_F.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story3/ICAU/Story 3_ICAU_3_F.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story3/ICAU/Story3_ICAU_1_G.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story3/ICAU/Story3_ICAU_2_G.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story3/ICAU/Story3_ICAU_3_G.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story3/ICAU/Story_3_ICAU_1_E.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "svn",
+        "filePath": "/activities/story3/ICAU/Story_3_ICAU_1_S.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story3/ICAU/Story_3_ICAU_2_E.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "svn",
+        "filePath": "/activities/story3/ICAU/Story_3_ICAU_2_S.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story3/ICAU/Story_3_ICAU_3_E.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "svn",
+        "filePath": "/activities/story3/ICAU/Story_3_ICAU_3_S.pdf"
+      }
+    ],
+    "LA-3": [
+      {
+        "storyId": "3",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story3/LA/Story 3_LA_1_F.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story3/LA/Story 3_LA_2_F.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story3/LA/Story 3_LA_3_F.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story3/LA/Story3_LA_1_G.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story3/LA/Story3_LA_2_G.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story3/LA/Story3_LA_3_G.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story3/LA/Story_3_LA_1_E.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "svn",
+        "filePath": "/activities/story3/LA/Story_3_LA_1_S.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story3/LA/Story_3_LA_2_E.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "svn",
+        "filePath": "/activities/story3/LA/Story_3_LA_2_S.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story3/LA/Story_3_LA_3_E.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "svn",
+        "filePath": "/activities/story3/LA/Story_3_LA_3_S.pdf"
+      }
+    ],
+    "PC-3": [
+      {
+        "storyId": "3",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story3/PC/Story 3_PL_1_F.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story3/PC/Story 3_PL_2_F.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story3/PC/Story 3_PL_3_F.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story3/PC/Story 3_PL_3_G.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story3/PC/Story3_PL_1_G.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story3/PC/Story3_PL_2_G.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story3/PC/Story_3_PL_1_E.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story3/PC/Story_3_PL_2_E.pdf"
+      },
+      {
+        "storyId": "3",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story3/PC/Story_3_PL_3_E.pdf"
+      }
+    ],
+    "ELS-4": [
+      {
+        "storyId": "4",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story4/ELS/Story 4_ELS_1_F.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story4/ELS/Story 4_ELS_2_F.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story4/ELS/Story 4_ELS_3_F.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story4/ELS/Story_4_ELS_1_E.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story4/ELS/Story_4_ELS_1_G.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story4/ELS/Story_4_ELS_2_E.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story4/ELS/Story_4_ELS_2_G.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story4/ELS/Story_4_ELS_3_E.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story4/ELS/Story_4_ELS_3_G.pdf"
+      }
+    ],
+    "ICAU-4": [
+      {
+        "storyId": "4",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story4/ICAU/Story 4_ICAU_1_F.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story4/ICAU/Story 4_ICAU_2_F.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story4/ICAU/Story 4_ICAU_3_F.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story4/ICAU/Story4_ICAU_1_G.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story4/ICAU/Story4_ICAU_2_G.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story4/ICAU/Story4_ICAU_3_G.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story4/ICAU/Story_4_ICAU_1_E.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "svn",
+        "filePath": "/activities/story4/ICAU/Story_4_ICAU_1_S.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story4/ICAU/Story_4_ICAU_2_E.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "svn",
+        "filePath": "/activities/story4/ICAU/Story_4_ICAU_2_S.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story4/ICAU/Story_4_ICAU_3_E.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "svn",
+        "filePath": "/activities/story4/ICAU/Story_4_ICAU_3_S.pdf"
+      }
+    ],
+    "LA-4": [
+      {
+        "storyId": "4",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story4/LA/Story 4_LA_1_F.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story4/LA/Story 4_LA_2_F.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story4/LA/Story 4_LA_3_F.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story4/LA/Story4_PL_1_G.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story4/LA/Story4_PL_2_G.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story4/LA/Story4_PL_3_G.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story4/LA/Story_4_LA_1_E.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "svn",
+        "filePath": "/activities/story4/LA/Story_4_LA_1_S.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story4/LA/Story_4_LA_2_E.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "svn",
+        "filePath": "/activities/story4/LA/Story_4_LA_2_S.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story4/LA/Story_4_LA_3_E.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "svn",
+        "filePath": "/activities/story4/LA/Story_4_LA_3_S.pdf"
+      }
+    ],
+    "PC-4": [
+      {
+        "storyId": "4",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story4/PC/Story 4_PL_1_F.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story4/PC/Story 4_PL_2_F.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story4/PC/Story 4_PL_3_F.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story4/PC/Story4_PL_1_G.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story4/PC/Story4_PL_2_G.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story4/PC/Story4_PL_3_G.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story4/PC/Story_4_PL_1_E.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story4/PC/Story_4_PL_2_E.pdf"
+      },
+      {
+        "storyId": "4",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story4/PC/Story_4_PL_3_E.pdf"
+      }
+    ],
+    "ELS-5": [
+      {
+        "storyId": "5",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story5/ELS/Story 5_ELS_F/Story 5_ELS_1_F.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story5/ELS/Story 5_ELS_F/Story 5_ELS_2_F.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story5/ELS/Story 5_ELS_F/Story 5_ELS_3_F.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_1_G.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_2_G.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story5/ELS/Story 5_ELS_G/Story_5_ELS_3_G.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story5/ELS/Story_5_ELS_E/Story_5_ELS_1_E.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story5/ELS/Story_5_ELS_E/Story_5_ELS_2_E.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story5/ELS/Story_5_ELS_E/Story_5_ELS_3_E.pdf"
+      }
+    ],
+    "ICAU-5": [
+      {
+        "storyId": "5",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story5/ICAU/Story 5_ICAU_1_E.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story5/ICAU/Story 5_ICAU_1_F.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story5/ICAU/Story 5_ICAU_2_E.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story5/ICAU/Story 5_ICAU_2_F.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story5/ICAU/Story 5_ICAU_3_E.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story5/ICAU/Story 5_ICAU_3_F.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story5/ICAU/Story5_ICAU_1_G.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story5/ICAU/Story5_ICAU_2_G.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story5/ICAU/Story5_ICAU_3_G.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "svn",
+        "filePath": "/activities/story5/ICAU/Story_5_ICAU_1_S.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "svn",
+        "filePath": "/activities/story5/ICAU/Story_5_ICAU_2_S.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "svn",
+        "filePath": "/activities/story5/ICAU/Story_5_ICAU_3_S.pdf"
+      }
+    ],
+    "LA-5": [
+      {
+        "storyId": "5",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story5/LA/Story 5_LA_E/Story_5_LA_1_E.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story5/LA/Story 5_LA_E/Story_5_LA_2_E.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story5/LA/Story 5_LA_E/Story_5_LA_3_E.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story5/LA/Story 5_LA_F/Story 5_LA_1_F.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story5/LA/Story 5_LA_F/Story 5_LA_2_F.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story5/LA/Story 5_LA_F/Story 5_LA_3_F.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story5/LA/Story 5_LA_G/Story5_PL_1_G.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story5/LA/Story 5_LA_G/Story5_PL_2_G.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story5/LA/Story 5_LA_G/Story5_PL_3_G.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "svn",
+        "filePath": "/activities/story5/LA/Story 5_LA_S/Story_5_LA_1_S.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "svn",
+        "filePath": "/activities/story5/LA/Story 5_LA_S/Story_5_LA_2_S.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "svn",
+        "filePath": "/activities/story5/LA/Story 5_LA_S/Story_5_LA_3_S.pdf"
+      }
+    ],
+    "PC-5": [
+      {
+        "storyId": "5",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story5/PC/Story 5_PL_F/Story 5_PL_1_F.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story5/PC/Story 5_PL_F/Story 5_PL_2_F.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story5/PC/Story 5_PL_F/Story 5_PL_3_F.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story5/PC/Story 5_PL_F/Story5_PL_1_F.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story5/PC/Story 5_PL_F/Story5_PL_2_F.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story5/PC/Story 5_PL_F/Story5_PL_3_F.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story5/PC/Story 5_PL_G/Story5_PL_1_G.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story5/PC/Story 5_PL_G/Story5_PL_2_G.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story5/PC/Story 5_PL_G/Story5_PL_3_G.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story5/PC/Story_5_PL_E/Story_5_PL_1_E.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story5/PC/Story_5_PL_E/Story_5_PL_2_E.pdf"
+      },
+      {
+        "storyId": "5",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story5/PC/Story_5_PL_E/Story_5_PL_3_E.pdf"
+      }
+    ],
+    "ELS-6": [
+      {
+        "storyId": "6",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story6/ELS/Story 6_ELS_1_F.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story6/ELS/Story 6_ELS_2_F.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story6/ELS/Story 6_ELS_3_F.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story6/ELS/Story_6_ELS_1_E.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story6/ELS/Story_6_ELS_1_G.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story6/ELS/Story_6_ELS_2_E.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story6/ELS/Story_6_ELS_2_G.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story6/ELS/Story_6_ELS_3_E.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story6/ELS/Story_6_ELS_3_G.pdf"
+      }
+    ],
+    "ICAU-6": [
+      {
+        "storyId": "6",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story6/ICAU/Story 6_ICAU_1_F.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story6/ICAU/Story 6_ICAU_2_F.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story6/ICAU/Story 6_ICAU_3_F.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story6/ICAU/Story6_ICAU_1_G.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story6/ICAU/Story6_ICAU_2_G.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story6/ICAU/Story6_ICAU_3_G.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story6/ICAU/Story_6_ICAU_1_E.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story6/ICAU/Story_6_ICAU_2_E.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story6/ICAU/Story_6_ICAU_3_E.pdf"
+      }
+    ],
+    "LA-6": [
+      {
+        "storyId": "6",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story6/LA/Story 6_LA_1_F.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story6/LA/Story 6_LA_2_F.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story6/LA/Story 6_LA_3_F.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story6/LA/Story6_LA_1_G.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story6/LA/Story6_LA_2_G.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story6/LA/Story6_LA_3_G.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story6/LA/Story_6_LA_1_E.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "svn",
+        "filePath": "/activities/story6/LA/Story_6_LA_1_S.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story6/LA/Story_6_LA_2_E.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "svn",
+        "filePath": "/activities/story6/LA/Story_6_LA_2_S.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story6/LA/Story_6_LA_3_E.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "svn",
+        "filePath": "/activities/story6/LA/Story_6_LA_3_S.pdf"
+      }
+    ],
+    "PC-6": [
+      {
+        "storyId": "6",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story6/PC/Story 6_PL_1_F.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story6/PC/Story 6_PL_2_F.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story6/PC/Story 6_PL_3_F.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story6/PC/Story6_PL_1_G.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story6/PC/Story6_PL_2_G.pdf"
+      },
+      {
+        "storyId": "6",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story6/PC/Story6_PL_3_G.pdf"
+      }
+    ],
+    "ELS-7": [
+      {
+        "storyId": "7",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story7/ELS/Story 7_ELS_1_F.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story7/ELS/Story 7_ELS_2_F.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story7/ELS/Story 7_ELS_3_F.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story7/ELS/Story_7_ELS_1_E.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story7/ELS/Story_7_ELS_1_G.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story7/ELS/Story_7_ELS_2_E.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story7/ELS/Story_7_ELS_2_G.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story7/ELS/Story_7_ELS_3_E.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story7/ELS/Story_7_ELS_3_G.pdf"
+      }
+    ],
+    "ICAU-7": [
+      {
+        "storyId": "7",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story7/ICAU/Story 7_ICAU_1_F.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story7/ICAU/Story 7_ICAU_2_F.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story7/ICAU/Story 7_ICAU_3_F.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story7/ICAU/Story7_ICAU_1_G.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story7/ICAU/Story7_ICAU_2_G.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story7/ICAU/Story7_ICAU_3_G.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story7/ICAU/Story_7_ICAU_1_E.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "svn",
+        "filePath": "/activities/story7/ICAU/Story_7_ICAU_1_S.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story7/ICAU/Story_7_ICAU_2_E.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "svn",
+        "filePath": "/activities/story7/ICAU/Story_7_ICAU_2_S.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story7/ICAU/Story_7_ICAU_3_E.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "svn",
+        "filePath": "/activities/story7/ICAU/Story_7_ICAU_3_S.pdf"
+      }
+    ],
+    "LA-7": [
+      {
+        "storyId": "7",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story7/LA/Story 7_LA_1_F.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story7/LA/Story 7_LA_2_F.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story7/LA/Story 7_LA_3_F.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story7/LA/Story7_LA_1_G.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story7/LA/Story7_LA_2_G.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story7/LA/Story7_LA_3_G.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story7/LA/Story_7_LA_1_E.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "svn",
+        "filePath": "/activities/story7/LA/Story_7_LA_1_S.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story7/LA/Story_7_LA_2_E.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "svn",
+        "filePath": "/activities/story7/LA/Story_7_LA_2_S.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story7/LA/Story_7_LA_3_E.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "svn",
+        "filePath": "/activities/story7/LA/Story_7_LA_3_S.pdf"
+      }
+    ],
+    "PC-7": [
+      {
+        "storyId": "7",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story7/PC/Story 7_PL_1_F.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story7/PC/Story 7_PL_2_F.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story7/PC/Story 7_PL_3_F.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story7/PC/Story_7_PL_1_E.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story7/PC/Story_7_PL_1_G.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story7/PC/Story_7_PL_2_E.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story7/PC/Story_7_PL_2_G.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story7/PC/Story_7_PL_3_E.pdf"
+      },
+      {
+        "storyId": "7",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story7/PC/Story_7_PL_3_G.pdf"
+      }
+    ],
+    "ELS-8": [
+      {
+        "storyId": "8",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story8/ELS/Story 8_ELS_1_F.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story8/ELS/Story 8_ELS_2_F.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story8/ELS/Story 8_ELS_3_F.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story8/ELS/Story_8_ELS_1_E.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ELS",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story8/ELS/Story_8_ELS_1_G.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story8/ELS/Story_8_ELS_2_E.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ELS",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story8/ELS/Story_8_ELS_2_G.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story8/ELS/Story_8_ELS_3_E.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ELS",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story8/ELS/Story_8_ELS_3_G.pdf"
+      }
+    ],
+    "ICAU-8": [
+      {
+        "storyId": "8",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story8/ICAU/Story 8_ICAU_1_F.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story8/ICAU/Story 8_ICAU_2_F.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story8/ICAU/Story 8_ICAU_3_F.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "svn",
+        "filePath": "/activities/story8/ICAU/Story 8_ICAU_3_S.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story8/ICAU/Story8_ICAU_1_G.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story8/ICAU/Story8_ICAU_2_G.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story8/ICAU/Story8_ICAU_3_G.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story8/ICAU/Story_8_ICAU_1_E.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ICAU",
+        "activityNumber": "1",
+        "language": "svn",
+        "filePath": "/activities/story8/ICAU/Story_8_ICAU_1_S.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story8/ICAU/Story_8_ICAU_2_E.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ICAU",
+        "activityNumber": "2",
+        "language": "svn",
+        "filePath": "/activities/story8/ICAU/Story_8_ICAU_2_S.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "ICAU",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story8/ICAU/Story_8_ICAU_3_E.pdf"
+      }
+    ],
+    "LA-8": [
+      {
+        "storyId": "8",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story8/LA/Story 8_LA_1_F.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story8/LA/Story 8_LA_2_F.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story8/LA/Story 8_LA_3_F.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story8/LA/Story8_LA_1_G.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story8/LA/Story8_LA_2_G.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story8/LA/Story8_LA_3_G.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story8/LA/Story_8_LA_1_E.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "LA",
+        "activityNumber": "1",
+        "language": "svn",
+        "filePath": "/activities/story8/LA/Story_8_LA_1_S.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story8/LA/Story_8_LA_2_E.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "LA",
+        "activityNumber": "2",
+        "language": "svn",
+        "filePath": "/activities/story8/LA/Story_8_LA_2_S.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story8/LA/Story_8_LA_3_E.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "LA",
+        "activityNumber": "3",
+        "language": "svn",
+        "filePath": "/activities/story8/LA/Story_8_LA_3_S.pdf"
+      }
+    ],
+    "PC-8": [
+      {
+        "storyId": "8",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "fr",
+        "filePath": "/activities/story8/PC/Story 8_PL_1_F.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "fr",
+        "filePath": "/activities/story8/PC/Story 8_PL_2_F.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "fr",
+        "filePath": "/activities/story8/PC/Story 8_PL_3_F.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "de",
+        "filePath": "/activities/story8/PC/Story8_PL_1_G.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "de",
+        "filePath": "/activities/story8/PC/Story8_PL_2_G.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "de",
+        "filePath": "/activities/story8/PC/Story8_PL_3_G.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "PC",
+        "activityNumber": "1",
+        "language": "en",
+        "filePath": "/activities/story8/PC/Story_8_PL_1_E.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "PC",
+        "activityNumber": "2",
+        "language": "en",
+        "filePath": "/activities/story8/PC/Story_8_PL_2_E.pdf"
+      },
+      {
+        "storyId": "8",
+        "activityGroup": "PC",
+        "activityNumber": "3",
+        "language": "en",
+        "filePath": "/activities/story8/PC/Story_8_PL_3_E.pdf"
+      }
+    ]
+  }
+}

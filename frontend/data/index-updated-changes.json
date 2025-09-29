@@ -1,0 +1,471 @@
+{
+  "timestamp": "2025-09-21T16:26:44.988Z",
+  "totalFilesScanned": 333,
+  "newActivitiesAdded": 0,
+  "languagesAdded": 6,
+  "urlsUpdated": 33,
+  "userDecisions": [
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "ELS",
+        "storyId": "5",
+        "activityId": "activity-5-1",
+        "language": "en",
+        "currentUrl": "/activities/story5/ELS/Story_5_ELS_1_E.pdf",
+        "proposedUrl": "/activities/story5/ELS/Story_5_ELS_E/Story_5_ELS_1_E.pdf",
+        "description": "URL mismatch for activity-5-1 (en)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "ELS",
+        "storyId": "5",
+        "activityId": "activity-5-2",
+        "language": "en",
+        "currentUrl": "/activities/story5/ELS/Story_5_ELS_2_E.pdf",
+        "proposedUrl": "/activities/story5/ELS/Story_5_ELS_E/Story_5_ELS_2_E.pdf",
+        "description": "URL mismatch for activity-5-2 (en)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "ELS",
+        "storyId": "5",
+        "activityId": "activity-5-3",
+        "language": "en",
+        "currentUrl": "/activities/story5/ELS/Story_5_ELS_E/Story_5_ELS_1_E.pdf",
+        "proposedUrl": "/activities/story5/ELS/Story_5_ELS_E/Story_5_ELS_3_E.pdf",
+        "description": "URL mismatch for activity-5-3 (en)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "ICAU",
+        "storyId": "3",
+        "activityId": "activity-3-2",
+        "language": "svn",
+        "currentUrl": "/activities/story1/ICAU/Story_3_ICAU_2_S.pdf",
+        "proposedUrl": "/activities/story3/ICAU/Story_3_ICAU_2_S.pdf",
+        "description": "URL mismatch for activity-3-2 (svn)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "ICAU",
+        "storyId": "4",
+        "activityId": "activity-4-2",
+        "language": "fr",
+        "currentUrl": "/activities/story4/ICAU/Story 4_ICAU_2_F-1.pdf",
+        "proposedUrl": "/activities/story4/ICAU/Story 4_ICAU_2_F.pdf",
+        "description": "URL mismatch for activity-4-2 (fr)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "LA",
+        "storyId": "2",
+        "activityId": "activity-2-1",
+        "language": "de",
+        "currentUrl": "",
+        "proposedUrl": "/activities/story2/LA/Story_2_LA_1_G.pdf",
+        "description": "URL mismatch for activity-2-1 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "LA",
+        "storyId": "2",
+        "activityId": "activity-2-2",
+        "language": "de",
+        "currentUrl": "/activities/story1/LA/Story_2_LA_2_G.pdf",
+        "proposedUrl": "/activities/story2/LA/Story_2_LA_2_G.pdf",
+        "description": "URL mismatch for activity-2-2 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "LA",
+        "storyId": "2",
+        "activityId": "activity-2-3",
+        "language": "de",
+        "currentUrl": "/activities/story1/LA/Story_2_LA_3_G.pdf",
+        "proposedUrl": "/activities/story2/LA/Story_2_LA_3_G.pdf",
+        "description": "URL mismatch for activity-2-3 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "LA",
+        "storyId": "2",
+        "activityId": "activity-2-3",
+        "language": "fr",
+        "currentUrl": "/activities/story2/LA/Story_2_LA_3_F.pdf",
+        "proposedUrl": "/activities/story2/LA/Story_2_PL_3_F.pdf",
+        "description": "URL mismatch for activity-2-3 (fr)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "LA",
+        "storyId": "4",
+        "activityId": "activity-4-1",
+        "language": "de",
+        "currentUrl": "",
+        "proposedUrl": "/activities/story4/LA/Story4_PL_1_G.pdf",
+        "description": "URL mismatch for activity-4-1 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "LA",
+        "storyId": "4",
+        "activityId": "activity-4-2",
+        "language": "de",
+        "currentUrl": "",
+        "proposedUrl": "/activities/story4/LA/Story4_PL_2_G.pdf",
+        "description": "URL mismatch for activity-4-2 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "LA",
+        "storyId": "4",
+        "activityId": "activity-4-3",
+        "language": "de",
+        "currentUrl": "",
+        "proposedUrl": "/activities/story4/LA/Story4_PL_3_G.pdf",
+        "description": "URL mismatch for activity-4-3 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "LA",
+        "storyId": "5",
+        "activityId": "activity-5-1",
+        "language": "de",
+        "currentUrl": "",
+        "proposedUrl": "/activities/story5/LA/Story 5_LA_G/Story5_PL_1_G.pdf",
+        "description": "URL mismatch for activity-5-1 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "LA",
+        "storyId": "5",
+        "activityId": "activity-5-2",
+        "language": "de",
+        "currentUrl": "",
+        "proposedUrl": "/activities/story5/LA/Story 5_LA_G/Story5_PL_2_G.pdf",
+        "description": "URL mismatch for activity-5-2 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "LA",
+        "storyId": "5",
+        "activityId": "activity-5-3",
+        "language": "de",
+        "currentUrl": "",
+        "proposedUrl": "/activities/story5/LA/Story 5_LA_G/Story5_PL_3_G.pdf",
+        "description": "URL mismatch for activity-5-3 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "LA",
+        "storyId": "8",
+        "activityId": "activity-8-1",
+        "language": "de",
+        "currentUrl": "/activities/story7/LA/Story8_LA_1_G.pdf",
+        "proposedUrl": "/activities/story8/LA/Story8_LA_1_G.pdf",
+        "description": "URL mismatch for activity-8-1 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "LA",
+        "storyId": "8",
+        "activityId": "activity-8-2",
+        "language": "de",
+        "currentUrl": "/activities/story7/LA/Story8_LA_2_G.pdf",
+        "proposedUrl": "/activities/story8/LA/Story8_LA_2_G.pdf",
+        "description": "URL mismatch for activity-8-2 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "LA",
+        "storyId": "8",
+        "activityId": "activity-8-3",
+        "language": "de",
+        "currentUrl": "/activities/story7/LA/Story8_LA_2_G.pdf",
+        "proposedUrl": "/activities/story8/LA/Story8_LA_3_G.pdf",
+        "description": "URL mismatch for activity-8-3 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "PC",
+        "storyId": "3",
+        "activityId": "activity-3-1",
+        "language": "de",
+        "currentUrl": "/activities/story3/PC/Story_3_PL_G/Story3_PL_1_G.pdf",
+        "proposedUrl": "/activities/story3/PC/Story3_PL_1_G.pdf",
+        "description": "URL mismatch for activity-3-1 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "PC",
+        "storyId": "3",
+        "activityId": "activity-3-2",
+        "language": "de",
+        "currentUrl": "/activities/story3/PC/Story_3_PL_G/Story3_PL_2_G.pdf",
+        "proposedUrl": "/activities/story3/PC/Story3_PL_2_G.pdf",
+        "description": "URL mismatch for activity-3-2 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "PC",
+        "storyId": "3",
+        "activityId": "activity-3-3",
+        "language": "de",
+        "currentUrl": "/activities/story3/PC/Story_3_PL_G/Story3_PL_3_G.pdf",
+        "proposedUrl": "/activities/story3/PC/Story 3_PL_3_G.pdf",
+        "description": "URL mismatch for activity-3-3 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "PC",
+        "storyId": "4",
+        "activityId": "activity-4-1",
+        "language": "de",
+        "currentUrl": "/activities/story4/PC/Story 4_PL_G/Story4_PL_1_G.pdf",
+        "proposedUrl": "/activities/story4/PC/Story4_PL_1_G.pdf",
+        "description": "URL mismatch for activity-4-1 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "PC",
+        "storyId": "4",
+        "activityId": "activity-4-2",
+        "language": "de",
+        "currentUrl": "/activities/story4/PC/Story 4_PL_G/Story4_PL_2_G.pdf",
+        "proposedUrl": "/activities/story4/PC/Story4_PL_2_G.pdf",
+        "description": "URL mismatch for activity-4-2 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "PC",
+        "storyId": "4",
+        "activityId": "activity-4-3",
+        "language": "de",
+        "currentUrl": "/activities/story4/PC/Story 4_PL_G/Story4_PL_3_G.pdf",
+        "proposedUrl": "/activities/story4/PC/Story4_PL_3_G.pdf",
+        "description": "URL mismatch for activity-4-3 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "PC",
+        "storyId": "5",
+        "activityId": "activity-5-1",
+        "language": "fr",
+        "currentUrl": "/activities/story5/PC/Story 5_PL_F/Story5_PL_1_F.pdf",
+        "proposedUrl": "/activities/story5/PC/Story 5_PL_F/Story 5_PL_1_F.pdf",
+        "description": "URL mismatch for activity-5-1 (fr)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "PC",
+        "storyId": "5",
+        "activityId": "activity-5-1",
+        "language": "en",
+        "currentUrl": "/activities/story5/PC/Story 5_PL_E/Story_5_PL_1_E.pdf",
+        "proposedUrl": "/activities/story5/PC/Story_5_PL_E/Story_5_PL_1_E.pdf",
+        "description": "URL mismatch for activity-5-1 (en)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "PC",
+        "storyId": "5",
+        "activityId": "activity-5-2",
+        "language": "fr",
+        "currentUrl": "/activities/story5/PC/Story 5_PL_F/Story5_PL_2_F.pdf",
+        "proposedUrl": "/activities/story5/PC/Story 5_PL_F/Story 5_PL_2_F.pdf",
+        "description": "URL mismatch for activity-5-2 (fr)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "PC",
+        "storyId": "5",
+        "activityId": "activity-5-2",
+        "language": "en",
+        "currentUrl": "/activities/story5/PC/Story 5_PL_E/Story_5_PL_2_E.pdf",
+        "proposedUrl": "/activities/story5/PC/Story_5_PL_E/Story_5_PL_2_E.pdf",
+        "description": "URL mismatch for activity-5-2 (en)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "PC",
+        "storyId": "5",
+        "activityId": "activity-5-3",
+        "language": "fr",
+        "currentUrl": "/activities/story5/PC/Story 5_PL_F/Story5_PL_3_F.pdf",
+        "proposedUrl": "/activities/story5/PC/Story 5_PL_F/Story 5_PL_3_F.pdf",
+        "description": "URL mismatch for activity-5-3 (fr)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "PC",
+        "storyId": "5",
+        "activityId": "activity-5-3",
+        "language": "en",
+        "currentUrl": "/activities/story5/PC/Story 5_PL_E/Story_5_PL_3_E.pdf",
+        "proposedUrl": "/activities/story5/PC/Story_5_PL_E/Story_5_PL_3_E.pdf",
+        "description": "URL mismatch for activity-5-3 (en)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "PC",
+        "storyId": "7",
+        "activityId": "activity-7-1",
+        "language": "de",
+        "currentUrl": "/activities/story7/PC/Story7_PL_1_G.pdf",
+        "proposedUrl": "/activities/story7/PC/Story_7_PL_1_G.pdf",
+        "description": "URL mismatch for activity-7-1 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "PC",
+        "storyId": "7",
+        "activityId": "activity-7-2",
+        "language": "de",
+        "currentUrl": "/activities/story7/PC/Story7_PL_2_G.pdf",
+        "proposedUrl": "/activities/story7/PC/Story_7_PL_2_G.pdf",
+        "description": "URL mismatch for activity-7-2 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    },
+    {
+      "change": {
+        "type": "update_url",
+        "groupName": "PC",
+        "storyId": "7",
+        "activityId": "activity-7-3",
+        "language": "de",
+        "currentUrl": "/activities/story7/PC/Story7_PL_3_G.pdf",
+        "proposedUrl": "/activities/story7/PC/Story_7_PL_3_G.pdf",
+        "description": "URL mismatch for activity-7-3 (de)",
+        "autoApply": false
+      },
+      "decision": "accepted"
+    }
+  ]
+}

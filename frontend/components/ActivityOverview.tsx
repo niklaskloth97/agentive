@@ -251,6 +251,44 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                 document.body.removeChild(link);
             }
         });
+
+        // Handle ICAU resources if selected
+        if (groupKey === 'ICAU') {
+            stories.forEach((story) => {
+                if (selectedActivities.has(`resource-${story.id}`)) {
+                    const resourceUrl = `/activities/story${story.id}/ICAU/Story ${story.id}_ICAU_Res.pdf`;
+                    const link = document.createElement('a');
+                    link.href = resourceUrl;
+                    link.download = `Story_${story.id}_ICAU_Resources.pdf`;
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                }
+            });
+        }
+
+        // Handle PC resources if selected
+        if (groupKey === 'PC') {
+            stories.forEach((story) => {
+                if (selectedActivities.has(`resource-${story.id}`)) {
+                    // Map story IDs to their resource names
+                    const resourceNames: Record<string, string> = {
+                        '1': 'Bobba, Children, Backgrounds',
+                        '2': 'Bobba, Children, Backgrounds',
+                        // Add more mappings as needed for other stories
+                    };
+                    
+                    const resourceName = resourceNames[story.id] || 'Resources';
+                    const resourceUrl = `/activities/story${story.id}/PC/Story_${story.id}_${resourceName}.pdf`;
+                    const link = document.createElement('a');
+                    link.href = resourceUrl;
+                    link.download = `Story_${story.id}_${resourceName}.pdf`;
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                }
+            });
+        }
     };
 
     return (
@@ -332,6 +370,14 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                                     <th className="p-4 text-left font-semibold border-r">
                                         <TranslateButtons translationKey="story-title" currentLanguage={websiteLanguage} />
                                     </th>
+                                    
+                                    {/* Add Resources column for both ICAU and PC */}
+                                    {(groupKey === 'ICAU' || groupKey === 'PC') && (
+                                        <th className="p-4 text-center font-semibold border-r">
+                                            <TranslateButtons translationKey="resources" currentLanguage={websiteLanguage} />
+                                        </th>
+                                    )}
+                                    
                                     {Array.from({
                                         length: Math.max(
                                             ...stories.flatMap((story) =>
@@ -363,6 +409,69 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                                                         rowSpan={story.sets.length}
                                                     >
                                                         {getStoryTitle(story.id)}
+                                                    </td>
+                                                )}
+
+                                                {/* Add Resources cell for both ICAU and PC */}
+                                                {(groupKey === 'ICAU' || groupKey === 'PC') && setIndex === 0 && (
+                                                    <td
+                                                        className="p-4 border-r align-top"
+                                                        rowSpan={story.sets.length}
+                                                    >
+                                                        <div className="p-2 bg-gray-50 rounded border">
+                                                            <div className="flex items-center gap-2">
+                                                                <Checkbox
+                                                                    id={`resource-${story.id}`}
+                                                                    checked={selectedActivities.has(`resource-${story.id}`)}
+                                                                    onCheckedChange={(checked) => {
+                                                                        const newSelected = new Set(selectedActivities);
+                                                                        if (checked) {
+                                                                            newSelected.add(`resource-${story.id}`);
+                                                                        } else {
+                                                                            newSelected.delete(`resource-${story.id}`);
+                                                                        }
+                                                                        setSelectedActivities(newSelected);
+                                                                    }}
+                                                                    className="flex-shrink-0"
+                                                                />
+                                                                <div className="min-w-0 flex-1">
+                                                                    {groupKey === 'ICAU' ? (
+                                                                        <a
+                                                                            href={`/activities/story${story.id}/ICAU/Story ${story.id}_ICAU_Res.pdf`}
+                                                                            rel="noopener noreferrer"
+                                                                            className="font-medium text-sm text-blue-600 hover:text-blue-800 hover:underline truncate"
+                                                                        >
+                                                                            <TranslateButtons translationKey="story-resources" currentLanguage={websiteLanguage} />
+                                                                        </a>
+                                                                    ) : (
+                                                                        // PC Resources
+                                                                        (() => {
+                                                                            const resourceNames: Record<string, string> = {
+                                                                                '1': 'Bobba, Children, Backgrounds',
+                                                                                '2': 'Bobba, Children, Backgrounds',
+                                                                                '3': 'Bobba, Children, Backgrounds',
+                                                                                '4': 'Bobba, Children, Backgrounds',
+                                                                                '5': 'Bobba, Children, Backgrounds',
+                                                                                '6': 'Bobba, Children, Backgrounds',
+                                                                                '7': 'Bobba, Children, Backgrounds',
+                                                                                '8': 'Bobba, Children, Backgrounds',
+
+                                                                        };
+                                                                        const resourceName = resourceNames[story.id] || 'Resources';
+                                                                        return (
+                                                                            <a
+                                                                                href={`/activities/story${story.id}/PC/Story_${story.id}_${resourceName}.pdf`}
+                                                                                rel="noopener noreferrer"
+                                                                                className="font-medium text-sm text-blue-600 hover:text-blue-800 hover:underline truncate"
+                                                                            >
+                                                                                {resourceName}
+                                                                            </a>
+                                                                        );
+                                                                        })()
+                                                                    )}
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </td>
                                                 )}
 
@@ -439,7 +548,7 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                                                         s.sets.map((set) => set.length)
                                                     ),
                                                     0
-                                                ) + 1
+                                                ) + 1 + ((groupKey === 'ICAU' || groupKey === 'PC') ? 1 : 0) // Add 1 for Resources column if ICAU or PC
                                             }
                                             className="p-8 text-center text-gray-500"
                                         >
@@ -464,8 +573,8 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
                 en: { label: "EN" },
                 fr: { label: "FR" },
                 de: { label: "DE" },
-                it: { label: "IT" },
-                slo: { label: "SV" },
+                // it: { label: "IT" },
+                svn: { label: "SV" },
             }}
         >
             <ActivityOverviewContent groupKey={groupKey} />

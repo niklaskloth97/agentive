@@ -9,13 +9,12 @@ const languageFlags: Record<string, string> = {
   en: "🇬🇧",  // UK flag for English
   de: "🇩🇪",  // German flag
   // gershort: "🇩🇪", // German short flag
-  "sw-ger": "🇨🇭", // Swiss flag
+  "de-lang": "🇩🇪", // Swiss flag
   por: "🇵🇹",  // Portuguese flag
   pl: "🇵🇱",  // Polish flag
   slo: "🇸🇮",  // Slovenian flag
   fr: "🇫🇷",  // French flag
   it: "🇮🇹",  // Italian flag
-  sv: "🇸🇮",  // Slovenian flag
   gr: "🇬🇷",  // Greek flag
   lux: "🇱🇺", // Luxembourg flag
   alb: "🇦🇱",  // Albanian flag
@@ -41,7 +40,7 @@ export default function LanguageSelector() {
           )}
         >
           <span className="text-lg" aria-hidden="true">
-            {languageFlags[langCode] || "🌐"}
+            {languageFlags[langCode] || "🇸🇮"}
           </span>
           <span className="text-xs md:text-sm">{value.label}</span>
         </Button>
