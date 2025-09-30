@@ -5651,7 +5651,7 @@
         }
       }
     }],
-    "sv": [{
+    "slo": [{
       "title": "Bobba gre domov",
       "titlePicture": "/learning-material/story-8/covers/Story 8_title_SVN.png",
       "fullAudio": "/learning-material/story-8/story-slo/Story 8_SLO_complete.m4a",
@@ -5765,7 +5765,7 @@
       "pages": {
         "0": {
           "text": "Regresso a casa",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_UKR.png",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_POR.png",
           "audioUrl": "/learning-material/story-8/story-por/8_title.m4a"
         },
         "1": {
