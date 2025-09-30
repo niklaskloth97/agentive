@@ -194,7 +194,7 @@ export default function Team() {
               currentLanguage={websiteLanguage}
             />
           ), 
-          image: '/placeholder.svg' 
+          image: '/images/people/IMG_4311 Foto Renata.webp' 
         },
       ]
     },
