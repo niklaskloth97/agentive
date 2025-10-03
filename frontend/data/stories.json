@@ -3045,7 +3045,7 @@
     "de-lang": [{
       "title": "Bobba in der Bibliothek",
       "titlePicture": "/learning-material/story-5/story-de/Story 5_title_de.jpeg",
-      "fullAudio": "/learning-material/story-5/story-de/Bobba_in_der_Bibliothek_Title.m4a",
+      "fullAudio": "/learning-material/story-5/story-de/Story 5_komplett.mp3",
       "fullText": "/learning-material/story-5/story-de/Story5_DE_L.pdf",
       "pages": {
         "0": {
@@ -4588,14 +4588,14 @@
       }
     }],
     "de": [{
-      "title": "Olivias Geburtstagsparty",
-      "titlePicture": "/learning-material/story-7/covers/Story 7_title_GE.jpg",
+      "title": "Olivias Geburtstagsfeier",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_GE_S.png",
       "fullAudio": "/learning-material/story-7/story-de-short/Bobba_DE_Story_7_Gesamt.mp3",
       "fullText": "/learning-material/story-7/story-de-short/Story7_DE_S.pdf",
       "pages": {
         "0": {
-          "text": "Olivias Geburtstagsparty",
-          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_GE.jpg",
+          "text": "Olivias Geburtstagsfeier",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_GE_S.png",
           "audioUrl": "/learning-material/story-7/story-de-short/Bobba_DE_Story_7_Titel.mp3"
         },
         "1": {
@@ -5335,13 +5335,13 @@
     }],
     "de-lang": [{
       "title": "Bobba fährt zurück nach Hause",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_G.png",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_GE_L.png",
       "fullAudio": "/learning-material/story-8/story-de/story-8-long-version_G_Komplett.mp3",
       "fullText": "/learning-material/story-8/story-de/Story8_DE_L.pdf",
       "pages": {
         "0": {
           "text": "Bobba fährt zurück nach Hause",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_G.png",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_GE_L.png",
           "audioUrl": "/learning-material/story-8/story-de/story 8_Long Version_1 Title.mp3"
         },
         "1": {
