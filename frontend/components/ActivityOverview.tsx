@@ -390,7 +390,7 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                                             className="p-4 text-center font-semibold border-r"
                                             key={activityIndex}
                                         >
-                                            <TranslateButtons translationKey="activity" currentLanguage={websiteLanguage} /> {ALPHABET[activityIndex]}
+                                            <TranslateButtons translationKey="activity" currentLanguage={websiteLanguage} /> {activityIndex +1}
                                         </th>
                                     ))}
                                 </tr>

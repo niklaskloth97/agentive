@@ -753,53 +753,53 @@
     "en": [{
       "title": "At the kindergarten",
       "titlePicture": "/learning-material/story-2/story-en/Story 2_title_E.jpg",
-      "fullAudio": "",
+      "fullAudio": "/learning-material/story-2/story-en/Story2_E_complete.m4a",
       "fullText": "/learning-material/story-2/story-en/Story2_EN.pdf",
       "pages": {
         "0": {
           "text": "At the kindergarten",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_title_E.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-en/Story2_E_Title.mp3"
         },
         "1": {
           "text": "Bobba sees a beautiful brightly coloured building. He hears laughter and singing coming from inside. He is curious and wants to see what is going on.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-en/Story2_E_1.mp3"
         },
         "2": {
           "text": "He opens the door and sees children running around and shouting. Bobba likes that and wants to join in. He waves at them. \"Saluton! Saluton!\"",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_2.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-en/Story2_E_1.mp3"
         },
         "3": {
           "text": "When the children see Bobba, they freeze and their eyes grow wide. \"Who is this?\" \"What is he saying?\" \"Is this our new teacher?\" The children quickly hide..",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_3.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-en/Story2_E_1.mp3"
         },
         "4": {
           "text": "Bobba is now all alone, so he becomes sad. He would really like to play. \"Ludi! Ludi!\"",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_4.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-en/Story2_E_1.mp3"
         },
         "5": {
           "text": "A girl comes out of the toilet and looks around puzzled. \"Where is everybody?\" Then she sees Bobba.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_5.jpeg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-en/Story2_E_1.mp3"
         },
         "6": {
           "text": "She looks up at Bobba and smiles. \"Hi! Do you want to play\" Bobba smiles back at her. \"Bone! Bone\" They start playing.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_6.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-en/Story2_E_1.mp3"
         },
         "7": {
           "text": "The other children see Bobba and the girl playing and slowly, one by one, come out of their hiding places. They want to play with Bobba too.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_7.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-en/Story2_E_1.mp3"
         },
         "8": {
           "text": "All children surround Bobba. \"Ludi! Ludi!\" they all shout. \"What a great day!\", thinks Bobba.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_8.jpg",
-          "audioUrl": ""
+          "audioUrl": "/learning-material/story-2/story-en/Story2_E_1.mp3"
         }
       }
     }],

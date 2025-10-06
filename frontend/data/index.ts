@@ -313,7 +313,7 @@ export const ACTIVITY_GROUPS: Record<
 							de: {
 								label: "German",
 								pdfUrl: "/activities/story2/PC/Story2_PL_3_G.pdf ",
-								title: "Zählen und verstehen",
+								title: "Zählen und verstecken",
 						}
 						},
 					}
@@ -344,7 +344,7 @@ export const ACTIVITY_GROUPS: Record<
 							de: {
 								label: "German",
 								title: "Dialogisches Lesen",
-								pdfUrl: "/activities/story3/PC/Story_3_PL_G/Story3_PL_1_G.pdf",
+								pdfUrl: "/activities/story3/PC/Story_3_PL_1_G.pdf",
 							}, 
 							ld: {
 								label: "Ladisch",
@@ -378,7 +378,7 @@ export const ACTIVITY_GROUPS: Record<
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story3/PC/Story_3_PL_G/Story3_PL_2_G.pdf",
+							pdfUrl: "/activities/story3/PC/Story_3_PL_2_G.pdf",
 							title: "Bewegungsgeschichte",
 						}, 
 						ld: {
@@ -412,7 +412,7 @@ export const ACTIVITY_GROUPS: Record<
 						},
 						de: {
 							label: "German",
-							pdfUrl: "/activities/story3/PC/Story_3_PL_G/Story3_PL_3_G.pdf",
+							pdfUrl: "/activities/story3/PC/Story_3_PL_3_G.pdf",
 							title: "Gefühle",
 						},
 						ld: {
@@ -1771,7 +1771,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_1_G.pdf",
-							title: "BEGRÜSSUNGEN",
+							title: "Begrüßungen",
 						}, 
 						gr: {
 							label: "Greek",
@@ -1821,7 +1821,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_2_G.pdf",
-							title: "BEDEUTUNGEN VON VORNAMEN",
+							title: "Bedeutungen von Vornamen",
 						}, 
 						ld: {
                             label: "Ladisch",
@@ -1855,7 +1855,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story1/ICAU/Story_1_ICAU_3_G.pdf",
-							title: "ESPERANTO",
+							title: "Esperanto",
 						}, 
 						gr: {
 							label: "Greek",
@@ -1901,7 +1901,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story2/ICAU/Story2_ICAU_1_G.pdf",
-							title: "GESCHMÄCKER TEILEN",
+							title: "Geschmäcker teilen",
 						},
 						svn: {
 							label: "Slovenian",
@@ -1937,7 +1937,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story2/ICAU/Story2_ICAU_2_G.pdf",
-							title: "BRÜCKEN BAUEN – DAS NEUE MIT DEM VERTRAUTEN VERBINDEN",
+							title: "Brücken bauen – Das Neue mit dem Vertrauten verbinden",
 						},
 						svn: {
 							label: "Slovenian",
@@ -1971,7 +1971,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story2/ICAU/Story2_ICAU_3_G.pdf",
-							title: "ZAHLENDETEKTIVE",
+							title: "Zahlendetektive",
 						},
 						svn: {
 							label: "Slovenian",
@@ -2017,7 +2017,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story3/ICAU/Story3_ICAU_1_G.pdf",
-							title: "GEFÜHLE GIBT ES ÜBERALL AUF DER WELT",
+							title: "Gefühle gibt es überall auf der Welt",
 						},
 						svn: {
 							label: "Slovenian",
@@ -2055,7 +2055,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story3/ICAU/Story3_ICAU_2_G.pdf",
-							title: "KOMM, WIR GEHEN ZUM STRAND!",
+							title: "Komm, wir gehen zum Strand!",
 						},
 						svn: {
 							label: "Slovenian",
@@ -2089,7 +2089,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story3/ICAU/Story3_ICAU_3_G.pdf",
-							title: "FÜNF FREUNDE AM STRAND",
+							title: "Fünf Freunde am Strand",
 						},
 						svn: {
 							label: "Slovenian",
@@ -2374,7 +2374,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story6/ICAU/Story6_ICAU_1_G.pdf",
-							title: "MAGISCHE WESEN",
+							title: "Magische Wesen",
 						}, 
 						ld: {
                             label: "Ladisch",
@@ -2408,9 +2408,9 @@ export const ACTIVITY_GROUPS: Record<
 						}, 
 						de: {
 							label: "German",
-							audioUrl: "/audio/test-de.opus", // Use your test audio
+							audioUrl: "/audio/test-de.opus", // Use your tes
 							pdfUrl: "/activities/story6/ICAU/Story6_ICAU_2_G.pdf",
-							title: "DANKE AUF DER GANZEN WELT",
+							title: "Daneke auf der ganzen Welt",
 						}, 
 						ld: {
                             label: "Ladisch",
@@ -2446,7 +2446,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story6/ICAU/Story6_ICAU_3_G.pdf",
-							title: "VERSCHIEDENE ARTEN ZU ESSEN",
+							title: "Verschiedene Arten zu essen",
 						}, 
 						ld: {
                             label: "Ladisch",
@@ -2492,7 +2492,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story7/ICAU/Story7_ICAU_1_G.pdf",
-							title: "EIN JAHR UND VIELE FESTE",
+							title: "Ein Jahr, viele Feste",
 						}, 
 						ld: {
                             label: "Ladisch",
@@ -2528,7 +2528,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story7/ICAU/Story7_ICAU_2_G.pdf",
-							title: "LASST UND SINGEN: GEBURTSTAGSLIEDER VON ZUHAUSE",
+							title: "Lasst uns zusammen singen: Geburtstagslieder von Zuhause",
 						}, 
 						ld: {
                             label: "Ladisch",
@@ -2564,7 +2564,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story7/ICAU/Story7_ICAU_3_G.pdf",
-							title: "HÄNDE, WORTE, WÜNSCHE",
+							title: "Hände, Worte und Wünsche",
 						}, 
 						ld: {
                             label: "Ladisch",
@@ -2610,7 +2610,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story8/ICAU/Story8_ICAU_1_G.pdf",
-							title: "LEBENSWEISEN AUF DER WELT",
+							title: "Lebensweisen auf der Welt",
 						}, 
 						ld: {
                             label: "Ladisch",
@@ -2646,7 +2646,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story8/ICAU/Story8_ICAU_2_G.pdf",
-							title: "MEIN HEIM, DEIN HEIM",
+							title: "Mein Heim, dein Heim",
 						}, 
                         ld: {
                             label: "Ladisch",
@@ -2682,7 +2682,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story8/ICAU/Story8_ICAU_3_G.pdf",
-							title: "AUFWIEDERSEHEN",
+							title: "Auf Wiedersehen",
 						}, 
                         ld: {
                             label: "Ladisch",
@@ -2715,6 +2715,7 @@ export const ACTIVITY_GROUPS: Record<
 								audioUrl: "/audio/test-en.opus", // Use your test audio
 								pdfUrl: "/activities/story1/LA/Story_1_LA_1_E.pdf",
 								title: "Comparing names",
+								
 							},
 							fr: {
 								label: "French",
@@ -2726,7 +2727,7 @@ export const ACTIVITY_GROUPS: Record<
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story1/LA/Story_1_LA_1_G.pdf",
-								title: "NAMEN VERGLEICHEN",
+								title: "Namen vergleichen",
 							},
 							svn: {
 								label: "Slovenian",
@@ -2791,7 +2792,7 @@ export const ACTIVITY_GROUPS: Record<
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story1/LA/Story_1_LA_3_G.pdf",
-								title: "BEGRÜSSUNGEN",
+								title: "Begrüßungen",
 							},
 							svn: {
 								label: "Slovenian",
@@ -2827,17 +2828,17 @@ export const ACTIVITY_GROUPS: Record<
 								pdfUrl: "/activities/story2/LA/Story_2_LA_1_E.pdf",
 								title: "Initial sound hunt",
 							},
+							de: {
+								label: "German",
+								audioUrl: "/audio/test-de.opus", // Use your test audio
+								pdfUrl: "/activities/story2/LA/Story_2_LA_1_G.pdf",
+								title: "Jagt auf Anlaute",
+							},
 							fr: {
 								label: "French",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story2/LA/Story_2_LA_1_F.pdf",
 								title: "À la recherche du son initial",
-							},
-							de: {
-								label: "German",
-								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "",
-								title: "",
 							},
 							svn: {
 								label: "Slovenian",
@@ -2872,8 +2873,8 @@ export const ACTIVITY_GROUPS: Record<
 							de: {
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_2_LA_2_G.pdf",
-								title: "HALLO AUF DER GANZEN WELT",
+								pdfUrl: "/activities/story2/LA/Story_2_LA_2_G.pdf",
+								title: "Hallo auf der ganzen Welt",
 							},
 							svn: {
 								label: "Slovenian",
@@ -2907,8 +2908,8 @@ export const ACTIVITY_GROUPS: Record<
 							de: {
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story1/LA/Story_2_LA_3_G.pdf",
-								title: "WELCHE SPRACHE IST DAS?",
+								pdfUrl: "/activities/story2/LA/Story_2_LA_3_G.pdf",
+								title: "Welche Sprache ist das?",
 							},
 							svn: {
 								label: "Slovenian",
@@ -2954,7 +2955,7 @@ export const ACTIVITY_GROUPS: Record<
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story3/LA/Story3_LA_1_G.pdf",
-								title: "DAS DIDIDI-LIED",
+								title: "Das Dididi-Lied",
 							},
 							svn: {
 								label: "Slovenian",
@@ -2990,7 +2991,7 @@ export const ACTIVITY_GROUPS: Record<
 								label: "German",
 								audioUrl: "/audio/test-de.opus",
 								pdfUrl: "/activities/story3/LA/Story3_LA_2_G.pdf",
-								title: "REIME-MEMORY",
+								title: "Reime-Memory",
 							},
 							svn: {
 								label: "Slovenian",
@@ -3024,7 +3025,7 @@ export const ACTIVITY_GROUPS: Record<
 							de: {
 								label: "German",
 								pdfUrl: "/activities/story3/LA/Story3_LA_3_G.pdf",
-								title: "SPRACHEN KLINGEN VERSCHIEDEN",
+								title: "Sprachen klingen verschieden",
 							},
 							svn: {
 								label: "Slovenian",
@@ -3069,8 +3070,8 @@ export const ACTIVITY_GROUPS: Record<
 							de: {
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "",
-								title: "",
+								pdfUrl: "/activities/story4/LA/Story 4_LA_1_G.pdf",
+								title: "Geschichten erzählen und verstehen",
 							},
 							svn: {
 								label: "Slovenian",
@@ -3105,9 +3106,10 @@ export const ACTIVITY_GROUPS: Record<
 							de: {
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "",
-								title: "",
+								pdfUrl: "/activities/story4/LA/Story 4_LA_2_G.pdf",
+								title: "Guten Appetit!",
 							},
+
 							svn: {
 								label: "Slovenian",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
@@ -3308,7 +3310,7 @@ export const ACTIVITY_GROUPS: Record<
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story6/LA/Story6_LA_1_G.pdf",
-								title: "SPRACHENTANZ",
+								title: "Sprachentanz",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3344,7 +3346,7 @@ export const ACTIVITY_GROUPS: Record<
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story6/LA/Story6_LA_2_G.pdf",
-								title: "WAS MACHT QUAK QUAK?",
+								title: " Was macht quack quack?",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3379,7 +3381,7 @@ export const ACTIVITY_GROUPS: Record<
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story6/LA/Story6_LA_3_G.pdf",
-								title: "DEN AUSLAUT FINDEN",
+								title: "Den Auslaut finden",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3424,7 +3426,7 @@ export const ACTIVITY_GROUPS: Record<
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story7/LA/Story7_LA_1_G.pdf",
-								title: "ERRATE DIE SPRACHE",
+								title: "Errate die Sprache",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3460,7 +3462,7 @@ export const ACTIVITY_GROUPS: Record<
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story7/LA/Story7_LA_2_G.pdf",
-								title: "WAS WIRD GEFEIERT?",
+								title: "Was wird gefeiert?",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3495,7 +3497,7 @@ export const ACTIVITY_GROUPS: Record<
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
 								pdfUrl: "/activities/story7/LA/Story7_LA_3_G.pdf",
-								title: "FINDE DEN REIM",
+								title: "Finde den Reim",
 							}, 
 							ld: {
 								label: "Ladisch",
@@ -3539,8 +3541,8 @@ export const ACTIVITY_GROUPS: Record<
 							de: {
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story7/LA/Story8_LA_1_G.pdf",
-								title: "AUFWIEDERSEHEN AUF DER GANZEN WELT",
+								pdfUrl: "/activities/story8/LA/Story8_LA_1_G.pdf",
+								title: "Aufwiedersehen auf der ganzen Welt",
 							}, 
 							ld: {
 								label: "Ladisch",
@@ -3575,8 +3577,8 @@ export const ACTIVITY_GROUPS: Record<
 							de: {
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story7/LA/Story8_LA_2_G.pdf",
-								title: "JAZZ CHANT",
+								pdfUrl: "/activities/story8/LA/Story8_LA_2_G.pdf",
+								title: "Jazz Chant",
 							}, 
 							ld: {
 								label: "Ladisch",
@@ -3610,8 +3612,8 @@ export const ACTIVITY_GROUPS: Record<
 							de: {
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "/activities/story7/LA/Story8_LA_2_G.pdf",
-								title: "AUSLAUTE FINDEN",
+								pdfUrl: "/activities/story8/LA/Story8_LA_3_G.pdf",
+								title: "Auslaute finden",
 							}, 
 							ld: {
 								label: "Ladisch",
