@@ -72,6 +72,7 @@ function DialogicGuideSelector({ websiteLanguage }: { websiteLanguage: string })
                langId === 'de' ? 'DE' : 
                langId === 'fr' ? 'FR' : 
                langId === 'gr' ? 'GR' : 
+               langId === 'svn' ? 'SVN' :
                langId.toUpperCase() 
       }
     ])
@@ -574,7 +575,7 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
                 fr: { label: "FR" },
                 de: { label: "DE" },
                 // it: { label: "IT" },
-                svn: { label: "SV" },
+                svn: { label: "SVN" },
             }}
         >
             <ActivityOverviewContent groupKey={groupKey} />

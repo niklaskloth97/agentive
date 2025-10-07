@@ -68,7 +68,7 @@ type Language = {
 };
 
 type LanguageGuide = {
-	id: "en" | "de" | "fr" | "slo" | "gr";
+	id: "en" | "de" | "fr" | "svn" | "gr";
 	label: string;
 	code: string;
 };
@@ -2258,7 +2258,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story5/ICAU/Story_5_ICAU_1_S.pdf",
-							title: "STO IME, DRUGE ČRKE",
+							title: "ISTO IME, DRUGE ČRKE",
 						}, 
 						ld: {
                             label: "Ladisch",
@@ -3142,8 +3142,9 @@ export const ACTIVITY_GROUPS: Record<
 							de: {
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "",
-								title: "",
+								pdfUrl: "/activities/story4/LA/Story 4_LA_3_G.pdf",
+								title: "Worum geht es in der Geschichte?",
+							
 							},
 							svn: {
 								label: "Slovenian",
@@ -3193,8 +3194,9 @@ export const ACTIVITY_GROUPS: Record<
 							de: {
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "",
-								title: "",
+								pdfUrl: "/activities/story5/LA/Story5_LA_1_G.pdf",
+								title: "Anfangslaute",
+				
 							},
 							ld: {
 								label: "Ladisch",
@@ -3229,8 +3231,9 @@ export const ACTIVITY_GROUPS: Record<
 							de: {
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "",
-								title: "",
+								pdfUrl: "/activities/story5/LA/Story5_LA_2_G.pdf",
+								title: "Welches Märchen ist es?",
+				
 							},
 							ld: {
 								label: "Ladisch",
@@ -3264,8 +3267,8 @@ export const ACTIVITY_GROUPS: Record<
 							de: {
 								label: "German",
 								audioUrl: "/audio/test-de.opus", // Use your test audio
-								pdfUrl: "",
-								title: "",
+								pdfUrl: "/activities/story5/LA/Story5_LA_3_G.pdf",
+								title: "Jazz-Gesang",
 							},
 							ld: {
 								label: "Ladisch",
@@ -3640,7 +3643,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
 			fr: {
 				url: "/learning-material/dialogic-reading-guide/Dialogic reading guide_F.pdf"
 			},
-			slo: {
+			svn: {
 				url: "/learning-material/dialogic-reading-guide/Dialogic reading guide_S.pdf"
 			},
 			gr: {
@@ -3660,7 +3663,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-1/reading-guide/Story 1_Story's reading guide_F.pdf"
             },
-            slo: {
+            svn: {
                 url: "/learning-material/story-1/reading-guide/Story 1_Story's reading guide_S.pdf"
             },
 			gr: {
@@ -3678,10 +3681,10 @@ export const GUIDES: Record<GuideKey, Guide> = {
                 url: "/learning-material/story-2/reading-guide/Story 2_Guide de lecture_F.pdf"
             },
 			de: {
-                url: "/learning-material/story-3/reading-guide/Story_2_Story's_reading_guide_G.pdf"
+                url: "/learning-material/story-2/reading-guide/Story_2_Story's_reading_guide_G.pdf"
             },
-			slo: {
-                url: "/learning-material/story-3/reading-guide/Story 2_Dialogic reading guide_S.pdf"
+			svn: {
+                url: "/learning-material/story-2/reading-guide/Story 2_Dialogic reading guide_S.pdf"
             }
         }
     },
@@ -3697,7 +3700,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-3/reading-guide/Story 3_Guide de lecture_F.pdf"
             },
-            slo: {
+            svn: {
                 url: "/learning-material/story-3/reading-guide/Story 3_Dialogic reading guide_S.pdf"
             }
         }
@@ -3714,7 +3717,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-4/reading-guide/Story 4_Story's reading guide_F.pdf"
             },
-            slo: {
+            svn: {
                 url: "/learning-material/story-4/reading-guide/Story 4_Dialogic reading guide_S.pdf"
             }
         }
@@ -3731,7 +3734,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-5/reading-guide/Story 5_Guide de lecture_F.pdf"
             },
-            slo: {
+            svn: {
                 url: "/learning-material/story-5/reading-guide/Story 5_Story's reading guide_S.pdf"
             }
         }
@@ -3740,16 +3743,16 @@ export const GUIDES: Record<GuideKey, Guide> = {
         id: "story-6-reading-guide",
         translations: {
            en: {
-                url: "/learning-material/story-5/reading-guide/Story 6_Story's reading guide_E.pdf"
+                url: "/learning-material/story-6/reading-guide/Story 6_Story's reading guide_E.pdf"
             },
             de: {
-                url: "/learning-material/story-5/reading-guide/Story 6_Story's reading guide_G.pdf"
+                url: "/learning-material/story-6/reading-guide/Story 6_Story's reading guide_G.pdf"
             },
             fr: {
-                url: "/learning-material/story-5/reading-guide/Story 6_Guide de lecture_F.pdf"
+                url: "/learning-material/story-6/reading-guide/Story 6_Guide de lecture_F.pdf"
             },
-            slo: {
-                url: "/learning-material/story-5/reading-guide/Stroy 6_Dialogic reading guide_S.pdf"
+            svn: {
+                url: "/learning-material/story-6/reading-guide/Stroy 6_Dialogic reading guide_S.pdf"
             }
         }
     },
@@ -3765,7 +3768,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-7/reading-guide/Story 7_Guide de lecture_F.pdf"
             },
-            slo: {
+            svn: {
                 url: "/learning-material/story-7/reading-guide/Story 7_Dialogic reading guide_S.pdf"
             }
         }
@@ -3782,7 +3785,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
             fr: {
                 url: "/learning-material/story-8/reading-guide/Story 8_Guide de lecture_F.pdf"
             },
-            slo: {
+            svn: {
                 url: "/learning-material/story-8/reading-guide/Story 8_Dialogic reading guide_S.pdf"
             }
         }
