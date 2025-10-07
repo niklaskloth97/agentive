@@ -769,37 +769,37 @@
         "2": {
           "text": "He opens the door and sees children running around and shouting. Bobba likes that and wants to join in. He waves at them. \"Saluton! Saluton!\"",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_2.jpg",
-          "audioUrl": "/learning-material/story-2/story-en/Story2_E_1.m4a"
+          "audioUrl": "/learning-material/story-2/story-en/Story2_E_2.m4a"
         },
         "3": {
           "text": "When the children see Bobba, they freeze and their eyes grow wide. \"Who is this?\" \"What is he saying?\" \"Is this our new teacher?\" The children quickly hide..",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_3.jpg",
-          "audioUrl": "/learning-material/story-2/story-en/Story2_E_1.m4a"
+          "audioUrl": "/learning-material/story-2/story-en/Story2_E_3.m4a"
         },
         "4": {
           "text": "Bobba is now all alone, so he becomes sad. He would really like to play. \"Ludi! Ludi!\"",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_4.jpg",
-          "audioUrl": "/learning-material/story-2/story-en/Story2_E_1.m4a"
+          "audioUrl": "/learning-material/story-2/story-en/Story2_E_4.m4a"
         },
         "5": {
           "text": "A girl comes out of the toilet and looks around puzzled. \"Where is everybody?\" Then she sees Bobba.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_5.jpeg",
-          "audioUrl": "/learning-material/story-2/story-en/Story2_E_1.m4a"
+          "audioUrl": "/learning-material/story-2/story-en/Story2_E_5.m4a"
         },
         "6": {
           "text": "She looks up at Bobba and smiles. \"Hi! Do you want to play\" Bobba smiles back at her. \"Bone! Bone\" They start playing.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_6.jpg",
-          "audioUrl": "/learning-material/story-2/story-en/Story2_E_1.m4a"
+          "audioUrl": "/learning-material/story-2/story-en/Story2_E_6.m4a"
         },
         "7": {
           "text": "The other children see Bobba and the girl playing and slowly, one by one, come out of their hiding places. They want to play with Bobba too.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_7.jpg",
-          "audioUrl": "/learning-material/story-2/story-en/Story2_E_1.m4a"
+          "audioUrl": "/learning-material/story-2/story-en/Story2_E_7.m4a"
         },
         "8": {
           "text": "All children surround Bobba. \"Ludi! Ludi!\" they all shout. \"What a great day!\", thinks Bobba.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_8.jpg",
-          "audioUrl": "/learning-material/story-2/story-en/Story2_E_1.m4a"
+          "audioUrl": "/learning-material/story-2/story-en/Story2_E_8.m4a"
         }
       }
     }],
@@ -1499,13 +1499,13 @@
     "en": [{
       "title": "Bobba at the beach",
       "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_E.JPG",
-      "fullAudio": "",
+      "fullAudio": "/learning-material/story-3/story-en/Story3_E_complete.m4a",
       "fullText": "/learning-material/story-3/story-en/Story3_EN.pdf",
       "pages": {
         "0": {
           "text": "Bobba at the beach",
           "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_E.JPG",
-          "audioUrl": "/learning-material/story-3/story-en/Story 3_Intro.m4a"
+          "audioUrl": "/learning-material/story-3/story-en/Story3_E_title.m4a"
         },
         "1": {
           "text": "The children take Bobba to the beach. They are all in a very happy mood, laughing and singing the Dididi song. Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
@@ -2245,13 +2245,13 @@
     "en": [{
           "title": "Sleeping at a friend's",
           "titlePicture": "/learning-material/story-4/story-en/Story 4_2 title_E.jpg",
-          "fullAudio": "/learning-material/story-4/story-en/Story 4_E whole story.mp3",
+          "fullAudio": "/learning-material/story-4/story-en/Story 4_E whole story.m4a",
           "fullText":"/learning-material/story-4/story-en/Story 4_E.pdf",
           "pages": {
             "0": {
               "text": "Sleeping at a friend's",
               "imageUrl": "/learning-material/story-4/story-en/Story 4_2 title_E.jpg",
-              "audioUrl": "/learning-material/story-4/story-en/Story 4_title.mp3"
+              "audioUrl": "/learning-material/story-4/story-en/Story 4_title.m4a"
             },
             "1": {
               "text": "At the end of a long day, Ben, Alex and Olivia decide to go home. \"Where are you sleeping tonight?\", Olivia asks Bobba. Bobba looks at her with wide eyes. Olivia takes his hand. \"Come home with me.\"",
