@@ -20,7 +20,6 @@ import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext';
 import { StoryCarousel } from '@/components/StoryCarousel';
 import { getStoryReadingGuide, hasStoryReadingGuide, GUIDES } from "@/data";
 import jsPDF from 'jspdf';
-import { stringify } from "querystring";
 
 interface StoryPlayerProps {
   storyId: string;
@@ -53,7 +52,7 @@ function DialogicGuideSelector({ websiteLanguage }: { websiteLanguage: string })
         label: langId === 'en' ? 'EN' : 
                langId === 'de' ? 'DE' : 
                langId === 'fr' ? 'FR' : 
-               langId === 'sv' ? 'SV' : 
+               langId === 'svn' ? 'SVN' : 
                langId === 'gr' ? 'GR' : 
                langId.toUpperCase() 
       }
@@ -156,8 +155,8 @@ function StoryGuideSelector({ storyId, websiteLanguage }: { storyId: string; web
   const languageLabels: Record<string, string> = {};
 
   // Check which languages have story reading guides available
-  ['en', 'de', 'fr', 'sv'].forEach(lang => {
-    if (hasStoryReadingGuide(storyId, lang as "en" | "de" | "fr" | "slo" | "gr" | undefined)) {
+  ['en', 'de', 'fr', 'svn'].forEach(lang => {
+    if (hasStoryReadingGuide(storyId, lang as "en" | "de" | "fr" | "svn" | "gr" | undefined)) {
       availableLanguages.push(lang);
       languageLabels[lang] = lang === 'en' ? 'EN' : 
                             lang === 'de' ? 'DE' : 
@@ -182,7 +181,7 @@ function StoryGuideSelector({ storyId, websiteLanguage }: { storyId: string; web
   const handleDownload = () => {
     if (!selectedGuideLanguage) return;
 
-    const guide = getStoryReadingGuide(storyId, selectedGuideLanguage as "en" | "de" | "fr" | "slo" | "gr" | undefined);
+    const guide = getStoryReadingGuide(storyId, selectedGuideLanguage as "en" | "de" | "fr" | "svn" | "gr" | undefined);
     
     if (guide?.url) {
       // Create download link
@@ -468,7 +467,7 @@ export function StoryPlayer({
                    lang === 'it' ? 'ITA' :
                    lang === 'lux' ? 'LUX' :
                    lang === 'gr' ? 'GRC' :
-                   lang === 'sv' ? 'SVN' :
+                   lang === 'svn' ? 'SVN' :
                    lang === 'al' ? 'ALB' :
                    lang === 'ukr' ? 'UKR' :
                    lang === 'de-short' ? 'GER-S' :
@@ -630,31 +629,9 @@ export function StoryPlayer({
    
   };
 
-  // Helper function to map website language to guide language with fallback
-  const getGuideLanguage = (websiteLanguage: string): "en" | "de" | "fr" | "sv" => {
-    const languageMap: Record<string, "en" | "de" | "fr" | "sv"> = {
-      'en': 'en',
-      'English': 'en',
-      'de': 'de', 
-      'German': 'de',
-      'fr': 'fr',
-      'French': 'fr',
-      'Slovenian': 'sv',
-      'it': 'en',
-      'Italian': 'en',
-      'lux': 'en',
-      'Lux': 'en',
-      'gr': 'en',
-      'Greek': 'en',
-      'el': 'en'
-    };
-    
-    return languageMap[websiteLanguage] || 'en';
-  };
-
   // Check if guides are available for current language
-  const hasStoryGuide = ['en', 'de', 'fr', 'sv'].some(lang => 
-    hasStoryReadingGuide(storyId, lang as "en" | "de" | "fr" | "slo" | "gr" | undefined)
+  const hasStoryGuide = ['en', 'de', 'fr', 'svn'].some(lang => 
+    hasStoryReadingGuide(storyId, lang as "en" | "de" | "fr" | "svn" | "gr" | undefined)
   );
   
   // Check if dialogic guide is available (at least one language)

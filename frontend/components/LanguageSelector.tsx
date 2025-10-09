@@ -12,7 +12,8 @@ const languageFlags: Record<string, string> = {
   "de-lang": "🇩🇪", // Swiss flag
   por: "🇵🇹",  // Portuguese flag
   pl: "🇵🇱",  // Polish flag
-  slo: "🇸🇮",  // Slovenian flag
+  svn: "🇸🇮",  // Slovenian flag
+  sv: "🇸🇮",  // Slovenian flag
   fr: "🇫🇷",  // French flag
   it: "🇮🇹",  // Italian flag
   gr: "🇬🇷",  // Greek flag
@@ -40,7 +41,7 @@ export default function LanguageSelector() {
           )}
         >
           <span className="text-lg" aria-hidden="true">
-            {languageFlags[langCode] || "🇸🇮"}
+            {languageFlags[langCode] || "🏳️"}
           </span>
           <span className="text-xs md:text-sm">{value.label}</span>
         </Button>

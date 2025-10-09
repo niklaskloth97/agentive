@@ -72,6 +72,7 @@ function DialogicGuideSelector({ websiteLanguage }: { websiteLanguage: string })
                langId === 'de' ? 'DE' : 
                langId === 'fr' ? 'FR' : 
                langId === 'gr' ? 'GR' : 
+               langId === 'svn' ? 'SVN' :
                langId.toUpperCase() 
       }
     ])
@@ -390,7 +391,7 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                                             className="p-4 text-center font-semibold border-r"
                                             key={activityIndex}
                                         >
-                                            <TranslateButtons translationKey="activity" currentLanguage={websiteLanguage} /> {ALPHABET[activityIndex]}
+                                            <TranslateButtons translationKey="activity" currentLanguage={websiteLanguage} /> {activityIndex +1}
                                         </th>
                                     ))}
                                 </tr>
@@ -574,7 +575,7 @@ export default function ActivityOverview({ groupKey }: ActivityOverviewProps) {
                 fr: { label: "FR" },
                 de: { label: "DE" },
                 // it: { label: "IT" },
-                svn: { label: "SV" },
+                svn: { label: "SVN" },
             }}
         >
             <ActivityOverviewContent groupKey={groupKey} />
