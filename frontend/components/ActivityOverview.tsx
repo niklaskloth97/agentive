@@ -446,29 +446,18 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                                                                         </a>
                                                                     ) : (
                                                                         // PC Resources
-                                                                        (() => {
-                                                                            const resourceNames: Record<string, string> = {
-                                                                                '1': 'Bobba, Children, Backgrounds',
-                                                                                '2': 'Bobba, Children, Backgrounds',
-                                                                                '3': 'Bobba, Children, Backgrounds',
-                                                                                '4': 'Bobba, Children, Backgrounds',
-                                                                                '5': 'Bobba, Children, Backgrounds',
-                                                                                '6': 'Bobba, Children, Backgrounds',
-                                                                                '7': 'Bobba, Children, Backgrounds',
-                                                                                '8': 'Bobba, Children, Backgrounds',
-
-                                                                        };
-                                                                        const resourceName = resourceNames[story.id] || 'Resources';
-                                                                        return (
+                                                                        
+                                                                        (
                                                                             <a
-                                                                                href={`/activities/story${story.id}/PC/Story_${story.id}_${resourceName}.pdf`}
-                                                                                rel="noopener noreferrer"
-                                                                                className="font-medium text-sm text-blue-600 hover:text-blue-800 hover:underline truncate"
-                                                                            >
-                                                                                {resourceName}
-                                                                            </a>
-                                                                        );
-                                                                        })()
+                                                                            //Story_1_Bobba, Children, Backgrounds.pdf
+                                                                            href={`/activities/story${story.id}/PC/Story_${story.id}_Bobba, Children, Backgrounds.pdf`}
+
+                                                                            rel="noopener noreferrer"
+                                                                            className="font-medium text-sm text-blue-600 hover:text-blue-800 hover:underline truncate"
+                                                                        >
+                                                                            <TranslateButtons translationKey="story-resources" currentLanguage={websiteLanguage} />
+                                                                        </a>
+                                                                        )
                                                                     )}
                                                                 </div>
                                                             </div>
