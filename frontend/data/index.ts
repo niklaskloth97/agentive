@@ -3643,6 +3643,10 @@ export const GUIDES: Record<GuideKey, Guide> = {
 			fr: {
 				url: "/learning-material/dialogic-reading-guide/Dialogic reading guide_F.pdf"
 			},
+			
+			de: {
+				url: "/learning-material/dialogic-reading-guide/Dialogic reading guide_G.pdf"
+			},
 			svn: {
 				url: "/learning-material/dialogic-reading-guide/Dialogic reading guide_S.pdf"
 			},

@@ -466,11 +466,11 @@ export function StoryPlayer({
                    lang === 'es' ? 'ESP' :
                    lang === 'it' ? 'ITA' :
                    lang === 'lux' ? 'LUX' :
-                   lang === 'gr' ? 'GRC' :
-                   lang === 'svn' ? 'SVN' :
+                   lang === 'gr' ? 'GR' :
+                   lang === 'svn' ? 'SV' :
                    lang === 'al' ? 'ALB' :
                    lang === 'ukr' ? 'UKR' :
-                   lang === 'de-short' ? 'GER-S' :
+                   lang === 'de-short' ? 'DE-LANG' :
                    lang.toUpperCase(),
             audioUrl: firstPage.audioUrl || "",
             coverImage: firstPage.imageUrl || ""

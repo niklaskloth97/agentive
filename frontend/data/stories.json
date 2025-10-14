@@ -440,7 +440,7 @@
         },
         "1": {
           "text": "Bobba živi na planetu daleč stran. Danes je zelo vznemirjen. Končno je dobil svojo vesoljsko ladjo in zdaj lahko leti, kamor koli želi!",
-          "imageUrl": "/learning-material/story-1/story-en/Story_1_1.webp-dep",
+          "imageUrl": "/learning-material/story-1/new-images/Story1_pic1-min.jpg",
           "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_1.mp3"
         },
         "2": {
@@ -3519,7 +3519,7 @@
         }
       }
     }],
-    "slo": [{
+    "sv": [{
       "title": "Bobba v knjižnici",
       "titlePicture": "/learning-material/story-5/story-slo/Story_5_title_slo.jpeg",
       "fullAudio": "/learning-material/story-5/story-slo/Recording 5.m4a",
@@ -3678,7 +3678,7 @@
         }
       }
     }],
-    "ladin": [{
+    "ld": [{
       "title": "Bobba te biblioteca",
       "titlePicture":  "/learning-material/story-5/story-ladin/Story 5_COVER_LAD.jpeg",
       "fullAudio": "/learning-material/story-5/story-ladin/Bobba_LADIN_Story 5-MP3.mp3",
@@ -4265,7 +4265,7 @@
         }
       }
     }],
-    "slo": [{
+    "sv": [{
       "title": "Pošasti v gradu",
       "titlePicture": "/learning-material/story-6/covers/Story 6_COVER_SLO.jpeg",
       "fullAudio": "/learning-material/story-6/story-slo/Story 6_SLO_complete.m4a",
@@ -4424,7 +4424,7 @@
         }
       }
     }],
-    "ladin": [{
+    "ld": [{
       "title": "L ciastel di mostri",
       "titlePicture": "/learning-material/story-6/covers/Story 6_COVER_LAD.jpeg",
       "fullAudio": "/learning-material/story-6/story-ladin/Bobba_LADIN_Story 6-MP3.mp3",
@@ -4536,13 +4536,13 @@
     }],
     "de-lang": [{
       "title": "Olivias Geburtstagsparty",
-      "titlePicture": "/learning-material/story-7/covers/Story 7_title_GE.jpg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_GE.webp",
       "fullAudio": "/learning-material/story-7/story-de/Story 7_Full_GE.mp3",
       "fullText": "/learning-material/story-7/story-de/Story7_DE_L.pdf",
       "pages": {
         "0": {
           "text": "Olivias Geburtstagsparty",
-          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_GE.jpg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_GE.webp",
           "audioUrl": "/learning-material/story-7/story-de/Olivias_Geburtstagsparty.m4a"
         },
         "1": {
@@ -4852,7 +4852,7 @@
         }
       }
     }],
-    "slo": [{
+    "sv": [{
       "title": "Olivia praznuje rojstni dan",
       "titlePicture": "/learning-material/story-7/covers/Story 7_title_SL.jpg",
       "fullAudio": "/learning-material/story-7/story-slo/Story 7_SLO_complete.m4a",
@@ -5117,7 +5117,7 @@
         }
       }
     }],
-    "ladin": [{
+    "ld": [{
       "title": "Festejé l cumplì di ani de Olivia",
       "titlePicture": "/learning-material/story-7/covers/Story 7_title_LA.jpg",
       "fullAudio": "/learning-material/story-7/story-ladin/Bobba_LADIN_Story 7-MP3.mp3",
@@ -5651,7 +5651,7 @@
         }
       }
     }],
-    "slo": [{
+    "sv": [{
       "title": "Bobba gre domov",
       "titlePicture": "/learning-material/story-8/covers/Story 8_title_SVN.png",
       "fullAudio": "/learning-material/story-8/story-slo/Story 8_SLO_complete.m4a",
@@ -5810,7 +5810,7 @@
         }
       }
     }],
-    "ladin": [{
+    "ld": [{
       "title": "Zeréck heem",
       "titlePicture": "/learning-material/story-8/covers/Story 8_title_LAD.png",
       "fullAudio": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8-MP3.mp3",

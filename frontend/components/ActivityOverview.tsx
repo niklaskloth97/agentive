@@ -449,8 +449,8 @@ function ActivityOverviewContent({ groupKey }: ActivityOverviewProps) {
                                                                         
                                                                         (
                                                                             <a
-                                                                            //Story_1_Bobba, Children, Backgrounds.pdf
-                                                                            href={`/activities/story${story.id}/PC/Story_${story.id}_Bobba, Children, Backgrounds.pdf`}
+                                                                            //Story_1_Bobba_Children_Backgrounds.pdf
+                                                                            href={`/activities/story${story.id}/PC/Story_${story.id}_Bobba_Children_Backgrounds.pdf`}
 
                                                                             rel="noopener noreferrer"
                                                                             className="font-medium text-sm text-blue-600 hover:text-blue-800 hover:underline truncate"
