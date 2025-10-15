@@ -1943,7 +1943,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_2_S.pdf",
-							title: "NOST 2: GRADIMO MOSTOVE – POVEZUJEMO NOVO Z ZNANIM",
+							title: "GRADIMO MOSTOVE – POVEZUJEMO NOVO Z ZNANIM",
 						}, 
 						ld: {
                             label: "Ladisch",
@@ -1977,7 +1977,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_3_S.pdf",
-							title: "ŠTEVLIČNI DETEKTIVI",
+							title: "ŠTEVILČNI DETEKTIVI",
 						}, 
 						ld: {
                             label: "Ladisch",
@@ -2061,7 +2061,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story1/ICAU/Story_3_ICAU_2_S.pdf",
-							title: "GREMO NA PLAZO",
+							title: "GREMO NA PLAŽO",
 						}, 
 						ld: {
                             label: "Ladisch",
@@ -2095,7 +2095,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story3/ICAU/Story_3_ICAU_3_S.pdf",
-							title: "PET PRIJATELJEV NA PLAZI",
+							title: "PET PRIJATELJEV NA PLAŽI",
 						}, 
 						ld: {
                             label: "Ladisch",
