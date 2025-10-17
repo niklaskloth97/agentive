@@ -1977,7 +1977,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "Slovenian",
 							audioUrl: "/audio/test-de.opus", // Use your test audio
 							pdfUrl: "/activities/story2/ICAU/Story_2_ICAU_3_S.pdf",
-							title: "ŠTEVILČNI DETEKTIVI",
+							title: "ŠTEVILČNI  DETEKTIVI",
 						}, 
 						ld: {
                             label: "Ladisch",
@@ -3665,7 +3665,7 @@ export const GUIDES: Record<GuideKey, Guide> = {
                 url: "/learning-material/story-1/reading-guide/Story 1_Story's reading guide_G.pdf"
             },
             fr: {
-                url: "/learning-material/story-1/reading-guide/Story 1_Story's reading guide_F.pdf"
+                url: "/learning-material/story-1/reading-guide/Story 1_Story reading guide_F.pdf"
             },
             svn: {
                 url: "/learning-material/story-1/reading-guide/Story 1_Story's reading guide_S.pdf"
@@ -3680,7 +3680,6 @@ export const GUIDES: Record<GuideKey, Guide> = {
             en: {
                 url: "/learning-material/story-2/reading-guide/Story 2_Guide de lecture_E.pdf"
             },
-        
             fr: {
                 url: "/learning-material/story-2/reading-guide/Story 2_Guide de lecture_F.pdf"
             },
