@@ -5,6 +5,8 @@ import NavBar from "@/components/NavBar";
 import Footer from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider"
 import { WebsiteLanguageProvider } from '@/contexts/WebsiteLanguageContext';
+import "flag-icons/css/flag-icons.min.css";
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
 
 //import { AppSidebar } from "@/app/dashboard/app-sidebar";
 

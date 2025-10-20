@@ -57,7 +57,7 @@ export default function Footer() {
                     </div>
                     <div className="flex flex-col">
                         <Image 
-                            src="/eu-footer.svg" 
+                            src="/eu-footer.png" 
                             alt={`${websiteLanguage === 'en' ? 'Funded by the Erasmus+ Programme of the European Union' : 
                                 websiteLanguage === 'fr' ? 'Financé par le programme Erasmus+ de l\'Union européenne' :
                                 websiteLanguage === 'lux' ? 'Finanzéiert vum Erasmus+ Programm vun der Europäescher Unioun' :

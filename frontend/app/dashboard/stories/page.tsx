@@ -115,7 +115,7 @@ export default function Page() {
                                             <>
                                                 <div className="flex flex-col sm:flex-row items-center sm:items-start bg-white dark:bg-gray-800/40 rounded-xl mb-6 max-w-2xl w-full overflow-hidden">
                                                     <div className="w-full sm:w-1/2 flex-shrink-0">
-                                                        <div className="relative aspect-square w-full max-w-[200px] mx-auto">
+                                                        <div className="relative aspect-video w-full max-w-[200px] mx-auto">
                                                             <Image
                                                                 src={getStoryCoverImage(story, websiteLanguage)}
                                                                 alt={getStoryTitle(story, websiteLanguage)}

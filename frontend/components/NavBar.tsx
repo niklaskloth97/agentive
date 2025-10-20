@@ -11,15 +11,15 @@ import {
 import { TranslateButtons } from '@/components/translateButtons';
 import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext';
 
-// Available languages with flags
+// Available languages with country codes for flag-icons
 const availableLanguages = [
-  { id: "en", label: "English", flag: "🇬🇧" },
-  { id: "de", label: "Deutsch", flag: "🇩🇪" },
-  { id: "fr", label: "Français", flag: "🇫🇷" },
-  { id: "it", label: "Italiano", flag: "🇮🇹" },
-  { id: "sv", label: "Slovenščina", flag: "🇸🇮" },
-  { id: "lux", label: "Lëtzebuergesch", flag: "🇱🇺" },
-  { id: "gr", label: "Ελληνικά", flag: "🇬🇷" },
+  { id: "en", label: "English", countryCode: "gb" },
+  { id: "de", label: "Deutsch", countryCode: "de" },
+  { id: "fr", label: "Français", countryCode: "fr" },
+  { id: "it", label: "Italiano", countryCode: "it" },
+  { id: "sv", label: "Slovenščina", countryCode: "si" },
+  { id: "lux", label: "Lëtzebuergesch", countryCode: "lu" },
+  { id: "gr", label: "Ελληνικά", countryCode: "gr" },
 ];
 
 export default function NavBar() {
@@ -61,7 +61,7 @@ export default function NavBar() {
             {/* Language Selector */}
             <DropdownMenu>
               <DropdownMenuTrigger className="flex items-center px-3 py-2 rounded-md border text-sm bg-background hover:bg-accent hover:text-accent-foreground transition-colors mr-4">
-                <span className="mr-2">{currentLanguage?.flag}</span>
+                <span className={`fi fi-${currentLanguage?.countryCode || 'xx'} w-5 h-5 mr-2`} />
                 <span className="font-medium mr-1">{currentLanguage?.label}</span>
                 <ChevronDown className="h-4 w-4" />
               </DropdownMenuTrigger>
@@ -74,7 +74,7 @@ export default function NavBar() {
                       language.id === websiteLanguage ? 'bg-accent' : ''
                     }`}
                   >
-                    <span className="mr-3">{language.flag}</span>
+                    <span className={`fi fi-${language.countryCode} w-5 h-5 mr-3`} />
                     <span>{language.label}</span>
                   </DropdownMenuItem>
                 ))}
