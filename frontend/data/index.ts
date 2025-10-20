@@ -2410,7 +2410,7 @@ export const ACTIVITY_GROUPS: Record<
 							label: "German",
 							audioUrl: "/audio/test-de.opus", // Use your tes
 							pdfUrl: "/activities/story6/ICAU/Story6_ICAU_2_G.pdf",
-							title: "Daneke auf der ganzen Welt",
+							title: "Danke auf der ganzen Welt",
 						}, 
 						ld: {
                             label: "Ladisch",
