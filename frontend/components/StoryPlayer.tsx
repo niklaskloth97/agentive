@@ -4,10 +4,11 @@ import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { 
   Download, 
-   
   Play, 
   Pause, 
-  Globe, 
+  Globe,
+  Plus,
+  Minus 
 } from "lucide-react";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import LanguageSelector from "@/components/LanguageSelector";
@@ -837,8 +838,51 @@ export function StoryPlayer({
               style={{ boxSizing: "border-box" }}
             >
               <div className="flex flex-col h-full w-full overflow-hidden">
-                {/* Fullscreen carousel - takes remaining space */}
-                <div className="flex-1 min-h-0 w-full px-4">
+                {/* Top section - Scale and Language controls */}
+                <div className="flex-shrink-0 p-4 border-b bg-white flex items-center justify-between gap-4">
+                  {/* Scale Controls */}
+                  <div className="flex items-center gap-2">
+                   
+                    <div className="flex items-center gap-1">
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="h-8 w-8 p-0"
+                        onClick={() => {
+                          const htmlElement = document.documentElement;
+                          const currentSize = parseInt(window.getComputedStyle(htmlElement).fontSize);
+                          const newSize = Math.max(currentSize - 2, 12);
+                          htmlElement.style.fontSize = newSize + 'px';
+                        }}
+                        title="Decrease text size"
+                      >
+                        <Minus />
+                      </Button>
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="h-8 w-8 p-0"
+                        onClick={() => {
+                          const htmlElement = document.documentElement;
+                          const currentSize = parseInt(window.getComputedStyle(htmlElement).fontSize);
+                          const newSize = Math.min(currentSize + 2, 24);
+                          htmlElement.style.fontSize = newSize + 'px';
+                        }}
+                        title="Increase text size"
+                      >
+                        <Plus />
+                      </Button>
+                    </div>
+                  </div>
+
+                  {/* Spacer */}
+                  <div className="flex-1" />
+
+                  
+                </div>
+
+                {/* Fullscreen carousel*/}
+                <div className="flex-1 min-h-0 w-full overflow-hidden">
                   <StoryCarousel
                     pages={selectedLanguage && pages.length > 0 ? pages : [placeholderPage]}
                     selectedLanguage={selectedLanguage}

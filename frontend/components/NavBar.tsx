@@ -1,15 +1,22 @@
 "use client"
 
 import Link from 'next/link';
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Plus, Minus, Menu } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { Button } from "@/components/ui/button";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { TranslateButtons } from '@/components/translateButtons';
 import { useWebsiteLanguage } from '@/contexts/WebsiteLanguageContext';
+import { useState, useEffect } from 'react';
 
 // Available languages with country codes for flag-icons
 const availableLanguages = [
@@ -24,22 +31,57 @@ const availableLanguages = [
 
 export default function NavBar() {
   const { websiteLanguage, setWebsiteLanguage } = useWebsiteLanguage();
+  const [scale, setScale] = useState(100);
+  const [mounted, setMounted] = useState(false);
+  const [isSheetOpen, setIsSheetOpen] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+    // Load saved scale from localStorage
+    const savedScale = localStorage.getItem('websiteScale');
+    if (savedScale) {
+      const scaleValue = parseInt(savedScale, 10);
+      setScale(scaleValue);
+      document.documentElement.style.fontSize = `${(scaleValue / 100) * 16}px`;
+    }
+  }, []);
 
   const handleLanguageChange = (languageId: string) => {
     setWebsiteLanguage(languageId);
   };
 
+  const handleScaleChange = (direction: 'increase' | 'decrease') => {
+    let newScale = scale;
+    if (direction === 'increase' && scale < 150) {
+      newScale = scale + 10;
+    } else if (direction === 'decrease' && scale > 70) {
+      newScale = scale - 10;
+    }
+    
+    setScale(newScale);
+    localStorage.setItem('websiteScale', newScale.toString());
+    document.documentElement.style.fontSize = `${(newScale / 100) * 16}px`;
+  };
+
+  const handleNavigation = () => {
+    setIsSheetOpen(false);
+  };
+
   const currentLanguage = availableLanguages.find(l => l.id === websiteLanguage);
+
+  if (!mounted) {
+    return null;
+  }
 
   return (
     <nav className='sticky top-0 z-50'>
       <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto h-14 flex items-center">
-          <div className="flex">
-            <Link href="/" className="flex items-center space-x-8 px-6">
+          <div className="flex items-center">
+            <Link href="/" className="flex items-center space-x-2 px-6" onClick={handleNavigation}>
               <img src='/LOGO.jpeg' alt="Agentive Logo" 
               className="h-8 w-auto" />
-              <span className="font-bold sm:inline-block">AGENTIVE</span>
+              <span className="font-bold hidden sm:inline-block">AGENTIVE</span>
             </Link>
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
@@ -57,12 +99,39 @@ export default function NavBar() {
               </a>
             </nav>
           </div>
-          <div className="ml-auto flex items-center">
+          <div className="ml-auto flex items-center gap-2">
+            {/* Scale Controls - Visible on all screens */}
+            <div className="flex items-center gap-1 md:gap-2">
+              <Button
+                variant="outline"
+                size="icon"
+                className="h-9 w-9"
+                onClick={() => handleScaleChange('decrease')}
+                disabled={scale <= 70}
+                title="Decrease text size"
+              >
+                <Minus className="h-4 w-4" />
+              </Button>
+              <span className="text-xs font-medium min-w-[2.5rem] text-center">
+                {scale}%
+              </span>
+              <Button
+                variant="outline"
+                size="icon"
+                className="h-9 w-9"
+                onClick={() => handleScaleChange('increase')}
+                disabled={scale >= 150}
+                title="Increase text size"
+              >
+                <Plus className="h-4 w-4" />
+              </Button>
+            </div>
+
             {/* Language Selector */}
             <DropdownMenu>
-              <DropdownMenuTrigger className="flex items-center px-3 py-2 rounded-md border text-sm bg-background hover:bg-accent hover:text-accent-foreground transition-colors mr-4">
+              <DropdownMenuTrigger className="flex items-center px-3 py-2 rounded-md border text-sm bg-background hover:bg-accent hover:text-accent-foreground transition-colors">
                 <span className={`fi fi-${currentLanguage?.countryCode || 'xx'} w-5 h-5 mr-2`} />
-                <span className="font-medium mr-1">{currentLanguage?.label}</span>
+                <span className="font-medium mr-1 hidden sm:inline">{currentLanguage?.label}</span>
                 <ChevronDown className="h-4 w-4" />
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="w-48">
@@ -81,19 +150,51 @@ export default function NavBar() {
               </DropdownMenuContent>
             </DropdownMenu>
             
-            {/* Mobile menu button */}
-            <div className="md:hidden">
-              <button 
-                aria-label="Toggle Menu"
-                className="mr-2 px-3 py-1 border rounded"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <line x1="4" x2="20" y1="12" y2="12"/>
-                  <line x1="4" x2="20" y1="6" y2="6"/>
-                  <line x1="4" x2="20" y1="18" y2="18"/>
-                </svg>
-              </button>
-            </div>
+            {/* Mobile menu */}
+            <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
+              <SheetTrigger asChild className="md:hidden">
+                <Button 
+                  variant="outline" 
+                  size="icon"
+                  className="h-9 w-9"
+                  aria-label="Toggle Menu"
+                >
+                  <Menu className="h-5 w-5" />
+                </Button>
+              </SheetTrigger>
+              <SheetContent side="right" className="w-64">
+                <nav className="flex flex-col space-y-4 mt-8">
+                  <Link 
+                    href="/dashboard" 
+                    className="block px-4 py-2 rounded hover:bg-accent transition-colors text-sm font-medium"
+                    onClick={handleNavigation}
+                  >
+                    <TranslateButtons translationKey="multilingual-ressources" currentLanguage={websiteLanguage} />
+                  </Link>
+                  <Link 
+                    href="/about" 
+                    className="block px-4 py-2 rounded hover:bg-accent transition-colors text-sm font-medium"
+                    onClick={handleNavigation}
+                  >
+                    <TranslateButtons translationKey="about-agentive" currentLanguage={websiteLanguage} />
+                  </Link>
+                  <Link 
+                    href="/team" 
+                    className="block px-4 py-2 rounded hover:bg-accent transition-colors text-sm font-medium"
+                    onClick={handleNavigation}
+                  >
+                    <TranslateButtons translationKey="team" currentLanguage={websiteLanguage} />
+                  </Link>
+                  <Link 
+                    href="/blog" 
+                    className="block px-4 py-2 rounded hover:bg-accent transition-colors text-sm font-medium"
+                    onClick={handleNavigation}
+                  >
+                    <TranslateButtons translationKey="blog" currentLanguage={websiteLanguage} />
+                  </Link>
+                </nav>
+              </SheetContent>
+            </Sheet>
           </div>
         </div>
       </header>
