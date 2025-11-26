@@ -31,7 +31,7 @@ export default function Page() {
           <Link href="/dashboard/stories">
             <Card className="bg-blue-600/10 aspect-[4/3] transition cursor-pointer hover:shadow-lg">
               <div className="flex flex-col items-center justify-center h-full p-6">
-                <div className="flex items-center gap-3 mb-6">
+                <div className="flex items-center gap-3">
                   <div className="p-3 bg-blue-800/20 rounded-full">
                     <Book className="h-10 w-10 text-blue-800" />
                   </div>
@@ -44,9 +44,10 @@ export default function Page() {
                   <Image
                     src="/images/bobba-together.jpeg"
                     alt="Storytime Illustration"
-                    width={300}
+                    width={414}
                     height={200}
-                    className="rounded-lg shadow-md max-h-[100%] w-auto"
+                    
+                    className="rounded-lg shadow-md w-fit h-fit"
                   />
                 </div>
               </div>
@@ -57,7 +58,7 @@ export default function Page() {
           <Link href="/dashboard/activities">
             <Card className="bg-green-100 aspect-[4/3] transition cursor-pointer hover:shadow-lg">
               <div className="flex flex-col items-center justify-center h-full p-6">
-                <div className="flex items-center gap-3 mb-6">
+                <div className="flex items-center gap-3">
                   <div className="p-3 bg-green-200 rounded-full">
                     <Gamepad2 className="h-10 w-10 text-green-700" />
                   </div>
@@ -65,15 +66,16 @@ export default function Page() {
                     <TranslateButtons translationKey="activities" currentLanguage={websiteLanguage} />
                   </CardTitle>
                 </div>
-                <h2 className="text-center mt-4 text-sm text-gray-600">
+                <h2 className="text-center text-sm text-gray-600">
                      </h2>
                 <div className="flex-1 flex items-center justify-center">
                   <Image
                     src="/images/bobba-kindergarden.jpeg"
                     alt="Activities Illustration"
-                    width={300}
+                    width={414}
                     height={200}
-                    className="rounded-lg shadow-md max-h-[100%] w-auto"
+                    
+                    className="rounded-lg shadow-md w-fit h-fit"
                   />
                 </div>
               </div>
