@@ -4172,7 +4172,61 @@
           "audioUrl": "/learning-material/story-5/story-ladin/Bobba_LADIN_Story 5_8-MP3.mp3"
         }
       }
-    }]
+    }],
+    "rg": [{
+      "title": "Bobba en la biblioteca",
+      "titlePicture": "/learning-material/story-5/story-rg/Story5_Title_Rumantsch_Grischun.jpg",
+      "fullAudio": "",
+      "fullText": "/learning-material/story-5/story-rg/Story 5_RG.pdf",
+      "pages": {
+        "0": {
+          "text": "Bobba en la biblioteca",
+          "imageUrl": "/learning-material/story-5/story-rg/Story5_Title_Rumantsch_Grischun.jpg",
+          "audioUrl": ""
+        },
+        "1": {
+          "text": "Bobba sauta da via giu. Sias ureglias lomas tremblan dal plaschair. \"Nua giain nus?\" – \"En biblioteca!\" respunda Olivia. Là datti fitg blers cudeschs!\" Ils egls da Bobba daventan fitg gronds: \"Cudeschs!\"",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "En biblioteca hai blers regals auts. I savura da magia. Ina dama cun gronds egliers surri. \"Bonvenon!\" \"Wow\" scutina Bobba. “Uschè bleras istorgias!”",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_2.png",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Bobba suonda ils uffants tar las curunas da cudeschs. \"Lain chattar in cudesch per tai\", di Ben. Ils uffants tiran giu da las curunas cudeschs cun maletgs da muntognas cun naiv, oceans profunds, pasts delizius. In auter uffant tegna enta maun in cudesch davart animals sdrimads, cun puncts e cun cuas lungas.",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_3.png",
+          "audioUrl": ""
+        },       
+        "4": {
+          "text": "Bobba tegna il flad. \"Didi, didi!\" El mussa sin ina pagina en ses cudesch. Ils uffants guardan. \"Tge èsi?\" Bobba guarda sin la creatura en il cudesch. Ureglias lomas, egls gronds. “Exact sco ... jau”, pensa el. Ses egls gronds vegnan anc pli gronds.",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_4.png",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "Bobba sfeglia pagina per pagina ed ad el plascha quai ch’el vesa, dapli creatiras interessantas. \"Chasa... jau lasch encrescher per mes dachasa\", suspira Bobba.",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_5.png",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "Ben di: \"Ti pos emprestar il cudesch.\" \"Emprestar?\" Bobba tschegna. La bibliotecara dat il chau. \"Ti dovras be ina carta da biblioteca, lura es ti commember da la biblioteca\".",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_6.png",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "Ils uffants gidan Bobba da scriver ses num sin la carta. Bobba mussa loschamain sia nova carta. \"Jau sun ussa commember da la biblioteca!\"",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_7.png",
+          "audioUrl": ""
+        }
+        ,
+        "8": {
+          "text": "Ordadora sbrinzlan las stailas. Bobba brancla ses cudesch. Il cudesch è sco in pitschen toc patria. \"In di ... vegn jau a turnar a chasa.\"",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_8.png",
+          "audioUrl": ""
+        }
+      }
+   }]
   },
   {
     "id": "6",
@@ -4916,6 +4970,112 @@
           "text": "La festa ie tan da rì! Ma pona ti tomel ite a Bobba i mutons tl luech. “Percie ne nvieis’a nia i mutons?”, ti damandel ai mostri. I dënz dl gran mostro violet scumëncia a bater, y l pierd belau si tëurta. “Oh noooo! Nëus on tëma dai mutons!” “Cie? Vo ëis tëma dai mutons?” Bobba se fej marueia. L à na idea. “Dai, nvion i mutons ala proscima festa di mostri!” I mostri scrij n nvit y l mët te na busta.",
           "imageUrl": "/learning-material/story-6/images/Story_6_8.jpeg",
           "audioUrl": "/learning-material/story-6/story-ladin/Bobba_LADIN_Story 6_8-MP3.mp3"
+        }
+      }
+    }],
+    "rg": [{
+      "title": "Il chastè dals monsters",
+      "titlePicture": "/learning-material/story-6/story-rg/Story6_Title_Rumantsch_Grischun.jpeg",
+      "fullAudio": "",
+      "fullText": "/learning-material/story-6/story-rg/Story 6_RG.pdf",
+      "pages": {
+        "0": {
+          "text":  "Il chastè dals monsters",
+          "imageUrl": "/learning-material/story-6/story-rg/Story6_Title_Rumantsch_Grischun.jpeg",
+          "audioUrl": ""
+        },
+        "1": {
+          "text": "Oz vul Bobba far insatge interessant. El ha in’idea",
+          "imageUrl": "/learning-material/story-6/images/Story_6_1.jpeg",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "\"Il grond chastè nair sin la muntogna. Quel para captivant!\"",
+          "imageUrl": "/learning-material/story-6/images/Story_6_2.jpeg",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Bobba cumenza a chaminar. El siglia e curra ed il chastè vegn adina pli datiers. Il chastè è fitg stgir e grond. Tuttenina auda Bobba ina ramur. Tge è quai? Musica! I tuna sco in accordeon.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_3.jpeg",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "Uss stat Bobba davant ina gronda porta. El splunta e la porta s’avra. Davos la porta hai in corridor stgir. Bobba ha uss in zic tema. Ses mauns èn suentads. Ses chavels stattan sidretg. Ses dents battan. Ma taidla. Ins auda puspè musica!",
+          "imageUrl": "/learning-material/story-6/images/Story_6_4.jpeg",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "L’accordeon tuna propi bel. \"Uschè nausch na poi betg esser en il chastè!\" pensa Bobba e va tras la porta. El vesa in placat cun si “Bainvegni a la party da monsters”.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_5.jpeg",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "A la fin dal corridor vesa Bobba ina glisch. La musica vegn pli dad aut. Bobba entra en ina halla gigantica. Dapertut hai balluns colurads. Igl ha ina gronda turta ed era limunada. È quai ina party? Blers monsters sautan, chantan e mangian petta.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_6.jpeg",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "In pitschen monster mellen vegn tar Bobba. \"Tu veux danser, mon ami?\", dumonda el e stenda ora ses mauns.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_7.jpeg",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "La festa è propi divertenta! Ma lura pensa Bobba als uffants en il vitg. \"Pertge n’envidais vus betg ils uffants?\", dumonda el ils monsters. Ils dents dal grond monster lila cumenzan a batter ed el lascha bunamain crudar sia petta. \"O na! Nus avain tema dad uffants!\" \"Tge? Vus avais tema dals uffants?\" Bobba è surprais. El ha in’idea. \"Lain envidar ils uffants a la proxima party da monsters!\". Ils monsters scrivan in'invitaziun e la mettan en ina cuverta",
+          "imageUrl": "/learning-material/story-6/images/Story_6_8.jpeg",
+          "audioUrl": ""
+        }
+      }
+    }],
+    "sur": [{
+      "title": "Il chastè dals monsters",
+      "titlePicture": "/learning-material/story-6/story-sur/Story6_Title_Sursilvan.jpeg",
+      "fullAudio": "",
+      "fullText": "/learning-material/story-6/story-sur/Story 6_RG.pdf",
+      "pages": {
+        "0": {
+          "text":  "Il chastè dals monsters",
+          "imageUrl": "/learning-material/story-6/story-sur/Story6_Title_Sursilvan.jpeg",
+          "audioUrl": ""
+        },
+        "1": {
+          "text": "Oz vul Bobba far enzatgei interessant. El ha in’idea.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_1.jpeg",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "“Il grond casti ner sils cuolms. Quel interessescha mei!”",
+          "imageUrl": "/learning-material/story-6/images/Story_6_2.jpeg",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Bobba entscheiva a caminar. El seglia e cuora ed il casti vegn adina pli datier. Il casti ei fetg stgirs e gronds. Tuttenina auda Bobba ina ramur. Musica! Ei tuna sco in accordeon.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_3.jpeg",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "Ussa stat Bobba davon ina gronda porta. El splunta e la porta sesarva. Davos la porta ha ei in zuler stgir. Bobba ha uss in tec tema. Ses mauns siuan. Ses cavels stattan sidretg. El trembla. Mo teidla. Ins auda puspei musica!",
+          "imageUrl": "/learning-material/story-6/images/Story_6_4.jpeg",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "Igl accordeon tuna propi bi. “Aschi nausch sa ei buc esser el casti!” tratga Bobba e va tras la porta. El vesa in placat cun si “Beinvegni alla party da monsters”.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_5.jpeg",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "Alla fin dil zuler vesa Bobba ina glisch. La musica vegn pli dad ault. Bobba entra ella halla gigantica. Dapertut hai balluns colurai. Ei ha ina gronda tuorta ed era auas dultschas. Ei quei ina party? Bia monsters saultan e maglian petta.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_6.jpeg",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "In pign monster mellen vegn tier Bobba. “Tu veux danser, mon ami?”, damonda el e stenda ora ses mauns.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_7.jpeg",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "La fiasta ei propi legra. Mo lu patratga Bobba vi dils affons el vitg. “Daco envidais vus buc ils affons?”, damonda el ils monsters. Il grond monster violet entscheiva a tremblar e lai bunamain dar giun plaun sia petta. “O na! Nus vein tema dils affons!” “Tgei? Vus veis tema dils affons?” Bobba ei surstaus. El ha in’idea. “Lein envidar ils affons alla proxima party da monsters!” Ils monsters scrivan in’invitaziun e mettan ella en ina cuviarta.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_8.jpeg",
+          "audioUrl": ""
         }
       }
     }]
@@ -5664,6 +5824,112 @@
           "audioUrl": "/learning-material/story-7/story-tur/Story_7_8.mp3"
         }
       }
+    }],
+    "rg": [{
+      "title": "La festa da natalizi dad Olivia",
+      "titlePicture": "/learning-material/story-7/story-rg/Story 7_title_Rumantsch.jpg",
+      "fullAudio": "",
+      "fullText": "/learning-material/story-7/story-rg/Story 7_RG.pdf",
+      "pages": {
+        "0": {
+          "text": "La festa da natalizi dad Olivia",
+          "imageUrl":  "/learning-material/story-7/story-rg/Story 7_title_Rumantsch.jpg",
+          "audioUrl": ""
+        },
+        "1": {
+          "text": "Oz è in di spezial. Bobba è envidà a la festa d’anniversari dad Olivia. Davant chasa datti blers balluns cun in grond da 5.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "Bobba vesa blers uffants ch’el enconuscha, ma era bleras persunas grondas. Bobba sa dumonda tgi ch’els èn",
+          "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Ils uffants giogan il saut da sutgas. Lura fan els da sa zuppar en curtin. Els han il gaudi.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_3.jpeg",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "\"La naskingtaga kuko!\", cloma il bab. El porta ina gronda turta che vesa ora sco in chastè cun tschintg turs da fieu.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_4.jpeg",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "\"Ni kantu\", di la tatta sin esperanto, per che Bobba la chapeschia. Els chantan \"Happy birthday\" en trais linguas. Bobba enconuscha la chanzun per englais ed emprova da chantar cun els.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "\"Bobba, sufla or las chandailas!\", propona Olivia. Bobba tutga bunamain las turs sin il chastè. \"Stop!\", di Ben e mussa co ch'ins sufla or las chandailas.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "La turta è deliziusa. Bobba mangia tschintg tocs. \"Fitg bun!\", di el. \"Survegn Bobba uss mal il venter?\", dumonda Olivia.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "\"Ussa hai jau mirveglias tge regals che vus avais purtà! Vegni, nus avrin ils pacs!\" Olivia è fitg cuntenta. \"Quai vulev’jau gia adina!\", cloma ella adina puspè. Ils uffants giogan anc in zic, fin ch’els van a chasa.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
+          "audioUrl": ""
+        }
+      }  
+    }],
+     "sur": [{
+      "title": "La fiasta da natalezi d’Olivia",
+      "titlePicture": "/learning-material/story-7/story-sur/Story 7_title_Sursilvan.jpg",
+      "fullAudio": "",
+      "fullText": "/learning-material/story-7/story-sur/Story 7_Sursilvan.pdf",
+      "pages": {
+        "0": {
+          "text": "La fiasta da natalezi d’Olivia",
+          "imageUrl":  "/learning-material/story-7/story-sur/Story 7_title_Sursilvan.jpg",
+          "audioUrl": ""
+        },
+        "1": {
+          "text": "Oz ei in di special. Bobba ei envidaus alla fiasta da natalezi d’Olivia. Avon casa ein bia balluns cun in grond da 5.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "Bobba vesa bia affons ch’el enconuscha, aber era bia carschi. Bobba sedamonda tgi ch’els ein.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Ils affons fan il giug da sutgas. Lu fan els da sezuppar en curtgin. Els han tschaffenun.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_3.jpeg",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "\"La naskingtaga kuko!\", cloma il bab. El porta ina gronda tuorta che vesa ora sc’in casti cun tschun tuors da fiug",
+          "imageUrl": "/learning-material/story-7/images/Story 7_4.jpeg",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "\"Ni kantu\", di la tatta sin esperanto per che Bobba capeschi ella. Els contan “Happy birthday” en treis lungatgs. Bobba enconuscha la canzun per engles ed emprova da cantar cun els.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "“Bobba, sufla ora las candeilas!”, propona Olivia. Bobba betta bunamein entuorn las tuors silla tuorta. “Stop!”, di Ben e muossa co ins sufla ora las candeilas.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "La tuorta ei buontad. Bobba maglia tschun tocs in suenter l’auter. “Miam!”, di el. “Survegn Bobba uss mal il venter?”, damonda Olivia.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "“Uss hai jeu marveglias tgei schenghetgs che vus veis purtau! Vegni, nus arvin ils pacs!” Oliva ei tut beada. Quei vulev’jeu schon adina!”, cloma ella adina puspei. Ils affons fan aunc in tec termagls, tochen ch’els van a casa",
+          "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
+          "audioUrl": ""
+        }
+      }  
     }]
   },
   {
@@ -6304,6 +6570,113 @@
           "audioUrl": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8_8-MP3.mp3"
         }
       }
-    }]
+    }],
+      "rg": [{
+        "title": "Bobba turna a chasa",
+        "titlePicture": "/learning-material/story-8/story-rg/Story 8_title_Rumantsch_Grischun.pdf.jpg",
+        "fullAudio": "",
+        "fullText": "/learning-material/story-8/story-rg/Story 8_RG.pdf",
+        "pages": {
+          "0": {
+            "text": "Bobba turna a chasa",
+            "imageUrl":  "/learning-material/story-8/story-rg/Story 8_title_Rumantsch_Grischun.pdf.jpg",
+            "audioUrl": ""
+          },
+          "1": {
+            "text": "Bobba e ses amis dattan balla en il parc sper sia nav spaziala.",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
+            "audioUrl": ""
+          },
+          "2": {
+            "text": "Plaunsieu va il sulegl da rendì ed il tschiel è plain colurs. Bobba è impressiunà. Quant bel che quai è! Tuttenina cumpara ina staila, ed anc ina, ed anc ina. Bobba mussa sin ina che traglischa fitg cler e cloma: \"Vidu la stelan!! Jen mia planedo!!\"",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
+            "audioUrl": ""
+          },
+          "3": {
+            "text": "Ses amis chalan da giugar. Quai vulan els era vesair. Tuts stattan datiers da Bobba per vesair sia staila.",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
+            "audioUrl": ""
+          },
+          "4": {
+            "text": "Tuttenina audan els insatge che fa beep. Lura audan els anc ina giada, questa giada èsi pli dad aut. “BEEP!” ed anc ina giada pli dad aut “BEEP!” “BEEEEEEEEEEEEEEP!!!!!!” Bobba cloma: \"Ohhh, il telefon da mia nav spaziala!\"",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
+            "audioUrl": ""
+          },
+          "5": {
+            "text": "El curra tar sia nav spaziala e prenda giu il telefon. Ses amis al suondan. Els audan co el di: “Ĉu mi venu hejmen? Ĉu mi povas reveni? Esta bona! Ĝis baldaŭ!”",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
+            "audioUrl": ""
+          },
+          "6": {
+            "text": "Lura penda el si e di \"Mia famiglia di che jau stoppia vegnir a chasa. Ma jau turn prest puspè!\" Ben di \"Jau crai che nus stoppian tuts ir a chasa uss. I vegn stgir.\"",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
+            "audioUrl": ""
+          },
+          "7": {
+            "text": "Ils uffants dattan ina gronda strocla a Bobba ed Olivia di: \"Turna bainbaud puspè!\" Bobba surri. \"Mi retouros!\", empermetta el.",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
+            "audioUrl": ""
+          },
+          "8": {
+            "text": "Bobba va en sia nav spaziala e fa chau. El deterrescha e sgola en il tschiel nocturn, fin ch’ins vesa mo pli ina pitschna glisch – la glisch da ses planet. \"Fin bainbaud Bobba!\", cloman tuts e surrin.",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpeg",
+            "audioUrl": ""
+          }
+        }
+        }],
+        "sur": [{
+        "title": "Bobba tuorna a casa",
+        "titlePicture": "/learning-material/story-8/story-sur/Story 8_title_Rumantsch_Grischun.pdf.jpg",
+        "fullAudio": "",
+        "fullText": "/learning-material/story-8/story-sur/Story 8_Sursilvan.pdf",
+        "pages": {
+          "0": {
+            "text": "Bobba turna a chasa",
+            "imageUrl":  "/learning-material/story-8/story-sur/Story 8_title_Sursilvan.jpg",
+            "audioUrl": ""
+          },
+          "1": {
+            "text": "Bobba e ses amitgs dattan balla el parc sper sia nav spaziala.",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
+            "audioUrl": ""
+          },
+          "2": {
+            "text": "Plaunsiu va il sulegl da rendiu ed il tschiel ei plein colurs. Bobba ei impressiunaus. Con bi che quei ei! Tuttenina cumpara ina steila ... ed aunc ina ... ed aunc ina. Bobba muossa sin ina che tarlischa specialmein fetg e cloma: \"Vidu la stelan!! Jen mia planedo!!\"",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
+            "audioUrl": ""
+          },
+          "3": {
+            "text": "Ses amitgs calan da far termagls. Quei vulan els era veser. Tuts stattan datier da Bobba per veser sia steila.",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
+            "audioUrl": ""
+          },
+          "4": {
+            "text": "Tuttenina audan els enzatgei che fa beep. Lu audan els aunc inagada la ramur, quella gada pli dad ault. “BEEP!” ed aunc ina gada pli dad ault “BEEP!” - “BEEEEEEP!!!!!!” Bobba cloma: \"Ohhh, il telefon da mia nav spaziala!\"",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
+            "audioUrl": ""
+          },
+          "5": {
+            "text": "El cuora tier sia nav spaziala e pren giu il telefon. Se amitgsvan suenter ad el. Els audan co el di: “Ĉu mi venu hejmen? Ĉu mi povas reveni? Esta bona! Ĝis baldaŭ!”",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
+            "audioUrl": ""
+          },
+          "6": {
+            "text": "Lu penda el si e di: “Mia famiglia di che jeu stoppi vegnir a casa. Aber jeu tuornel gleiti puspei!” Ben di:”Jeu crei che nus stoppien tuts ir a casa uss. Ei vegn stgir.",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
+            "audioUrl": ""
+          },
+          "7": {
+            "text": "Ils affons dattan ina gronda strocla a Bobba ed Olivia di: “Tuorna gleiti puspei!” Bobba surri. \"Mi retouros!\", empermetta el",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
+            "audioUrl": ""
+          },
+          "8": {
+            "text": "Bobba va en sia nav spaziala e fa tgau. El parta e sgola viers il tschiel nocturn, tochen ch’ins vesa mo pli ina pintga glisch - la glisch da siu planet. “Tochen gleiti, Bobba!”, cloman tuts e surrian",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpeg",
+            "audioUrl": ""
+          }
+        }
+        }]
+      
   }
 ]
