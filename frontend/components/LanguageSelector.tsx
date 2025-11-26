@@ -22,6 +22,7 @@ import { cn } from "@/lib/utils";
 //   ukr: "🇺🇦", // Ukrainian flag
 //   tur: "🇹🇷", // Turkish flag
 //   ld: "🇮🇹", // Ladin flag 
+//   rg: "🇸🇨", // Romansh flag
 // };
 
 // language → flag country code (ISO 3166-1 alpha-2)
@@ -41,6 +42,9 @@ export const languageFlags: Record<string, string> = {
   ukr: "ua",        // Ukrainian -> Ukraine
   tur: "tr",        // Turkish -> Türkiye
   ld: "it",         // Ladin -> Italy (choose flag you prefer)
+  rg: "ch",
+  sur: "ch"
+
 };
 
 
