@@ -33,13 +33,13 @@ export default function AboutPage() {
         </section>
 
         {/* Our Vision */}
-        <section className="py-6 px-4 md:px-20 max-w-7xl mx-auto">
+        <section className="py-6 px-4 md:px-16">
             {/* Header + First Paragraph (Centered) */}
             <div className="text-center mb-4">
                 <h2 className="text-3xl md:text-4xl font-cherry text-figmaGreen mb-4">
                   <TranslateButtons translationKey="promoting-multilingualism-ece" currentLanguage={websiteLanguage} />
                 </h2>
-                <p className="text-justify text-gray-700 max-w-4xl mx-auto text-base md:text-lg leading-relaxed">
+                <p className="text-gray-700 text-justify">
                   <TranslateButtons translationKey="multilingual-intro-text" currentLanguage={websiteLanguage} />
                 </p>
             </div>
@@ -62,15 +62,15 @@ export default function AboutPage() {
                 </div>
 
             {/* Paragraph */}
-            <div className="lg:w-1/2 text-gray-700 text-base md:text-lg leading-relaxed">
+            <div className="lg:w-1/2 text-justify text-gray-700">
               <TranslateButtons translationKey="agentive-bridge-gap" currentLanguage={websiteLanguage} />
             </div>
         </div>
     </section>
 
     {/* Erasmus+ Initiative */}
-    <section className="px-4 md:px-16 py-6 text-center relative">
-        <h2 className="text-3xl md:text-4xl font-cherry text-figmaGreen mb-2">
+    <section className="">
+        <h2 className="text-3xl md:text-4xl font-cherry text-figmaGreen mb-2 text-center">
           <TranslateButtons translationKey="erasmus-initiative-sectors" currentLanguage={websiteLanguage} />
         </h2>
 
@@ -82,8 +82,8 @@ export default function AboutPage() {
             className="absolute right-20 top-0"
         />
 
-        <div className="max-w-4xl mx-auto mt-6">
-            <p className="text-justify text-gray-700 text-base md:text-lg leading-relaxed">
+        <div className="px-4 md:px-16 py-6">
+            <p className="text-gray-700 text-justify">
               <TranslateButtons translationKey="erasmus-description" currentLanguage={websiteLanguage} />
             </p>
         </div>
@@ -138,10 +138,10 @@ export default function AboutPage() {
 
 
     {/* Pedagogical Strategies List */}
-    <section className="px-4 md:px-16 my-16">
+    <section className="">
          {/* Section Title and Subtitle */}
 
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+        <div className="px-4 md:px-16 flex flex-col lg:flex-row items-center gap-10">
             <div>
                 <div className="text-left mb-4 ">
                 <h2 className="text-2xl md:text-3xl font-cherry text-figmaGreen mb-2">
@@ -195,7 +195,7 @@ export default function AboutPage() {
             </h2>
             <Image src="/boy.png" alt="Left character" width={40} height={40} />
         </div>
-        <div className="text-justify text-gray-700 space-y-2 max-w-4xl mx-auto">
+        <div className="text-justify text-gray-700 space-y-2">
             <p>
               <TranslateButtons translationKey="model-future-description" currentLanguage={websiteLanguage} />
             </p>
