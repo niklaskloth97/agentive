@@ -1289,6 +1289,15 @@ const translations: Record<string, Record<string, string>> = {
   'German': 'Die Synergie zwischen Hochschulen und Unternehmen fördert die Entwicklung innovativer Bildungsinstrumente und nachhaltiger Partnerschaften.',
   'Greek': 'Η συνέργεια μεταξύ πανεπιστημίων και επιχειρήσεων προωθεί την ανάπτυξη καινοτόμων εκπαιδευτικών εργαλείων και βιώσιμων συνεργασιών.',
   'Slovenian': 'Sinergija med akademskim svetom in podjetji spodbuja razvoj inovativnih izobraževalnih orodij in trajnostnih partnerstev.'
+},
+'dummy-page-title': {
+  'English': 'Dummy Page',
+  'French': 'Page factice',
+  'Lux': 'Dummy Säit',
+  'Italian': 'Pagina fittizia',
+  'German': 'Dummy-Seite',
+  'Greek': 'Σελίδα δοκιμής',
+  'Slovenian': 'Vzorec strani'
 }
 };
 
