@@ -455,7 +455,7 @@ export const ACTIVITY_GROUPS: Record<
 							de: {
 								label: "German",
 								title: "Geschichten verstehen und erzählen",
-								pdfUrl: "/activities/story4/PC/Story 4_PL_G/Story4_PL_1_G.pdf",
+								pdfUrl: "/activities/story4/PC/Story4_PL_1_G.pdf",
 							}, 
 							ld: {
 								label: "Ladisch",
@@ -489,7 +489,7 @@ export const ACTIVITY_GROUPS: Record<
 						de: {
 							label: "German",
 							audioUrl: "/audio/test-de.opus",
-							pdfUrl: "/activities/story4/PC/Story 4_PL_G/Story4_PL_2_G.pdf",
+							pdfUrl: "/activities/story4/PC/Story4_PL_2_G.pdf",
 							title: "Guten Appetit!",
 						}, 
 						ld: {
@@ -523,7 +523,7 @@ export const ACTIVITY_GROUPS: Record<
 						}, 
 						de: {
 							label: "German",
-							pdfUrl: "/activities/story4/PC/Story 4_PL_G/Story4_PL_3_G.pdf",
+							pdfUrl: "/activities/story4/PC/Story4_PL_3_G.pdf",
 							title: "Mach mit, sprich mit!",
 						},
 						ld: {
