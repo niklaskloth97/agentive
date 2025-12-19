@@ -38,6 +38,33 @@ const translations: Record<string, Record<string, string>> = {
   'German': 'Pädagogischer Leitfaden',
   'Greek': 'Παιδαγωγικός οδηγός'
   },
+  'user-guide': {
+  'English': 'Read our user guide here (English only)',
+  'French': 'Nous vous invitons à consulter ici notre guide d\'utilisation en anglais.',
+  'Lux': 'Hei kënnt dir eisen User Guide op Englesch liesen.',
+  'Slovenian': 'Preberite naš uporabniški priročnik (samo v angleščini)',
+  'Italian': 'Leggi la nostra guida utente qui (solo in inglese)',
+  'German': 'Lies unseren Leitfaden hier (nur auf Englisch)',
+  'Greek': 'Διαβάστε το εγχειρίδιο χρήστη μας εδώ (μόνο στα αγγλικά)'
+  },
+  'learning-material-title': {
+  'English': 'Get to the multilingual resources',
+  'French': 'Vous trouverez ici les ressources multilingues.',
+  'Lux': 'Hei komm dir bei déi méisproocheg Ressourcen.',
+  'Slovenian': 'Pojdite do večjezičnih virov',
+  'Italian': 'Accedi alle risorse multilingui',
+  'German': 'Hier geht es zu den mehrsprachigen Materialien',
+  'Greek': 'Πηγαίνετε στους πολυγλωσσικούς πόρους'
+  },
+  'get-started': {
+  'English': 'Get Started',
+  'French': 'Commencer',
+  'Lux': 'Ufänken',
+  'Slovenian': 'Pričnite',
+  'Italian': 'Inizia',
+  'German': 'Jetzt anfangen',
+  'Greek': 'Ξεκινήστε'
+  },
   'guide': {
   'English': 'Guide',
   'French': 'Guide', 
