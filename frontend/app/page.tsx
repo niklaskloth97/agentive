@@ -89,7 +89,7 @@ export default function HomeTestPage() {
           </h2>
           
           {/* Multilingual Resources with Arrow */}
-          <div className="flex lg:flex-row items-center justify-center gap-8 mx-auto">
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-8 mx-auto mb-2">
             {/* Left Text Content */}
             <div className="text-center lg:text-right flex flex-col items-center lg:items-end flex-1 gap-6">
               <div className="flex items-center gap-4 flex-col lg:flex-row">
@@ -104,8 +104,6 @@ export default function HomeTestPage() {
                   <div className="lg:hidden text-3xl">↓</div>
                 </div>
               </div>
-                              
-
             </div>
 
             {/* Right Wave Image */}
@@ -124,18 +122,21 @@ export default function HomeTestPage() {
                 </div>
               </Link>
             </div>
-                          {/* User Guide Card - Green */}
-              <Link href="/learning-material/user-guide.pdf">
-                <div className="flex flex-col items-center justify-center p-6 rounded-lg bg-figmaGreen text-white hover:shadow-lg transition cursor-pointer">
-                  <div className="text-6xl mb-4"><Book/></div>
-                  <h3 className="text-xl font-semibold text-center">
-                    <TranslateButtons 
-                      translationKey="user-guide" 
-                      currentLanguage={websiteLanguage} 
-                    />
-                  </h3>
-                </div>
-              </Link>
+          </div>
+
+          {/* User Guide Card - Green */}
+          <div className="flex justify-start w-full">
+            <Link href="/learning-material/user-guide.pdf">
+              <div className="flex flex-col items-center justify-center p-6 rounded-lg bg-figmaGreen text-white hover:shadow-lg transition cursor-pointer">
+                <div className="text-6xl mb-4"><Book/></div>
+                <h3 className="text-xl font-semibold text-center">
+                  <TranslateButtons 
+                    translationKey="user-guide" 
+                    currentLanguage={websiteLanguage} 
+                  />
+                </h3>
+              </div>
+            </Link>
           </div>
 
 
