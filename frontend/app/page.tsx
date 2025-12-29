@@ -126,7 +126,7 @@ export default function HomeTestPage() {
 
           {/* User Guide Card - Green */}
           <div className="flex justify-start w-full">
-            <Link href="/learning-material/user-guide.pdf">
+            <Link href="/AGENTIVE user guide.pdf">
               <div className="flex flex-col items-center justify-center p-6 rounded-lg bg-figmaGreen text-white hover:shadow-lg transition cursor-pointer">
                 <div className="text-6xl mb-4"><Book/></div>
                 <h3 className="text-xl font-semibold text-center">
