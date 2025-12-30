@@ -88,11 +88,37 @@ export default function LearningMaterial() {
 
   return (
     <div className="container mx-auto px-4 py-8 max-w-7xl">
+      {/* Introduction Section */}
+      <Card className="mb-12 bg-muted/30 border-muted">
+        <CardHeader>
+          <CardTitle className="text-2xl md:text-3xl font-bold mb-2">
+            Exploring openness in early childhood education resources
+          </CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-4">
+          <p className="text-base md:text-lg leading-relaxed text-foreground">
+            How openly accessible are early childhood education (ECE) resources within and beyond Europe? Which types of licences are most commonly used?
+          </p>
+          <p className="text-base md:text-lg leading-relaxed text-foreground">
+            To explore these questions, the AGENTIVE project carried out a non-exhaustive, qualitative mapping of resources across four key thematic areas of ECE: <strong>a) plurilingual competence</strong>, <strong>b) language awareness</strong>, <strong>c) intercultural awareness</strong>, and <strong>d) early literacy skills</strong>.
+          </p>
+          <p className="text-base md:text-lg leading-relaxed text-foreground">
+            In total, 20 resources were identified and analysed using a scale from 0 to 5 to assess their degree of openness (openness score). You can find all 20 resources in the section below. A detailed discussion of the methodology and findings is available in{" "}
+            <a 
+              href="#" 
+              className="text-primary hover:underline font-medium inline-flex items-center gap-1"
+              onClick={(e) => e.preventDefault()}
+            >
+              this report
+              <ExternalLink className="h-3 w-3" />
+            </a>
+            .
+          </p>
+        </CardContent>
+      </Card>
+
       <div className="mb-8">
-        <h1 className="text-4xl font-bold mb-2">Learning Material</h1>
-        <p className="text-muted-foreground text-lg">
-          Explore educational resources collected from various sources. Find links, photos, and visualizations.
-        </p>
+        <h1 className="text-4xl font-bold">Learning Material</h1>
       </div>
 
       <div className="space-y-6">
