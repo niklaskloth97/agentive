@@ -166,7 +166,7 @@ export default function LearningMaterial() {
           {filteredOER.map((item) => (
             <Card key={item.id} className="flex flex-col hover:shadow-lg transition-shadow">
               <CardHeader>
-                <CardTitle className="text-lg line-clamp-2">{item.title}</CardTitle>
+                <CardTitle className="text-lg">{item.title}</CardTitle>
                 <CardDescription className="line-clamp-3 mt-2">
                   {item.shortDescription}
                 </CardDescription>
