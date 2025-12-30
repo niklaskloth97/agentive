@@ -31,8 +31,22 @@ export default function LearningMaterial() {
   const [selectedFormat, setSelectedFormat] = useState<string>("all")
   const [selectedLanguage, setSelectedLanguage] = useState<string>("all")
   const [selectedSource, setSelectedSource] = useState<string>("all")
+  const [expandedDescriptions, setExpandedDescriptions] = useState<Set<string>>(new Set())
 
   const oerItems: OER[] = oerData as OER[]
+
+  // Toggle description expansion
+  const toggleDescription = (itemId: string) => {
+    setExpandedDescriptions(prev => {
+      const newSet = new Set(prev)
+      if (newSet.has(itemId)) {
+        newSet.delete(itemId)
+      } else {
+        newSet.add(itemId)
+      }
+      return newSet
+    })
+  }
 
   // Extract unique values for filters (filter out empty strings)
   const focusAreas = useMemo(() => {
@@ -163,13 +177,26 @@ export default function LearningMaterial() {
 
         {/* OER Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredOER.map((item) => (
+          {filteredOER.map((item) => {
+            const isExpanded = expandedDescriptions.has(item.id)
+            // Show "More" button if description is longer than ~150 characters
+            const needsExpansion = item.shortDescription.length > 150
+            
+            return (
             <Card key={item.id} className="flex flex-col hover:shadow-lg transition-shadow">
               <CardHeader>
                 <CardTitle className="text-lg">{item.title}</CardTitle>
-                <CardDescription className="line-clamp-3 mt-2">
+                <CardDescription className={`mt-2 ${!isExpanded && needsExpansion ? 'line-clamp-3' : ''}`}>
                   {item.shortDescription}
                 </CardDescription>
+                {needsExpansion && (
+                  <button
+                    onClick={() => toggleDescription(item.id)}
+                    className="text-primary hover:underline text-sm mt-2 text-left"
+                  >
+                    {isExpanded ? 'Less' : 'More'}
+                  </button>
+                )}
               </CardHeader>
               <CardContent className="flex-1 flex flex-col">
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -197,7 +224,8 @@ export default function LearningMaterial() {
                 </a>
               </CardContent>
             </Card>
-          ))}
+            )
+          })}
         </div>
 
         {filteredOER.length === 0 && (
