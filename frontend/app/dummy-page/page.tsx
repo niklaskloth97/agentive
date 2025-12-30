@@ -49,8 +49,20 @@ export default function LearningMaterial() {
   }
 
   // Extract unique values for filters (filter out empty strings)
+  // Split comma-separated focus areas and extract individual unique areas
   const focusAreas = useMemo(() => {
-    const areas = new Set(oerItems.map(item => item.focusArea).filter(area => area && area.trim() !== ""))
+    const areas = new Set<string>()
+    oerItems.forEach(item => {
+      if (item.focusArea && item.focusArea.trim() !== "") {
+        // Split by comma and extract individual focus areas
+        item.focusArea.split(',').forEach(area => {
+          const trimmed = area.trim()
+          if (trimmed) {
+            areas.add(trimmed)
+          }
+        })
+      }
+    })
     return Array.from(areas).sort()
   }, [oerItems])
 
@@ -77,7 +89,9 @@ export default function LearningMaterial() {
         item.shortDescription.toLowerCase().includes(searchQuery.toLowerCase()) ||
         item.focusArea.toLowerCase().includes(searchQuery.toLowerCase())
 
-      const matchesFocusArea = selectedFocusArea === "all" || item.focusArea === selectedFocusArea
+      // Check if selected focus area is contained in the item's focus area(s)
+      const matchesFocusArea = selectedFocusArea === "all" || 
+        (item.focusArea && item.focusArea.split(',').some(area => area.trim() === selectedFocusArea))
       const matchesFormat = selectedFormat === "all" || item.format === selectedFormat
       const matchesLanguage = selectedLanguage === "all" || item.language === selectedLanguage
       const matchesSource = selectedSource === "all" || item.source === selectedSource
