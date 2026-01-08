@@ -90,21 +90,6 @@
     "resourceProvenance": "Pedagogical resources (Europe)"
   },
   {
-    "id": "oer-7",
-    "title": "LanguageScreen",
-    "link": "https://oxedandassessment.com/languagescreen/",
-    "shortDescription": "LanguageScreen is a digital assessment tool developed by Oxford Research Software Engineering Group in close collaboration with education researchers at the University of Oxford. Designed for use by education professionals, the app guides users through a structured set of language activities with young children and provides automated, individualised reports through a secure backend system.",
-    "focusArea": "Early Literacy Skills",
-    "source": "Oxford Research Software Engineering Group",
-    "categoryOfSource": "Higher Education Institution",
-    "typology": "Assessments",
-    "format": "Software and applications",
-    "language": "English",
-    "license": "Closed / All rights reserved",
-    "opennessScore": 0,
-    "resourceProvenance": "Pedagogical resources (Europe)"
-  },
-  {
     "id": "oer-8",
     "title": "PALINGUI-Young Children's Language Learning Pathways",
     "link": "https://www.ecml.at/en/ECML-Programme/Programme-2020-2023/Young-learner-pathways",
@@ -225,21 +210,6 @@
     "resourceProvenance": "Pedagogical resources (outside Europe)"
   },
   {
-    "id": "oer-16",
-    "title": "An Early Childhood Education Bibliography for Parents, Preschoolers, and Professionals",
-    "link": "https://eric.ed.gov/?q=periodical&ff1=audParents&id=ED340548",
-    "shortDescription": "This bibliography offers over 200 entries categorised into three sections: (1) resources for educators (including curriculum materials, early childhood education theory, and periodicals), (2) resources for parents (including child-development books in Spanish and English, pamphlets, and periodicals), and (3) bilingual and multicultural books (including titles in Spanish, multicultural periodicals, and listings of international book dealers), providing a comprehensive tool for practitioners and parents working with preschool-aged and migrant-education children.",
-    "focusArea": "Plurilingual competence",
-    "source": "National Preschool Coordination Project, San Diego, CA",
-    "categoryOfSource": "International Organisation",
-    "typology": "Instructional materials (teaching and learning), Bibliographies",
-    "format": "Text",
-    "language": "Multiple languages",
-    "license": "Closed / All rights reserved",
-    "opennessScore": 0,
-    "resourceProvenance": "Pedagogical resources (outside Europe)"
-  },
-  {
     "id": "oer-17",
     "title": "10 Ways to Support Your Child's Literacy at Home",
     "link": "https://www.improvingliteracy.org/resource/supporting-your-child-s-literacy-at-home",
@@ -267,36 +237,6 @@
     "language": "English",
     "license": "Unknown / Not specified",
     "opennessScore": 1,
-    "resourceProvenance": "Pedagogical resources (outside Europe)"
-  },
-  {
-    "id": "oer-19",
-    "title": "Plurilingual Guide: Implementing critical plurilingual pedagogy in language education",
-    "link": "https://www.mcgill.ca/plurilinguallab/files/plurilinguallab/plurilingual_guide.pdf",
-    "shortDescription": "This guide provides sample tasks and worksheets aimed at implementing a critical plurilingual pedagogy in language education, helping learners and teachers make use of multiple languages and linguistic repertoires in the classroom.",
-    "focusArea": "Plurilingual competence",
-    "source": "McGill University",
-    "categoryOfSource": "International Organisation",
-    "typology": "Instructional materials (teaching and learning)",
-    "format": "Text",
-    "language": "English",
-    "license": "Unknown / Not specified",
-    "opennessScore": 1,
-    "resourceProvenance": "Pedagogical resources (outside Europe)"
-  },
-  {
-    "id": "oer-20",
-    "title": "Engaging with families from culturally and linguistically diverse (CaLD) backgrounds to support learning and development in early childhood education and care (ECEC)",
-    "link": "https://www.edresearch.edu.au/sites/default/files/2022-09/AERO-family-engagement-CALD-families-guide-for-ecec-aa.pdf?utm_source.com",
-    "shortDescription": "This guide provides strategies for early childhood educators and service leaders to engage effectively with families from culturally and linguistically diverse backgrounds, emphasising inclusion of home culture and language, two-way communication, and promoting literacy-rich and intercultural environments",
-    "focusArea": "Plurilingual competence, Intercultural awareness and understanding",
-    "source": "Australian Education Research Organisation",
-    "categoryOfSource": "International Organisation",
-    "typology": "\"Reference materials (pedagogical guides, training materials)\"",
-    "format": "Text",
-    "language": "English",
-    "license": "Closed / All rights reserved",
-    "opennessScore": 0,
     "resourceProvenance": "Pedagogical resources (outside Europe)"
   }
 ]
