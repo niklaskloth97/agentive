@@ -44,12 +44,6 @@ AGENTIVE is built on the principle of **"Public Money, Public Code"** — resour
 - **Authentication:** NextAuth.js
 - **Icons:** Lucide React, React Icons
 
-### Backend
-- **Framework:** Flask (Python)
-- **Database:** SQLAlchemy with cloud database support
-- **ORM:** SQLAlchemy
-- **CORS:** Flask-CORS
-- **Environment:** Python with dotenv support
 
 ### Development Tools
 - **Build Tool:** Turbopack (via Next.js)
@@ -141,7 +135,7 @@ cd agentive/frontend
 
 #### 2. Install Dependencies
 ```bash
-npm install
+npm install --legacy-peer-deps
 # or
 yarn install
 # or
