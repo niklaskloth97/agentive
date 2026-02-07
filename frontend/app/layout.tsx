@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import localFont from "next/font/local";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
@@ -35,15 +35,12 @@ export default function RootLayout({
         <ThemeProvider
           attribute="class"
           defaultTheme="white"
-          
           disableTransitionOnChange
         >
           <WebsiteLanguageProvider>
             <NavBar />
             <main className="flex-grow overflow-y-auto">
-            <div className='mx-auto pr-4'>
-                {children}
-              </div>
+              <div className="mx-auto pr-4">{children}</div>
             </main>
             <Footer />
           </WebsiteLanguageProvider>
