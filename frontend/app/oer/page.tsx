@@ -119,9 +119,10 @@ export default function LearningMaterial() {
           <p className="text-base md:text-lg leading-relaxed text-foreground">
             In total, 20 resources were identified and analysed using a scale from 0 to 5 to assess their degree of openness (openness score). You can find all 20 resources in the section below. A detailed discussion of the methodology and findings is available in{" "}
             <a 
-              href="#" 
+              href="/learning-material/AGENTIVE%20D7%20report%20final.pdf" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-primary hover:underline font-medium inline-flex items-center gap-1"
-              onClick={(e) => e.preventDefault()}
             >
               this report
               <ExternalLink className="h-3 w-3" />
