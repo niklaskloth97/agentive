@@ -43,7 +43,8 @@ export const languageFlags: Record<string, string> = {
   tur: "tr",        // Turkish -> Türkiye
   ld: "it",         // Ladin -> Italy (choose flag you prefer)
   rg: "ch",
-  sur: "ch"
+  sur: "ch",
+  hun: "hu" // Hungarian -> Hungary
 
 };
 
