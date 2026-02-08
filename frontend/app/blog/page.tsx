@@ -4,7 +4,8 @@ import Link from 'next/link'
 export default function Blog() {
   const blogPosts = [
     { title: 'Kickoff - Enable Multilinguism', excerpt: 'We just started our journey. Learn about what we want to achive!', image: '/placeholder.svg', link: '/blog/blog1' },
-    { title: 'Website going live', excerpt: 'We just launched the website you can see here. Learn more here', image: '/placeholder.svg', link: '/blog/blog2' }
+    { title: 'Website going live', excerpt: 'We just launched the website you can see here. Learn more here', image: '/placeholder.svg', link: '/blog/blog2' },
+      { title: 'Meet Bobba!', excerpt: 'Learn who Bobba is!', image: '/learning-material/story-1/story-en/Story1_title_E.webp', link: '/blog/blog3' }
   ]
 
   return (
