@@ -1,4 +1,5 @@
 "use client";
+import "flag-icons/css/flag-icons.min.css";
 
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/components/LanguageProvider";
