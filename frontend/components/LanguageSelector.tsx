@@ -21,33 +21,31 @@ import { cn } from "@/lib/utils";
 //   alb: "🇦🇱",  // Albanian flag
 //   ukr: "🇺🇦", // Ukrainian flag
 //   tur: "🇹🇷", // Turkish flag
-//   ld: "🇮🇹", // Ladin flag 
+//   ld: "🇮🇹", // Ladin flag
 //   rg: "🇸🇨", // Romansh flag
 // };
 
 // language → flag country code (ISO 3166-1 alpha-2)
 export const languageFlags: Record<string, string> = {
-  en: "gb",         // English -> United Kingdom (common convention)
-  de: "de",         // German -> Germany
-  "de-lang": "de",  // de
-  por: "pt",        // Portuguese -> Portugal
-  pl: "pl",         // Polish -> Poland
-  svn: "si",        // Slovenian -> Slovenia (ISO code: si)
-  sv: "si",         // you had sv=Slovenian; keep for back-compat (Slovenia is "si"; Swedish would be "se")
-  fr: "fr",         // French -> France
-  it: "it",         // Italian -> Italy
-  gr: "gr",         // Greek -> Greece
-  lux: "lu",        // Luxembourgish -> Luxembourg
-  alb: "al",        // Albanian -> Albania
-  ukr: "ua",        // Ukrainian -> Ukraine
-  tur: "tr",        // Turkish -> Türkiye
-  ld: "it",         // Ladin -> Italy (choose flag you prefer)
+  en: "gb", // English -> United Kingdom (common convention)
+  de: "de", // German -> Germany
+  "de-lang": "de", // de
+  por: "pt", // Portuguese -> Portugal
+  pl: "pl", // Polish -> Poland
+  svn: "si", // Slovenian -> Slovenia (ISO code: si)
+  sv: "si", // you had sv=Slovenian; keep for back-compat (Slovenia is "si"; Swedish would be "se")
+  fr: "fr", // French -> France
+  it: "it", // Italian -> Italy
+  gr: "gr", // Greek -> Greece
+  lux: "lu", // Luxembourgish -> Luxembourg
+  alb: "al", // Albanian -> Albania
+  ukr: "ua", // Ukrainian -> Ukraine
+  tur: "tr", // Turkish -> Türkiye
+  ld: "it", // Ladin -> Italy (choose flag you prefer)
   rg: "ch",
   sur: "ch",
-  hun: "hu"         // Hungarian -> Hungary
-
+  hun: "hu", // Hungarian -> Hungary
 };
-
 
 export default function LanguageSelector() {
   const { selectedLanguage, setSelectedLanguage, availableLanguages } = useLanguage();
