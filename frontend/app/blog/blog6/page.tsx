@@ -94,7 +94,7 @@ export default function About() {
     the translators and recorders for their incredible work in making this
     beach adventure accessible!
     <br/><br/>
-    Join Bobba as he explores the coastal world in "Bobba at the Beach," available
+    Join Bobba as he explores the coastal world in "Bobba at the Beach" available
     in various languages on the AGENTIVE Platform thanks to the dedicated
     contributors listed below.
   </p>
