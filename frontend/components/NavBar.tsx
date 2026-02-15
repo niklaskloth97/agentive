@@ -86,23 +86,26 @@ export default function NavBar() {
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
               <a className="transition-colors hover:text-foreground/80 text-foreground" href="/dashboard">
-                <TranslateButtons translationKey="multilingual-ressources" currentLanguage={websiteLanguage} />
+                <TranslateButtons translationKey="multilingual-ressources" currentLanguage={websiteLanguage}/>
               </a>
               <a className="transition-colors hover:text-foreground/80 text-foreground" href="/about">
-                <TranslateButtons translationKey="about-agentive" currentLanguage={websiteLanguage} />
+                <TranslateButtons translationKey="about-agentive" currentLanguage={websiteLanguage}/>
               </a>
               <a className="transition-colors hover:text-foreground/80 text-foreground" href="/team">
-                <TranslateButtons translationKey="team" currentLanguage={websiteLanguage} />
+                <TranslateButtons translationKey="team" currentLanguage={websiteLanguage}/>
               </a>
               <a className="transition-colors hover:text-foreground/80 text-foreground" href="/blog">
-                <TranslateButtons translationKey="blog" currentLanguage={websiteLanguage} />
+                <TranslateButtons translationKey="blog" currentLanguage={websiteLanguage}/>
+              </a>
+              <a className="transition-colors hover:text-foreground/80 text-foreground" href="/research">
+                <TranslateButtons translationKey="research" currentLanguage={websiteLanguage}/>
               </a>
             </nav>
           </div>
           <div className="ml-auto flex items-center gap-2">
             {/* Scale Controls - Visible on all screens */}
             <div className="flex items-center gap-1 md:gap-2">
-              <Button
+            <Button
                 variant="outline"
                 size="icon"
                 className="h-9 w-9"

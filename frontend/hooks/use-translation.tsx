@@ -38,6 +38,15 @@ const translations: Record<string, Record<string, string>> = {
   'German': 'Pädagogischer Leitfaden',
   'Greek': 'Παιδαγωγικός οδηγός'
   },
+  'meet-the-team': {
+  'English': 'Meet the team behind the stories!',
+  'French': 'Rencontrez l\'équipe derrière les histoires !',
+  'Lux': 'Léiert d’Equipe hannert de Geschichten kennen!',
+  'Slovenian': 'Spoznajte ekipo, ki stoji za zgodbami!',
+  'Italian': 'Incontra il team dietro le storie!',
+  'German': 'Lernen Sie das Team hinter den Geschichten kennen!',
+  'Greek': 'Γνωρίστε την ομάδα πίσω από τις ιστορίες!'
+},
   'user-guide': {
   'English': 'Read our user guide here (English only)',
   'French': 'Nous vous invitons à consulter ici notre guide d\'utilisation en anglais.',
@@ -228,6 +237,15 @@ const translations: Record<string, Record<string, string>> = {
     'German': 'Bilder',
     'Greek': 'Εικόνες'
   },
+  'research': {
+  'English': 'Research',
+  'French': 'Recherche',
+  'Luxembourgish': 'Fuerschung',
+  'Slovenian': 'Raziskovanje',
+  'Italian': 'Ricerca',
+  'German': 'Forschung',
+  'Greek': 'Έρευνα'
+},
   'story-guide': {
     'English': 'Story\'s reading Guide',
     'French': 'Lecture de l\'Histoire',
