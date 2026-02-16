@@ -94,7 +94,7 @@ export default function About() {
      big thanks to all the translators and recorders for
     participating in making this celebration possible!
     <br/><br/>
-    Join the festivities in "Celebrating Olivia’s birthday!", available across the
+    Join the festivities in &quot;Celebrating Olivia’s birthday!,&quot; available across the
     AGENTIVE Platform in multiple languages thanks to the dedicated
     contributors listed below.
   </p>

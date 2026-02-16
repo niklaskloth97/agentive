@@ -94,7 +94,7 @@ export default function About() {
             translators and recorders for their vital role in bringing this
             chapter to life.
             <br/><br/>
-            Follow Bobba as he learns about friendship and play in "At the Kindergarten,"
+            Follow Bobba as he learns about friendship and play in &quot;At the Kindergarten,&quot;
             available on the AGENTIVE Platform in multiple languages thanks to the
             dedicated contributors listed below.
           </p>

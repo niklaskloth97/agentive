@@ -94,7 +94,7 @@ export default function About() {
      big thanks to all the translators and recorders for
     participating in making this story possible!
     <br/><br/>
-    Follow Bobba and Olivia's nighttime adventure in "Sleeping at a friend’s,"
+    Follow Bobba and Olivia&apos;s nighttime adventure in &quot;Sleeping at a friend’s,&quot;
     available on the AGENTIVE Platform in multiple languages thanks to the
     dedicated contributors listed below.
   </p>

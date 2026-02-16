@@ -92,7 +92,7 @@ export default function About() {
     a big thanks to all the translators and recorders for
     participating in making this possible!
     <br/><br/>
-    Follow Bobba as he explores the world of literature in "Bobba in the Library,"
+    Follow Bobba as he explores the world of literature in &quot;Bobba in the Library,&quot;
     available on the AGENTIVE Platform in multiple languages thanks to the
     dedicated contributors listed below.
   </p>

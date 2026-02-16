@@ -65,7 +65,7 @@ export default function About() {
 
   return (
     <div className="container mx-auto py-8 px-8">
-      <h1 className="text-3xl font-bold mb-6">Story 1 - Bobba's first trip to Earth</h1>
+      <h1 className="text-3xl font-bold mb-6">Story 1 - Bobba&apos;s first trip to Earth</h1>
 
       <h2 className="text-xl font-semibold mb-4">
         Meet the authors and contributors that wrote the first story about Bobba!
@@ -92,7 +92,7 @@ export default function About() {
     and we want to give a big thanks to all the translators and recorders for
     participating in making this possible!
     <br /><br />
-    Explore Bobba's visit to Earth through the eight stories available on the
+    Explore Bobba&apos;s visit to Earth through the eight stories available on the
     AGENTIVE Platform, made accessible in multiple languages thanks to the
     contributors listed below.
   </p>

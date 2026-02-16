@@ -94,7 +94,7 @@ export default function About() {
     translators and recorders for participating in making this
     imaginative journey possible!
     <br/><br/>
-    Join Bobba on his quest through "The Monster Castle," available on the
+    Join Bobba on his quest through &quot;The Monster Castle,&quot; available on the
     AGENTIVE Platform in multiple languages thanks to the dedicated
     contributors listed below.
   </p>

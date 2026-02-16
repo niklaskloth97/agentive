@@ -95,7 +95,7 @@ export default function About() {
     recorders for participating in making this entire eight-story
     journey possible!
     <br/><br/>
-    Experience the heartfelt conclusion in "Going home," available across the
+    Experience the heartfelt conclusion in &quot;Going home,&quot; available across the
     AGENTIVE Platform in multiple languages thanks to the dedicated
     contributors listed below.
   </p>
