@@ -184,6 +184,7 @@ export default function Page() {
                                                         </button>
                                                     </Link>
 
+
                                                     {/* Activities
                                                     <Link
                                                         href={`/dashboard/stories/${story.id}/activities`}
@@ -232,6 +233,18 @@ export default function Page() {
                     </DialogContent>
                 </Dialog>
             </div>
+
+            {/* Container for both buttons */}
+                <div className="flex flex-row flex-wrap gap-4 justify-left mt-8">
+                    {/* Meet the team Button */}
+                    <Link href="/learning-material/Meet%20The%20Story%20Team.pdf">
+                        <Button variant="outline" size="lg" className="h-24 text-2xl">
+                            <BookOpen className="h-5 w-5 mr-2"/>
+                            <TranslateButtons translationKey="meet-the-team" currentLanguage={websiteLanguage}/>
+                        </Button>
+                    </Link>
+
+                </div>
         </DashboardLayout>
     );
 }

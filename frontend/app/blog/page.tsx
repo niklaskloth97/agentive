@@ -13,7 +13,8 @@ export default function Blog() {
       { title: 'Story 5 - Meet the Creators!', excerpt: 'Bobba in the library', image: '/learning-material/story-5/story-en/Story 5_title_E.jpg', link: '/blog/blog8' },
       { title: 'Story 6 - Meet the Creators!', excerpt: 'The Monster castle', image: '/learning-material/story-6/covers/Story 6_title_E.jpg', link: '/blog/blog9' },
       { title: 'Story 7 - Meet the Creators!', excerpt: 'Celebrating Olivia\'s birthday', image: '/learning-material/story-7/covers/Story 7_title_E.jpg', link: '/blog/blog10' },
-      { title: 'Story 8 - Meet the Creators!', excerpt: 'Going home', image: '/learning-material/story-8/covers/Story 8_title_E.jpg', link: '/blog/blog11' }
+      { title: 'Story 8 - Meet the Creators!', excerpt: 'Going home', image: '/learning-material/story-8/covers/Story 8_title_E.jpg', link: '/blog/blog11' },
+      { title: 'Milestone Reached', excerpt: 'Bobba and his adventures are now available in 15 languages!', image: '/placeholder.svg', link: '/blog/blog12' }
   ]
 
   return (

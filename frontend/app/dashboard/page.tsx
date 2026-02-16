@@ -95,13 +95,6 @@ export default function Page() {
                         </Button>
                     </Link>
 
-                    {/* Meet the team Button */}
-                    <Link href="/learning-material/Meet%20The%20Story%20Team.pdf">
-                        <Button variant="outline" size="lg" className="h-24 text-2xl">
-                            <BookOpen className="h-5 w-5 mr-2"/>
-                            <TranslateButtons translationKey="meet-the-team" currentLanguage={websiteLanguage}/>
-                        </Button>
-                    </Link>
 
                 </div>
             </div>

@@ -84,7 +84,6 @@ export default function About() {
         </div>
 
         {/* Text section */}
-        {/* Text section */}
 <div className="md:w-1/2">
   <p className="text-gray-600 mb-6 dark:text-white leading-relaxed">
     Bobba’s journey from a far-off planet to Earth is brought to life through
