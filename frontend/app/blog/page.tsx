@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 export default function Blog() {
   const blogPosts = [
-    { title: 'Kickoff - Enable Multilinguism', excerpt: 'We just started our journey. Learn about what we want to achive!', image: '/placeholder.svg', link: '/blog/blog1' },
-    { title: 'Website going live', excerpt: 'We just launched the website you can see here. Learn more here', image: '/placeholder.svg', link: '/blog/blog2' },
+    { title: 'Kickoff - Enable Multilinguism', excerpt: 'We just started our journey. Learn about what we want to achive!', image: '/images/blogThumbnails/blog1.jpg', link: '/blog/blog1' },
+    { title: 'Website going live', excerpt: 'We just launched the website you can see here. Learn more here', image: '/images/blogThumbnails/blog2.png', link: '/blog/blog2' },
       { title: 'Meet Bobba!', excerpt: 'Learn who Bobba is!', image: '/learning-material/story-1/story-en/Story1_title_E.webp', link: '/blog/blog3' },
       { title: 'Story 1 - Meet the Creators!', excerpt: 'Bobba\'s first trip to earth', image: '/learning-material/story-1/story-en/Story1_title_E.webp', link: '/blog/blog4' },
       { title: 'Story 2 - Meet the Creators!', excerpt: 'At the kindergarten', image: '/learning-material/story-2/story-en/Story 2_title_E.jpg', link: '/blog/blog5' },
