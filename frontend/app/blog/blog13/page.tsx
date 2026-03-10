@@ -20,10 +20,8 @@ export default function About() {
             How can open, digital resources support multilingual and inclusive learning from an early age? The AGENTIVE project responds to this question through its Open Educational Resources (OER)!
           </p>
 
-
           <p className="text-gray-600 dark:text-gray-300 mb-6">Explore the collection of OER in Early Childhood
-            Education -including key
-            features such as their degree of openness and thematic focus- by visiting the dedicated
+            Education, including key features such as their degree of openness and thematic focus, by visiting the dedicated
             webpage. To deepen understanding on the degree of openness of ECE OER across countries and sectors in
             Europe, a dedicated study was carried out that screened and analysed 16 such resources. Within this
             research, the AGENTIVE OER were positioned as both innovative teaching tools and a reference model for
