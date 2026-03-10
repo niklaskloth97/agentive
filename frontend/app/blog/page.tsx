@@ -15,7 +15,7 @@ export default function Blog() {
       { title: 'Story 7 - Meet the Creators!', excerpt: 'Celebrating Olivia\'s birthday', image: '/learning-material/story-7/covers/Story 7_title_E.jpg', link: '/blog/blog10' },
       { title: 'Story 8 - Meet the Creators!', excerpt: 'Going home', image: '/learning-material/story-8/covers/Story 8_title_E.jpg', link: '/blog/blog11'},
       { title: 'Milestone Reached', excerpt: 'Bobba and his adventures are now available in 15 languages!', image: '/placeholder.svg', link: '/blog/blog12'},
-      { title: 'The open AGENTIVE resources for Multilingual Early Childhood Education', excerpt: 'Bobba and his adventures are now available in 15 languages!', image: '/images/blogThumbnails/oer-agentive.png', link: '/blog/blog13'}
+      { title: 'The open AGENTIVE resources for Multilingual Early Childhood Education', excerpt: 'Explore the OER Page!', image: '/images/blogThumbnails/oer-agentive.png', link: '/blog/blog13'}
   ]
 
   return (
