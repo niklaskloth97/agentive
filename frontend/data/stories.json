@@ -904,8 +904,60 @@
           "audioUrl": ""
         }
       }
+    }],
+    "ru": [{
+      "title": "Первое путешествие Боббы на Землю",
+      "titlePicture": "/learning-material/story-1/story-ru/Story_1_title_Ru.jpg",
+      "fullAudio": "/learning-material/story-1/story-ru/Bobba_RU_Story 1_All.mp3",
+      "fullText": "/learning-material/story-1/story-ru/Story_1_RU.pdf",
+      "pages": {
+        "0": {
+          "text": "Первое путешествие Боббы на Землю",
+          "imageUrl": "/learning-material/story-1/story-ru/Story_1_title_Ru.jpg",
+          "audioUrl": "/learning-material/story-1/story-ru/Bobba_RU_Story 1 Intro-MP3.mp3"
+        },
+        "1": {
+          "text": "Бобба живет на далекой планете. Сегодня он взволнован. Наконец то у него есть свой \nкосмический корабль, и он может лететь куда хочет!",
+          "imageUrl": "/learning-material/story-1/new-images/Story1_pic1-min.jpg",
+          "audioUrl": "/learning-material/story-1/story-ru/Bobba_RU_Story 1_1-MP3.mp3"
+        },
+        "2": {
+          "text": "Своя самая заветная мечта всегда была полететь на планету Земля.",
+          "imageUrl": "/learning-material/story-1/new-images/Story1_pic2-min.jpg",
+          "audioUrl": "/learning-material/story-1/story-ru/Bobba_RU_Story 1_2-MP3.mp3"
+        },
+        "3": {
+          "text": "Он запрыгивает в космический корабль и взлетает. Все его друзья и семья очень \nудивлены! «Куда он собирается лететь?» - спрашивают они. Бобба направляется \nпрямо на планету Земля.",
+          "imageUrl": "/learning-material/story-1/new-images/Story1_pic3-min.jpg",
+          "audioUrl": "/learning-material/story-1/story-ru/Bobba_RU_Story 1_3-MP3.mp3"
+        },
+        "4": {
+          "text": "Бобба пролетает мимо многих планет и нескольких комет и спрашивает себя, когда же \nон наконец доберется до Земли. ",
+          "imageUrl": "/learning-material/story-1/new-images/Story1_pic4-min.jpg",
+          "audioUrl": "/learning-material/story-1/story-ru/Bobba_RU_Story 1_4-MP3.mp3"
+        },
+        "5": {
+          "text": "Вдруг он видит синий шар и еще перед тем, как понять, что произошло, он \nпролетает сквозь облака и с грохотом приземляется в листья и ветки! ",
+          "imageUrl": "/learning-material/story-1/new-images/Story1_pic5-min.jpg",
+          "audioUrl": "/learning-material/story-1/story-ru/Bobba_RU_Story 1_5-MP3.mp3"
+        },
+        "6": {
+          "text": "Он едва выбирается из своего космического корабля и осматривается вокруг. Два \nчерных глаза, выглядывающих из черных перьев, рассматривают его. Бобба \nпоздоровался: «Салютон!» Но птица посмотрела на него и улетела. Тогда он \nспускается с дерева и видит что-то красное с чёрными точками. «Салютон!» - \nвскрикивает Бобба, но существо даже его не замечает. ",
+          "imageUrl": "/learning-material/story-1/new-images/Story1_pic6-min.jpg",
+          "audioUrl": "/learning-material/story-1/story-ru/Bobba_RU_Story 1_6-MP3.mp3"
+        },
+        "7": {
+          "text": "Мальчик и девочка смотрят на Боббу и хихикают. «С кем ты разговариваешь? Они не \nумеют говорить!» Бобба поворачивается и говорит: «Салютон! Ку ви эстас \nинфаньйос?» Дети смотрят друг на друга. «Инфаньйос? Ты имеешь в виду малыши?». \n«Нет!» - возражают они. «Мы не младенцы! Мы дети!». «Аааа!» - восклицает с \nэнтузиазмом Бобба! «Дети! Инфаньйос!» И все начинают смеяться. ",
+          "imageUrl": "/learning-material/story-1/new-images/Story1_pic7-min.jpg",
+          "audioUrl": "/learning-material/story-1/story-ru/Bobba_RU_Story 1_7-MP3.mp3"
+        },
+        "8": {
+          "text": " «Хочешь увидеть нашу игровую площадку?» - спрашивает Оливия. Бобба улыбается \nи Бэн берет его за руку. Вместе его отводят на детскую площадку.",
+          "imageUrl": "/learning-material/story-1/new-images/Story1_pic8-min.jpg",
+          "audioUrl": "/learning-material/story-1/story-ru/Bobba_RU_Story 1_8-MP3.mp3"
+        }
+      }
     }]
-       
   },
   {
     "id": "2",
@@ -1809,6 +1861,59 @@
           "text": "A gyerekek Bobba köré gyűlnek. „Ludi! Ludi!” kiáltják. „Milyen csodálatos nap!” – gondolja Bobba.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_8.jpeg",
           "audioUrl": ""
+        }
+      }
+    }],
+    "ru": [{
+      "title": "Первое путешествие Боббы на Землю",
+      "titlePicture": "/learning-material/story-2/story-ru/Story 2_title_Ru.jpg",
+      "fullAudio": "/learning-material/story-2/story-ru/Bobba_RU_Story 2_All.mp3",
+      "fullText": "/learning-material/story-2/story-ru/Story_1_RU.pdf",
+      "pages": {
+        "0": {
+          "text": "Первое путешествие Боббы на Землю",
+          "imageUrl": "/learning-material/story-2/story-ru/Story 2_title_Ru.jpg",
+          "audioUrl": "/learning-material/story-2/story-ru/Bobba_RU_Story 2 Intro-MP3.mp3"
+        },
+        "1": {
+          "text": "Бобба живет на далекой планете. Сегодня он взволнован. Наконец то у него есть свой \nкосмический корабль, и он может лететь куда хочет!",
+          "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpeg",
+          "audioUrl": "/learning-material/story-2/story-ru/Bobba_RU_Story 2_1-MP3.mp3"
+        },
+        "2": {
+          "text": "Своя самая заветная мечта всегда была полететь на планету Земля.",
+          "imageUrl": "/learning-material/story-2/story-en/Story 2_2.jpg",
+          "audioUrl": "/learning-material/story-2/story-ru/Bobba_RU_Story 2_2-MP3.mp3"
+        },
+        "3": {
+          "text": "Он запрыгивает в космический корабль и взлетает. Все его друзья и семья очень \nудивлены! «Куда он собирается лететь?» - спрашивают они. Бобба направляется \nпрямо на планету Земля.",
+          "imageUrl": "/learning-material/story-2/story-en/Story 2_3.jpg",
+          "audioUrl": "/learning-material/story-2/story-ru/Bobba_RU_Story 2_3-MP3.mp3"
+        },
+        "4": {
+          "text": "Бобба пролетает мимо многих планет и нескольких комет и спрашивает себя, когда же \nон наконец доберется до Земли. ",
+          "imageUrl": "/learning-material/story-2/story-en/Story 2_4.jpg",
+          "audioUrl": "/learning-material/story-2/story-ru/Bobba_RU_Story 2_4-MP3.mp3"
+        },
+        "5": {
+          "text": "Вдруг он видит синий шар и еще перед тем, как понять, что произошло, он \nпролетает сквозь облака и с грохотом приземляется в листья и ветки! ",
+          "imageUrl": "/learning-material/story-2/story-en/Story 2_5.jpeg",
+          "audioUrl": "/learning-material/story-2/story-ru/Bobba_RU_Story 2_5-MP3.mp3"
+        },
+        "6": {
+          "text": "Он едва выбирается из своего космического корабля и осматривается вокруг. Два \nчерных глаза, выглядывающих из черных перьев, рассматривают его. Бобба \nпоздоровался: «Салютон!» Но птица посмотрела на него и улетела. Тогда он \nспускается с дерева и видит что-то красное с чёрными точками. «Салютон!» - \nвскрикивает Бобба, но существо даже его не замечает. ",
+          "imageUrl": "/learning-material/story-2/story-en/Story 2_6.jpg",
+          "audioUrl": "/learning-material/story-2/story-ru/Bobba_RU_Story 2_6-MP3.mp3"
+        },
+        "7": {
+          "text": "Мальчик и девочка смотрят на Боббу и хихикают. «С кем ты разговариваешь? Они не \nумеют говорить!» Бобба поворачивается и говорит: «Салютон! Ку ви эстас \nинфаньйос?» Дети смотрят друг на друга. «Инфаньйос? Ты имеешь в виду малыши?». \n«Нет!» - возражают они. «Мы не младенцы! Мы дети!». «Аааа!» - восклицает с \nэнтузиазмом Бобба! «Дети! Инфаньйос!» И все начинают смеяться. ",
+          "imageUrl": "/learning-material/story-2/story-en/Story 2_7.jpg",
+          "audioUrl": "/learning-material/story-2/story-ru/Bobba_RU_Story 2_7-MP3.mp3"
+        },
+        "8": {
+          "text": " «Хочешь увидеть нашу игровую площадку?» - спрашивает Оливия. Бобба улыбается \nи Бэн берет его за руку. Вместе его отводят на детскую площадку.",
+          "imageUrl": "/learning-material/story-2/story-en/Story 2_8.jpeg",
+          "audioUrl": "/learning-material/story-2/story-ru/Bobba_RU_Story 2_8-MP3.mp3"
         }
       }
     }]
@@ -2715,6 +2820,58 @@
           "text": "La canzun plai fetg bein a Bobba. El conta dad ault, duront ch’els van ensemen ell’aua. El ha buc pli tema dall’aua. “Senudar fa plascher, ni buc Bobba?”",
           "imageUrl": "/learning-material/story-3/story-en/Story 3_8.jpg",
           "audioUrl": ""
+        }
+      }
+    }],"ru": [{
+      "title": "Бобба на пляже",
+      "titlePicture": "/learning-material/story-3/story-ru/Story 3_title_Ru.jpg",
+      "fullAudio": "/learning-material/story-3/story-ru/Bobba_RU_Story 3_All.mp3",
+      "fullText": "/learning-material/story-3/story-ru/Story 3_RU.pdf",
+      "pages": {
+        "0": {
+          "text": "Бобба на пляже",
+          "imageUrl": "/learning-material/story-3/story-ru/Story 3_title_Ru.jpg",
+          "audioUrl": "/learning-material/story-3/story-en/Story3_E_title.m4a"
+        },
+        "1": {
+          "text": "Дети берут Боббу на пляж. Они все в хорошем настроении, смеются и поют песню \n«Дидиди». Дидидиди дидидиди дидиди дидиди диди диди диди диди диди диди ди ди \nди. Дададада дададада дадада дадада дада дада дада дада дада дада да да да да да \nда.",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
+          "audioUrl": "/learning-material/story-3/story-ru/Story 3_RU_1.m4a"
+        },
+        "2": {
+          "text": "Когда Бобба видит море, он очарован. Он никогда раньше не видел так много воды. \n«Какой огромный бассейн!» - думает он.",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_2.jpg",
+          "audioUrl": "/learning-material/story-3/story-ru/Story 3_RU_2.m4a"
+        },
+        "3": {
+          "text": "Дети помогают ему надеть цветные нарукавники и полосатый надувной круг. «Сейчас \nты готов, Бобба! Пойдем!» ",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_3.jpg",
+          "audioUrl": "/learning-material/story-3/story-ru/Story 3_RU_3.m4a"
+        },
+        "4": {
+          "text": "Дети берут Боббу за руки и ведут его к воде. «Давай Бобба, пойдём!» Но Бобба не хочет \nсдвинуться с места.",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_4.jpg",
+          "audioUrl": "/learning-material/story-3/story-ru/Story 3_RU_4.m4a"
+        },
+        "5": {
+          "text": "Дети тянут и тянут, но Бобба не двигается. «Что не так, Бобба? Тебе не нравится \nплавать? Это весело!» ",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_5.jpg",
+          "audioUrl": "/learning-material/story-3/story-ru/Story 3_RU_5.m4a"
+        },
+        "6": {
+          "text": " Один из детей наблюдает за Боббой и понимает почему он не хочет заходить в море. \n«Я думаю, что он боится воды. Что мы можем сделать, чтобы помочь ему?»",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_6.jpg",
+          "audioUrl": "/learning-material/story-3/story-ru/Story 3_RU_6.m4a"
+        },
+        "7": {
+          "text": " У кого-то есть восхитительная идея. «Когда я боюсь, моя мама поёт мне песню. \nДавайте все петь нашу песню». Дидидиди дидидиди дидиди дидиди диди диди диди \nдиди диди диди ди ди ди ди ди ди. Дададада дададада дадада дадада дада дада дада \nдада дада дада да да да да да да.",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_7.jpg",
+          "audioUrl": "/learning-material/story-3/story-ru/Story 3_RU_7.m4a"
+        },
+        "8": {
+          "text": "Боббе нравится песня и он подпевает всем в то время, как все входят в воду. Он больше \nне боится моря. «Плавать здорово, ведь правда, Бобба?»",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_8.jpg",
+          "audioUrl": "/learning-material/story-3/story-ru/Story 3_RU_8.m4a"
         }
       }
     }]
@@ -3638,7 +3795,59 @@
           "audioUrl": ""
         }
       }
-      }]
+      }],"ru": [{
+      "title": "Ночёвка в доме друга",
+      "titlePicture": "/learning-material/story-4/story-ru/Story 4_title_Ru.jpg",
+      "fullAudio": "/learning-material/story-4/story-ru/Bobba_RU_Story 4_All.mp3",
+      "fullText": "/learning-material/story-4/story-ru/Story 4_RU.pdf",
+      "pages": {
+        "0": {
+          "text": "Ночёвка в доме друга",
+          "imageUrl": "/learning-material/story-4/story-ru/Story 4_title_Ru.jpg",
+          "audioUrl": "/learning-material/story-4/story-en/Story 4_RU_title.m4a"
+        },
+        "1": {
+          "text": "В конце долгого дня Бен, Алекс и Оливия решают пойти домой. «Где ты будешь спать \nсегодня ночью?» - спрашивает Оливия Боббу. Бобба смотрит на нее широко \nоткрытыми глазами. Оливия берёт его руку. «Пойдём со мной ко мне домой». ",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpg",
+          "audioUrl": "/learning-material/story-4/story-ru/Story 4_RU_1.m4a"
+        },
+        "2": {
+          "text": "Когда Бобба и Оливия приходят в её комнату, Оливия достаёт свою лошадь на палке \nи шпагу. «Давай играть в рыцарей». «Ах, люди кавалиройн». Бобба берёт шпагу. \n«Устроим дуэль на шпагах» - предлагает Оливия.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_2.jpeg",
+          "audioUrl": "/learning-material/story-4/story-ru/Story 4_RU_2.m4a"
+        },
+        "3": {
+          "text": "Оливия голодна. «Я хочу кусок хлеба!» Бобба запутался и ничего не понимает. Он идёт \nза ней на кухню. Оливия открывает холодильник.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_3.jpg",
+          "audioUrl": "/learning-material/story-4/story-ru/Story 4_RU_3.m4a"
+        },
+        "4": {
+          "text": "«Что ты хочешь положить на твой хлеб?» Бобба не отвечает и смотрит на Оливию. Он \nповторяет за ней и кладёт все что он находит сверху на хлеб. Бобба улыбается и \nговорит: «Приятного аппетита!»",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_4.jpeg",
+          "audioUrl": "/learning-material/story-4/story-ru/Story 4_RU_4.m4a"
+        },
+        "5": {
+          "text": "После еды они хотят чистить зубы. Бобба со всей силой нажимает на тюбик зубной \nпасты. Зубная паста везде на полу. Бобба и Оливия не перестают смеяться.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_5.jpg",
+          "audioUrl": "/learning-material/story-4/story-ru/Story 4_RU_5.m4a"
+        },
+        "6": {
+          "text": "Оливия показывает Боббе как выдавить пасту на зубную щетку. «Смотри, это легко!» \nБобба кивает и пробует повторить за Оливией. «У тебя получилось!» Оливия и Бобба \nчистят зубы и смотрят на себя в зеркало.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_6.jpg",
+          "audioUrl": "/learning-material/story-4/story-ru/Story 4_RU_6.m4a"
+        },
+        "7": {
+          "text": "Заходит мама Оливии. «Убирать?» - спрашивает Бобба. Мама кивает. Они протирают \nпол. «Пришло время идти в кровать!» Оливия кричит «Я хочу ещё играть!» Мама \nотрицательно качает головой. «Вы можете поиграть завтра. Сейчас пора спать!»",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_7.jpg",
+          "audioUrl": "/learning-material/story-4/story-ru/Story 4_RU_7.m4a"
+        },
+        "8": {
+          "text": "Оливия возвращается в свою комнату, накрывается одеялом. «Давай спать!» Бобба \nзаворачивается в ковёр. «Спи» - говорит Бобба на эсперанто. Оливия смеётся.",
+          "imageUrl": "/learning-material/story-4/story-en/Story 4_8.jpg",
+          "audioUrl": "/learning-material/story-4/story-ru/Story 4_RU_8.m4a"
+        }
+      }
+    }]
   },
   {
     "id": "5",
@@ -4436,6 +4645,60 @@
           "text": "Ordadora sbrinzlan las stailas. Bobba brancla ses cudesch. Il cudesch è sco in pitschen toc patria. \"In di ... vegn jau a turnar a chasa.\"",
           "imageUrl": "/learning-material/story-5/story-en/Story 5_8.png",
           "audioUrl": "/learning-material/story-5/story-rg/Bobba_5_8_RG.mp3"
+        }
+      }
+   }],
+    "ru": [{
+      "title": "Бобба в библиотеке",
+      "titlePicture": "/learning-material/story-5/story-ru/Story 5_title_Ru.jpg",
+      "fullAudio": "/learning-material/story-5/story-ru/Bobba_RU_Story 5_All.mp3",
+      "fullText": "/learning-material/story-5/story-ru/Story 5_RU.pdf",
+      "pages": {
+        "0": {
+          "text": "Бобба в библиотеке",
+          "imageUrl": "/learning-material/story-5/story-ru/Story 5_title_Ru.jpg",
+          "audioUrl": "/learning-material/story-5/story-ru/Bobba_RU_Story 5_Intro.mp3"
+        },
+        "1": {
+          "text": "Бобба прыгает по дороге. Его мягкие уши дёргаются от радости. «Куда мы идём?» «В \nбиблиотеку» - говорит Оливия. «Там полно книг!» Глаза Боббы расширяются. «Книг!» ",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
+          "audioUrl": "/learning-material/story-5/story-ru/Bobba 5_1_RU.mp3"
+        },
+        "2": {
+          "text": "В библиотеке много высоких стеллажей. Воздух пахнет особенно магически. Женщина \nв больших очках улыбается. «Добрый день!» «Ух ты» - шепчет Бобба. «Как много книг!»",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_2.png",
+          "audioUrl": "/learning-material/story-5/story-ru/Bobba 5_2_RU.mp3"
+        },
+        "3": {
+          "text": "Бобба следует за детьми к книжным полкам. «Давай найдём книгу для тебя» - говорит \nБен. Они вытаскивают книги с картинками монстров, динозавров и магических существ.",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_3.png",
+          "audioUrl": "/learning-material/story-5/story-ru/Bobba 5_3_RU.mp3"
+        },
+        "4": {
+          "text": "Бобба раскрывает рот. «Ух ты!» Он указывает на страницу в его книге. Дети смотрят. \n«Что это?» Бобба рассматривает существо в его книге. Мягкие уши. Большие глаза. \n«Почти как …я» - думает он. Его большие глаза расширяются.",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_4.png",
+          "audioUrl": "/learning-material/story-5/story-ru/Bobba 5_4_RU.mp3"
+        },
+        "5": {
+          "text": "Бобба перелистывает страницу за страницей и ему нравится то, что он видит: все \nболее чудесные существа. «Дом… Я скучаю по дому…» - вздыхает Бобба.",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_5.png",
+          "audioUrl": "/learning-material/story-5/story-ru/Bobba 5_5_RU.mp3"
+        },
+        "6": {
+          "text": "Бен говорит: «Ты можешь взять эту книгу на дом». «Взять на дом?» - моргает Бобба. \nБиблиотекарь кивает: «Тебе только нужен читательский билет, так ты будешь \nпользователем библиотеки».",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_6.png",
+          "audioUrl": "/learning-material/story-5/story-ru/Bobba 5_6_RU.mp3"
+        },
+        "7": {
+          "text": "Дети помогают Боббе написать его имя на карточке. Бобба показывает гордо его новый \nчитательский билет: «Я пользователь библиотеки».",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_7.png",
+          "audioUrl": "/learning-material/story-5/story-ru/Bobba 5_7_RU.mp3"
+        }
+        ,
+        "8": {
+          "text": " Звёзды сияют на небе. Бобба \nприжимает к себе книги. Книга в его руках кажется ему частью его дома. «Когда\nнибудь… Я полечу домой»",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_8.png",
+          "audioUrl": "/learning-material/story-5/story-ru/Bobba 5_8_RU.mp3"
         }
       }
    }]
@@ -5290,6 +5553,58 @@
           "audioUrl": ""
         }
       }
+    }],"ru": [{
+      "title": "Замок у чудовищ",
+      "titlePicture": "/learning-material/story-6/story-ru/Story 6_title_Ru.jpg",
+      "fullAudio": "/learning-material/story-6/story-ru/Bobba_RU_Story 6_All.mp3",
+      "fullText": "/learning-material/story-6/story-ru/Story 6_RU.pdf",
+      "pages": {
+        "0": {
+          "text": "Замок у чудовищ",
+          "imageUrl":  "/learning-material/story-6/story-ru/Story 6_title_Ru.jpg",
+          "audioUrl": "/learning-material/story-6/story-ru/Bobba_RU_Story 6_Intro.mp3"
+        },
+        "1": {
+          "text": "Сегодня Бобба хочет попробовать что-то интересное сам. У него есть идея.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_1.jpeg",
+          "audioUrl": "/learning-material/story-6/story-ru/Bobba_RU_Story 6_1.mp3"
+        },
+        "2": {
+          "text": "«Большой черный замок на горе. Он выглядит потрясающе!»",
+          "imageUrl": "/learning-material/story-6/images/Story_6_2.jpeg",
+          "audioUrl": "/learning-material/story-6/story-ru/Bobba_RU_Story 6_2.mp3"
+        },
+        "3": {
+          "text": "Бобба отправляется в путь. Он прыгает и бежит и замок приближается. Замок очень \nтёмный и большой. Вдруг Бобба слышит шум. Что это? Музыка! Кажется это аккордеон.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_3.jpeg",
+          "audioUrl": "/learning-material/story-6/story-ru/Bobba_RU_Story 6_3.mp3m4a"
+        },
+        "4": {
+          "text": "Сейчас Бобба стоит напротив большой двери. Он стучит и дверь открывается. За \nдверью тёмный коридор. Сейчас Бобба немного испуган. Его руки вспотели. Его \nволосы встали дыбом. Его зубы стучат. Но послушай! Музыка опять.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_4.jpeg",
+          "audioUrl": "/learning-material/story-6/story-ru/Bobba_RU_Story 6_4.mp3"
+        },
+        "5": {
+          "text": "Аккордеон звучит очень красиво. «Там в тёмном замке не может быть так плохо!» - \nдумает Бобба и заходит в дверь. Он видит знак, который говорит: «Добро пожаловать \nна вечеринку чудовищ». ",
+          "imageUrl": "/learning-material/story-6/images/Story_6_5.jpeg",
+          "audioUrl": "/learning-material/story-6/story-ru/Bobba_RU_Story 6_5.mp3"
+        },
+        "6": {
+          "text": "В конце тёмного коридора Бобба видит свет. Музыка играет громче. Бобба входит в \nогромный зал. Повсюду цветные воздушные шары. А также большой торт и лимонад. \nЭто вечеринка? Множество чудовищ танцуют, поют и едят торт.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_6.jpeg",
+          "audioUrl": "/learning-material/story-6/story-ru/Bobba_RU_Story 6_6.mp3"
+        },
+        "7": {
+          "text": "Маленькое жёлтое чудовище подходит к Боббе. «Tu veux danser, mon ami?» - \nспрашивает оно, протягивая свою руку.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_7.jpeg",
+          "audioUrl": "/learning-material/story-6/story-ru/Bobba_RU_Story 6_7.mp3"
+        },
+        "8": {
+          "text": "Праздник действительно весёлый! Но вскоре Бобба начинает думать о детях, \nоставшихся в городе. «Почему вы не пригласите сюда детей?» - спрашивает Бобба \nчудовищ. Зубы большого фиолетового чудовища начинают стучать, и оно почти роняет \nсвой торт. «Ох неееет! Мы боимся детей!» «Что? Вы боитесь детей?» - с удивлением \nспрашивает Бобба. «Но они совсем не страшные! Я советую вам их пригласить на \nследующую вечеринку чудовищ. Вы увидите, они очень дружелюбные». Чудовища \nнеуверенны, но соглашаются. Вместе они пишут приглашение на вечеринку и кладут \nего в конверт.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_8.jpeg",
+          "audioUrl": "/learning-material/story-6/story-ru/Bobba_RU_Story 6_8.mp3"
+        }
+      }
     }]
   },
   {
@@ -6142,6 +6457,111 @@
           "audioUrl": ""
         }
       }  
+    }],
+     "sur": [{
+      "title": "La fiasta da natalezi d’Olivia",
+      "titlePicture": "/learning-material/story-7/story-sur/Story 7_title_Sursilvan.jpg",
+      "fullAudio": "",
+      "fullText": "/learning-material/story-7/story-sur/Story 7_Sursilvan.pdf",
+      "pages": {
+        "0": {
+          "text": "La fiasta da natalezi d’Olivia",
+          "imageUrl":  "/learning-material/story-7/story-sur/Story 7_title_Sursilvan.jpg",
+          "audioUrl": ""
+        },
+        "1": {
+          "text": "Oz ei in di special. Bobba ei envidaus alla fiasta da natalezi d’Olivia. Avon casa ein bia balluns cun in grond da 5.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
+          "audioUrl": ""
+        },
+        "2": {
+          "text": "Bobba vesa bia affons ch’el enconuscha, aber era bia carschi. Bobba sedamonda tgi ch’els ein.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
+          "audioUrl": ""
+        },
+        "3": {
+          "text": "Ils affons fan il giug da sutgas. Lu fan els da sezuppar en curtgin. Els han tschaffenun.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_3.jpeg",
+          "audioUrl": ""
+        },
+        "4": {
+          "text": "\"La naskingtaga kuko!\", cloma il bab. El porta ina gronda tuorta che vesa ora sc’in casti cun tschun tuors da fiug",
+          "imageUrl": "/learning-material/story-7/images/Story 7_4.jpeg",
+          "audioUrl": ""
+        },
+        "5": {
+          "text": "\"Ni kantu\", di la tatta sin esperanto per che Bobba capeschi ella. Els contan “Happy birthday” en treis lungatgs. Bobba enconuscha la canzun per engles ed emprova da cantar cun els.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
+          "audioUrl": ""
+        },
+        "6": {
+          "text": "“Bobba, sufla ora las candeilas!”, propona Olivia. Bobba betta bunamein entuorn las tuors silla tuorta. “Stop!”, di Ben e muossa co ins sufla ora las candeilas.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
+          "audioUrl": ""
+        },
+        "7": {
+          "text": "La tuorta ei buontad. Bobba maglia tschun tocs in suenter l’auter. “Miam!”, di el. “Survegn Bobba uss mal il venter?”, damonda Olivia.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
+          "audioUrl": ""
+        },
+        "8": {
+          "text": "“Uss hai jeu marveglias tgei schenghetgs che vus veis purtau! Vegni, nus arvin ils pacs!” Oliva ei tut beada. Quei vulev’jeu schon adina!”, cloma ella adina puspei. Ils affons fan aunc in tec termagls, tochen ch’els van a casa",
+          "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
+          "audioUrl": ""
+        }
+      }
+    }],"ru": [{
+      "title": "Празднование Дня Рождения Оливии",
+      "titlePicture": "/learning-material/story-7/story-ru/Story 7_title_RU.jpg",
+      "fullAudio": "/learning-material/story-7/story-ru/Bobba_RU_Story 7_All.mp3",
+      "fullText": "/learning-material/story-7/story-ru/Story 7_RU.pdf",
+      "pages": {
+        "0": {
+          "text": "Празднование Дня Рождения Оливии",
+          "imageUrl":  "/learning-material/story-7/story-ru/Story 7_title_RU.jpg",
+          "audioUrl": "/learning-material/story-7/story-ru/Bobba_RU_Story 7_Intro.mp3"
+        },
+        "1": {
+          "text": "Это особенный день. Бобба приглашён на празднование Дня Рождения Оливии. \nНапротив её дома много воздушных шаров с цифрой 5.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
+          "audioUrl": "/learning-material/story-7/story-ru/Bobba_RU_Story 7_1.mp3"
+        },
+        "2": {
+          "text": "Бобба замечает много детей, которых он уже знает, но также и много взрослых. Ему \nинтересно узнать кто они такие.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
+          "audioUrl": "/learning-material/story-7/story-ru/Bobba_RU_Story 7_2.mp3"
+        },
+        "3": {
+          "text": "Дети играют в «Музыкальные стулья», затем в прятки в саду. Им очень весело.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_3.jpeg",
+          "audioUrl": "/learning-material/story-7/story-ru/Bobba_RU_Story 7_3.mp3"
+        },
+        "4": {
+          "text": "“La naskiĝtaga kuko!”, зовёт папа. Он держит огромный торт в форме замка и пятью \nзажжёнными свечами на нём.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_4.jpeg",
+          "audioUrl": "/learning-material/story-7/story-ru/Bobba_RU_Story 7_4.mp3"
+        },
+        "5": {
+          "text": "«Ni kantu», говорит бабушка на эсперанто для Боббы, чтобы он понял. Они поют «С \nДнём Рождения тебя» на трёх языках. Бобба знает эту песню на английском и пробует \nподпевать тоже.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
+          "audioUrl": "/learning-material/story-7/story-ru/Bobba_RU_Story 7_5.mp3"
+        },
+        "6": {
+          "text":"«Бобба, затуши свечи» - предлагает Оливия. Бобба собирается разрушить башни \nзамка. «Стоп» - говорит Бен и показывает ему как затушить их.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
+          "audioUrl": "/learning-material/story-7/story-ru/Bobba_RU_Story 7_6.mp3"
+        },
+        "7": {
+          "text": "Торт превосходный. Бобба съедает пять кусков. «Очень вкусно» - говорит он. «Сейчас \nу Боббы будет болеть живот?» - спрашивает Оливия.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
+          "audioUrl": "/learning-material/story-7/story-ru/Bobba_RU_Story 7_7.mp3"
+        },
+        "8": {
+          "text": "«Мне интересно посмотреть на подарки, которые вы принесли. Давайте откроем \nсвёртки». Оливия счастлива. «Я всегда об этом мечтала» - вскрикивает она, открывая \nодин подарок за другим. Дети играют ещё немного прежде, чем возвращаться домой.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
+          "audioUrl": "/learning-material/story-7/story-ru/Bobba_RU_Story 7_8.mp3"
+        }
+      }
     }]
   },
   {
@@ -6888,7 +7308,59 @@
             "audioUrl": ""
           }
         }
-        }]
+        }],"ru": [{
+      "title": "Бобба возвращается домой ",
+      "titlePicture": "/learning-material/story-8/story-ru/Story 8_title_RU.jpg",
+      "fullAudio": "/learning-material/story-8/story-ru/Bobba_RU_Story 8_All.mp3",
+      "fullText": "/learning-material/story-8/story-ru/Story 8_RU.pdf",
+      "pages": {
+        "0": {
+          "text": "Бобба возвращается домой ",
+          "imageUrl":  "/learning-material/story-8/story-ru/Story 8_title_RU.jpg",
+          "audioUrl": "/learning-material/story-8/story-ru/Bobba_RU_Story 8_Intro.mp3"
+        },
+        "1": {
+          "text": "Бобба и его друзья играют в мяч в парке там, где приземлился его летающий корабль.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
+          "audioUrl": "/learning-material/story-8/story-ru/Bobba_RU_Story 8_1.mp3"
+        },
+        "2": {
+          "text": "Солнце собирается к закату и небо окрашено разными цветами. Бобба впечатлён. Как \nэто чудесно! Неожиданно появляется звезда, потом ещё одна, потом ещё. ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
+          "audioUrl": "/learning-material/story-8/story-ru/Bobba_RU_Story 8_2.mp3"
+        },
+        "3": {
+          "text": "Бобба указывает пальцем на одну очень яркую звезду и кричит: «Виду ла стелан! Ен \nмиа планедо!» Его друзья перестают играть, потому что тоже хотят увидеть её. Они \nстановятся рядом с Боббой, чтобы найти его звезду.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
+          "audioUrl": "/learning-material/story-8/story-ru/Bobba_RU_Story 8_3.mp3"
+        },
+        "4": {
+          "text": "Внезапно они слышат тихое гудение. Они слышат это ещё раз, в этот раз громче «Бип» \nи громче «БИП!», «БИИИИИИИП!», «БИИИИИИИИИИИИП!» ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
+          "audioUrl": "/learning-material/story-8/story-ru/Bobba_RU_Story 8_4.mp3"
+        },
+        "5": {
+          "text": "Бобба кричит: «Ой, телефон на моём летающем корабле!» Он бежит к своему \nлетающему кораблю и отвечает на телефонный звонок. Его друзья следуют за ним. \nОни слышат, как он говорит: «“Ĉu mi venu hejmen? Ĉu mi povas reveni? Esta bona! Ĝis \nbaldaŭ!»",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
+          "audioUrl": "/learning-material/story-8/story-ru/Bobba_RU_Story 8_5.mp3"
+        },
+        "6": {
+          "text":"Он кладёт трубку и говорит: «Моя семья сказала, что я должен возвращаться домой \nсейчас. Но я могу ещё сюда вернуться!» Затем Бен говорит: «Я думаю мы все должны \nидти домой сейчас. Темнеет». ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
+          "audioUrl": "/learning-material/story-8/story-ru/Bobba_RU_Story 8_6.mp3"
+        },
+        "7": {
+          "text": "Дети крепко обнимают Боббу и Оливия говорит: «Возвращайся к нам скорее!» Бобба \nулыбается. «Ми ревенос! Я обещаю!» - отвечает он.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
+          "audioUrl": "/learning-material/story-8/story-ru/Bobba_RU_Story 8_7.mp3"
+        },
+        "8": {
+          "text": "Бобба садится в свой летающий корабль и машет рукой. Он подымается и взлетает в \nночное небо, до тех пор, пока не остаётся только маленький огонёк – свет его планеты, \nкоторый сверкает. «Скоро увидимся!» - кричат дети хором.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpeg",
+          "audioUrl": "/learning-material/story-8/story-ru/Bobba_RU_Story 8_8.mp3"
+        }
+      }
+    }]
       
   }
 ]

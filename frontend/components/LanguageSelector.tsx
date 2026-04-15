@@ -46,6 +46,7 @@ export const languageFlags: Record<string, string> = {
   rg: "ch",
   sur: "ch",
   hun: "hu", // Hungarian -> Hungary
+  ru:"ru"
 };
 
 export default function LanguageSelector() {
