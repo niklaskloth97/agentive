@@ -5450,13 +5450,13 @@
     }],
     "rg": [{
       "title": "Il chastè dals monsters",
-      "titlePicture": "/learning-material/story-6/story-rg/Story6_Title_Rumantsch_Grischun.jpeg",
+      "titlePicture": "/learning-material/story-6/story-rg/Story 6_title_Rumantsch_Grischun.jpeg",
       "fullAudio": "/learning-material/story-6/story-rg/bobba_6_komplett.mp3",
       "fullText": "/learning-material/story-6/story-rg/Story 6_RG.pdf",
       "pages": {
         "0": {
           "text":  "Il chastè dals monsters",
-          "imageUrl": "/learning-material/story-6/story-rg/Story6_Title_Rumantsch_Grischun.jpeg",
+          "imageUrl": "/learning-material/story-6/story-rg/Story 6_title_Rumantsch_Grischun.jpeg",
           "audioUrl": "/learning-material/story-6/story-rg/Bobba_6_0_RG_Titel.mp3"
         },
         "1": {
@@ -5503,13 +5503,13 @@
     }],
     "sur": [{
       "title": "Il chastè dals monsters",
-      "titlePicture": "/learning-material/story-6/story-sur/Story6_Title_Sursilvan.jpeg",
+      "titlePicture": "/learning-material/story-6/story-sur/Story 6_title_Sursilvan.jpeg",
       "fullAudio": "",
       "fullText": "/learning-material/story-6/story-sur/Story 6_RG.pdf",
       "pages": {
         "0": {
           "text":  "Il chastè dals monsters",
-          "imageUrl": "/learning-material/story-6/story-sur/Story6_Title_Sursilvan.jpeg",
+          "imageUrl": "/learning-material/story-6/story-sur/Story 6_title_Sursilvan.jpeg",
           "audioUrl": ""
         },
         "1": {
@@ -7205,13 +7205,13 @@
     }],
       "rg": [{
         "title": "Bobba turna a chasa",
-        "titlePicture": "/learning-material/story-8/story-rg/Story 8_title_Rumantsch_Grischun.pdf.jpg",
+        "titlePicture": "/learning-material/story-8/story-rg/Story 8_title_Rumantsch_Grischun.jpeg",
         "fullAudio": "/learning-material/story-8/story-rg/bobba_8_komplett.mp3",
         "fullText": "/learning-material/story-8/story-rg/Story 8_RG.pdf",
         "pages": {
           "0": {
             "text": "Bobba turna a chasa",
-            "imageUrl":  "/learning-material/story-8/story-rg/Story 8_title_Rumantsch_Grischun.pdf.jpg",
+            "imageUrl":  "/learning-material/story-8/story-rg/Story 8_title_Rumantsch_Grischun.jpeg",
             "audioUrl": "/learning-material/story-8/story-rg/Bobba_8_0_RG_Titel.mp3"
           },
           "1": {
@@ -7258,13 +7258,13 @@
         }],
         "sur": [{
         "title": "Bobba tuorna a casa",
-        "titlePicture": "/learning-material/story-8/story-sur/Story 8_title_Rumantsch_Grischun.pdf.jpg",
+        "titlePicture": "/learning-material/story-8/story-sur/Story 8_title_Sursilvan.jpeg",
         "fullAudio": "",
         "fullText": "/learning-material/story-8/story-sur/Story 8_Sursilvan.pdf",
         "pages": {
           "0": {
             "text": "Bobba turna a chasa",
-            "imageUrl":  "/learning-material/story-8/story-sur/Story 8_title_Sursilvan.jpg",
+            "imageUrl":  "/learning-material/story-8/story-sur/Story 8_title_Sursilvan.jpeg",
             "audioUrl": ""
           },
           "1": {
@@ -7310,13 +7310,13 @@
         }
         }],"ru": [{
       "title": "Бобба возвращается домой ",
-      "titlePicture": "/learning-material/story-8/story-ru/Story 8_title_RU.jpg",
+      "titlePicture": "/learning-material/story-8/story-ru/Story 8_title_RU.jpeg",
       "fullAudio": "/learning-material/story-8/story-ru/Bobba_RU_Story 8_All.mp3",
       "fullText": "/learning-material/story-8/story-ru/Story 8_RU.pdf",
       "pages": {
         "0": {
           "text": "Бобба возвращается домой ",
-          "imageUrl":  "/learning-material/story-8/story-ru/Story 8_title_RU.jpg",
+          "imageUrl":  "/learning-material/story-8/story-ru/Story 8_title_RU.jpeg",
           "audioUrl": "/learning-material/story-8/story-ru/Bobba_RU_Story 8_Intro.mp3"
         },
         "1": {
