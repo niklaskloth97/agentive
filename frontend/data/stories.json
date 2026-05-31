@@ -5,13 +5,13 @@
     "all-pictures": "/learning-material/story-1/story-en/NOT IMPLEMENTED",
     "en": [{
       "title": "Bobba's first trip to Earth",
-      "titlePicture": "/learning-material/story-1/story-en/Story1_title_E.webp",
+      "titlePicture": "/learning-material/story-1/story-en/Story1_title_E.jpeg",
       "fullAudio": "/learning-material/story-1/story-en/Story1_English_complete.m4a",
       "fullText": "/learning-material/story-1/story-en/Story 1_E.pdf",
       "pages": {
          "0": {
           "text": "Bobba's first trip to Earth",
-          "imageUrl": "/learning-material/story-1/story-en/Story1_title_E.jpg",
+          "imageUrl": "/learning-material/story-1/story-en/Story1_title_E.jpeg",
           "audioUrl": "/learning-material/story-1/story-en/Story1_English_Title.m4a"
         },
         "1": {
@@ -58,13 +58,13 @@
     }],
     "de-lang": [{
       "title": "Bobbas erste Reise zur Erde",
-      "titlePicture": "/learning-material/story-1/story-de/Story 1_title_G.jpg",
+      "titlePicture": "/learning-material/story-1/story-de/Story 1_title_DE_Long.jpeg",
       "fullAudio": "/learning-material/story-1/story-de/bobba_1_D_ALL.mp3",
       "fullText": "/learning-material/story-1/story-de/Story1_DE_L.pdf",
       "pages": {
          "0": {
           "text": "Bobbas erste Reise zur Erde",
-          "imageUrl": "/learning-material/story-1/story-de/Story 1_title_G.jpg",
+          "imageUrl": "/learning-material/story-1/story-de/Story 1_title_DE_Long.jpeg",
           "audioUrl": "/learning-material/story-1/story-de/Bobbas_erste_Reise_zur_Erde_Title.m4a"
         },
         "1": {
@@ -111,13 +111,13 @@
     }],
     "de": [{
       "title": "Bobbas erste Reise zur Erde",
-      "titlePicture": "/learning-material/story-1/story-de/Story 1_title_G.jpg",
+      "titlePicture": "/learning-material/story-1/story-de/Story 1_title_DE_Long.jpeg",
       "fullAudio": "/learning-material/story-1/story-de short/Bobba_DE_Story_1_Gesamt.mp3",
       "fullText": "/learning-material/story-1/story-de short/Story 1_G_short.pdf",
       "pages": {
          "0": {
           "text": "Bobbas erste Reise zur Erde",
-          "imageUrl": "/learning-material/story-1/story-de/Story 1_title_G.jpg",
+          "imageUrl": "/learning-material/story-1/story-de/Story 1_title_DE_Long.jpeg",
           "audioUrl": "/learning-material/story-1/story-de/Bobbas_erste_Reise_zur_Erde_Title.m4a"
         },
         "1": {
@@ -164,13 +164,13 @@
     }],
     "fr": [{
       "title": "Premier voyage de Bobba vers la Terre",
-      "titlePicture": "/learning-material/story-1/story-fr/Story 1_title_F.jpg",
+      "titlePicture": "/learning-material/story-1/story-fr/Story 1_title_F.jpeg",
       "fullAudio": "/learning-material/story-1/story-fr/Bobba_FR_Story 1-MP3.mp3",
       "fullText": "/learning-material/story-1/story-fr/Story 1_F.pdf",
       "pages": {
          "0": {
           "text": "Premier voyage de Bobba vers la Terre",
-          "imageUrl": "/learning-material/story-1/story-fr/Story 1_title_F.jpg",
+          "imageUrl": "/learning-material/story-1/story-fr/Story 1_title_F.jpeg",
           "audioUrl": "/learning-material/story-1/story-fr/Bobba_FR_Story 1 Intro-MP3.mp3"
         },
         "1": {
@@ -217,13 +217,13 @@
     }],
     "por": [{
       "title": "A primeira viagem do Bobba à Terra",
-      "titlePicture": "/learning-material/story-1/story-port/Story_1_title_P.jpg",
+      "titlePicture": "/learning-material/story-1/story-port/Story_1_title_P.jpeg",
       "fullAudio": "/learning-material/story-1/story-port/1_complete version.mp3",
       "fullText": "/learning-material/story-1/story-port/Story 1_P.pdf",
       "pages": {
         "0": {
           "text": "A primeira viagem do Bobba à Terra",
-          "imageUrl": "/learning-material/story-1/story-port/Story_1_title_P.jpg",
+          "imageUrl": "/learning-material/story-1/story-port/Story_1_title_P.jpeg",
           "audioUrl": "/learning-material/story-1/story-port/1_title.mp3"
         },
         "1": {
@@ -270,13 +270,13 @@
     }],
     "it": [{
       "title": "Il primo viaggio di Bobba sulla Terra",
-      "titlePicture": "/learning-material/story-1/story-it/Story 1_title_I.jpg",
+      "titlePicture": "/learning-material/story-1/story-it/Story 1_title_I.jpeg",
       "fullAudio": "/learning-material/story-1/story-it/Story 1_Italiano.m4a",
       "fullText": "/learning-material/story-1/story-it/Story1_IT.pdf",
       "pages": {
         "0": {
           "text": "Il primo viaggio di Bobba sulla Terra",
-          "imageUrl": "/learning-material/story-1/story-it/Story 1_title_I.jpg",
+          "imageUrl": "/learning-material/story-1/story-it/Story 1_title_I.jpeg",
           "audioUrl": "/learning-material/story-1/story-it/Bobba_Teil_1_v4.mp3"
         },
         "1": {
@@ -323,13 +323,13 @@
     }],
     "lux": [{
       "title": "Dem Bobba seng éischt Rees op d‘Äerd",
-      "titlePicture": "/learning-material/story-1/story-lux/Story 1_title_L.jpg", 
+      "titlePicture": "/learning-material/story-1/story-lux/Story 1_title_L.jpeg",
       "fullAudio": "/learning-material/story-1/story-lux/Bobba_LU_Story 1-MP3.mp3",
       "fullText": "/learning-material/story-1/story-lux/Story1_LUX.pdf",
       "pages": {
         "0": {
           "text": "Dem Bobba seng éischt Rees op d‘Äerd",
-          "imageUrl": "/learning-material/story-1/story-lux/Story 1_title_L.jpg", 
+          "imageUrl": "/learning-material/story-1/story-lux/Story 1_title_L.jpeg",
           "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1 Intro-MP3.mp3"
         },
         "1": {
@@ -376,13 +376,13 @@
     }],
     "gr": [{
       "title": "Το πρώτο ταξίδι του Μπόμπα στη Γη",
-      "titlePicture": "/learning-material/story-1/story-gr/Story 1_title_Gr.jpg",
+      "titlePicture": "/learning-material/story-1/story-gr/Story 1_title_Gr.jpeg",
       "fullAudio": "/learning-material/story-1/story-gr/story-1-greek-full.mp3",
       "fullText": "/learning-material/story-1/story-gr/Story_1_GR.pdf",
       "pages": {
         "0": {
           "text": "Το πρώτο ταξίδι του Μπόμπα στη Γη",
-          "imageUrl": "/learning-material/story-1/story-gr/Story 1_title_Gr.jpg",
+          "imageUrl": "/learning-material/story-1/story-gr/Story 1_title_Gr.jpeg",
           "audioUrl": "/learning-material/story-1/story-gr/story-1-greek-1-title.mp3"
         },
         "1": {
@@ -429,13 +429,13 @@
     }],
     "sv": [{
       "title": "Bobba prvič potuje na Zemljo",
-      "titlePicture": "/learning-material/story-1/story-sv/Story 1_title_S.jpg",
+      "titlePicture": "/learning-material/story-1/story-sv/Story 1_title_S.jpeg",
       "fullAudio": "/learning-material/story-1/story-sv/Story 1_SLO_complete.m4a",
       "fullText": "/learning-material/story-1/story-sv/Story 1_S.pdf",
       "pages": {
          "0": {
           "text": "    Bobba prvič potuje na Zemljo",
-          "imageUrl": "/learning-material/story-1/story-sv/Story 1_title_S.jpg",
+          "imageUrl": "/learning-material/story-1/story-sv/Story 1_title_S.jpeg",
           "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_Title.m4a"
         },
         "1": {
@@ -482,13 +482,13 @@
     }],
     "alb": [{
       "title": "Udhëtimi i parë i Bobbas në Tokë",
-      "titlePicture": "/learning-material/story-1/story-alb/Story 1_title_AL.jpg",
+      "titlePicture": "/learning-material/story-1/story-alb/Story 1_title_AL.jpeg",
       "fullAudio": "/learning-material/story-1/story-alb/Bobba_AL_Story 1.mp3",
       "fullText": "/learning-material/story-1/story-alb/Story 1_AL.pdf",
       "pages": {
         "0": {
           "text": "Udhëtimi i parë i Bobbas në Tokë",
-          "imageUrl": "/learning-material/story-1/story-alb/Story 1_title_AL.jpg",
+          "imageUrl": "/learning-material/story-1/story-alb/Story 1_title_AL.jpeg",
           "audioUrl": "/learning-material/story-1/story-alb/Bobba_AL_Story 1 Intro.mp3"
         },
         "1": {
@@ -535,13 +535,13 @@
     }],
     "ld": [{
       "title": "L prim viac de Bobba sun la Tiera",
-      "titlePicture": "/learning-material/story-1/story-ld/Story 1_title_AL.jpg", 
+      "titlePicture": "/learning-material/story-1/story-ladin/Story 1_title_LA.jpeg",
       "fullAudio": "/learning-material/story-1/story-ladin/Bobba__LADIN_Story 1-MP3.mp3",
       "fullText": "/learning-material/story-1/story-ladin/Story 1_L.pdf",
       "pages": {
         "0": {
           "text": "L prim viac de Bobba sun la Tiera",
-          "imageUrl": "/learning-material/story-1/story-en/Story 1_title_LAD.jpg", 
+          "imageUrl": "/learning-material/story-1/story-ladin/Story 1_title_LA.jpeg",
           "audioUrl": "/learning-material/story-1/story-ladin/Bobba_LADIN_Story 1 Intro-MP3.mp3"
         },
         "1": {
@@ -588,13 +588,13 @@
     }],
     "tur": [{
       "title": "Bobba’nın Dünya Yolculuğu",
-      "titlePicture": "/learning-material/story-1/story-tur/Story 1_title_TU.jpg", 
+      "titlePicture": "/learning-material/story-1/story-tur/Story 1_title_TU.jpeg",
       "fullAudio": "/learning-material/story-1/story-tur/Stories_Turkish_1.m4a", 
       "fullText": "/learning-material/story-1/story-tur/Story1_TUR.pdf",
       "pages": {
         "0": {
           "text": "Bobba’nın Dünya Yolculuğu",
-          "imageUrl": "/learning-material/story-1/story-tur/Story 1_title_TU.jpg", 
+          "imageUrl": "/learning-material/story-1/story-tur/Story 1_title_TU.jpeg",
           "audioUrl": "/learning-material/story-1/story-tur/Stories_Turkish_Title.mp3"
         },
         "1": {
@@ -641,13 +641,13 @@
     }],
     "pl": [{
       "title": "Pierwsza wizyta Bobby na Ziemi",
-      "titlePicture": "/learning-material/story-1/story-pl/Story 1_title_PL.jpg", 
+      "titlePicture": "/learning-material/story-1/story-pl/Story 1_title_PL.jpeg",
       "fullAudio": "/learning-material/story-1/story-pl/Story 1_PL.m4a", 
       "fullText": "/learning-material/story-1/story-pl/Story1_PL.pdf",
       "pages": {
         "0": {
           "text": "Pierwsza wizyta Bobby na Ziemi",
-          "imageUrl": "/learning-material/story-1/story-pl/Story 1_title_PL.jpg", 
+          "imageUrl": "/learning-material/story-1/story-pl/Story 1_title_PL.jpeg",
           "audioUrl": "/learning-material/story-1/story-pl/Story 1_Title_PL - Kopie.mp3"
         },
         "1": {
@@ -694,13 +694,13 @@
     }],
     "ukr": [{
       "title": "Перша подорож Бобби на Землю",
-      "titlePicture": "/learning-material/story-1/story-ukr/Story 1_title_UK.jpg",
+      "titlePicture": "/learning-material/story-1/story-ukr/Story 1_title_UK.jpeg",
       "fullAudio": "/learning-material/story-1/story-ukr/story-1-ukrainian-full.mp3",
       "fullText": "/learning-material/story-1/story-ukr/Story1_UKR.pdf",
       "pages": {
         "0": {
           "text": "Перша подорож Бобби на Землю",
-          "imageUrl": "/learning-material/story-1/story-ukr/Story 1_title_UK.jpg",
+          "imageUrl": "/learning-material/story-1/story-ukr/Story 1_title_UK.jpeg",
           "audioUrl": "/learning-material/story-1/story-ukr/Story 1_1.MP3"
         },
         "1": {
@@ -747,13 +747,13 @@
     }],
     "rg": [{
       "title": "L‘emprim viadi da Bobba sin la terra",
-      "titlePicture": "/learning-material/story-1/story-rg/Story1_Title_Rumantsch_Grischun.jpg",
+      "titlePicture": "/learning-material/story-1/story-rg/Story1_Title_Rumantsch_Grischun.jpeg",
       "fullAudio": "/learning-material/story-1/story-rg/bobba_01_RG_komplett.mp3",
       "fullText": "/learning-material/story-1/story-rg/Story 1_RG.pdf",      
       "pages": {
         "0": {
           "text": "L‘emprim viadi da Bobba sin la terra",
-          "imageUrl": "/learning-material/story-1/story-rg/Story1_Title_Rumantsch_Grischun.jpg",
+          "imageUrl": "/learning-material/story-1/story-rg/Story1_Title_Rumantsch_Grischun.jpeg",
           "audioUrl": "/learning-material/story-1/story-rg/Bobba_1_0_RG_Titel.mp3"
         },
         "1": {
@@ -801,13 +801,13 @@
     }],
     "sur": [{
       "title": "Igl emprem viadi da Bobba sin tiara",
-      "titlePicture": "/learning-material/story-1/story-sur/Story1_Title_Sursilvan.jpg",
+      "titlePicture": "/learning-material/story-1/story-sur/Story1_Title_Sursilvan.jpeg",
       "fullAudio": "",
       "fullText": "/learning-material/story-1/story-sur/Story 1_Sursilvan.pdf",      
       "pages": {
         "0": {
           "text": "Igl emprem viadi da Bobba sin tiara",
-          "imageUrl": "/learning-material/story-1/story-sur/Story1_Title_Sursilvan.jpg",
+          "imageUrl": "/learning-material/story-1/story-sur/Story1_Title_Sursilvan.jpeg",
           "audioUrl": ""
         },
         "1": {
@@ -854,13 +854,13 @@
       }],
     "hun": [{
       "title": "Bobba először utazik a Földre",
-      "titlePicture": "/learning-material/story-1/story-hun/Story 1_title_Hungarian.jpg",
+      "titlePicture": "/learning-material/story-1/story-hun/Story 1_title_Hungarian.jpeg",
       "fullAudio": "/learning-material/story-1/story-hun/Story 1-HUNG_complete.mp3",
       "fullText": "/learning-material/story-1/story-hun/Story 1_HUNG.pdf",
       "pages": {
          "0": {
           "text": "Bobba először utazik a Földre",
-          "imageUrl": "/learning-material/story-1/story-hun/Story 1_title_Hungarian.jpg",
+          "imageUrl": "/learning-material/story-1/story-hun/Story 1_title_Hungarian.jpeg",
           "audioUrl": ""
         },
         "1": {
@@ -907,13 +907,13 @@
     }],
     "ru": [{
       "title": "Первое путешествие Боббы на Землю",
-      "titlePicture": "/learning-material/story-1/story-ru/Story_1_title_Ru.jpg",
+      "titlePicture": "/learning-material/story-1/story-ru/Story_1_title_Ru.jpeg",
       "fullAudio": "/learning-material/story-1/story-ru/Bobba_RU_Story 1_All.mp3",
       "fullText": "/learning-material/story-1/story-ru/Story_1_RU.pdf",
       "pages": {
         "0": {
           "text": "Первое путешествие Боббы на Землю",
-          "imageUrl": "/learning-material/story-1/story-ru/Story_1_title_Ru.jpg",
+          "imageUrl": "/learning-material/story-1/story-ru/Story_1_title_Ru.jpeg",
           "audioUrl": "/learning-material/story-1/story-ru/Bobba_RU_Story 1 Intro-MP3.mp3"
         },
         "1": {
@@ -965,13 +965,13 @@
     "all-pictures": "/learning-material/story-1/story-en/NOT IMPLEMENTED",
     "en": [{
       "title": "At the kindergarten",
-      "titlePicture": "/learning-material/story-2/story-en/Story 2_title_E.jpg",
+      "titlePicture": "/learning-material/story-2/story-en/Story 2_title_E.jpeg",
       "fullAudio": "/learning-material/story-2/story-en/Story2_E_complete.m4a",
       "fullText": "/learning-material/story-2/story-en/Story2_EN.pdf",
       "pages": {
         "0": {
           "text": "At the kindergarten",
-          "imageUrl": "/learning-material/story-2/story-en/Story 2_title_E.jpg",
+          "imageUrl": "/learning-material/story-2/story-en/Story 2_title_E.jpeg",
           "audioUrl": "/learning-material/story-2/story-en/Story2_E_Title.m4a"
         },
         "1": {
@@ -1018,13 +1018,13 @@
     }],
     "de-lang": [{
       "title": "Bobba im Kindergarten",
-      "titlePicture": "/learning-material/story-2/story-de/Story 2_COVER_GE.JPG",
+      "titlePicture": "/learning-material/story-2/story-de/Story 2_COVER_GE.jpeg",
       "fullAudio": "/learning-material/story-2/story-de/bobba-im-kindergarten_Komplett.mp3",
       "fullText": "/learning-material/story-2/story-de/Story2_DE_L.pdf",
       "pages": {
         "0": {
           "text": "Bobba im Kindergarten",
-          "imageUrl": "/learning-material/story-2/story-de/Story 2_COVER_GE.JPG",
+          "imageUrl": "/learning-material/story-2/story-de/Story 2_COVER_GE.jpeg",
           "audioUrl": "/learning-material/story-2/story-de/Bobba_im_Kindergarten_Title.m4a"
         },
         "1": {
@@ -1071,13 +1071,13 @@
     }],
     "de": [{
       "title": "Im Kindergarten",
-      "titlePicture": "",
+      "titlePicture": "/learning-material/story-2/story-de/Story 2_COVER_GE.jpeg",
       "fullAudio": "/learning-material/story-2/story-de short/Bobba_DE_Story_2_Gesamt.mp3",
       "fullText": "/learning-material/story-2/story-de short/Story2_DE_S.pdf",
       "pages": {
                 "0": {
           "text": "Bobba im Kindergarten",
-          "imageUrl": "/learning-material/story-2/story-de/Story 2_COVER_GE.JPG",
+          "imageUrl": "/learning-material/story-2/story-de/Story 2_COVER_GE.jpeg",
           "audioUrl": "/learning-material/story-2/story-de short/Bobba_DE_Story_2_Titel.mp3"
         },
         "1": {
@@ -1124,13 +1124,13 @@
     }],
     "fr": [{
       "title": "A l’école maternelle",
-      "titlePicture": "/learning-material/story-2/story-fr/Story 2_COVER_F.JPG",
+      "titlePicture": "/learning-material/story-2/story-fr/Story 2_COVER_F.jpeg",
       "fullAudio": "/learning-material/story-2/story-fr/Bobba_FR_Story 2-MP3.mp3",
       "fullText": "/learning-material/story-2/story-fr/Story 2_F.pdf",
       "pages": {
         "0": {
           "text": "A l’école maternelle",
-          "imageUrl": "/learning-material/story-2/story-fr/Story 2_COVER_F.JPG",
+          "imageUrl": "/learning-material/story-2/story-fr/Story 2_COVER_F.jpeg",
           "audioUrl": "/learning-material/story-2/story-fr/Bobba_FR_Story 2 Intro-MP3.mp3"
         },
         "1": {
@@ -1177,13 +1177,13 @@
     }],
     "it": [{
       "title": "Alla scuola dell’infanzia ",
-      "titlePicture": "/learning-material/story-2/story-it/Story 2_COVER_IT.JPG",
+      "titlePicture": "/learning-material/story-2/story-it/Story 2_COVER_IT.jpeg",
       "fullAudio": "/learning-material/story-2/story-it/Story 2_Italiano.mp3",
       "fullText": "/learning-material/story-2/story-it/Story2_IT.pdf",
       "pages": {
         "0": {
           "text": "Alla scuola dell’infanzia",
-          "imageUrl": "/learning-material/story-2/story-it/Story 2_COVER_IT.JPG",
+          "imageUrl": "/learning-material/story-2/story-it/Story 2_COVER_IT.jpeg",
           "audioUrl": "/learning-material/story-2/story-it/Story 2_Italiano - Titel.mp3"
         },
         "1": {
@@ -1230,13 +1230,13 @@
     }],
     "lux": [{
       "title": "An der Spillschoul",
-      "titlePicture": "/learning-material/story-2/story-lux/Story 2_COVER_L.JPG",
+      "titlePicture": "/learning-material/story-2/story-lux/Story 2_COVER_L.jpeg",
       "fullAudio": "/learning-material/story-2/story-lux/Bobba_LU_Story 2-MP3.mp3",
       "fullText": "/learning-material/story-2/story-lux/Story2_LUX.pdf",
       "pages": {
         "0": {
           "text": "An der Spillschoul",
-          "imageUrl": "/learning-material/story-2/story-lux/Story 2_COVER_L.JPG",
+          "imageUrl": "/learning-material/story-2/story-lux/Story 2_COVER_L.jpeg",
           "audioUrl": "/learning-material/story-2/story-lux/Bobba_LU_Story 2 Intro-MP3.mp3"
         },
         "1": {
@@ -1283,13 +1283,13 @@
     }],
     "gr": [{
       "title": "Στο νηπιαγωγείο",
-      "titlePicture": "/learning-material/story-2/story-gr/Story 2_COVER_GR.JPG",
+      "titlePicture": "/learning-material/story-2/story-gr/Story 2_COVER_GR.jpeg",
       "fullAudio": "/learning-material/story-2/story-gr/story-2-greek-full.mp3",
       "fullText": "/learning-material/story-2/story-gr/Story2_GR.pdf",
       "pages": {
         "0": {
           "text": "Στο νηπιαγωγείο",
-          "imageUrl": "/learning-material/story-2/story-gr/Story 2_COVER_GR.JPG",
+          "imageUrl": "/learning-material/story-2/story-gr/Story 2_COVER_GR.jpeg",
           "audioUrl": "/learning-material/story-2/story-gr/story-2-greek-title.mp3"
         },
         "1": {
@@ -1336,13 +1336,13 @@
     }],
     "sv": [{
       "title": "V vrtcu",
-      "titlePicture": "/learning-material/story-2/story-slo/Story 2_COVER_SL.JPG",
+      "titlePicture": "/learning-material/story-2/story-slo/Story 2_COVER_SL.jpeg",
       "fullAudio": "/learning-material/story-2/story-slo/Story 2_SLO_complete.m4a",
       "fullText": "/learning-material/story-2/story-slo/Story2_SLO.pdf",
       "pages": {
         "0": {
           "text": "V vrtcu",
-          "imageUrl": "/learning-material/story-2/story-slo/Story 2_COVER_SL.JPG",
+          "imageUrl": "/learning-material/story-2/story-slo/Story 2_COVER_SL.jpeg",
           "audioUrl": "/learning-material/story-2/story-slo/Story 2_SLO_title.m4a"
         },
         "1": {
@@ -1389,13 +1389,13 @@
     }],
     "alb": [{
       "title": "Në kopshtin e fëmijëve",
-      "titlePicture": "/learning-material/story-2/story-alb/Story 2_COVER_AL.JPG",
+      "titlePicture": "/learning-material/story-2/story-alb/Story 2_COVER_AL.jpeg",
       "fullAudio": "/learning-material/story-2/story-alb/Bobba_AL_Story 2.mp3",
       "fullText": "/learning-material/story-2/story-alb/Story2_AL.pdf",
       "pages": {
         "0": {
           "text": "Në kopshtin e fëmijëve",
-          "imageUrl": "/learning-material/story-2/story-alb/Story 2_COVER_AL.JPG",
+          "imageUrl": "/learning-material/story-2/story-alb/Story 2_COVER_AL.jpeg",
           "audioUrl": "/learning-material/story-2/story-alb/Bobba_AL_Story 2 Intro.mp3"
         },
         "1": {
@@ -1442,13 +1442,13 @@
     }],
     "ukr": [{
       "title": "У дитячому садку ",
-      "titlePicture": "/learning-material/story-2/story-ukr/Story 2_COVER_UKR.JPG",
+      "titlePicture": "/learning-material/story-2/story-ukr/Story 2_COVER_UKR.jpeg",
       "fullAudio": "/learning-material/story-2/story-ukr/story-2-ukrainian-full.mp3",
       "fullText": "/learning-material/story-2/story-ukr/Story2_UKR.pdf",
       "pages": {
         "0": {
           "text": "У дитячому садку",
-          "imageUrl": "/learning-material/story-2/story-ukr/Story 2_COVER_UKR.JPG",
+          "imageUrl": "/learning-material/story-2/story-ukr/Story 2_COVER_UKR.jpeg",
           "audioUrl": "/learning-material/story-2/story-ukr/2.mp3"
         },
         "1": {
@@ -1495,13 +1495,13 @@
     }],
     "tur": [{
       "title": "Bobba’nın Anaokulunda Macerası",
-      "titlePicture": "/learning-material/story-2/story-tur/Story 2_COVER_TU.JPG",
+      "titlePicture": "/learning-material/story-2/story-tur/Story 2_COVER_TU.jpeg",
       "fullAudio": "/learning-material/story-2/story-tur/Stories_Turkish_2.m4a",
       "fullText": "/learning-material/story-2/story-tur/Story2_TUR.pdf",
       "pages": {
         "0": {
           "text": "Bobba’nın Anaokulunda Macerası",
-          "imageUrl": "/learning-material/story-2/story-tur/Story 2_COVER_TU.JPG",
+          "imageUrl": "/learning-material/story-2/story-tur/Story 2_COVER_TU.jpeg",
           "audioUrl": "/learning-material/story-2/story-tur/Szene Titel.mp3"
         },
         "1": {
@@ -1548,13 +1548,13 @@
     }],
     "ld": [{
       "title": "Te scolina",
-      "titlePicture": "/learning-material/story-2/story-ladin/Story 2_COVER_LA.JPG",
+      "titlePicture": "/learning-material/story-2/story-ladin/Story 2_COVER_LA.jpeg",
       "fullAudio": "/learning-material/story-2/story-ladin/Bobba_LADIN_Story 2-MP3.mp3",
       "fullText": "",
       "pages": {
         "0": {
           "text": "Te scolina",
-          "imageUrl": "/learning-material/story-2/story-ladin/Story 2_COVER_LA.JPG",
+          "imageUrl": "/learning-material/story-2/story-ladin/Story 2_COVER_LA.jpeg",
           "audioUrl": "/learning-material/story-2/story-ladin/Bobba_LADIN_Story 2 Intro-MP3.mp3"
         },
         "1": {
@@ -1601,13 +1601,13 @@
     }],
      "por": [{
       "title": "No Infantário",
-      "titlePicture": "/learning-material/story-2/story-por/Story 2_COVER_P.JPG",
+      "titlePicture": "/learning-material/story-2/story-por/Story 2_COVER_P.jpeg",
       "fullAudio": "/learning-material/story-2/story-por/2_complete version.m4a",
       "fullText": "/learning-material/story-2/story-por/Story2_POR.pdf",
       "pages": {
         "0": {
           "text": "No Infantário",
-          "imageUrl": "/learning-material/story-2/story-por/Story 2_COVER_P.JPG",
+          "imageUrl": "/learning-material/story-2/story-por/Story 2_COVER_P.jpeg",
           "audioUrl": "/learning-material/story-2/story-por/2_title.m4a"
         },
         "1": {
@@ -1654,13 +1654,13 @@
     }],
      "pl": [{
       "title": "W przedszkolu",
-      "titlePicture": "/learning-material/story-2/story-pl/Story 2_COVER_PL.JPG",
+      "titlePicture": "/learning-material/story-2/story-pl/Story 2_COVER_PL.jpeg",
       "fullAudio": "/learning-material/story-2/story-pl/Story 2_PL.m4a",
       "fullText": "/learning-material/story-2/story-pl/Story2_PL.pdf",
       "pages": {
         "0": {
           "text": "W przedszkolu",
-          "imageUrl": "/learning-material/story-2/story-pl/Story 2_COVER_PL.JPG",
+          "imageUrl": "/learning-material/story-2/story-pl/Story 2_COVER_PL.jpeg",
           "audioUrl": "/learning-material/story-2/story-pl/Story 2_PL_title.m4a"
         },
         "1": {
@@ -1707,13 +1707,13 @@
     }],
     "rg": [{
       "title": "Bobba en scolina",
-      "titlePicture": "/learning-material/story-2/story-rg/Story 2_COVER_Rumantsch.JPG",
+      "titlePicture": "/learning-material/story-2/story-rg/Story 2_COVER_Rumantsch.jpeg",
       "fullAudio": "/learning-material/story-2/story-rg/bobba_2_komplett.mp3",
       "fullText": "/learning-material/story-2/story-rg/Story 2_RG.pdf",
       "pages": {
         "0": {
           "text": "Bobba en scolina",
-          "imageUrl": "/learning-material/story-2/story-rg/Story 2_COVER_Rumantsch.JPG",
+          "imageUrl": "/learning-material/story-2/story-rg/Story 2_COVER_Rumantsch.jpeg",
           "audioUrl": "/learning-material/story-2/story-rg/Bobba_2_0_RG_Titel.mp3"
         },
         "1": {
@@ -1760,13 +1760,13 @@
     }],
     "sur": [{
       "title": "Bobba en scoletta",
-      "titlePicture": "/learning-material/story-2/story-sur/Story 2_COVER_Sursilvan.JPG",
+      "titlePicture": "/learning-material/story-2/story-sur/Story 2_COVER_Sursilvan.jpeg",
       "fullAudio": "",
       "fullText": "/learning-material/story-2/story-sur/Story 2_Sursilvan.pdf",
       "pages": {
         "0": {
           "text": "Bobba en scoletta",
-          "imageUrl": "/learning-material/story-2/story-sur/Story 2_COVER_Sursilvan.JPG",
+          "imageUrl": "/learning-material/story-2/story-sur/Story 2_COVER_Sursilvan.jpeg",
           "audioUrl": ""
         },
         "1": {
@@ -1813,13 +1813,13 @@
     }],
     "hun": [{
       "title": "Az óvodában",
-      "titlePicture": "/learning-material/story-2/story-hun/Story 2_COVER Hungarian.jpg",
+      "titlePicture": "/learning-material/story-2/story-hun/Story 2_COVER Hungarian.jpeg",
       "fullAudio": "/learning-material/story-2/story-hun/Story 2_HUNG_complete.mp3",
       "fullText": "/learning-material/story-2/story-hun/Story 2_HUNG.pdf",
       "pages": {
          "0": {
           "text": "Az óvodában",
-          "imageUrl": "/learning-material/story-2/story-hun/Story 2_COVER Hungarian.jpg",
+          "imageUrl": "/learning-material/story-2/story-hun/Story 2_COVER Hungarian.jpeg",
           "audioUrl": ""
         },
         "1": {
@@ -1866,13 +1866,13 @@
     }],
     "ru": [{
       "title": "Первое путешествие Боббы на Землю",
-      "titlePicture": "/learning-material/story-2/story-ru/Story 2_title_Ru.jpg",
+      "titlePicture": "/learning-material/story-2/story-ru/Story 2_title_Ru.jpeg",
       "fullAudio": "/learning-material/story-2/story-ru/Bobba_RU_Story 2_All.mp3",
       "fullText": "/learning-material/story-2/story-ru/Story_1_RU.pdf",
       "pages": {
         "0": {
           "text": "Первое путешествие Боббы на Землю",
-          "imageUrl": "/learning-material/story-2/story-ru/Story 2_title_Ru.jpg",
+          "imageUrl": "/learning-material/story-2/story-ru/Story 2_title_Ru.jpeg",
           "audioUrl": "/learning-material/story-2/story-ru/Bobba_RU_Story 2 Intro-MP3.mp3"
         },
         "1": {
@@ -1923,13 +1923,13 @@
     "slug": "story-3",
     "en": [{
       "title": "Bobba at the beach",
-      "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_E.JPG",
+      "titlePicture": "/learning-material/story-3/story-en/Story 3_COVER_E.jpeg",
       "fullAudio": "/learning-material/story-3/story-en/Story3_E_complete.m4a",
       "fullText": "/learning-material/story-3/story-en/Story3_EN.pdf",
       "pages": {
         "0": {
           "text": "Bobba at the beach",
-          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_E.JPG",
+          "imageUrl": "/learning-material/story-3/story-en/Story 3_COVER_E.jpeg",
           "audioUrl": "/learning-material/story-3/story-en/Story3_E_title.m4a"
         },
         "1": {
@@ -1976,13 +1976,13 @@
     }],
     "de-lang": [{
       "title": "Bobba am Strand",
-      "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_GE.JPG",
+      "titlePicture": "/learning-material/story-3/story-de/Story 3_COVER_GE.jpeg",
       "fullAudio": "/learning-material/story-3/story-de/story-3-g-long_komplett.mp3",
       "fullText": "/learning-material/story-3/story-de/Story3_DE_L.pdf",
       "pages": {
         "0": {
           "text": "Bobba am Strand",
-          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_GE.JPG",
+          "imageUrl": "/learning-material/story-3/story-de/Story 3_COVER_GE.jpeg",
           "audioUrl": "/learning-material/story-3/story-de/Story 3_G Long_Title_Bobba_am_Strand.m4a"
         },
         "1": {
@@ -2029,13 +2029,13 @@
     }],
     "de": [{
       "title": "Bobba am Strand",
-      "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_GE.JPG",
+      "titlePicture": "/learning-material/story-3/story-de/Story 3_COVER_GE.jpeg",
       "fullAudio":  "/learning-material/story-3/story-de short/Bobba_DE_Story_3_Gesamt.mp3",
       "fullText": "/learning-material/story-3/story-de short/Story3_DE_S.pdf",
       "pages": {
         "0": {
           "text": "Bobba am Strand",
-          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_GE.JPG",
+          "imageUrl": "/learning-material/story-3/story-de/Story 3_COVER_GE.jpeg",
           "audioUrl": "/learning-material/story-3/story-de short/Bobba_DE_Story_3_Titel.mp3"
         },
         "1": {
@@ -2082,13 +2082,13 @@
     }],
     "fr": [{
       "title": "Bobba à la plage",
-      "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_F.JPG",
+      "titlePicture": "/learning-material/story-3/story-fr/Story 3_title_F_.jpeg",
       "fullAudio": "/learning-material/story-3/story-fr/Bobba_FR_Story 3-MP3.mp3",
       "fullText": "",
       "pages": {
         "0": {
           "text": "Bobba à la plage",
-          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_F.JPG",
+          "imageUrl": "/learning-material/story-3/story-fr/Story 3_title_F_.jpeg",
           "audioUrl": "/learning-material/story-3/story-fr/Bobba_FR_Story 3 Intro-MP3.mp3"
         },
         "1": {
@@ -2135,13 +2135,13 @@
     }],
      "it": [{
       "title": "Bobba in spiaggia",
-      "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_IT.JPG",
+      "titlePicture": "/learning-material/story-3/story-it/Story 3_title_IT.jpeg",
       "fullAudio": "/learning-material/story-3/story-it/Story 3_Italiano.mp3",
       "fullText": "/learning-material/story-3/story-it/Story3_IT.pdf",
       "pages": {
         "0": {
           "text": "Bobba in spiaggia",
-          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_IT.JPG",
+          "imageUrl": "/learning-material/story-3/story-it/Story 3_title_IT.jpeg",
           "audioUrl": "/learning-material/story-3/story-it/Story 3_Italiano Clip 1 - Bobba in spiaggia.mp3"
         },
         "1": {
@@ -2188,13 +2188,13 @@
     }],
       "ld": [{
       "title": "Bobba sun la spiagia",
-      "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_LAD.JPG",
+      "titlePicture": "/learning-material/story-3/story-ladin/Story 3_COVER_LAD.jpeg",
       "fullAudio": "/learning-material/story-3/story-ladin/Bobba_LADIN_Story 3-MP3.mp3",
       "fullText": "/learning-material/story-3/story-ladin/Story 3_L.pdf",
       "pages": {
         "0": {
           "text": "Bobba sun la spiagia",
-          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_LA.JPG",
+          "imageUrl": "/learning-material/story-3/story-ladin/Story 3_COVER_LA.jpeg",
           "audioUrl": "/learning-material/story-3/story-ladin/Bobba_LADIN_Story 3 Intro-MP3.mp3"
         },
         "1": {
@@ -2241,13 +2241,13 @@
     }],
     "tur": [{
       "title": "Bobba Sahilde",
-      "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_TU.JPG",
+      "titlePicture": "/learning-material/story-3/story-tur/Story 3_title_TU.jpeg",
       "fullAudio": "/learning-material/story-3/story-tur/Stories_Turkish_3.m4a",
       "fullText": "/learning-material/story-3/story-tur/Story3_TUR.pdf",
       "pages": {
         "0": {
           "text": "Bobba Sahilde",
-          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_TU.JPG",
+          "imageUrl": "/learning-material/story-3/story-tur/Story 3_title_TU.jpeg",
           "audioUrl": "/learning-material/story-3/story-tur/Story3_Title.mp3"
         },
         "1": {
@@ -2294,13 +2294,13 @@
   }],
     "lux": [{
       "title": "De Bobba op der Plage",
-      "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_L.JPG",
+      "titlePicture": "/learning-material/story-3/story-lux/Story 3_title_L.jpeg",
       "fullAudio": "/learning-material/story-3/story-lux/Bobba_LU_Story 3-MP3.mp3",
       "fullText": "/learning-material/story-3/story-lux/Story3_LUX.pdf",
       "pages": {
         "0": {
           "text": "De Bobba op der Plage",
-          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_L.JPG",
+          "imageUrl": "/learning-material/story-3/story-lux/Story 3_title_L.jpeg",
           "audioUrl": "/learning-material/story-3/story-lux/Bobba_LU_Story 3 Intro-MP3.mp3"
         },
         "1": {
@@ -2347,13 +2347,13 @@
     }],
     "pl":[{
       "title": "Bobba na plaży",
-      "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_PL.JPG",
+      "titlePicture": "/learning-material/story-3/story-pl/Story 3_title_PL.jpeg",
       "fullAudio": "learning-material/story-3/story-pl/Story 3_PL.m4a",
       "fullText": "learning-material/story-3/story-pl/Story_PL.pdf",
       "pages": {
         "0": {
           "text": "Bobba na plaży",
-          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_PL.JPG",
+          "imageUrl": "/learning-material/story-3/story-pl/Story 3_title_PL.jpeg",
           "audioUrl": "/learning-material/story-3/story-pl/Story 3_PL_Intro.m4a"
         },
         "1": {
@@ -2400,13 +2400,13 @@
     }],
     "gr": [{
       "title": "Ο Μπόμπα στην παραλία ",
-      "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_GR.JPG",
+      "titlePicture": "/learning-material/story-3/story-gr/Story 3_title_GR_.jpeg",
       "fullAudio": "/learning-material/story-3/story-gr/story-3-full.mp3",
       "fullText": "/learning-material/story-3/story-gr/Story3_GR.pdf",
       "pages": {
         "0": {
           "text": "Ο Μπόμπα στην παραλία",
-          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_GR.JPG",
+          "imageUrl": "/learning-material/story-3/story-gr/Story 3_title_GR_.jpeg",
           "audioUrl": "/learning-material/story-3/story-gr/Story 3_Greek_3_0.m4a"
         },
         "1": {
@@ -2453,13 +2453,13 @@
     }],
     "sv": [{
       "title": "Bobba na plaži",
-      "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_SL.JPG",
+      "titlePicture": "/learning-material/story-3/story-slo/Story 3_title_SL.jpeg",
       "fullAudio": "/learning-material/story-3/story-slo/Story 3_SLO_complete.m4a",
       "fullText": "/learning-material/story-3/story-slo/Story3_SLO.pdf",
       "pages": {
         "0": {
           "text": "Bobba na plaži",
-          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_SL.JPG",
+          "imageUrl": "/learning-material/story-3/story-slo/Story 3_title_SL.jpeg",
           "audioUrl": "/learning-material/story-3/story-slo/Story 3_SLO_title.m4a"
         },
         "1": {
@@ -2506,13 +2506,13 @@
     }],
     "alb": [{
       "title": "Bobba në plazh",
-      "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_AL.JPG",
+      "titlePicture": "/learning-material/story-3/story-alb/Story 3_title_AL.jpeg",
       "fullAudio": "/learning-material/story-3/story-alb/Bobba_AL_Story 3.mp3",
       "fullText": "/learning-material/story-3/story-alb/Story3_AL.pdf",
       "pages": {
         "0": {
           "text": "Bobba në plazh",
-          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_AL.JPG",
+          "imageUrl": "/learning-material/story-3/story-alb/Story 3_title_AL.jpeg",
           "audioUrl": "/learning-material/story-3/story-alb/Bobba_AL_Story 3 Intro.mp3"
         },
         "1": {
@@ -2559,13 +2559,13 @@
     }],
     "ukr": [{
       "title": "Бобба на пляжі",
-      "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_UKR.JPG",
+      "titlePicture": "/learning-material/story-3/story-ukr/Story 3_title_UKR.jpeg",
       "fullAudio": "/learning-material/story-3/story-ukr/story-3-ukrainian-full.mp3",
       "fullText": "/learning-material/story-3/story-ukr/Story3_UKR.pdf",
       "pages": {
         "0": {
           "text": "Бобба на пляжі",
-          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_UKR.JPG",
+          "imageUrl": "/learning-material/story-3/story-ukr/Story 3_title_UKR.jpeg",
           "audioUrl": "/learning-material/story-3/story-ukr/3.mp3"
         },
         "1": {
@@ -2612,13 +2612,13 @@
     }],
      "por": [{
       "title": "Bobba na praia",
-      "titlePicture": "/learning-material/story-3/story-title/Story 3_COVER_P.JPG",
+      "titlePicture": "/learning-material/story-3/story-por/Story 3_title_P.jpeg",
       "fullAudio": "/learning-material/story-3/story-por/3_complete version.m4a",
       "fullText": "/learning-material/story-3/story-por/Story3_POR.pdf",
       "pages": {
         "0": {
           "text": "Bobba na praia",
-          "imageUrl": "/learning-material/story-3/story-title/Story 3_COVER_P.JPG",
+          "imageUrl": "/learning-material/story-3/story-por/Story 3_title_P.jpeg",
           "audioUrl": "/learning-material/story-3/story-por/3_title.m4a"
         },
         "1": {
@@ -2719,13 +2719,13 @@
 
     "rg": [{
       "title": "Bobba en scolina",
-      "titlePicture": "/learning-material/story-3/story-rg/Story 3_COVER_Rumantsch.JPG",
+      "titlePicture": "/learning-material/story-3/story-rg/Story 3_COVER_Rumantsch.jpeg",
       "fullAudio": "/learning-material/story-3/story-rg/bobba_3_komplett.mp3",
       "fullText": "/learning-material/story-3/story-rg/Story 3_RG.pdf",
       "pages": {
         "0": {
           "text": "Bobba en scolina",
-          "imageUrl": "/learning-material/story-3/story-rg/Story 3_COVER_Rumantsch.JPG",
+          "imageUrl": "/learning-material/story-3/story-rg/Story 3_COVER_Rumantsch.jpeg",
           "audioUrl": "/learning-material/story-3/story-rg/Bobba_3_0_RG_Titel.mp3"
         },
         "1": {
@@ -2772,13 +2772,13 @@
     }],
     "sur": [{
       "title": "Bobba alla splagia",
-      "titlePicture": "/learning-material/story-3/story-sur/Story 3_COVER_Sursilvan.JPG",
+      "titlePicture": "/learning-material/story-3/story-sur/Story 3_COVER_Sursilvan.jpeg",
       "fullAudio": "",
       "fullText": "/learning-material/story-3/story-sur/Story 3_Sursilvan.pdf",
             "pages": {
         "0": {
           "text": "Bobba alla splagia",
-          "imageUrl": "/learning-material/story-3/story-rg/Story 3_COVER_Rumantsch.JPG",
+          "imageUrl": "/learning-material/story-3/story-rg/Story 3_COVER_Rumantsch.jpeg",
           "audioUrl": ""
         },
         "1": {
@@ -2824,13 +2824,13 @@
       }
     }],"ru": [{
       "title": "Бобба на пляже",
-      "titlePicture": "/learning-material/story-3/story-ru/Story 3_title_Ru.jpg",
+      "titlePicture": "/learning-material/story-3/story-ru/Story 3_title_Ru.jpeg",
       "fullAudio": "/learning-material/story-3/story-ru/Bobba_RU_Story 3_All.mp3",
       "fullText": "/learning-material/story-3/story-ru/Story 3_RU.pdf",
       "pages": {
         "0": {
           "text": "Бобба на пляже",
-          "imageUrl": "/learning-material/story-3/story-ru/Story 3_title_Ru.jpg",
+          "imageUrl": "/learning-material/story-3/story-ru/Story 3_title_Ru.jpeg",
           "audioUrl": "/learning-material/story-3/story-en/Story3_E_title.m4a"
         },
         "1": {
@@ -2881,13 +2881,13 @@
     "slug": "story-4",
     "en": [{
           "title": "Sleeping at a friend's",
-          "titlePicture": "/learning-material/story-4/story-en/Story 4_2 title_E.jpg",
+          "titlePicture": "/learning-material/story-4/title pictures stroy 4/Story 4_ title_E.jpeg",
           "fullAudio": "/learning-material/story-4/story-en/Story 4_E whole story.m4a",
           "fullText":"/learning-material/story-4/story-en/Story 4_E.pdf",
           "pages": {
             "0": {
               "text": "Sleeping at a friend's",
-              "imageUrl": "/learning-material/story-4/story-en/Story 4_2 title_E.jpg",
+              "imageUrl": "/learning-material/story-4/title pictures stroy 4/Story 4_ title_E.jpeg",
               "audioUrl": "/learning-material/story-4/story-en/Story 4_title.m4a"
             },
             "1": {
@@ -2934,13 +2934,13 @@
         }],
     "de": [{
           "title": "Bobbas übernachtet bei Olivia",
-          "titlePicture": "/learning-material/story-4/title pictures stroy 4/Story 4_2 title_DE_short.jpg",
+          "titlePicture": "/learning-material/story-4/title pictures stroy 4/Story 4_ 2 title_DE_short.jpeg",
           "fullAudio": "/learning-material/story-4/story-de short/Bobba_DE_Story 4 gesamt.mp3",
           "fullText": "/learning-material/story-4/story-de/Story4_DE_L.pdf",
           "pages": {
             "0": {
               "text": "Bobba übernachtet bei Olivia",
-              "imageUrl": "/learning-material/story-4/title pictures stroy 4/Story 4_2 title_DE_short.jpg",
+              "imageUrl": "/learning-material/story-4/title pictures stroy 4/Story 4_ 2 title_DE_short.jpeg",
               "audioUrl": "/learning-material/story-4/story-de short/Bobba_DE_Story 4 0.mp3"
             },
             "1": {
@@ -2988,13 +2988,13 @@
 
     "de-lang": [{
       "title": "Bobbas Übernachtung",
-      "titlePicture": "/learning-material/story-4/title pictures stroy 4/Story 4_2 title_DE_long.png",
+      "titlePicture": "/learning-material/story-4/title pictures stroy 4/Story 4_ 2 title_DE_short.jpeg",
       "fullAudio": "/learning-material/story-4/story-de/bobbas-ubernachtung_komplett.mp3",
       "fullText": "/learning-material/story-4/story-de/Story4_DE_L.pdf",
       "pages": {
         "0": {
           "text": "Bobba übernachtet bei Olivia",
-          "imageUrl": "/learning-material/story-4/title pictures stroy 4/Story 4_2 title_DE_long.png",
+          "imageUrl": "/learning-material/story-4/title pictures stroy 4/Story 4_ 2 title_DE_short.jpeg",
           "audioUrl": "/learning-material/story-4/story-de/Bobbas_Übernachtung_Title.mp3"
         },
         "1": {
@@ -3041,13 +3041,13 @@
     }],
     "fr": [{
       "title": "Dormir chez une amie",
-      "titlePicture": "/learning-material/story-4/story-fr/Story 4_2 title_F.jpg",
+      "titlePicture": "/learning-material/story-4/story-fr/Story 4_2 title_F.jpeg",
       "fullAudio": "/learning-material/story-4/story-fr/Bobba_FR_Story 4-MP3.mp3",
       "fullText": "/learning-material/story-4/story-fr/Story 4_F.pdf",
       "pages": {
         "0": {
           "text": "Dormir chez une amie",
-          "imageUrl": "/learning-material/story-4/story-fr/Story 4_2 title_F.jpg",
+          "imageUrl": "/learning-material/story-4/story-fr/Story 4_2 title_F.jpeg",
           "audioUrl": "/learning-material/story-4/story-fr/Bobba_FR_Story 4 Intro-MP3.mp3"
         },
         "1": {
@@ -3093,13 +3093,13 @@
       }
     }],
     "por": [{"title": "Dormir em casa de um amigo",
-      "titlePicture": "/learning-material/story-4/story-pt/Story 4_2 title_P.jpg",
+      "titlePicture": "/learning-material/story-4/story-pt/Story 4_2 title_P.jpeg",
       "fullAudio": "/learning-material/story-4/story-pt/4_complete version.m4a",
       "fullText": "/learning-material/story-4/story-pt/Story 4_P.pdf",
       "pages": {
         "0": {
           "text": "Dormir em casa de um amigo",
-          "imageUrl": "/learning-material/story-4/story-pt/Story 4_2 title_P.jpg",
+          "imageUrl": "/learning-material/story-4/story-pt/Story 4_2 title_P.jpeg",
           "audioUrl": "/learning-material/story-4/story-pt/4_title.m4a"
         },
         "1": {
@@ -3146,13 +3146,13 @@
     }],
     "ld": [{
       "title": "Bobba duerm da Olivia",
-      "titlePicture": "/learning-material/story-4/story-ladin/Story 4_2 title_LA.jpg",
+      "titlePicture": "/learning-material/story-4/story-ladin/Story 4_2 title_LA.jpeg",
       "fullAudio": "/learning-material/story-4/story-ladin/Bobba_LADIN_Story 4-MP3.mp3",
       "fullText": "",
       "pages": {
         "0": {
           "text": "Bobba duerm da Olivia",
-          "imageUrl": "/learning-material/story-4/story-ladin/Story 4_2 title_LA.jpg",
+          "imageUrl": "/learning-material/story-4/story-ladin/Story 4_2 title_LA.jpeg",
           "audioUrl": "/learning-material/story-4/story-ladin/Bobba_LADIN_Story 4 Intro-MP3.mp3"
         },
         "1": {
@@ -3199,13 +3199,13 @@
     }],
     "sv": [{
       "title": "Bobba prespi pri prijateljici",
-      "titlePicture": "/learning-material/story-4/story-slo/Story 4_2 title_SL.jpg",
+      "titlePicture": "/learning-material/story-4/story-slo/Story 4_2 title_SL.jpeg",
       "fullAudio": "/learning-material/story-4/story-slo/Story 4_SLO_complete (1).m4a",
       "fullText": "/learning-material/story-4/story-slo/Story4_SLO.pdf",
       "pages": {
         "0": {
           "text": "Bobba prespi pri prijateljici",
-          "imageUrl": "/learning-material/story-4/story-slo/Story 4_2 title_SL.jpg",
+          "imageUrl": "/learning-material/story-4/story-slo/Story 4_2 title_SL.jpeg",
           "audioUrl": "/learning-material/story-4/story-slo/Story 4_SLO_title.m4a"
         },
         "1": {
@@ -3252,13 +3252,13 @@
   }],
     "it": [{
       "title": "Bobba dorme a casa di un’amica",
-      "titlePicture": "/learning-material/story-4/story-it/Story 4_2 title_IT.jpg",
+      "titlePicture": "/learning-material/story-4/story-it/Story 4_2 title_IT.jeg",
       "fullAudio": "/learning-material/story-4/story-it/Story 4_Italiano.mp3",
       "fullText": "/learning-material/story-4/story-it/Story 4_Italian.pdf",
       "pages": {
         "0": {
           "text": "Bobba dorme a casa di un’amica",
-          "imageUrl": "/learning-material/story-4/story-it/Story 4_2 title_IT.jpg",
+          "imageUrl": "/learning-material/story-4/story-it/Story 4_2 title_IT.jpeg",
           "audioUrl": "/learning-material/story-4/story-it/Story 4_Title.mp3"
         },
         "1": {
@@ -3305,13 +3305,13 @@
   }],
     "pl": [{
       "title": "Nocowanie u przyjaciółki",
-      "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
+      "titlePicture": "/learning-material/story-4/story-pl/Story 4_2 title_PL.jpeg",
       "fullAudio": "/learning-material/story-4/story-pl/Story 4_PL.m4a",
       "fullText": "/learning-material/story-4/story-pl/Story 4_Polish.pdf",
       "pages": {
         "0": {
           "text": "Nocowanie u przyjaciółki",
-          "imageUrl": "/learning-material/story-4/story-pl/Story 4_2 title_PL.jpg",
+          "imageUrl": "/learning-material/story-4/story-pl/Story 4_2 title_PL.jpeg",
           "audioUrl": ""
         },
         "1": {
@@ -3358,13 +3358,13 @@
   }],
   "tur": [{
       "title": "Bir arkadaşın evinde uyumak",
-      "titlePicture": "/learning-material/story-4/story-en/Story 4_1.jpeg",
+      "titlePicture": "/learning-material/story-4/story-tur/Story 4_2 title_TUR.jpeg",
       "fullText": "/learning-material/story-4/story-tur/Stories_Turkish.pdf",
       "fullAudio": "/learning-material/story-4/story-tur/Stories_Turkish_4.m4a",
       "pages": {
         "0": {
           "text": "Bir arkadaşın evinde uyumak",
-          "imageUrl": "/learning-material/story-4/story-tur/Story 4_2 title_TUR.jpg",
+          "imageUrl": "/learning-material/story-4/story-tur/Story 4_2 title_TUR.jpeg",
           "audioUrl": ""
         },
         "1": {
@@ -3411,13 +3411,13 @@
   }],
   "lux": [{
       "title": "De Bobba geet bei seng Frëndin Olivia schlofen",
-      "titlePicture": "/learning-material/story-4/story-lux/Story 4_2 title_L.jpg",
+      "titlePicture": "/learning-material/story-4/story-lux/Story 4_2 title_L.jpeg",
       "fullAudio": "/learning-material/story-4/story-lux/Bobba_LU_Story 4-MP3.mp3",
       "fullText": "/learning-material/story-4/story-lux/Story4_LUX",
       "pages": {
         "0": {
           "text": "De Bobba geet bei seng Frëndin Olivia schlofen",
-          "imageUrl": "/learning-material/story-4/story-lux/Story 4_2 title_L.jpg",
+          "imageUrl": "/learning-material/story-4/story-lux/Story 4_2 title_L.jpeg",
           "audioUrl": "/learning-material/story-4/story-lux/Bobba_LU_Story 4 Intro-MP3.mp3"
         },
         "1": {
@@ -3464,14 +3464,14 @@
   }],
     "gr": [{
       "title": "Φιλοξενία σε έναν φίλο",
-      "titlePicture": "/learning-material/story-4/story-gr/Story 4_2 title_GR.jpg",
+      "titlePicture": "/learning-material/story-4/story-gr/Story 4_2 title_GR.jpeg",
       "fullAudio": "/learning-material/story-4/story-gr/story-4-greek-full.mp3",
       "fullText": "/learning-material/story-4/story-gr/Story_4_GR.pdf",
       "pages":
       {
         "0": {
           "text": "Φιλοξενία σε έναν φίλο",
-          "imageUrl": "/learning-material/story-4/story-gr/Story 4_2 title_GR.jpg",
+          "imageUrl": "/learning-material/story-4/story-gr/Story 4_2 title_GR.jpeg",
           "audioUrl": "/learning-material/story-4/story-gr/story-4-greek-title.mp3"
         },
         "1": {
@@ -3518,13 +3518,13 @@
   }],
     "alb": [{
       "title": "Fjetja te një shok",
-      "titlePicture": "/learning-material/story-4/story-alb/Story 4_2 title_AL.jpg",
+      "titlePicture": "/learning-material/story-4/story-alb/Story 4_2 title_AL.jpeg",
       "fullAudio": "/learning-material/story-4/story-alb/Bobba_AL_Story 4.mp3",
       "fullText": "/learning-material/story-4/story-alb/Story 4_AL.pdf",
       "pages": {
         "0": {
           "text": "Fjetja te një shok",
-          "imageUrl": "/learning-material/story-4/story-alb/Story 4_2 title_AL.jpg",
+          "imageUrl": "/learning-material/story-4/story-alb/Story 4_2 title_AL.jpeg",
           "audioUrl": "/learning-material/story-4/story-alb/Bobba_AL_Story 4 Intro.mp3"
         },
         "1": {
@@ -3571,13 +3571,13 @@
   }],
     "hun": [{
           "title": "Bobba a barátnőjénél alszik ",
-          "titlePicture": "/learning-material/story-4/story-hun/Story 4_2 title_Hungarian.jpg",
+          "titlePicture": "/learning-material/story-4/story-hun/Story 4_2 title_Hungarian.jpeg",
           "fullAudio": "/learning-material/story-4/story-hun/Story 4_HUNG_complete.m4a",
           "fullText": "/learning-material/story-4/story-hun/Story 4_HUNG.pdf",
           "pages": {
             "0": {
               "text": "Bobba a barátnőjénél alszik ",
-              "imageUrl": "/learning-material/story-4/title pictures stroy 4/Story 4_2 title_DE_short.jpg",
+              "imageUrl": "/learning-material/story-4/story-hun/Story 4_2 title_Hungarian.jpeg",
               "audioUrl": ""
             },
             "1": {
@@ -3624,13 +3624,13 @@
         }],
     "ukr": [{
       "title": "Ночівля у друзів",
-      "titlePicture": "/learning-material/story-4/story-ukr/Story 4_2 title_UKR.jpg",
+      "titlePicture": "/learning-material/story-4/story-ukr/Story 4_2 title_UKR.jpeg",
       "fullAudio": "/learning-material/story-4/story-ukr/story-4-ukrainian-full.mp3",
       "fullText": "/learning-material/story-4/story-ukr/Story_4_UA.pdf",
       "pages": {
         "0": {
           "text": "Ночівля у друзів",
-          "imageUrl": "/learning-material/story-4/story-ukr/Story 4_2 title_UKR.jpg",
+          "imageUrl": "/learning-material/story-4/story-ukr/Story 4_2 title_UKR.jpeg",
           "audioUrl": "/learning-material/story-4/story-ukr/4-title.mp3"
         },
         "1": {
@@ -3678,13 +3678,13 @@
 
     "rg": [{
       "title": "Bobba stat sur notg",
-      "titlePicture": "/learning-material/story-4/story-rg/Story 4_title_Rumantsch.png",
+      "titlePicture": "/learning-material/story-4/story-rg/Story 4_title_Rumantsch.jpeg",
       "fullAudio": "/learning-material/story-4/story-rg/bobba_4_komplett.mp3",
       "fullText": "/learning-material/story-4/story-rg/Story 4_RG.pdf",
       "pages": {
         "0": {
           "text": "Bobba stat sur notg",
-          "imageUrl": "/learning-material/story-4/story-rg/Story 4_title_Rumantsch.png",
+          "imageUrl": "/learning-material/story-4/story-rg/Story 4_title_Rumantsch.jpeg",
           "audioUrl": "/learning-material/story-4/story-rg/Bobba_4_0_RG_Titel.mp3"
         },
         "1": {
@@ -3738,13 +3738,13 @@
       }],
       "sur": [{
       "title": "Bobba stat sur notg",
-      "titlePicture": "/learning-material/story-4/story-sur/Story 4_title_Sursilvan.jpg",
+      "titlePicture": "/learning-material/story-4/story-sur/Story 4_title_Sursilvan.jpeg",
       "fullAudio": "",
       "fullText": "/learning-material/story-4/story-sur/Story 4_Sursilvan.pdf",
       "pages": {
         "0": {
           "text": "Bobba stat sur notg",
-          "imageUrl": "/learning-material/story-4/story-sur/Story 4_title_Sursilvan.jpg",
+          "imageUrl": "/learning-material/story-4/story-sur/Story 4_title_Sursilvan.jpeg",
           "audioUrl": ""
         },
         "1": {
@@ -3797,13 +3797,13 @@
       }
       }],"ru": [{
       "title": "Ночёвка в доме друга",
-      "titlePicture": "/learning-material/story-4/story-ru/Story 4_title_Ru.jpg",
+      "titlePicture": "/learning-material/story-4/story-ru/Story 4_2 title_RU.jpeg",
       "fullAudio": "/learning-material/story-4/story-ru/Bobba_RU_Story 4_All.mp3",
       "fullText": "/learning-material/story-4/story-ru/Story 4_RU.pdf",
       "pages": {
         "0": {
           "text": "Ночёвка в доме друга",
-          "imageUrl": "/learning-material/story-4/story-ru/Story 4_title_Ru.jpg",
+          "imageUrl": "/learning-material/story-4/story-ru/Story 4_2 title_RU.jpeg",
           "audioUrl": "/learning-material/story-4/story-en/Story 4_RU_title.m4a"
         },
         "1": {
@@ -3854,13 +3854,13 @@
     "slug": "story-5",
     "en": [{
       "title": "Bobba in the library",
-      "titlePicture": "/learning-material/story-5/story-en/Story 5_title_E.jpg",
+      "titlePicture": "/learning-material/story-5/story-en/Story 5_title_E.jpeg",
       "fullAudio": "/learning-material/story-5/story-en/Story_5_full_audio.m4a",
       "fullText": "/learning-material/story-5/story-en/Story_5_full_text.pdf",
       "pages": {
         "0": {
           "text": "Bobba in the library",
-          "imageUrl": "/learning-material/story-5/story-en/Story 5_title_E.jpg",
+          "imageUrl": "/learning-material/story-5/story-en/Story 5_title_E.jpeg",
           "audioUrl": "/learning-material/story-5/story-en/Story5_English_Title.m4a"
         },
         "1": {
@@ -4543,13 +4543,13 @@
     }],
     "ld": [{
       "title": "Bobba te biblioteca",
-      "titlePicture":  "/learning-material/story-5/story-ladin/Story 5_COVER_LAD.jpeg",
+      "titlePicture":  "/learning-material/story-5/story-ladin/Story  5_COVER_LAD.jpeg",
       "fullAudio": "/learning-material/story-5/story-ladin/Bobba_LADIN_Story 5-MP3.mp3",
       "fullText": "/learning-material/story-5/story-ladin/Story 5_LAD.pdf",
       "pages": {
         "0": {
           "text": "Bobba te biblioteca",
-          "imageUrl":  "/learning-material/story-5/story-ladin/Story 5_COVER_LAD.jpeg",
+          "imageUrl":  "/learning-material/story-5/story-ladin/Story  5_COVER_LAD.jpeg",
           "audioUrl": "/learning-material/story-5/story-ladin/Bobba_LADIN_Story 5 Intro-MP3.mp3"
         },
         "1": {
@@ -4596,13 +4596,13 @@
     }],
     "rg": [{
       "title": "Bobba en la biblioteca",
-      "titlePicture": "/learning-material/story-5/story-rg/Story5_Title_Rumantsch_Grischun.jpg",
+      "titlePicture": "/learning-material/story-5/story-rg/Story5_Title_Rumantsch_Grischun.jpeg",
       "fullAudio": "/learning-material/story-5/story-rg/Bobba_5_komplett.mp3",
       "fullText": "/learning-material/story-5/story-rg/Story 5_RG.pdf",
       "pages": {
         "0": {
           "text": "Bobba en la biblioteca",
-          "imageUrl": "/learning-material/story-5/story-rg/Story5_Title_Rumantsch_Grischun.jpg",
+          "imageUrl": "/learning-material/story-5/story-rg/Story5_Title_Rumantsch_Grischun.jpeg",
           "audioUrl": "/learning-material/story-5/story-rg/Bobba_5_0_RG_Titel.mp3"
         },
         "1": {
@@ -4650,13 +4650,13 @@
    }],
     "ru": [{
       "title": "Бобба в библиотеке",
-      "titlePicture": "/learning-material/story-5/story-ru/Story 5_title_Ru.jpg",
+      "titlePicture": "/learning-material/story-5/story-ru/Story 5_title_Ru.jpeg",
       "fullAudio": "/learning-material/story-5/story-ru/Bobba_RU_Story 5_All.mp3",
       "fullText": "/learning-material/story-5/story-ru/Story 5_RU.pdf",
       "pages": {
         "0": {
           "text": "Бобба в библиотеке",
-          "imageUrl": "/learning-material/story-5/story-ru/Story 5_title_Ru.jpg",
+          "imageUrl": "/learning-material/story-5/story-ru/Story 5_title_Ru.jpeg",
           "audioUrl": "/learning-material/story-5/story-ru/Bobba_RU_Story 5_Intro.mp3"
         },
         "1": {
@@ -4708,13 +4708,13 @@
     "slug": "story-6",
     "en": [{
       "title": "The Monster castle",
-      "titlePicture": "/learning-material/story-6/covers/Story 6_title_E.jpg",
+      "titlePicture": "/learning-material/story-6/covers/Story 6_title_E.jpeg",
       "fullAudio": "/learning-material/story-6/story-en/6_complete version.m4a",
       "fullText": "/learning-material/story-6/story-en/Story6_EN.pdf",
       "pages": {
         "0": {
           "text": "The Monster castle",
-          "imageUrl":  "/learning-material/story-6/covers/Story 6_title_E.jpg",
+          "imageUrl":  "/learning-material/story-6/covers/Story 6_title_E.jpeg",
           "audioUrl": "/learning-material/story-6/story-en/Story_6_title.m4a"
         },
         "1": {
@@ -4867,13 +4867,13 @@
     }],
     "fr": [{
       "title": "Le château des monstres",
-      "titlePicture": "/learning-material/story-6/covers/Story 6_COVER_FR.JPG",
+      "titlePicture": "/learning-material/story-6/covers/Story 6_COVER_FR.jpeg",
       "fullAudio": "/learning-material/story-6/story-fr/Bobba_FR_Story 6-MP3.mp3",
       "fullText": "/learning-material/story-6/story-fr/Story 6_F.pdf",
       "pages": {
         "0": {
           "text": "Le château des monstres",
-          "imageUrl": "/learning-material/story-6/covers/Story 6_COVER_FR.JPG",
+          "imageUrl": "/learning-material/story-6/covers/Story 6_COVER_FR.jpeg",
           "audioUrl": "/learning-material/story-6/story-fr/Bobba_FR_Story 6 Intro-MP3.mp3"
         },
         "1": {
@@ -5612,13 +5612,13 @@
     "slug": "story-7",
     "en": [{
       "title": "Celebrating Olivia's birthday",
-      "titlePicture": "/learning-material/story-7/covers/Story 7_title_E.jpg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_E.jpeg",
       "fullAudio": "/learning-material/story-7/story-en/Story 7_Full_E.m4a",
       "fullText": "/learning-material/story-7/story-en/Story7_EN.pdf",
       "pages": {
         "0": {
           "text": "Celebrating Olivia's birthday",
-          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_E.jpg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_E.jpeg",
           "audioUrl": "/learning-material/story-7/story-en/Story 7_title E.m4a"
         },
         "1": {
@@ -5665,13 +5665,13 @@
     }],
     "de-lang": [{
       "title": "Olivias Geburtstagsparty",
-      "titlePicture": "/learning-material/story-7/covers/Story 7_title_GE.webp",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_GE.jpeg",
       "fullAudio": "/learning-material/story-7/story-de/Story 7_Full_GE.mp3",
       "fullText": "/learning-material/story-7/story-de/Story7_DE_L.pdf",
       "pages": {
         "0": {
           "text": "Olivias Geburtstagsparty",
-          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_GE.webp",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_GE.jpeg",
           "audioUrl": "/learning-material/story-7/story-de/Olivias_Geburtstagsparty.m4a"
         },
         "1": {
@@ -5718,13 +5718,13 @@
     }],
     "de": [{
       "title": "Olivias Geburtstagsfeier",
-      "titlePicture": "/learning-material/story-7/covers/Story 7_title_GE_S.png",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_GE.jpeg",
       "fullAudio": "/learning-material/story-7/story-de-short/Bobba_DE_Story_7_Gesamt.mp3",
       "fullText": "/learning-material/story-7/story-de-short/Story7_DE_S.pdf",
       "pages": {
         "0": {
           "text": "Olivias Geburtstagsfeier",
-          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_GE_S.png",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_GE.jpeg",
           "audioUrl": "/learning-material/story-7/story-de-short/Bobba_DE_Story_7_Titel.mp3"
         },
         "1": {
@@ -5771,13 +5771,13 @@
     }],
     "fr": [{
       "title": "Olivia fête son anniversaire",
-      "titlePicture": "/learning-material/story-7/covers/Story 7_title_F.jpg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_F.jpeg",
       "fullAudio": "/learning-material/story-7/story-fr/Bobba_FR_Story 7-MP3.mp3",
       "fullText": "/learning-material/story-7/story-fr/Story 7_F.pdf",
       "pages": {
         "0": {
           "text": "Olivia fête son anniversaire",
-          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_F.jpg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_F.jpeg",
           "audioUrl": "/learning-material/story-7/story-fr/Bobba_FR_Story 7 Intro-MP3.mp3"
         },
         "1": {
@@ -5824,13 +5824,13 @@
     }],
     "it": [{
       "title": "La festa di compleanno di Olivia",
-      "titlePicture": "/learning-material/story-7/covers/Story 7_title_I.jpg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_I.jpeg",
       "fullAudio": "/learning-material/story-7/story-it/Story 7_Italiano_komplett.mp3",
       "fullText": "/learning-material/story-7/story-it/Story 7_IT.pdf",
       "pages": {
         "0": {
           "text": "La festa di compleanno di Olivia",
-          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_I.jpg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_I.jpeg",
           "audioUrl": "/learning-material/story-7/story-it/Story_7_title.mp3"
         },
         "1": {
@@ -5877,13 +5877,13 @@
     }],
     "lux": [{
       "title": "Dem Olivia säi Gebuertsdag",
-      "titlePicture": "/learning-material/story-7/covers/Story 7_title_L.jpg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_L.jpeg",
       "fullAudio": "/learning-material/story-7/story-lux/Bobba_LU_Story 7.mp3",
       "fullText": "/learning-material/story-7/story-lux/Story 7_LUX.pdf",
       "pages": {
         "0": {
           "text": "Dem Olivia säi Gebuertsdag",
-          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_L.jpg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_L.jpeg",
           "audioUrl": "/learning-material/story-7/story-lux/Bobba_LU_Story 7 Intro.mp3"
         },
         "1": {
@@ -5930,13 +5930,13 @@
     }],
     "gr": [{
       "title": "Γιορτάζοντας τα γενέθλια της Ολίβια",
-      "titlePicture": "/learning-material/story-7/covers/Story 7_title_GR.jpg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_GR.jpeg",
       "fullAudio": "/learning-material/story-7/story-gr/story-7-greek-full.mp3",
       "fullText": "/learning-material/story-7/story-gr/Story7_GR.pdf",
       "pages": {
         "0": {
           "text": "Γιορτάζοντας τα γενέθλια της Ολίβια",
-          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_GR.jpg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_GR.jpeg",
           "audioUrl": "/learning-material/story-7/story-gr/story-7-greek-title.mp3"
         },
         "1": {
@@ -5983,13 +5983,13 @@
     }],
     "sv": [{
       "title": "Olivia praznuje rojstni dan",
-      "titlePicture": "/learning-material/story-7/covers/Story 7_title_SL.jpg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_SL.jpeg",
       "fullAudio": "/learning-material/story-7/story-slo/Story 7_SLO_complete.m4a",
       "fullText": "/learning-material/story-7/story-slo/Story7_SLO.pdf",
       "pages": {
         "0": {
           "text": "Olivia praznuje rojstni dan",
-          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_SL.jpg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_SL.jpeg",
           "audioUrl": "/learning-material/story-7/story-slo/Story 7_SLO_title.m4a"
         },
         "1": {
@@ -6036,13 +6036,13 @@
     }],
     "alb": [{
       "title": "Duke festuar ditëlindjen e Olivias",
-      "titlePicture": "/learning-material/story-7/covers/Story 7_title_AL.jpg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_AL.jpeg",
       "fullAudio": "/learning-material/story-7/story-alb/Bobba_AL_Story 7.mp3",
       "fullText": "/learning-material/story-7/story-alb/Story7_AL.pdf",
       "pages": {
         "0": {
           "text": "Duke festuar ditëlindjen e Olivias",
-          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_AL.jpg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_AL.jpeg",
           "audioUrl": "/learning-material/story-7/story-alb/Bobba_AL_Story 7 Intro.mp3"
         },
         "1": {
@@ -6089,13 +6089,13 @@
     }],
     "ukr": [{
       "title": "Святкування дня народження Олівії",
-      "titlePicture": "/learning-material/story-7/covers/Story 7_title_UKR.jpg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_UKR.jpeg",
       "fullAudio": "/learning-material/story-7/story-ukr/story-7-ukrainian-full.mp3",
       "fullText": "/learning-material/story-7/story-ukr/Story7_UKR.pdf",
       "pages": {
         "0": {
           "text": "Святкування дня народження Олівії",
-          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_UKR.jpg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_UKR.jpeg",
           "audioUrl": "/learning-material/story-7/story-ukr/7.mp3"
         },
         "1": {
@@ -6142,13 +6142,13 @@
     }],
     "pl": [{
       "title": "Urodziny Olivii",
-      "titlePicture": "/learning-material/story-7/covers/Story 7_title_PL.jpg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_PL.jpeg",
       "fullAudio": "/learning-material/story-7/story-pl/Story 7_PL.m4a",
       "fullText": "/learning-material/story-7/story-pl/Story7_Pl.pdf",
       "pages": {
         "0": {
           "text": "Urodziny Olivii",
-          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_PL.jpg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_PL.jpeg",
           "audioUrl": "/learning-material/story-7/story-/title.mp3"
         },
         "1": {
@@ -6195,13 +6195,13 @@
     }],
      "por": [{
       "title": "A festa de aniversário da Olívia",
-      "titlePicture": "/learning-material/story-7/covers/Story 7_title_P.jpg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_P.jpeg",
       "fullAudio": "/learning-material/story-7/story-por/7_complete version.m4a",
       "fullText": "/learning-material/story-7/story-por/Story7_POR.pdf",
       "pages": {
         "0": {
           "text": "A festa de aniversário da Olívia",
-          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_P.jpg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_P.jpeg",
           "audioUrl": "/learning-material/story-7/story-por/7_title.m4a"
         },
         "1": {
@@ -6248,13 +6248,13 @@
     }],
     "ld": [{
       "title": "Festejé l cumplì di ani de Olivia",
-      "titlePicture": "/learning-material/story-7/covers/Story 7_title_LA.jpg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_LA.jpeg",
       "fullAudio": "/learning-material/story-7/story-ladin/Bobba_LADIN_Story 7-MP3.mp3",
       "fullText": "/learning-material/story-7/story-ladin/Story 7_LAD.pdf",
       "pages": {
         "0": {
           "text": "Festejé l cumplì di ani de Olivia",
-          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_LA.jpg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_LA.jpeg",
           "audioUrl": "/learning-material/story-7/story-ladin/Bobba_LADIN_Story 7 Intro-MP3.mp3"
         },
         "1": {
@@ -6301,13 +6301,13 @@
     }],
     "tur": [{
       "title": "Olivia’nın Doğum Günü Kutlaması",
-      "titlePicture": "/learning-material/story-7/covers/Story 7_title_TU.jpg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_TU.jpeg",
       "fullAudio": "/learning-material/story-7/story-tur/Stories_Turkish_7.m4a",
       "fullText": "/learning-material/story-7/story-tur/Story7_TUR.pdf",
       "pages": {
         "0": {
           "text": "Olivia’nın Doğum Günü Kutlaması",
-          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_TU.jpg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_TU.jpeg",
           "audioUrl": "/learning-material/story-7/story-tur/Story_7_title.mp3"
         },
         "1": {
@@ -6354,13 +6354,13 @@
     }],
     "rg": [{
       "title": "La festa da natalizi dad Olivia",
-      "titlePicture": "/learning-material/story-7/story-rg/Story 7_title_Rumantsch.jpg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_Rumantsch.jpeg",
       "fullAudio": "/learning-material/story-7/story-rg/bobba_7_komplett.mp3",
       "fullText": "/learning-material/story-7/story-rg/Story 7_RG.pdf",
       "pages": {
         "0": {
           "text": "La festa da natalizi dad Olivia",
-          "imageUrl":  "/learning-material/story-7/story-rg/Story 7_title_Rumantsch.jpg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_Rumantsch.jpeg",
           "audioUrl": "/learning-material/story-7/story-rg/Bobba_7_0_RG_Titel.mp3"
         },
         "1": {
@@ -6407,13 +6407,13 @@
     }],
      "sur": [{
       "title": "La fiasta da natalezi d’Olivia",
-      "titlePicture": "/learning-material/story-7/story-sur/Story 7_title_Sursilvan.jpg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_Sursilvan.jpeg",
       "fullAudio": "",
       "fullText": "/learning-material/story-7/story-sur/Story 7_Sursilvan.pdf",
       "pages": {
         "0": {
           "text": "La fiasta da natalezi d’Olivia",
-          "imageUrl":  "/learning-material/story-7/story-sur/Story 7_title_Sursilvan.jpg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_Sursilvan.jpeg",
           "audioUrl": ""
         },
         "1": {
@@ -6460,13 +6460,13 @@
     }],
      "sur": [{
       "title": "La fiasta da natalezi d’Olivia",
-      "titlePicture": "/learning-material/story-7/story-sur/Story 7_title_Sursilvan.jpg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_Sursilvan.jpeg",
       "fullAudio": "",
       "fullText": "/learning-material/story-7/story-sur/Story 7_Sursilvan.pdf",
       "pages": {
         "0": {
           "text": "La fiasta da natalezi d’Olivia",
-          "imageUrl":  "/learning-material/story-7/story-sur/Story 7_title_Sursilvan.jpg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_Sursilvan.jpeg",
           "audioUrl": ""
         },
         "1": {
@@ -6512,13 +6512,13 @@
       }
     }],"ru": [{
       "title": "Празднование Дня Рождения Оливии",
-      "titlePicture": "/learning-material/story-7/story-ru/Story 7_title_RU.jpg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_RU.jpeg",
       "fullAudio": "/learning-material/story-7/story-ru/Bobba_RU_Story 7_All.mp3",
       "fullText": "/learning-material/story-7/story-ru/Story 7_RU.pdf",
       "pages": {
         "0": {
           "text": "Празднование Дня Рождения Оливии",
-          "imageUrl":  "/learning-material/story-7/story-ru/Story 7_title_RU.jpg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_RU.jpeg",
           "audioUrl": "/learning-material/story-7/story-ru/Bobba_RU_Story 7_Intro.mp3"
         },
         "1": {
@@ -6569,13 +6569,13 @@
     "slug": "story-8",
     "en": [{
       "title": "Going home",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_E.jpg",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_E.jpeg",
       "fullAudio": "/learning-material/story-8/story-en/Story 8_Full_E.m4a",
       "fullText": "/learning-material/story-8/story-en/Story8_EN.pdf",
       "pages": {
         "0": {
           "text": "Going home",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_E.jpg",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_E.jpeg",
           "audioUrl": "/learning-material/story-8/story-en/Story 8_title E.m4a"
         },
         "1": {
@@ -6622,13 +6622,13 @@
     }],
     "de": [{
       "title": "Bobba fliegt wieder nach Hause",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_G.png",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_G.jpeg",
       "fullAudio": "/learning-material/story-8/story-de short/Bobba_DE_Story 8 gesamt.mp3",
       "fullText": "/learning-material/story-8/story-de short/Story8_DE_S.pdf",
       "pages": {
         "0": {
           "text": "Bobba fliegt wieder nach Hause",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_G.png",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_G.jpeg",
           "audioUrl": "/learning-material/story-8/story-de short/Bobba_DE_Story 8 Titel.mp3"
         },
         "1": {
@@ -6675,13 +6675,13 @@
     }],
     "de-lang": [{
       "title": "Bobba fährt zurück nach Hause",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_GE_L.png",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_G.jpeg",
       "fullAudio": "/learning-material/story-8/story-de/story-8-long-version_G_Komplett.mp3",
       "fullText": "/learning-material/story-8/story-de/Story8_DE_L.pdf",
       "pages": {
         "0": {
           "text": "Bobba fährt zurück nach Hause",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_GE_L.png",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_G.jpeg",
           "audioUrl": "/learning-material/story-8/story-de/story 8_Long Version_1 Title.mp3"
         },
         "1": {
@@ -6728,13 +6728,13 @@
     }],
     "alb": [{
       "title": "Kthimi në shtëpi",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_ALB.png",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_ALB.jpeg",
       "fullAudio": "/learning-material/story-8/story-alb/Bobba_AL_Story 8.mp3",
       "fullText": "/learning-material/story-8/story-alb/Story8_AL.pdf",
       "pages": {
         "0": {
           "text": "Kthimi në shtëpi",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_ALB.png",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_ALB.jpeg",
           "audioUrl": "/learning-material/story-8/story-alb/Bobba_AL_Story 8 Intro.mp3"
         },
         "1": {
@@ -6781,13 +6781,13 @@
     }],
     "fr": [{
       "title": "Retour à la maison",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_F.png",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_F.jpeg",
       "fullAudio": "/learning-material/story-8/story-fr/Bobba_FR_Story 8-MP3.mp3",
       "fullText": "/learning-material/story-8/story-fr/Story8_F.pdf",
       "pages": {
         "0": {
           "text": "Retour à la maison",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_F.png",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_F.jpeg",
           "audioUrl": "/learning-material/story-8/story-fr/Bobba_FR_Story 8 Intro-MP3.mp3"
         },
         "1": {
@@ -6834,13 +6834,13 @@
     }],
     "it": [{
       "title": "Bobba torna a casa",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_ITA.png",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_ITA.jpeg",
       "fullAudio": "/learning-material/story-8/story-it/Story 8_Italiano_Komplett.mp3",
       "fullText": "/learning-material/story-8/story-it/Story8_IT.pdf",
       "pages": {
         "0": {
           "text": "Bobba torna a casa",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_ITA.png",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_ITA.jpeg",
           "audioUrl": "/learning-material/story-8/story-it/Story 8_Title.mp3"
         },
         "1": {
@@ -6887,13 +6887,13 @@
     }],
     "lux": [{
       "title": "Zeréck heem",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_LUX.png",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_LUX.jpeg",
       "fullAudio": "/learning-material/story-8/story-lux/Bobba_LU_Story 8.mp3",
       "fullText": "/learning-material/story-8/story-lux/Story8_LUX.pdf",
       "pages": {
         "0": {
           "text": "Zeréck heem",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_LUX.png",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_LUX.jpeg",
           "audioUrl": "/learning-material/story-8/story-lux/Bobba_LU_Story 8 Intro.mp3"
         },
         "1": {
@@ -6940,13 +6940,13 @@
     }],
      "gr": [{
       "title": "Επιστροφή στο σπίτι",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_GRE.png",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_GRE.jpeg",
       "fullAudio": "/learning-material/story-8/story-gr/story-8-greek-full.mp3",
       "fullText": "/learning-material/story-8/story-gr/Story8_GR.pdf",
       "pages": {
         "0": {
           "text": "Επιστροφή στο σπίτι",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_GRE.png",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_GRE.jpeg",
           "audioUrl": "/learning-material/story-8/story-gr/story-8-greek-title.mp3"
         },
         "1": {
@@ -6993,13 +6993,13 @@
     }],
     "sv": [{
       "title": "Bobba gre domov",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_SVN.png",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_SVN.jpeg",
       "fullAudio": "/learning-material/story-8/story-slo/Story 8_SLO_complete.m4a",
       "fullText": "/learning-material/story-8/story-slo/Story8_SLO.pdf",
       "pages": {
         "0": {
           "text": "Bobba gre domov",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_SVN.png",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_SVN.jpeg",
           "audioUrl": "/learning-material/story-8/story-slo/Story 8_SLO_title.m4a"
         },
         "1": {
@@ -7046,13 +7046,13 @@
     }],
     "ukr": [{
       "title": "Додому",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_UKR.png",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_UKR.jpeg",
       "fullAudio": "/learning-material/story-8/story-ukr/story-8-ukrainian-full.mp3",
       "fullText": "/learning-material/story-8/story-ukr/Story8_UKR.pdf",
       "pages": {
         "0": {
           "text": "Додому",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_UKR.png",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_UKR.jpeg",
           "audioUrl": "/learning-material/story-8/story-ukr/8.mp3"
         },
         "1": {
@@ -7099,13 +7099,13 @@
     }],
     "por": [{
       "title": "Regresso a casa",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_POR.png",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_POR.jpeg",
       "fullAudio": "/learning-material/story-8/story-por/8_complete version.m4a",
       "fullText": "/learning-material/story-8/story-por/Story8_POR.pdf",
       "pages": {
         "0": {
           "text": "Regresso a casa",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_POR.png",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_POR.jpeg",
           "audioUrl": "/learning-material/story-8/story-por/8_title.m4a"
         },
         "1": {
@@ -7152,13 +7152,13 @@
     }],
     "ld": [{
       "title": "Zeréck heem",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_LAD.png",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_LAD.jpeg",
       "fullAudio": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8-MP3.mp3",
       "fullText": "/learning-material/story-8/story-ladin/Story8_L.pdf",
       "pages": {
         "0": {
           "text": "Zeréck heem",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_LAD.png",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_LAD.jpeg",
           "audioUrl": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8 Intro-MP3.mp3"
         },
         "1": {
