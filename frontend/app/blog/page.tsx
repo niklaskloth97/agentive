@@ -18,7 +18,8 @@ export default function Blog() {
       { title: 'The Open AGENTIVE Resources for Multilingual Early Childhood Education', excerpt: 'Explore the OER Page!', image: '/images/blogThumbnails/oer-agentive.png', link: '/blog/blog13'},
       { title: 'Festival Migrations, Cultures & Citoyenneté', excerpt: 'Take a look!', image: '/images/blogThumbnails/blog14.jpg', link: '/blog/blog14'},
       { title: 'Eltereschoul Event', excerpt: 'Take a look!', image: '/images/blogThumbnails/blog15.jpg', link: '/blog/blog15'},
-      { title: 'The BScE Event', excerpt: 'Take a look!', image: '/images/blogThumbnails/blog16.jpg', link: '/blog/blog16'}
+      { title: 'The BScE Event', excerpt: 'Take a look!', image: '/images/blogThumbnails/blog16.jpg', link: '/blog/blog16'},
+      { title: 'Recording Chinese stories together with Little Panda Education', excerpt: 'Take a look!', image: '/images/blogThumbnails/blog16.jpg', link: '/blog/blog17'}
   ]
 
   return (

@@ -2665,13 +2665,13 @@
     }],
     "hun": [{
       "title": "Bobba a tengerparton",
-      "titlePicture": "/learning-material/story-3/story-hun/Story 3 COVER Hungarian.jpg",
+      "titlePicture": "/learning-material/story-3/story-hun/Story 3 COVER Hungarian.jpeg",
       "fullAudio": "/learning-material/story-3/story-hun/Story 3_HUNG_complete.m4a",
       "fullText": "/learning-material/story-3/story-hun/Story 3_HUNG.pdf",
       "pages": {
          "0": {
           "text": "Bobba a tengerparton",
-          "imageUrl": "/learning-material/story-3/story-hun/Story 3 COVER Hungarian.jpg",
+          "imageUrl": "/learning-material/story-3/story-hun/Story 3 COVER Hungarian.jpeg",
           "audioUrl": ""
         },
         "1": {
@@ -2771,7 +2771,7 @@
       }
     }],
     "sur": [{
-      "title": "Bobba alla splagia",
+      "title": "Bobba a la splagia",
       "titlePicture": "/learning-material/story-3/story-sur/Story 3_COVER_Sursilvan.jpeg",
       "fullAudio": "",
       "fullText": "/learning-material/story-3/story-sur/Story 3_Sursilvan.pdf",
