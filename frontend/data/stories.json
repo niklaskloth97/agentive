@@ -2380,13 +2380,13 @@
     "fr": [
       {
         "title": "Bobba à la plage",
-        "titlePicture": "/learning-material/story-3/story-fr/Story 3_title_F_.jpeg",
+        "titlePicture": "/learning-material/story-3/story-fr/Story 3_title_F.jpeg",
         "fullAudio": "/learning-material/story-3/story-fr/Bobba_FR_Story 3-MP3.mp3",
         "fullText": "",
         "pages": {
           "0": {
             "text": "Bobba à la plage",
-            "imageUrl": "/learning-material/story-3/story-fr/Story 3_title_F_.jpeg",
+            "imageUrl": "/learning-material/story-3/story-fr/Story 3_title_F.jpeg",
             "audioUrl": "/learning-material/story-3/story-fr/Bobba_FR_Story 3 Intro-MP3.mp3"
           },
           "1": {
@@ -6354,13 +6354,13 @@
     "ru": [
       {
         "title": "Замок у чудовищ",
-        "titlePicture": "/learning-material/story-6/story-ru/Story 6_title_Ru.jpg",
+        "titlePicture": "/learning-material/story-6/story-ru/Story 6_title_Ru.jpeg",
         "fullAudio": "/learning-material/story-6/story-ru/Bobba_RU_Story 6_All.mp3",
         "fullText": "/learning-material/story-6/story-ru/Story 6_RU.pdf",
         "pages": {
           "0": {
             "text": "Замок у чудовищ",
-            "imageUrl": "/learning-material/story-6/story-ru/Story 6_title_Ru.jpg",
+            "imageUrl": "/learning-material/story-6/story-ru/Story 6_title_Ru.jpeg",
             "audioUrl": "/learning-material/story-6/story-ru/Bobba_RU_Story 6_Intro.mp3"
           },
           "1": {
@@ -6798,13 +6798,13 @@
     "it": [
       {
         "title": "La festa di compleanno di Olivia",
-        "titlePicture": "/learning-material/story-7/covers/Story 7_title_I.jpeg",
+        "titlePicture": "/learning-material/story-7/covers/Story 7_title_IT.jpeg",
         "fullAudio": "/learning-material/story-7/story-it/Story 7_Italiano_komplett.mp3",
         "fullText": "/learning-material/story-7/story-it/Story 7_IT.pdf",
         "pages": {
           "0": {
             "text": "La festa di compleanno di Olivia",
-            "imageUrl": "/learning-material/story-7/covers/Story 7_title_I.jpeg",
+            "imageUrl": "/learning-material/story-7/covers/Story 7_title_IT.jpeg",
             "audioUrl": "/learning-material/story-7/story-it/Story_7_title.mp3"
           },
           "1": {
