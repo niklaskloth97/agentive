@@ -1047,6 +1047,61 @@
           }
         }
       }
+    ],
+    "hr": [
+      {
+        "title": "Bobba prvi put putuje na Zemlju",
+        "titlePicture": "/learning-material/story-1/story-hr/Story 1_title_HR.jpeg",
+        "fullAudio": "/learning-material/story-1/story-hr/Bobba_HR_Story 1.m4a",
+        "fullText": "/learning-material/story-1/story-hr/Story 1_HR.pdf",
+        "pages": {
+          "0": {
+            "text": "Bobba prvi put putuje na Zemlju",
+            "imageUrl": "/learning-material/story-1/story-hr/Story 1_title_HR.jpeg",
+            "audioUrl": "/learning-material/story-1/story-hr/Story1_HR_Title.m4a"
+          },
+          "1": {
+            "text": "Bobba živi na jednom dalekom planetu. Danas je vrlo uzbuđen. Napokon je dobio svoj svemirski brod i sada može letjeti kamo god želi! ",
+            "imageUrl": "/learning-material/story-1/new-images/Story1_pic1-min.jpg",
+            "audioUrl": "/learning-material/story-1/story-hr/Story1_HR_1.m4a"
+          },
+          "2": {
+            "text": "Već dugo sanja o tome da poleti na Zemlju. ",
+            "imageUrl": "/learning-material/story-1/new-images/Story1_pic2-min.jpg",
+            "audioUrl": "/learning-material/story-1/story-hr/Story1_HR_2.m4a"
+          },
+          "3": {
+            "text": "Skoči u svoj svemirski brod i uzleti. Njegovi su prijatelji i obitelj iznenađeni! »Kamo to ide?« pitaju se. Bobba leti ravno prema planetu Zemlji. ",
+            "imageUrl": "/learning-material/story-1/new-images/Story1_pic3-min.jpg",
+            "audioUrl": "/learning-material/story-1/story-hr/Story1_HR_3.m4a"
+          },
+          "4": {
+            "text": "Leti pokraj planeta i kometa te se pita kada će napokon stići na Zemlju. ",
+            "imageUrl": "/learning-material/story-1/new-images/Story1_pic4-min.jpg",
+            "audioUrl": "/learning-material/story-1/story-hr/Story1_HR_4.m4a"
+          },
+          "5": {
+            "text": "Odjednom ugleda plavu kuglu i, prije nego što je postao svjestan što se događa, već leti kroz oblake te uz glasan prasak slijeće u hrpu lišća i granja! ",
+            "imageUrl": "/learning-material/story-1/new-images/Story1_pic5-min.jpg",
+            "audioUrl": "/learning-material/story-1/story-hr/Story1_HR_5.m4a"
+          },
+          "6": {
+            "text": "Iskobelja se iz svemirskog broda i pogleda oko sebe. Ugleda dva crna oka usred crnog perja kako zure u njega. Bobba pozdravi: »Saluton!«, ali pernato ga stvorenje samo prostrijeli pogledom i odleti. Spusti se s drveta i primijeti crveno stvorenje s crnim točkama. »Saluton!« povika Bobba, ali stvorenje se uopće ne osvrne na njega.",
+            "imageUrl": "/learning-material/story-1/new-images/Story1_pic6-min.jpg",
+            "audioUrl": "/learning-material/story-1/story-hr/Story1_HR_6.m4a"
+          },
+          "7": {
+            "text": "Dječak i djevojčica ugledaju Bobbu i zahihoću se. »S kime to razgovaraš? Oni ne znaju govoriti!« Bobba se okrene. »Saluton! Ĉu vi estas infanoj?« upita. Djeca se pogledaju. »Infanoj? Misliš li da smo bebe?« »Ma kakvi!« uzrujaju se. »Nismo bebe! Mi smo djeca!« \n»Ahaaaa!« uzvikne Bobba. »Djeca! Infanoj! Djeca!« Dječak i djevojčica se nasmiju. ",
+            "imageUrl": "/learning-material/story-1/new-images/Story1_pic7-min.jpg",
+            "audioUrl": "/learning-material/story-1/story-hr/Story1_HR_7.m4a"
+          },
+          "8": {
+            "text": "»Bi li želio vidjeti naše igralište?« upita Olivia. Bobba se nasmiješi. Ben ga primi za ruku i zajedno krenu prema igralištu.",
+            "imageUrl": "/learning-material/story-1/new-images/Story1_pic8-min.jpg",
+            "audioUrl": "/learning-material/story-1/story-hr/Story1_HR_8.m4a"
+          }
+        }
+      }
     ]
   },
   {
@@ -2094,6 +2149,61 @@
             "text": " 所有的小朋友都围在波巴身边，一起喊着：“Ludi!Ludi!”波巴心想：“今天真是美好的\n一天呀！",
             "imageUrl": "/learning-material/story-2/story-en/Story 2_8.jpeg",
             "audioUrl": "/learning-material/story-2/story-chi/Bobba_CH_Story 2_8.mp3"
+          }
+        }
+      }
+    ],
+    "hr": [
+      {
+        "title": "U vrtiću",
+        "titlePicture": "/learning-material/story-2/story-hr/Story 2_COVER_HR.jpeg",
+        "fullAudio": "/learning-material/story-2/story-hr/Story 2_HR_complete.mp3",
+        "fullText": "/learning-material/story-2/story-hr/Story 2_HR.pdf",
+        "pages": {
+          "0": {
+            "text": "U vrtiću",
+            "imageUrl": "/learning-material/story-2/story-hr/Story 2_COVER_HR.jpeg",
+            "audioUrl": "/learning-material/story-2/story-hr/Story1_HR_Title.m4a"
+          },
+          "1": {
+            "text": "Bobba ugleda predivnu, šarenu zgradu. Iz nje se čuju smijeh i pjesma. Znatiželjan je pa odluči provjeriti što se tamo događa.",
+            "imageUrl": "/learning-material/story-2/story-en/Story 2_2.jpg",
+            "audioUrl": "/learning-material/story-2/story-hr/Story1_HR_1.m4a"
+          },
+          "2": {
+            "text": "Kada otvori vrata, ugleda djecu kako trče uokolo i uzvikuju od radosti. Bobbi se to svidi pa im se želi pridružiti. Maše im: »Saluton! Saluton!«",
+            "imageUrl": "/learning-material/story-2/story-en/Story 2_3.jpg",
+            "audioUrl": "/learning-material/story-2/story-hr/Story1_HR_2.m4a"
+          },
+          "3": {
+            "text": "Kada djeca ugledaju Bobbu, ukopaju se na mjestu i širom otvorenih očiju zure u njega. »Tko je to?« »Što to govori?« »Je li to naš novi odgojitelj?« Djeca se brzo sakriju.",
+            "imageUrl": "/learning-material/story-2/story-en/Story 2_4.jpg",
+            "audioUrl": "/learning-material/story-2/story-hr/Story1_HR_3.m4a"
+          },
+          "4": {
+            "text": "Bobba je sada potpuno sam i zbog toga postane tužan. Jako bi se rado htio igrati. »Ludi! Ludi!«",
+            "imageUrl": "/learning-material/story-2/story-en/Story 2_5.jpg",
+            "audioUrl": "/learning-material/story-2/story-hr/Story1_HR_4.m4a"
+          },
+          "5": {
+            "text": "Odjednom iz toaleta iziđe djevojčica i zbunjeno pogleda oko sebe. »A kamo su svi nestali?« Tada ugleda Bobbu.",
+            "imageUrl": "/learning-material/story-2/story-en/Story 2_5.jpeg",
+            "audioUrl": "/learning-material/story-2/story-hr/Story1_HR_5.m4a"
+          },
+          "6": {
+            "text": "Nasmiješi mu se i kaže: »Bok! Bi li se htio igrati?« Bobba joj uzvrati osmijeh. »Bone! Bone!« I počnu se igrati.",
+            "imageUrl": "/learning-material/story-2/story-en/Story 2_6.jpg",
+            "audioUrl": "/learning-material/story-2/story-hr/Story1_HR_6.m4a"
+          },
+          "7": {
+            "text": "Kada i ostala djeca vide da se Bobba i djevojčica igraju, polako, jedno za drugim, izlaze iz svojih skrovišta. I oni se žele igrati s Bobbom.",
+            "imageUrl": "/learning-material/story-2/story-en/Story 2_7.jpg",
+            "audioUrl": "/learning-material/story-2/story-hr/Story1_HR_7.m4a"
+          },
+          "8": {
+            "text": "Djeca se naguraju oko Bobbe. »Ludi! Ludi!« viču. »Kakav krasan dan!« pomisli Bobba.",
+            "imageUrl": "/learning-material/story-2/story-en/Story 2_8.jpeg",
+            "audioUrl": "/learning-material/story-2/story-hr/Story1_HR_8.m4a"
           }
         }
       }
@@ -3147,6 +3257,61 @@
           }
         }
       }
+    ],
+    "hr": [
+      {
+        "title": "Bobba na plaži",
+        "titlePicture": "/learning-material/story-3/story-hr/Story 3_COVER_HR.jpeg",
+        "fullAudio": "/learning-material/story-3/story-hr/Story 3_HR_complete.mp3",
+        "fullText": "/learning-material/story-3/story-hr/Story 3_HR.pdf",
+        "pages": {
+          "0": {
+            "text": "Bobba na plaži",
+            "imageUrl": "/learning-material/story-3/story-hr/Story 3_COVER_HR.jpeg",
+            "audioUrl": "/learning-material/story-3/story-hr/Story3_HR_Title.m4a"
+          },
+          "1": {
+            "text": "Djeca odvedu Bobbu na plažu. Svi su dobre volje, smiju se i pjevaju: Didididi didididi dididi ididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
+            "imageUrl": "/learning-material/story-3/story-en/Story 3_1.jpg",
+            "audioUrl": "/learning-material/story-3/story-hr/Story3_HR_1.m4a"
+          },
+          "2": {
+            "text": "Kada Bobba ugleda more, ostane očaran. Nikada još nije vidio toliko vode. »Kakav ogroman bazen!« pomisli u sebi.",
+            "imageUrl": "/learning-material/story-3/story-en/Story 3_2.jpg",
+            "audioUrl": "/learning-material/story-3/story-hr/Story3_HR_2.m4a"
+          },
+          "3": {
+            "text": "Djeca mu pomognu staviti šarene rukavice za plivanje i kolut na napuhavanje. »Eto, Bobba, spreman si! Idemo!«",
+            "imageUrl": "/learning-material/story-3/story-en/Story 3_3.jpg",
+            "audioUrl": "/learning-material/story-3/story-hr/Story3_HR_3.m4a"
+          },
+          "4": {
+            "text": "Djeca prime Bobbu za ruke kako bi ga odvela u vodu. »Hajde, Bobba, idemo!« Ali Bobba stoji kao ukopan.",
+            "imageUrl": "/learning-material/story-3/story-en/Story 3_4.jpg",
+            "audioUrl": "/learning-material/story-3/story-hr/Story3_HR_4.m4a"
+          },
+          "5": {
+            "text": "Djeca vuku i vuku, ali Bobba se ne miče. »Što nije u redu, Bobba? Ne sviđa ti se plivanje? Pa to je zabavno!« ",
+            "imageUrl": "/learning-material/story-3/story-en/Story 3_5.jpg",
+            "audioUrl": "/learning-material/story-3/story-hr/Story3_HR_5.m4a"
+          },
+          "6": {
+            "text": "Jedno dijete pogleda Bobbu i odjednom mu sine zašto Bobba ne želi u more. »Mislim da se boji vode. Kako mu možemo pomoći?« ",
+            "imageUrl": "/learning-material/story-3/story-en/Story 3_6.jpg",
+            "audioUrl": "/learning-material/story-3/story-hr/Story3_HR_6.m4a"
+          },
+          "7": {
+            "text": "Netko dobije izvrsnu ideju. »Kada se ja bojim, mama mi otpjeva pjesmicu. Zapjevajmo zajedno našu pjesmu Didididi didididi dididi dididi didi didi didi didi didi didi di di di di di di. Dadadada dadadada dadada dadada dada dada dada dada dada dada da da da da da da.",
+            "imageUrl": "/learning-material/story-3/story-en/Story 3_7.jpg",
+            "audioUrl": "/learning-material/story-3/story-hr/Story3_HR_7.m4a"
+          },
+          "8": {
+            "text": "Bobbi se sviđa pjesma. Zapjeva s djecom i zajedno zakorače u vodu. Sada ga više nije strah mora. »Plivanje je stvarno zabavno, zar ne, Bobba?«",
+            "imageUrl": "/learning-material/story-3/story-en/Story 3_8.jpg",
+            "audioUrl": "/learning-material/story-3/story-hr/Story3_HR_8.m4a"
+          }
+        }
+      }
     ]
   },
   {
@@ -4197,6 +4362,61 @@
           }
         }
       }
+    ],
+    "hr": [
+      {
+        "title": "Bobba spava kod prijateljice",
+        "titlePicture": "/learning-material/story-4/story-hr/Story 4_title_HR.jpeg",
+        "fullAudio": "/learning-material/story-4/story-hr/Story 4_HR_complete.mp33",
+        "fullText": "/learning-material/story-4/story-hr/Story 4_HR.pdf",
+        "pages": {
+          "0": {
+            "text": "Bobba spava kod prijateljice",
+            "imageUrl": "/learning-material/story-4/story-hr/Story 4_title_CH.jpeg",
+            "audioUrl": "/learning-material/story-4/story-hr/Story4_HR_Title.m4a"
+          },
+          "1": {
+            "text": "Na kraju dugog dana Ben, Alex i Olivia kreću kući. »A gdje ćeš ti spavati, Bobba?« upita Olivia. Bobba je začuđeno pogleda. Olivia ga primi za ruku i kaže: »Možeš ići sa mnom kući.« ",
+            "imageUrl": "/learning-material/story-4/story-en/Story 4_1.jpeg",
+            "audioUrl": "/learning-material/story-4/story-hr/Story4_HR_1.m4a"
+          },
+          "2": {
+            "text": "Bobba i Olivia su u njezinoj sobi. Olivia uzme svog konjića i mač. »Igrajmo se vitezova!« »Ah, ludi kavalirojn,« kaže Bobba i primi mač. »Hajdemo na viteški dvoboj!« predloži Olivia.",
+            "imageUrl": "/learning-material/story-4/story-en/Story 4_2.jpeg",
+            "audioUrl": "/learning-material/story-4/story-hr/Story4_HR_2.m4a"
+          },
+          "3": {
+            "text": "Olivia je gladna. »Želim komad kruha!« Bobba je zbunjen jer je ne razumije. Prati je u kuhinju. Olivia otvori hladnjak.",
+            "imageUrl": "/learning-material/story-4/story-en/Story 4_3.jpg",
+            "audioUrl": "/learning-material/story-4/story-hr/Story4_HR_3.m4a"
+          },
+          "4": {
+            "text": "»Što da ti stavimo u sendvič?« Bobba ne odgovara, samo gleda Oliviju. Zatim na kruh stavi sve što mu dođe pod ruku. Nasmiješi se i kaže: »Dobar tek!«",
+            "imageUrl": "/learning-material/story-4/story-en/Story 4_4.jpeg",
+            "audioUrl": "/learning-material/story-4/story-hr/Story4_HR_4.m4a"
+          },
+          "5": {
+            "text": "Nakon jela žele oprati zube. Bobba jako pritisne tubu paste za zube, a ona prsne po podu. Bobba i Olivia glasno se smiju.",
+            "imageUrl": "/learning-material/story-4/story-en/Story 4_5.jpg",
+            "audioUrl": "/learning-material/story-4/story-hr/Story4_HR_5.m4a"
+          },
+          "6": {
+            "text": "Olivia pokaže Bobbi kako istisnuti pastu na četkicu. »Pogledaj, jednostavno je!« Bobba kimne glavom i pokuša oponašati liviju. »Uspio si!« Olivia i Bobba peru zube i gledaju se u ogledalu.",
+            "imageUrl": "/learning-material/story-4/story-en/Story 4_6.jpg",
+            "audioUrl": "/learning-material/story-4/story-hr/Story4_HR_6.m4a"
+          },
+          "7": {
+            "text": "Uđe Olivijina mama. »Pospremiti?« upita Bobba. Mama kimne i zajedno obrišu pod. »Sada na spavanje!« kaže mama, a Olivia uzvikne: »Ja bih se još igrala!« Mama ne popušta.",
+            "imageUrl": "/learning-material/story-4/story-en/Story 4_7.jpg",
+            "audioUrl": "/learning-material/story-4/story-hr/Story4_HR_7.m4a"
+          },
+          "8": {
+            "text": "Olivia se pokrije pokrivačem. »Sada spavamo!« Bobba se pokrije tepihom. »Dormi,« kaže, a Olivia se nasmiješi.",
+            "imageUrl": "/learning-material/story-4/story-en/Story 4_8.jpg",
+            "audioUrl": "/learning-material/story-4/story-hr/Story4_HR_8.m4a"
+          }
+        }
+      }
     ]
   },
   {
@@ -5188,6 +5408,61 @@
             "text": "Az ég tele van csillagokkal. Bobba átkarolja a könyvet. Úgy érzi, mintha egy darabka otthon lenne a kezében. „Egy nap... hazamegyek.”",
             "imageUrl": "/learning-material/story-5/story-en/Story 5_8.png",
             "audioUrl": "/learning-material/story-5/story-hun/Story5_HUNG_8.m4a"
+          }
+        }
+      }
+    ],
+    "hr": [
+      {
+        "title": "Bobba u knjižnici",
+        "titlePicture": "/learning-material/story-5/story-hr/Story 5_title_HR.jpeg",
+        "fullAudio": "/learning-material/story-5/story-hr/Story 5_HR_complete.mp3",
+        "fullText": "/learning-material/story-5/story-hr/Story 5_HR.pdf",
+        "pages": {
+          "0": {
+            "text": "Bobba u knjižnici",
+            "imageUrl": "/learning-material/story-5/story-hr/Story 5_title_CH.jpeg",
+            "audioUrl": "/learning-material/story-5/story-hr/Story5_HR_Title.m4a"
+          },
+          "1": {
+            "text": "Bobba poskakuje ulicom. Od uzbuđenja mrda ušima. »Kamo to idemo?« »U knjižnicu!« kaže Olivia. »Tamo ima puno knjiga!« Bobba je pogleda u čudu: »Knjiga?«",
+            "imageUrl": "/learning-material/story-5/story-en/Story 5_1.png",
+            "audioUrl": "/learning-material/story-5/story-hr/Story5_HR_1.m4a"
+          },
+          "2": {
+            "text": "U knjižnici je puno visokih polica. U zraku se osjeća čaroban miris. Gospođa s velikim naočalama nasmiješi se: »Dobar dan!« »au,« šapne Bobba. »Koliko knjiga!« ",
+            "imageUrl": "/learning-material/story-5/story-en/Story 5_2.png",
+            "audioUrl": "/learning-material/story-5/story-hr/Story5_HR_2.m4a"
+          },
+          "3": {
+            "text": "Bobba odlazi s djecom do polica. »Idemo pronaći knjigu za tebe,« kaže Ben. Izvuku slikovnice s čudovištima, dinosaurima i čarobnim životinjama. ",
+            "imageUrl": "/learning-material/story-5/story-en/Story 5_3.png",
+            "audioUrl": "/learning-material/story-5/story-hr/Story5_HR_3.m4a"
+          },
+          "4": {
+            "text": "Bobba uzvikne: »Vau!« i pokaže na stranicu u knjizi. »Što si vidio?« upitaju ga djeca, a Bobba pokaže na stvorenje u knjizi. Šiljaste uši. Velike oči. »Skoro isto kao ja!« pomisli. Njegove velike oči postanu još veće. ",
+            "imageUrl": "/learning-material/story-5/story-en/Story 5_4.png",
+            "audioUrl": "/learning-material/story-5/story-hr/Story5_HR_4.m4a"
+          },
+          "5": {
+            "text": "Bobba okreće stranicu za stranicom i sviđa mu se ono što vidi – još više nevjerojatnih stvorenja. »Kuća… nedostaje mi moj dom…« uzdahne Bobba. ",
+            "imageUrl": "/learning-material/story-5/story-en/Story 5_5.png",
+            "audioUrl": "/learning-material/story-5/story-hr/Story5_HR_5.m4a"
+          },
+          "6": {
+            "text": "Ben kaže: »Možeš je posuditi.« »Posuditi?« trepne Bobba. Knjižničarka kimne glavom. »Treba ti samo iskaznica i tako se učlaniš u knjižnicu.« ",
+            "imageUrl": "/learning-material/story-5/story-en/Story 5_6.png",
+            "audioUrl": "/learning-material/story-5/story-hr/Story5_HR_6.m4a"
+          },
+          "7": {
+            "text": "Djeca pomognu Bobbi napisati ime na iskaznicu. Bobba ponosno podigne svoju novu iskaznicu. »Sada sam član knjižnice!« ",
+            "imageUrl": "/learning-material/story-5/story-en/Story 5_7.png",
+            "audioUrl": "/learning-material/story-5/story-hr/Story5_HR_7.m4a"
+          },
+          "8": {
+            "text": "Nebo je puno zvijezda. Bobba grli knjigu. Osjeća se kao da u naručju drži komadić doma. »Jednoga dana… ipak ću otići kući.«",
+            "imageUrl": "/learning-material/story-5/story-en/Story 5_8.png",
+            "audioUrl": "/learning-material/story-5/story-hr/Story5_HR_8.m4a"
           }
         }
       }
@@ -6237,6 +6512,61 @@
             "text": "Nagyon jól szórakozom! „Miért nem hívjátok meg a gyerekeket?” – kérdezi Bobba. A nagy lila szörnyek félelmükben összeszorítják a fogukat, a torta pedig majdnem kiesik a kezükből. „Ó, ne! A gyerekek szörnyűek!” „Hogyan? Ti féltek a gyerekektől?” – csodálkozik Bobba. „De hát ők egyáltalán nem ijesztőek! Szerintem hívjuk meg őket a kastélyba bulizni. Meglátjátok, milyen kedvesek!” A szörnyek kételkedve ugyan, de mégis beleegyeznek, majd együtt megírják a meghívót a bulira.",
             "imageUrl": "/learning-material/story-6/images/Story_6_8.jpeg",
             "audioUrl": "/learning-material/story-6/story-hun/Story6_HUNG_8.m4a"
+          }
+        }
+      }
+    ],
+    "hr": [
+      {
+        "title": "Čudovišta u dvorcu",
+        "titlePicture": "/learning-material/story-6/story-hr/Story 6_COVER_HR.jpeg",
+        "fullAudio": "/learning-material/story-6/story-hr/Story 6_HR_complete.mp3",
+        "fullText": "/learning-material/story-6/story-hr/Story 6_HR.pdf",
+        "pages": {
+          "0": {
+            "text": "Čudovišta u dvorcu",
+            "imageUrl": "/learning-material/story-6/story-hr/Story 6_COVER_HR.jpeg",
+            "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_Title.m4a"
+          },
+          "1": {
+            "text": "Danas bi Bobba želio doživjeti nešto zanimljivo, i to potpuno sam. Sine mu ideja.",
+            "imageUrl": "/learning-material/story-6/images/Story_6_1.jpeg",
+            "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_1.m4a"
+          },
+          "2": {
+            "text": "»Veliki crni dvorac na gori izgleda baš privlačno!«",
+            "imageUrl": "/learning-material/story-6/images/Story_6_2.jpeg",
+            "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_1.m4a"
+          },
+          "3": {
+            "text": "Bobba krene na put. Poskakuje i trči prema velikom, tamnom dvorcu. Odjednom nešto začuje. Što je to? Glazba! Zvuči kao harmonika.",
+            "imageUrl": "/learning-material/story-6/images/Story_6_3.jpeg",
+            "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_1.m4a"
+          },
+          "4": {
+            "text": "Sada Bobba stoji ispred velikih vrata. Pokuca i vrata se otvore. Iza njih je tamni hodnik. Bobbi se stisne oko srca. Dlanovi mu se znoje. Dlake na glavi su mu se naježile, a zubi mu cvokoću. Opet nešto začuje! Opet glazba. ",
+            "imageUrl": "/learning-material/story-6/images/Story_6_4.jpeg\"",
+            "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_1.m4a"
+          },
+          "5": {
+            "text": "Harmonika zvuči stvarno lijepo. »Ne može biti tako loše u ovom tamnom dvorcu!« pomisli Bobba i uđe. Ugleda natpis:  ",
+            "imageUrl": "/learning-material/story-6/images/Story_6_5.jpeg",
+            "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_1.m4a"
+          },
+          "6": {
+            "text": "Na kraju tamnog hodnika Bobba ugleda svjetlost. Glazba postaje sve glasnija. Uđe u ogromnu dvoranu. Posvuda su šareni baloni, a na stolu su velika torta i limunada. Je li to zabava? Čudovišta plešu, pjevaju i jedu tortu. ",
+            "imageUrl": "/learning-material/story-6/images/Story_6_6.jpeg",
+            "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_1.m4a"
+          },
+          "7": {
+            "text": "Malo žuto čudovište priđe Bobbi. »Tu veux danser, mon ami?« upita i ponudi mu ruku. ",
+            "imageUrl": "/learning-material/story-6/images/Story_6_7.jpeg",
+            "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_1.m4a"
+          },
+          "8": {
+            "text": "Jako je zabavno! »A zašto ne pozovete djecu?« upita Bobba. Velikom ljubičastom čudovištu od straha zacvokoću zubi i torta mu zamalo ispadne iz ruku. »O neeee! Djeca su strašna!« »Što? Vi se bojite djece?« začudi se Bobba. »Ali ona uopće nisu strašna! Predlažem da ih pozovemo u dvorac na zabavu. Vidjet ćete, sasvim su draga.« Čudovišta nisu potpuno uvjerena, ali ipak pristanu i zajedno napišu pozivnicu za zabavu.",
+            "imageUrl": "/learning-material/story-6/images/Story_6_8.jpeg",
+            "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_1.m4a"
           }
         }
       }
@@ -7344,6 +7674,61 @@
           }
         }
       }
+    ],
+    "hr": [
+      {
+        "title": "Olivia slavi rođendan",
+        "titlePicture": "/learning-material/story-7/story-HRi/Story 7_title_HR.jpeg",
+        "fullAudio": "/learning-material/story-7/story-HRi/Story 7_HR_complete.mp3",
+        "fullText": "/learning-material/story-7/story-HRi/Story 7_HR.pdf",
+        "pages": {
+          "0": {
+            "text": "Olivia slavi rođendan",
+            "imageUrl": "/learning-material/story-7/story-HRi/Story 7_title_HR.jpeg",
+            "audioUrl": "/learning-material/story-7/story-HRi/Story7_HR_Title.m4a"
+          },
+          "1": {
+            "text": "Danas je poseban dan. Bobba je pozvan na Olivijinu rođendansku zabavu. Ispred kuće je puno balona u obliku broja 5. ",
+            "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
+            "audioUrl": "/learning-material/story-7/story-HRi/Story7_HR_1.m4a"
+          },
+          "2": {
+            "text": "Bobba vidi mnogo djece koju već poznaje, ali i mnogo visokih ljudi. Pita se tko su oni.",
+            "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
+            "audioUrl": "/learning-material/story-7/story-HRi/Story7_HR_2.m4a"
+          },
+          "3": {
+            "text": "Djeca se igraju glazbenih stolica. Zatim se u dvorištu igraju skrivača. Jako se dobro zabavljaju.",
+            "imageUrl": "/learning-material/story-7/images/Story 7_3.jpg",
+            "audioUrl": "/learning-material/story-7/story-HRi/Story7_HR_3.m4a"
+          },
+          "4": {
+            "text": " »La naskiĝtaga kuko!« povika Olivijin otac. Nosi ogromnu tortu koja izgleda kao dvorac s pet gorućih kula. ",
+            "imageUrl": "/learning-material/story-7/images/Story 7_4.jpg",
+            "audioUrl": "/learning-material/story-7/story-HRi/Story7_HR_4.m4a"
+          },
+          "5": {
+            "text": "»Ni kantu!« kaže baka na esperantu kako bi je i Bobba razumio. Zapjevaju »Sretan rođendan« na tri jezika. Bobba zna pjesmu na engleskom i pokušava pjevati s ostalima.",
+            "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
+            "audioUrl": "/learning-material/story-7/story-HRi/Story7_HR_5.m4a"
+          },
+          "6": {
+            "text": "»Bobba, ugasi svjećice!« predloži Olivia. Bobba posegne prema gorućim kulama kako bi svjećice ugasio rukom. »Stani!« zaustavi ga Ben i pokaže mu kako da puhne u njih. ",
+            "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
+            "audioUrl": "/learning-material/story-7/story-HRi/Story7_HR_6.m4a"
+          },
+          "7": {
+            "text": "Torta je izvrsna. Bobba pojede pet komada. »Vrlo dobro!« kaže. »Hoće li Bobbu sada boljeti trbuh?« upita Olivia. ",
+            "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
+            "audioUrl": "/learning-material/story-7/story-HRi/Story7_HR_7.m4a"
+          },
+          "8": {
+            "text": "»Baš me zanima kakve sam darove dobila. Otvorimo kutije!« Olivia je oduševljena. »Upravo to sam željela!« uzvikuje dok otvara darove jedan za drugim. Djeca se još malo poigraju, a zatim odlaze kući.",
+            "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
+            "audioUrl": "/learning-material/story-7/story-HRi/Story7_HR_8.m4a"
+          }
+        }
+      }
     ]
   },
   {
@@ -8280,6 +8665,61 @@
             "text": "A gyerekek megölelik Bobbát, Olívia pedig azt súgja neki: „Hamar gyere vissza!” Bobba mosolyog. „Mi revenos! Megígérem!” – válaszolja.",
             "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpeg",
             "audioUrl": "/learning-material/story-8/story-hun/Story8_HUNG_8.m4a"
+          }
+        }
+      }
+    ],
+    "hr": [
+      {
+        "title": "Bobba se vraća kući",
+        "titlePicture": "/learning-material/story-8/story-hr/Story 8_title_HR.jpeg",
+        "fullAudio": "/learning-material/story-8/story-hr/Story 8_HR_complete.mp3",
+        "fullText": "/learning-material/story-8/story-hr/Story 8_HR.pdf",
+        "pages": {
+          "0": {
+            "text": "Bobba se vraća kući",
+            "imageUrl": "/learning-material/story-8/story-hr/Story 8_title_HR.jpeg",
+            "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_Title.m4a"
+          },
+          "1": {
+            "text": "Bobba i njegovi prijatelji igraju se loptom u parku u kojem je sletio Bobbin svemirski brod.",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
+            "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_1.m4a"
+          },
+          "2": {
+            "text": "Zalazak sunca odijeva nebo u predivne boje. Bobba je oduševljen. Kako je lijepo! Odjednom se na nebu pojavi zvijezda, pa još jedna i još jedna. Bobba pokaže na jednu vrlo sjajnu zvijezdu i povika: »Vidu la stelon! Jen mia planedo!«",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
+            "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_2.m4a"
+          },
+          "3": {
+            "text": "Prijatelji prestanu s igrom. Zanima ih što im to Bobba pokazuje. Približe mu se i zajedno na nebu potraže njegovu zvijezdu.",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
+            "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_3.m4a"
+          },
+          "4": {
+            "text": "Odjednom začuju tanak, piskutav zvuk. Opet zapišće, ovaj put glasnije: »Piiiiip!«, i još glasnije: »PIP!«, »PIIIIIIP!«, »PIIIIIIIIIIIIIIIIP!!!!!« Bobba uzvikne: »Ohhhh, moj svemirski telefon!« ",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
+            "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_4.m4a"
+          },
+          "5": {
+            "text": "Dotrči do svog svemirskog broda i podigne slušalicu. Prijatelji ga prate. Čuju kako razgovara: »Ĉu mi venu hejmen? Ĉu mi povas reveni? Estas bone! Ĝis baldaŭ!« ",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
+            "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_5.m4a"
+          },
+          "6": {
+            "text": "Bobba odloži slušalicu i kaže djeci: »Moji roditelji kažu da sada moram ići kući. Ali mogu vas opet posjetiti!« Ben kaže: »Mislim da sada svi moramo ići kući. Mrači se.« ",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
+            "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_6.m4a"
+          },
+          "7": {
+            "text": "Djeca zagrle Bobbu, a Olivia šapne: »Brzo nam se vrati!« Bobba se nasmiješi. »Mi revenos! Obećavam!« kaže.",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
+            "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_7.m4a"
+          },
+          "8": {
+            "text": "Bobba uđe u svoj svemirski brod i maše. Brod uzleti i jurne u nebo. Uskoro na nebu ostane još samo jedno malo svjetlo. »Vidimo se uskoro, Bobba!« poviču djeca.",
+            "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpeg",
+            "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_8.m4a"
           }
         }
       }

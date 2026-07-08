@@ -24,6 +24,7 @@ import { cn } from "@/lib/utils";
 //   tur: "🇹🇷", // Turkish flag
 //   ld: "🇮🇹", // Ladin flag
 //   rg: "🇸🇨", // Romansh flag
+//
 // };
 
 // language → flag country code (ISO 3166-1 alpha-2)
@@ -46,12 +47,14 @@ export const languageFlags: Record<string, string> = {
   rg: "ch",
   sur: "ch",
   hun: "hu", // Hungarian -> Hungary
-  ru:"ru",
-  zh:"cn"
+  hr: "hr",
+  ru: "ru",
+  zh: "cn",
 };
 
 export default function LanguageSelector() {
-  const { selectedLanguage, setSelectedLanguage, availableLanguages } = useLanguage();
+  const { selectedLanguage, setSelectedLanguage, availableLanguages } =
+    useLanguage();
 
   return (
     <div className="flex flex-wrap items-center gap-2">
@@ -63,11 +66,11 @@ export default function LanguageSelector() {
           onClick={() => setSelectedLanguage(langCode)}
           className={cn(
             "flex items-center gap-1 px-2 py-1",
-            selectedLanguage === langCode && "bg-primary/10 font-medium"
+            selectedLanguage === langCode && "bg-primary/10 font-medium",
           )}
         >
           <span
-            className={`fi fi-${languageFlags[langCode] || 'xx'} w-5 h-5`}
+            className={`fi fi-${languageFlags[langCode] || "xx"} w-5 h-5`}
             title={value.label}
           />
           <span className="text-xs md:text-sm">{value.label}</span>
