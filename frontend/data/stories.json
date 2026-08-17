@@ -4224,12 +4224,12 @@
     "hr": [{
       "title": "Bobba spava kod prijateljice",
       "titlePicture": "/learning-material/story-4/story-hr/Story 4_title_HR.jpeg",
-      "fullAudio": "/learning-material/story-4/story-hr/Story 4_HR_complete.mp33",
+      "fullAudio": "/learning-material/story-4/story-hr/Story 4_HR_complete.mp3",
       "fullText": "/learning-material/story-4/story-hr/Story 4_HR.pdf",
       "pages": {
         "0": {
           "text": "Bobba spava kod prijateljice",
-          "imageUrl": "/learning-material/story-4/story-hr/Story 4_title_CH.jpeg",
+          "imageUrl": "/learning-material/story-4/story-hr/Story 4_title_HR.jpeg",
           "audioUrl": "/learning-material/story-4/story-hr/Story4_HR_Title.m4a"
         },
         "1": {
@@ -5190,7 +5190,7 @@
       "pages": {
         "0": {
           "text": "Bobba u knjižnici",
-          "imageUrl": "/learning-material/story-5/story-hr/Story 5_title_CH.jpeg",
+          "imageUrl": "/learning-material/story-5/story-hr/Story 5_title_HR.jpeg",
           "audioUrl": "/learning-material/story-5/story-hr/Story5_HR_Title.m4a"
         },
         "1": {
