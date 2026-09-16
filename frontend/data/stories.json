@@ -5127,6 +5127,59 @@
         }
       }
    }],
+     "sur": [{
+      "title": "Bobba ella biblioteca",
+      "titlePicture": "/learning-material/story-5/covers/Story 5_title_Sursilvan.jpeg",
+      "fullAudio": "/learning-material/story-5/story-sur/Story5_komplett.m4a",
+      "fullText": "/learning-material/story-5/story-sur/Story 5_Sursilvan.pdf",
+      "pages": {
+        "0": {
+          "text": "Bobba ella biblioteca",
+          "imageUrl":  "/learning-material/story-5/covers/Story 5_title_Sursilvan.jpeg",
+          "audioUrl": "/learning-material/story-5/story-sur/Story5_0_Sursilvan_Titel.m4a"
+        },
+        "1": {
+          "text": "Bobba saulta da via giu. Sias ureglias lomas tremblan dil plascher. “Nua mein nus?” – “En blioteca!” rispunda Olivia. Leu datti fetg bia cudischs!” Ils egls da Bobba vegnan fetg gronds: “Cudischs!”",
+          "imageUrl": "/learning-material/story-5/images/Story 5_1.jpg",
+          "audioUrl": "/learning-material/story-5/story-sur/Story5_1_Sursilvan.m4a"
+        },
+        "2": {
+          "text": "En biblioteca hai bia crunas aultas, ell’aria ina odur magica. Ina dunna cun gronds egliers surri. “Bonvenon!” “Wow”, scutina Bobba. “Aschi bia historias!”",
+          "imageUrl": "/learning-material/story-5/images/Story 5_2.jpg",
+          "audioUrl": "/learning-material/story-5/story-sur/Story5_2_Sursilvan.m4a"
+        },
+        "3": {
+          "text": "Bobba suonda ils affons tier las crunas da cudischs. “Nus encurin in cudisch per tei”, di Ben. Ils affons prendan giu dallas crunas cudischs cun maletgs da cuolms cuvretgs cun neiv, oceans profunds, tratgas che fan gust. In auter affon tegn enta maun in cudisch cun animals sdrimai, cun puncts e cun cuas liungas. ",
+          "imageUrl": "/learning-material/story-5/images/Story 5_3.jpeg",
+          "audioUrl": "/learning-material/story-5/story-sur/Story5_3_Sursilvan.m4a"
+        },
+        "4": {
+          "text": "Bobba stat vonzei mureri. “Didi, didi!” El muossa sin ina pagina en siu cudisch. Ils affons miran. “Tgei eis ei?” Bobba mira silla creatira el cudisch. Ureglias lomas, egls gronds. “Exact sco ... jeu”, tratga el. Ses egls gronds vegnan aunc pli gronds. ",
+          "imageUrl": "/learning-material/story-5/images/Story 5_4.jpeg",
+          "audioUrl": "/learning-material/story-5/story-sur/Story5_4_Sursilvan.m4a"
+        },
+        "5": {
+          "text": "Bobba sfeglia pagina per pagina ed ei fascinaus da quei ch’el vesa – adina dapli creatiras interessantas.“ Casa ... jeu laschel encrescher per miu dacasa”, suspira Bobba.",
+          "imageUrl": "/learning-material/story-5/images/Story 5_5.jpg",
+          "audioUrl": "/learning-material/story-5/story-sur/Story5_5_Sursilvan.m4a"
+        },
+        "6": {
+          "text": "Ben di: “Ti sas empristar il cudisch.” “Empristar?” Bobba ei surstaus. La bibliotecara confirma. “Ti drovas mo ina carta da biblioteca, lu eis ti commember dalla biblioteca”. ",
+          "imageUrl": "/learning-material/story-5/images/Story 5_6.jpg",
+          "audioUrl": "/learning-material/story-5/story-sur/Story5_6_Sursilvan.m4a"
+        },
+        "7": {
+          "text": "Ils affons gidan Bobba da scriver siu num silla carta.  Bobba muossa plein luschezia sia nova carta. “Jeu sun uss commember dalla biblioteca!”",
+          "imageUrl": "/learning-material/story-5/images/Story 5_7.jpg",
+          "audioUrl": "/learning-material/story-5/story-sur/Story5_7_Sursilvan.m4a"
+        },
+        "8": {
+          "text": "Giuado tarlischan las steilas. Bobba tegn il cudisch ferm en ses mauns. Il cudisch ei sco in pign toc patria. “In di .... tuornel jeu a casa.” ",
+          "imageUrl": "/learning-material/story-5/images/Story 5_8.jpg",
+          "audioUrl": "/learning-material/story-5/story-sur/Story5_8_Sursilvan.m4a"
+        }
+      }
+    }],
     "ru": [{
       "title": "Бобба в библиотеке",
       "titlePicture": "/learning-material/story-5/story-ru/Story 5_title_Ru.jpeg",
@@ -7157,7 +7210,7 @@
      "sur": [{
       "title": "La fiasta da natalezi d’Olivia",
       "titlePicture": "/learning-material/story-7/covers/Story 7_title_Sursilvan.jpeg",
-      "fullAudio": "/learning-material/story-7/story-sur/",
+      "fullAudio": "/learning-material/story-7/story-sur/Story7_komplett.m4a",
       "fullText": "/learning-material/story-7/story-sur/Story 7_Sursilvan.pdf",
       "pages": {
         "0": {
