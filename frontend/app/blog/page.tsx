@@ -107,6 +107,12 @@ export default function Blog() {
       image: "/images/blogThumbnails/blog17/IMG_3431.jpeg",
       link: "/blog/blog17",
     },
+    {
+      title: "AGENTIVE Posters: From Creation to Multiplier",
+      excerpt: "Explore the AGENTIVE project through eight posters.",
+      image: "/placeholder.svg",
+      link: "/blog/blog18",
+    },
   ];
 
   return (
