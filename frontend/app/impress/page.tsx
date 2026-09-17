@@ -6,46 +6,24 @@ export default function Impress() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h2 className="text-2xl font-semibold mb-4">Impress</h2>
-            <p>
-              University of Muenster<br />
-              Prof. Dr. Jan vom Brocke <br/>
-              Department for Information Systems<br />
-              Leonardo Campus<br />
-              48149 Münster<br />
-              Telephone: (02 51) 83 - 389100<br />
-              Fax: (02 51) 83 - 38109<br />
-              <a href="mailto:info@wi.uni-muenster.de">info@wi.uni-muenster.de</a><br />
-              <a href="https://www.wi.uni-muenster.de/">https://www.wi.uni-muenster.de</a><br />
-            </p>
-          </div>
+        </div>
+      </div>
+
           <div className='py-4'>
-          <h2 className="text-2xl font-semibold mb-4"> </h2>
-            <p className='mb-1'><strong>Edited in accordance with § 55 Abs. 2 RStV:​</strong></p>
-            <p>University of Muenster<br />
-              Department for Information Systems<br />
-              Leonardo Campus<br />
-              48149 Münster<br />
-              Telephone: (02 51) 83 - 389100<br />
-              Fax: (02 51) 83 - 38109<br />
-              <a className="Mail" href="mailto:info@wi.uni-muenster.de">info@wi.uni-muenster.de</a><br />
-              <a className="Link" href="https://www.wi.uni-muenster.de/">https://www.wi.uni-muenster.de</a>
+            <h2 className="text-2xl font-semibold mb-4">Contact</h2>
+            <p className='mb-1'><strong>Edited in accordance with § 55 Abs. 2 RStV:</strong></p>
+            <p>Dr Claudine Kirsch<br />
+              Professor in Language Education<br />
+              Faculty of Humanities, Education and Social Sciences<br /><br />
+              UNIVERSITÉ DU LUXEMBOURG<br />
+              CAMPUS Belval<br />
+              11, Porte des Sciences<br />
+              L-4366 Esch-sur-Alzette<br />
+              T <a className="Mail" href="tel:+3524666449802">+352 46 66 44 9802</a><br />
+              <a className="Mail" href="mailto:claudine.kirsch@uni.lu">claudine.kirsch@uni.lu</a> / <a className="Link" href="https://www.uni.lu/">www.uni.lu</a>
               </p>
           </div>
         </div>
-        <div className="py-8">
-          <h2 className="text-2xl font-semibold mb-4">Contact</h2>
-          <a className='text-slate-800'>For content feedback, wishes, issues, etc., feel free to contact:
-          <br />
-          Agentive Team E-Mail 
-          </a>
-          <a href="mailto:agentive@wi.uni-muenster.de">agentive@wi.uni-muenster.de</a><br />
-          <a className='text-slate-800'>For any Webiste-related feedback, issues etc., feel free to contact:
-          <br />
-          Niklas Kloth: 
-          </a>
-          <a href="mailto:niklas.kloth@uni-muenster.de">niklas.kloth@uni-muenster.de</a><br />
-        </div>
-          
-      </div>
+
   )
 }
