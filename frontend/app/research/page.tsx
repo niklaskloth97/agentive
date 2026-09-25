@@ -232,7 +232,7 @@ export default function PublicationsAndActivities() {
           </div>
 
           {/* Expert 4: Silvia Melo-Pfeifer */}
-          <div className="flex flex-col md:flex-row gap-6">
+          <div className="flex flex-col md:flex-row gap-6 border-b pb-8 border-gray-100">
             <div className="md:w-1/3">
               <p className="font-bold text-[#1a365d] text-base">Prof. Silvia Melo-Pfeifer</p>
               <p className="text-xs text-gray-500 italic mt-1">
@@ -243,33 +243,33 @@ export default function PublicationsAndActivities() {
               &quot;Un projet cohérent, qui s&apos;appuie sur des recherches en matière de développement linguistique, cognitif et affectif chez l&apos;enfant, et qui (re)crée un univers imaginaire plurilingue et multimodal pour les tout-petits ! Les enfants, les éducateurs et les familles vont tous vouloir rencontrer Bobba.&quot;
             </div>
           </div>
-        </div>
 
-        {/* Expert 5: Vally Lytra */}
-<div className="flex flex-col md:flex-row gap-6">
-  <div className="md:w-1/3">
-    <p className="font-bold text-[#1a365d] text-base">Prof. Vally Lytra</p>
-    <p className="text-xs text-gray-500 italic mt-1">
-      Goldsmiths, University of London, London, United Kingdom
-    </p>
-  </div>
-  <div className="md:w-2/3 text-sm italic text-gray-700 bg-gray-50 p-4 rounded-lg flex-1 border-l-4 border-teal-500">
-    <p>
-      &quot;The AGENTIVE platform and digital materials for early childhood multilingual education can support heritage language teachers, like Maria and her fellow teachers, in addressing and overcoming uncertainty about how to teach Greek in a multilingual world. The resources can provide structured activities and guidance for teachers working in the emergent field of early heritage language education and pedagogy. Greek teachers can introduce young multilingual learners of Greek to Bobba’s story world.&quot;
-    </p>
-    <p className="mt-3 not-italic">
-      Read more on Maria, Greek language teaching and Bobba here:{' '}
-      <a
-        href="/research/Lytra_260825.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="font-medium text-teal-600 hover:text-teal-800 underline transition-colors"
-      >
-        PDF document
-      </a>.
-    </p>
-  </div>
-</div>
+          {/* Expert 5: Vally Lytra */}
+          <div className="flex flex-col md:flex-row gap-6">
+            <div className="md:w-1/3">
+              <p className="font-bold text-[#1a365d] text-base">Prof. Vally Lytra</p>
+              <p className="text-xs text-gray-500 italic mt-1">
+                Goldsmiths, University of London, London, United Kingdom
+              </p>
+            </div>
+            <div className="md:w-2/3 text-sm italic text-gray-700 bg-gray-50 p-4 rounded-lg flex-1 border-l-4 border-teal-500">
+              <p>
+                &quot;The AGENTIVE platform and digital materials for early childhood multilingual education can support heritage language teachers, like Maria and her fellow teachers, in addressing and overcoming uncertainty about how to teach Greek in a multilingual world. The resources can provide structured activities and guidance for teachers working in the emergent field of early heritage language education and pedagogy. Greek teachers can introduce young multilingual learners of Greek to Bobba’s story world.&quot;
+              </p>
+              <p className="mt-3 not-italic">
+                Read more on Maria, Greek language teaching and Bobba here:{' '}
+                <a
+                  href="/research/Lytra_260825.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-teal-600 hover:text-teal-800 underline transition-colors"
+                >
+                  PDF document
+                </a>.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Voices of Users Section */}
