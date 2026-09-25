@@ -111,13 +111,13 @@
     }],
     "de": [{
       "title": "Bobbas erste Reise zur Erde",
-      "titlePicture": "/learning-material/story-1/story-de/Story 1_title_DE_Short.jpg",
+      "titlePicture": "/learning-material/story-1/story-de short/Story 1_title_DE_Short.jpg",
       "fullAudio": "/learning-material/story-1/story-de short/Bobba_DE_Story_1_Gesamt.mp3",
       "fullText": "/learning-material/story-1/story-de short/Story 1_G_short.pdf",
       "pages": {
          "0": {
           "text": "Bobbas erste Reise zur Erde",
-          "imageUrl": "/learning-material/story-1/story-de/Story 1_title_DE_Short.jpg",
+          "imageUrl": "/learning-material/story-1/story-de short/Story 1_title_DE_Short.jpg",
           "audioUrl": "/learning-material/story-1/story-de/Bobbas_erste_Reise_zur_Erde_Title.m4a"
         },
         "1": {
