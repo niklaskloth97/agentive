@@ -248,7 +248,7 @@ export default function PublicationsAndActivities() {
         {/* Expert 5: Vally Lytra */}
           <div className="flex flex-col md:flex-row gap-6">
             <div className="md:w-1/3">
-              <p className="font-bold text-[#1a365d] text-base">Prof. Silvia Melo-Pfeifer</p>
+              <p className="font-bold text-[#1a365d] text-base">Prof. Vally Lytra</p>
               <p className="text-xs text-gray-500 italic mt-1">
                  Goldsmiths, University of London, London, United Kingdom
               </p>
