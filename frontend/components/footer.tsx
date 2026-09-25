@@ -27,20 +27,7 @@ export default function Footer() {
                             />
                         </p>
                     </div>
-                    <div className="w-full lg:w-1/4">
-                        <h3 className="text-2xl font-semibold text-white">
-                            <TranslateButtons 
-                                translationKey="contact-us" 
-                                currentLanguage={websiteLanguage} 
-                            />
-                        </h3>
-                        <Link className="mt-2 text-gray-400" href="mailto:agentive@wi.uni-muenster.de">
-                            <TranslateButtons 
-                                translationKey="mail-contact" 
-                                currentLanguage={websiteLanguage} 
-                            />
-                        </Link>
-                    </div>
+
                     <div className="w-full lg:w-1/4">
                         <h3 className="text-2xl font-semibold text-white">
                             <TranslateButtons 
