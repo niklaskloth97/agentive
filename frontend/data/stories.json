@@ -111,13 +111,13 @@
     }],
     "de": [{
       "title": "Bobbas erste Reise zur Erde",
-      "titlePicture": "/learning-material/story-1/story-de/Story 1_title_DE_Long.jpeg",
+      "titlePicture": "/learning-material/story-1/story-de/Story 1_title_DE_Short.jpg",
       "fullAudio": "/learning-material/story-1/story-de short/Bobba_DE_Story_1_Gesamt.mp3",
       "fullText": "/learning-material/story-1/story-de short/Story 1_G_short.pdf",
       "pages": {
          "0": {
           "text": "Bobbas erste Reise zur Erde",
-          "imageUrl": "/learning-material/story-1/story-de/Story 1_title_DE_Long.jpeg",
+          "imageUrl": "/learning-material/story-1/story-de/Story 1_title_DE_Short.jpg",
           "audioUrl": "/learning-material/story-1/story-de/Bobbas_erste_Reise_zur_Erde_Title.m4a"
         },
         "1": {
@@ -535,13 +535,13 @@
     }],
     "ld": [{
       "title": "L prim viac de Bobba sun la Tiera",
-      "titlePicture": "/learning-material/story-1/story-ladin/Story 1_title_LA.jpeg",
+      "titlePicture": "/learning-material/story-1/story-ladin/Story 1_title_LA.jpg",
       "fullAudio": "/learning-material/story-1/story-ladin/Bobba__LADIN_Story 1-MP3.mp3",
       "fullText": "/learning-material/story-1/story-ladin/Story 1_LAD.pdf",
       "pages": {
         "0": {
           "text": "L prim viac de Bobba sun la Tiera",
-          "imageUrl": "/learning-material/story-1/story-ladin/Story 1_title_LA.jpeg",
+          "imageUrl": "/learning-material/story-1/story-ladin/Story 1_title_LA.jpg",
           "audioUrl": "/learning-material/story-1/story-ladin/Bobba_LADIN_Story 1 Intro-MP3.mp3"
         },
         "1": {
@@ -854,13 +854,13 @@
       }],
     "hun": [{
       "title": "Bobba először utazik a Földre",
-      "titlePicture": "/learning-material/story-1/story-hun/Story 1_title_Hungarian.jpeg",
+      "titlePicture": "/learning-material/story-1/story-hun/Story 1_title_Hungarian.jpg",
       "fullAudio": "/learning-material/story-1/story-hun/Story 1-HUNG_complete.mp3",
       "fullText": "/learning-material/story-1/story-hun/Story 1_HUNG.pdf",
       "pages": {
          "0": {
           "text": "Bobba először utazik a Földre",
-          "imageUrl": "/learning-material/story-1/story-hun/Story 1_title_Hungarian.jpeg",
+          "imageUrl": "/learning-material/story-1/story-hun/Story 1_title_Hungarian.jpg",
           "audioUrl": "/learning-material/story-1/story-hun/Story1_HUNG_Title.m4a"
         },
         "1": {
@@ -960,13 +960,13 @@
     }],
     "zh": [{
       "title": "波巴的首次地球之旅",
-      "titlePicture": "/learning-material/story-1/story-chi/Story 1_title_CH.jpeg",
+      "titlePicture": "/learning-material/story-1/story-chi/Story 1_title_CH.jpg",
       "fullAudio": "/learning-material/story-1/story-chi/Bobba_CH_Story 1.mp3",
       "fullText": "/learning-material/story-1/story-chi/Story 1_CH.pdf",
       "pages": {
         "0": {
           "text": "波巴的首次地球之旅。",
-          "imageUrl": "/learning-material/story-1/story-chi/Story 1_title_CH.jpeg",
+          "imageUrl": "/learning-material/story-1/story-chi/Story 1_title_CH.jpg",
           "audioUrl": "/learning-material/story-1/story-chi/Bobba_CH_Story 1_Intro.mp3"
         },
         "1": {
@@ -1013,13 +1013,13 @@
     }],
     "hr": [{
       "title": "Bobba prvi put putuje na Zemlju",
-      "titlePicture": "/learning-material/story-1/story-hr/Story 1_title_HR.jpeg",
+      "titlePicture": "/learning-material/story-1/story-hr/Story 1_title_HR.jpg",
       "fullAudio": "/learning-material/story-1/story-hr/Bobba_HR_Story 1.m4a",
       "fullText": "/learning-material/story-1/story-hr/Story 1_HR.pdf",
       "pages": {
         "0": {
           "text": "Bobba prvi put putuje na Zemlju",
-          "imageUrl": "/learning-material/story-1/story-hr/Story 1_title_HR.jpeg",
+          "imageUrl": "/learning-material/story-1/story-hr/Story 1_title_HR.jpg",
           "audioUrl": "/learning-material/story-1/story-hr/Story1_HR_Title.m4a"
         },
         "1": {
