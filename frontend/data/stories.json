@@ -5,13 +5,13 @@
     "all-pictures": "/learning-material/story-1/story-en/NOT IMPLEMENTED",
     "en": [{
       "title": "Bobba's first trip to Earth",
-      "titlePicture": "/learning-material/story-1/story-en/Story1_title_E.jpeg",
+      "titlePicture": "/learning-material/story-1/story-en/Story1_title_E.jpg",
       "fullAudio": "/learning-material/story-1/story-en/Story1_English_complete.m4a",
       "fullText": "/learning-material/story-1/story-en/Story 1_E.pdf",
       "pages": {
          "0": {
           "text": "Bobba's first trip to Earth",
-          "imageUrl": "/learning-material/story-1/story-en/Story1_title_E.jpeg",
+          "imageUrl": "/learning-material/story-1/story-en/Story1_title_E.jpg",
           "audioUrl": "/learning-material/story-1/story-en/Story1_English_Title.m4a"
         },
         "1": {
@@ -58,13 +58,13 @@
     }],
     "de-lang": [{
       "title": "Bobbas erste Reise zur Erde",
-      "titlePicture": "/learning-material/story-1/story-de/Story 1_title_DE_Long.jpeg",
+      "titlePicture": "/learning-material/story-1/story-de/Story 1_title_DE_Long.jpg",
       "fullAudio": "/learning-material/story-1/story-de/bobba_1_D_ALL.mp3",
       "fullText": "/learning-material/story-1/story-de/Story 1_DE_Long.pdf",
       "pages": {
          "0": {
           "text": "Bobbas erste Reise zur Erde",
-          "imageUrl": "/learning-material/story-1/story-de/Story 1_title_DE_Long.jpeg",
+          "imageUrl": "/learning-material/story-1/story-de/Story 1_title_DE_Long.jpg",
           "audioUrl": "/learning-material/story-1/story-de/Bobbas_erste_Reise_zur_Erde_Title.m4a"
         },
         "1": {
@@ -164,13 +164,13 @@
     }],
     "fr": [{
       "title": "Premier voyage de Bobba vers la Terre",
-      "titlePicture": "/learning-material/story-1/story-fr/Story 1_title_F.jpeg",
+      "titlePicture": "/learning-material/story-1/story-fr/Story 1_title_F.jpg",
       "fullAudio": "/learning-material/story-1/story-fr/Bobba_FR_Story 1-MP3.mp3",
       "fullText": "/learning-material/story-1/story-fr/Story 1_F.pdf",
       "pages": {
          "0": {
           "text": "Premier voyage de Bobba vers la Terre",
-          "imageUrl": "/learning-material/story-1/story-fr/Story 1_title_F.jpeg",
+          "imageUrl": "/learning-material/story-1/story-fr/Story 1_title_F.jpg",
           "audioUrl": "/learning-material/story-1/story-fr/Bobba_FR_Story 1 Intro-MP3.mp3"
         },
         "1": {
@@ -217,13 +217,13 @@
     }],
     "por": [{
       "title": "A primeira viagem do Bobba à Terra",
-      "titlePicture": "/learning-material/story-1/story-port/Story_1_title_P.jpeg",
+      "titlePicture": "/learning-material/story-1/story-port/Story_1_title_P.jpg",
       "fullAudio": "/learning-material/story-1/story-port/1_complete version.mp3",
       "fullText": "/learning-material/story-1/story-port/Story 1_P.pdf",
       "pages": {
         "0": {
           "text": "A primeira viagem do Bobba à Terra",
-          "imageUrl": "/learning-material/story-1/story-port/Story_1_title_P.jpeg",
+          "imageUrl": "/learning-material/story-1/story-port/Story_1_title_P.jpg",
           "audioUrl": "/learning-material/story-1/story-port/1_title.mp3"
         },
         "1": {
@@ -270,13 +270,13 @@
     }],
     "it": [{
       "title": "Il primo viaggio di Bobba sulla Terra",
-      "titlePicture": "/learning-material/story-1/story-it/Story 1_title_I.jpeg",
+      "titlePicture": "/learning-material/story-1/story-it/Story 1_title_I.jpg",
       "fullAudio": "/learning-material/story-1/story-it/Story 1_Italiano.m4a",
       "fullText": "/learning-material/story-1/story-it/Story1_IT.pdf",
       "pages": {
         "0": {
           "text": "Il primo viaggio di Bobba sulla Terra",
-          "imageUrl": "/learning-material/story-1/story-it/Story 1_title_I.jpeg",
+          "imageUrl": "/learning-material/story-1/story-it/Story 1_title_I.jpg",
           "audioUrl": "/learning-material/story-1/story-it/Bobba_Teil_1_v4.mp3"
         },
         "1": {
@@ -323,13 +323,13 @@
     }],
     "lux": [{
       "title": "Dem Bobba seng éischt Rees op d‘Äerd",
-      "titlePicture": "/learning-material/story-1/story-lux/Story 1_title_L.jpeg",
+      "titlePicture": "/learning-material/story-1/story-lux/Story 1_title_L.jpg",
       "fullAudio": "/learning-material/story-1/story-lux/Bobba_LU_Story 1-MP3.mp3",
       "fullText": "/learning-material/story-1/story-lux/Story1_LUX.pdf",
       "pages": {
         "0": {
           "text": "Dem Bobba seng éischt Rees op d‘Äerd",
-          "imageUrl": "/learning-material/story-1/story-lux/Story 1_title_L.jpeg",
+          "imageUrl": "/learning-material/story-1/story-lux/Story 1_title_L.jpg",
           "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1 Intro-MP3.mp3"
         },
         "1": {
@@ -376,13 +376,13 @@
     }],
     "gr": [{
       "title": "Το πρώτο ταξίδι του Μπόμπα στη Γη",
-      "titlePicture": "/learning-material/story-1/story-gr/Story 1_title_Gr.jpeg",
+      "titlePicture": "/learning-material/story-1/story-gr/Story 1_title_Gr.jpg",
       "fullAudio": "/learning-material/story-1/story-gr/story-1-greek-full.mp3",
       "fullText": "/learning-material/story-1/story-gr/Story_1_GR.pdf",
       "pages": {
         "0": {
           "text": "Το πρώτο ταξίδι του Μπόμπα στη Γη",
-          "imageUrl": "/learning-material/story-1/story-gr/Story 1_title_Gr.jpeg",
+          "imageUrl": "/learning-material/story-1/story-gr/Story 1_title_Gr.jpg",
           "audioUrl": "/learning-material/story-1/story-gr/story-1-greek-1-title.mp3"
         },
         "1": {
@@ -429,13 +429,13 @@
     }],
     "sv": [{
       "title": "Bobba prvič potuje na Zemljo",
-      "titlePicture": "/learning-material/story-1/story-sv/Story 1_title_S.jpeg",
+      "titlePicture": "/learning-material/story-1/story-sv/Story 1_title_S.jpg",
       "fullAudio": "/learning-material/story-1/story-sv/Story 1_SLO_complete.m4a",
       "fullText": "/learning-material/story-1/story-sv/Story 1_S.pdf",
       "pages": {
          "0": {
           "text": "Bobba prvič potuje na Zemljo",
-          "imageUrl": "/learning-material/story-1/story-sv/Story 1_title_S.jpeg",
+          "imageUrl": "/learning-material/story-1/story-sv/Story 1_title_S.jpg",
           "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_Title.m4a"
         },
         "1": {
@@ -482,13 +482,13 @@
     }],
     "alb": [{
       "title": "Udhëtimi i parë i Bobbas në Tokë",
-      "titlePicture": "/learning-material/story-1/story-alb/Story 1_title_AL.jpeg",
+      "titlePicture": "/learning-material/story-1/story-alb/Story 1_title_AL.jpg",
       "fullAudio": "/learning-material/story-1/story-alb/Bobba_AL_Story 1.mp3",
       "fullText": "/learning-material/story-1/story-alb/Story 1_AL.pdf",
       "pages": {
         "0": {
           "text": "Udhëtimi i parë i Bobbas në Tokë",
-          "imageUrl": "/learning-material/story-1/story-alb/Story 1_title_AL.jpeg",
+          "imageUrl": "/learning-material/story-1/story-alb/Story 1_title_AL.jpg",
           "audioUrl": "/learning-material/story-1/story-alb/Bobba_AL_Story 1 Intro.mp3"
         },
         "1": {
@@ -588,13 +588,13 @@
     }],
     "tur": [{
       "title": "Bobba’nın Dünya Yolculuğu",
-      "titlePicture": "/learning-material/story-1/story-tur/Story 1_title_TU.jpeg",
+      "titlePicture": "/learning-material/story-1/story-tur/Story 1_title_TU.jpg",
       "fullAudio": "/learning-material/story-1/story-tur/Stories_Turkish_8.m4a",
       "fullText": "/learning-material/story-1/story-tur/Story1_TUR.pdf",
       "pages": {
         "0": {
           "text": "Bobba’nın Dünya Yolculuğu",
-          "imageUrl": "/learning-material/story-1/story-tur/Story 1_title_TU.jpeg",
+          "imageUrl": "/learning-material/story-1/story-tur/Story 1_title_TU.jpg",
           "audioUrl": "/learning-material/story-1/story-tur/Story_8_TR_00_Titel.mp3"
         },
         "1": {
@@ -641,13 +641,13 @@
     }],
     "pl": [{
       "title": "Pierwsza wizyta Bobby na Ziemi",
-      "titlePicture": "/learning-material/story-1/story-pl/Story 1_title_PL.jpeg",
+      "titlePicture": "/learning-material/story-1/story-pl/Story 1_title_PL.jpg",
       "fullAudio": "/learning-material/story-1/story-pl/Story 1_PL.m4a", 
       "fullText": "/learning-material/story-1/story-pl/Story1_PL.pdf",
       "pages": {
         "0": {
           "text": "Pierwsza wizyta Bobby na Ziemi",
-          "imageUrl": "/learning-material/story-1/story-pl/Story 1_title_PL.jpeg",
+          "imageUrl": "/learning-material/story-1/story-pl/Story 1_title_PL.jpg",
           "audioUrl": "/learning-material/story-1/story-pl/Story 1_Title_PL - Kopie.mp3"
         },
         "1": {
@@ -694,13 +694,13 @@
     }],
     "ukr": [{
       "title": "Перша подорож Бобби на Землю",
-      "titlePicture": "/learning-material/story-1/story-ukr/Story 1_title_UK.jpeg",
+      "titlePicture": "/learning-material/story-1/story-ukr/Story 1_title_UK.jpg",
       "fullAudio": "/learning-material/story-1/story-ukr/story-1-ukrainian-full.mp3",
       "fullText": "/learning-material/story-1/story-ukr/Story1_UKR.pdf",
       "pages": {
         "0": {
           "text": "Перша подорож Бобби на Землю",
-          "imageUrl": "/learning-material/story-1/story-ukr/Story 1_title_UK.jpeg",
+          "imageUrl": "/learning-material/story-1/story-ukr/Story 1_title_UK.jpg",
           "audioUrl": "/learning-material/story-1/story-ukr/1.mp3"
         },
         "1": {
@@ -747,13 +747,13 @@
     }],
     "rg": [{
       "title": "L‘emprim viadi da Bobba sin la terra",
-      "titlePicture": "/learning-material/story-1/story-rg/Story1_Title_Rumantsch_Grischun.jpeg",
+      "titlePicture": "/learning-material/story-1/story-rg/Story1_Title_Rumantsch_Grischun.jpg",
       "fullAudio": "/learning-material/story-1/story-rg/bobba_01_RG_komplett.mp3",
       "fullText": "/learning-material/story-1/story-rg/Story 1_RG.pdf",      
       "pages": {
         "0": {
           "text": "L‘emprim viadi da Bobba sin la terra",
-          "imageUrl": "/learning-material/story-1/story-rg/Story1_Title_Rumantsch_Grischun.jpeg",
+          "imageUrl": "/learning-material/story-1/story-rg/Story1_Title_Rumantsch_Grischun.jpg",
           "audioUrl": "/learning-material/story-1/story-rg/Bobba_1_0_RG_Titel.mp3"
         },
         "1": {
@@ -801,13 +801,13 @@
     }],
     "sur": [{
       "title": "Igl emprem viadi da Bobba sin tiara",
-      "titlePicture": "/learning-material/story-1/story-sur/Story1_Title_Sursilvan.jpeg",
+      "titlePicture": "/learning-material/story-1/story-sur/Story1_Title_Sursilvan.jpg",
       "fullAudio": "/learning-material/story-1/story-sur/Story1_komplett.m4a",
       "fullText": "/learning-material/story-1/story-sur/Story 1_Sursilvan.pdf",      
       "pages": {
         "0": {
           "text": "Igl emprem viadi da Bobba sin tiara",
-          "imageUrl": "/learning-material/story-1/story-sur/Story1_Title_Sursilvan.jpeg",
+          "imageUrl": "/learning-material/story-1/story-sur/Story1_Title_Sursilvan.jpg",
           "audioUrl": "/learning-material/story-1/story-sur/Story1_0_Sursilvan_Titel.m4a"
         },
         "1": {
@@ -907,13 +907,13 @@
     }],
     "ru": [{
       "title": "Первое путешествие Боббы на Землю",
-      "titlePicture": "/learning-material/story-1/story-ru/Story_1_title_Ru.jpeg",
+      "titlePicture": "/learning-material/story-1/story-ru/Story_1_title_Ru.jpg",
       "fullAudio": "/learning-material/story-1/story-ru/Bobba_RU_Story 1_All.mp3",
       "fullText": "/learning-material/story-1/story-ru/Story_1_RU.pdf",
       "pages": {
         "0": {
           "text": "Первое путешествие Боббы на Землю",
-          "imageUrl": "/learning-material/story-1/story-ru/Story_1_title_Ru.jpeg",
+          "imageUrl": "/learning-material/story-1/story-ru/Story_1_title_Ru.jpg",
           "audioUrl": "/learning-material/story-1/story-ru/Bobba_RU_Story 1 Intro-MP3.mp3"
         },
         "1": {
