@@ -5,13 +5,13 @@
     "all-pictures": "/learning-material/story-1/story-en/NOT IMPLEMENTED",
     "en": [{
       "title": "Bobba's first trip to Earth",
-      "titlePicture": "/learning-material/story-1/story-en/Story1_title_E.jpeg",
+      "titlePicture": "/learning-material/story-1/story-en/Story1_title_E.jpg",
       "fullAudio": "/learning-material/story-1/story-en/Story1_English_complete.m4a",
       "fullText": "/learning-material/story-1/story-en/Story 1_E.pdf",
       "pages": {
          "0": {
           "text": "Bobba's first trip to Earth",
-          "imageUrl": "/learning-material/story-1/story-en/Story1_title_E.jpeg",
+          "imageUrl": "/learning-material/story-1/story-en/Story1_title_E.jpg",
           "audioUrl": "/learning-material/story-1/story-en/Story1_English_Title.m4a"
         },
         "1": {
@@ -58,13 +58,13 @@
     }],
     "de-lang": [{
       "title": "Bobbas erste Reise zur Erde",
-      "titlePicture": "/learning-material/story-1/story-de/Story 1_title_DE_Long.jpeg",
+      "titlePicture": "/learning-material/story-1/story-de/Story 1_title_DE_Long.jpg",
       "fullAudio": "/learning-material/story-1/story-de/bobba_1_D_ALL.mp3",
-      "fullText": "/learning-material/story-1/story-de/Story1_DE_L.pdf",
+      "fullText": "/learning-material/story-1/story-de/Story 1_DE_Long.pdf",
       "pages": {
          "0": {
           "text": "Bobbas erste Reise zur Erde",
-          "imageUrl": "/learning-material/story-1/story-de/Story 1_title_DE_Long.jpeg",
+          "imageUrl": "/learning-material/story-1/story-de/Story 1_title_DE_Long.jpg",
           "audioUrl": "/learning-material/story-1/story-de/Bobbas_erste_Reise_zur_Erde_Title.m4a"
         },
         "1": {
@@ -111,13 +111,13 @@
     }],
     "de": [{
       "title": "Bobbas erste Reise zur Erde",
-      "titlePicture": "/learning-material/story-1/story-de/Story 1_title_DE_Long.jpeg",
+      "titlePicture": "/learning-material/story-1/story-de short/Story 1_title_DE_Short.jpg",
       "fullAudio": "/learning-material/story-1/story-de short/Bobba_DE_Story_1_Gesamt.mp3",
       "fullText": "/learning-material/story-1/story-de short/Story 1_G_short.pdf",
       "pages": {
          "0": {
           "text": "Bobbas erste Reise zur Erde",
-          "imageUrl": "/learning-material/story-1/story-de/Story 1_title_DE_Long.jpeg",
+          "imageUrl": "/learning-material/story-1/story-de short/Story 1_title_DE_Short.jpg",
           "audioUrl": "/learning-material/story-1/story-de/Bobbas_erste_Reise_zur_Erde_Title.m4a"
         },
         "1": {
@@ -164,13 +164,13 @@
     }],
     "fr": [{
       "title": "Premier voyage de Bobba vers la Terre",
-      "titlePicture": "/learning-material/story-1/story-fr/Story 1_title_F.jpeg",
+      "titlePicture": "/learning-material/story-1/story-fr/Story 1_title_F.jpg",
       "fullAudio": "/learning-material/story-1/story-fr/Bobba_FR_Story 1-MP3.mp3",
       "fullText": "/learning-material/story-1/story-fr/Story 1_F.pdf",
       "pages": {
          "0": {
           "text": "Premier voyage de Bobba vers la Terre",
-          "imageUrl": "/learning-material/story-1/story-fr/Story 1_title_F.jpeg",
+          "imageUrl": "/learning-material/story-1/story-fr/Story 1_title_F.jpg",
           "audioUrl": "/learning-material/story-1/story-fr/Bobba_FR_Story 1 Intro-MP3.mp3"
         },
         "1": {
@@ -217,13 +217,13 @@
     }],
     "por": [{
       "title": "A primeira viagem do Bobba à Terra",
-      "titlePicture": "/learning-material/story-1/story-port/Story_1_title_P.jpeg",
+      "titlePicture": "/learning-material/story-1/story-port/Story_1_title_P.jpg",
       "fullAudio": "/learning-material/story-1/story-port/1_complete version.mp3",
       "fullText": "/learning-material/story-1/story-port/Story 1_P.pdf",
       "pages": {
         "0": {
           "text": "A primeira viagem do Bobba à Terra",
-          "imageUrl": "/learning-material/story-1/story-port/Story_1_title_P.jpeg",
+          "imageUrl": "/learning-material/story-1/story-port/Story_1_title_P.jpg",
           "audioUrl": "/learning-material/story-1/story-port/1_title.mp3"
         },
         "1": {
@@ -270,13 +270,13 @@
     }],
     "it": [{
       "title": "Il primo viaggio di Bobba sulla Terra",
-      "titlePicture": "/learning-material/story-1/story-it/Story 1_title_I.jpeg",
+      "titlePicture": "/learning-material/story-1/story-it/Story 1_title_I.jpg",
       "fullAudio": "/learning-material/story-1/story-it/Story 1_Italiano.m4a",
       "fullText": "/learning-material/story-1/story-it/Story1_IT.pdf",
       "pages": {
         "0": {
           "text": "Il primo viaggio di Bobba sulla Terra",
-          "imageUrl": "/learning-material/story-1/story-it/Story 1_title_I.jpeg",
+          "imageUrl": "/learning-material/story-1/story-it/Story 1_title_I.jpg",
           "audioUrl": "/learning-material/story-1/story-it/Bobba_Teil_1_v4.mp3"
         },
         "1": {
@@ -323,13 +323,13 @@
     }],
     "lux": [{
       "title": "Dem Bobba seng éischt Rees op d‘Äerd",
-      "titlePicture": "/learning-material/story-1/story-lux/Story 1_title_L.jpeg",
+      "titlePicture": "/learning-material/story-1/story-lux/Story 1_title_L.jpg",
       "fullAudio": "/learning-material/story-1/story-lux/Bobba_LU_Story 1-MP3.mp3",
       "fullText": "/learning-material/story-1/story-lux/Story1_LUX.pdf",
       "pages": {
         "0": {
           "text": "Dem Bobba seng éischt Rees op d‘Äerd",
-          "imageUrl": "/learning-material/story-1/story-lux/Story 1_title_L.jpeg",
+          "imageUrl": "/learning-material/story-1/story-lux/Story 1_title_L.jpg",
           "audioUrl": "/learning-material/story-1/story-lux/Bobba_LU_Story 1 Intro-MP3.mp3"
         },
         "1": {
@@ -376,13 +376,13 @@
     }],
     "gr": [{
       "title": "Το πρώτο ταξίδι του Μπόμπα στη Γη",
-      "titlePicture": "/learning-material/story-1/story-gr/Story 1_title_Gr.jpeg",
+      "titlePicture": "/learning-material/story-1/story-gr/Story 1_title_Gr.jpg",
       "fullAudio": "/learning-material/story-1/story-gr/story-1-greek-full.mp3",
       "fullText": "/learning-material/story-1/story-gr/Story_1_GR.pdf",
       "pages": {
         "0": {
           "text": "Το πρώτο ταξίδι του Μπόμπα στη Γη",
-          "imageUrl": "/learning-material/story-1/story-gr/Story 1_title_Gr.jpeg",
+          "imageUrl": "/learning-material/story-1/story-gr/Story 1_title_Gr.jpg",
           "audioUrl": "/learning-material/story-1/story-gr/story-1-greek-1-title.mp3"
         },
         "1": {
@@ -429,13 +429,13 @@
     }],
     "sv": [{
       "title": "Bobba prvič potuje na Zemljo",
-      "titlePicture": "/learning-material/story-1/story-sv/Story 1_title_S.jpeg",
+      "titlePicture": "/learning-material/story-1/story-sv/Story 1_title_S.jpg",
       "fullAudio": "/learning-material/story-1/story-sv/Story 1_SLO_complete.m4a",
       "fullText": "/learning-material/story-1/story-sv/Story 1_S.pdf",
       "pages": {
          "0": {
           "text": "Bobba prvič potuje na Zemljo",
-          "imageUrl": "/learning-material/story-1/story-sv/Story 1_title_S.jpeg",
+          "imageUrl": "/learning-material/story-1/story-sv/Story 1_title_S.jpg",
           "audioUrl": "/learning-material/story-1/story-sv/Story 1_SLO_Title.m4a"
         },
         "1": {
@@ -482,13 +482,13 @@
     }],
     "alb": [{
       "title": "Udhëtimi i parë i Bobbas në Tokë",
-      "titlePicture": "/learning-material/story-1/story-alb/Story 1_title_AL.jpeg",
+      "titlePicture": "/learning-material/story-1/story-alb/Story 1_title_AL.jpg",
       "fullAudio": "/learning-material/story-1/story-alb/Bobba_AL_Story 1.mp3",
       "fullText": "/learning-material/story-1/story-alb/Story 1_AL.pdf",
       "pages": {
         "0": {
           "text": "Udhëtimi i parë i Bobbas në Tokë",
-          "imageUrl": "/learning-material/story-1/story-alb/Story 1_title_AL.jpeg",
+          "imageUrl": "/learning-material/story-1/story-alb/Story 1_title_AL.jpg",
           "audioUrl": "/learning-material/story-1/story-alb/Bobba_AL_Story 1 Intro.mp3"
         },
         "1": {
@@ -535,13 +535,13 @@
     }],
     "ld": [{
       "title": "L prim viac de Bobba sun la Tiera",
-      "titlePicture": "/learning-material/story-1/story-ladin/Story 1_title_LA.jpeg",
+      "titlePicture": "/learning-material/story-1/story-ladin/Story 1_title_LA.jpg",
       "fullAudio": "/learning-material/story-1/story-ladin/Bobba__LADIN_Story 1-MP3.mp3",
-      "fullText": "/learning-material/story-1/story-ladin/Story 1_L.pdf",
+      "fullText": "/learning-material/story-1/story-ladin/Story 1_LAD.pdf",
       "pages": {
         "0": {
           "text": "L prim viac de Bobba sun la Tiera",
-          "imageUrl": "/learning-material/story-1/story-ladin/Story 1_title_LA.jpeg",
+          "imageUrl": "/learning-material/story-1/story-ladin/Story 1_title_LA.jpg",
           "audioUrl": "/learning-material/story-1/story-ladin/Bobba_LADIN_Story 1 Intro-MP3.mp3"
         },
         "1": {
@@ -588,13 +588,13 @@
     }],
     "tur": [{
       "title": "Bobba’nın Dünya Yolculuğu",
-      "titlePicture": "/learning-material/story-1/story-tur/Story 1_title_TU.jpeg",
+      "titlePicture": "/learning-material/story-1/story-tur/Story 1_title_TU.jpg",
       "fullAudio": "/learning-material/story-1/story-tur/Stories_Turkish_8.m4a",
       "fullText": "/learning-material/story-1/story-tur/Story1_TUR.pdf",
       "pages": {
         "0": {
           "text": "Bobba’nın Dünya Yolculuğu",
-          "imageUrl": "/learning-material/story-1/story-tur/Story 1_title_TU.jpeg",
+          "imageUrl": "/learning-material/story-1/story-tur/Story 1_title_TU.jpg",
           "audioUrl": "/learning-material/story-1/story-tur/Story_8_TR_00_Titel.mp3"
         },
         "1": {
@@ -641,13 +641,13 @@
     }],
     "pl": [{
       "title": "Pierwsza wizyta Bobby na Ziemi",
-      "titlePicture": "/learning-material/story-1/story-pl/Story 1_title_PL.jpeg",
+      "titlePicture": "/learning-material/story-1/story-pl/Story 1_title_PL.jpg",
       "fullAudio": "/learning-material/story-1/story-pl/Story 1_PL.m4a", 
       "fullText": "/learning-material/story-1/story-pl/Story1_PL.pdf",
       "pages": {
         "0": {
           "text": "Pierwsza wizyta Bobby na Ziemi",
-          "imageUrl": "/learning-material/story-1/story-pl/Story 1_title_PL.jpeg",
+          "imageUrl": "/learning-material/story-1/story-pl/Story 1_title_PL.jpg",
           "audioUrl": "/learning-material/story-1/story-pl/Story 1_Title_PL - Kopie.mp3"
         },
         "1": {
@@ -694,13 +694,13 @@
     }],
     "ukr": [{
       "title": "Перша подорож Бобби на Землю",
-      "titlePicture": "/learning-material/story-1/story-ukr/Story 1_title_UK.jpeg",
+      "titlePicture": "/learning-material/story-1/story-ukr/Story 1_title_UK.jpg",
       "fullAudio": "/learning-material/story-1/story-ukr/story-1-ukrainian-full.mp3",
       "fullText": "/learning-material/story-1/story-ukr/Story1_UKR.pdf",
       "pages": {
         "0": {
           "text": "Перша подорож Бобби на Землю",
-          "imageUrl": "/learning-material/story-1/story-ukr/Story 1_title_UK.jpeg",
+          "imageUrl": "/learning-material/story-1/story-ukr/Story 1_title_UK.jpg",
           "audioUrl": "/learning-material/story-1/story-ukr/1.mp3"
         },
         "1": {
@@ -747,13 +747,13 @@
     }],
     "rg": [{
       "title": "L‘emprim viadi da Bobba sin la terra",
-      "titlePicture": "/learning-material/story-1/story-rg/Story1_Title_Rumantsch_Grischun.jpeg",
+      "titlePicture": "/learning-material/story-1/story-rg/Story1_Title_Rumantsch_Grischun.jpg",
       "fullAudio": "/learning-material/story-1/story-rg/bobba_01_RG_komplett.mp3",
       "fullText": "/learning-material/story-1/story-rg/Story 1_RG.pdf",      
       "pages": {
         "0": {
           "text": "L‘emprim viadi da Bobba sin la terra",
-          "imageUrl": "/learning-material/story-1/story-rg/Story1_Title_Rumantsch_Grischun.jpeg",
+          "imageUrl": "/learning-material/story-1/story-rg/Story1_Title_Rumantsch_Grischun.jpg",
           "audioUrl": "/learning-material/story-1/story-rg/Bobba_1_0_RG_Titel.mp3"
         },
         "1": {
@@ -801,13 +801,13 @@
     }],
     "sur": [{
       "title": "Igl emprem viadi da Bobba sin tiara",
-      "titlePicture": "/learning-material/story-1/story-sur/Story1_Title_Sursilvan.jpeg",
+      "titlePicture": "/learning-material/story-1/story-sur/Story1_Title_Sursilvan.jpg",
       "fullAudio": "/learning-material/story-1/story-sur/Story1_komplett.m4a",
       "fullText": "/learning-material/story-1/story-sur/Story 1_Sursilvan.pdf",      
       "pages": {
         "0": {
           "text": "Igl emprem viadi da Bobba sin tiara",
-          "imageUrl": "/learning-material/story-1/story-sur/Story1_Title_Sursilvan.jpeg",
+          "imageUrl": "/learning-material/story-1/story-sur/Story1_Title_Sursilvan.jpg",
           "audioUrl": "/learning-material/story-1/story-sur/Story1_0_Sursilvan_Titel.m4a"
         },
         "1": {
@@ -854,13 +854,13 @@
       }],
     "hun": [{
       "title": "Bobba először utazik a Földre",
-      "titlePicture": "/learning-material/story-1/story-hun/Story 1_title_Hungarian.jpeg",
+      "titlePicture": "/learning-material/story-1/story-hun/Story 1_title_Hungarian.jpg",
       "fullAudio": "/learning-material/story-1/story-hun/Story 1-HUNG_complete.mp3",
       "fullText": "/learning-material/story-1/story-hun/Story 1_HUNG.pdf",
       "pages": {
          "0": {
           "text": "Bobba először utazik a Földre",
-          "imageUrl": "/learning-material/story-1/story-hun/Story 1_title_Hungarian.jpeg",
+          "imageUrl": "/learning-material/story-1/story-hun/Story 1_title_Hungarian.jpg",
           "audioUrl": "/learning-material/story-1/story-hun/Story1_HUNG_Title.m4a"
         },
         "1": {
@@ -907,13 +907,13 @@
     }],
     "ru": [{
       "title": "Первое путешествие Боббы на Землю",
-      "titlePicture": "/learning-material/story-1/story-ru/Story_1_title_Ru.jpeg",
+      "titlePicture": "/learning-material/story-1/story-ru/Story_1_title_Ru.jpg",
       "fullAudio": "/learning-material/story-1/story-ru/Bobba_RU_Story 1_All.mp3",
       "fullText": "/learning-material/story-1/story-ru/Story_1_RU.pdf",
       "pages": {
         "0": {
           "text": "Первое путешествие Боббы на Землю",
-          "imageUrl": "/learning-material/story-1/story-ru/Story_1_title_Ru.jpeg",
+          "imageUrl": "/learning-material/story-1/story-ru/Story_1_title_Ru.jpg",
           "audioUrl": "/learning-material/story-1/story-ru/Bobba_RU_Story 1 Intro-MP3.mp3"
         },
         "1": {
@@ -960,13 +960,13 @@
     }],
     "zh": [{
       "title": "波巴的首次地球之旅",
-      "titlePicture": "/learning-material/story-1/story-chi/Story 1_title_CH.jpeg",
+      "titlePicture": "/learning-material/story-1/story-chi/Story 1_title_CH.jpg",
       "fullAudio": "/learning-material/story-1/story-chi/Bobba_CH_Story 1.mp3",
       "fullText": "/learning-material/story-1/story-chi/Story 1_CH.pdf",
       "pages": {
         "0": {
           "text": "波巴的首次地球之旅。",
-          "imageUrl": "/learning-material/story-1/story-chi/Story 1_title_CH.jpeg",
+          "imageUrl": "/learning-material/story-1/story-chi/Story 1_title_CH.jpg",
           "audioUrl": "/learning-material/story-1/story-chi/Bobba_CH_Story 1_Intro.mp3"
         },
         "1": {
@@ -1013,13 +1013,13 @@
     }],
     "hr": [{
       "title": "Bobba prvi put putuje na Zemlju",
-      "titlePicture": "/learning-material/story-1/story-hr/Story 1_title_HR.jpeg",
+      "titlePicture": "/learning-material/story-1/story-hr/Story 1_title_HR.jpg",
       "fullAudio": "/learning-material/story-1/story-hr/Bobba_HR_Story 1.m4a",
       "fullText": "/learning-material/story-1/story-hr/Story 1_HR.pdf",
       "pages": {
         "0": {
           "text": "Bobba prvi put putuje na Zemlju",
-          "imageUrl": "/learning-material/story-1/story-hr/Story 1_title_HR.jpeg",
+          "imageUrl": "/learning-material/story-1/story-hr/Story 1_title_HR.jpg",
           "audioUrl": "/learning-material/story-1/story-hr/Story1_HR_Title.m4a"
         },
         "1": {
@@ -1976,7 +1976,7 @@
       "title": "В детском саду",
       "titlePicture": "/learning-material/story-2/story-ru/Story 2_title_Ru.jpeg",
       "fullAudio": "/learning-material/story-2/story-ru/Bobba_RU_Story 2_All.mp3",
-      "fullText": "/learning-material/story-2/story-ru/Story_2_RU.pdf",
+      "fullText": "/learning-material/story-2/story-ru/Story 2_RU.pdf",
       "pages": {
         "0": {
           "text": "В детском саду",
@@ -2079,53 +2079,53 @@
       }
     }],
     "hr": [{
-      "title": "U vrtiću",
+      "title": "Bobba se vraća kući",
       "titlePicture": "/learning-material/story-2/story-hr/Story 2_COVER_HR.jpeg",
       "fullAudio": "/learning-material/story-2/story-hr/Story 2_HR_complete.mp3",
       "fullText": "/learning-material/story-2/story-hr/Story 2_HR.pdf",
       "pages": {
         "0": {
-          "text": "U vrtiću",
+          "text": "Bobba se vraća kući ",
           "imageUrl": "/learning-material/story-2/story-hr/Story 2_COVER_HR.jpeg",
           "audioUrl": "/learning-material/story-2/story-hr/Story2_HR_Title.m4a"
         },
         "1": {
-          "text": "Bobba ugleda predivnu, šarenu zgradu. Iz nje se čuju smijeh i pjesma. Znatiželjan je pa odluči provjeriti što se tamo događa.",
+          "text": "Bobba i njegovi prijatelji igraju se loptom u parku u kojem je sletio Bobbin svemirski brod.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_1.jpg",
           "audioUrl": "/learning-material/story-2/story-hr/Story2_HR_1.m4a"
         },
         "2": {
-          "text": "Kada otvori vrata, ugleda djecu kako trče uokolo i uzvikuju od radosti. Bobbi se to svidi pa im se želi pridružiti. Maše im: »Saluton! Saluton!«",
+          "text": "Zalazak sunca odijeva nebo u predivne boje. Bobba je oduševljen. Kako je lijepo! Odjednom se na nebu pojavi zvijezda, pa još jedna i još jedna. Bobba pokaže na jednu vrlo sjajnu zvijezdu i povika: »Vidu la stelon! Jen mia planedo!« ",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_2.jpg",
           "audioUrl": "/learning-material/story-2/story-hr/Story2_HR_2.m4a"
         },
         "3": {
-          "text": "Kada djeca ugledaju Bobbu, ukopaju se na mjestu i širom otvorenih očiju zure u njega. »Tko je to?« »Što to govori?« »Je li to naš novi odgojitelj?« Djeca se brzo sakriju.",
+          "text": "Prijatelji prestanu s igrom. Zanima ih što im to Bobba pokazuje. Približe mu se i zajedno na nebu potraže njegovu zvijezdu.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_3.jpg",
           "audioUrl": "/learning-material/story-2/story-hr/Story2_HR_3.m4a"
         },
         "4": {
-          "text": "Bobba je sada potpuno sam i zbog toga postane tužan. Jako bi se rado htio igrati. »Ludi! Ludi!«",
+          "text": "Odjednom začuju tanak, piskutav zvuk. Opet zapišće, ovaj put glasnije: »Piiiiip!«, i još glasnije: »PIP!«, »PIIIIIIP!«, »PIIIIIIIIIIIIIIIIP!!!!!« Bobba uzvikne: »Ohhhh, moj svemirski telefon!« ",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_4.jpg",
           "audioUrl": "/learning-material/story-2/story-hr/Story2_HR_4.m4a"
         },
         "5": {
-          "text": "Odjednom iz toaleta iziđe djevojčica i zbunjeno pogleda oko sebe. »A kamo su svi nestali?« Tada ugleda Bobbu.",
+          "text": "Dotrči do svog svemirskog broda i podigne slušalicu. Prijatelji ga prate. Čuju kako razgovara: »Ĉu mi venu hejmen? Ĉu mi povas reveni? Estas bone! Ĝis baldaŭ!« ",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_5.jpeg",
           "audioUrl": "/learning-material/story-2/story-hr/Story2_HR_5.m4a"
         },
         "6": {
-          "text": "Nasmiješi mu se i kaže: »Bok! Bi li se htio igrati?« Bobba joj uzvrati osmijeh. »Bone! Bone!« I počnu se igrati.",
+          "text": "Bobba odloži slušalicu i kaže djeci: »Moji roditelji kažu da sada moram ići kući. Ali mogu vas opet posjetiti!« Ben kaže: »Mislim da sada svi moramo ići kući. Mrači se.« ",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_6.jpg",
           "audioUrl": "/learning-material/story-2/story-hr/Story2_HR_6.m4a"
         },
         "7": {
-          "text": "Kada i ostala djeca vide da se Bobba i djevojčica igraju, polako, jedno za drugim, izlaze iz svojih skrovišta. I oni se žele igrati s Bobbom.",
+          "text": "Djeca zagrle Bobbu, a Olivia šapne: »Brzo nam se vrati!« Bobba se nasmiješi. »Mi revenos! Obećavam!« kaže. ",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_7.jpg",
           "audioUrl": "/learning-material/story-2/story-hr/Story2_HR_7.m4a"
         },
         "8": {
-          "text": "Djeca se naguraju oko Bobbe. »Ludi! Ludi!« viču. »Kakav krasan dan!« pomisli Bobba.",
+          "text": "Bobba uđe u svoj svemirski brod i maše. Brod uzleti i jurne u nebo. Uskoro na nebu ostane još samo jedno malo svjetlo. »Vidimo se uskoro, Bobba!« poviču djeca.",
           "imageUrl": "/learning-material/story-2/story-en/Story 2_8.jpeg",
           "audioUrl": "/learning-material/story-2/story-hr/Story2_HR_8.m4a"
         }
@@ -2402,13 +2402,13 @@
     }],
       "ld": [{
       "title": "Bobba sun la spiagia",
-      "titlePicture": "/learning-material/story-3/story-ladin/Story 3_COVER_LAD.jpeg",
+      "titlePicture": "/learning-material/story-3/story-ladin/Story 3_COVER_LD.jpg",
       "fullAudio": "/learning-material/story-3/story-ladin/Bobba_LADIN_Story 3-MP3.mp3",
-      "fullText": "/learning-material/story-3/story-ladin/Story 3_L.pdf",
+      "fullText": "/learning-material/story-3/story-ladin/Story 3_LAD.pdf",
       "pages": {
         "0": {
           "text": "Bobba sun la spiagia",
-          "imageUrl": "/learning-material/story-3/story-ladin/Story 3_COVER_LAD.jpeg",
+          "imageUrl": "/learning-material/story-3/story-ladin/Story 3_COVER_LD.jpg",
           "audioUrl": "/learning-material/story-3/story-ladin/Bobba_LADIN_Story 3 Intro-MP3.mp3"
         },
         "1": {
@@ -2563,7 +2563,7 @@
       "title": "Bobba na plaży",
       "titlePicture": "/learning-material/story-3/story-pl/Story 3_title_PL.jpeg",
       "fullAudio": "learning-material/story-3/story-pl/Story 3_PL.m4a",
-      "fullText": "learning-material/story-3/story-pl/Story_PL.pdf",
+      "fullText": "learning-material/story-3/story-pl/Story3_PL.pdf",
       "pages": {
         "0": {
           "text": "Bobba na plaży",
@@ -3679,7 +3679,7 @@
   "tur": [{
       "title": "Bir arkadaşın evinde uyumak",
       "titlePicture": "/learning-material/story-4/story-tur/Story 4_2 title_TUR.jpeg",
-      "fullText": "/learning-material/story-4/story-tur/Stories_Turkish.pdf",
+      "fullText": "/learning-material/story-4/story-tur/Story4_TUR.pdf",
       "fullAudio": "/learning-material/story-4/story-tur/Stories_Turkish_4.m4a",
       "pages": {
         "0": {
@@ -4441,7 +4441,7 @@
       "title": "Bobba à la bibliothèque",
       "titlePicture": "/learning-material/story-5/story-fr/Story_5_title_fr.jpeg",
       "fullAudio": "/learning-material/story-5/story-fr/Bobba_FR_Story 5-MP3.mp3",
-      "fullText": "/learning-material/story-5/story-fr/Story_5_full_text_fr.pdf",
+      "fullText": "/learning-material/story-5/story-fr/Story 5_F.pdf",
       "pages": {
         "0": {
           "text": "Bobba à la bibliothèque",
@@ -4494,7 +4494,7 @@
       "title": "Bobba in biblioteca",
       "titlePicture": "/learning-material/story-5/story-it/Story_5_title_it.jpeg",
       "fullAudio": "/learning-material/story-5/story-it/Story5_Italiano.mp3",
-      "fullText": "/learning-material/story-5/story-it/Story 4_Italian.pdf",
+      "fullText": "/learning-material/story-5/story-it/Story_5_full_text_it.pdf",
       "pages": {
         "0": {
           "text": "Bobba in biblioteca",
@@ -5879,14 +5879,14 @@
       }
     }],
     "pl": [{
-      "title": "Zamek Potworów",
-      "titlePicture": "/learning-material/story-6/covers/Story 6_COVER_P.jpeg",
+      "title": "Zamek Potworów.",
+      "titlePicture": "/learning-material/story-6/story-pl/Story 6_title_PL.jpeg",
       "fullAudio": "/learning-material/story-6/story-pl/Story 6_PL.m4a",
       "fullText": "/learning-material/story-6/story-pl/Story6_PL.pdf",
       "pages": {
         "0": {
-          "text": "Zamek Potworów",
-          "imageUrl": "/learning-material/story-6/covers/Story 6_COVER_P.jpeg",
+          "text": "Zamek Potworów.",
+          "imageUrl": "/learning-material/story-6/story-pl/Story 6_title_PL.jpeg",
           "audioUrl": "/learning-material/story-6/story-pl/Story 6_PL_title.mp3"
         },
         "1": {
@@ -6256,7 +6256,7 @@
       "pages": {
         "0": {
           "text": "Замок у чудовищ",
-          "imageUrl":  "/learning-material/story-6/story-ru/Story 6_title_Ru.jpg",
+          "imageUrl":  "/learning-material/story-6/story-ru/Story 6_title_Ru.jpeg",
           "audioUrl": "/learning-material/story-6/story-ru/Bobba_RU_Story 6_Intro.mp3"
         },
         "1": {
@@ -6352,6 +6352,60 @@
           "text": " 派对太好玩儿了！这时，波巴想到了村里的小朋友们。“你们为什么不邀请孩子们来\n玩呢？”他问小怪兽们。那只紫色的大怪兽吓得牙齿直打颤，差点把蛋糕掉在地上。\n“哦不！我们害怕小孩子！”“什么？你们害怕小孩儿？”波巴很惊讶。“其实他们一点\n也不可怕！我建议你们请他们参加下次怪兽派对，你们会发现，他们真的很友好。”\n小怪兽们有些犹豫，但还是同意了。于是大家一起写了一封派对邀请信。",
           "imageUrl": "/learning-material/story-6/images/Story_6_8.jpeg",
           "audioUrl": "/learning-material/story-6/story-chi/Bobba_CH_Story 6_8.mp3"
+        }
+      }
+   }],
+    "hr": [{
+      "title": "Čudovišta u dvorcu",
+      "titlePicture": "/learning-material/story-6/story-hr/Story 6_COVER_HR.jpeg",
+      "fullAudio": "/learning-material/story-6/story-hr/Story 6_HR_complete.mp3",
+      "fullText": "/learning-material/story-6/story-hr/Story 6_HR.pdf",
+      "pages": {
+        "0": {
+          "text": "Čudovišta u dvorcu",
+          "imageUrl": "/learning-material/story-6/story-hr/Story 6_COVER_HR.jpeg",
+          "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_Title.m4a"
+        },
+        "1": {
+          "text": "Danas bi Bobba želio doživjeti nešto zanimljivo, i to potpuno sam. Sine mu ideja.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_1.jpeg",
+          "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_1.m4a"
+        },
+        "2": {
+          "text": "»Veliki crni dvorac na gori izgleda baš privlačno!« ",
+          "imageUrl": "/learning-material/story-6/images/Story_6_2.jpeg",
+          "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_2.m4a"
+        },
+        "3": {
+          "text": "Bobba krene na put. Poskakuje i trči prema velikom, tamnom dvorcu. Odjednom nešto začuje. Što je to? Glazba! Zvuči kao harmonika. ",
+          "imageUrl": "/learning-material/story-6/images/Story_6_3.jpeg",
+          "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_3.m4a"
+        },
+        "4": {
+          "text": "Sada Bobba stoji ispred velikih vrata. Pokuca i vrata se otvore. Iza njih je tamni hodnik. Bobbi se stisne oko srca. Dlanovi mu se znoje. Dlake na glavi su mu se naježile, a zubi mu cvokoću. Opet nešto začuje! Opet glazba. ",
+          "imageUrl": "/learning-material/story-6/images/Story_6_4.jpeg",
+          "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_4.m4a"
+        },
+        "5": {
+          "text": "Harmonika zvuči stvarno lijepo. »Ne može biti tako loše u ovom tamnom dvorcu!« pomisli Bobba i uđe. Ugleda natpis:  ",
+          "imageUrl": "/learning-material/story-6/images/Story_6_5.jpeg",
+          "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_5.m4a"
+        },
+        "6": {
+          "text": "Na kraju tamnog hodnika Bobba ugleda svjetlost. Glazba postaje sve glasnija. Uđe u ogromnu dvoranu. Posvuda su šareni baloni, a na stolu su velika torta i limunada. Je li to zabava? Čudovišta plešu, pjevaju i jedu tortu. ",
+          "imageUrl": "/learning-material/story-6/images/Story_6_6.jpeg",
+          "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_6.m4a"
+        },
+        "7": {
+          "text": "Malo žuto čudovište priđe Bobbi. »Tu veux danser, mon ami?« upita i ponudi mu ruku. ",
+          "imageUrl": "/learning-material/story-6/images/Story_6_7.jpeg",
+          "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_7.m4a"
+        }
+        ,
+        "8": {
+          "text": "Jako je zabavno! »A zašto ne pozovete djecu?« upita Bobba. Velikom ljubičastom čudovištu od straha zacvokoću zubi i torta mu zamalo ispadne iz ruku. »O neeee! Djeca su strašna!« »Što? Vi se bojite djece?« začudi se Bobba. »Ali ona uopće nisu strašna! Predlažem da ih pozovemo u dvorac na zabavu. Vidjet ćete, sasvim su draga.« Čudovišta nisu potpuno uvjerena, ali ipak pristanu i zajedno napišu pozivnicu za zabavu.",
+          "imageUrl": "/learning-material/story-6/images/Story_6_8.jpeg",
+          "audioUrl": "/learning-material/story-6/story-hr/Story6_HR_8.m4a"
         }
       }
    }]
@@ -6573,13 +6627,13 @@
     }],
     "it": [{
       "title": "La festa di compleanno di Olivia",
-      "titlePicture": "/learning-material/story-7/covers/Story 7_title_I.jpeg",
+      "titlePicture": "/learning-material/story-7/covers/Story 7_title_IT.jpeg",
       "fullAudio": "/learning-material/story-7/story-it/Story 7_Italiano_komplett.mp3",
       "fullText": "/learning-material/story-7/story-it/Story 7_IT.pdf",
       "pages": {
         "0": {
           "text": "La festa di compleanno di Olivia",
-          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_I.jpeg",
+          "imageUrl":  "/learning-material/story-7/covers/Story 7_title_IT.jpeg",
           "audioUrl": "/learning-material/story-7/story-it/Story_7_title.mp3"
         },
         "1": {
@@ -7366,6 +7420,60 @@
           "audioUrl": "/learning-material/story-7/story-chi/Bobba_CH_Story 7_8.mp3"
         }
       }
+   }],
+    "hr": [{
+      "title": "Olivia slavi rođendan ",
+      "titlePicture": "/learning-material/story-7/story-hr/Story 7_title_HR.jpeg",
+      "fullAudio": "/learning-material/story-7/story-hr/Story 7_HR_complete.mp3",
+      "fullText": "/learning-material/story-7/story-hr/Story 7_HR.pdf",
+      "pages": {
+        "0": {
+          "text": "Olivia slavi rođendan ",
+          "imageUrl": "/learning-material/story-7/story-hr/Story 7_title_HR.jpeg",
+          "audioUrl": "/learning-material/story-7/story-hr/Story7_HR_Title.m4a"
+        },
+        "1": {
+          "text": "Danas je poseban dan. Bobba je pozvan na Olivijinu rođendansku zabavu. Ispred kuće je puno balona u obliku broja 5",
+          "imageUrl": "/learning-material/story-7/images/Story 7_1.jpg",
+          "audioUrl": "/learning-material/story-7/story-hr/Story7_HR_1.m4a"
+        },
+        "2": {
+          "text": "Bobba vidi mnogo djece koju već poznaje, ali i mnogo visokih ljudi. Pita se tko su oni. ",
+          "imageUrl": "/learning-material/story-7/images/Story 7_2.jpg",
+          "audioUrl": "/learning-material/story-7/story-hr/Story7_HR_2.m4a"
+        },
+        "3": {
+          "text": " Djeca se igraju glazbenih stolica. Zatim se u dvorištu igraju skrivača. Jako se dobro zabavljaju. ",
+          "imageUrl": "/learning-material/story-7/images/Story 7_3.jpg",
+          "audioUrl": "/learning-material/story-7/story-hr/Story7_HR_3.m4a"
+        },
+        "4": {
+          "text": "»La naskiĝtaga kuko!« povika Olivijin otac. Nosi ogromnu tortu koja izgleda kao dvorac s pet gorućih kula. ",
+          "imageUrl": "/learning-material/story-7/images/Story 7_4.jpg",
+          "audioUrl": "/learning-material/story-7/story-hr/Story7_HR_4.m4a"
+        },
+        "5": {
+          "text": "»Ni kantu!« kaže baka na esperantu kako bi je i Bobba razumio. Zapjevaju »Sretan rođendan« na tri jezika. Bobba zna pjesmu na engleskom i pokušava pjevati s ostalima. ",
+          "imageUrl": "/learning-material/story-7/images/Story 7_5.jpg",
+          "audioUrl": "/learning-material/story-7/story-hr/Story7_HR_5.m4a"
+        },
+        "6": {
+          "text": "»Bobba, ugasi svjećice!« predloži Olivia. Bobba posegne prema gorućim kulama kako bi svjećice ugasio rukom. »Stani!« zaustavi ga Ben i pokaže mu kako da puhne u njih. ",
+          "imageUrl": "/learning-material/story-7/images/Story 7_6.jpg",
+          "audioUrl": "/learning-material/story-7/story-hr/Story7_HR_6.m4a"
+        },
+        "7": {
+          "text": "Torta je izvrsna. Bobba pojede pet komada. »Vrlo dobro!« kaže. »Hoće li Bobbu sada boljeti trbuh?« upita Olivia. ",
+          "imageUrl": "/learning-material/story-7/images/Story 7_7.jpg",
+          "audioUrl": "/learning-material/story-7/story-hr/Story7_HR_7.m4a"
+        }
+        ,
+        "8": {
+          "text": "»Baš me zanima kakve sam darove dobila. Otvorimo kutije!« Olivia je oduševljena. »Upravo to sam željela!« uzvikuje dok otvara darove jedan za drugim. Djeca se još malo poigraju, a zatim odlaze kući.",
+          "imageUrl": "/learning-material/story-7/images/Story 7_8.jpg",
+          "audioUrl": "/learning-material/story-7/story-hr/Story7_HR_8.m4a"
+        }
+      }
    }]
   },
   {
@@ -7373,13 +7481,13 @@
     "slug": "story-8",
     "en": [{
       "title": "Going home",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_E.jpeg",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_E.jpg",
       "fullAudio": "/learning-material/story-8/story-en/Story 8_Full_E.m4a",
       "fullText": "/learning-material/story-8/story-en/Story8_EN.pdf",
       "pages": {
         "0": {
           "text": "Going home",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_E.jpeg",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_E.jpg",
           "audioUrl": "/learning-material/story-8/story-en/Story 8_title E.m4a"
         },
         "1": {
@@ -7426,13 +7534,13 @@
     }],
     "de": [{
       "title": "Bobba fliegt wieder nach Hause",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_G.jpeg",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_G.jpg",
       "fullAudio": "/learning-material/story-8/story-de short/Bobba_DE_Story 8 gesamt.mp3",
       "fullText": "/learning-material/story-8/story-de short/Story8_DE_S.pdf",
       "pages": {
         "0": {
           "text": "Bobba fliegt wieder nach Hause",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_G.jpeg",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_G.jpg",
           "audioUrl": "/learning-material/story-8/story-de short/Bobba_DE_Story 8 Titel.mp3"
         },
         "1": {
@@ -7532,13 +7640,13 @@
     }],
     "alb": [{
       "title": "Kthimi në shtëpi",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_ALB.jpeg",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_ALB.jpg",
       "fullAudio": "/learning-material/story-8/story-alb/Bobba_AL_Story 8.mp3",
       "fullText": "/learning-material/story-8/story-alb/Story8_AL.pdf",
       "pages": {
         "0": {
           "text": "Kthimi në shtëpi",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_ALB.jpeg",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_ALB.jpg",
           "audioUrl": "/learning-material/story-8/story-alb/Bobba_AL_Story 8 Intro.mp3"
         },
         "1": {
@@ -7585,13 +7693,13 @@
     }],
     "fr": [{
       "title": "Retour à la maison",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_F.jpeg",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_F.jpg",
       "fullAudio": "/learning-material/story-8/story-fr/Bobba_FR_Story 8-MP3.mp3",
       "fullText": "/learning-material/story-8/story-fr/Story8_F.pdf",
       "pages": {
         "0": {
           "text": "Retour à la maison",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_F.jpeg",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_F.jpg",
           "audioUrl": "/learning-material/story-8/story-fr/Bobba_FR_Story 8 Intro-MP3.mp3"
         },
         "1": {
@@ -7638,13 +7746,13 @@
     }],
     "it": [{
       "title": "Bobba torna a casa",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_ITA.jpeg",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_ITA.jpg",
       "fullAudio": "/learning-material/story-8/story-it/Story 8_Italiano_Komplett.mp3",
       "fullText": "/learning-material/story-8/story-it/Story8_IT.pdf",
       "pages": {
         "0": {
           "text": "Bobba torna a casa",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_ITA.jpeg",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_ITA.jpg",
           "audioUrl": "/learning-material/story-8/story-it/Story 8_Title.mp3"
         },
         "1": {
@@ -7691,13 +7799,13 @@
     }],
     "lux": [{
       "title": "Zeréck heem",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_LUX.jpeg",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_LUX.jpg",
       "fullAudio": "/learning-material/story-8/story-lux/Bobba_LU_Story 8.mp3",
       "fullText": "/learning-material/story-8/story-lux/Story8_LUX.pdf",
       "pages": {
         "0": {
           "text": "Zeréck heem",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_LUX.jpeg",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_LUX.jpg",
           "audioUrl": "/learning-material/story-8/story-lux/Bobba_LU_Story 8 Intro.mp3"
         },
         "1": {
@@ -7744,13 +7852,13 @@
     }],
      "gr": [{
       "title": "Επιστροφή στο σπίτι",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_GRE.jpeg",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_GRE.jpg",
       "fullAudio": "/learning-material/story-8/story-gr/story-8-greek-full.mp3",
       "fullText": "/learning-material/story-8/story-gr/Story8_GR.pdf",
       "pages": {
         "0": {
           "text": "Επιστροφή στο σπίτι",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_GRE.jpeg",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_GRE.jpg",
           "audioUrl": "/learning-material/story-8/story-gr/story-8-greek-title.mp3"
         },
         "1": {
@@ -7797,13 +7905,13 @@
     }],
     "sv": [{
       "title": "Bobba gre domov",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_SVN.jpeg",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_SVN.jpg",
       "fullAudio": "/learning-material/story-8/story-slo/Story 8_SLO_complete.m4a",
       "fullText": "/learning-material/story-8/story-slo/Story8_SLO.pdf",
       "pages": {
         "0": {
           "text": "Bobba gre domov",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_SVN.jpeg",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_SVN.jpg",
           "audioUrl": "/learning-material/story-8/story-slo/Story 8_SLO_title.m4a"
         },
         "1": {
@@ -7850,13 +7958,13 @@
     }],
     "hun": [{
           "title": "Bobba hazamegy",
-          "titlePicture": "/learning-material/story-8/story-hun/Story 8_title_HUNG.jpeg",
+          "titlePicture": "/learning-material/story-8/story-hun/Story 8_title_HUNG.jpg",
           "fullAudio": "/learning-material/story-8/story-hun/Story 8_HUNG_complete.m4a",
           "fullText": "/learning-material/story-8/story-hun/Story 8_HUNG.pdf",
           "pages": {
             "0": {
               "text": "Bobba hazamegy",
-              "imageUrl": "/learning-material/story-8/story-hun/Story 8_title_HUNG.jpeg",
+              "imageUrl": "/learning-material/story-8/story-hun/Story 8_title_HUNG.jpg",
               "audioUrl": "/learning-material/story-8/story-hun/Story 8_HUNG_Title .m4a"
             },
             "1": {
@@ -7903,13 +8011,13 @@
         }],
     "ukr": [{
       "title": "Додому",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_UKR.jpeg",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_UKR.jpg",
       "fullAudio": "/learning-material/story-8/story-ukr/story-8-ukrainian-full.mp3",
       "fullText": "/learning-material/story-8/story-ukr/Story8_UKR.pdf",
       "pages": {
         "0": {
           "text": "Додому",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_UKR.jpeg",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_UKR.jpg",
           "audioUrl": "/learning-material/story-8/story-ukr/8.mp3"
         },
         "1": {
@@ -7955,67 +8063,67 @@
       }
     }],
     "pl": [{
-      "title": "Urodziny Olivii",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_PL.jpeg",
+      "title": "Bobba wraca do domu",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_PL.jpg",
       "fullAudio": "/learning-material/story-8/story-pl/Story 8_PL.m4a",
-      "fullText": "/learning-material/story-8/story-pl/Story7_Pl.pdf",
+      "fullText": "/learning-material/story-8/story-pl/Story8_Pl.pdf",
       "pages": {
         "0": {
-          "text": "Urodziny Olivii",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_PL.jpeg",
+          "text": "Bobba wraca do domu",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_PL.jpg",
           "audioUrl": "/learning-material/story-8/covers/Story_8_PL_00_Titel.mp3"
         },
         "1": {
-          "text": "To wyjątkowy dzień. Bobba zostaje zaproszony na przyjęcie urodzinowe Olivii. Przed domem znajduje się wiele dorosłych z dużą cyfrą 5.",
-          "imageUrl": "/learning-material/story-8/images/Story 8_1.jpg",
+          "text": " Bobba i jego przyjaciele bawią się piłką w parku, w którym wylądował statek kosmiczny Bobby.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
           "audioUrl": "/learning-material/story-8/covers/Story_8_PL_01.mp3"
         },
         "2": {
-          "text": "Bobba dostrzega wiele dzieci, które zna, ale także wiele wysokich osób. Zastanawia się, kim oni są.",
-          "imageUrl": "/learning-material/story-8/images/Story 8_2.jpg",
+          "text": "Słońce zachodzi, a niebo mieni się różnymi kolorami. Bobba jest pod wrażeniem. \nJakie to piękne! Nagle pojawia się gwiazda, potem kolejna i jeszcze jedna. Bobba wskazuje na bardzo jasną gwiazdę i krzyczy: \"Vidu la stelan!!! Jen mia planedo!!!\"",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
           "audioUrl": "/learning-material/story-8/covers/Story_8_PL_02.mp3"
         },
         "3": {
-          "text": "Dzieci grają w muzyczną grę w krzesła. Następnie bawią się w chowanego w ogrodzie. Świetnie się bawią.",
-          "imageUrl": "/learning-material/story-8/images/Story 8_3.jpeg",
+          "text": "Jego przyjaciele przestają się bawić, ponieważ wszyscy chcą to zobaczyć. Stają blisko Bobby, aby znaleźć jego gwiazdę.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
           "audioUrl": "/learning-material/story-8/covers/Story_8_PL_03.mp3"
         },
         "4": {
-          "text": "„La naskiĝtaga kuko!”, woła tata. Niesie ogromny tort, który wygląda jak zamek z pięcioma płonącymi wieżami.",
-          "imageUrl": "/learning-material/story-8/images/Story 8_4.jpeg",
+          "text": "Nagle słyszą ciche pikanie. Słyszą je ponownie, tym razem głośniej „Beep” i jeszcze głośniej „BEEP!”. „BEEEEEEEEP!” „BEEEEEEEEEEEEEEP!!!!!!” Bobba krzyczy:  „Ohhhh, to mój telefon na statku kosmicznym!”. ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
           "audioUrl": "/learning-material/story-8/covers/Story_8_PL_04.mp3"
         },
         "5": {
-          "text": "„Ni kantu”, mówi babcia w esperanto, żeby Bobba zrozumiał. Śpiewają „Sto lat” w 3 językach. Bobba zna piosenkę po angielsku i próbuje ją zaśpiewać.",
-          "imageUrl": "/learning-material/story-8/images/Story 8_5.jpg",
+          "text": "Biegnie do swojego statku kosmicznego i odbiera telefon. Jego przyjaciele podążają za nim. Słyszą, jak mówi: \"Ĉu mi venu hejmen ? Ĉu mi povas reveni? Esta bona! Jest dobrze!\" ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
           "audioUrl": "/learning-material/story-8/covers/Story_8_PL_05.mp3"
         },
         "6": {
-          "text": "„Bobba, zdmuchnij świeczki”, sugeruje Olivia. Bobba dmuchając prawie dotyka wież na zamku. „Przestań”, mówi Ben i pokazuje mu, jak je prawidłowo zdmuchnąć.",
-          "imageUrl": "/learning-material/story-8/images/Story 8_6.jpg",
+          "text": "Odkłada słuchawkę i mówi: \"Moja rodzina mówi, że muszę już wracać do domu. Ale mogę przyjechać ponownie!!!\" Ben mówi: \"Myślę, że wszyscy musimy już wracać do domu. Robi się ciemno\". ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
           "audioUrl": "/learning-material/story-8/covers/Story_8_PL_06.mp3"
         },
         "7": {
-          "text": "Ciasto jest pyszne. Bobba zjada pięć kawałków. „Bardzo dobre”, mówi. „Czy Bobbę będzie teraz bolał brzuch?”, pyta Olivia.",
-          "imageUrl": "/learning-material/story-8/images/Story 8_7.jpg",
+          "text": "Dzieci mocno przytulają Bobbę, a Olivia mówi: \"Wracaj szybko!\", a Bobba uśmiecha się. \"Mi revenos! Obiecuję!\", mówi. ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
           "audioUrl": "/learning-material/story-8/covers/Story_8_PL_07.mp3"
         },
         "8": {
-          "text": "\"Ciekawe, jakie prezenty przyniosłeś? Otwórzmy je\". Olivia jest zachwycona. „Zawsze to chciałam dostać!” krzyczy, otwierając prezent za prezentem. Dzieci bawią się jeszcze trochę, zanim wrócą do domu.",
-          "imageUrl": "/learning-material/story-8/images/Story 8_8.jpg",
+          "text": "Bobba wsiada do swojego statku kosmicznego i macha. Odlatuje i szybuje w przestworzach, aż zostaje tylko odrobina światła - światło jego planety. „Do zobaczenia wkrótce, Bobba!”, wszyscy krzyczą i uśmiechają się.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpeg",
           "audioUrl": "/learning-material/story-8/covers/Story_8_PL_08.mp3"
         }
       }
     }],
     "por": [{
       "title": "Regresso a casa",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_POR.jpeg",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_POR.jpg",
       "fullAudio": "/learning-material/story-8/story-por/8_complete version.m4a",
       "fullText": "/learning-material/story-8/story-por/Story8_POR.pdf",
       "pages": {
         "0": {
           "text": "Regresso a casa",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_POR.jpeg",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_POR.jpg",
           "audioUrl": "/learning-material/story-8/story-por/8_title.m4a"
         },
         "1": {
@@ -8062,13 +8170,13 @@
     }],
     "ld": [{
       "title": "Zeréck heem",
-      "titlePicture": "/learning-material/story-8/covers/Story 8_title_LAD.jpeg",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_LAD.jpg",
       "fullAudio": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8-MP3.mp3",
-      "fullText": "/learning-material/story-8/story-ladin/Story8_L.pdf",
+      "fullText": "/learning-material/story-8/story-ladin/Story8_LAD.pdf",
       "pages": {
         "0": {
           "text": "Zeréck heem",
-          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_LAD.jpeg",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_LAD.jpg",
           "audioUrl": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8 Intro-MP3.mp3"
         },
         "1": {
@@ -8110,6 +8218,59 @@
           "text": "Hie klëmmt a säi Raumschëff a wénkt de Kanner. D’Raumschëff start a flitzt den Himmel erop bis op eemol just nach e klengt Liicht ze gesinn ass. Et ass d’Luucht vu sengem Planéit. „Bis geschwënn, Bobba!“, jäizen si all mateneen an denke mat vill Freed un hien a laachen.",
           "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpeg",
           "audioUrl": "/learning-material/story-8/story-ladin/Bobba_LADIN_Story 8_8-MP3.mp3"
+        }
+      }
+    }],
+    "tur": [{
+      "title": "Bobba eve dönüyor",
+      "titlePicture": "/learning-material/story-8/covers/Story 8_title_TUR.jpg",
+      "fullAudio": "/learning-material/story-8/story-tur/Stories_Turkish_8.m4a",
+      "fullText": "/learning-material/story-8/story-tur/Story8_TUR.pdf",
+      "pages": {
+        "0": {
+          "text": "Bobba eve dönüyor",
+          "imageUrl":  "/learning-material/story-8/covers/Story 8_title_TUR.jpg",
+          "audioUrl": "/learning-material/story-8/story-tur/Story_8_TR_00_Titel.mp3"
+        },
+        "1": {
+          "text": "Bir zamanlar, uzak diyarlardan gelen neşeli uzaylı Bobba, gezegeninden getirdiği parlak gemisiyle bir parka iniş yapmıştı. O gün Bobba ve arkadaşları, iniş yaptığı o yemyeşil parkta top oynayarak doyasıya eğleniyorlardı.",
+          "imageUrl": "/learning-material/story-8/images/Story 8_1.jpg",
+          "audioUrl": "/learning-material/story-8/story-tur/Story_8_TR_01.mp3"
+        },
+        "2": {
+          "text": "Güneş ufukta alçalırken gökyüzü turuncunun, pembenin ve mora çalan bin bir renge büründü. Bobba bu muhteşem manzaraya hayran aldı: “Nasıl da güzel!” der gibi gözü gökyüzünde dolanıyordu. Derken bir yıldız süzüldü, peşinden bir diğeri; en parlak olanı işaret ederek oşkuyla bağırdı: “Vidu la stelan!! Jen mia planedo!!”",
+          "imageUrl": "/learning-material/story-8/images/Story 8_2.jpg",
+          "audioUrl": "/learning-material/story-8/story-tur/Story_8_TR_02.mp3"
+        },
+        "3": {
+          "text": "Arkadaşları topu bıraktılar ve Bobba’nın etrafında toplandılar. Hep birlikte gökyüzüne baktılar; gerçekten de Bobba’nın ezegeninin ışığı, gökte minik bir yıldız gibi parıldıyordu. ",
+          "imageUrl": "/learning-material/story-8/images/Story 8_3.jpg",
+          "audioUrl": "/learning-material/story-8/story-tur/Story_8_TR_03.mp3"
+        },
+        "4": {
+          "text":"Tam o sırada, uzaklardan uzay gemisinin koca telefonundan gelen bir bip sesi duyuldu. İlk başta hafif bir “bip”ti, sonra “BİP!”, sonra “BEEEEEEP!”, en sonunda da koca BEEEEEEEEEEEEEEP!!!!!!” gürültüsüyle parkı inletmeye başladı. Bobba irkildi ve birden haykırdı:  “Ohhhh, uzay gemimin telefonu!” ",
+          "imageUrl": "/learning-material/story-8/images/Story 8_4.jpg",
+          "audioUrl": "/learning-material/story-8/story-tur/Story_8_TR_04.mp3"
+        },
+        "5": {
+          "text": "Heyecanla arkadaşlarının elini bırakıp gemisine doğru koştu. Onlar da peşinden koşturdu. Bobba, geminin kapısını hızla açtı ve telefonun tuşuna bastı. Hep birlikte duydular: “Ĉu mi venu hejmen? Ĉu mi povas reveni? Esta bona! Ĝis baldaŭ!”",
+          "imageUrl": "/learning-material/story-8/images/Story 8_5.jpg",
+          "audioUrl": "/learning-material/story-8/story-tur/Story_8_TR_05.mp3"
+        },
+        "6": {
+          "text": "Bobba gülümseyerek telefonu kapadı ve: “Ailem beni eve çağırıyor, şimdi veda etmeliyim. Ama merak etmeyin, tekrar geleceğim!” dedi. ",
+          "imageUrl": "/learning-material/story-8/images/Story 8_6.jpg",
+          "audioUrl": "/learning-material/story-8/story-tur/Story_8_TR_06.mp3"
+        },
+        "7": {
+          "text": "Çocuklar Bobba’yı sımsıkı kucakladılar. Olivia usulca kulağına eğilip fısıldadı: “Yakında geri gel!” Bobba, sevgi dolu bakışlarla onlara veda ederken neşeyle cevap verdi: “Mi revenos! Söz veriyorum!”",
+          "imageUrl": "/learning-material/story-8/images/Story 8_7.jpg",
+          "audioUrl": "/learning-material/story-8/story-tur/Story_8_TR_07.mp3"
+        },
+        "8": {
+          "text": "Ve işte o an, ışıltılı uzay gemisine binen Bobba, genç dostlarına el salladı. Geminin motorları çalıştı; yavaşça havalandı, gökyüzünde süzüldü, taş kalplerin sevinç çığlıkları arasında ufukta minik bir ışık haline geldi. Bobba’nın gezegeninden yayılan o parlak yıldız, gecenin karanlığında umut ve özlemle titredi.",
+          "imageUrl": "/learning-material/story-8/images/Story 8_8.jpg",
+          "audioUrl": "/learning-material/story-8/story-tur/Story_8_TR_08.mp3"
         }
       }
     }],
@@ -8322,6 +8483,60 @@
           "text": "波巴登上了他的飞船，向大家挥了挥手。飞船腾空而起，翱翔天际，知道只剩下一丝\n微弱的光芒——那是他星球的光芒。“很快再见，波巴！”大家齐声欢呼，脸上洋溢着\n笑容。",
           "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpeg",
           "audioUrl": "/learning-material/story-8/story-chi/Bobba_CH_Story 8_8.mp3"
+        }
+      }
+   }],
+    "hr": [{
+      "title": "Bobba se vraća kući",
+      "titlePicture": "/learning-material/story-8/story-hr/Story 8_title_HR.jpeg",
+      "fullAudio": "/learning-material/story-8/story-hr/Story 8_HR_complete.mp3",
+      "fullText": "/learning-material/story-8/story-hr/Story 8_HR.pdf",
+      "pages": {
+        "0": {
+          "text": "Bobba se vraća kući ",
+          "imageUrl": "/learning-material/story-8/story-hr/Story 8_title_HR.jpeg",
+          "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_Title.m4a"
+        },
+        "1": {
+          "text": "Bobba i njegovi prijatelji igraju se loptom u parku u kojem je sletio Bobbin svemirski brod.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic1.jpg",
+          "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_1.m4a"
+        },
+        "2": {
+          "text": "Zalazak sunca odijeva nebo u predivne boje. Bobba je oduševljen. Kako je lijepo! Odjednom se na nebu pojavi zvijezda, pa još jedna i još jedna. Bobba pokaže na jednu vrlo sjajnu zvijezdu i povika: »Vidu la stelon! Jen mia planedo!« ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic2.jpg",
+          "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_2.m4a"
+        },
+        "3": {
+          "text": "Prijatelji prestanu s igrom. Zanima ih što im to Bobba pokazuje. Približe mu se i zajedno na nebu potraže njegovu zvijezdu. ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic3.jpg",
+          "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_3.m4a"
+        },
+        "4": {
+          "text": "Odjednom začuju tanak, piskutav zvuk. Opet zapišće, ovaj put glasnije: »Piiiiip!«, i jošnglasnije: »PIP!«, »PIIIIIIP!«, »PIIIIIIIIIIIIIIIIP!!!!!« Bobba uzvikne: »Ohhhh, moj svemirski telefon!« ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic4.jpg",
+          "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_4.m4a"
+        },
+        "5": {
+          "text": "Dotrči do svog svemirskog broda i podigne slušalicu. Prijatelji ga prate. Čuju kako razgovara: »Ĉu mi venu hejmen? Ĉu mi povas reveni? Estas bone! Ĝis baldaŭ!«",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic5.jpeg",
+          "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_5.m4a"
+        },
+        "6": {
+          "text": "Bobba odloži slušalicu i kaže djeci: »Moji roditelji kažu da sada moram ići kući. Ali mogu vas opet posjetiti!« Ben kaže: »Mislim da sada svi moramo ići kući. Mrači se.« ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic6.jpg",
+          "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_6.m4a"
+        },
+        "7": {
+          "text": "Djeca zagrle Bobbu, a Olivia šapne: »Brzo nam se vrati!« Bobba se nasmiješi. »Mi revenos! Obećavam!« kaže. ",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic7.jpg",
+          "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_7.m4a"
+        }
+        ,
+        "8": {
+          "text": "Bobba uđe u svoj svemirski brod i maše. Brod uzleti i jurne u nebo. Uskoro na nebu ostane još samo jedno malo svjetlo. »Vidimo se uskoro, Bobba!« poviču djeca.",
+          "imageUrl": "/learning-material/story-8/images/Story8_pic8.jpeg",
+          "audioUrl": "/learning-material/story-8/story-hr/Story8_HR_8.m4a"
         }
       }
    }]
